@@ -1,0 +1,214 @@
+@import "tailwindcss";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+@import "@fontsource/poppins/800.css";
+@import "@fontsource/poppins/400-italic.css";
+@import "@fontsource/poppins/500-italic.css";
+
+/*
+ * STRONGS brand, from the 2026–2027 media kit.
+ * Navy and white lead, royal blue supports, gold is an accent only
+ * (never a large background behind small text on white).
+ */
+@theme {
+  --color-navy: #0b1f3a;
+  --color-navy-2: #132b4d;
+  --color-navy-line: #2a4468;
+  --color-royal: #164e8a;
+  --color-gold: #c9a24a;
+  --color-gold-light: #d8b55f;
+  --color-mist: #eaf0f6;
+  --color-line: #dce4ee;
+  --color-steel: #9fb3cc;
+  --color-ink: #252b33;
+  --color-muted: #4b5563;
+  --color-pale: #c9d5e4;
+
+  --font-sans: "Poppins", Arial, ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  body {
+    background: #fff;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  a {
+    color: var(--color-royal);
+  }
+  a:hover {
+    color: var(--color-navy);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: var(--color-gold);
+    color: var(--color-navy);
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  [id] {
+    scroll-margin-top: 96px;
+  }
+  /* Grid items may shrink below their content width, so long form labels never push past a phone screen. */
+  .grid > * {
+    min-width: 0;
+  }
+}
+
+@utility container-site {
+  width: 100%;
+  max-width: 75rem;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 4vw, 3rem);
+}
+
+@utility section-pad {
+  padding-block: clamp(4rem, 8vw, 7rem);
+}
+
+@utility eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-royal);
+}
+
+@utility eyebrow-dark {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
+@utility h2 {
+  font-size: clamp(1.875rem, 3.6vw, 2.875rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+@utility lead {
+  font-size: clamp(1rem, 1.4vw, 1.125rem);
+  line-height: 1.75;
+}
+
+@utility tick {
+  display: flex;
+  gap: 0.75rem;
+  &::before {
+    content: "";
+    flex: none;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 9999px;
+    background: var(--color-gold);
+    margin-top: 0.65rem;
+  }
+}
+
+/* Buttons. Hover colours are set explicitly so link colours never override them. */
+@utility btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 3.25rem;
+  padding-inline: 1.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 150ms, color 150ms;
+}
+@utility btn-gold {
+  background: var(--color-gold);
+  color: var(--color-navy);
+  &:hover {
+    background: var(--color-gold-light);
+    color: var(--color-navy);
+  }
+}
+@utility btn-navy {
+  background: var(--color-navy);
+  color: #fff;
+  &:hover {
+    background: var(--color-royal);
+    color: #fff;
+  }
+}
+@utility btn-line {
+  border: 1.5px solid var(--color-royal);
+  color: var(--color-royal);
+  background: #fff;
+  &:hover {
+    background: var(--color-mist);
+    color: var(--color-navy);
+  }
+}
+@utility btn-line-light {
+  border: 1.5px solid var(--color-pale);
+  color: #fff;
+  &:hover {
+    background: var(--color-navy-2);
+    color: #fff;
+  }
+}
+
+/* Article body text */
+@utility prose-strongs {
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  color: var(--color-ink);
+  & p + p {
+    margin-top: 1.1rem;
+  }
+}
+
+/* Carousels: arrows show only when the row overflows and the script has run. */
+[data-carousel]:not([data-ready]) .carousel-btn,
+[data-carousel]:not([data-overflow]) .carousel-btn { display: none; }
+.carousel-track { scrollbar-width: thin; scrollbar-color: var(--color-steel) transparent; }
+.carousel-track > li { scroll-snap-align: start; flex-shrink: 0; }
+
+/* Clean branded picture for missing photos */
+.clean-slot {
+  background:
+    radial-gradient(ellipse 75% 60% at 50% 100%, rgba(216, 181, 95, 0.42), rgba(201, 162, 74, 0.1) 48%, transparent 72%),
+    repeating-conic-gradient(from 0deg at 50% 100%, rgba(216, 181, 95, 0.07) 0deg 5deg, transparent 5deg 14deg),
+    linear-gradient(180deg, #0b1f3a 0%, #164e8a 130%);
+  box-shadow: inset 0 -3px 0 #c9a24a;
+}
+.clean-slot-dark {
+  background:
+    radial-gradient(ellipse 75% 60% at 50% 100%, rgba(216, 181, 95, 0.32), transparent 70%),
+    repeating-conic-gradient(from 0deg at 50% 100%, rgba(216, 181, 95, 0.06) 0deg 5deg, transparent 5deg 14deg),
+    linear-gradient(180deg, #132b4d 0%, #1d3a63 100%);
+}
