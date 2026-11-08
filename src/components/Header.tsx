@@ -26,8 +26,8 @@ export function Header() {
           </span>
         </Link>
 
-        <nav aria-label="Main" className="hidden items-center gap-3.5 whitespace-nowrap text-[0.875rem] font-medium xl:flex 2xl:gap-6 2xl:text-[0.9375rem]">
-          {mainNav.map((item) => {
+        <nav aria-label="Main" className="hidden items-center gap-3 whitespace-nowrap text-[0.875rem] font-medium xl:flex 2xl:gap-5 2xl:text-[0.9375rem]">
+          {[{ href: "/", label: "Home" }, ...mainNav].map((item) => {
             const active = isActive(pathname, item.href);
             return (
               <Link
@@ -52,16 +52,19 @@ export function Header() {
           </Link>
 
           {/* Phone and tablet menu: works without JavaScript. */}
-          <details className="group relative xl:hidden">
+          <details key={pathname} data-menu className="group relative xl:hidden">
             <summary
-              aria-label="Open menu"
-              className="flex h-11 w-11 cursor-pointer list-none items-center justify-center rounded-[10px] border border-line text-navy"
+              aria-label="Menu"
+              className="flex h-11 cursor-pointer list-none items-center gap-2 rounded-full border border-line px-4 text-sm font-semibold text-navy group-open:border-navy group-open:bg-navy group-open:text-white"
             >
-              <Menu size={22} />
+              <span className="group-open:hidden"><Menu size={20} /></span>
+              <span aria-hidden="true" className="hidden text-lg leading-none group-open:inline">✕</span>
+              <span className="group-open:hidden">Menu</span>
+              <span className="hidden group-open:inline">Close</span>
             </summary>
             <nav
               aria-label="Main"
-              className="absolute right-0 top-[calc(100%+0.75rem)] w-[min(20rem,calc(100vw-2.5rem))] rounded-2xl border border-line bg-white p-3 shadow-xl"
+              className="absolute right-0 top-[calc(100%+0.75rem)] w-[min(21rem,calc(100vw-2.5rem))] rounded-2xl border border-line bg-white p-3 shadow-[0_18px_50px_rgba(11,31,58,0.25)]"
             >
               <ul className="flex flex-col">
                 {[{ href: "/", label: "Home" }, ...mainNav].map((item) => (
@@ -69,7 +72,7 @@ export function Header() {
                     <Link
                       href={item.href}
                       aria-current={isActive(pathname, item.href) ? "page" : undefined}
-                      className="flex min-h-12 items-center rounded-xl px-4 font-medium text-ink no-underline hover:bg-mist aria-[current=page]:text-royal"
+                      className="flex min-h-12 items-center justify-between rounded-xl px-4 font-medium text-ink no-underline hover:bg-mist aria-[current=page]:bg-mist aria-[current=page]:font-semibold aria-[current=page]:text-royal"
                     >
                       {item.label}
                     </Link>

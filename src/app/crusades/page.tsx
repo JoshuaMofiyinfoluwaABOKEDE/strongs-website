@@ -42,7 +42,7 @@ export default function CrusadesPage() {
       <section aria-labelledby="cr-title" className="bg-navy text-white">
         <div className="container-site grid items-center gap-14 py-[clamp(3.5rem,8vw,6.5rem)] lg:grid-cols-[1.2fr_1fr]">
           <div className="flex flex-col gap-6">
-            <p className="eyebrow-dark">STRONGS Crusades</p>
+            <p className="eyebrow-dark">STRONGS Crusades · Achieving heaven&apos;s goal</p>
             <h1 id="cr-title" className="text-[clamp(2.6rem,5.4vw,4.5rem)] font-extrabold leading-[1.04] tracking-[-0.03em]">
               Preaching Christ to <span className="text-gold">whole communities</span>
             </h1>

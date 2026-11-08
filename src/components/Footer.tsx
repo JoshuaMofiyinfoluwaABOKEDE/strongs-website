@@ -15,6 +15,11 @@ export function Footer() {
               Resolute. Resilient. <span className="text-gold">Relentless.</span>
             </p>
             <p>A non-denominational gospel mission raising spiritual intellectuals.</p>
+            <ul className="flex flex-col gap-1 border-t border-navy-line pt-4 text-sm italic">
+              <li>The whole gospel to the whole man.</li>
+              <li>Achieving heaven&apos;s goal.</li>
+              <li>Your spiritual welfare is our greatest concern.</li>
+            </ul>
           </div>
 
           <nav aria-label="Footer" className="flex flex-col gap-2.5">

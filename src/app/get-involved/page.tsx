@@ -113,7 +113,7 @@ export default function GetInvolvedPage() {
       <section id="contact" aria-labelledby="contact-title" className="bg-mist">
         <div className="container-site section-pad grid items-start gap-12 lg:grid-cols-[1fr_1.3fr]">
           <div className="flex flex-col gap-5">
-            <SectionHeading id="contact-title" eyebrow="Contact" title="Let's build together" intro="Tell us how God is leading you to help, and we will get back to you." />
+            <SectionHeading id="contact-title" eyebrow="Contact" title="Let's build together" intro="Tell us how God is leading you to help, and we will get back to you. Your spiritual welfare is our greatest concern." />
             <ul className="flex flex-col gap-4 pt-2">
               <li className="flex items-center gap-3.5"><span className="text-royal"><Mail size={22} /></span><a href={`mailto:${site.email}`} className="font-semibold">{site.email}</a></li>
               <li className="flex items-center gap-3.5"><span className="text-royal"><Phone size={22} /></span><a href={site.phoneHref} className="font-semibold">{site.phone}</a></li>

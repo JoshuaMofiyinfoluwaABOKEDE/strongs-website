@@ -50,25 +50,11 @@ export default function HomePage() {
 
   return (
     <>
-      {crusade && (
-        <div className="bg-gold text-sm text-navy">
-          <div className="container-site flex flex-wrap items-center justify-center gap-x-4 gap-y-1 py-2.5 text-center">
-            <span className="text-xs font-bold uppercase tracking-[0.15em]">Gospel crusade</span>
-            <span className="font-medium">
-              {crusade.title} · {crusade.dateLabel} · {crusade.place.split(",")[0]}
-            </span>
-            <Link href={crusade.href ?? "/calendar/"} className="font-bold text-navy">
-              Come, pray, serve
-            </Link>
-          </div>
-        </div>
-      )}
-
       {/* Hero */}
       <section aria-labelledby="hero-title" className="bg-navy text-white">
         <div className="container-site flex flex-col items-center gap-14 py-[clamp(3.5rem,8vw,6.5rem)] lg:flex-row">
           <div className="flex min-w-0 flex-1 flex-col gap-6">
-            <p className="eyebrow-dark">A gospel mission to this generation</p>
+            <p className="eyebrow-dark">The gospel to every creature</p>
             <h1 id="hero-title" className="text-[clamp(2.5rem,5.2vw,4.25rem)] font-bold leading-[1.08] tracking-[-0.02em]">
               Win the lost. Ground the saved. <span className="text-gold">Send out soul winners.</span>
             </h1>
@@ -117,7 +103,7 @@ export default function HomePage() {
               id="weekly-title"
               eyebrow="Every week"
               title="Trained and equipped to serve"
-              intro="Our two core meetings, where believers are grounded in the Word and made into soul winners."
+              intro="Our two core meetings, where believers are grounded in the Word and made resolute, resilient and relentless soul winners."
             />
             <TextLink href="/meetings/">About the meetings</TextLink>
           </div>
@@ -239,7 +225,7 @@ export default function HomePage() {
       <section aria-labelledby="fields-title" className="bg-white">
         <div className="container-site section-pad flex flex-col gap-11">
           <div className="flex flex-wrap items-end justify-between gap-6">
-            <SectionHeading id="fields-title" eyebrow="How the mission works" title="Fields of labour" intro="One mission, carried into every place the gospel is needed." />
+            <SectionHeading id="fields-title" eyebrow="The whole gospel to the whole man" title="Fields of labour" intro="One mission, carried into every place the gospel is needed: spirit, soul and body." />
             <TextLink href="/missions/">Our missions</TextLink>
           </div>
           <ul className="grid gap-px overflow-hidden rounded-3xl border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">

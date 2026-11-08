@@ -193,12 +193,8 @@
 }
 
 /* Carousels: arrows show only when the row overflows and the script has run. */
-[data-carousel]:not([data-ready]) .carousel-btn,
-[data-carousel]:not([data-overflow]) .carousel-btn { display: none; }
 .carousel-bar { display: none; }
-@media (max-width: 47.99rem) {
-  [data-carousel][data-ready][data-overflow] .carousel-bar { display: flex; }
-}
+[data-carousel][data-ready][data-overflow] .carousel-bar { display: flex; }
 /* A soft fade on the right edge shows there is more to scroll to */
 [data-carousel][data-overflow]:not([data-at-end]) .carousel-track {
   -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 4rem), rgba(0, 0, 0, 0.25));
@@ -243,3 +239,7 @@
     repeating-conic-gradient(from 0deg at 50% 100%, rgba(216, 181, 95, 0.06) 0deg 5deg, transparent 5deg 14deg),
     linear-gradient(180deg, #132b4d 0%, #1d3a63 100%);
 }
+
+/* Phone menu */
+[data-menu] > nav { max-height: calc(100dvh - 6rem); overflow-y: auto; overscroll-behavior: contain; }
+[data-menu] summary::-webkit-details-marker { display: none; }
