@@ -42,7 +42,6 @@ export const college = {
     { role: "Head of Mission", name: "Enoch Oluwatobiloba OLADOSU" },
     { role: "Head of Educational Mission", name: "Fulfillment FOLAHAN" },
     { role: "Principal", name: "Janet AYANDARE" },
-    { role: "Headmaster, primary school", name: "[To be appointed]" },
   ],
 };
 

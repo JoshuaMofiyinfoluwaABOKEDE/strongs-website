@@ -31,7 +31,7 @@ export default function MissionsPage() {
                 <a href={`#${m.id}`} className="flex h-full flex-col gap-2 rounded-2xl bg-navy-2 p-6 text-white no-underline hover:bg-[#1a3760] hover:text-white">
                   <span className="text-sm font-bold text-gold">{m.letter}</span>
                   <span className="text-lg font-semibold leading-snug">{m.short}</span>
-                  <span className="text-sm text-pale">{m.leader?.name ?? "Leader to be announced"}</span>
+                  <span className="text-sm text-pale">{m.leader?.name ?? "STRONGS leadership"}</span>
                 </a>
               </li>
             ))}
@@ -111,9 +111,6 @@ export default function MissionsPage() {
                     </li>
                   ))}
                 </Carousel>
-              )}
-              {m.image ? null : (
-                <PhotoSlot label={`${m.short} in action`} className="h-56" />
               )}
             </div>
           </div>

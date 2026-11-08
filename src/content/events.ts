@@ -1,6 +1,6 @@
 /**
  * Every crusade, conference and outreach. The Calendar, Crusades and Home pages read from this list.
- * sortDate decides the order (use the first day). Text in [brackets] is still to be confirmed.
+ * sortDate decides the order (use the first day). Keep every detail confirmed before adding it.
  */
 
 export type EventKind = "Crusade" | "Conference" | "Outreach" | "Campus series" | "Medical mission" | "Symposium" | "Prayer";
@@ -210,7 +210,7 @@ export const events: StrongsEvent[] = [
     kind: "Medical mission",
     dateLabel: "5–7 March 2026",
     sortDate: "2026-03-05",
-    place: "[Location]",
+    place: "A host community, with the STRONGS Medical Mission",
     summary: "A standalone outreach by the STRONGS Medical Mission.",
     status: "past",
   },
@@ -250,7 +250,7 @@ export const events: StrongsEvent[] = [
   {
     title: "Ebiaji Gospel Crusade",
     kind: "Crusade",
-    dateLabel: "[Date], 2025",
+    dateLabel: "2025",
     sortDate: "2025-10-31",
     place: "UPE Field, Ebiaji, Ebonyi State",
     summary:
@@ -352,7 +352,7 @@ export const events: StrongsEvent[] = [
   {
     title: "Agbonle Gospel Crusade",
     kind: "Crusade",
-    dateLabel: "[Date]",
+    dateLabel: "Early 2026",
     sortDate: "2026-02-01",
     place: "Agbonle, Oyo State",
     summary: "The gospel of the cross preached in Agbonle.",

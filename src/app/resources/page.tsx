@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { articles, themes } from "@/content/articles";
-import { PageHero, PhotoSlot, SectionHeading } from "@/components/ui";
+import { PageHero, SectionHeading } from "@/components/ui";
+import { books } from "@/content/books";
 import { ArticleList } from "@/components/ArticleList";
 import { site } from "@/content/site";
 import { meetings } from "@/content/meetings";
@@ -24,7 +25,7 @@ export default function ResourcesPage() {
 
       <section aria-labelledby="art-title" className="bg-white">
         <div className="container-site section-pad flex flex-col gap-8">
-          <SectionHeading id="art-title" eyebrow="Articles" title="Short, searching words" intro="Writing by STRONGS commentators to stir your walk with God." />
+          <SectionHeading id="art-title" eyebrow="Articles" title="Short, searching words" intro="Writing by STRONGS commentators and authors to stir your walk with God." />
           <ArticleList articles={articles} themes={themes} />
         </div>
       </section>
@@ -57,14 +58,42 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      <section aria-labelledby="media-title" className="bg-mist">
-        <div className="container-site section-pad flex flex-col gap-8">
-          <SectionHeading id="media-title" eyebrow="Coming soon" title="Sermons, audio and devotionals" intro="Recorded preaching from crusades and conferences, audio teaching and daily devotionals will be added here." />
-          <div className="grid gap-4 sm:grid-cols-3">
-            <PhotoSlot video label="Sermon recordings" note="Coming soon" className="h-48" />
-            <PhotoSlot video label="Audio teaching" note="Coming soon" className="h-48" />
-            <PhotoSlot label="Devotionals" note="Coming soon" className="h-48" />
-          </div>
+      <section id="books" aria-labelledby="books-title" className="bg-mist">
+        <div className="container-site section-pad flex flex-col gap-10">
+          <SectionHeading id="books-title" eyebrow="Books" title="Books from the STRONGS family" intro="Longer writing to read, keep and share." />
+          {books.map((b) => {
+            const excerpts = articles.filter((a) => a.book === b.slug);
+            return (
+              <article key={b.slug} className="grid items-start gap-10 rounded-3xl bg-white p-[clamp(1.5rem,4vw,3rem)] shadow-[0_0_0_1px_var(--color-line)] md:grid-cols-[minmax(0,15rem)_1fr]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={b.cover} alt={`Cover of ${b.title} by ${b.author}`} loading="lazy" className="mx-auto w-full max-w-[15rem] rounded-xl shadow-[0_18px_40px_rgba(11,31,58,0.25)]" />
+                <div className="flex flex-col gap-4">
+                  <p className="text-sm font-semibold text-royal">By {b.author} · Foreword by {b.foreword} · {b.pages} pages</p>
+                  <h3 className="text-[clamp(1.6rem,3vw,2.3rem)] font-bold leading-tight text-navy">{b.title}</h3>
+                  <p className="lead text-muted">{b.summary}</p>
+                  <div>
+                    <p className="eyebrow mb-2 text-xs">Chapters</p>
+                    <ol className="grid gap-1.5 sm:grid-cols-2">
+                      {b.chapters.map((c, i) => <li key={c} className="text-[0.9375rem]"><span className="font-semibold text-royal">{i + 1}.</span> {c}</li>)}
+                    </ol>
+                  </div>
+                  <div className="flex flex-wrap gap-3 pt-1">
+                    <a href={b.pdf} target="_blank" rel="noopener" className="btn btn-navy">Read the book (PDF)</a>
+                    {excerpts[0] && <Link href={`/resources/${excerpts[0].slug}/`} className="btn btn-line">Read an excerpt</Link>}
+                  </div>
+                  {excerpts.length > 0 && (
+                    <div className="border-t border-line pt-4">
+                      <p className="eyebrow mb-2 text-xs">Excerpts on this site</p>
+                      <ul className="flex flex-wrap gap-x-5 gap-y-2">
+                        {excerpts.map((e) => <li key={e.slug}><Link href={`/resources/${e.slug}/`} className="font-semibold">{e.title}</Link></li>)}
+                      </ul>
+                    </div>
+                  )}
+                  <p className="text-sm text-muted">About the author: {b.authorBio}</p>
+                </div>
+              </article>
+            );
+          })}
         </div>
       </section>
 

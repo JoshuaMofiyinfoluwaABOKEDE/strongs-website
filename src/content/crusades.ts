@@ -1,7 +1,6 @@
 /**
  * STRONGS Crusades. The vision and objectives are drafts for the leadership to confirm.
  * Each entry in crusadePages becomes its own page at /crusades/<slug>/.
- * Text in [square brackets] is still to be supplied.
  */
 
 export const crusadeArm = {
@@ -21,7 +20,7 @@ export const crusadeArm = {
     role: "Crusade Director",
     photo: "/images/people/oyerinde.webp",
     profile:
-      "Prophet Oyerinde, known to many as Prophet Bolu, directs the crusade arm of STRONGS. He prepares each town for the gospel through prayer, publicity and the training of counsellors, and he has laboured beside the founder in town and village crusades. [Add his call, years in ministry and the crusades he has led.]",
+      "Prophet Oyerinde, known to many as Prophet Bolu, directs the crusade arm of STRONGS. He prepares each town for the gospel through prayer, publicity and the training of counsellors, and he has laboured beside the founder in town and village crusades.",
     responsibilities:
       "He works with each host church and local crusade director on prayer, publicity, counsellors, music, welfare and the crusade budget, and he sees that every convert is followed up and joined to a local church.",
   },
@@ -79,13 +78,9 @@ export const crusadeArm = {
   ],
   ongoing: {
     title: "Preparing for Sepeteri",
-    text: "Prayer, mobilisation and partnerships for This Same Jesus are under way. [Add what partners can do this month.]",
+    text: "Prayer, mobilisation and partnerships for This Same Jesus are under way. Partners can pray, give towards the crusade, and serve as counsellors, ushers and medical volunteers.",
   },
-  testimonies: [
-    { text: "[A testimony shared with the person's permission.]", who: "[First name], [Crusade, year]" },
-    { text: "[A testimony shared with the person's permission.]", who: "[First name], [Crusade, year]" },
-    { text: "[A testimony shared with the person's permission.]", who: "[First name], [Crusade, year]" },
-  ],
+  testimonies: [] as { text: string; who: string }[],
   partners: [
     { title: "Host churches", text: "Co-host the crusade, send workers and welcome new believers into fellowship." },
     { title: "Partner ministries", text: "Preach, pray and labour alongside us on the field." },
@@ -118,7 +113,7 @@ export type CrusadePage = {
   localTitle?: string;
   coHost?: string;
   flyers?: { src: string; alt: string }[];
-  themeScripture: string;
+  themeScripture?: string;
   dates: string;
   /** Start and end, with time zone, for the countdown (e.g. 2026-12-09T16:00:00+01:00). */
   startsAt?: string;
@@ -126,7 +121,7 @@ export type CrusadePage = {
   venue: string;
   summary: string;
   components: { title: string; text: string }[];
-  schedule: { day: string; morning: string; afternoon: string; evening: string }[];
+  schedule: { day: string; items: string[] }[];
   ministers: { name: string; role: string; photo?: string }[];
   afterwards: string;
 };
@@ -137,7 +132,6 @@ export const crusadePages: CrusadePage[] = [
     title: "This Same Jesus",
     localTitle: "Isoji Aragbayamuyamu ti Sepeteri · Jesu Yi Kan Na",
     coHost: "CAN, Sepeteri",
-    themeScripture: "[Theme scripture for the crusade]",
     dates: "Wednesday 9 – Sunday 13 December 2026, 4pm daily",
     startsAt: "2026-12-09T16:00:00+01:00",
     endsAt: "2026-12-13T21:00:00+01:00",
@@ -156,11 +150,11 @@ export const crusadePages: CrusadePage[] = [
       { title: "Medical mission", text: "Led by the STRONGS Medical Mission" },
     ],
     schedule: [
-      { day: "Wed 9 Dec", morning: "[To be confirmed]", afternoon: "Gospel meeting, 4pm", evening: "[To be confirmed]" },
-      { day: "Thu 10 Dec", morning: "[To be confirmed]", afternoon: "Gospel meeting, 4pm", evening: "[To be confirmed]" },
-      { day: "Fri 11 Dec", morning: "[To be confirmed]", afternoon: "Gospel meeting, 4pm", evening: "[To be confirmed]" },
-      { day: "Sat 12 Dec", morning: "Ministers' and Workers' Fire Conference, 9am, Oke-Agoro Baptist Church", afternoon: "Gospel meeting, 4pm", evening: "[To be confirmed]" },
-      { day: "Sun 13 Dec", morning: "[To be confirmed]", afternoon: "Closing gospel meeting, 4pm", evening: "[To be confirmed]" },
+      { day: "Wed 9 Dec", items: ["Gospel meeting, 4pm"] },
+      { day: "Thu 10 Dec", items: ["Gospel meeting, 4pm"] },
+      { day: "Fri 11 Dec", items: ["Gospel meeting, 4pm"] },
+      { day: "Sat 12 Dec", items: ["Ministers' and Workers' Fire Conference, 9am, Oke-Agoro Baptist Church", "Gospel meeting, 4pm"] },
+      { day: "Sun 13 Dec", items: ["Closing gospel meeting, 4pm"] },
     ],
     ministers: [
       { name: "J. Mofiyinfoluwa ABOKEDE", role: "Founder and General Coordinator, STRONGS", photo: "/images/people/abokede.webp" },
@@ -171,6 +165,6 @@ export const crusadePages: CrusadePage[] = [
       { name: "Blessing AJAYI", role: "Music minister", photo: "/images/people/ajayi.webp" },
       { name: "Temiloluwa ADEYEMO", role: "Music minister", photo: "/images/people/adeyemo.webp" },
     ],
-    afterwards: "Photographs, video recordings and the crusade report will be published here after 13 December.",
+    afterwards: "Photographs, video and the crusade report will be shared on this page after the crusade, so that everyone who prayed and gave can see what God has done.",
   },
 ];

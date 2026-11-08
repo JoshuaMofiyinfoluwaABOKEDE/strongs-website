@@ -1,6 +1,5 @@
 /**
  * STRONGS Missions. Responsibilities and some bios are drafts for the leadership to confirm.
- * Text in [brackets] is still to be supplied.
  */
 
 export type Mission = {
@@ -32,7 +31,7 @@ export const missions: Mission[] = [
     leader: {
       name: "Nurse Ruth O. ODUOLA",
       role: "Mission Leader",
-      bio: "A nurse and the author of The Transitioning Phase of Man's Life, a book for young people who want to stay burning for God at every stage of life. [Add her training and years in medical mission.]",
+      bio: "A Registered Nurse and Midwife, a graduate of Ladoke Akintola University of Technology, and a teacher of God's word with a passion to see young men and women burn for Him in the prime of their age. She has spoken to hundreds of secondary-school students, preached in campus fellowships, and is the author of The Transitioning Phase of Man's Life.",
       photo: "/images/people/oduola.webp",
     },
     responsibilities: [
@@ -209,7 +208,8 @@ export const missions: Mission[] = [
     leader: {
       name: "Favour Abigail AYANDARE",
       role: "Mission Leader",
-      bio: "Leads the Children Mission and the STRONGS Children's Bible Club. [Add a short bio.]",
+      bio: "Leads the Children Mission and the STRONGS Children's Bible Club, where children gather every Saturday to learn the Word of God, sing, memorise Scripture and pray.",
+      photo: "/images/people/ayandare.webp",
     },
     image: {
       src: "/images/flyers/children-for-christ-26.webp",

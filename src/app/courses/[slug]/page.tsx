@@ -54,7 +54,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               <a href={whatsapp} target="_blank" rel="noopener" className="btn btn-gold">Register your interest</a>
               <a href={`mailto:${site.email}?subject=${encodeURIComponent(`Course: ${c.title}`)}&body=${encodeURIComponent(enrolText)}`} className="btn btn-line-light">Email us</a>
             </div>
-            <p className="text-sm text-pale">{courseFacts.status}. Register now and we'll tell you when the next class begins.</p>
+            <p className="text-sm text-pale">Classes run in groups. Register your interest and we'll tell you when the next class begins.</p>
           </div>
           <CourseCover category={c.category} big className="hidden h-72 rounded-3xl lg:block" />
         </div>

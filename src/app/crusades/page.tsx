@@ -225,7 +225,14 @@ export default function CrusadesPage() {
 
       <section id="testimonies" aria-labelledby="test-title" className="bg-navy text-white">
         <div className="container-site section-pad flex flex-col gap-8">
-          <SectionHeading dark id="test-title" eyebrow="Testimonies" title="Lives changed by the gospel" />
+          <SectionHeading
+            dark
+            id="test-title"
+            eyebrow="Testimonies"
+            title="Lives changed by the gospel"
+            intro="Has God saved, healed or delivered you at a STRONGS crusade? Your story can strengthen someone else's faith. Send it to us, and we will share it here with your permission."
+          />
+          {crusadeArm.testimonies.length > 0 && (
           <div className="grid gap-5 md:grid-cols-3">
             {crusadeArm.testimonies.map((t, i) => (
               <figure key={i} className="flex flex-col gap-3.5 rounded-2xl bg-navy-2 p-7">
@@ -234,13 +241,14 @@ export default function CrusadesPage() {
               </figure>
             ))}
           </div>
+          )}
           <a href="mailto:strongsimpact@gmail.com?subject=Crusade%20testimony" className="btn btn-line-light self-start">Share your testimony</a>
         </div>
       </section>
 
       <section id="gallery" aria-labelledby="gal-title" className="bg-white">
         <div className="container-site section-pad flex flex-col gap-7">
-          <SectionHeading id="gal-title" eyebrow="Photos and videos" title="Flyers and photos from the field" />
+          <SectionHeading id="gal-title" eyebrow="From the field" title="Flyers from our outreaches" />
           <Carousel label="Flyers and photos from the field">
             {flyers.map((e) => (
               <li key={e.title} className="w-[14rem]">
@@ -253,10 +261,6 @@ export default function CrusadesPage() {
               </li>
             ))}
           </Carousel>
-          <p className="text-sm text-muted">Photographs from the crusade ground will be added here.</p>
-          <div className="grid gap-3.5 md:grid-cols-2">
-            {[1, 2].map((n) => <PhotoSlot key={n} dark video label="Crusade videos" className="h-64 rounded-2xl" />)}
-          </div>
           <p className="text-sm text-muted">Photos of identifiable people are published only with their consent, and with a parent&apos;s consent for children.</p>
         </div>
       </section>

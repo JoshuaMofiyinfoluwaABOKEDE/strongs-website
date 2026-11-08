@@ -47,8 +47,8 @@ export const courseFacts = {
   cost: "Free",
   language: "English",
   certificate: "Certificate of completion from STRONGS",
-  instructors: "Taught by the STRONGS team and guest ministers. Instructors will be announced when enrolment opens.",
-  status: "Enrolment opens soon",
+  instructors: "Taught by the STRONGS team and guest teachers with practical experience in the subject.",
+  status: "Register your interest",
 };
 
 export const courses: Course[] = [

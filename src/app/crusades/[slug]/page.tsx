@@ -39,7 +39,7 @@ export default async function CrusadePage({ params }: { params: Promise<{ slug: 
               <p className="self-start rounded-full bg-gold px-3.5 py-1 text-xs font-bold uppercase tracking-[0.15em] text-navy">Gospel crusade</p>
               <h1 id="c-title" className="text-[clamp(3rem,7vw,6rem)] font-extrabold leading-[0.98] tracking-[-0.04em]">{c.title}</h1>
               {c.localTitle && <p className="text-[clamp(1.1rem,1.8vw,1.4rem)] font-semibold">{c.localTitle}</p>}
-              <p className="text-[clamp(1.1rem,1.8vw,1.4rem)] font-medium italic text-gold">{c.themeScripture}</p>
+              {c.themeScripture && <p className="text-[clamp(1.1rem,1.8vw,1.4rem)] font-medium italic text-gold">{c.themeScripture}</p>}
             </div>
             <div className="flex flex-[0_1_24rem] flex-col gap-3 text-[1.0625rem] font-medium">
               <p className="flex items-center gap-3"><span className="text-gold"><Calendar size={22} /></span>{c.dates}</p>
@@ -86,25 +86,16 @@ export default async function CrusadePage({ params }: { params: Promise<{ slug: 
       <section aria-labelledby="sched-title" className="bg-mist">
         <div className="container-site section-pad flex flex-col gap-7">
           <SectionHeading id="sched-title" eyebrow="Programme" title="Programme schedule" />
-          <div className="overflow-x-auto rounded-3xl bg-white">
-            <table className="w-full min-w-[45rem] border-collapse text-left text-[0.9375rem]">
-              <thead>
-                <tr className="bg-navy text-white">
-                  {["Day", "Morning", "Afternoon", "Evening"].map((h) => <th key={h} scope="col" className="px-5 py-4 font-semibold">{h}</th>)}
-                </tr>
-              </thead>
-              <tbody>
-                {c.schedule.map((s) => (
-                  <tr key={s.day} className="border-b border-line last:border-0">
-                    <th scope="row" className="px-5 py-4 font-semibold text-navy">{s.day}</th>
-                    <td className="px-5 py-4 text-muted">{s.morning}</td>
-                    <td className="px-5 py-4 text-muted">{s.afternoon}</td>
-                    <td className="px-5 py-4 text-muted">{s.evening}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+            {c.schedule.map((s) => (
+              <li key={s.day} className="flex flex-col gap-2.5 rounded-2xl bg-white p-6 shadow-[0_0_0_1px_var(--color-line)]">
+                <p className="text-lg font-bold text-navy">{s.day}</p>
+                <ul className="flex flex-col gap-2">
+                  {s.items.map((it) => <li key={it} className="tick text-[0.9375rem]">{it}</li>)}
+                </ul>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
@@ -152,11 +143,6 @@ export default async function CrusadePage({ params }: { params: Promise<{ slug: 
       <section aria-labelledby="after-title" className="bg-white">
         <div className="container-site section-pad flex flex-col gap-6">
           <SectionHeading id="after-title" eyebrow="Photographs and report" title="After the crusade" intro={c.afterwards} />
-          <div className="grid grid-cols-2 gap-3.5 lg:grid-cols-4">
-            {["Crusade photo", "Crusade photo", "Crusade photo", "Crusade report (PDF)"].map((l, i) => (
-              <PhotoSlot key={i} label={l} note="After the crusade" className="h-44 rounded-2xl" />
-            ))}
-          </div>
         </div>
       </section>
     </>

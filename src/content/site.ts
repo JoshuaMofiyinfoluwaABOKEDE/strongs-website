@@ -1,6 +1,5 @@
 /**
  * Site-wide facts. Change a detail here and it updates on every page.
- * Text in [square brackets] is a placeholder still waiting for the real detail.
  */
 
 export const site = {
