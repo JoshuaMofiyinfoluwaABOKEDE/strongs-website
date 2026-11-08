@@ -64,8 +64,8 @@ export default function HomePage() {
               harvest.
             </p>
             <div className="flex flex-wrap gap-3.5">
-              <Link href={crusade?.href ?? "/crusades/"} className="btn btn-gold">
-                Join the crusade <ArrowRight size={18} />
+              <Link href="/meetings/" className="btn btn-gold">
+                Join Bible Club &amp; Training <ArrowRight size={18} />
               </Link>
               <Link href="/get-involved/" className="btn btn-line-light">
                 Partner with the mission
