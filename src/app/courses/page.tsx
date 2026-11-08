@@ -19,12 +19,12 @@ export default function CoursesPage() {
       <section aria-labelledby="co-title" className="bg-navy text-white">
         <div className="container-site grid items-center gap-12 py-[clamp(3.5rem,7vw,6rem)] lg:grid-cols-[1.25fr_1fr]">
           <div className="flex flex-col gap-6">
-            <p className="eyebrow-dark">STRONGS Courses</p>
+            <p className="eyebrow-dark">STRONGS Courses · Learning and innovation</p>
             <h1 id="co-title" className="text-[clamp(2.5rem,5.2vw,4.25rem)] font-bold leading-[1.08] tracking-[-0.02em]">
-              Learn to serve. <span className="text-gold">Short courses</span> for spiritual intellectuals.
+              Sharpen your mind. <span className="text-gold">Build your future.</span>
             </h1>
             <p className="lead max-w-xl text-pale">
-              {courses.length} short courses in the Word, soul-winning, writing, singing, media, leadership, health and life skills. Study online in a few hours a week, with the STRONGS family.
+              {courses.length} short courses for spiritual intellectuals: writing, music, media and design, leadership, health, digital skills, enterprise and sound biblical thinking. Practical, well-taught and online, in a few hours a week.
             </p>
             <CourseSearch />
           </div>

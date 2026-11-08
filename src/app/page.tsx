@@ -72,8 +72,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="max-w-xl border-t border-navy-line pt-5 text-[1.0625rem] font-medium italic">
-              “{site.watchword}”{" "}
-              <span className="text-[0.8125rem] font-normal not-italic tracking-wide text-pale">The STRONGS watchword</span>
+              “{site.watchword}”
             </p>
           </div>
           <Slideshow
@@ -387,9 +386,9 @@ export default function HomePage() {
             <SectionHeading
               dark
               id="courses-title"
-              eyebrow="STRONGS Courses"
-              title="Learn to serve, a few hours a week"
-              intro={`${courses.length} short courses in the Word, soul-winning, writing, singing, media, leadership, health and life skills.`}
+              eyebrow="STRONGS Courses · Learning and innovation"
+              title="Sharpen your mind. Build your future."
+              intro={`${courses.length} short courses for spiritual intellectuals: writing, music, media and design, leadership, health, digital skills, enterprise and sound biblical thinking. Study online, a few hours a week.`}
             />
             <Link href="/courses/" className="inline-flex min-h-11 items-center gap-2 font-semibold text-gold no-underline hover:text-white">All courses <ArrowRight size={18} /></Link>
           </div>
