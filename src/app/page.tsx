@@ -45,7 +45,7 @@ const fields = [
 
 export default function HomePage() {
   const crusade = upcoming.find((e) => e.kind === "Crusade");
-  const latest = articles.slice(0, 3);
+  const latest = articles.slice(0, 10);
   const fieldReports = [...upcoming.filter((e) => e !== crusade), ...past.filter((e) => e.image)].slice(0, 12);
 
   return (
@@ -228,10 +228,10 @@ export default function HomePage() {
             <SectionHeading id="fields-title" eyebrow="The whole gospel to the whole man" title="Fields of labour" intro="One mission, carried into every place the gospel is needed: spirit, soul and body." />
             <TextLink href="/missions/">Our missions</TextLink>
           </div>
-          <ul className="grid gap-px overflow-hidden rounded-3xl border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
+          <Carousel label="Fields of labour">
             {fields.map(({ icon: Icon, title, text, href }) => (
-              <li key={title} className="bg-white">
-                <Link href={href} className="flex h-full flex-col gap-2.5 p-7 text-ink no-underline hover:bg-mist">
+              <li key={title} className="flex w-[17rem]">
+                <Link href={href} className="flex w-full flex-col gap-2.5 rounded-3xl border border-line bg-white p-7 text-ink no-underline hover:border-royal hover:bg-mist">
                   <span className="text-royal">
                     <Icon size={30} />
                   </span>
@@ -240,7 +240,10 @@ export default function HomePage() {
                 </Link>
               </li>
             ))}
-          </ul>
+            <li className="flex w-[15rem]">
+              <SeeMore href="/missions/" title="See all our missions" text="Medical, School, Drama, Educational, Media and Children." />
+            </li>
+          </Carousel>
         </div>
       </section>
 
@@ -276,6 +279,9 @@ export default function HomePage() {
                 </article>
               </li>
             ))}
+            <li className="flex w-[15rem]">
+              <SeeMore href="/calendar/" title="See the full calendar" text="Every crusade, conference and outreach, past and upcoming." />
+            </li>
           </Carousel>
           <div className="flex flex-wrap items-center gap-x-3.5 gap-y-2 rounded-2xl bg-mist px-6 py-5">
             <p className="mr-1.5 text-xs font-semibold uppercase tracking-[0.15em] text-royal">The gospel has gone to</p>
@@ -391,6 +397,9 @@ export default function HomePage() {
             {courses.filter((c) => c.featured).concat(courses.filter((c) => !c.featured)).slice(0, 12).map((c) => (
               <li key={c.slug} className="w-[17rem]"><CourseCard course={c} /></li>
             ))}
+            <li className="flex w-[15rem]">
+              <SeeMore dark href="/courses/" title="See all courses" text={`${courses.length} short courses in 8 subjects.`} />
+            </li>
           </Carousel>
         </div>
       </section>
@@ -402,9 +411,10 @@ export default function HomePage() {
             <SectionHeading id="articles-title" eyebrow="Sound words" title="Latest articles" intro="Short, searching words to stir your walk with God." />
             <TextLink href="/resources/">All articles</TextLink>
           </div>
-          <div className="grid gap-6 md:grid-cols-3">
+          <Carousel label="Latest articles">
             {latest.map((a) => (
-              <article key={a.slug} className="flex flex-col gap-3 rounded-3xl border border-line p-7">
+              <li key={a.slug} className="flex w-[19rem]">
+              <article className="flex w-full flex-col gap-3 rounded-3xl border border-line p-7">
                 <p className="text-xs font-semibold uppercase tracking-[0.15em] text-royal">{a.theme}</p>
                 <h3 className="text-xl font-semibold leading-snug text-navy">
                   <Link href={`/resources/${a.slug}/`} className="text-navy no-underline hover:text-royal">{a.title}</Link>
@@ -412,8 +422,12 @@ export default function HomePage() {
                 <p className="text-[0.9375rem] text-muted">{a.excerpt}</p>
                 <p className="mt-auto pt-2 text-sm text-muted">{a.author} · {a.minutes} min read</p>
               </article>
+              </li>
             ))}
-          </div>
+            <li className="flex w-[15rem]">
+              <SeeMore href="/resources/" title="See more articles" text={`All ${articles.length} articles, by theme and author.`} />
+            </li>
+          </Carousel>
         </div>
       </section>
 
@@ -469,5 +483,22 @@ export default function HomePage() {
         </div>
       </section>
     </>
+  );
+}
+
+/** The last card in a home-page carousel, linking to the full list. */
+function SeeMore({ href, title, text, dark = false }: { href: string; title: string; text: string; dark?: boolean }) {
+  return (
+    <Link
+      href={href}
+      data-see-more
+      className={`group flex w-full flex-col justify-center gap-3 rounded-3xl border-2 border-dashed p-7 no-underline ${
+        dark ? "border-gold/60 text-white hover:border-gold hover:bg-navy-2 hover:text-white" : "border-royal/40 bg-mist text-navy hover:border-royal hover:text-navy"
+      }`}
+    >
+      <span className={`grid h-12 w-12 place-items-center rounded-full ${dark ? "bg-gold text-navy" : "bg-navy text-white"}`}><ArrowRight size={22} /></span>
+      <span className="text-xl font-bold leading-snug">{title}</span>
+      <span className={`text-[0.9375rem] ${dark ? "text-pale" : "text-muted"}`}>{text}</span>
+    </Link>
   );
 }
