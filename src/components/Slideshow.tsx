@@ -15,6 +15,7 @@ export function Slideshow({
   className = "",
   slideClassName = "",
   controlsClassName = "",
+  arrows = "bar",
 }: {
   label: string;
   slides: ReactNode[];
@@ -24,7 +25,11 @@ export function Slideshow({
   className?: string;
   slideClassName?: string;
   controlsClassName?: string;
+  /** "bar": arrows beside the dots. "overlay": round arrows over the middle of the slide, dots below. */
+  arrows?: "bar" | "overlay";
 }) {
+  const overlay = arrows === "overlay";
+  const ov = "absolute top-4 z-10 inline-flex h-11 w-11 items-center md:top-1/2 md:-translate-y-1/2 justify-center rounded-full border border-white/30 bg-navy/55 text-white backdrop-blur-sm transition hover:bg-navy/85";
   const btn = `inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 transition ${
     dark ? "border-gold bg-gold text-navy hover:bg-gold-light" : "border-navy bg-navy text-white hover:bg-royal"
   }`;
@@ -37,7 +42,13 @@ export function Slideshow({
       aria-label={label}
       className={`${kenburns ? "kenburns" : ""} flex flex-col gap-4 ${className}`}
     >
-      <div className="grid">
+      <div className="relative grid">
+        {overlay && (
+          <>
+            <button type="button" data-slide-prev aria-label="Previous" className={`${ov} left-3`}><ChevronLeft size={22} /></button>
+            <button type="button" data-slide-next aria-label="Next" className={`${ov} right-3`}><ChevronRight size={22} /></button>
+          </>
+        )}
         {slides.map((s, i) => (
           <div
             key={i}
@@ -52,9 +63,12 @@ export function Slideshow({
         ))}
       </div>
       <div className={`flex items-center gap-3 ${controlsClassName}`}>
-        <button type="button" data-slide-prev aria-label="Previous" className={btn}>
-          <ChevronLeft size={20} />
-        </button>
+        {!overlay && (
+          <button type="button" data-slide-prev aria-label="Previous" className={btn}>
+            <ChevronLeft size={20} />
+          </button>
+        )}
+        {overlay && <span className="w-10 shrink-0" aria-hidden="true" />}
         <div className="flex flex-1 flex-wrap items-center justify-center gap-2">
           {slides.map((_, i) => (
             <button
@@ -78,9 +92,11 @@ export function Slideshow({
           <span data-pause-icon="pause" aria-hidden="true">❚❚</span>
           <span data-pause-icon="play" aria-hidden="true">▶</span>
         </button>
-        <button type="button" data-slide-next aria-label="Next" className={btn}>
-          <ChevronRight size={20} />
-        </button>
+        {!overlay && (
+          <button type="button" data-slide-next aria-label="Next" className={btn}>
+            <ChevronRight size={20} />
+          </button>
+        )}
       </div>
     </div>
   );

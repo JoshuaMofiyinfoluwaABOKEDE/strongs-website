@@ -45,7 +45,7 @@ const fields = [
 
 export default function HomePage() {
   const crusade = upcoming.find((e) => e.kind === "Crusade");
-  const latest = articles.slice(0, 10);
+  const latest = articles.slice(0, 8);
   const fieldReports = [...upcoming.filter((e) => e !== crusade), ...past.filter((e) => e.image)].slice(0, 12);
 
   return (
@@ -258,30 +258,38 @@ export default function HomePage() {
             <SectionHeading id="field-title" eyebrow="From the mission field" title="Recent and upcoming outreaches" />
             <TextLink href="/calendar/">Full calendar</TextLink>
           </div>
-          <Carousel label="Recent and upcoming outreaches">
-            {fieldReports.map((e) => (
-              <li key={e.title} className="w-[18rem]">
-                <article className="flex h-full flex-col overflow-hidden rounded-3xl border border-line bg-white">
-                  {e.image ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img src={e.image} alt={e.imageAlt ?? `Flyer: ${e.title}`} loading="lazy" className="h-56 w-full bg-mist object-cover object-top" />
-                  ) : (
-                    <div className="flex h-56 items-center justify-center bg-navy text-sm font-semibold uppercase tracking-[0.15em] text-gold">
-                      Upcoming
-                    </div>
-                  )}
-                  <div className="flex flex-col gap-2 p-6">
-                    <p className="text-xs font-semibold uppercase tracking-[0.15em] text-royal">{e.dateLabel}</p>
-                    <h3 className="text-xl font-semibold leading-snug text-navy">{e.title}</h3>
-                    <p className="line-clamp-4 text-[0.9375rem] text-muted">{e.summary}</p>
+          <Slideshow
+            label="Recent and upcoming outreaches"
+            arrows="overlay"
+            dark={false}
+            interval={6500}
+            slides={fieldReports.map((e, i) => (
+              <article key={e.title} className="relative isolate flex h-full min-h-[36rem] overflow-hidden rounded-3xl bg-navy text-white md:min-h-[27rem]">
+                {e.image && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={e.image} alt="" aria-hidden="true" loading={i === 0 ? "eager" : "lazy"} className="absolute inset-0 -z-10 h-full w-full scale-125 object-cover opacity-45 blur-2xl" />
+                )}
+                <div className="absolute inset-0 -z-10 bg-gradient-to-t from-navy via-navy/80 to-navy/30 md:bg-gradient-to-r" />
+                <div className="flex w-full flex-col-reverse justify-end gap-6 px-6 pb-8 pt-6 md:flex-row md:items-center md:justify-between md:gap-10 md:px-16 md:py-12">
+                  <div className="flex min-w-0 flex-1 flex-col items-start gap-3">
+                    <span className={`rounded-full px-3.5 py-1 text-xs font-bold uppercase tracking-[0.12em] ${e.status === "upcoming" ? "bg-gold text-navy" : "bg-royal text-white"}`}>
+                      {e.status === "upcoming" ? "Upcoming" : "Recent"} · {e.kind}
+                    </span>
+                    <p className="text-sm font-semibold uppercase tracking-[0.12em] text-gold-light">{e.dateLabel}</p>
+                    <h3 className="text-[clamp(1.6rem,3.2vw,2.4rem)] font-bold leading-tight">{e.title}</h3>
+                    <p className="line-clamp-3 max-w-xl text-pale">{e.summary}</p>
+                    <Link href={e.href ?? "/calendar/"} className="mt-2 inline-flex min-h-12 items-center gap-2 rounded-xl border border-white/30 bg-white/10 px-5 font-semibold text-white no-underline backdrop-blur-sm hover:bg-white/20 hover:text-white">
+                      Read more <ArrowRight size={18} />
+                    </Link>
                   </div>
-                </article>
-              </li>
+                  {e.image && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={e.image} alt={e.imageAlt ?? `Flyer: ${e.title}`} loading={i === 0 ? "eager" : "lazy"} className="mx-auto h-60 w-auto max-w-full shrink-0 rounded-2xl object-contain shadow-[0_20px_50px_rgba(0,0,0,0.45)] md:mx-0 md:h-[21rem]" />
+                  )}
+                </div>
+              </article>
             ))}
-            <li className="flex w-[15rem]">
-              <SeeMore href="/calendar/" title="See the full calendar" text="Every crusade, conference and outreach, past and upcoming." />
-            </li>
-          </Carousel>
+          />
           <div className="flex flex-wrap items-center gap-x-3.5 gap-y-2 rounded-2xl bg-mist px-6 py-5">
             <p className="mr-1.5 text-xs font-semibold uppercase tracking-[0.15em] text-royal">The gospel has gone to</p>
             {placesReached.map((p, i) => (
@@ -410,23 +418,24 @@ export default function HomePage() {
             <SectionHeading id="articles-title" eyebrow="Sound words" title="Latest articles" intro="Short, searching words to stir your walk with God." />
             <TextLink href="/resources/">All articles</TextLink>
           </div>
-          <Carousel label="Latest articles">
-            {latest.map((a) => (
-              <li key={a.slug} className="flex w-[19rem]">
-              <article className="flex w-full flex-col gap-3 rounded-3xl border border-line p-7">
-                <p className="text-xs font-semibold uppercase tracking-[0.15em] text-royal">{a.theme}</p>
-                <h3 className="text-xl font-semibold leading-snug text-navy">
-                  <Link href={`/resources/${a.slug}/`} className="text-navy no-underline hover:text-royal">{a.title}</Link>
-                </h3>
-                <p className="text-[0.9375rem] text-muted">{a.excerpt}</p>
-                <p className="mt-auto pt-2 text-sm text-muted">{a.author} · {a.minutes} min read</p>
+          <Slideshow
+            label="Latest articles"
+            arrows="overlay"
+            dark={false}
+            interval={7000}
+            slides={latest.map((a) => (
+              <article key={a.slug} className="clean-slot relative isolate flex h-full min-h-[26rem] flex-col justify-end gap-3.5 overflow-hidden rounded-3xl px-7 pb-9 pt-20 text-white md:px-16 md:pb-12">
+                <span aria-hidden="true" className="absolute -top-6 right-8 -z-10 font-serif text-[14rem] font-bold leading-none text-gold/20">“</span>
+                <span className="self-start rounded-full bg-royal px-3.5 py-1 text-xs font-bold uppercase tracking-[0.12em] text-white">{a.theme}</span>
+                <h3 className="max-w-3xl text-[clamp(1.7rem,3.4vw,2.6rem)] font-bold leading-tight">{a.title}</h3>
+                <p className="line-clamp-3 max-w-2xl text-pale">{a.excerpt}</p>
+                <p className="text-sm text-gold-light">{a.author} · {a.minutes} min read</p>
+                <Link href={`/resources/${a.slug}/`} className="mt-1 inline-flex min-h-12 items-center gap-2 self-start rounded-xl border border-white/30 bg-white/10 px-5 font-semibold text-white no-underline backdrop-blur-sm hover:bg-white/20 hover:text-white">
+                  Read more <ArrowRight size={18} />
+                </Link>
               </article>
-              </li>
             ))}
-            <li className="flex w-[15rem]">
-              <SeeMore href="/resources/" title="See more articles" text={`All ${articles.length} articles, by theme and author.`} />
-            </li>
-          </Carousel>
+          />
         </div>
       </section>
 
