@@ -33,7 +33,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         <header className="bg-mist">
           <div className="mx-auto flex max-w-3xl flex-col gap-4 px-[clamp(1.25rem,4vw,3rem)] pb-12 pt-[clamp(3rem,6vw,5rem)]">
             <nav aria-label="Breadcrumb" className="text-sm text-muted">
-              <Link href="/resources/">Resources</Link> <span aria-hidden="true">›</span> {a.theme}
+              <Link href="/resources/">Resources</Link> <span aria-hidden="true">›</span> {a.form === "poem" ? <Link href="/resources/#poems">Poems</Link> : <Link href="/resources/#articles">Articles</Link>} <span aria-hidden="true">›</span> {a.theme}
             </nav>
             <h1 id="a-title" className="text-[clamp(2.2rem,4.5vw,3.4rem)] font-bold leading-[1.1] tracking-[-0.02em] text-navy">{a.title}</h1>
             <p className="text-[0.9375rem] text-muted">
@@ -48,7 +48,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         </header>
         <div className="mx-auto max-w-3xl px-[clamp(1.25rem,4vw,3rem)] py-14">
           <div className="prose-strongs">
-            {a.body.map((p, k) => <p key={k}>{p}</p>)}
+            {a.body.map((p, k) => <p key={k} className={a.form === "poem" ? "whitespace-pre-line italic" : undefined}>{p}</p>)}
           </div>
           {book && (
             <div className="mt-10 flex flex-wrap items-center gap-5 rounded-2xl bg-mist p-6">

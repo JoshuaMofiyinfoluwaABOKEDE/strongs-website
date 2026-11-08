@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import { articles, themes } from "@/content/articles";
+import { articles, poems, prose, themes, writers } from "@/content/articles";
+import { Carousel } from "@/components/Carousel";
+import { ArrowRight, Book, Pen, People, Sun } from "@/components/icons";
 import { PageHero, SectionHeading } from "@/components/ui";
 import { books } from "@/content/books";
 import { ArticleList } from "@/components/ArticleList";
@@ -18,45 +20,30 @@ export default function ResourcesPage() {
       <PageHero
         eyebrow="Resources"
         title="Sound words for every believer"
-        intro="Articles, Bible studies, sermons, audio and devotionals to help you understand Scripture accurately, grow in grace and win souls."
+        intro="Articles, poems, books and weekly teaching from the STRONGS family, to help you understand Scripture accurately, grow in grace and win souls."
       >
         <p className="font-medium italic text-gold">“Hold fast the form of sound words.” · 2 Timothy 1:13</p>
       </PageHero>
 
-      <section aria-labelledby="art-title" className="bg-white">
-        <div className="container-site section-pad flex flex-col gap-8">
-          <SectionHeading id="art-title" eyebrow="Articles" title="Short, searching words" intro="Writing by STRONGS commentators and authors to stir your walk with God." />
-          <ArticleList articles={articles} themes={themes} />
+      <nav aria-label="On this page" className="border-b border-line bg-white">
+        <div className="container-site grid gap-3.5 py-8 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            { href: "#articles", Icon: Pen, t: "Articles", d: `${prose.length} articles by ${writers.length} writers` },
+            { href: "#poems", Icon: Sun, t: "Poems", d: `${poems.length} poems of devotion and consecration` },
+            { href: "#books", Icon: Book, t: "Books", d: books.map((b) => b.title).join(", ") },
+            { href: "#weekly", Icon: People, t: "Weekly teaching", d: "Bible Club and Evangelism Training" },
+          ].map(({ href, Icon, t, d }) => (
+            <a key={href} href={href} className="group flex items-start gap-4 rounded-2xl border border-line bg-white p-5 text-ink no-underline shadow-[0_0_0_0_transparent] transition hover:border-royal hover:shadow-[0_8px_24px_rgba(11,31,58,0.12)] hover:text-ink">
+              <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-navy text-gold"><Icon size={20} /></span>
+              <span className="flex min-w-0 flex-col gap-0.5">
+                <span className="flex items-center gap-1.5 text-lg font-bold text-navy">{t} <span className="text-royal transition group-hover:translate-x-0.5"><ArrowRight size={16} /></span></span>
+                <span className="text-sm text-muted">{d}</span>
+              </span>
+            </a>
+          ))}
         </div>
-      </section>
+      </nav>
 
-      <section aria-labelledby="club-title" className="bg-navy text-white">
-        <div className="container-site section-pad grid items-center gap-12 lg:grid-cols-[1.2fr_1fr]">
-          <div className="flex flex-col gap-5">
-            <SectionHeading
-              dark
-              id="club-title"
-              eyebrow="Every week"
-              title="Bible Club and Evangelism Training"
-              intro="Reading is good; being taught is better. Come to our two weekly meetings, where believers are grounded in the Word and trained to win souls."
-            />
-            <ul className="flex flex-col gap-2 text-pale">
-              {meetings.map((m) => (
-                <li key={m.id} className="tick">
-                  <strong className="font-semibold text-white">{m.name}:</strong> {m.day}, {m.time} ({m.whereNote.toLowerCase()})
-                </li>
-              ))}
-            </ul>
-            <Link href="/meetings/" className="btn btn-gold self-start">Times, places and recent topics</Link>
-          </div>
-          <div className="grid grid-cols-2 gap-3.5">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/flyers/bible-club-james-humility.webp" alt="Bible Club flyer: The grave humiliation in the costly neglect of humility, James 4:6–10" loading="lazy" className="w-full rounded-2xl" />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/flyers/training-singularity-gospel.webp" alt="Evangelism and Follow-up Training flyer: The Singularity of the Gospel, 1 Corinthians 15:1–4" loading="lazy" className="w-full rounded-2xl" />
-          </div>
-        </div>
-      </section>
 
       <section id="books" aria-labelledby="books-title" className="bg-mist">
         <div className="container-site section-pad flex flex-col gap-10">
@@ -96,6 +83,60 @@ export default function ResourcesPage() {
           })}
         </div>
       </section>
+
+      <section id="poems" aria-labelledby="poems-title" className="bg-navy text-white">
+        <div className="container-site section-pad flex flex-col gap-8">
+          <SectionHeading dark id="poems-title" eyebrow="Poems" title="Words to pray and sing" intro="Poems of devotion, surrender and holy fire from the STRONGS family." />
+          <Carousel dark label="Poems">
+            {poems.map((p) => (
+              <li key={p.slug} className="flex w-[19rem]">
+                <Link href={`/resources/${p.slug}/`} className="flex w-full flex-col gap-3 rounded-3xl bg-navy-2 p-7 text-white no-underline hover:bg-[#1a3760] hover:text-white">
+                  <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gold">{p.theme}</p>
+                  <h3 className="text-xl font-semibold leading-snug">{p.title}</h3>
+                  <p className="line-clamp-6 whitespace-pre-line text-[0.9375rem] italic text-pale">{p.body[0]}</p>
+                  <p className="mt-auto pt-2 text-sm text-gold-light">{p.author} · Read the poem →</p>
+                </Link>
+              </li>
+            ))}
+          </Carousel>
+        </div>
+      </section>
+
+      <section id="articles" aria-labelledby="art-title" className="bg-white">
+        <div className="container-site section-pad flex flex-col gap-8">
+          <SectionHeading id="art-title" eyebrow="Articles" title="Short, searching words" intro="Writing by STRONGS commentators and authors to stir your walk with God. Choose a writer or a theme, or search." />
+          <ArticleList articles={prose} themes={themes} writers={writers} />
+        </div>
+      </section>
+
+      <section id="weekly" aria-labelledby="club-title" className="bg-navy text-white">
+        <div className="container-site section-pad grid items-center gap-12 lg:grid-cols-[1.2fr_1fr]">
+          <div className="flex flex-col gap-5">
+            <SectionHeading
+              dark
+              id="club-title"
+              eyebrow="Every week"
+              title="Bible Club and Evangelism Training"
+              intro="Reading is good; being taught is better. Come to our two weekly meetings, where believers are grounded in the Word and trained to win souls."
+            />
+            <ul className="flex flex-col gap-2 text-pale">
+              {meetings.map((m) => (
+                <li key={m.id} className="tick">
+                  <strong className="font-semibold text-white">{m.name}:</strong> {m.day}, {m.time} ({m.whereNote.toLowerCase()})
+                </li>
+              ))}
+            </ul>
+            <Link href="/meetings/" className="btn btn-gold self-start">Times, places and recent topics</Link>
+          </div>
+          <div className="grid grid-cols-2 gap-3.5">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/images/flyers/bible-club-james-humility.webp" alt="Bible Club flyer: The grave humiliation in the costly neglect of humility, James 4:6–10" loading="lazy" className="w-full rounded-2xl" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/images/flyers/training-singularity-gospel.webp" alt="Evangelism and Follow-up Training flyer: The Singularity of the Gospel, 1 Corinthians 15:1–4" loading="lazy" className="w-full rounded-2xl" />
+          </div>
+        </div>
+      </section>
+
 
       <section aria-labelledby="write-title" className="bg-white">
         <div className="container-site flex flex-wrap items-center justify-between gap-6 py-18">

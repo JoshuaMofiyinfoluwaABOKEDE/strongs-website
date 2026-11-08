@@ -6,8 +6,9 @@ import type { Article } from "@/content/articles";
 import { Search } from "@/components/icons";
 
 /** Searchable, filterable list of articles. Without JavaScript every article is still listed. */
-export function ArticleList({ articles, themes }: { articles: Article[]; themes: string[] }) {
+export function ArticleList({ articles, themes, writers }: { articles: Article[]; themes: string[]; writers: string[] }) {
   const [theme, setTheme] = useState("All");
+  const [writer, setWriter] = useState("All writers");
   const [q, setQ] = useState("");
 
   const shown = useMemo(() => {
@@ -15,9 +16,10 @@ export function ArticleList({ articles, themes }: { articles: Article[]; themes:
     return articles.filter(
       (a) =>
         (theme === "All" || a.theme === theme) &&
+        (writer === "All writers" || a.author === writer) &&
         (!needle || a.title.toLowerCase().includes(needle) || a.body.some((p) => p.toLowerCase().includes(needle))),
     );
-  }, [articles, theme, q]);
+  }, [articles, theme, writer, q]);
 
   return (
     <div className="flex flex-col gap-7">
@@ -33,21 +35,32 @@ export function ArticleList({ articles, themes }: { articles: Article[]; themes:
             className="min-w-0 flex-1 bg-transparent text-base text-ink outline-none"
           />
         </label>
-        <div role="group" aria-label="Filter by theme" className="flex flex-wrap gap-2">
-          {["All", ...themes].map((t) => (
+        <div role="group" aria-label="Filter by writer" className="flex flex-wrap gap-2">
+          {["All writers", ...writers].map((w) => (
             <button
-              key={t}
+              key={w}
               type="button"
-              aria-pressed={theme === t}
-              onClick={() => setTheme(t)}
-              className={`min-h-11 cursor-pointer rounded-full border-[1.5px] px-4 text-sm font-medium ${
-                theme === t ? "border-navy bg-navy text-white" : "border-steel bg-white text-ink hover:border-royal"
+              aria-pressed={writer === w}
+              onClick={() => setWriter(w)}
+              className={`min-h-11 cursor-pointer rounded-full border-[1.5px] px-4 text-sm font-semibold ${
+                writer === w ? "border-royal bg-royal text-white" : "border-royal/40 bg-mist text-navy hover:border-royal"
               }`}
             >
-              {t}
+              {w}
             </button>
           ))}
         </div>
+        <label className="flex flex-wrap items-center gap-3 text-sm font-semibold text-navy">
+          Theme
+          <select
+            aria-label="Filter by theme"
+            value={theme}
+            onChange={(e) => setTheme(e.target.value)}
+            className="min-h-11 cursor-pointer rounded-full border-[1.5px] border-steel bg-white px-4 text-sm font-medium text-ink hover:border-royal"
+          >
+            {["All", ...themes].map((t) => <option key={t} value={t}>{t === "All" ? "All themes" : t}</option>)}
+          </select>
+        </label>
         <p role="status" className="text-sm text-muted">
           {shown.length} {shown.length === 1 ? "article" : "articles"}
         </p>
