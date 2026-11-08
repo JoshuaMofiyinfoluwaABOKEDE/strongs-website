@@ -5,9 +5,11 @@ import { communities } from "@/content/communities";
 import { articles } from "@/content/articles";
 import { childrenClub, meetings, meetingsLeader } from "@/content/meetings";
 import { courses } from "@/content/courses";
+import { journey, journeyNow } from "@/content/college";
 import { CourseCard } from "@/components/CourseCard";
 import { Carousel } from "@/components/Carousel";
-import { Photo, Scripture, SectionHeading, TextLink } from "@/components/ui";
+import { Slideshow } from "@/components/Slideshow";
+import { Scripture, SectionHeading, TextLink } from "@/components/ui";
 import { StrongsForm } from "@/components/Form";
 import { ArrowRight, Book, Cap, Flame, Globe, Heart, Music, People, Pin, Plus, Sun } from "@/components/icons";
 
@@ -17,6 +19,16 @@ const heritage = [
   { era: "The revivalists", quote: "I look upon all the world as my parish.", who: "John Wesley, 1739" },
   { era: "World missions", quote: "Why should anyone hear the gospel twice before everyone has heard it once?", who: "Oswald J. Smith" },
   { era: "Africa's harvest", quote: "…to see hell empty and heaven full.", who: "Reinhard Bonnke" },
+];
+
+const fieldSlides: { src: string; alt: string; tag: string; caption: string; pos?: string }[] = [
+  { src: "/images/photos/irele-assembly-1.webp", alt: "A STRONGS evangelist preaching to secondary-school students gathered for morning assembly", tag: "School mission", caption: "Preaching Christ at a school assembly, Irele, October 2026." },
+  { src: "/images/photos/medical-school-talk-1.webp", alt: "Nurse Ruth Oduola giving a health talk to students", tag: "Medical mission", caption: "Nurse Ruth Oduola, Head of the Medical Mission, teaching students on health." },
+  { src: "/images/photos/school-tla-1.webp", alt: "A STRONGS minister speaking with a microphone to a full classroom of students", tag: "School preaching", caption: "The gospel in the classroom." },
+  { src: "/images/photos/irele-hall-preaching.webp", alt: "An evangelist ministering to students in a school hall with a thatched roof", tag: "Student outreach", caption: "Ministering to students during the Irele Student Outreach." },
+  { src: "/images/photos/medical-school-talk-3.webp", alt: "A wide view of a hall full of students in different uniforms listening to a health talk", tag: "Medical mission", caption: "Students from several schools at a health talk." },
+  { src: "/images/photos/teens-capacity-1.webp", alt: "A minister teaching from the pulpit while teenagers listen from the pews", tag: "Teenagers", caption: "Teenagers' Capacity Building, Sepeteri, September 2026." },
+  { src: "/images/photos/founder-campus-aflame.webp", alt: "Joshua Mofiyinfoluwa ABOKEDE preaching at Campus aFlame", tag: "Campus mission", caption: "Campus aFlame: the gospel on university campuses.", pos: "center top" },
 ];
 
 const fields = [
@@ -78,13 +90,21 @@ export default function HomePage() {
               <span className="text-[0.8125rem] font-normal not-italic tracking-wide text-pale">The STRONGS watchword</span>
             </p>
           </div>
-          <Photo
-            dark
-            src="/images/photos/olaewe-rcf-lautech.webp"
-            alt="Ev. Godwin Ayorinde OLAEWE preaching with a microphone at RCF LAUTECH"
-            caption="Ev. Godwin Ayorinde OLAEWE, Vice President, preaching at RCF LAUTECH."
-            className="w-full flex-1"
-            imgClassName="min-h-[22rem] lg:min-h-[32rem]"
+          <Slideshow
+            label="From the mission field"
+            kenburns
+            interval={5500}
+            className="w-full min-w-0 flex-1"
+            slides={fieldSlides.map((f, i) => (
+              <figure key={f.src} className="relative h-[22rem] overflow-hidden rounded-3xl bg-navy-2 sm:h-[26rem] lg:h-[32rem]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={f.src} alt={f.alt} loading={i === 0 ? "eager" : "lazy"} className="absolute inset-0 h-full w-full object-cover" style={{ objectPosition: f.pos ?? "center" }} />
+                <figcaption className="absolute inset-x-0 bottom-0 flex flex-col gap-1 bg-gradient-to-t from-navy/95 via-navy/60 to-transparent px-6 pb-5 pt-16">
+                  <span className="text-xs font-bold uppercase tracking-[0.18em] text-gold">{f.tag}</span>
+                  <span className="text-[0.9375rem] font-medium text-white">{f.caption}</span>
+                </figcaption>
+              </figure>
+            ))}
           />
         </div>
       </section>
@@ -200,15 +220,18 @@ export default function HomePage() {
             title="We stand in a great line of witnesses"
             intro="STRONGS did not invent its burden. We follow the Reformers who put the Bible back in the hands of the people, the Puritans who preached with eternity in view, the revivalists who saw whole regions awakened, and the missionaries who would not rest while any had not heard."
           />
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-            {heritage.map((h) => (
-              <figure key={h.who} className="flex flex-col gap-3.5 rounded-2xl bg-navy-2 p-6">
-                <p className="text-[0.72rem] font-semibold uppercase tracking-[0.15em] text-gold">{h.era}</p>
-                <blockquote className="text-[1.0625rem] font-medium italic leading-normal">“{h.quote}”</blockquote>
-                <figcaption className="mt-auto text-sm text-pale">{h.who}</figcaption>
+          <Slideshow
+            label="Voices from our heritage"
+            interval={7000}
+            className="mx-auto w-full max-w-4xl"
+            slides={heritage.map((h) => (
+              <figure key={h.who} className="flex h-full flex-col items-center justify-center gap-5 rounded-3xl bg-navy-2 px-[clamp(1.5rem,5vw,4rem)] py-[clamp(2.25rem,5vw,3.5rem)] text-center">
+                <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold">{h.era}</p>
+                <blockquote className="text-[clamp(1.4rem,3vw,2.15rem)] font-semibold italic leading-snug">“{h.quote}”</blockquote>
+                <figcaption className="text-[0.9375rem] text-pale">{h.who}</figcaption>
               </figure>
             ))}
-          </div>
+          />
         </div>
       </section>
 
@@ -309,23 +332,36 @@ export default function HomePage() {
       <section aria-labelledby="college-title" className="bg-navy text-white">
         <div className="container-site section-pad flex flex-col items-center gap-12 lg:flex-row">
           <div className="flex flex-1 flex-col gap-5">
-            <p className="eyebrow-dark">A vision we are building · Educational Mission</p>
+            <p className="eyebrow-dark">A vision · Not yet open · Educational Mission</p>
             <h2 id="college-title" className="h2">STRONGS College</h2>
             <p className="text-[clamp(1.25rem,2vw,1.5rem)] font-medium italic text-gold">Raising disciples towards distinctive leadership</p>
             <p className="lead text-pale">
-              A faith-based mission school for primary and secondary students: high academic standards, Christ-centred
-              discipleship and a heart for missions.
+              A plan for a faith-based mission school for primary and secondary students: high academic standards,
+              Christ-centred discipleship and a heart for missions. We are praying and planning towards it.
             </p>
             <div className="flex flex-wrap gap-3.5 pt-1.5">
               <Link href="/college/" className="btn btn-gold">See the vision</Link>
-              <Link href="/get-involved/" className="btn btn-line-light">Help build it</Link>
+              <Link href="/college/#join" className="btn btn-line-light">Pray and partner</Link>
             </div>
           </div>
-          <ul className="grid w-full flex-1 grid-cols-2 gap-3.5">
-            {["Holiness", "Honesty", "Intelligence", "Integrity"].map((v) => (
-              <li key={v} className="rounded-2xl bg-navy-2 p-6 text-center text-xl font-semibold">{v}</li>
-            ))}
-          </ul>
+          <div className="w-full flex-1 rounded-3xl bg-navy-2 p-[clamp(1.5rem,3vw,2.25rem)]">
+            <p className="eyebrow-dark mb-5 text-xs">Where we are</p>
+            <ol className="flex flex-col gap-3">
+              {journey.map((j, i) => (
+                <li key={j.step} className="flex items-center gap-3.5">
+                  <span
+                    className={`grid h-8 w-8 shrink-0 place-items-center rounded-full text-sm font-bold ${
+                      i < journeyNow ? "bg-gold text-navy" : i === journeyNow ? "border-2 border-gold text-gold" : "border-2 border-navy-line text-pale"
+                    }`}
+                  >
+                    {i < journeyNow ? "✓" : i + 1}
+                  </span>
+                  <span className={i === journeyNow ? "font-semibold text-gold" : i < journeyNow ? "text-white" : "text-pale"}>{j.step}</span>
+                  {i === journeyNow && <span className="rounded-full bg-gold px-2 py-0.5 text-[0.6875rem] font-bold uppercase tracking-wide text-navy">We are here</span>}
+                </li>
+              ))}
+            </ol>
+          </div>
         </div>
       </section>
 

@@ -195,6 +195,37 @@
 /* Carousels: arrows show only when the row overflows and the script has run. */
 [data-carousel]:not([data-ready]) .carousel-btn,
 [data-carousel]:not([data-overflow]) .carousel-btn { display: none; }
+.carousel-bar { display: none; }
+@media (max-width: 47.99rem) {
+  [data-carousel][data-ready][data-overflow] .carousel-bar { display: flex; }
+}
+/* A soft fade on the right edge shows there is more to scroll to */
+[data-carousel][data-overflow]:not([data-at-end]) .carousel-track {
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 4rem), rgba(0, 0, 0, 0.25));
+  mask-image: linear-gradient(to right, #000 calc(100% - 4rem), rgba(0, 0, 0, 0.25));
+}
+
+/* Self-advancing slideshows */
+[data-slide] { opacity: 0; visibility: hidden; transition: opacity 1s ease, visibility 0s linear 1s; }
+[data-slide][data-active="true"], [data-slideshow]:not([data-ready]) [data-slide]:first-child {
+  opacity: 1; visibility: visible; transition: opacity 1s ease;
+}
+.kenburns [data-slide] img { transform: scale(1.02); }
+.kenburns [data-slide][data-active="true"] img { animation: kenburns 9s ease-out forwards; }
+@keyframes kenburns { from { transform: scale(1.02) translate(0, 0); } to { transform: scale(1.14) translate(-1.5%, -1%); } }
+[data-slide-dot][aria-current="true"] { width: 1.75rem; background: var(--color-gold); }
+[data-slideshow][data-paused] [data-pause-icon="pause"], [data-slideshow]:not([data-paused]) [data-pause-icon="play"] { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .kenburns [data-slide][data-active="true"] img { animation: none; }
+  [data-slide] { transition: none; }
+}
+
+/* Countdown */
+[data-countdown] [data-when] { display: none; }
+[data-countdown]:not([data-state]) [data-when="soon"],
+[data-countdown][data-state="soon"] [data-when="soon"],
+[data-countdown][data-state="live"] [data-when="live"],
+[data-countdown][data-state="over"] [data-when="over"] { display: block; }
 .carousel-track { scrollbar-width: thin; scrollbar-color: var(--color-steel) transparent; }
 .carousel-track > li { scroll-snap-align: start; flex-shrink: 0; }
 

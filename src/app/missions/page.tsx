@@ -59,10 +59,10 @@ export default function MissionsPage() {
               )}
               {m.id === "educational" && (
                 <Link href="/college/" className="flex flex-col gap-1.5 rounded-3xl bg-navy p-6 text-white no-underline hover:bg-navy-2 hover:text-white">
-                  <span className="eyebrow-dark text-xs">Flagship of the Educational Mission</span>
+                  <span className="eyebrow-dark text-xs">A vision of the Educational Mission · Not yet open</span>
                   <span className="text-2xl font-bold">STRONGS College</span>
                   <span className="font-medium italic text-gold">{college.motto}</span>
-                  <span className="text-[0.9375rem] text-pale">A faith-based mission school for primary and secondary students. See the vision →</span>
+                  <span className="text-[0.9375rem] text-pale">A plan for a faith-based mission school for primary and secondary students. See the vision and where we are →</span>
                 </Link>
               )}
             </div>

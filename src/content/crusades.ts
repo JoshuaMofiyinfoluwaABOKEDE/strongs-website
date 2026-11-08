@@ -120,6 +120,9 @@ export type CrusadePage = {
   flyers?: { src: string; alt: string }[];
   themeScripture: string;
   dates: string;
+  /** Start and end, with time zone, for the countdown (e.g. 2026-12-09T16:00:00+01:00). */
+  startsAt?: string;
+  endsAt?: string;
   venue: string;
   summary: string;
   components: { title: string; text: string }[];
@@ -136,6 +139,8 @@ export const crusadePages: CrusadePage[] = [
     coHost: "CAN, Sepeteri",
     themeScripture: "[Theme scripture for the crusade]",
     dates: "Wednesday 9 – Sunday 13 December 2026, 4pm daily",
+    startsAt: "2026-12-09T16:00:00+01:00",
+    endsAt: "2026-12-13T21:00:00+01:00",
     venue: "Isere Baptist Primary School field, Ladojuko, and First Baptist Church, Isale Igbagbo, Sepeteri, Oyo State",
     summary:
       "Five days of the gospel in Sepeteri with the Christian Association of Nigeria, Sepeteri. The gospel preached to the whole town, ministers and workers equipped for follow-up, and the sick cared for by qualified professionals.",

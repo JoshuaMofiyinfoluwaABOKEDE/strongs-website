@@ -143,15 +143,15 @@ export const missions: Mission[] = [
     short: "Educational Mission",
     focus: "Educational support, academic development, learning opportunities and educational outreach.",
     intro:
-      "Raising spiritual intellectuals includes opening doors to learning. The Educational Mission supports students, especially the disadvantaged, and oversees STRONGS College.",
+      "Raising spiritual intellectuals includes opening doors to learning. The Educational Mission supports students, especially the disadvantaged, and carries the vision for STRONGS College, a mission school we are planning.",
     leader: {
       name: "Fulfillment FOLAHAN",
       role: "Head of Educational Mission",
-      bio: "Serves as General Secretary of STRONGS, coordinating the affairs of the team, and oversees the spiritual and administrative direction of STRONGS College.",
+      bio: "Serves as General Secretary of STRONGS, coordinating the affairs of the team, and leads the planning for STRONGS College.",
       photo: "/images/people/folahan.webp",
     },
     responsibilities: [
-      "Oversee STRONGS College and keep it aligned with the STRONGS vision",
+      "Carry forward the plan for STRONGS College, in line with the STRONGS vision",
       "Lead educational outreaches and seminars",
       "Develop scholarship and learning-support initiatives",
       "Coordinate reading, literacy and career guidance programmes",

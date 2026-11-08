@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Countdown } from "@/components/Countdown";
 import { notFound } from "next/navigation";
 import { crusadePages } from "@/content/crusades";
 import { site } from "@/content/site";
@@ -46,6 +47,7 @@ export default async function CrusadePage({ params }: { params: Promise<{ slug: 
               <p className="flex items-center gap-3"><span className="text-gold"><People size={22} /></span>Organised by STRONGS Crusades{c.coHost ? ` with ${c.coHost}` : ""}</p>
             </div>
           </div>
+          {c.startsAt && <Countdown to={c.startsAt} end={c.endsAt} />}
           <div className="flex flex-wrap gap-3.5">
             <a href="#register" className="btn btn-gold">Register to attend</a>
             <Link href="/crusades/#volunteer" className="btn btn-line-light">Volunteer</Link>
@@ -129,6 +131,7 @@ export default async function CrusadePage({ params }: { params: Promise<{ slug: 
               Questions? <a href={`mailto:${site.email}?subject=${encodeURIComponent(c.title)}`} className="font-semibold text-white">{site.email}</a> ·{" "}
               <a href={site.phoneHref} className="font-semibold text-white">{site.phone}</a>
             </p>
+            {c.startsAt && <Countdown to={c.startsAt} end={c.endsAt} label="Time left to get ready" className="pt-3" />}
           </div>
           <div className="rounded-3xl bg-white p-[clamp(1.75rem,3.5vw,2.5rem)] text-ink">
             <StrongsForm
