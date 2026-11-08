@@ -115,7 +115,6 @@ export default function CrusadesPage() {
               <p className="eyebrow text-xs">{d.role}</p>
               <h3 className="text-[clamp(1.6rem,2.8vw,2.1rem)] font-bold leading-tight text-navy">{d.name}</h3>
               <p className="lead text-muted">{d.profile}</p>
-              <p className="text-[0.9375rem] text-muted">{d.responsibilities}</p>
             </div>
           </article>
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

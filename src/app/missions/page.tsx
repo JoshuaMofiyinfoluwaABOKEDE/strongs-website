@@ -86,14 +86,6 @@ export default function MissionsPage() {
                     <p className="eyebrow text-xs">{m.leader.role}</p>
                     <h3 className="text-xl font-bold leading-snug text-navy">{m.leader.name}</h3>
                     <p className="text-[0.9375rem] text-muted">{m.leader.bio}</p>
-                    {m.responsibilities && (
-                      <>
-                        <p className="pt-2 text-[0.8125rem] font-semibold text-navy">Responsibilities</p>
-                        <ul className="flex flex-col gap-1.5">
-                          {m.responsibilities.map((r) => <li key={r} className="tick text-[0.9375rem]">{r}</li>)}
-                        </ul>
-                      </>
-                    )}
                   </div>
                 </div>
               ) : (

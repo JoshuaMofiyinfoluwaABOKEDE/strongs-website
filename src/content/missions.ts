@@ -176,6 +176,12 @@ export const missions: Mission[] = [
       "Using media, digital communication and creative production to advance the gospel and support STRONGS' activities.",
     intro:
       "The message must travel further than the crusade ground. The Media Mission records, produces and shares the work of STRONGS so the gospel reaches people online and on screen.",
+    leader: {
+      name: "Segun DANIEL",
+      role: "Head of Media Mission",
+      bio: "A storyteller and filmmaker who uses creativity as a tool for transformation and spiritual impact. He is a co-founder of THEVOLSHOW (The Voice of the Lord Show), a gospel-centred creative platform that helps children, teenagers and young adults discover and use their God-given creative gifts, and trained at the Mount Zion Film Academy.",
+      photo: "/images/people/segun-daniel.webp",
+    },
     image: {
       src: "/images/flyers/smc26-livestream.webp",
       alt: "Flyer announcing SMC '26 streaming live on YouTube with Godwin Ayorinde Olaewe",
