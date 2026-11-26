@@ -5,7 +5,8 @@ import { PaperFields, PaperReview } from "@/components/theology/Paper";
 import { one } from "@/lib/db";
 import type { Mark, PaperItem } from "@/lib/theology/content";
 import { loadTheology } from "@/lib/theology/learner";
-import { UnitShell } from "@/components/theology/Units";
+import { Locked, UnitShell } from "@/components/theology/Units";
+import { lockReason } from "@/lib/theology/progress";
 import { startQuiz, submitQuiz } from "@/app/theology/actions";
 
 export const dynamic = "force-dynamic";
@@ -17,6 +18,8 @@ export default async function QuizPage({ params, searchParams }: { params: Promi
   const { user, c, row, g } = await loadTheology(slug);
   const m = c.modules[week - 1];
   if (!m) notFound();
+  const lock = lockReason(c, g, { kind: "quiz", week });
+  if (lock && !a) return <UnitShell c={c} g={g} current={`w${week}q`}><Locked c={c} g={g} reason={lock} /></UnitShell>;
   const attempt = a
     ? await one<{ id: number; questions: PaperItem[]; answers: Record<string, string>; marks: Record<string, Mark>; score: number | null; status: string }>(
         `SELECT id, questions, answers, marks, score, status FROM th_attempt WHERE id=$1 AND user_id=$2 AND course_id=$3 AND kind='quiz' AND week=$4`,

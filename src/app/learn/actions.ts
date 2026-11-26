@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { one, q } from "@/lib/db";
-import { assessmentHref, checkCompletion, getOutline, getProgress, lessonHref, nextStep, type QuestionRow } from "@/lib/lms";
+import { assessmentHref, blockedBy, checkCompletion, getOutline, getProgress, lessonHref, nextStep, sequence, type QuestionRow } from "@/lib/lms";
 import { requireUser } from "@/lib/session";
 
 const str = (f: FormData, k: string) => String(f.get(k) ?? "").trim();
@@ -38,6 +38,12 @@ async function lessonContext(lessonId: number) {
 export async function completeLesson(form: FormData) {
   const lessonId = int(form, "lessonId");
   const { user, course_id, slug, kind } = await lessonContext(lessonId);
+  {
+    const o = await getOutline(slug);
+    const p = o ? await getProgress(user.id, o) : null;
+    const idx = o ? sequence(o).findIndex((i) => i.type === "lesson" && i.lesson.id === lessonId) : -1;
+    if (o && p && blockedBy(o, p, idx)) redirect(lessonHref(slug, lessonId));
+  }
   if (kind === "reading") {
     await q(`INSERT INTO lms_lesson_progress (user_id, lesson_id) VALUES ($1, $2) ON CONFLICT DO NOTHING`, [user.id, lessonId]);
   }
@@ -87,6 +93,12 @@ export async function submitAssessment(form: FormData) {
   const enrolled = await one(`SELECT 1 FROM lms_enrolment WHERE user_id = $1 AND course_id = $2`, [user.id, a.course_id]);
   if (!enrolled) redirect(`/courses/${a.slug}/`);
 
+  {
+    const o = await getOutline(a.slug);
+    const p = o ? await getProgress(user.id, o) : null;
+    const idx = o ? sequence(o).findIndex((i) => i.type === "assessment" && i.assessment.id === assessmentId) : -1;
+    if (o && p && blockedBy(o, p, idx)) redirect(assessmentHref(a.slug, assessmentId));
+  }
   const questions = await q<QuestionRow>(`SELECT * FROM lms_question WHERE assessment_id = $1 ORDER BY position, id`, [assessmentId]);
   if (!questions.length) redirect(assessmentHref(a.slug, assessmentId));
   const answers: Record<string, string[]> = {};

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadLearner } from "@/lib/learner";
-import { assessmentHref, lessonHref, sequence, touchLesson } from "@/lib/lms";
+import { assessmentHref, blockedBy, lessonHref, sequence, touchLesson } from "@/lib/lms";
 import { renderMarkdown } from "@/lib/markdown";
 import { completeLesson, submitAssignment } from "@/app/learn/actions";
 
@@ -34,6 +34,17 @@ export default async function LessonPage({
   const item = items[idx];
   if (item.type !== "lesson") notFound();
   const lesson = item.lesson;
+  const block = blockedBy(outline, progress, idx);
+  if (block) {
+    return (
+      <article className="flex flex-col items-start gap-4">
+        <p className="eyebrow">Locked</p>
+        <h1 className="text-[clamp(1.375rem,3vw,2rem)] font-bold leading-tight text-navy"><span aria-hidden="true">🔒 </span>Not open yet</h1>
+        <p className="text-[0.9375rem] text-ink sm:text-base">Pass &ldquo;{block.title}&rdquo; first. Each quiz or test must be passed before the lessons after it open.</p>
+        <Link href={assessmentHref(slug, block.id)} className="btn btn-navy">Go to {block.title} →</Link>
+      </article>
+    );
+  }
   const mod = outline.modules.find((m) => m.id === lesson.module_id)!;
   const moduleNo = outline.modules.indexOf(mod) + 1;
   await touchLesson(user.id, outline.course.id, lesson.id);

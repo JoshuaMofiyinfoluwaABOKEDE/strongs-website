@@ -3,7 +3,8 @@ import { PaperFields, PaperReview } from "@/components/theology/Paper";
 import { one } from "@/lib/db";
 import type { Mark, PaperItem } from "@/lib/theology/content";
 import { loadTheology } from "@/lib/theology/learner";
-import { AssessShell } from "@/components/theology/Units";
+import { AssessShell, Locked } from "@/components/theology/Units";
+import { lockReason } from "@/lib/theology/progress";
 import { startTest, submitTest } from "@/app/theology/actions";
 
 export const dynamic = "force-dynamic";
@@ -13,6 +14,8 @@ export default async function TestPage({ params, searchParams }: { params: Promi
   const { a } = await searchParams;
   const { user, c, row, g } = await loadTheology(slug);
   const t = theologyRules.test;
+  const lock = lockReason(c, g, { kind: "test" });
+  if (lock && !a && !g.testAttempts.length) return <AssessShell c={c} g={g} title="Course test"><Locked c={c} g={g} reason={lock} /></AssessShell>;
   const id = a ? Number(a) : g.testOpen;
   const attempt = id
     ? await one<{ id: number; questions: PaperItem[]; answers: Record<string, string>; marks: Record<string, Mark>; score: number | null; status: string }>(

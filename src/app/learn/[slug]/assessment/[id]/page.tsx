@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { one, q } from "@/lib/db";
 import { loadLearner } from "@/lib/learner";
-import { assessmentHref, lessonHref, nextStep, sequence, type QuestionRow } from "@/lib/lms";
+import { assessmentHref, blockedBy, lessonHref, nextStep, sequence, type QuestionRow } from "@/lib/lms";
 import { renderMarkdown } from "@/lib/markdown";
 import { submitAssessment } from "@/app/learn/actions";
 
@@ -24,6 +24,17 @@ export default async function AssessmentPage({
   const a = items.find((i) => i.type === "assessment" && i.assessment.id === Number(id));
   if (!a || a.type !== "assessment") notFound();
   const assessment = a.assessment;
+  const block = blockedBy(outline, progress, items.indexOf(a));
+  if (block) {
+    return (
+      <article className="flex flex-col items-start gap-4">
+        <p className="eyebrow">Locked</p>
+        <h1 className="text-[clamp(1.375rem,3vw,2rem)] font-bold leading-tight text-navy"><span aria-hidden="true">🔒 </span>Not open yet</h1>
+        <p className="text-[0.9375rem] text-ink sm:text-base">Pass &ldquo;{block.title}&rdquo; first. Each quiz or test must be passed before the lessons after it open.</p>
+        <Link href={assessmentHref(slug, block.id)} className="btn btn-navy">Go to {block.title} →</Link>
+      </article>
+    );
+  }
   const questions = await q<QuestionRow>(`SELECT * FROM lms_question WHERE assessment_id = $1 ORDER BY position, id`, [assessment.id]);
   const best = progress.best.get(assessment.id);
   const attempt = attemptId

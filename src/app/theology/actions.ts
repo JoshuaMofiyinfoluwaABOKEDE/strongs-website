@@ -6,7 +6,7 @@ import { theologyRules } from "@/content/theology/catalog";
 import { one, q } from "@/lib/db";
 import { requireUser } from "@/lib/session";
 import { getTheologyCourse, lessonKey, lessonKeys, quizPaper, writtenPaper, type PaperItem } from "@/lib/theology/content";
-import { courseRow, gradebook, settleCourse } from "@/lib/theology/progress";
+import { courseRow, examOpen, gradebook, quizOpen, settleCourse, testOpen, weekOpen } from "@/lib/theology/progress";
 import { GRACE_SECONDS, finishExam, markPaper, type AttemptRow } from "@/lib/theology/marking";
 import { extractText, similarity } from "@/lib/theology/plagiarism";
 
@@ -49,6 +49,7 @@ export async function completeTheologyLesson(form: FormData) {
   const lesson = int(form, "lesson");
   const key = lessonKey(week, lesson);
   if (!lessonKeys(c).includes(key)) redirect(base(slug));
+  if (!weekOpen(await gradebook(user.id, c, row), week)) redirect(`${base(slug)}week/${week}/lesson/${lesson}/`);
   await q(`INSERT INTO th_lesson_done (user_id, course_id, lesson_key) VALUES ($1,$2,$3) ON CONFLICT DO NOTHING`, [user.id, row.id, key]);
   await q(`UPDATE lms_enrolment SET last_key = $3, last_active_at = now() WHERE user_id = $1 AND course_id = $2`, [user.id, row.id, key]);
   await settleCourse(user.id, c, row);
@@ -81,6 +82,7 @@ export async function startQuiz(form: FormData) {
   const { user, c, row } = await context(slug);
   const week = int(form, "week");
   if (!c.modules[week - 1]) redirect(base(slug));
+  if (!quizOpen(c, await gradebook(user.id, c, row), week)) redirect(`${base(slug)}week/${week}/quiz/`);
   const open = await one<{ id: number }>(
     `SELECT id FROM th_attempt WHERE user_id=$1 AND course_id=$2 AND kind='quiz' AND week=$3 AND status='open' ORDER BY id DESC LIMIT 1`,
     [user.id, row.id, week],
@@ -115,6 +117,7 @@ export async function startTest(form: FormData) {
   const slug = str(form, "slug", 120);
   const { user, c, row } = await context(slug);
   const g = await gradebook(user.id, c, row);
+  if (!testOpen(g)) redirect(`${base(slug)}test/`);
   if (g.testOpen) redirect(`${base(slug)}test/?a=${g.testOpen}`);
   if (g.testAttempts.length >= theologyRules.test.attempts) redirect(`${base(slug)}test/`);
   const t = theologyRules.test;
@@ -148,7 +151,7 @@ export async function startExam(form: FormData) {
   const { user, c, row } = await context(slug);
   if (form.get("ready") !== "on") redirect(`${base(slug)}exam/?error=confirm`);
   const g = await gradebook(user.id, c, row);
-  if (!g.parts.lessons || !g.parts.quizzes) redirect(`${base(slug)}exam/?error=locked`);
+  if (!examOpen(g)) redirect(`${base(slug)}exam/?error=locked`);
   if (g.exam) redirect(`${base(slug)}exam/`);
   const e = theologyRules.exam;
   await q(

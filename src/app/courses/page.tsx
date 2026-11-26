@@ -1,53 +1,58 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { courseFacts, courses as builtIn } from "@/content/courses";
-import { getCatalogue, getCategories } from "@/lib/lms";
+import { courseFacts } from "@/content/courses";
+import { getCatalogItems, getSubjects, THEOLOGY_PROGRAM } from "@/lib/catalog";
 import { LearnBar } from "@/components/learn/LearnBar";
 import { CourseCard } from "@/components/CourseCard";
 import { Carousel } from "@/components/Carousel";
 import { SectionHeading } from "@/components/ui";
-import { CourseSearch } from "@/components/CourseSearch";
-import { Book, Cap, Clock, People } from "@/components/icons";
+import { Book, Cap, Clock, People, Search } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "Courses",
-  description: `Short courses from STRONGS in the Bible, evangelism, writing, singing, media, leadership, health and life skills. ${builtIn.length} courses, free to join, self-paced.`,
+  description: `Courses from STRONGS in the Bible, theology, Christian living, church history, evangelism, ministry, writing, music, media, health and life skills. Free to join, self-paced, with certificates.`,
 };
 
 // Course details are managed in the admin area; refresh the catalogue at most every few minutes.
 export const revalidate = 300;
 
 export default async function CoursesPage() {
-  const courses = await getCatalogue();
-  const courseCategories = await getCategories();
-  const coursesIn = (cat: string) => courses.filter((c) => c.category === cat);
-  const featured = courses.filter((c) => c.featured);
+  const [items, subjects] = await Promise.all([getCatalogItems(), getSubjects()]);
+  const inSubject = (id: string) => items.filter((c) => c.subject === id).sort((a, b) => Number(b.open) - Number(a.open));
+  const shown = subjects.filter((s) => inSubject(s.id).length > 0);
+  const featured = items.filter((c) => c.featured).sort((a, b) => Number(b.open) - Number(a.open));
+  const theology = items.filter((c) => c.program === THEOLOGY_PROGRAM);
   return (
-    <>
+    <div className="edx">
       <LearnBar />
       <section aria-labelledby="co-title" className="bg-navy text-white">
-        <div className="container-site grid items-center gap-12 py-[clamp(3.5rem,7vw,6rem)] lg:grid-cols-[1.25fr_1fr]">
-          <div className="flex flex-col gap-6">
+        <div className="container-site grid items-center gap-8 py-[clamp(2.25rem,6vw,5rem)] lg:grid-cols-[1.25fr_1fr] lg:gap-12">
+          <div className="flex flex-col gap-4 sm:gap-6">
             <p className="eyebrow-dark">STRONGS Courses · Learning and innovation</p>
-            <h1 id="co-title" className="text-[clamp(2.5rem,5.2vw,4.25rem)] font-bold leading-[1.08] tracking-[-0.02em]">
+            <h1 id="co-title" className="text-[clamp(1.875rem,5.2vw,4.25rem)] font-bold leading-[1.08] tracking-[-0.02em]">
               Sharpen your mind. <span className="text-gold">Build your future.</span>
             </h1>
             <p className="lead max-w-xl text-pale">
-              {courses.length} short courses for spiritual intellectuals: writing, music, media and design, leadership, health, digital skills, enterprise and sound biblical thinking. Practical, well-taught and self-paced: study online whenever it suits you, and earn a certificate.
+              {items.length} courses for spiritual intellectuals: the Bible and theology, Christian living, church history, evangelism and ministry, writing, music, media, health and life skills. Self-paced, free to join, with a certificate when you finish.
             </p>
-            <CourseSearch />
+            <form action="/courses/search/" role="search" className="flex max-w-xl items-center gap-2 rounded-full bg-white p-1.5 pl-5 text-ink shadow-lg">
+              <label htmlFor="course-q" className="sr-only">Search courses</label>
+              <span className="text-muted"><Search size={20} /></span>
+              <input id="course-q" name="q" type="search" placeholder="What do you want to learn?" className="min-w-0 flex-1 bg-transparent py-2 text-[0.9375rem] outline-none placeholder:text-muted" />
+              <button type="submit" className="btn btn-gold min-h-10 px-5 text-sm">Search</button>
+            </form>
           </div>
-          <ul className="grid grid-cols-2 gap-4">
+          <ul className="grid grid-cols-2 gap-2.5 sm:gap-4">
             {[
-              { Icon: Book, big: String(courses.length), small: "short courses" },
-              { Icon: Cap, big: String(courseCategories.length), small: "subject areas" },
-              { Icon: Clock, big: "2–6", small: "weeks each" },
+              { Icon: Book, big: String(items.length), small: "courses" },
+              { Icon: Cap, big: String(shown.length), small: "subjects" },
+              { Icon: Clock, big: "Self-paced", small: "start any time" },
               { Icon: People, big: courseFacts.cost, small: "to join" },
             ].map(({ Icon, big, small }) => (
-              <li key={small} className="flex flex-col gap-2 rounded-2xl bg-navy-2 p-6">
-                <span className="text-gold"><Icon size={26} /></span>
-                <span className="text-[clamp(1.8rem,3vw,2.4rem)] font-extrabold leading-none">{big}</span>
-                <span className="text-sm text-pale">{small}</span>
+              <li key={small} className="flex flex-col gap-1 rounded-xl bg-navy-2 p-4 sm:gap-2 sm:rounded-2xl sm:p-6">
+                <span className="text-gold"><Icon size={22} /></span>
+                <span className="text-[clamp(1.25rem,3vw,2.2rem)] font-extrabold leading-none">{big}</span>
+                <span className="text-[0.8125rem] text-pale sm:text-sm">{small}</span>
               </li>
             ))}
           </ul>
@@ -55,57 +60,46 @@ export default async function CoursesPage() {
       </section>
 
       <nav aria-label="Subjects" className="sticky top-[73px] z-20 border-b border-line bg-white/95 backdrop-blur">
-        <div className="container-site flex gap-2 overflow-x-auto py-3">
-          {courseCategories.map((c) => (
-            <a key={c.id} href={`#${c.id}`} className="whitespace-nowrap rounded-full border border-steel px-4 py-1.5 text-sm font-medium text-ink no-underline hover:border-royal hover:text-royal">
+        <div className="container-site flex gap-2 overflow-x-auto py-2.5 sm:py-3">
+          {shown.map((c) => (
+            <a key={c.id} href={`#${c.id}`} className="whitespace-nowrap rounded-full border border-steel px-3.5 py-1.5 text-[0.8125rem] font-medium text-ink no-underline hover:border-royal hover:text-royal sm:px-4 sm:text-sm">
               {c.name}
             </a>
           ))}
+          <Link href="/courses/search/" className="whitespace-nowrap rounded-full bg-navy px-3.5 py-1.5 text-[0.8125rem] font-semibold text-white no-underline hover:bg-royal hover:text-white sm:px-4 sm:text-sm">All courses →</Link>
         </div>
       </nav>
 
       <section aria-labelledby="feat-title" className="bg-white">
-        <div className="container-site flex flex-col gap-6 pt-[clamp(3rem,6vw,4.5rem)]">
-          <SectionHeading id="feat-title" eyebrow="Start here" title="Popular courses" />
+        <div className="container-site flex flex-col gap-4 pt-[clamp(2rem,6vw,4rem)] sm:gap-6">
+          <Row id="feat-title" title="Popular courses" blurb="Good places to start." href="/courses/search/" count={items.length} />
           <Carousel label="Popular courses">
-            {featured.map((c) => (
-              <li key={c.slug} className="w-[17rem]"><CourseCard course={c} /></li>
-            ))}
+            {featured.map((c) => <li key={c.slug} className="w-[15rem] sm:w-[17rem]"><CourseCard course={c} /></li>)}
           </Carousel>
         </div>
       </section>
 
       <section aria-labelledby="school-title" className="bg-white">
-        <div className="container-site pt-[clamp(2.5rem,5vw,3.5rem)]">
-          <div className="flex flex-wrap items-center gap-x-10 gap-y-5 rounded-3xl bg-navy p-[clamp(1.5rem,4vw,2.75rem)] text-white">
-            <div className="flex min-w-0 flex-[1_1_28rem] flex-col gap-3">
-              <p className="eyebrow-dark">STRONGS School of Theology</p>
-              <h2 id="school-title" className="text-[clamp(1.7rem,3vw,2.4rem)] font-bold leading-tight">Fifty theology courses, in plain English</h2>
-              <p className="text-pale">The Bible, its doctrines, church history, Christian living and ministry. Self-paced, with weekly quizzes, a test, assignments, a final exam and a certificate.</p>
+        <div className="container-site pt-[clamp(1.5rem,4vw,2.5rem)]">
+          <div className="flex flex-wrap items-center gap-x-10 gap-y-4 rounded-2xl bg-navy p-[clamp(1.25rem,4vw,2.5rem)] text-white sm:rounded-3xl">
+            <div className="flex min-w-0 flex-[1_1_26rem] flex-col gap-2">
+              <p className="eyebrow-dark">Programme</p>
+              <h2 id="school-title" className="text-[clamp(1.25rem,3vw,2rem)] font-bold leading-tight">STRONGS School of Theology</h2>
+              <p className="text-[0.9375rem] text-pale sm:text-base">{theology.length} courses across the Bible, theology, Christian living, church history and ministry, each with weekly quizzes, a test, assignments, a final exam and a certificate. Find them under their subjects below, or see the whole programme.</p>
             </div>
-            <Link href="/courses/theology/" className="btn btn-gold">Explore the School of Theology</Link>
+            <Link href="/courses/theology/" className="btn btn-gold">View the programme</Link>
           </div>
         </div>
       </section>
 
-      {courseCategories.map((cat, i) => {
-        const list = coursesIn(cat.id);
+      {shown.map((cat, i) => {
+        const list = inSubject(cat.id);
         return (
-          <section key={cat.id} id={cat.id} aria-labelledby={`${cat.id}-t`} className={i % 2 ? "bg-white" : "bg-mist"} data-course-section>
-            <div className="container-site flex flex-col gap-5 py-[clamp(2.5rem,5vw,3.5rem)]">
-              <div className="flex flex-wrap items-end justify-between gap-3">
-                <div className="flex flex-col gap-1">
-                  <h2 id={`${cat.id}-t`} className="text-[clamp(1.5rem,2.6vw,2rem)] font-bold leading-tight text-navy">{cat.name}</h2>
-                  <p className="text-muted">{cat.blurb}</p>
-                </div>
-                <p className="text-sm font-semibold text-royal">{list.length} {list.length === 1 ? "course" : "courses"}</p>
-              </div>
+          <section key={cat.id} id={cat.id} aria-labelledby={`${cat.id}-t`} className={`scroll-mt-32 ${i % 2 ? "bg-mist" : "bg-white"}`}>
+            <div className="container-site flex flex-col gap-4 py-[clamp(2rem,5vw,3.5rem)] sm:gap-5">
+              <Row id={`${cat.id}-t`} title={cat.name} blurb={cat.blurb} href={`/courses/search/?subject=${cat.id}`} count={list.length} />
               <Carousel label={`${cat.name} courses`}>
-                {list.map((c) => (
-                  <li key={c.slug} className="w-[17rem]" data-course-title={`${c.title} ${c.summary} ${cat.name}`.toLowerCase()}>
-                    <CourseCard course={c} />
-                  </li>
-                ))}
+                {list.map((c) => <li key={c.slug} className="w-[15rem] sm:w-[17rem]"><CourseCard course={c} /></li>)}
               </Carousel>
             </div>
           </section>
@@ -143,6 +137,19 @@ export default async function CoursesPage() {
           </div>
         </div>
       </section>
-    </>
+    </div>
+  );
+}
+
+/** A carousel heading with an edX-style "View all" link to the list view. */
+function Row({ id, title, blurb, href, count }: { id: string; title: string; blurb: string; href: string; count: number }) {
+  return (
+    <div className="flex items-end justify-between gap-4">
+      <div className="flex min-w-0 flex-col gap-1">
+        <h2 id={id} className="text-[clamp(1.25rem,2.6vw,2rem)] font-bold leading-tight text-navy">{title}</h2>
+        <p className="text-[0.9375rem] text-muted sm:text-base">{blurb}</p>
+      </div>
+      <Link href={href} className="flex-none whitespace-nowrap text-sm font-semibold">View all {count} →</Link>
+    </div>
   );
 }

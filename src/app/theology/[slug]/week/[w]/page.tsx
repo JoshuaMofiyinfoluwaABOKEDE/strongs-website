@@ -4,7 +4,8 @@ import { theologyRules } from "@/content/theology/catalog";
 import { Ref } from "@/components/theology/Ref";
 import { lessonKey } from "@/lib/theology/content";
 import { loadTheology } from "@/lib/theology/learner";
-import { UnitShell } from "@/components/theology/Units";
+import { Locked, UnitShell } from "@/components/theology/Units";
+import { lockReason } from "@/lib/theology/progress";
 
 export const dynamic = "force-dynamic";
 
@@ -14,6 +15,8 @@ export default async function WeekPage({ params }: { params: Promise<{ slug: str
   const { c, g } = await loadTheology(slug);
   const m = c.modules[week - 1];
   if (!m) notFound();
+  const lock = lockReason(c, g, { kind: "review", week });
+  if (lock) return <UnitShell c={c} g={g} current={`w${week}r`}><Locked c={c} g={g} reason={lock} /></UnitShell>;
   const best = g.quizBest[week - 1];
   const read = m.lessons.filter((_, j) => g.lessonsDone.has(lessonKey(week, j + 1))).length;
 

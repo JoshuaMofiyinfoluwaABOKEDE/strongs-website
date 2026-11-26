@@ -8,7 +8,7 @@ import { requireAdmin } from "@/lib/session";
 export default async function AdminCourses({ searchParams }: { searchParams: Promise<{ deleted?: string; error?: string; cat?: string }> }) {
   await requireAdmin();
   const { deleted, error, cat } = await searchParams;
-  const cats = await q<{ id: string; name: string }>(`SELECT id, name FROM lms_category WHERE id <> 'theology' ORDER BY position`);
+  const cats = await q<{ id: string; name: string }>(`SELECT id, name FROM lms_category ORDER BY position`);
   const rows = await q<{
     id: number; title: string; slug: string; category_id: string; listed: boolean; enrolment_open: boolean; review: Record<string, boolean>;
     modules: number; lessons: number; published: number; assessments: number; enrolments: number; completed: number;

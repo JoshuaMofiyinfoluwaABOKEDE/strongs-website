@@ -131,3 +131,39 @@ export async function theologySummary(userId: string, list: { course_id: number;
   }
   return out;
 }
+
+/* ───────────── gates: what the learner may open next ───────────── */
+
+/** True when the week's quiz has been passed (80%+). */
+export const quizPassed = (g: Gradebook, week: number) => (g.quizBest[week - 1] ?? 0) >= theologyRules.quiz.pass;
+
+/** True when every lesson of the week has been read. */
+export const weekRead = (c: TheologyCourse, g: Gradebook, week: number) => c.modules[week - 1]?.lessons.every((_, j) => g.lessonsDone.has(`w${week}l${j + 1}`)) ?? false;
+
+/** A week opens once every earlier week's quiz has been passed. */
+export function weekOpen(g: Gradebook, week: number) {
+  for (let w = 1; w < week; w++) if (!quizPassed(g, w)) return false;
+  return true;
+}
+
+/** A week's quiz opens once the week is open and its lessons have been read. */
+export const quizOpen = (c: TheologyCourse, g: Gradebook, week: number) => weekOpen(g, week) && weekRead(c, g, week);
+
+/** The course test opens once every lesson is read and every weekly quiz is passed. */
+export const testOpen = (g: Gradebook) => g.parts.lessons && g.parts.quizzes;
+
+/** The final exam opens once the course test has been taken as well. */
+export const examOpen = (g: Gradebook) => testOpen(g) && g.parts.test;
+
+/** Why a unit is locked, in plain words, or null if it is open. */
+export function lockReason(c: TheologyCourse, g: Gradebook, unit: { kind: "lesson" | "review" | "quiz" | "test" | "exam"; week?: number }): string | null {
+  if (unit.kind === "test") return testOpen(g) ? null : "The course test opens when you have read every lesson and passed every weekly quiz.";
+  if (unit.kind === "exam") return examOpen(g) ? null : "The final exam opens when you have read every lesson, passed every weekly quiz and taken the course test.";
+  const w = unit.week ?? 1;
+  if (!weekOpen(g, w)) {
+    const first = g.quizBest.findIndex((_, i) => !quizPassed(g, i + 1)) + 1;
+    return `Week ${w} opens when you pass the Week ${first} quiz with ${theologyRules.quiz.pass}% or more.`;
+  }
+  if (unit.kind === "quiz" && !weekRead(c, g, w)) return `Read every lesson in Week ${w} first, then take the quiz.`;
+  return null;
+}

@@ -344,3 +344,16 @@ export async function getMyCourses(userId: string) {
 }
 
 export const percent = (complete: number, total: number) => (total ? Math.round((complete / total) * 100) : 0);
+
+/**
+ * Learners go step by step: a lesson or assessment stays locked until every quiz or test before it
+ * in the course has been passed. Returns the assessment that blocks the item at `index`, or null.
+ */
+export function blockedBy(o: Outline, p: Progress, index: number) {
+  const items = sequence(o);
+  for (let i = 0; i < index && i < items.length; i++) {
+    const it = items[i];
+    if (it.type === "assessment" && !p.best.get(it.assessment.id)?.passed) return it.assessment;
+  }
+  return null;
+}

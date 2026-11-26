@@ -4,7 +4,7 @@ import { authOptions } from "@/lib/auth";
 import { hasDatabase, pool, q } from "@/lib/db";
 import { migrations } from "@/lib/schema";
 import { courseCategories, courses } from "@/content/courses";
-import { theologyOrder } from "@/content/theology/catalog";
+import { theologyOrder, theologySubject } from "@/content/theology/catalog";
 import { theologyCourses } from "@/content/theology/courses";
 import { createHash } from "node:crypto";
 
@@ -104,6 +104,7 @@ async function syncTheology() {
     objectives: c.objectives,
     outcomes: c.outcomes,
     position: 1000 + i,
+    subject: theologySubject(c.slug),
   }));
   const checksum = createHash("sha1").update(JSON.stringify(rows)).digest("hex");
   const seen = (await q<{ value: string }>(`SELECT value FROM lms_meta WHERE key = 'theology'`))[0]?.value;
@@ -111,17 +112,23 @@ async function syncTheology() {
   const client = await pool().connect();
   try {
     await client.query("BEGIN");
-    await client.query(
-      `INSERT INTO lms_category (id, name, blurb, position) VALUES ('theology', 'School of Theology', 'Self-paced theology courses with assessments and certificates.', 99) ON CONFLICT (id) DO NOTHING`,
-    );
+    // The School of Theology is listed by subject with the other courses (edX-style), so make sure its subjects exist.
+    for (const id of ["theology", "living", "history"]) {
+      const cat = courseCategories.find((x) => x.id === id)!;
+      await client.query(
+        `INSERT INTO lms_category (id, name, blurb, position) VALUES ($1, $2, $3, 50) ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, blurb = EXCLUDED.blurb
+         WHERE lms_category.name = 'School of Theology'`,
+        [cat.id, cat.name, cat.blurb],
+      );
+    }
     for (const r of rows) {
       await client.query(
         `INSERT INTO lms_course (slug, title, category_id, school, level, weeks, effort, format, summary, about, objectives, outcomes, listed, enrolment_open, position)
-         VALUES ($1,$2,'theology','theology',$3,$4,'3–4 hours a week','Online, self-paced',$5,$6,$7,$8,false,true,$9)
-         ON CONFLICT (slug) DO UPDATE SET title=EXCLUDED.title, school='theology', category_id='theology', level=EXCLUDED.level, weeks=EXCLUDED.weeks,
+         VALUES ($1,$2,$10,'theology',$3,$4,'3–4 hours a week','Online, self-paced',$5,$6,$7,$8,false,true,$9)
+         ON CONFLICT (slug) DO UPDATE SET title=EXCLUDED.title, school='theology', category_id=EXCLUDED.category_id, level=EXCLUDED.level, weeks=EXCLUDED.weeks,
            summary=EXCLUDED.summary, about=EXCLUDED.about, objectives=EXCLUDED.objectives, outcomes=EXCLUDED.outcomes, position=EXCLUDED.position,
            listed=false, enrolment_open=true, updated_at=now()`,
-        [r.slug, r.title, r.level, r.weeks, r.summary, r.about, JSON.stringify(r.objectives), JSON.stringify(r.outcomes), r.position],
+        [r.slug, r.title, r.level, r.weeks, r.summary, r.about, JSON.stringify(r.objectives), JSON.stringify(r.outcomes), r.position, theologySubject(r.slug)],
       );
     }
     await client.query(

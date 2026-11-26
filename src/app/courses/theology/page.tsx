@@ -22,8 +22,8 @@ export default function TheologySchool() {
       <section aria-labelledby="th-title" className="bg-navy text-white">
         <div className="container-site grid items-center gap-8 py-[clamp(2.25rem,7vw,6rem)] lg:gap-12 lg:grid-cols-[1.25fr_1fr]">
           <div className="flex flex-col gap-4 sm:gap-6">
-            <nav aria-label="Breadcrumb" className="text-sm text-pale"><Link href="/courses/" className="text-pale hover:text-white">Courses</Link> <span aria-hidden="true">›</span> School of Theology</nav>
-            <p className="eyebrow-dark">STRONGS School of Theology</p>
+            <nav aria-label="Breadcrumb" className="text-sm text-pale"><Link href="/courses/" className="text-pale hover:text-white">Courses</Link> <span aria-hidden="true">›</span> Programmes <span aria-hidden="true">›</span> School of Theology</nav>
+            <p className="eyebrow-dark">Programme · STRONGS School of Theology</p>
             <h1 id="th-title" className="text-[clamp(1.875rem,5.2vw,4.25rem)] font-bold leading-[1.08] tracking-[-0.02em]">
               Know what you believe. <span className="text-gold">Know why.</span>
             </h1>

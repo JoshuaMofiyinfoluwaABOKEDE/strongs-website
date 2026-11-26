@@ -85,3 +85,27 @@ export const theologyRules = {
   declaration: "No AI tools or plagiarism; this is my own work.",
   maxUploadBytes: 4 * 1024 * 1024,
 };
+
+/**
+ * The catalogue subject each theology course is listed under, alongside the other STRONGS courses
+ * (edX-style: one catalogue, browsed by subject; the School of Theology is a programme across subjects).
+ */
+const trackSubject: Record<string, string> = {
+  foundations: "bible",
+  survey: "bible",
+  god: "theology",
+  christ: "theology",
+  church: "theology",
+  living: "living",
+  history: "history",
+  ministry: "leadership",
+};
+const slugSubject: Record<string, string> = {
+  "personal-evangelism": "evangelism",
+  "missions-theology-and-practice": "evangelism",
+  "discipleship-and-follow-up": "evangelism",
+};
+export function theologySubject(slug: string) {
+  return slugSubject[slug] ?? trackSubject[theologyOrder.find((o) => o.slug === slug)?.track ?? ""] ?? "theology";
+}
+export const theologyCode = (slug: string) => `TH ${String(theologyOrder.findIndex((o) => o.slug === slug) + 1).padStart(3, "0")}`;

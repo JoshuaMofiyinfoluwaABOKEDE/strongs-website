@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { courseCategories } from "@/content/courses";
+import { CertificatePreview } from "@/components/CertificatePreview";
 import { notFound } from "next/navigation";
-import { theologyOrder, theologyRules, theologyTracks } from "@/content/theology/catalog";
+import { theologyOrder, theologyRules, theologyTracks, theologySubject } from "@/content/theology/catalog";
 import { LearnBar } from "@/components/learn/LearnBar";
 import { Ref } from "@/components/theology/Ref";
 import { TheologyCard } from "@/components/theology/TheologyCard";
@@ -27,6 +29,8 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
   const n = theologyOrder.findIndex((o) => o.slug === slug) + 1;
   const code = `TH ${String(n).padStart(3, "0")}`;
   const track = theologyTracks.find((t) => t.id === theologyOrder[n - 1]?.track);
+  const subject = theologySubject(slug);
+  const subjectName = courseCategories.find((x) => x.id === subject)?.name ?? "Theology";
   const user = hasDatabase ? await getUser() : null;
   const row = hasDatabase ? await courseRow(slug) : null;
   const enrolled = user && row ? !!(await one(`SELECT 1 FROM lms_enrolment WHERE user_id=$1 AND course_id=$2`, [user.id, row.id])) : false;
@@ -49,7 +53,8 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
     ["Effort", "3–4 hours per week"],
     ["Price", "Free, with free certificate"],
     ["Institution", "STRONGS School of Theology"],
-    ["Subject", track?.name ?? "Theology"],
+    ["Subject", subjectName],
+    ["Programme", "School of Theology"],
     ["Level", c.level],
     ["Language", "English"],
     ["Scripture", "King James Version"],
@@ -75,8 +80,7 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
           <div className="flex flex-col gap-3.5 sm:gap-5">
             <nav aria-label="Breadcrumb" className="text-[0.8125rem] leading-snug text-pale sm:text-sm">
               <Link href="/courses/" className="text-pale hover:text-white">Courses</Link> <span aria-hidden="true">›</span>{" "}
-              <Link href="/courses/theology/" className="text-pale hover:text-white">School of Theology</Link> <span aria-hidden="true">›</span>{" "}
-              <Link href={`/courses/theology/#${track?.id}`} className="text-pale hover:text-white">{track?.name}</Link>
+              <Link href={`/courses/search/?subject=${subject}`} className="text-pale hover:text-white">{subjectName}</Link>
             </nav>
             <p className="eyebrow-dark">STRONGS School of Theology · {code}</p>
             <h1 id="c-title" className="text-[clamp(1.625rem,4.6vw,3.6rem)] font-bold leading-[1.08] tracking-[-0.02em]">{c.title}</h1>
@@ -201,14 +205,7 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
             </div>
             <div className="flex flex-col gap-3 rounded-2xl bg-mist p-5 sm:rounded-3xl sm:p-6">
               <h2 className="text-lg font-bold text-navy">Sample certificate</h2>
-              <div className="flex flex-col items-center gap-1.5 rounded-lg border-[6px] border-navy bg-white px-4 py-5 text-center outline outline-1 -outline-offset-[12px] outline-gold">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/images/strongs-logo.webp" alt="" width={32} height={32} />
-                <span className="text-[0.625rem] font-bold uppercase tracking-[0.25em] text-royal">Certificate of completion</span>
-                <span className="font-serif text-lg font-semibold text-navy">Your Name</span>
-                <span className="text-[0.6875rem] text-muted">has successfully completed the STRONGS School of Theology course</span>
-                <span className="text-sm font-bold leading-tight text-navy">{c.title}</span>
-              </div>
+              <CertificatePreview name="Your Name" course={c.title} school="theology" />
               <p className="text-xs text-muted">Download it as a PDF, and share a link anyone can use to verify it.</p>
             </div>
             {c.reading && c.reading.length > 0 && (

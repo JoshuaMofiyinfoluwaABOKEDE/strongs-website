@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { CertificatePreview } from "@/components/CertificatePreview";
 import { LearnBar } from "@/components/learn/LearnBar";
 import { getCertificate } from "@/lib/lms";
 
@@ -28,20 +29,14 @@ export default async function CertificatePage({ params }: { params: Promise<{ co
               <Link href="/certificates/verify/" className="btn btn-navy self-center">Check another number</Link>
             </div>
           ) : (
-            <div className="flex w-full max-w-3xl flex-col items-center gap-6 rounded-3xl border-[10px] border-navy bg-white p-[clamp(1.5rem,5vw,3.5rem)] text-center outline outline-1 -outline-offset-[22px] outline-gold">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/strongs-logo.webp" alt="" width={64} height={64} />
-              <p className="text-sm font-bold uppercase tracking-[0.3em] text-royal">{c.revoked ? "Certificate withdrawn" : "Verified certificate"}</p>
+            <div className="flex w-full max-w-4xl flex-col items-center gap-6 text-center">
+              <p className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-sm font-bold text-royal shadow-sm">{c.revoked ? "Certificate withdrawn" : "✓ Verified STRONGS certificate"}</p>
               {c.revoked ? (
                 <p className="lead max-w-lg text-muted">Certificate {c.code} was issued by STRONGS but has since been withdrawn{c.revoked_reason ? `: ${c.revoked_reason}` : "."}</p>
               ) : (
                 <>
-                  <p className="italic text-muted">This certifies that</p>
-                  <p className="font-serif text-[clamp(2rem,5vw,3rem)] font-semibold leading-tight text-navy">{c.learner_name}</p>
-                  <p className="text-muted">completed the STRONGS {c.school === "theology" ? "School of Theology " : ""}course</p>
-                  <p className="text-[clamp(1.4rem,3vw,2rem)] font-bold leading-tight text-navy">{c.course_title}</p>
-                  <p className="text-muted">on {date(c.issued_at)}</p>
-                  <p className="text-xs uppercase tracking-[0.2em] text-muted">Certificate no. {c.code}</p>
+                  <h1 className="sr-only">Certificate of completion for {c.learner_name}</h1>
+                  <CertificatePreview name={c.learner_name} course={c.course_title} school={c.school} date={date(c.issued_at)} code={c.code} />
                   <div className="flex flex-wrap justify-center gap-3">
                     <a href={`/certificates/${c.code}/pdf/`} className="btn btn-navy">Download PDF</a>
                     {c.slug && <Link href={c.school === "theology" ? `/courses/theology/${c.slug}/` : `/courses/${c.slug}/`} className="btn btn-line">About the course</Link>}

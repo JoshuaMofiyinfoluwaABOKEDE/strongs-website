@@ -3,7 +3,8 @@ import { Ref } from "@/components/theology/Ref";
 import { q } from "@/lib/db";
 import { lessonKey } from "@/lib/theology/content";
 import { loadTheology } from "@/lib/theology/learner";
-import { UnitShell } from "@/components/theology/Units";
+import { Locked, UnitShell } from "@/components/theology/Units";
+import { lockReason } from "@/lib/theology/progress";
 import { renderMarkdown } from "@/lib/markdown";
 import { completeTheologyLesson } from "@/app/theology/actions";
 
@@ -17,6 +18,8 @@ export default async function TheologyLesson({ params }: { params: Promise<{ slu
   const m = c.modules[week - 1];
   const lesson = m?.lessons[n - 1];
   if (!lesson) notFound();
+  const lock = lockReason(c, g, { kind: "lesson", week });
+  if (lock) return <UnitShell c={c} g={g} current={`w${week}l${n}`}><Locked c={c} g={g} reason={lock} /></UnitShell>;
   await q(`UPDATE lms_enrolment SET last_key = $3, last_active_at = now() WHERE user_id = $1 AND course_id = $2`, [user.id, row.id, lessonKey(week, n)]);
   const done = g.lessonsDone.has(lessonKey(week, n));
 

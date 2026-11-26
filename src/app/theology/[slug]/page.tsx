@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { examOpen, testOpen } from "@/lib/theology/progress";
 import { theologyRules } from "@/content/theology/catalog";
 import { courseUnits } from "@/components/theology/Units";
 import { one } from "@/lib/db";
@@ -20,8 +21,8 @@ export default async function TheologyHome({ params }: { params: Promise<{ slug:
   const cert = g.passed ? await one<{ code: string; revoked: boolean }>(`SELECT code, revoked FROM lms_certificate WHERE user_id = $1 AND course_id = $2`, [user.id, row.id]) : null;
   const assess = [
     ...c.assignments.map((a, i) => ({ title: `Assignment ${i + 1}: ${a.title}`, href: `${base}/assignment/${i + 1}/`, status: g.assignments[i]?.status === "graded" ? `Graded ${g.assignments[i]!.score}/100` : g.assignments[i]?.status === "returned" ? "Returned for revision" : g.assignments[i] ? "Waiting to be graded" : "Not handed in", done: g.assignments[i]?.status === "graded" })),
-    { title: "Course test", href: `${base}/test/`, status: g.testBest != null ? `Best ${g.testBest}% · ${g.testAttempts.filter((t) => t.status === "submitted").length} of ${theologyRules.test.attempts} attempts used` : "Not taken", done: g.parts.test },
-    { title: "Final exam", href: `${base}/exam/`, status: g.exam?.status === "submitted" ? `${g.exam.score}%` : g.parts.lessons && g.parts.quizzes ? "Ready to take" : "Opens after every lesson and quiz", done: g.parts.exam },
+    { title: "Course test", href: `${base}/test/`, status: g.testBest != null ? `Best ${g.testBest}% · ${g.testAttempts.filter((t) => t.status === "submitted").length} of ${theologyRules.test.attempts} attempts used` : testOpen(g) ? "Ready to take" : "Opens after every weekly quiz", done: g.parts.test },
+    { title: "Final exam", href: `${base}/exam/`, status: g.exam?.status === "submitted" ? `${g.exam.score}%` : examOpen(g) ? "Ready to take" : "Opens after the course test", done: g.parts.exam },
   ];
 
   return (
@@ -53,7 +54,7 @@ export default async function TheologyHome({ params }: { params: Promise<{ slug:
                 <li key={w}>
                   <details className="group rounded-2xl border border-line bg-white" open={!done && wu.some((u) => u.key === resume?.key)}>
                     <summary className="flex cursor-pointer list-none items-center gap-3 px-4 sm:gap-4 py-3.5 sm:px-5 sm:py-4">
-                      <span className={`grid h-7 w-7 flex-none place-items-center rounded-full text-xs font-bold sm:h-8 sm:w-8 sm:text-sm ${done ? "bg-royal text-white" : "bg-mist text-navy"}`}>{done ? "✓" : w}</span>
+                      <span className={`grid h-7 w-7 flex-none place-items-center rounded-full text-xs font-bold sm:h-8 sm:w-8 sm:text-sm ${done ? "bg-royal text-white" : "bg-mist text-navy"}`}>{done ? "✓" : wu[0]?.lock ? "🔒" : w}</span>
                       <span className="flex min-w-0 flex-1 flex-col"><span className="text-[0.6875rem] font-bold uppercase tracking-[0.12em] text-royal sm:text-xs">Week {w}</span><span className="text-[0.9375rem] font-semibold leading-snug text-navy sm:text-base">{m.title}</span></span>
                       <span className="text-sm text-muted">{wu.filter((u) => u.done).length}/{wu.length}</span>
                       <span className="text-xl text-royal group-open:rotate-180">⌄</span>
@@ -63,8 +64,8 @@ export default async function TheologyHome({ params }: { params: Promise<{ slug:
                         <li key={u.key}>
                           <Link href={u.href} className="flex items-center gap-3 px-4 py-3 sm:px-5 text-[0.9375rem] text-ink no-underline hover:bg-mist">
                             <span aria-hidden="true" className="w-5 text-center text-steel">{icon[u.kind]}</span>
-                            <span className="flex-1">{u.title}{u.kind === "quiz" && g.quizBest[i] != null && <span className="text-muted"> · best {g.quizBest[i]}%</span>}</span>
-                            {u.done ? <span className="text-royal" aria-label="complete">✓</span> : <span className="text-steel" aria-hidden="true">○</span>}
+                            <span className={`flex-1 ${u.lock ? "text-muted" : ""}`}>{u.title}{u.kind === "quiz" && g.quizBest[i] != null && <span className="text-muted"> · best {g.quizBest[i]}%</span>}</span>
+                            {u.done ? <span className="text-royal" aria-label="complete">✓</span> : u.lock ? <span className="text-xs" aria-label="locked">🔒</span> : <span className="text-steel" aria-hidden="true">○</span>}
                           </Link>
                         </li>
                       ))}

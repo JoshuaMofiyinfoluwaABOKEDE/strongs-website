@@ -6,6 +6,9 @@
 
 export type CourseCategory =
   | "bible"
+  | "theology"
+  | "living"
+  | "history"
   | "evangelism"
   | "writing"
   | "music"
@@ -16,6 +19,9 @@ export type CourseCategory =
 
 export const courseCategories: { id: CourseCategory; name: string; blurb: string }[] = [
   { id: "bible", name: "Bible and doctrine", blurb: "Read, understand and live the Scriptures." },
+  { id: "theology", name: "Theology", blurb: "God, Christ, salvation, the church and the last things." },
+  { id: "living", name: "Christian living and ethics", blurb: "Prayer, growth, ethics, family, money and society." },
+  { id: "history", name: "Church history", blurb: "The story of the church, from the apostles to Africa today." },
   { id: "evangelism", name: "Evangelism and discipleship", blurb: "Win souls and keep them." },
   { id: "writing", name: "Writing", blurb: "Write for God with clarity and craft." },
   { id: "music", name: "Music and singing", blurb: "Sing and play to the glory of God." },

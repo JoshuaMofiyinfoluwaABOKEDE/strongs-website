@@ -1,3 +1,4 @@
+import { examOpen } from "@/lib/theology/progress";
 import { theologyRules } from "@/content/theology/catalog";
 import { ExamForm } from "@/components/theology/ExamForm";
 import { PaperFields } from "@/components/theology/Paper";
@@ -18,7 +19,7 @@ export default async function ExamPage({ params, searchParams }: { params: Promi
     `SELECT id, questions, answers, marks, score, status, deadline_at, submitted_at FROM th_attempt WHERE user_id=$1 AND course_id=$2 AND kind='exam'`,
     [user.id, row.id],
   );
-  const ready = g.parts.lessons && g.parts.quizzes;
+  const ready = examOpen(g);
 
   return (
     <AssessShell c={c} g={g} title={"Final exam"}>
@@ -60,7 +61,7 @@ export default async function ExamPage({ params, searchParams }: { params: Promi
           <button type="submit" className="btn btn-navy cursor-pointer self-start border-0 font-[inherit]">Start the exam</button>
         </form>
       )}
-      {error === "locked" && <p role="alert" className="text-sm text-[#8a1c1c]">Finish the lessons and pass every weekly quiz first.</p>}
+      {error === "locked" && <p role="alert" className="text-sm text-[#8a1c1c]">Finish the lessons, pass every weekly quiz and take the course test first.</p>}
     </article>
     </AssessShell>
   );
