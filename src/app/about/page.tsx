@@ -5,7 +5,7 @@ import { PageHero, Photo, Portrait, Scripture, SectionHeading } from "@/componen
 
 export const metadata: Metadata = {
   title: "Who we are",
-  description: "STRONGS, The Spiritual Intellectuals: a Christian, non-denominational gospel mission founded by Joshua Mofiyinfoluwa ABOKEDE.",
+  description: "STRONGS, The Spiritual Intellectuals: a Christian, non-denominational gospel mission led by its General Coordinator, Joshua Mofiyinfoluwa ABOKEDE.",
 };
 
 const convictions = [
@@ -28,22 +28,22 @@ export default function AboutPage() {
       <PageHero
         eyebrow="Who we are"
         title="A gospel mission raising spiritual intellectuals"
-        intro={`STRONGS, The Spiritual Intellectuals, is a Christian, non-denominational mission founded by ${site.founder}. We exist to proclaim the gospel of Jesus Christ, disciple believers through sound biblical teaching and equip a generation for effective service in God's kingdom.`}
+        intro={`STRONGS, The Spiritual Intellectuals, is a Christian, non-denominational mission led by its General Coordinator, ${site.coordinator}. We exist to proclaim the gospel of Jesus Christ, disciple believers through sound biblical teaching and equip a generation for effective service in God's kingdom.`}
       />
 
       <section aria-labelledby="story-title" className="bg-white">
         <div className="container-site section-pad grid items-start gap-14 lg:grid-cols-[1.1fr_1fr]">
           <Photo
-            src="/images/photos/founder-campus-aflame.webp"
-            alt="Joshua Mofiyinfoluwa ABOKEDE, founder of STRONGS, preaching with a microphone at Campus aFlame"
-            caption={<>{site.founder}, founder and General Coordinator, preaching at Campus aFlame, LAUTECH.</>}
+            src="/images/photos/abokede-campus-aflame.webp"
+            alt="Joshua Mofiyinfoluwa ABOKEDE, General Coordinator of STRONGS, preaching with a microphone at Campus aFlame"
+            caption={<>{site.coordinator}, General Coordinator, preaching at Campus aFlame, LAUTECH.</>}
             className="lg:sticky lg:top-28"
             imgClassName="aspect-[5/4]"
           />
           <div className="flex flex-col gap-5">
             <SectionHeading id="story-title" eyebrow="Our story" title="Born of a burden for souls and for the Word" />
             <p className="text-lg font-medium text-navy">
-              STRONGS began with a divine call in {site.founded}: a burden laid on {site.founder} to reach secondary-school students with the gospel.
+              STRONGS began with a divine call in {site.founded}: a burden laid on {site.coordinator}, our General Coordinator, to reach secondary-school students with the gospel.
             </p>
             <p className="lead text-muted">
               Two burdens have driven the work ever since: to see sinners turned to saints and saints turned to soul winners, and to raise believers who handle the Word of God rightly. A company of Bible students and young believers saw how many people longed to understand Scripture but could not find teaching that was sound, practical and plain.

@@ -20,36 +20,10 @@ export const crusadeArm = {
     role: "Crusade Director",
     photo: "/images/people/oyerinde.webp",
     profile:
-      "Prophet Oyerinde, known to many as Prophet Bolu, directs the crusade arm of STRONGS. He prepares each town for the gospel through prayer, publicity and the training of counsellors, and he has laboured beside the founder in town and village crusades.",
+      "Prophet Oyerinde, known to many as Prophet Bolu, directs the crusade arm of STRONGS. He prepares each town for the gospel through prayer, publicity and the training of counsellors, and he has laboured beside the General Coordinator in town and village crusades.",
     responsibilities:
       "He works with each host church and local crusade director on prayer, publicity, counsellors, music, welfare and the crusade budget, and he sees that every convert is followed up and joined to a local church.",
   },
-  team: [
-    {
-      name: "Nurse Ruth O. ODUOLA",
-      role: "Head of the Medical Mission",
-      text: "Leads the medical outreach and health talks at our crusades.",
-      photo: "/images/people/oduola.webp",
-    },
-    {
-      name: "Ev. Godwin Ayorinde OLAEWE",
-      role: "Vice President and drama minister",
-      text: "Preaches and leads drama ministry on the crusade ground.",
-      photo: "/images/people/olaewe.webp",
-    },
-    {
-      name: "Ev. Joshua OYETUNJI",
-      role: "Music evangelist (saxophonist)",
-      text: "Leads worship before the gospel is preached.",
-      photo: "/images/people/oyetunji.webp",
-    },
-    {
-      name: "Blessing AJAYI",
-      role: "Music evangelist",
-      text: "Ministers in song at our crusades.",
-      photo: "/images/people/ajayi.webp",
-    },
-  ] as { name: string; role: string; text: string; photo?: string }[],
   howItRuns: [
     {
       title: "Prayer first",
@@ -157,7 +131,7 @@ export const crusadePages: CrusadePage[] = [
       { day: "Sun 13 Dec", items: ["Closing gospel meeting, 4pm"] },
     ],
     ministers: [
-      { name: "J. Mofiyinfoluwa ABOKEDE", role: "Founder and General Coordinator, STRONGS", photo: "/images/people/abokede.webp" },
+      { name: "J. Mofiyinfoluwa ABOKEDE", role: "General Coordinator, STRONGS", photo: "/images/people/abokede.webp" },
       { name: "Prophet Wasiu Olawale (Bolu) OYERINDE", role: "Crusade Director", photo: "/images/people/oyerinde.webp" },
       { name: "Ev. Godwin Ayorinde OLAEWE", role: "Vice President, STRONGS", photo: "/images/people/olaewe.webp" },
       { name: "Prophet Ogundeji", role: "Minister", photo: "/images/people/ogundeji.webp" },

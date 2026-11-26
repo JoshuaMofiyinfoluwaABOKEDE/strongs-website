@@ -1,5 +1,5 @@
 /**
- * The two weekly meetings at the heart of STRONGS, both led by the founder.
+ * The two weekly meetings at the heart of STRONGS, both led by the General Coordinator.
  * Change a day, time or place here and it updates on every page.
  */
 
@@ -23,7 +23,7 @@ export type Meeting = {
 
 export const meetingsLeader = {
   name: "Joshua Mofiyinfoluwa ABOKEDE",
-  role: "Founder and General Coordinator",
+  role: "General Coordinator",
   photo: "/images/people/abokede.webp",
 };
 

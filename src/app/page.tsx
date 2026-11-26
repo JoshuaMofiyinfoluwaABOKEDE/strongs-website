@@ -11,7 +11,7 @@ import { Carousel } from "@/components/Carousel";
 import { Slideshow } from "@/components/Slideshow";
 import { Scripture, SectionHeading, TextLink } from "@/components/ui";
 import { StrongsForm } from "@/components/Form";
-import { ArrowRight, Book, Cap, Flame, Globe, Heart, Music, People, Pin, Plus, Sun } from "@/components/icons";
+import { ArrowRight, Cap, Flame, Globe, Heart, Music, Pin, Plus, Sun } from "@/components/icons";
 
 const heritage = [
   { era: "The Reformers", quote: "My conscience is captive to the Word of God.", who: "Martin Luther, 1521" },
@@ -28,16 +28,13 @@ const fieldSlides: { src: string; alt: string; tag: string; caption: string; pos
   { src: "/images/photos/irele-hall-preaching.webp", alt: "An evangelist ministering to students in a school hall with a thatched roof", tag: "Student outreach", caption: "Ministering to students during the Irele Student Outreach." },
   { src: "/images/photos/medical-school-talk-3.webp", alt: "A wide view of a hall full of students in different uniforms listening to a health talk", tag: "Medical mission", caption: "Students from several schools at a health talk." },
   { src: "/images/photos/teens-capacity-1.webp", alt: "A minister teaching from the pulpit while teenagers listen from the pews", tag: "Teenagers", caption: "Teenagers' Capacity Building, Sepeteri, September 2026." },
-  { src: "/images/photos/founder-campus-aflame.webp", alt: "Joshua Mofiyinfoluwa ABOKEDE preaching at Campus aFlame", tag: "Campus mission", caption: "Campus aFlame: the gospel on university campuses.", pos: "center top" },
+  { src: "/images/photos/abokede-campus-aflame.webp", alt: "Joshua Mofiyinfoluwa ABOKEDE preaching at Campus aFlame", tag: "Campus mission", caption: "Campus aFlame: the gospel on university campuses.", pos: "center top" },
 ];
 
 const fields = [
-  { icon: Globe, title: "Crusades and open-air preaching", text: "The gospel proclaimed in streets, markets and town squares.", href: "/crusades/" },
+  { icon: Globe, title: "Crusades and open-air preaching", text: "The gospel in streets, markets and towns and villages few others visit.", href: "/crusades/" },
   { icon: Flame, title: "Campus and school missions", text: "Campus aFlame, and gospel outreaches to universities and secondary schools.", href: "/missions/#school" },
-  { icon: Cap, title: "Children and teens", text: "The Children’s Bible Club every Saturday, Children for Christ every year, and the Teenagers’ Community.", href: "/missions/#children" },
-  { icon: Pin, title: "Rural evangelism", text: "Reaching towns and villages that few others visit.", href: "/crusades/" },
-  { icon: Book, title: "Discipleship and Bible study", text: "The weekly Bible Club and Evangelism Training ground believers and make them soul winners.", href: "/meetings/" },
-  { icon: People, title: "Conferences and mission training", text: "Students Mission Conference, Fire Conference and workers' training.", href: "/calendar/" },
+  { icon: Cap, title: "Children and teens", text: "Children for Christ every year, and the Teenagers’ Community.", href: "/missions/#children" },
   { icon: Sun, title: "Prayer and intercession", text: "Three seasons of fasting and prayer every year: January, March to April, and September.", href: "/meetings/#prayer" },
   { icon: Music, title: "Drama, music and the arts", text: "Drama evangelism and communities for writers and musicians.", href: "/missions/#drama" },
   { icon: Plus, title: "Medical mission and care", text: "Faith expressed in practical care for the communities we reach.", href: "/missions/#medical" },
@@ -59,9 +56,7 @@ export default function HomePage() {
               Win the lost. Ground the saved. <span className="text-gold">Send out soul winners.</span>
             </h1>
             <p className="lead max-w-xl text-pale">
-              STRONGS is a non-denominational gospel mission. We carry the gospel to campuses, schools, towns and villages,
-              root new believers in sound biblical teaching, and send them out to reach others. The fields are white unto
-              harvest.
+              A non-denominational gospel mission to campuses, schools, towns and villages.
             </p>
             <div className="flex flex-wrap gap-3.5">
               <Link href="/meetings/" className="btn btn-gold">
@@ -102,30 +97,46 @@ export default function HomePage() {
               id="weekly-title"
               eyebrow="Every week"
               title="Trained and equipped to serve"
-              intro="Our two core meetings, where believers are grounded in the Word and made resolute, resilient and relentless soul winners."
+              intro="Our two core meetings: one to ground believers in the Word, one to send them out as soul winners."
             />
             <TextLink href="/meetings/">About the meetings</TextLink>
           </div>
-          <div className="grid gap-5 md:grid-cols-2">
-            {meetings.map((m) => (
-              <Link
-                key={m.id}
-                href={`/meetings/#${m.id}`}
-                className="group flex flex-col gap-3 rounded-3xl border-t-[5px] border-gold bg-white p-[clamp(1.5rem,3vw,2.25rem)] text-ink no-underline shadow-[0_0_0_1px_var(--color-line)] hover:text-ink hover:shadow-[0_0_0_2px_var(--color-royal)]"
-              >
-                <p className="text-xs font-bold uppercase tracking-[0.18em] text-royal">{m.purpose}</p>
-                <h3 className="text-[clamp(1.4rem,2.3vw,1.85rem)] font-bold leading-tight text-navy">{m.name}</h3>
-                <p className="flex flex-wrap items-baseline gap-x-3">
-                  <span className="text-[clamp(1.75rem,3vw,2.25rem)] font-extrabold leading-none tracking-[-0.02em] text-navy">{m.day}</span>
-                  <span className="text-xl font-bold text-royal">{m.time}</span>
-                </p>
-                <p className="flex items-start gap-2 text-[0.9375rem] text-muted">
-                  <span className="mt-0.5 text-royal">{m.online ? <Globe size={18} /> : <Pin size={18} />}</span>
-                  <span><strong className="font-semibold text-navy">{m.whereNote}:</strong> {m.where}</span>
-                </p>
-                <span className="mt-auto pt-1 text-sm font-semibold text-royal group-hover:underline">Join us →</span>
-              </Link>
-            ))}
+          <div className="grid gap-5 lg:grid-cols-2">
+            {meetings.map((m) => {
+              const last = m.recent.find((r) => r.image);
+              return (
+                <Link
+                  key={m.id}
+                  href={`/meetings/#${m.id}`}
+                  className="group grid overflow-hidden rounded-2xl border border-line bg-white text-ink no-underline hover:border-royal hover:text-ink sm:grid-cols-[13rem_1fr]"
+                >
+                  {last?.image && (
+                    <figure className="relative h-72 overflow-hidden bg-navy sm:h-full">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={last.image} alt="" aria-hidden="true" loading="lazy" className="absolute inset-0 h-full w-full scale-110 object-cover opacity-40 blur-xl" />
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={last.image} alt={`Flyer: ${last.title}`} loading="lazy" className="absolute inset-0 h-full w-full object-contain p-3 pb-10" />
+                      <figcaption className="absolute inset-x-0 bottom-0 bg-navy/85 px-3 py-2 text-[0.75rem] leading-snug text-pale">
+                        Last flyer · {last.date}
+                      </figcaption>
+                    </figure>
+                  )}
+                  <div className="flex flex-col gap-3 p-[clamp(1.25rem,2.5vw,1.75rem)]">
+                    <h3 className="text-[clamp(1.3rem,2vw,1.6rem)] font-bold leading-tight text-navy">{m.name}</h3>
+                    <p className="text-[0.9375rem] text-muted">{m.purpose}.</p>
+                    <p className="flex flex-wrap items-baseline gap-x-2.5 border-y border-line py-3">
+                      <span className="text-2xl font-extrabold tracking-[-0.01em] text-navy">{m.day}</span>
+                      <span className="text-lg font-bold text-royal">{m.time}</span>
+                    </p>
+                    <p className="flex items-start gap-2 text-[0.9375rem] text-muted">
+                      <span className="mt-0.5 text-royal">{m.online ? <Globe size={18} /> : <Pin size={18} />}</span>
+                      <span><strong className="font-semibold text-navy">{m.whereNote}:</strong> {m.where}</span>
+                    </p>
+                    <span className="mt-auto pt-1 text-sm font-semibold text-royal group-hover:underline">Join us →</span>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
           <p className="flex items-center gap-3 text-[0.9375rem] text-muted">
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -173,9 +184,7 @@ export default function HomePage() {
                 {crusade.title}
               </h2>
               <p className="lead max-w-2xl text-muted">
-                For five days we will lift up Christ in Sepeteri. Gospel meetings for the town, a programme for students, a
-                conference to equip ministers and workers, and medical care for the community. Come and hear. Come and
-                serve. Pray that many will be saved.
+                Five days of lifting up Christ in Sepeteri. Come and hear, come and serve, and pray that many will be saved.
               </p>
               <ul className="grid gap-x-8 sm:grid-cols-2">
                 {[
@@ -203,7 +212,7 @@ export default function HomePage() {
             id="heritage-title"
             eyebrow="Our heritage"
             title="We stand in a great line of witnesses"
-            intro="STRONGS did not invent its burden. We follow the Reformers who put the Bible back in the hands of the people, the Puritans who preached with eternity in view, the revivalists who saw whole regions awakened, and the missionaries who would not rest while any had not heard."
+            intro="STRONGS did not invent its burden. We carry what others carried before us."
           />
           <Slideshow
             label="Voices from our heritage"
@@ -224,7 +233,7 @@ export default function HomePage() {
       <section aria-labelledby="fields-title" className="bg-white">
         <div className="container-site section-pad flex flex-col gap-11">
           <div className="flex flex-wrap items-end justify-between gap-6">
-            <SectionHeading id="fields-title" eyebrow="The whole gospel to the whole man" title="Fields of labour" intro="One mission, carried into every place the gospel is needed: spirit, soul and body." />
+            <SectionHeading id="fields-title" eyebrow="The whole gospel to the whole man" title="Fields of labour"  />
             <TextLink href="/missions/">Our missions</TextLink>
           </div>
           <Carousel label="Fields of labour">
@@ -309,21 +318,23 @@ export default function HomePage() {
             id="mandate-title"
             eyebrow="Why “The Spiritual Intellectuals”"
             title="We preach for decisions and teach for depth"
-            intro="A convert must become a disciple, and a disciple must become a labourer. So we raise believers who are deep in God, sound in mind and upright in life."
+            intro="A convert must become a disciple, and a disciple a labourer."
           />
-          <div className="grid gap-6 md:grid-cols-3">
+          <ol className="border-t-2 border-navy">
             {[
-              ["I", "Spiritual depth", "Biblical understanding, prayer, discipleship and growth in Christ-like character."],
-              ["II", "Intellectual soundness", "Thoughtful engagement with Scripture, clear reasoning and responsible communication."],
-              ["III", "Moral uprightness", "Integrity, discipline and responsibility, so that what we believe shows in how we live."],
-            ].map(([n, t, d]) => (
-              <article key={t} className="flex flex-col gap-3 rounded-3xl border-t-[5px] border-gold bg-white p-8">
-                <p className="text-4xl font-extrabold leading-none text-royal">{n}</p>
-                <h3 className="text-2xl font-bold text-navy">{t}</h3>
+              ["Spiritual depth", "Biblical understanding, prayer, discipleship and growth in Christ-like character.", "Rooted and built up in him, and stablished in the faith.", "Colossians 2:7"],
+              ["Intellectual soundness", "Thoughtful engagement with Scripture, clear reasoning and responsible communication.", "Of power, and of love, and of a sound mind.", "2 Timothy 1:7"],
+              ["Moral uprightness", "Integrity, discipline and responsibility, so that what we believe shows in how we live.", "Live soberly, righteously, and godly, in this present world.", "Titus 2:12"],
+            ].map(([t, d, v, ref]) => (
+              <li key={t} className="grid gap-x-10 gap-y-2 border-b border-navy/20 py-7 md:grid-cols-[16rem_1fr_1fr] md:items-baseline">
+                <h3 className="text-[clamp(1.4rem,2.2vw,1.75rem)] font-bold leading-tight text-navy">{t}</h3>
                 <p className="text-muted">{d}</p>
-              </article>
+                <p className="text-[1.0625rem] font-medium italic text-navy">
+                  “{v}” <span className="whitespace-nowrap text-sm font-semibold not-italic text-royal">{ref}</span>
+                </p>
+              </li>
             ))}
-          </div>
+          </ol>
         </div>
       </section>
 
@@ -371,8 +382,7 @@ export default function HomePage() {
             <p className="eyebrow">STRONGS Communities</p>
             <h2 id="communities-title" className="h2 text-navy">Every gift has a place in the Kingdom</h2>
             <p className="lead text-muted">
-              Interest-based communities where writers, musicians, teenagers, thinkers, creatives, speakers, young
-              professionals and readers connect, learn from experienced hands and produce meaningful work together.
+              Interest-based communities where members learn from experienced hands and produce meaningful work together.
             </p>
             <div className="flex flex-wrap gap-3.5 pt-1.5">
               <Link href="/communities/" className="btn btn-navy">Explore the communities</Link>
@@ -396,7 +406,7 @@ export default function HomePage() {
               id="courses-title"
               eyebrow="STRONGS Courses · Learning and innovation"
               title="Sharpen your mind. Build your future."
-              intro={`${courses.length} short courses for spiritual intellectuals: writing, music, media and design, leadership, health, digital skills, enterprise and sound biblical thinking. Study online, a few hours a week.`}
+              intro="Short online courses for spiritual intellectuals, a few hours a week."
             />
             <Link href="/courses/" className="inline-flex min-h-11 items-center gap-2 font-semibold text-gold no-underline hover:text-white">All courses <ArrowRight size={18} /></Link>
           </div>
@@ -446,8 +456,7 @@ export default function HomePage() {
             id="involved-title"
             eyebrow="Get involved"
             title="Go with us. Pray for us. Hold the ropes."
-            intro="Every crusade, campus mission and conference is carried by those who go, those who pray and those who give so that others can go."
-          />
+                      />
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {[
               ["Pray", "Stand with the mission team before and during every outreach."],

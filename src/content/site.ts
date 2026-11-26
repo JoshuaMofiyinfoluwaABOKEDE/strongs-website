@@ -16,7 +16,7 @@ export const site = {
   phoneHref: "tel:+2348137890055",
   address: "STRONGS HQ, Obananko Road, Oyo, Oyo State",
   facebook: { label: "Strongs on Facebook", href: "" }, // [Add the STRONGS Facebook page link]
-  founder: "Joshua Mofiyinfoluwa ABOKEDE",
+  coordinator: "Joshua Mofiyinfoluwa ABOKEDE",
   founded: "September 2020",
 };
 
@@ -54,7 +54,7 @@ export const giving = {
 export const leaders: { name: string; role: string; bio: string; initials: string; photo?: string }[] = [
   {
     name: "Joshua Mofiyinfoluwa ABOKEDE",
-    role: "Founder and General Coordinator",
+    role: "General Coordinator",
     bio: "A Bible expositor who personally leads the weekly Bible Club and Evangelism Training, and is committed to preaching to and leading secondary-school students.",
     initials: "JA",
     photo: "/images/people/abokede.webp",

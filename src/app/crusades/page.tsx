@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { crusadeArm } from "@/content/crusades";
 import { crusades, events, past, upcoming } from "@/content/events";
-import { Photo, PhotoSlot, Portrait, SectionHeading } from "@/components/ui";
+import { Photo, PhotoSlot, SectionHeading } from "@/components/ui";
 import { StrongsForm } from "@/components/Form";
 import { Carousel } from "@/components/Carousel";
 
@@ -107,7 +107,7 @@ export default function CrusadesPage() {
 
       <section id="leadership" aria-labelledby="lead-title" className="bg-mist">
         <div className="container-site section-pad flex flex-col gap-9">
-          <SectionHeading id="lead-title" eyebrow="Leadership" title="The crusade team" />
+          <SectionHeading id="lead-title" eyebrow="Leadership" title="The Crusade Director" />
           <article className="flex flex-wrap overflow-hidden rounded-3xl bg-white">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={d.photo} alt={`Portrait of ${d.name}`} className="min-h-[22rem] flex-[1_1_20rem] bg-navy object-cover object-top" />
@@ -117,16 +117,6 @@ export default function CrusadesPage() {
               <p className="lead text-muted">{d.profile}</p>
             </div>
           </article>
-          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {crusadeArm.team.map((t) => (
-              <li key={t.name} className="flex flex-col gap-2 rounded-3xl border border-line bg-white p-7">
-                <div className="mb-1"><Portrait photo={t.photo} alt={`Portrait of ${t.name}`} /></div>
-                <h3 className="text-lg font-semibold leading-snug text-navy">{t.name}</h3>
-                <p className="text-sm font-semibold text-royal">{t.role}</p>
-                <p className="text-[0.9375rem] text-muted">{t.text}</p>
-              </li>
-            ))}
-          </ul>
         </div>
       </section>
 
