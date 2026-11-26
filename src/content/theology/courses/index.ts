@@ -13,6 +13,9 @@ import c_old_testament_survey_poetry_and_prophets from "./old-testament-survey-p
 import c_sin_and_the_fall from "./sin-and-the-fall.json";
 import c_the_bible_revelation_and_authority from "./the-bible-revelation-and-authority.json";
 import c_the_doctrine_of_god from "./the-doctrine-of-god.json";
+import c_the_holy_spirit from "./the-holy-spirit.json";
 import c_the_holy_trinity from "./the-holy-trinity.json";
+import c_the_person_of_christ from "./the-person-of-christ.json";
+import c_the_work_of_christ from "./the-work-of-christ.json";
 
-export const theologyCourses = [c_angels_satan_and_demons, c_creation_and_providence, c_how_the_bible_came_to_us, c_humanity_in_the_image_of_god, c_interpreting_the_bible, c_introduction_to_theology, c_new_testament_survey_epistles_and_revelation, c_new_testament_survey_gospels_and_acts, c_old_testament_survey_law_and_history, c_old_testament_survey_poetry_and_prophets, c_sin_and_the_fall, c_the_bible_revelation_and_authority, c_the_doctrine_of_god, c_the_holy_trinity] as TheologyCourse[];
+export const theologyCourses = [c_angels_satan_and_demons, c_creation_and_providence, c_how_the_bible_came_to_us, c_humanity_in_the_image_of_god, c_interpreting_the_bible, c_introduction_to_theology, c_new_testament_survey_epistles_and_revelation, c_new_testament_survey_gospels_and_acts, c_old_testament_survey_law_and_history, c_old_testament_survey_poetry_and_prophets, c_sin_and_the_fall, c_the_bible_revelation_and_authority, c_the_doctrine_of_god, c_the_holy_spirit, c_the_holy_trinity, c_the_person_of_christ, c_the_work_of_christ] as TheologyCourse[];

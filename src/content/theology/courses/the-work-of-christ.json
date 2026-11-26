@@ -1,0 +1,289 @@
+{
+  "slug": "the-work-of-christ",
+  "title": "The Work of Christ",
+  "track": "christ",
+  "level": "Intermediate",
+  "summary": "What Jesus accomplished: His perfect life, atoning death, resurrection, ascension and ongoing intercession.",
+  "description": "Why did Jesus die, and what did His death achieve? This course explains why atonement was necessary, the meaning of Christ's sacrifice as our substitute, the many biblical pictures of the cross (redemption, propitiation, reconciliation and victory), the importance of the resurrection and ascension, and the different views Christians hold on the extent of the atonement.",
+  "objectives": [
+    "Explain why sin required an atonement",
+    "Teach the substitutionary nature of Christ's death",
+    "Explain the main biblical pictures of the atonement",
+    "Show the meaning of the resurrection and ascension",
+    "Present fairly the views on the extent of the atonement"
+  ],
+  "outcomes": [
+    "Explain how God can be both just and the justifier",
+    "Define propitiation, redemption and reconciliation",
+    "Show how Old Testament sacrifices point to the cross",
+    "Give evidence for and the significance of the resurrection",
+    "Compare limited and unlimited atonement fairly"
+  ],
+  "modules": [
+    {
+      "title": "Why the Cross Was Necessary",
+      "intro": "Could God simply forgive without the cross? This week we see why atonement was needed.",
+      "lessons": [
+        {
+          "title": "A holy God and sinful people",
+          "body": "God is holy and just; He \"will by no means clear the guilty\" (Exodus 34:7). Sin deserves death (Romans 6:23). A judge who ignores crime is not good.\n\nYet God is also love, and desires to save. How can He forgive sinners without denying His justice?\n\nThe answer is the cross. God set forth Christ \"to be a propitiation... to declare his righteousness: that he might be just, and the justifier of him which believeth in Jesus\" (Romans 3:25-26). At the cross, sin is truly punished and sinners are truly forgiven.",
+          "refs": ["Exodus 34:6-7", "Romans 3:25-26", "Romans 6:23"]
+        },
+        {
+          "title": "Without shedding of blood",
+          "body": "Throughout the Old Testament, God taught that sin brings death and that a substitute could die in the sinner's place. \"The life of the flesh is in the blood... it is the blood that maketh an atonement for the soul\" (Leviticus 17:11).\n\n\"Without shedding of blood is no remission\" (Hebrews 9:22). Yet \"it is not possible that the blood of bulls and of goats should take away sins\" (Hebrews 10:4). The sacrifices were shadows pointing to a better sacrifice.\n\nJohn the Baptist announced Him: \"Behold the Lamb of God, which taketh away the sin of the world\" (John 1:29).",
+          "refs": ["Leviticus 17:11", "Hebrews 9:22", "John 1:29"]
+        },
+        {
+          "title": "The obedient life",
+          "body": "Christ's saving work includes His perfect life as well as His death. He was \"made under the law, to redeem them that were under the law\" (Galatians 4:4-5). He said, \"thus it becometh us to fulfil all righteousness\" (Matthew 3:15).\n\nWhere Adam disobeyed, Christ obeyed: \"by the obedience of one shall many be made righteous\" (Romans 5:19). He became \"obedient unto death, even the death of the cross\" (Philippians 2:8).\n\nHis spotless life qualified Him to be the Lamb \"without blemish and without spot\" (1 Peter 1:19), and His righteousness is credited to those who believe.",
+          "refs": ["Galatians 4:4-5", "Romans 5:19", "1 Peter 1:18-19"]
+        }
+      ],
+      "terms": [
+        { "term": "Atonement", "def": "The work by which Christ reconciled sinners to God through His death." },
+        { "term": "Justice of God", "def": "God's perfect rightness, which requires that sin be punished." },
+        { "term": "Remission", "def": "Forgiveness; the sending away of sin." },
+        { "term": "Lamb of God", "def": "John's title for Jesus as the sacrifice who takes away sin." },
+        { "term": "Active obedience", "def": "Christ's perfect keeping of God's law throughout His life." },
+        { "term": "Passive obedience", "def": "Christ's willing submission to suffering and death for our sins." }
+      ],
+      "texts": [
+        { "ref": "Exodus 34:7", "teaches": "God will by no means clear the guilty." },
+        { "ref": "Romans 3:26", "teaches": "God is just and the justifier of him who believes in Jesus." },
+        { "ref": "Leviticus 17:11", "teaches": "It is the blood that makes atonement for the soul." },
+        { "ref": "Hebrews 10:4", "teaches": "The blood of bulls and goats cannot take away sins." },
+        { "ref": "Romans 5:19", "teaches": "By the obedience of one shall many be made righteous." }
+      ],
+      "summary": [
+        "God's justice requires that sin be punished; His love desires to save.",
+        "At the cross, God is both just and the justifier.",
+        "Old Testament sacrifices pointed to Christ, the Lamb of God.",
+        "Christ's perfect obedient life is part of His saving work."
+      ],
+      "questions": [
+        { "q": "According to Romans 3:26, the cross shows God to be:", "options": ["Just and the justifier", "Only merciful", "Only angry", "Indifferent to sin"], "answer": 0 },
+        { "q": "What could not take away sins, according to Hebrews 10:4?", "options": ["The blood of bulls and goats", "The blood of Christ", "Repentance", "Faith"], "answer": 0 },
+        { "q": "Who called Jesus \"the Lamb of God\"?", "options": ["John the Baptist", "Peter", "Pilate", "Isaiah"], "answer": 0 },
+        { "q": "Christ's perfect keeping of the law is called His:", "options": ["Active obedience", "Passive obedience", "Ascension", "Session"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "He Died for Us",
+      "intro": "This week we study the heart of the atonement: Christ died as our substitute, bearing the penalty of our sin.",
+      "lessons": [
+        {
+          "title": "Isaiah 53: the suffering Servant",
+          "body": "Seven centuries before the cross, Isaiah described a Servant who would suffer for others:\n\n\"He was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed. All we like sheep have gone astray... and the LORD hath laid on him the iniquity of us all\" (Isaiah 53:5-6).\n\nNotice the words *for us* and *laid on him*. The Servant bears the sins of others and makes \"his soul an offering for sin\" (53:10). Philip used this passage to preach Jesus to the Ethiopian (Acts 8:32-35).",
+          "refs": ["Isaiah 53:4-6", "Isaiah 53:10-12", "Acts 8:32-35"]
+        },
+        {
+          "title": "Substitution",
+          "body": "The New Testament repeatedly says Christ died **for** us, in our place:\n\n- \"Christ died for our sins\" (1 Corinthians 15:3).\n- \"He hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him\" (2 Corinthians 5:21).\n- \"Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God\" (1 Peter 3:18).\n- \"Christ hath redeemed us from the curse of the law, being made a curse for us\" (Galatians 3:13).\n\nThis is called **penal substitution**: Christ bore the penalty our sins deserved.",
+          "refs": ["2 Corinthians 5:21", "1 Peter 3:18", "Galatians 3:13"]
+        },
+        {
+          "title": "My God, why hast thou forsaken me?",
+          "body": "On the cross Jesus cried, \"My God, my God, why hast thou forsaken me?\" (Matthew 27:46). He experienced the separation from God that sin deserves, as He bore our sins in His own body (1 Peter 2:24).\n\nThen He cried, \"It is finished\" (John 19:30). The Greek word was used for a debt paid in full. Nothing remains to be added to His work.\n\nThe cross shows both how serious sin is and how great God's love is: \"Herein is love, not that we loved God, but that he loved us, and sent his Son to be the propitiation for our sins\" (1 John 4:10).",
+          "refs": ["Matthew 27:45-46", "John 19:30", "1 John 4:10"]
+        }
+      ],
+      "terms": [
+        { "term": "Substitution", "def": "Christ taking our place and dying for us." },
+        { "term": "Penal substitution", "def": "Christ bearing the penalty that our sins deserved." },
+        { "term": "Suffering Servant", "def": "Isaiah's figure who bears the sins of many, fulfilled in Christ." },
+        { "term": "Imputation", "def": "Crediting one person's record to another: our sin to Christ, His righteousness to us." },
+        { "term": "It is finished", "def": "Christ's cry from the cross declaring His work complete, a debt paid in full." },
+        { "term": "Curse of the law", "def": "The condemnation the law pronounces on lawbreakers, which Christ bore." }
+      ],
+      "texts": [
+        { "ref": "Isaiah 53:5", "teaches": "He was wounded for our transgressions and bruised for our iniquities." },
+        { "ref": "Isaiah 53:6", "teaches": "The LORD laid on Him the iniquity of us all." },
+        { "ref": "2 Corinthians 5:21", "teaches": "Christ was made sin for us that we might be made righteous in Him." },
+        { "ref": "1 Peter 3:18", "teaches": "Christ suffered for sins, the just for the unjust, to bring us to God." },
+        { "ref": "Galatians 3:13", "teaches": "Christ redeemed us from the curse of the law by being made a curse for us." }
+      ],
+      "summary": [
+        "Isaiah 53 foretold a Servant suffering for others' sins.",
+        "Christ died as our substitute, bearing the penalty of our sin.",
+        "On the cross He was forsaken so that we might be accepted.",
+        "\"It is finished\": the debt is paid in full."
+      ],
+      "questions": [
+        { "q": "Which chapter of Isaiah describes the suffering Servant?", "options": ["Isaiah 53", "Isaiah 6", "Isaiah 40", "Isaiah 9"], "answer": 0 },
+        { "q": "What does penal substitution mean?", "options": ["Christ bore the penalty our sins deserved", "Christ only set an example", "Christ paid Satan a ransom", "Christ died by accident"], "answer": 0 },
+        { "q": "What did Jesus' cry \"It is finished\" signify?", "options": ["His saving work was complete, the debt paid", "His life had failed", "He gave up hope", "The temple was finished"], "answer": 0 },
+        { "q": "According to 2 Corinthians 5:21, what happens to believers?", "options": ["They are made the righteousness of God in Christ", "They become sin", "They earn salvation", "They become angels"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Pictures of the Cross",
+      "intro": "The Bible uses several pictures to describe what Christ's death achieved. This week we study four of them.",
+      "lessons": [
+        {
+          "title": "Propitiation and redemption",
+          "body": "**Propitiation** means turning away wrath by a sacrifice. God's righteous anger against sin is real (Romans 1:18). Christ is \"the propitiation for our sins\" (1 John 2:2); God's wrath fell on Him, so it does not fall on believers.\n\n**Redemption** comes from the marketplace: buying back a slave by paying a price. \"Ye were not redeemed with corruptible things, as silver and gold... But with the precious blood of Christ\" (1 Peter 1:18-19). The Son of man came \"to give his life a ransom for many\" (Mark 10:45).\n\nBelievers are no longer their own; they were \"bought with a price\" (1 Corinthians 6:20).",
+          "refs": ["1 John 2:2", "1 Peter 1:18-19", "Mark 10:45"]
+        },
+        {
+          "title": "Reconciliation",
+          "body": "**Reconciliation** is from the language of relationships: enemies made friends. Sin made us \"enemies\" of God (Romans 5:10) and \"alienated\" from Him (Colossians 1:21).\n\nThrough Christ, \"God was in Christ, reconciling the world unto himself, not imputing their trespasses unto them\" (2 Corinthians 5:19). Peace with God is now offered: \"Being justified by faith, we have peace with God\" (Romans 5:1).\n\nThe cross also reconciles people to one another, breaking down walls between Jew and Gentile and making \"one new man\" (Ephesians 2:14-16). This is the ministry of reconciliation given to us (2 Corinthians 5:18).",
+          "refs": ["Romans 5:10", "2 Corinthians 5:18-20", "Ephesians 2:14-16"]
+        },
+        {
+          "title": "Victory and example",
+          "body": "**Victory:** the cross defeated Satan, sin and death. Christ \"spoiled principalities and powers... triumphing over them in it\" (Colossians 2:15); through death He destroyed \"him that had the power of death\" (Hebrews 2:14).\n\n**Example:** Christ suffered \"leaving us an example, that ye should follow his steps\" (1 Peter 2:21), showing perfect love, forgiveness and obedience.\n\nThese pictures complete one another. But the example and victory rest on substitution: Christ defeats Satan by removing our guilt, and we can follow Him only because He first died for us.",
+          "refs": ["Colossians 2:14-15", "Hebrews 2:14-15", "1 Peter 2:21-24"]
+        }
+      ],
+      "terms": [
+        { "term": "Propitiation", "def": "A sacrifice that turns away God's wrath against sin." },
+        { "term": "Redemption", "def": "Being bought back from slavery by the payment of a price." },
+        { "term": "Ransom", "def": "The price paid to set captives free; Christ's life." },
+        { "term": "Reconciliation", "def": "Restoring peace between enemies; between God and sinners." },
+        { "term": "Christus Victor", "def": "The picture of the cross as Christ's victory over Satan, sin and death." },
+        { "term": "Moral example", "def": "Christ's death as a pattern of love and obedience for us to follow." }
+      ],
+      "texts": [
+        { "ref": "1 John 2:2", "teaches": "Christ is the propitiation for our sins." },
+        { "ref": "1 Peter 1:19", "teaches": "Believers are redeemed with the precious blood of Christ." },
+        { "ref": "Mark 10:45", "teaches": "The Son of man gave His life a ransom for many." },
+        { "ref": "2 Corinthians 5:19", "teaches": "God was in Christ reconciling the world to Himself." },
+        { "ref": "1 Peter 2:21", "teaches": "Christ suffered, leaving us an example to follow." }
+      ],
+      "summary": [
+        "Propitiation: Christ turned away God's wrath.",
+        "Redemption: Christ bought us back with His blood.",
+        "Reconciliation: Christ made enemies into friends of God and of one another.",
+        "Victory and example rest on His substitutionary death."
+      ],
+      "questions": [
+        { "q": "What does propitiation mean?", "options": ["A sacrifice that turns away wrath", "Buying a slave", "Making friends", "Setting an example"], "answer": 0 },
+        { "q": "Redemption comes from the language of:", "options": ["The slave market", "The law court", "The family", "The battlefield"], "answer": 0 },
+        { "q": "According to Ephesians 2, the cross also reconciles:", "options": ["Jew and Gentile to one another", "Angels and demons", "Rome and Israel", "Nothing else"], "answer": 0 },
+        { "q": "Why must the example view rest on substitution?", "options": ["We can follow Christ only because He first died for us", "Examples are unimportant", "Christ was only an example", "Substitution is unbiblical"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Risen and Ascended",
+      "intro": "The cross is not the end. This week we study Christ's resurrection, ascension and present ministry.",
+      "lessons": [
+        {
+          "title": "He is risen indeed",
+          "body": "Christ rose bodily on the third day. The tomb was empty; He appeared many times to many witnesses, including over five hundred at once (1 Corinthians 15:3-8). The disciples, once fearful, boldly preached and died for this truth.\n\nThe resurrection is essential: \"if Christ be not raised, your faith is vain; ye are yet in your sins\" (1 Corinthians 15:17).\n\nIt proves Jesus is the Son of God (Romans 1:4), shows the Father accepted His sacrifice (Romans 4:25), guarantees our justification and our future resurrection (1 Corinthians 15:20-23), and defeats death.",
+          "refs": ["1 Corinthians 15:3-8", "1 Corinthians 15:17-20", "Romans 4:25"]
+        },
+        {
+          "title": "Ascended to the right hand",
+          "body": "Forty days after rising, Jesus ascended to heaven from the Mount of Olives (Acts 1:9-11). He \"sat down on the right hand of the Majesty on high\" (Hebrews 1:3), the place of honour and authority.\n\nHis sitting shows His sacrifice is complete: unlike priests who stood daily, \"this man, after he had offered one sacrifice for sins for ever, sat down\" (Hebrews 10:12).\n\nFrom there He poured out the Holy Spirit (Acts 2:33), rules over all things for the church (Ephesians 1:22) and will return in the same way He went (Acts 1:11).",
+          "refs": ["Acts 1:9-11", "Hebrews 10:11-12", "Acts 2:33"]
+        },
+        {
+          "title": "He ever lives to intercede",
+          "body": "Christ's work continues in heaven. He \"ever liveth to make intercession\" for those who come to God through Him (Hebrews 7:25). \"If any man sin, we have an advocate with the Father, Jesus Christ the righteous\" (1 John 2:1).\n\n\"Who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us\" (Romans 8:34).\n\nSo believers can \"come boldly unto the throne of grace\" (Hebrews 4:16), confident that our living Saviour represents us.",
+          "refs": ["Hebrews 7:25", "1 John 2:1-2", "Romans 8:34"]
+        }
+      ],
+      "terms": [
+        { "term": "Bodily resurrection", "def": "Christ's rising in His real, glorified body, not just in spirit." },
+        { "term": "Firstfruits", "def": "Christ's resurrection as the first part and guarantee of the harvest of believers' resurrection." },
+        { "term": "Ascension", "def": "Christ's going up to heaven forty days after His resurrection." },
+        { "term": "Right hand of God", "def": "The place of supreme honour and authority." },
+        { "term": "Intercession", "def": "Praying and pleading on behalf of others; Christ's ongoing work for His people." },
+        { "term": "Advocate", "def": "One who speaks for another in court; Christ before the Father." }
+      ],
+      "texts": [
+        { "ref": "1 Corinthians 15:17", "teaches": "If Christ is not raised, faith is vain and we are still in our sins." },
+        { "ref": "Romans 4:25", "teaches": "Christ was delivered for our offences and raised for our justification." },
+        { "ref": "Hebrews 10:12", "teaches": "After one sacrifice for sins, Christ sat down at God's right hand." },
+        { "ref": "Acts 1:11", "teaches": "Jesus will return in the same way He went into heaven." },
+        { "ref": "1 John 2:1", "teaches": "Believers have an advocate with the Father, Jesus Christ the righteous." }
+      ],
+      "summary": [
+        "Christ rose bodily; many witnesses saw Him.",
+        "The resurrection proves His deity, His sacrifice's acceptance and our future rising.",
+        "He ascended and sat down, His sacrifice complete.",
+        "He now intercedes for us as our advocate."
+      ],
+      "questions": [
+        { "q": "What does Paul say if Christ is not raised?", "options": ["Our faith is vain; we are yet in our sins", "Nothing changes", "We should keep the law", "We are saved anyway"], "answer": 0 },
+        { "q": "Why does Christ sit at God's right hand?", "options": ["His sacrifice is complete", "He is tired", "He waits to offer more sacrifices", "He has stopped working"], "answer": 0 },
+        { "q": "What does Christ do for believers now, according to Hebrews 7:25?", "options": ["Intercedes for them", "Accuses them", "Ignores them", "Re-offers Himself"], "answer": 0 },
+        { "q": "Where did Jesus ascend from?", "options": ["The Mount of Olives", "Mount Sinai", "Golgotha", "The temple"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "For Whom Did Christ Die?",
+      "intro": "Christians agree that Christ's death is sufficient for all and effective for believers. They differ on its design. This week we study the views fairly and apply the cross.",
+      "lessons": [
+        {
+          "title": "Unlimited (general) atonement",
+          "body": "Many Christians, including many Baptists, Wesleyans and Holiness and Pentecostal churches such as Deeper Life, hold that Christ died for every person, making salvation possible for all, though only those who believe receive it.\n\nThey point to texts such as: \"he is the propitiation for our sins: and not for ours only, but also for the sins of the whole world\" (1 John 2:2); Christ \"gave himself a ransom for all\" (1 Timothy 2:6); He \"tasted death for every man\" (Hebrews 2:9); and God is \"not willing that any should perish\" (2 Peter 3:9).\n\nOn this view the gospel offer is sincere to all because Christ truly died for all.",
+          "refs": ["1 John 2:2", "1 Timothy 2:4-6", "Hebrews 2:9"]
+        },
+        {
+          "title": "Limited (particular) atonement",
+          "body": "Reformed Christians, including Reformed Baptists, hold that Christ died with the specific purpose of saving the elect, and that His death actually secures their salvation. This is also called **definite** or **particular** atonement.\n\nThey point to texts such as: \"I lay down my life for the sheep\" (John 10:15); Christ \"loved the church, and gave himself for it\" (Ephesians 5:25); \"he shall save his people from their sins\" (Matthew 1:21); He bore \"the sins of many\" (Hebrews 9:28).\n\nThey too affirm that Christ's death is sufficient for all and that the gospel must be freely offered to everyone.",
+          "refs": ["John 10:11-15", "Ephesians 5:25", "Matthew 1:21"]
+        },
+        {
+          "title": "Common ground and response",
+          "body": "Both views agree on vital points: Christ's death is of infinite worth, sufficient for all; only those who repent and believe are saved; the gospel must be preached to every creature (Mark 16:15); and no one who comes to Christ will be turned away (John 6:37).\n\nThe proper response to the cross is not debate but faith, gratitude and a changed life. \"The love of Christ constraineth us... that they which live should not henceforth live unto themselves, but unto him which died for them, and rose again\" (2 Corinthians 5:14-15).\n\nIsaac Watts' hymn says it well: \"Love so amazing, so divine, demands my soul, my life, my all.\"",
+          "refs": ["Mark 16:15", "John 6:37", "2 Corinthians 5:14-15"]
+        }
+      ],
+      "terms": [
+        { "term": "Extent of the atonement", "def": "The question of for whom Christ died, and with what purpose." },
+        { "term": "Unlimited atonement", "def": "The view that Christ died for every person, making salvation possible for all." },
+        { "term": "Limited atonement", "def": "The view that Christ died specifically to secure the salvation of the elect." },
+        { "term": "Sufficient for all", "def": "Christ's death has infinite worth, enough to save everyone." },
+        { "term": "Efficient for believers", "def": "Christ's death actually saves those who believe." },
+        { "term": "Gospel offer", "def": "The sincere invitation to all people to repent and believe." }
+      ],
+      "texts": [
+        { "ref": "1 John 2:2", "teaches": "Christ is the propitiation for the sins of the whole world." },
+        { "ref": "1 Timothy 2:6", "teaches": "Christ gave Himself a ransom for all." },
+        { "ref": "John 10:15", "teaches": "The good shepherd lays down His life for the sheep." },
+        { "ref": "John 6:37", "teaches": "Whoever comes to Christ will in no wise be cast out." },
+        { "ref": "2 Corinthians 5:15", "teaches": "Those who live should live for Him who died for them." }
+      ],
+      "summary": [
+        "Unlimited atonement: Christ died for all, making salvation possible for all.",
+        "Limited atonement: Christ died to secure the salvation of the elect.",
+        "Both agree His death is sufficient for all and the gospel must be offered to all.",
+        "The right response to the cross is faith, gratitude and a life for Christ."
+      ],
+      "questions": [
+        { "q": "Which text is often used to support unlimited atonement?", "options": ["1 John 2:2", "John 10:15", "Ephesians 5:25", "Matthew 1:21"], "answer": 0 },
+        { "q": "Which text is often used to support limited atonement?", "options": ["John 10:15", "1 Timothy 2:6", "Hebrews 2:9", "2 Peter 3:9"], "answer": 0 },
+        { "q": "On what do both views agree?", "options": ["The gospel must be offered to all and Christ's death is sufficient for all", "Everyone is automatically saved", "No one can know Christ died for them", "Evangelism is unnecessary"], "answer": 0 },
+        { "q": "What does John 6:37 promise?", "options": ["Whoever comes to Christ will not be cast out", "Only some may come", "Coming is impossible", "Christ will refuse sinners"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Why was the cross necessary for God to forgive sinners?", "keywords": [["just", "justice", "punish"], ["love", "forgive", "save"], ["Christ", "cross", "substitute"]], "model": "God is just and must punish sin, yet in love desires to forgive; at the cross Christ bore the punishment so God is both just and the justifier." },
+      { "q": "Explain penal substitution with one Bible reference.", "keywords": [["penalty", "punishment"], ["place", "instead", "for us", "substitute"], ["Isaiah 53", "2 Corinthians 5:21", "1 Peter 3:18", "Galatians 3:13"]], "model": "Christ took our place and bore the penalty our sins deserved, as in 1 Peter 3:18: the just for the unjust." },
+      { "q": "Define propitiation and redemption.", "keywords": [["wrath", "anger", "turn away"], ["bought", "price", "ransom", "slave"]], "model": "Propitiation is a sacrifice that turns away God's wrath; redemption is buying back a slave by paying a price, Christ's blood." },
+      { "q": "Give three reasons the resurrection matters.", "keywords": [["Son of God", "proves", "deity"], ["accepted", "justification", "sins"], ["our resurrection", "raised", "firstfruits", "death defeated"]], "model": "It proves Jesus is the Son of God, shows God accepted His sacrifice for our justification, and guarantees our own resurrection." },
+      { "q": "What does Christ do for believers now in heaven?", "keywords": [["intercede", "intercession"], ["advocate"], ["right hand", "reigns", "rules"]], "model": "He intercedes for us as our advocate at the Father's right hand, and rules over all things for the church." },
+      { "q": "Compare limited and unlimited atonement fairly.", "keywords": [["all", "every", "whole world", "possible"], ["elect", "sheep", "secure", "particular"], ["sufficient", "offer", "both"]], "model": "Unlimited atonement says Christ died for all, making salvation possible; limited atonement says He died to secure the elect's salvation. Both agree His death is sufficient for all and the gospel is offered to all." }
+    ],
+    "lists": [
+      { "q": "List four biblical pictures of the atonement.", "items": [["propitiation"], ["redemption", "ransom"], ["reconciliation"], ["victory", "triumph"], ["substitution", "substitute"], ["example"]], "need": 4 },
+      { "q": "List three things Christ does after His ascension.", "items": [["intercede", "intercession"], ["advocate"], ["poured out", "sent the Spirit"], ["rules", "reigns"], ["prepares a place"], ["return", "come again"]], "need": 3 },
+      { "q": "List three evidences of the resurrection.", "items": [["empty tomb", "tomb"], ["appearances", "appeared", "five hundred", "witnesses"], ["disciples changed", "boldness", "transformed"], ["ate", "touched", "hands"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "The cross in the Old Testament", "prompt": "Choose two Old Testament passages or practices that point to the cross (for example the Passover, the Day of Atonement, the bronze serpent or Isaiah 53). Explain each and show how the New Testament applies it to Christ's work.", "words": "500–700" },
+    { "title": "Why did Jesus die?", "prompt": "Write a clear answer to a young person who asks, \"Why did Jesus have to die? Couldn't God just forgive?\" Use at least five passages from the course and the pictures of propitiation, redemption and reconciliation.", "words": "500–700" }
+  ],
+  "examMinutes": 75,
+  "reading": [
+    "John Stott, The Cross of Christ",
+    "Leon Morris, The Atonement: Its Meaning and Significance",
+    "Wayne Grudem, Systematic Theology, chapters 27–29"
+  ]
+}

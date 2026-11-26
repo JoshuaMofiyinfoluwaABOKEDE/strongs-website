@@ -1,0 +1,288 @@
+{
+  "slug": "the-holy-spirit",
+  "title": "The Holy Spirit",
+  "track": "christ",
+  "level": "Foundation",
+  "summary": "Who the Holy Spirit is and what He does: in creation, in Scripture, in Christ, in salvation and in the believer's life.",
+  "description": "The Holy Spirit is often misunderstood: treated as a force, an emotion, or a power to be used. This course shows from Scripture that He is the third Person of the Trinity, fully God, and traces His work in creation, in inspiring Scripture, in the life of Jesus, in conviction and new birth, in the believer's holiness and fruit, and in equipping the church for witness and service.",
+  "objectives": [
+    "Establish the personhood and deity of the Holy Spirit",
+    "Trace the Spirit's work in the Old Testament and in Christ",
+    "Explain His work in salvation: conviction, regeneration, indwelling and sealing",
+    "Explain His work in sanctification, fruit and empowering for service"
+  ],
+  "outcomes": [
+    "Show the Spirit is a Person and is God",
+    "Describe His role in creation, prophecy and the life of Jesus",
+    "Explain regeneration, indwelling and sealing",
+    "Name the fruit of the Spirit and explain walking in the Spirit",
+    "Describe the Spirit's empowering for witness"
+  ],
+  "modules": [
+    {
+      "title": "Who Is the Holy Spirit?",
+      "intro": "This week we see that the Holy Spirit is not an 'it' but 'He': a divine Person, equal with the Father and the Son.",
+      "lessons": [
+        {
+          "title": "A Person, not a power",
+          "body": "Jesus spoke of the Spirit as \"he\": \"when he, the Spirit of truth, is come, he will guide you into all truth\" (John 16:13). Though the Greek word for spirit is neuter, John uses a masculine pronoun deliberately.\n\nThe Spirit does what persons do. He teaches (John 14:26), testifies (John 15:26), speaks (Acts 13:2), forbids (Acts 16:6-7), intercedes (Romans 8:26) and distributes gifts \"as he will\" (1 Corinthians 12:11). He can be lied to (Acts 5:3), grieved (Ephesians 4:30), resisted (Acts 7:51) and blasphemed (Matthew 12:31).\n\nWe do not use the Spirit; He leads us.",
+          "refs": ["John 16:13-14", "Acts 13:2", "Ephesians 4:30"]
+        },
+        {
+          "title": "The Spirit is God",
+          "body": "Peter equates lying to the Holy Ghost with lying to God (Acts 5:3-4). The Spirit has divine attributes: He is eternal (Hebrews 9:14), everywhere present (Psalm 139:7-8), all-knowing (1 Corinthians 2:10-11) and the giver of life (Romans 8:11).\n\nHe is named alongside the Father and Son as equal: in baptism (Matthew 28:19) and the apostolic blessing (2 Corinthians 13:14).\n\nThe Nicene Creed confesses Him as \"the Lord, the giver of life\", worshipped and glorified together with the Father and the Son.",
+          "refs": ["Acts 5:3-4", "1 Corinthians 2:10-11", "2 Corinthians 13:14"]
+        },
+        {
+          "title": "Names and symbols",
+          "body": "The Spirit's names reveal His work: the **Holy** Spirit (His character), the **Spirit of truth** (John 14:17), the **Comforter** or helper (John 14:16), the **Spirit of adoption** (Romans 8:15), the **Spirit of Christ** (Romans 8:9), the **Spirit of grace** (Hebrews 10:29).\n\nScripture also uses symbols: **wind** or breath (John 3:8; Acts 2:2), **fire** (Acts 2:3), **water** (John 7:38-39), **oil** for anointing (1 John 2:20), a **dove** (Matthew 3:16) and a **seal** (Ephesians 1:13).\n\nSymbols help us understand, but they must not reduce Him to an impersonal force.",
+          "refs": ["John 14:16-17", "John 3:8", "John 7:38-39"]
+        }
+      ],
+      "terms": [
+        { "term": "Holy Spirit", "def": "The third Person of the Trinity, fully God." },
+        { "term": "Comforter", "def": "Greek parakletos: one called alongside to help, counsel and encourage." },
+        { "term": "Spirit of truth", "def": "Jesus' title for the Spirit who guides into all truth." },
+        { "term": "Grieve the Spirit", "def": "To sadden the Holy Spirit by sin (Ephesians 4:30)." },
+        { "term": "Blasphemy against the Holy Ghost", "def": "Deliberately attributing the Spirit's work in Christ to Satan (Matthew 12:31-32)." },
+        { "term": "Anointing", "def": "The Spirit's presence equipping a person for God's service, pictured by oil." }
+      ],
+      "texts": [
+        { "ref": "John 16:13", "teaches": "The Spirit of truth will guide believers into all truth." },
+        { "ref": "Acts 5:4", "teaches": "Lying to the Holy Ghost is lying to God." },
+        { "ref": "Ephesians 4:30", "teaches": "Grieve not the Holy Spirit of God." },
+        { "ref": "1 Corinthians 2:10", "teaches": "The Spirit searches the deep things of God." },
+        { "ref": "John 14:16", "teaches": "The Father will give another Comforter to abide for ever." }
+      ],
+      "summary": [
+        "The Holy Spirit is a Person: He teaches, speaks, intercedes and can be grieved.",
+        "He is fully God, equal with the Father and the Son.",
+        "His names show His holiness, truth and help.",
+        "Symbols such as wind, fire, water, oil and dove illustrate His work."
+      ],
+      "questions": [
+        { "q": "Which pronoun did Jesus use for the Spirit in John 16:13?", "options": ["He", "It", "They", "She"], "answer": 0 },
+        { "q": "What does \"Comforter\" mean?", "options": ["One called alongside to help", "A soft pillow", "A powerful force", "An angel"], "answer": 0 },
+        { "q": "Which shows the Spirit is a Person?", "options": ["He can be grieved", "He is like wind", "He is invisible", "He is powerful"], "answer": 0 },
+        { "q": "Which symbol of the Spirit appeared at Jesus' baptism?", "options": ["A dove", "Fire", "Oil", "A seal"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Spirit in the Old Testament and in Christ",
+      "intro": "The Spirit was active from creation, inspired the prophets and filled Jesus. This week we trace His work before Pentecost.",
+      "lessons": [
+        {
+          "title": "Creation, prophets and leaders",
+          "body": "At creation \"the Spirit of God moved upon the face of the waters\" (Genesis 1:2). He gives life: \"thou sendest forth thy spirit, they are created\" (Psalm 104:30).\n\nIn the Old Testament the Spirit came upon particular people for particular tasks: Bezaleel for craftsmanship (Exodus 31:3), judges such as Gideon (Judges 6:34), kings such as David (1 Samuel 16:13), and the prophets, who spoke \"as they were moved by the Holy Ghost\" (2 Peter 1:21).\n\nThis presence could be withdrawn, as with Saul (1 Samuel 16:14); David prayed, \"take not thy holy spirit from me\" (Psalm 51:11).",
+          "refs": ["Genesis 1:2", "1 Samuel 16:13-14", "Psalm 51:11"]
+        },
+        {
+          "title": "The promise of the Spirit",
+          "body": "The prophets promised a new age of the Spirit. Moses wished \"that all the LORD's people were prophets\" (Numbers 11:29). Ezekiel: \"I will put my spirit within you, and cause you to walk in my statutes\" (Ezekiel 36:27). Joel: \"I will pour out my spirit upon all flesh\" (Joel 2:28).\n\nJohn the Baptist said the coming One would \"baptize you with the Holy Ghost, and with fire\" (Matthew 3:11). Jesus promised the Spirit would be \"in\" His disciples, not only \"with\" them (John 14:17), after He was glorified (John 7:39).",
+          "refs": ["Ezekiel 36:26-27", "Joel 2:28-29", "John 7:37-39"]
+        },
+        {
+          "title": "The Spirit in the life of Jesus",
+          "body": "The Spirit was at work at every stage of Jesus' life. He was conceived by the Holy Ghost (Luke 1:35). At His baptism the Spirit descended on Him (Luke 3:22). \"Full of the Holy Ghost\" He was led into the wilderness (Luke 4:1) and returned \"in the power of the Spirit\" (4:14).\n\nHe announced, \"The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel\" (Luke 4:18). He cast out devils \"by the Spirit of God\" (Matthew 12:28), offered Himself \"through the eternal Spirit\" (Hebrews 9:14), and was raised by the Spirit (Romans 8:11).\n\nThe same Spirit now dwells in believers.",
+          "refs": ["Luke 4:1", "Luke 4:18", "Romans 8:11"]
+        }
+      ],
+      "terms": [
+        { "term": "Spirit of God", "def": "The Old Testament name for the Holy Spirit, active from creation." },
+        { "term": "Came upon", "def": "The Spirit's empowering of particular people for tasks in the Old Testament." },
+        { "term": "Outpouring", "def": "The promised giving of the Spirit to all God's people." },
+        { "term": "With and in", "def": "Jesus' contrast between the Spirit's presence before and after Pentecost (John 14:17)." },
+        { "term": "Baptize with the Holy Ghost", "def": "John's description of Christ's work of pouring out the Spirit." },
+        { "term": "Eternal Spirit", "def": "The Spirit through whom Christ offered Himself (Hebrews 9:14)." }
+      ],
+      "texts": [
+        { "ref": "Genesis 1:2", "teaches": "The Spirit of God moved upon the face of the waters." },
+        { "ref": "Ezekiel 36:27", "teaches": "God will put His Spirit within His people to make them obey." },
+        { "ref": "Joel 2:28", "teaches": "God will pour out His Spirit upon all flesh." },
+        { "ref": "Luke 4:18", "teaches": "The Spirit of the Lord anointed Jesus to preach the gospel." },
+        { "ref": "Matthew 12:28", "teaches": "Jesus cast out devils by the Spirit of God." }
+      ],
+      "summary": [
+        "The Spirit worked in creation and gives life.",
+        "In the Old Testament He came upon leaders and prophets for tasks.",
+        "The prophets promised He would be poured out on all God's people.",
+        "Jesus was conceived, anointed, led and empowered by the Spirit."
+      ],
+      "questions": [
+        { "q": "Whom did the Spirit fill for craftsmanship in Exodus 31?", "options": ["Bezaleel", "Aaron", "Joshua", "Caleb"], "answer": 0 },
+        { "q": "Which prophet promised the Spirit poured out on all flesh?", "options": ["Joel", "Amos", "Jonah", "Obadiah"], "answer": 0 },
+        { "q": "In which synagogue sermon did Jesus say \"The Spirit of the Lord is upon me\"?", "options": ["Nazareth (Luke 4)", "Capernaum (Mark 1)", "Jerusalem (John 7)", "Antioch (Acts 13)"], "answer": 0 },
+        { "q": "What did David pray in Psalm 51:11?", "options": ["Take not thy holy spirit from me", "Give me riches", "Destroy my enemies", "Make me king"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Spirit in Salvation",
+      "intro": "Salvation is the Spirit's work from start to finish. This week: conviction, new birth, indwelling, sealing and assurance.",
+      "lessons": [
+        {
+          "title": "Conviction and new birth",
+          "body": "Jesus said the Spirit \"will reprove the world of sin, and of righteousness, and of judgment\" (John 16:8). He opens eyes to see our sin and Christ's sufficiency.\n\nHe also gives new life. \"Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God\" (John 3:5). This is **regeneration**: God \"saved us, by the washing of regeneration, and renewing of the Holy Ghost\" (Titus 3:5).\n\nNew birth is God's work, like the wind that blows where it wills (John 3:8). It results in faith, repentance and a changed life.",
+          "refs": ["John 16:7-11", "John 3:3-8", "Titus 3:5"]
+        },
+        {
+          "title": "Indwelling and sealing",
+          "body": "Every true believer has the Holy Spirit living within: \"if any man have not the Spirit of Christ, he is none of his\" (Romans 8:9). Our bodies are His temple (1 Corinthians 6:19).\n\nBelievers are \"sealed with that holy Spirit of promise, which is the earnest of our inheritance\" (Ephesians 1:13-14). A **seal** marks ownership and security; an **earnest** is a down payment guaranteeing full payment later.\n\nThe Spirit also unites believers with Christ and with one another: \"by one Spirit are we all baptized into one body\" (1 Corinthians 12:13).",
+          "refs": ["Romans 8:9", "Ephesians 1:13-14", "1 Corinthians 12:13"]
+        },
+        {
+          "title": "Adoption and assurance",
+          "body": "The Spirit makes us aware that we belong to God. \"Ye have received the Spirit of adoption, whereby we cry, Abba, Father. The Spirit itself beareth witness with our spirit, that we are the children of God\" (Romans 8:15-16).\n\nThis witness is not only a feeling. It works with the evidence of a changed life: love for God's people (1 John 3:14), obedience (1 John 2:3) and the fruit of the Spirit.\n\nThe Spirit also helps us pray: \"the Spirit itself maketh intercession for us with groanings which cannot be uttered\" (Romans 8:26).",
+          "refs": ["Romans 8:14-17", "Romans 8:26-27", "1 John 3:24"]
+        }
+      ],
+      "terms": [
+        { "term": "Conviction", "def": "The Spirit's work of showing people their sin and need of Christ." },
+        { "term": "Regeneration", "def": "The new birth: the Spirit giving new spiritual life." },
+        { "term": "Indwelling", "def": "The Spirit's permanent presence within every believer." },
+        { "term": "Sealing", "def": "The Spirit marking believers as God's possession and securing them." },
+        { "term": "Earnest", "def": "A down payment guaranteeing the rest; the Spirit as pledge of our inheritance." },
+        { "term": "Spirit of adoption", "def": "The Spirit who assures believers they are God's children." }
+      ],
+      "texts": [
+        { "ref": "John 16:8", "teaches": "The Spirit convicts the world of sin, righteousness and judgement." },
+        { "ref": "John 3:5", "teaches": "A person must be born of water and of the Spirit to enter God's kingdom." },
+        { "ref": "Romans 8:9", "teaches": "Anyone without the Spirit of Christ is not His." },
+        { "ref": "Ephesians 1:13", "teaches": "Believers are sealed with the Holy Spirit of promise." },
+        { "ref": "Romans 8:16", "teaches": "The Spirit bears witness with our spirit that we are God's children." }
+      ],
+      "summary": [
+        "The Spirit convicts of sin and gives new birth.",
+        "He indwells every believer and seals them as God's own.",
+        "He unites believers to Christ and to His body.",
+        "He assures us we are God's children and helps us pray."
+      ],
+      "questions": [
+        { "q": "What is regeneration?", "options": ["The new birth by the Spirit", "Turning over a new leaf", "Being baptized in water only", "Joining a church"], "answer": 0 },
+        { "q": "According to Romans 8:9, who belongs to Christ?", "options": ["Those who have the Spirit of Christ", "Those who attend church", "Those born in Christian homes", "Those who give money"], "answer": 0 },
+        { "q": "What is an \"earnest\" in Ephesians 1:14?", "options": ["A down payment guaranteeing the rest", "A serious person", "A kind of seal", "A sacrifice"], "answer": 0 },
+        { "q": "What does the Spirit of adoption enable us to cry?", "options": ["Abba, Father", "Hosanna", "Amen", "Maranatha"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Walking in the Spirit",
+      "intro": "The Spirit makes believers holy and fruitful. This week we study the fruit of the Spirit and how to walk in step with Him.",
+      "lessons": [
+        {
+          "title": "Flesh and Spirit",
+          "body": "Believers experience a conflict: \"the flesh lusteth against the Spirit, and the Spirit against the flesh\" (Galatians 5:17). The *flesh* here means our sinful nature, not the body.\n\nThe answer is not mere willpower: \"Walk in the Spirit, and ye shall not fulfil the lust of the flesh\" (Galatians 5:16). \"If ye through the Spirit do mortify the deeds of the body, ye shall live\" (Romans 8:13).\n\nThe works of the flesh are plain: immorality, idolatry, witchcraft, hatred, strife, envy, drunkenness and the like (Galatians 5:19-21).",
+          "refs": ["Galatians 5:16-21", "Romans 8:5-13"]
+        },
+        {
+          "title": "The fruit of the Spirit",
+          "body": "\"But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance\" (Galatians 5:22-23).\n\nNote that it is *fruit*, singular: one harvest of Christlike character with nine flavours. Fruit grows; it is not manufactured. It comes from abiding in Christ (John 15:4-5).\n\nGifts show what the Spirit does *through* us; fruit shows what He does *in* us. Jesus said, \"by their fruits ye shall know them\" (Matthew 7:20). Character, not only power, is the mark of a Spirit-filled life.",
+          "refs": ["Galatians 5:22-25", "John 15:4-5", "Matthew 7:16-20"]
+        },
+        {
+          "title": "Be filled with the Spirit",
+          "body": "Paul commands, \"be not drunk with wine... but be filled with the Spirit\" (Ephesians 5:18). The tense means \"keep on being filled\": a continuing yielding to His control.\n\nThe results are worship, thanksgiving and humble relationships in the home and church (5:19-6:9).\n\nWe can **grieve** the Spirit by sin (Ephesians 4:30) and **quench** Him by resisting His work (1 Thessalonians 5:19). We walk in step with Him by confessing sin, obeying the Word, praying, and yielding daily to His leading (Romans 8:14).",
+          "refs": ["Ephesians 5:18-21", "1 Thessalonians 5:19", "Romans 8:14"]
+        }
+      ],
+      "terms": [
+        { "term": "Flesh", "def": "In Paul's letters, the sinful nature opposed to God." },
+        { "term": "Walking in the Spirit", "def": "Living daily under the Spirit's guidance and power." },
+        { "term": "Fruit of the Spirit", "def": "The Christlike character the Spirit produces, listed in Galatians 5:22-23." },
+        { "term": "Mortify", "def": "To put to death the deeds of the sinful nature." },
+        { "term": "Filled with the Spirit", "def": "Continually yielded to and controlled by the Holy Spirit." },
+        { "term": "Quench the Spirit", "def": "To resist or stifle the Spirit's work." }
+      ],
+      "texts": [
+        { "ref": "Galatians 5:16", "teaches": "Walk in the Spirit and you will not fulfil the lust of the flesh." },
+        { "ref": "Galatians 5:22-23", "teaches": "The Spirit produces love, joy, peace and other Christlike fruit." },
+        { "ref": "Romans 8:13", "teaches": "Through the Spirit, put to death the deeds of the body and live." },
+        { "ref": "Ephesians 5:18", "teaches": "Be filled with the Spirit, not drunk with wine." },
+        { "ref": "1 Thessalonians 5:19", "teaches": "Quench not the Spirit." }
+      ],
+      "summary": [
+        "The flesh and the Spirit are in conflict in the believer.",
+        "We overcome the flesh by walking in the Spirit.",
+        "The fruit of the Spirit is Christlike character that grows by abiding in Christ.",
+        "Keep on being filled; do not grieve or quench the Spirit."
+      ],
+      "questions": [
+        { "q": "How many qualities are listed in the fruit of the Spirit?", "options": ["Nine", "Seven", "Ten", "Twelve"], "answer": 0 },
+        { "q": "What does \"flesh\" mean in Galatians 5?", "options": ["The sinful nature", "The physical body", "Meat", "Family members"], "answer": 0 },
+        { "q": "What is the difference between gifts and fruit?", "options": ["Gifts show what the Spirit does through us; fruit, what He does in us", "There is no difference", "Fruit is for leaders only", "Gifts prove maturity"], "answer": 0 },
+        { "q": "Which verse commands believers to be filled with the Spirit?", "options": ["Ephesians 5:18", "John 3:5", "Acts 5:4", "Genesis 1:2"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Power for Witness and Service",
+      "intro": "The Spirit equips the church to witness and serve. This week we introduce His empowering and gifts; a later course studies them in depth.",
+      "lessons": [
+        {
+          "title": "Ye shall receive power",
+          "body": "Before His ascension Jesus promised, \"ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me\" (Acts 1:8). At Pentecost the Spirit came, and fearful disciples became bold preachers (Acts 2:4, 14).\n\nThe early church kept praying and \"they were all filled with the Holy Ghost, and they spake the word of God with boldness\" (Acts 4:31).\n\nThe Spirit's power is given chiefly for witness: to glorify Christ (John 16:14) and spread the gospel, not for personal display or gain (Acts 8:18-21).",
+          "refs": ["Acts 1:8", "Acts 2:1-4", "Acts 4:31"]
+        },
+        {
+          "title": "Gifts for the common good",
+          "body": "The Spirit gives every believer gifts for serving the church: \"the manifestation of the Spirit is given to every man to profit withal\" (1 Corinthians 12:7).\n\nPaul lists gifts such as wisdom, knowledge, faith, healing, miracles, prophecy, discerning of spirits, tongues and interpretation (1 Corinthians 12:8-10), and also teaching, giving, leading and showing mercy (Romans 12:6-8).\n\nGifts must be exercised in love (1 Corinthians 13), with order (14:40), for building up others. No gift makes one believer superior to another.",
+          "refs": ["1 Corinthians 12:4-11", "Romans 12:6-8", "1 Corinthians 13:1-3"]
+        },
+        {
+          "title": "Where Christians differ",
+          "body": "Believers agree the Spirit indwells every Christian and empowers the church. They differ on some questions, which the course *Baptism in the Spirit and Spiritual Gifts* studies fully:\n\n- **Is the baptism in the Spirit a second experience after conversion, with speaking in tongues as initial evidence?** Pentecostal and Holiness churches, including Deeper Life, generally say yes. Most Baptists say every believer is baptized by the Spirit at conversion, with later fillings.\n- **Do all spiritual gifts continue today?** Continuationists say yes; cessationists believe some sign gifts ended with the apostles.\n\nBoth sides seek to honour Scripture, and both prize holiness, love and witness.",
+          "refs": ["Acts 2:38-39", "1 Corinthians 12:13", "1 Corinthians 14:1"]
+        }
+      ],
+      "terms": [
+        { "term": "Power", "def": "The Spirit's enabling for bold witness and service." },
+        { "term": "Spiritual gift", "def": "An ability given by the Spirit for serving and building up the church." },
+        { "term": "Manifestation", "def": "A visible working of the Spirit through a believer for the good of others." },
+        { "term": "Continuationism", "def": "The view that all spiritual gifts continue today." },
+        { "term": "Cessationism", "def": "The view that some sign gifts ceased with the apostolic age." },
+        { "term": "Initial evidence", "def": "The Pentecostal teaching that speaking in tongues is the first sign of Spirit baptism." }
+      ],
+      "texts": [
+        { "ref": "Acts 1:8", "teaches": "Believers receive power when the Holy Ghost comes, to be Christ's witnesses." },
+        { "ref": "Acts 4:31", "teaches": "Filled with the Holy Ghost, believers spoke God's word with boldness." },
+        { "ref": "John 16:14", "teaches": "The Spirit glorifies Christ." },
+        { "ref": "1 Corinthians 12:7", "teaches": "The Spirit's manifestation is given to each for the profit of all." },
+        { "ref": "1 Corinthians 12:11", "teaches": "The Spirit distributes gifts to each as He wills." }
+      ],
+      "summary": [
+        "The Spirit empowers believers to be bold witnesses for Christ.",
+        "He gives every believer gifts for the common good.",
+        "Gifts must be used in love, with order, to build others up.",
+        "Christians differ on Spirit baptism and the continuation of gifts, but all prize holiness and witness."
+      ],
+      "questions": [
+        { "q": "What is the main purpose of the power promised in Acts 1:8?", "options": ["To be Christ's witnesses", "Personal wealth", "To impress others", "Political power"], "answer": 0 },
+        { "q": "According to 1 Corinthians 12:7, spiritual gifts are given:", "options": ["For the profit of all", "To show who is superior", "Only to pastors", "As rewards for fasting"], "answer": 0 },
+        { "q": "Which chapter says gifts without love are nothing?", "options": ["1 Corinthians 13", "Romans 8", "Acts 2", "Galatians 5"], "answer": 0 },
+        { "q": "What is cessationism?", "options": ["The view that some sign gifts ceased with the apostles", "The view that all gifts continue", "Speaking in tongues", "Stopping church services"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Give three evidences that the Holy Spirit is a Person.", "keywords": [["teaches", "speaks", "guides", "testifies"], ["grieved", "lied to", "resisted"], ["intercedes", "wills", "he"]], "model": "He teaches and speaks, can be grieved and lied to, intercedes and distributes gifts as He wills; Jesus calls Him 'He'." },
+      { "q": "How did the Spirit's work in the Old Testament differ from after Pentecost?", "keywords": [["came upon", "particular", "some", "tasks"], ["withdrawn", "temporary"], ["all", "in", "indwell", "poured out"]], "model": "In the Old Testament He came upon particular people for tasks and could be withdrawn; after Pentecost He is poured out on all believers and dwells in them." },
+      { "q": "What is regeneration?", "keywords": [["new birth", "born again", "born of the Spirit"], ["life", "new"], ["Spirit"]], "model": "The new birth: the Holy Spirit giving new spiritual life to a sinner." },
+      { "q": "Explain sealing and the earnest of the Spirit.", "keywords": [["seal", "ownership", "mark", "secure"], ["earnest", "down payment", "guarantee", "pledge"], ["inheritance"]], "model": "The Spirit seals believers as God's possession and secure, and is the earnest, a down payment guaranteeing our future inheritance." },
+      { "q": "What is the difference between the fruit and the gifts of the Spirit?", "keywords": [["character", "in us", "Christlike"], ["abilities", "through us", "service"]], "model": "The fruit is Christlike character the Spirit produces in us; gifts are abilities He gives for serving others through us." },
+      { "q": "Summarise the two main views on the baptism in the Spirit.", "keywords": [["second", "after conversion", "subsequent", "tongues"], ["conversion", "all believers", "at salvation"], ["filling", "fillings", "holiness", "witness"]], "model": "Pentecostal and Holiness churches see it as a second experience after conversion, usually evidenced by tongues; most Baptists say all believers are baptized by the Spirit at conversion, with later fillings." }
+    ],
+    "lists": [
+      { "q": "List the nine qualities of the fruit of the Spirit.", "items": [["love"], ["joy"], ["peace"], ["longsuffering", "patience"], ["gentleness", "kindness"], ["goodness"], ["faith", "faithfulness"], ["meekness"], ["temperance", "self-control"]], "need": 9 },
+      { "q": "List four symbols of the Holy Spirit.", "items": [["wind", "breath"], ["fire"], ["water"], ["oil"], ["dove"], ["seal"]], "need": 4 },
+      { "q": "List four works of the Spirit in salvation.", "items": [["convict", "conviction", "reprove"], ["regenerate", "regeneration", "new birth"], ["indwell", "indwelling"], ["seal", "sealing"], ["adoption", "witness", "assurance"], ["baptize into the body", "unite"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "Who is the Holy Spirit to me?", "prompt": "Describe how you have thought about the Holy Spirit in the past. Then, using at least five passages from this course, explain who He is and how knowing Him as a Person should change your prayer and daily life.", "words": "500–700" },
+    { "title": "Fruit in the home", "prompt": "Choose three qualities from the fruit of the Spirit. For each, explain what it means, why it cannot be produced by willpower alone, and how it should show in your home, workplace or church this month.", "words": "400–600" }
+  ],
+  "examMinutes": 75,
+  "reading": [
+    "J. I. Packer, Keep in Step with the Spirit",
+    "Sinclair B. Ferguson, The Holy Spirit",
+    "Gordon D. Fee, Paul, the Spirit, and the People of God"
+  ]
+}

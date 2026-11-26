@@ -1,0 +1,875 @@
+{
+  "slug": "the-person-of-christ",
+  "title": "The Person of Christ",
+  "track": "christ",
+  "level": "Intermediate",
+  "summary": "Who Jesus is: the eternal Son of God, born of a virgin, truly God and truly man in one Person.",
+  "description": "This course studies the doctrine of Christ's Person. It shows from Scripture that Jesus is the eternal Son of God, that He became truly human through the virgin birth, that He is one Person with two natures, and that He was sinless. It explains how the early church guarded these truths at Chalcedon, and considers His offices as Prophet, Priest and King and His present exaltation.",
+  "objectives": [
+    "Show the eternal existence and full deity of the Son",
+    "Explain the incarnation and the virgin birth",
+    "Show Christ's true and complete humanity",
+    "Explain the union of two natures in one Person and the errors it excludes"
+  ],
+  "outcomes": [
+    "Give Bible evidence for Christ's pre-existence and deity",
+    "Explain why the virgin birth matters",
+    "Show evidence of Jesus' human body, mind and emotions",
+    "State the Chalcedonian definition in simple words",
+    "Describe Christ's threefold office"
+  ],
+  "modules": [
+    {
+      "title": "The Eternal Son",
+      "intro": "Jesus did not begin at Bethlehem. This week we see that the Son existed eternally with the Father.",
+      "lessons": [
+        {
+          "title": "Before Abraham was, I am",
+          "body": "The Son existed before His human birth. \"In the beginning was the Word, and the Word was with God, and the Word was God\" (John 1:1). Jesus prayed for \"the glory which I had with thee before the world was\" (John 17:5) and said, \"Before Abraham was, I am\" (John 8:58), using God's own name (Exodus 3:14). His hearers understood and took up stones.\n\nMicah prophesied that the ruler born in Bethlehem had goings forth \"from of old, from everlasting\" (Micah 5:2).\n\nThe Son is not a created being; He is the eternal Creator.",
+          "refs": [
+            "John 1:1-3",
+            "John 8:58",
+            "Micah 5:2"
+          ]
+        },
+        {
+          "title": "He thought it not robbery",
+          "body": "Philippians 2:6-8 is a great hymn about Christ. \"Being in the form of God\", He \"thought it not robbery to be equal with God: But made himself of no reputation, and took upon him the form of a servant\".\n\nHe did not stop being God; He added humanity and laid aside the outward display of His glory and privileges, humbling Himself even to the death of the cross.\n\nTherefore God highly exalted Him, so that \"every knee should bow\" and every tongue confess \"that Jesus Christ is Lord\" (2:9-11), echoing words Isaiah used of the LORD Himself (Isaiah 45:23).",
+          "refs": [
+            "Philippians 2:5-11",
+            "Isaiah 45:22-23",
+            "2 Corinthians 8:9"
+          ]
+        },
+        {
+          "title": "Jesus' divine claims and works",
+          "body": "Jesus claimed and did what belongs to God alone:\n\n- He forgave sins against God (Mark 2:5-7).\n- He accepted worship (John 9:38; 20:28).\n- He claimed oneness with the Father: \"I and my Father are one\" (John 10:30).\n- He said He would judge all people (Matthew 25:31-32).\n- He controlled nature, raised the dead and rose Himself (John 11:43-44).\n\nC. S. Lewis famously noted that such claims leave three options: liar, lunatic, or Lord. His life, teaching and resurrection show He is Lord (Romans 1:4).",
+          "refs": [
+            "Mark 2:5-12",
+            "John 10:30-33",
+            "Romans 1:4"
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Pre-existence",
+          "def": "Christ's existence as the eternal Son before His human birth."
+        },
+        {
+          "term": "Deity of Christ",
+          "def": "The truth that Jesus is fully God."
+        },
+        {
+          "term": "I am",
+          "def": "God's covenant name, claimed by Jesus in John 8:58."
+        },
+        {
+          "term": "Form of God",
+          "def": "Christ's true divine nature, which He possessed before the incarnation."
+        },
+        {
+          "term": "Form of a servant",
+          "def": "The true humanity and lowly state Christ took for our salvation."
+        },
+        {
+          "term": "Lord",
+          "def": "The title of divine authority confessed of Jesus."
+        }
+      ],
+      "texts": [
+        {
+          "ref": "John 1:1",
+          "teaches": "The Word was in the beginning with God and was God."
+        },
+        {
+          "ref": "John 8:58",
+          "teaches": "Jesus said, 'Before Abraham was, I am.'"
+        },
+        {
+          "ref": "Philippians 2:6",
+          "teaches": "Christ, being in the form of God, was equal with God."
+        },
+        {
+          "ref": "Mark 2:7",
+          "teaches": "Only God can forgive sins, yet Jesus forgave sins."
+        },
+        {
+          "ref": "Romans 1:4",
+          "teaches": "Christ was declared the Son of God with power by the resurrection."
+        }
+      ],
+      "summary": [
+        "The Son existed eternally with the Father.",
+        "He humbled Himself, adding humanity without ceasing to be God.",
+        "He claimed and did what only God does.",
+        "His resurrection declares Him the Son of God with power."
+      ],
+      "questions": [
+        {
+          "q": "What did Jesus claim in John 8:58?",
+          "options": [
+            "Before Abraham was, I am",
+            "I am a prophet like Moses",
+            "I will become God",
+            "Abraham was greater"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "In Philippians 2, what did Christ do?",
+          "options": [
+            "Took the form of a servant without ceasing to be God",
+            "Stopped being God",
+            "Became an angel",
+            "Refused to suffer"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why did the scribes object when Jesus forgave sins?",
+          "options": [
+            "Only God can forgive sins",
+            "It was the Sabbath",
+            "He was not a priest",
+            "He was too young"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which prophecy speaks of the Bethlehem ruler's goings forth from everlasting?",
+          "options": [
+            "Micah 5:2",
+            "Isaiah 53:5",
+            "Zechariah 9:9",
+            "Malachi 3:1"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "The Word Made Flesh",
+      "intro": "The eternal Son became man. This week we study the incarnation and the virgin birth.",
+      "lessons": [
+        {
+          "title": "The incarnation",
+          "body": "\"And the Word was made flesh, and dwelt among us\" (John 1:14). The **incarnation** means the eternal Son took to Himself a real human nature, body and soul, without ceasing to be God.\n\nHe \"was made in the likeness of men\" (Philippians 2:7), \"made of a woman, made under the law\" (Galatians 4:4).\n\nWhy? To reveal the Father (John 1:18), to be our substitute and High Priest, sharing our flesh and blood so He could die for us (Hebrews 2:14-17), and to be our example (1 Peter 2:21). Only one who is both God and man can bring God and man together.",
+          "refs": [
+            "John 1:14",
+            "Galatians 4:4-5",
+            "Hebrews 2:14-17"
+          ]
+        },
+        {
+          "title": "Born of a virgin",
+          "body": "Isaiah prophesied, \"a virgin shall conceive, and bear a son, and shall call his name Immanuel\" (Isaiah 7:14), fulfilled in Jesus (Matthew 1:22-23).\n\nMatthew and Luke both record that Mary conceived by the Holy Ghost before she and Joseph came together (Matthew 1:18-25; Luke 1:34-35). The angel said, \"that holy thing which shall be born of thee shall be called the Son of God\" (Luke 1:35).\n\nThe virgin birth is a miracle, not a myth. All Bible-believing churches, including Baptist and Deeper Life, confess it as essential.",
+          "refs": [
+            "Isaiah 7:14",
+            "Matthew 1:18-25",
+            "Luke 1:26-38"
+          ]
+        },
+        {
+          "title": "Why the virgin birth matters",
+          "body": "The virgin birth shows that salvation comes from God, not human effort; the Saviour came by God's initiative.\n\nIt shows how Jesus could be both God and man: conceived by the Holy Ghost, born of a woman.\n\nIt is connected with His sinlessness. Though truly human, He did not inherit Adam's guilt and corruption; He was \"holy, harmless, undefiled, separate from sinners\" (Hebrews 7:26). The Spirit's work in His conception kept Him holy (Luke 1:35).\n\nTo deny the virgin birth is to doubt both Scripture's truth and God's power.",
+          "refs": [
+            "Luke 1:35",
+            "Hebrews 7:26",
+            "Luke 1:37"
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Incarnation",
+          "def": "The eternal Son of God taking a true human nature."
+        },
+        {
+          "term": "Virgin birth",
+          "def": "Jesus' conception by the Holy Ghost in the virgin Mary without a human father."
+        },
+        {
+          "term": "Immanuel",
+          "def": "'God with us', the name given in Isaiah 7:14."
+        },
+        {
+          "term": "Made under the law",
+          "def": "Christ's birth as a Jew, subject to God's law, to redeem those under it."
+        },
+        {
+          "term": "Substitute",
+          "def": "One who takes another's place; Christ took our place."
+        },
+        {
+          "term": "That holy thing",
+          "def": "The angel's description of the child conceived by the Holy Ghost (Luke 1:35)."
+        }
+      ],
+      "texts": [
+        {
+          "ref": "John 1:14",
+          "teaches": "The Word was made flesh and dwelt among us."
+        },
+        {
+          "ref": "Isaiah 7:14",
+          "teaches": "A virgin shall conceive and bear a son named Immanuel."
+        },
+        {
+          "ref": "Matthew 1:23",
+          "teaches": "Immanuel means God with us."
+        },
+        {
+          "ref": "Luke 1:35",
+          "teaches": "The Holy Ghost would come upon Mary, and the child would be called the Son of God."
+        },
+        {
+          "ref": "Hebrews 2:14",
+          "teaches": "Christ took part of flesh and blood to destroy the devil through death."
+        }
+      ],
+      "summary": [
+        "In the incarnation the eternal Son took a true human nature.",
+        "He became man to reveal God, die as our substitute and be our High Priest.",
+        "He was conceived by the Holy Ghost and born of the virgin Mary.",
+        "The virgin birth shows God's initiative and is linked to Christ's sinlessness."
+      ],
+      "questions": [
+        {
+          "q": "What does incarnation mean?",
+          "options": [
+            "The Son taking a true human nature",
+            "Christ's resurrection",
+            "The Spirit's coming",
+            "A vision of God"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Immanuel mean?",
+          "options": [
+            "God with us",
+            "God saves",
+            "Prince of peace",
+            "Son of David"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which two Gospels record the virgin birth?",
+          "options": [
+            "Matthew and Luke",
+            "Mark and John",
+            "Mark and Luke",
+            "John and Matthew"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why did Christ take flesh and blood, according to Hebrews 2:14?",
+          "options": [
+            "So He could die and destroy the devil's power",
+            "To become a priest of Levi",
+            "To avoid suffering",
+            "To impress the angels"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Truly Man",
+      "intro": "Jesus is not God pretending to be human. This week we see His true humanity and His sinlessness.",
+      "lessons": [
+        {
+          "title": "A real human body and mind",
+          "body": "Jesus had a real body: He was born, grew (Luke 2:52), was hungry (Matthew 4:2), thirsty (John 19:28) and tired (John 4:6). He slept in a boat (Mark 4:38), bled and died.\n\nHe had a real human mind: He \"increased in wisdom and stature\" (Luke 2:52) and asked questions.\n\nHe had real emotions: He wept at Lazarus's tomb (John 11:35), was angry at hardness of heart (Mark 3:5), rejoiced in the Spirit (Luke 10:21), and was \"exceeding sorrowful, even unto death\" in Gethsemane (Matthew 26:38).",
+          "refs": [
+            "Luke 2:52",
+            "John 4:6",
+            "John 11:35"
+          ]
+        },
+        {
+          "title": "Tempted, yet without sin",
+          "body": "Jesus was truly tempted. He was led into the wilderness \"to be tempted of the devil\" (Matthew 4:1), and Hebrews says He \"was in all points tempted like as we are, yet without sin\" (Hebrews 4:15).\n\nHe never sinned. He challenged His enemies, \"Which of you convinceth me of sin?\" (John 8:46). Peter: He \"did no sin, neither was guile found in his mouth\" (1 Peter 2:22). Paul: He \"knew no sin\" (2 Corinthians 5:21).\n\nBecause He felt the full force of temptation and never gave in, He can help us when we are tempted (Hebrews 2:18).",
+          "refs": [
+            "Hebrews 4:15",
+            "1 Peter 2:22",
+            "Hebrews 2:18"
+          ]
+        },
+        {
+          "title": "Why His humanity matters",
+          "body": "Christ's humanity is not a lesser truth. If He were not truly man:\n\n- He could not be our **substitute**, dying in human nature for human sin (Hebrews 2:17).\n- He could not be our **mediator**: \"one mediator between God and men, the man Christ Jesus\" (1 Timothy 2:5).\n- He could not be our **example** of obedience and faith (1 Peter 2:21).\n- He could not be our **sympathetic High Priest** (Hebrews 4:15-16).\n\nJohn warns that denying \"that Jesus Christ is come in the flesh\" is the spirit of antichrist (1 John 4:2-3). He is still a man, glorified, today.",
+          "refs": [
+            "1 Timothy 2:5",
+            "1 John 4:2-3",
+            "Hebrews 4:15-16"
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Humanity of Christ",
+          "def": "The truth that Jesus is fully and truly human."
+        },
+        {
+          "term": "Impeccability",
+          "def": "The teaching that Christ not only did not sin but could not sin."
+        },
+        {
+          "term": "Sinlessness",
+          "def": "Christ's perfect freedom from all sin."
+        },
+        {
+          "term": "Mediator",
+          "def": "One who stands between two parties to reconcile them; Christ between God and man."
+        },
+        {
+          "term": "Docetism",
+          "def": "The early error that Christ only seemed to have a human body."
+        },
+        {
+          "term": "Sympathetic High Priest",
+          "def": "Christ, who feels our weakness because He was tempted as we are."
+        }
+      ],
+      "texts": [
+        {
+          "ref": "Luke 2:52",
+          "teaches": "Jesus increased in wisdom and stature."
+        },
+        {
+          "ref": "John 11:35",
+          "teaches": "Jesus wept."
+        },
+        {
+          "ref": "Hebrews 4:15",
+          "teaches": "Christ was tempted in all points like us, yet without sin."
+        },
+        {
+          "ref": "2 Corinthians 5:21",
+          "teaches": "Christ knew no sin, yet was made sin for us."
+        },
+        {
+          "ref": "1 Timothy 2:5",
+          "teaches": "There is one mediator between God and men, the man Christ Jesus."
+        }
+      ],
+      "summary": [
+        "Jesus had a real human body, mind and emotions.",
+        "He was truly tempted but never sinned.",
+        "His humanity makes Him our substitute, mediator, example and sympathetic priest.",
+        "Denying Christ came in the flesh is the spirit of antichrist."
+      ],
+      "questions": [
+        {
+          "q": "Which verse shows Jesus' human growth?",
+          "options": [
+            "Luke 2:52",
+            "John 1:1",
+            "John 8:58",
+            "Hebrews 1:3"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Hebrews 4:15 says Jesus was tempted:",
+          "options": [
+            "In all points like us, yet without sin",
+            "Never",
+            "Only once",
+            "And sometimes failed"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What was the error of Docetism?",
+          "options": [
+            "Christ only seemed to have a human body",
+            "Christ was only human",
+            "Christ was an angel",
+            "There are three gods"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "According to 1 Timothy 2:5, the one mediator is:",
+          "options": [
+            "The man Christ Jesus",
+            "The virgin Mary",
+            "The angels",
+            "The priests"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "One Person, Two Natures",
+      "intro": "How can Jesus be both God and man? This week we study the union of two natures in one Person and the errors the church rejected.",
+      "lessons": [
+        {
+          "title": "The hypostatic union",
+          "body": "Jesus is one Person with two natures, divine and human, united without being mixed. Theologians call this the **hypostatic union** (from the Greek for \"person\").\n\nThis explains why Scripture says things of Christ that belong to one nature or the other: He is eternal (as God) and was born (as man); He knows all things (John 21:17) and did not know the day of His return (Mark 13:32); He upholds all things (Hebrews 1:3) and slept in a boat.\n\nYet it is always the one Person, the Son, who does and suffers all these things. \"God... purchased [the church] with his own blood\" (Acts 20:28).",
+          "refs": [
+            "Colossians 2:9",
+            "Mark 13:32",
+            "Acts 20:28"
+          ]
+        },
+        {
+          "title": "Errors the church rejected",
+          "body": "- **Ebionism:** Jesus was only a man, specially blessed.\n- **Docetism and Gnosticism:** Jesus only seemed to be human.\n- **Arianism:** the Son is a created being.\n- **Apollinarianism:** Jesus had a human body but a divine mind instead of a human mind.\n- **Nestorianism:** Christ was two persons, a man and God joined together.\n- **Eutychianism:** the two natures mixed into a third, neither fully God nor fully man.\n\nEach error weakens either His deity, His humanity, or the unity of His Person, and so weakens the gospel.",
+          "refs": [
+            "1 John 4:2-3",
+            "John 1:14",
+            "Hebrews 2:17"
+          ]
+        },
+        {
+          "title": "The Chalcedonian definition",
+          "body": "In AD 451 the Council of Chalcedon summed up the biblical teaching: Christ is \"truly God and truly man\", \"of one substance with the Father\" as to His deity and \"of one substance with us\" as to His humanity, \"in two natures, without confusion, without change, without division, without separation\".\n\nThese four \"withouts\" guard the truth: the natures are not mixed or changed (against Eutychianism), and not divided or separated (against Nestorianism).\n\nChalcedon does not explain the mystery fully, but it sets a fence around it. Baptist, Pentecostal and Holiness churches all confess this faith.",
+          "refs": [
+            "John 1:1",
+            "John 1:14",
+            "1 Timothy 3:16"
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Hypostatic union",
+          "def": "The union of Christ's divine and human natures in one Person."
+        },
+        {
+          "term": "Nestorianism",
+          "def": "The error of dividing Christ into two persons."
+        },
+        {
+          "term": "Eutychianism",
+          "def": "The error of mixing Christ's natures into one new nature."
+        },
+        {
+          "term": "Apollinarianism",
+          "def": "The error that Christ had no human mind."
+        },
+        {
+          "term": "Council of Chalcedon",
+          "def": "The church council of AD 451 that defined Christ as one Person in two natures."
+        },
+        {
+          "term": "Mystery of godliness",
+          "def": "Paul's phrase for God manifest in the flesh (1 Timothy 3:16)."
+        }
+      ],
+      "texts": [
+        {
+          "ref": "Colossians 2:9",
+          "teaches": "All the fulness of the Godhead dwells bodily in Christ."
+        },
+        {
+          "ref": "Mark 13:32",
+          "teaches": "As man, the Son did not know the day or hour."
+        },
+        {
+          "ref": "Acts 20:28",
+          "teaches": "God purchased the church with His own blood."
+        },
+        {
+          "ref": "1 Timothy 3:16",
+          "teaches": "Great is the mystery of godliness: God was manifest in the flesh."
+        },
+        {
+          "ref": "1 John 4:2",
+          "teaches": "Every spirit that confesses Jesus Christ is come in the flesh is of God."
+        }
+      ],
+      "summary": [
+        "Christ is one Person with two natures, divine and human.",
+        "Scripture speaks of Him according to each nature, but always as one Person.",
+        "The church rejected errors that weakened His deity, humanity or unity.",
+        "Chalcedon (451): two natures without confusion, change, division or separation."
+      ],
+      "questions": [
+        {
+          "q": "What is the hypostatic union?",
+          "options": [
+            "Two natures united in one Person",
+            "Three Persons in one God",
+            "Union of believers with Christ",
+            "Marriage of Christ and the church"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which error divided Christ into two persons?",
+          "options": [
+            "Nestorianism",
+            "Eutychianism",
+            "Docetism",
+            "Arianism"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When was the Council of Chalcedon?",
+          "options": [
+            "AD 451",
+            "AD 325",
+            "AD 1517",
+            "AD 33"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which phrase is part of the Chalcedonian definition?",
+          "options": [
+            "Without confusion, without change",
+            "Three gods in one",
+            "Born of Joseph",
+            "Made, not begotten"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Prophet, Priest and King",
+      "intro": "Christ fulfils the three great offices of the Old Testament. This week we see His work as Prophet, Priest and King, and His present exaltation.",
+      "lessons": [
+        {
+          "title": "Prophet",
+          "body": "Moses promised that God would raise up \"a Prophet... like unto me\" (Deuteronomy 18:15). Peter applies this to Jesus (Acts 3:22-23).\n\nChrist is more than a prophet; He is the Word Himself. God \"hath in these last days spoken unto us by his Son\" (Hebrews 1:2). He revealed the Father (John 1:18) and taught with authority (Matthew 7:29).\n\nHe continues His prophetic work through His Word and Spirit. The Father says, \"This is my beloved Son... hear ye him\" (Matthew 17:5).",
+          "refs": [
+            "Deuteronomy 18:15",
+            "Hebrews 1:1-2",
+            "Matthew 17:5"
+          ]
+        },
+        {
+          "title": "Priest",
+          "body": "A priest represents people before God, offers sacrifice and intercedes. Christ is \"a great high priest, that is passed into the heavens\" (Hebrews 4:14), \"after the order of Melchisedec\" (Hebrews 7:17), not of Levi.\n\nUnlike earthly priests, He offered Himself, once for all: \"by his own blood he entered in once into the holy place, having obtained eternal redemption\" (Hebrews 9:12).\n\nHe now \"ever liveth to make intercession\" for those who come to God by Him (Hebrews 7:25). We need no other priest or mediator to approach God.",
+          "refs": [
+            "Hebrews 4:14-16",
+            "Hebrews 7:24-27",
+            "Hebrews 9:11-12"
+          ]
+        },
+        {
+          "title": "King",
+          "body": "Christ is the promised Son of David whose kingdom has no end (Luke 1:32-33). He was born King of the Jews, entered Jerusalem as King, and was crucified under the title \"KING OF THE JEWS\" (Matthew 27:37).\n\nRaised and ascended, He sits at the Father's right hand, \"far above all principality, and power\" (Ephesians 1:20-22). \"All power is given unto me in heaven and in earth\" (Matthew 28:18).\n\nHe reigns now over His church and over all things, and He will return as \"KING OF KINGS, AND LORD OF LORDS\" (Revelation 19:16). Our response is to bow to Him as Lord.",
+          "refs": [
+            "Luke 1:32-33",
+            "Ephesians 1:20-22",
+            "Revelation 19:16"
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Threefold office",
+          "def": "Christ's work as Prophet, Priest and King."
+        },
+        {
+          "term": "Prophet",
+          "def": "One who speaks God's word; Christ is God's final Word."
+        },
+        {
+          "term": "Priest",
+          "def": "One who offers sacrifice and intercedes; Christ offered Himself and intercedes."
+        },
+        {
+          "term": "King",
+          "def": "One who rules; Christ reigns over all things."
+        },
+        {
+          "term": "Melchisedec",
+          "def": "The priest-king of Salem whose order Christ's priesthood follows."
+        },
+        {
+          "term": "Session",
+          "def": "Christ's sitting at the Father's right hand in authority."
+        }
+      ],
+      "texts": [
+        {
+          "ref": "Deuteronomy 18:15",
+          "teaches": "God would raise up a Prophet like Moses."
+        },
+        {
+          "ref": "Hebrews 7:25",
+          "teaches": "Christ ever lives to make intercession for His people."
+        },
+        {
+          "ref": "Hebrews 9:12",
+          "teaches": "By His own blood Christ obtained eternal redemption."
+        },
+        {
+          "ref": "Matthew 28:18",
+          "teaches": "All power in heaven and earth is given to Christ."
+        },
+        {
+          "ref": "Revelation 19:16",
+          "teaches": "Christ is King of kings and Lord of lords."
+        }
+      ],
+      "summary": [
+        "As Prophet, Christ is God's final Word.",
+        "As Priest, He offered Himself once for all and intercedes for us.",
+        "As King, He reigns now and will return in glory.",
+        "We hear Him, trust Him and obey Him."
+      ],
+      "questions": [
+        {
+          "q": "After whose order is Christ a priest?",
+          "options": [
+            "Melchisedec",
+            "Aaron",
+            "Levi",
+            "Eli"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How many times did Christ offer Himself?",
+          "options": [
+            "Once for all",
+            "Every year",
+            "Every Sunday",
+            "Three times"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Hebrews 7:25 say Christ does now?",
+          "options": [
+            "Ever lives to make intercession",
+            "Rests from all work",
+            "Offers new sacrifices",
+            "Waits to become King"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who promised a Prophet like himself?",
+          "options": [
+            "Moses",
+            "Elijah",
+            "Isaiah",
+            "David"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      {
+        "q": "Give two Bible evidences of Christ's pre-existence.",
+        "keywords": [
+          [
+            "John 1:1",
+            "in the beginning",
+            "Word was God"
+          ],
+          [
+            "John 8:58",
+            "Abraham",
+            "John 17:5",
+            "before the world",
+            "Micah 5:2",
+            "everlasting"
+          ]
+        ],
+        "model": "John 1:1 (in the beginning was the Word), John 8:58 (before Abraham was, I am), John 17:5 (glory before the world was), Micah 5:2 (from everlasting)."
+      },
+      {
+        "q": "Why does the virgin birth matter?",
+        "keywords": [
+          [
+            "God",
+            "initiative",
+            "miracle"
+          ],
+          [
+            "God and man",
+            "both"
+          ],
+          [
+            "sinless",
+            "holy",
+            "without sin"
+          ]
+        ],
+        "model": "It shows salvation comes from God's initiative, explains how Jesus is both God and man, and is linked to His sinlessness."
+      },
+      {
+        "q": "Give three evidences of Jesus' true humanity.",
+        "keywords": [
+          [
+            "hungry",
+            "thirsty",
+            "tired",
+            "slept",
+            "body",
+            "born",
+            "grew"
+          ],
+          [
+            "wept",
+            "angry",
+            "sorrow",
+            "emotions"
+          ],
+          [
+            "wisdom",
+            "mind",
+            "learned",
+            "tempted"
+          ]
+        ],
+        "model": "He was born and grew, was hungry, thirsty and tired; He wept and felt sorrow; He increased in wisdom and was tempted."
+      },
+      {
+        "q": "Why must Christ be both God and man to save us?",
+        "keywords": [
+          [
+            "man",
+            "human",
+            "substitute",
+            "die"
+          ],
+          [
+            "God",
+            "infinite",
+            "divine"
+          ],
+          [
+            "mediator",
+            "bring together",
+            "reconcile"
+          ]
+        ],
+        "model": "As man He could die as our substitute; as God His sacrifice has infinite worth; as both He is the mediator who reconciles God and man."
+      },
+      {
+        "q": "State the Chalcedonian definition in simple words.",
+        "keywords": [
+          [
+            "one Person"
+          ],
+          [
+            "two natures",
+            "God and man"
+          ],
+          [
+            "without",
+            "confusion",
+            "mixed",
+            "divided"
+          ]
+        ],
+        "model": "Christ is one Person in two natures, truly God and truly man, without the natures being mixed, changed, divided or separated."
+      },
+      {
+        "q": "Explain Christ's priestly work.",
+        "keywords": [
+          [
+            "offered",
+            "sacrifice",
+            "blood"
+          ],
+          [
+            "once"
+          ],
+          [
+            "intercede",
+            "intercession"
+          ]
+        ],
+        "model": "He offered Himself once for all as the perfect sacrifice, and now intercedes for His people at God's right hand."
+      }
+    ],
+    "lists": [
+      {
+        "q": "List Christ's three offices.",
+        "items": [
+          [
+            "prophet"
+          ],
+          [
+            "priest"
+          ],
+          [
+            "king"
+          ]
+        ],
+        "need": 3
+      },
+      {
+        "q": "List four errors about Christ's Person.",
+        "items": [
+          [
+            "Ebionism"
+          ],
+          [
+            "Docetism",
+            "Gnosticism"
+          ],
+          [
+            "Arianism"
+          ],
+          [
+            "Apollinarianism"
+          ],
+          [
+            "Nestorianism"
+          ],
+          [
+            "Eutychianism"
+          ]
+        ],
+        "need": 4
+      },
+      {
+        "q": "List the four 'withouts' of Chalcedon.",
+        "items": [
+          [
+            "confusion"
+          ],
+          [
+            "change"
+          ],
+          [
+            "division"
+          ],
+          [
+            "separation"
+          ]
+        ],
+        "need": 4
+      }
+    ]
+  },
+  "assignments": [
+    {
+      "title": "Who do you say I am?",
+      "prompt": "Answer the question Jesus asked in Matthew 16:15 for a Muslim or Jehovah's Witness friend who believes Jesus was only a prophet or a created being. Use at least six passages from this course, and write respectfully.",
+      "words": "600–800"
+    },
+    {
+      "title": "A High Priest who understands",
+      "prompt": "Using Hebrews 2:17-18 and 4:14-16, explain how Christ's humanity and priesthood help a believer facing temptation or suffering. Include one practical application.",
+      "words": "400–600"
+    }
+  ],
+  "examMinutes": 75,
+  "reading": [
+    "Donald Macleod, The Person of Christ",
+    "Stephen J. Wellum, God the Son Incarnate",
+    "Wayne Grudem, Systematic Theology, chapter 26"
+  ]
+}
