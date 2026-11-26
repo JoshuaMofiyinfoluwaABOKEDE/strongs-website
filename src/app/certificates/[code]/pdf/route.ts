@@ -16,6 +16,7 @@ export async function GET(req: Request, { params }: { params: Promise<{ code: st
     courseTitle: cert.course_title,
     issuedAt: new Date(cert.issued_at),
     verifyUrl: `${host}/certificates/${cert.code}`,
+    school: cert.school,
   });
   const file = `STRONGS-certificate-${cert.course_title.replace(/[^\w]+/g, "-")}-${cert.code}.pdf`;
   return new Response(Buffer.from(bytes), {

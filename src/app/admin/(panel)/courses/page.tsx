@@ -8,7 +8,7 @@ import { requireAdmin } from "@/lib/session";
 export default async function AdminCourses({ searchParams }: { searchParams: Promise<{ deleted?: string; error?: string; cat?: string }> }) {
   await requireAdmin();
   const { deleted, error, cat } = await searchParams;
-  const cats = await q<{ id: string; name: string }>(`SELECT id, name FROM lms_category ORDER BY position`);
+  const cats = await q<{ id: string; name: string }>(`SELECT id, name FROM lms_category WHERE id <> 'theology' ORDER BY position`);
   const rows = await q<{
     id: number; title: string; slug: string; category_id: string; listed: boolean; enrolment_open: boolean; review: Record<string, boolean>;
     modules: number; lessons: number; published: number; assessments: number; enrolments: number; completed: number;
@@ -20,7 +20,7 @@ export default async function AdminCourses({ searchParams }: { searchParams: Pro
       (SELECT count(*)::int FROM lms_assessment a WHERE a.course_id=c.id AND a.published) AS assessments,
       (SELECT count(*)::int FROM lms_enrolment e WHERE e.course_id=c.id) AS enrolments,
       (SELECT count(*)::int FROM lms_enrolment e WHERE e.course_id=c.id AND e.completed_at IS NOT NULL) AS completed
-    FROM lms_course c ${cat ? "WHERE c.category_id = $1" : ""} ORDER BY c.position, c.title`, cat ? [cat] : []);
+    FROM lms_course c WHERE c.school = 'courses' ${cat ? "AND c.category_id = $1" : ""} ORDER BY c.position, c.title`, cat ? [cat] : []);
   const catName = (id: string) => cats.find((c) => c.id === id)?.name ?? id;
   return (
     <>

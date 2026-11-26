@@ -295,13 +295,14 @@ export type CertificateRow = {
   revoked: boolean;
   revoked_reason: string;
   slug?: string;
+  school?: string;
 };
 
 export async function getCertificate(code: string) {
   if (!hasDatabase) return null;
   await ensureReady();
   return one<CertificateRow>(
-    `SELECT ce.*, c.slug FROM lms_certificate ce JOIN lms_course c ON c.id = ce.course_id WHERE ce.code = $1`,
+    `SELECT ce.*, c.slug, c.school FROM lms_certificate ce JOIN lms_course c ON c.id = ce.course_id WHERE ce.code = $1`,
     [code.toUpperCase()],
   );
 }
@@ -315,6 +316,7 @@ export async function getMyCourses(userId: string) {
     slug: string;
     title: string;
     category_id: string;
+    school: string;
     enrolled_at: string;
     last_active_at: string;
     completed_at: string | null;
@@ -328,7 +330,7 @@ export async function getMyCourses(userId: string) {
        UNION ALL
        SELECT a.course_id, NULL, a.id FROM lms_assessment a WHERE a.published AND a.course_id IN (SELECT course_id FROM my)
      )
-     SELECT my.course_id, c.slug, c.title, c.category_id, my.enrolled_at, my.last_active_at, my.completed_at,
+     SELECT my.course_id, c.slug, c.title, c.category_id, c.school, my.enrolled_at, my.last_active_at, my.completed_at,
        (SELECT count(*)::int FROM items i WHERE i.course_id = my.course_id) AS total,
        (SELECT count(*)::int FROM items i WHERE i.course_id = my.course_id AND (
           (i.lesson_id IS NOT NULL AND EXISTS (SELECT 1 FROM lms_lesson_progress p WHERE p.user_id = $1 AND p.lesson_id = i.lesson_id))

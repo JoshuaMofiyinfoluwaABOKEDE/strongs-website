@@ -4,6 +4,9 @@ import { authOptions } from "@/lib/auth";
 import { hasDatabase, pool, q } from "@/lib/db";
 import { migrations } from "@/lib/schema";
 import { courseCategories, courses } from "@/content/courses";
+import { theologyOrder } from "@/content/theology/catalog";
+import { theologyCourses } from "@/content/theology/courses";
+import { createHash } from "node:crypto";
 
 const globalForSetup = globalThis as unknown as { strongsReady?: Promise<void> };
 
@@ -14,7 +17,7 @@ const globalForSetup = globalThis as unknown as { strongsReady?: Promise<void> }
 export function ensureReady(): Promise<void> {
   if (!hasDatabase) return Promise.reject(new Error("The courses database is not connected yet."));
   if (!globalForSetup.strongsReady) {
-    globalForSetup.strongsReady = setup().catch((e) => {
+    globalForSetup.strongsReady = setup().then(syncTheology).catch((e) => {
       globalForSetup.strongsReady = undefined;
       throw e;
     });
@@ -81,4 +84,55 @@ async function seedCatalogue(client: import("pg").PoolClient) {
     }
   }
   await client.query("COMMIT");
+}
+
+/**
+ * Keeps one row in lms_course for each School of Theology course file, so enrolment,
+ * My learning and certificates work as for every other course. Course content itself is
+ * read from the files. Runs only when the files have changed since the last sync.
+ */
+async function syncTheology() {
+  await q(`CREATE TABLE IF NOT EXISTS lms_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL)`);
+  const files = theologyOrder.map((o) => theologyCourses.find((c) => c.slug === o.slug)).filter((c) => !!c);
+  const rows = files.map((c, i) => ({
+    slug: c.slug,
+    title: c.title,
+    level: c.level,
+    weeks: c.modules.length,
+    summary: c.summary,
+    about: c.description,
+    objectives: c.objectives,
+    outcomes: c.outcomes,
+    position: 1000 + i,
+  }));
+  const checksum = createHash("sha1").update(JSON.stringify(rows)).digest("hex");
+  const seen = (await q<{ value: string }>(`SELECT value FROM lms_meta WHERE key = 'theology'`))[0]?.value;
+  if (seen === checksum) return;
+  const client = await pool().connect();
+  try {
+    await client.query("BEGIN");
+    await client.query(
+      `INSERT INTO lms_category (id, name, blurb, position) VALUES ('theology', 'School of Theology', 'Self-paced theology courses with assessments and certificates.', 99) ON CONFLICT (id) DO NOTHING`,
+    );
+    for (const r of rows) {
+      await client.query(
+        `INSERT INTO lms_course (slug, title, category_id, school, level, weeks, effort, format, summary, about, objectives, outcomes, listed, enrolment_open, position)
+         VALUES ($1,$2,'theology','theology',$3,$4,'3–4 hours a week','Online, self-paced',$5,$6,$7,$8,false,true,$9)
+         ON CONFLICT (slug) DO UPDATE SET title=EXCLUDED.title, school='theology', category_id='theology', level=EXCLUDED.level, weeks=EXCLUDED.weeks,
+           summary=EXCLUDED.summary, about=EXCLUDED.about, objectives=EXCLUDED.objectives, outcomes=EXCLUDED.outcomes, position=EXCLUDED.position,
+           listed=false, enrolment_open=true, updated_at=now()`,
+        [r.slug, r.title, r.level, r.weeks, r.summary, r.about, JSON.stringify(r.objectives), JSON.stringify(r.outcomes), r.position],
+      );
+    }
+    await client.query(
+      `INSERT INTO lms_meta (key, value) VALUES ('theology', $1) ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value`,
+      [checksum],
+    );
+    await client.query("COMMIT");
+  } catch (e) {
+    await client.query("ROLLBACK").catch(() => {});
+    throw e;
+  } finally {
+    client.release();
+  }
 }

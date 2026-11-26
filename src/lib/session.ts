@@ -36,3 +36,12 @@ export async function requireAdmin(): Promise<SessionUser> {
 }
 
 export const isAdmin = (u: SessionUser | null) => u?.role === "admin";
+
+/** Instructors grade theology assignments and papers; administrators can do everything. */
+export async function requireInstructor(): Promise<SessionUser> {
+  const user = await requireUser("/instructor/");
+  if (user.role !== "admin" && user.role !== "instructor") redirect("/admin/setup/");
+  return user;
+}
+
+export const isInstructor = (u: SessionUser | null) => u?.role === "admin" || u?.role === "instructor";

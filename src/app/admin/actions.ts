@@ -359,9 +359,11 @@ export async function deleteQuestion(form: FormData) {
 export async function setRole(form: FormData) {
   const admin = await requireAdmin();
   const userId = str(form, "userId");
-  const role = str(form, "role") === "admin" ? "admin" : "user";
+  const wanted = str(form, "role");
+  const role = wanted === "admin" ? "admin" : wanted === "instructor" ? "instructor" : "user";
   if (userId === admin.id && role !== "admin") redirect(`/admin/students/${userId}/?error=self`);
-  await getAuth().api.setRole({ body: { userId, role }, headers: await headers() });
+  // "instructor" is a STRONGS role (grading the School of Theology), stored alongside the sign-in roles.
+  await q(`UPDATE "user" SET role = $2, "updatedAt" = now() WHERE id = $1`, [userId, role]);
   revalidatePath(`/admin/students/${userId}/`);
   redirect(`/admin/students/${userId}/?saved=role`);
 }

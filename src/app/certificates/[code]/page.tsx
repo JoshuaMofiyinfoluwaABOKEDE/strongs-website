@@ -38,13 +38,13 @@ export default async function CertificatePage({ params }: { params: Promise<{ co
                 <>
                   <p className="italic text-muted">This certifies that</p>
                   <p className="font-serif text-[clamp(2rem,5vw,3rem)] font-semibold leading-tight text-navy">{c.learner_name}</p>
-                  <p className="text-muted">completed the STRONGS course</p>
+                  <p className="text-muted">completed the STRONGS {c.school === "theology" ? "School of Theology " : ""}course</p>
                   <p className="text-[clamp(1.4rem,3vw,2rem)] font-bold leading-tight text-navy">{c.course_title}</p>
                   <p className="text-muted">on {date(c.issued_at)}</p>
                   <p className="text-xs uppercase tracking-[0.2em] text-muted">Certificate no. {c.code}</p>
                   <div className="flex flex-wrap justify-center gap-3">
                     <a href={`/certificates/${c.code}/pdf/`} className="btn btn-navy">Download PDF</a>
-                    {c.slug && <Link href={`/courses/${c.slug}/`} className="btn btn-line">About the course</Link>}
+                    {c.slug && <Link href={c.school === "theology" ? `/courses/theology/${c.slug}/` : `/courses/${c.slug}/`} className="btn btn-line">About the course</Link>}
                   </div>
                 </>
               )}

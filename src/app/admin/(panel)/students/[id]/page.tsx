@@ -40,7 +40,7 @@ export default async function Student({ params, searchParams }: { params: Promis
   return (
     <>
       <AdminTitle title={u.name} intro={`${u.email} · joined ${date(u.createdAt)}`} back={{ href: "/admin/students/", label: "Students" }}>
-        <div className="flex gap-2">{u.role === "admin" ? <Badge tone="navy">Admin</Badge> : <Badge>Learner</Badge>}{u.banned && <Badge tone="warn">Blocked</Badge>}</div>
+        <div className="flex gap-2">{u.role === "admin" ? <Badge tone="navy">Admin</Badge> : u.role === "instructor" ? <Badge tone="gold">Instructor</Badge> : <Badge>Learner</Badge>}{u.banned && <Badge tone="warn">Blocked</Badge>}</div>
       </AdminTitle>
       {sp.saved && saved[sp.saved] && <Notice>{saved[sp.saved]}</Notice>}
       {sp.error && errors[sp.error] && <Notice kind="error">{errors[sp.error]}</Notice>}
@@ -98,7 +98,7 @@ export default async function Student({ params, searchParams }: { params: Promis
         <Card title="Role">
           <form action={setRole} className="flex flex-col gap-3">
             <input type="hidden" name="userId" value={u.id} />
-            <select name="role" defaultValue={u.role === "admin" ? "admin" : "learner"} className="field"><option value="learner">Learner</option><option value="admin">Administrator</option></select>
+            <select name="role" defaultValue={u.role === "admin" ? "admin" : u.role === "instructor" ? "instructor" : "learner"} className="field"><option value="learner">Learner</option><option value="instructor">Instructor (School of Theology grading)</option><option value="admin">Administrator</option></select>
             <button type="submit" className={`${btnPrimary} self-start`} disabled={u.id === me?.id}>Save role</button>
           </form>
         </Card>

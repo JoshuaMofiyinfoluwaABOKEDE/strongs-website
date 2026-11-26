@@ -75,6 +75,19 @@ export default async function CoursesPage() {
         </div>
       </section>
 
+      <section aria-labelledby="school-title" className="bg-white">
+        <div className="container-site pt-[clamp(2.5rem,5vw,3.5rem)]">
+          <div className="flex flex-wrap items-center gap-x-10 gap-y-5 rounded-3xl bg-navy p-[clamp(1.5rem,4vw,2.75rem)] text-white">
+            <div className="flex min-w-0 flex-[1_1_28rem] flex-col gap-3">
+              <p className="eyebrow-dark">STRONGS School of Theology</p>
+              <h2 id="school-title" className="text-[clamp(1.7rem,3vw,2.4rem)] font-bold leading-tight">Fifty theology courses, in plain English</h2>
+              <p className="text-pale">The Bible, its doctrines, church history, Christian living and ministry. Self-paced, with weekly quizzes, a test, assignments, a final exam and a certificate.</p>
+            </div>
+            <Link href="/courses/theology/" className="btn btn-gold">Explore the School of Theology</Link>
+          </div>
+        </div>
+      </section>
+
       {courseCategories.map((cat, i) => {
         const list = coursesIn(cat.id);
         return (

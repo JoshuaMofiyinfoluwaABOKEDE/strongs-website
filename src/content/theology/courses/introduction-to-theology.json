@@ -1,0 +1,241 @@
+{
+  "slug": "introduction-to-theology",
+  "title": "Introduction to Theology",
+  "track": "foundations",
+  "level": "Foundation",
+  "summary": "What theology is, why every believer needs it, and how Christians learn what God has revealed.",
+  "description": "Theology simply means knowing and speaking rightly about God. Every Christian is a theologian, good or bad. This course explains what theology is, where it comes from, how its main branches fit together, and how sound doctrine shapes faith, worship and daily life. It is written for ordinary believers, not specialists.",
+  "objectives": [
+    "Explain theology in plain words and show why it matters to every believer",
+    "Show that God's revelation in Scripture is the source and judge of all Christian teaching",
+    "Introduce the main branches of theology and how they relate",
+    "Encourage humble, prayerful and practical study of doctrine"
+  ],
+  "outcomes": [
+    "Define theology, doctrine and revelation in your own words",
+    "Distinguish general revelation from special revelation",
+    "Name the main branches of theology and what each studies",
+    "Explain why doctrine and devotion belong together",
+    "Begin a simple plan for studying doctrine from the Bible"
+  ],
+  "modules": [
+    {
+      "title": "What Is Theology?",
+      "intro": "This week we define theology and see why every believer, not only pastors, should care about it.",
+      "lessons": [
+        {
+          "title": "Knowing and speaking rightly about God",
+          "body": "The word *theology* joins two Greek words: *theos* (God) and *logos* (word or study). Theology is the study of God and of everything in relation to Him.\n\nIt is not a hobby for scholars. Whenever you say \"God is love\" or \"Jesus saves\", you are making a theological statement. The question is not whether we have a theology, but whether it is true.\n\nPaul told Timothy to \"take heed unto thyself, and unto the doctrine\" (1 Timothy 4:16). What we believe about God shapes how we pray, worship and live. Wrong ideas about God lead to wrong lives; right ideas, received by faith, lead to godliness.",
+          "refs": ["1 Timothy 4:16", "Titus 1:9", "2 Peter 3:18"]
+        },
+        {
+          "title": "Every believer is a theologian",
+          "body": "The Bereans \"searched the scriptures daily, whether those things were so\" (Acts 17:11). They were not professional teachers, yet Luke praises them as noble because they tested teaching by God's Word.\n\nGod commands every believer to grow in knowledge as well as grace. Hebrews rebukes Christians who should have been teachers but still needed milk (Hebrews 5:12-14). Doctrine is food for the soul: it makes believers strong, stable and discerning.\n\nTheology is also protection. Paul warns of being \"carried about with every wind of doctrine\" (Ephesians 4:14). A believer who knows the truth is harder to deceive.",
+          "refs": ["Acts 17:11", "Hebrews 5:12-14", "Ephesians 4:14"]
+        },
+        {
+          "title": "Doctrine and devotion together",
+          "body": "Some think theology makes people cold and proud. Paul warns that \"knowledge puffeth up, but charity edifieth\" (1 Corinthians 8:1). The answer is not less knowledge but humbler, more loving knowledge.\n\nIn Scripture, truth always leads to worship. After eleven chapters of deep doctrine in Romans, Paul bursts into praise: \"O the depth of the riches both of the wisdom and knowledge of God!\" (Romans 11:33). Then he turns to daily obedience in chapter 12.\n\nGood theology moves from the head to the heart to the hands: we learn the truth, we love the God of the truth, and we live by it.",
+          "refs": ["1 Corinthians 8:1", "Romans 11:33-36", "Romans 12:1-2"]
+        }
+      ],
+      "terms": [
+        { "term": "Theology", "def": "The study of God and of all things in relation to Him." },
+        { "term": "Doctrine", "def": "A body of teaching on a subject, especially what the Bible teaches." },
+        { "term": "Sound doctrine", "def": "Teaching that is healthy and true because it agrees with Scripture." },
+        { "term": "Discernment", "def": "The ability to tell truth from error by testing it against God's Word." },
+        { "term": "Edify", "def": "To build up a believer or a church in faith and love." },
+        { "term": "Godliness", "def": "A life shaped by reverence for God and obedience to Him." }
+      ],
+      "texts": [
+        { "ref": "1 Timothy 4:16", "teaches": "Believers must watch both their life and their doctrine." },
+        { "ref": "Acts 17:11", "teaches": "Teaching should be tested daily against the Scriptures." },
+        { "ref": "Ephesians 4:14", "teaches": "Knowing the truth keeps believers from being carried away by false teaching." },
+        { "ref": "Romans 11:33", "teaches": "True knowledge of God leads to wonder and worship." },
+        { "ref": "2 Peter 3:18", "teaches": "Christians are to grow in grace and in the knowledge of Christ." }
+      ],
+      "summary": [
+        "Theology is the study of God and of all things in relation to Him.",
+        "Every believer holds some theology; the task is to make it true to Scripture.",
+        "Sound doctrine feeds, strengthens and protects the believer.",
+        "Right knowledge of God should lead to humility, worship and obedience."
+      ],
+      "questions": [
+        { "q": "What do the two Greek words behind \"theology\" mean?", "options": ["God and word (or study)", "Faith and works", "Law and grace", "Heaven and earth"], "answer": 0, "why": "Theos means God; logos means word or study." },
+        { "q": "Why does Luke call the Bereans noble?", "options": ["They searched the Scriptures to test what they heard", "They were wealthy and generous", "They never questioned teachers", "They were trained priests"], "answer": 0, "why": "Acts 17:11 praises them for checking teaching against Scripture." },
+        { "q": "According to Paul, what is the right response to the danger that knowledge puffs up?", "options": ["Humble, loving knowledge that builds others up", "Avoiding doctrine altogether", "Studying only in private", "Leaving theology to pastors"], "answer": 0, "why": "Charity edifies (1 Corinthians 8:1); the cure is love, not ignorance." },
+        { "q": "In Romans, what follows eleven chapters of doctrine?", "options": ["Praise and then practical instruction for daily life", "A list of church rules only", "A call to stop studying", "A history of Israel's kings"], "answer": 0, "why": "Romans 11:33-36 is praise; chapter 12 turns to obedience." }
+      ]
+    },
+    {
+      "title": "How God Makes Himself Known",
+      "intro": "Theology is possible only because God has spoken. This week we study revelation: general and special.",
+      "lessons": [
+        {
+          "title": "General revelation",
+          "body": "God reveals Himself to all people through creation and conscience. \"The heavens declare the glory of God\" (Psalm 19:1). Paul says God's \"eternal power and Godhead\" are clearly seen in the things He has made, \"so that they are without excuse\" (Romans 1:20).\n\nGod has also written His law on the human heart, so that conscience accuses or excuses (Romans 2:14-15).\n\nGeneral revelation is real and good, but limited. It shows that God exists and that we are accountable to Him. It does not tell us how a sinner can be forgiven. For that, we need God to speak more plainly.",
+          "refs": ["Psalm 19:1-4", "Romans 1:19-20", "Romans 2:14-15"]
+        },
+        {
+          "title": "Special revelation",
+          "body": "Special revelation is God's direct speech to particular people for the salvation of sinners. In the Old Testament God spoke through prophets, dreams, visions and mighty acts. \"God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, hath in these last days spoken unto us by his Son\" (Hebrews 1:1-2).\n\nJesus Christ is God's fullest revelation: \"he that hath seen me hath seen the Father\" (John 14:9).\n\nGod has preserved His special revelation in Scripture, so that every generation can know the way of salvation (2 Timothy 3:15).",
+          "refs": ["Hebrews 1:1-2", "John 14:9", "2 Timothy 3:15"]
+        },
+        {
+          "title": "Why we need both",
+          "body": "General revelation leaves everyone without excuse; special revelation shows the way of rescue. Psalm 19 holds both together: verses 1 to 6 speak of the sky, verses 7 to 11 of \"the law of the LORD\", which is \"perfect, converting the soul\".\n\nCreation can make us marvel; only the Word can make us wise unto salvation. This is why missions matter: \"how shall they believe in him of whom they have not heard?\" (Romans 10:14).\n\nFor theology, this means our final authority is not nature, feelings or human reason, but what God has said in His Word.",
+          "refs": ["Psalm 19:7-11", "Romans 10:14-17"]
+        }
+      ],
+      "terms": [
+        { "term": "Revelation", "def": "God making known what we could not discover by ourselves." },
+        { "term": "General revelation", "def": "God's self-disclosure to all people through creation and conscience." },
+        { "term": "Special revelation", "def": "God's direct word to particular people, now preserved in Scripture, for salvation." },
+        { "term": "Conscience", "def": "The inner sense of right and wrong that God has given every person." },
+        { "term": "Incarnation", "def": "The eternal Son of God taking a true human nature." },
+        { "term": "Without excuse", "def": "Held accountable because God's existence and power are plainly shown." }
+      ],
+      "texts": [
+        { "ref": "Psalm 19:1", "teaches": "Creation declares the glory of God to every nation." },
+        { "ref": "Romans 1:20", "teaches": "God's eternal power is clearly seen in creation, leaving people without excuse." },
+        { "ref": "Romans 2:15", "teaches": "God's law is written on the heart and conscience bears witness." },
+        { "ref": "Hebrews 1:1-2", "teaches": "God, who spoke through the prophets, has now spoken by His Son." },
+        { "ref": "Romans 10:17", "teaches": "Faith comes by hearing the word of God." }
+      ],
+      "summary": [
+        "Theology depends on God revealing Himself.",
+        "General revelation in creation and conscience shows God exists and we are accountable.",
+        "Special revelation, now in Scripture and fulfilled in Christ, shows the way of salvation.",
+        "God's Word, not nature or feeling, is the final authority in theology."
+      ],
+      "questions": [
+        { "q": "What can general revelation NOT tell us?", "options": ["How a sinner can be forgiven", "That God exists", "That God is powerful", "That we are accountable to God"], "answer": 0, "why": "Creation shows God's power but not the gospel." },
+        { "q": "According to Hebrews 1:1-2, how has God spoken in these last days?", "options": ["By His Son", "Only through dreams", "Through the stars", "Through human reason"], "answer": 0 },
+        { "q": "Which part of Psalm 19 speaks of \"the law of the LORD\" converting the soul?", "options": ["Verses 7-11", "Verses 1-4", "Verses 12-14", "Verse 5 only"], "answer": 0 },
+        { "q": "Why does Paul ask, \"how shall they believe in him of whom they have not heard?\"", "options": ["Because saving faith comes through hearing God's word", "Because nature is enough to save", "Because preaching is optional", "Because God speaks only to Israel"], "answer": 0, "why": "Romans 10:14-17 links salvation to hearing the gospel." }
+      ]
+    },
+    {
+      "title": "The Branches of Theology",
+      "intro": "Theology has several branches that work together. This week we meet them and see how they help us study.",
+      "lessons": [
+        {
+          "title": "Biblical and systematic theology",
+          "body": "**Biblical theology** traces a theme through the Bible's story, book by book: for example, how the promise of a Saviour grows from Genesis 3:15 to the cross. It helps us see the Bible as one unfolding story.\n\n**Systematic theology** gathers everything the whole Bible teaches on a topic and arranges it in order: God, man, sin, Christ, salvation, the church and the last things. It answers the question, \"What does the whole Bible teach about this?\"\n\nBoth are needed. Biblical theology keeps us faithful to each passage in its setting; systematic theology helps us see how all the truths fit together. Jesus did both on the Emmaus road (Luke 24:27).",
+          "refs": ["Genesis 3:15", "Luke 24:27"]
+        },
+        {
+          "title": "Historical and practical theology",
+          "body": "**Historical theology** studies how Christians in past ages understood the Bible: the early creeds, the Reformation, the great revivals. God has given teachers to the church in every age (Ephesians 4:11-12), and we are wise to learn from them, while testing all things by Scripture.\n\n**Practical theology** applies doctrine to the life of the church: preaching, evangelism, missions, counselling, worship and leadership.\n\nThese branches remind us that we are not the first to read the Bible, and that doctrine is meant to be used. Paul's letters move from doctrine to duty, and so should we.",
+          "refs": ["Ephesians 4:11-12", "Hebrews 13:7", "2 Timothy 2:2"]
+        },
+        {
+          "title": "Where Christians differ",
+          "body": "All true Christians share the core truths of the faith: one God in three Persons, the deity and humanity of Christ, His atoning death and bodily resurrection, salvation by grace through faith, and the authority of Scripture.\n\nOn some questions, Bible-believing Christians reach different conclusions: for example, eternal security, the details of sanctification, or the order of end-time events. In this school, where traditions differ, we set out each view fairly with its Scriptures.\n\nThe New Testament calls us to hold firm on essentials (Jude 1:3) and to show patience on lesser matters (Romans 14:1). Truth and love belong together (Ephesians 4:15).",
+          "refs": ["Jude 1:3", "Romans 14:1-5", "Ephesians 4:15"]
+        }
+      ],
+      "terms": [
+        { "term": "Biblical theology", "def": "Tracing a theme through the Bible's unfolding story, book by book." },
+        { "term": "Systematic theology", "def": "Gathering what the whole Bible teaches on a topic and setting it in order." },
+        { "term": "Historical theology", "def": "Studying how Christians in past ages understood and taught the faith." },
+        { "term": "Practical theology", "def": "Applying doctrine to preaching, evangelism, worship and church life." },
+        { "term": "Creed", "def": "A short summary of essential Christian beliefs, such as the Apostles' Creed." },
+        { "term": "Essentials", "def": "Core truths that all true Christians must believe." }
+      ],
+      "texts": [
+        { "ref": "Luke 24:27", "teaches": "Jesus explained what all the Scriptures said about Himself." },
+        { "ref": "Ephesians 4:11-12", "teaches": "Christ gives teachers to equip the church for service." },
+        { "ref": "2 Timothy 2:2", "teaches": "Truth is handed on faithfully from one generation of teachers to the next." },
+        { "ref": "Jude 1:3", "teaches": "Believers must contend for the faith once delivered to the saints." },
+        { "ref": "Romans 14:1", "teaches": "Receive believers who differ on doubtful matters without quarrelling." }
+      ],
+      "summary": [
+        "Biblical theology follows themes through the Bible's story.",
+        "Systematic theology organises the whole Bible's teaching by topic.",
+        "Historical theology learns from the church in past ages; practical theology applies doctrine.",
+        "Hold firmly to essentials and show patience where faithful believers differ."
+      ]
+      ,
+      "questions": [
+        { "q": "Which branch asks, \"What does the whole Bible teach about this topic?\"", "options": ["Systematic theology", "Historical theology", "Practical theology", "Textual criticism"], "answer": 0 },
+        { "q": "Tracing the promise of a Saviour from Genesis 3:15 to the cross is an example of:", "options": ["Biblical theology", "Practical theology", "Church government", "Apologetics only"], "answer": 0 },
+        { "q": "How does this school handle doctrines on which Bible-believing traditions differ?", "options": ["It sets out each view fairly with its Scriptures", "It ignores them", "It follows whichever view is newest", "It lets each learner invent a view"], "answer": 0 },
+        { "q": "Which of these is an essential Christian truth?", "options": ["The bodily resurrection of Christ", "A particular order of end-time events", "A preferred style of church music", "The exact age of the earth"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Studying Theology Well",
+      "intro": "This final week turns to method: the attitude, tools and habits that make for faithful theological study.",
+      "lessons": [
+        {
+          "title": "The right heart",
+          "body": "God's truth is grasped by the humble. \"The fear of the LORD is the beginning of knowledge\" (Proverbs 1:7). Jesus thanked the Father for hiding things \"from the wise and prudent\" and revealing them \"unto babes\" (Matthew 11:25).\n\nWe also depend on the Holy Spirit, who guides believers into truth (John 16:13) and enables us to receive the things of God (1 Corinthians 2:12-14).\n\nSo we study with prayer, like the psalmist: \"Open thou mine eyes, that I may behold wondrous things out of thy law\" (Psalm 119:18). And we study to obey, not merely to win arguments (James 1:22).",
+          "refs": ["Proverbs 1:7", "John 16:13", "Psalm 119:18", "James 1:22"]
+        },
+        {
+          "title": "The right method",
+          "body": "Faithful study follows a few simple rules.\n\n- **Start with Scripture.** Let the Bible set the agenda.\n- **Read in context.** A verse means what it meant in its passage and book.\n- **Compare Scripture with Scripture.** Clear passages help explain harder ones.\n- **Gather all the evidence** before drawing a conclusion.\n- **Learn from others**, but test them (1 Thessalonians 5:21).\n\nPaul urges Timothy to \"study to shew thyself approved unto God... rightly dividing the word of truth\" (2 Timothy 2:15). Handling the Word rightly takes effort, patience and honesty.",
+          "refs": ["2 Timothy 2:15", "1 Thessalonians 5:21", "Isaiah 28:10"]
+        },
+        {
+          "title": "From study to life",
+          "body": "Doctrine is never an end in itself. Paul says the goal of his teaching is \"charity out of a pure heart, and of a good conscience, and of faith unfeigned\" (1 Timothy 1:5).\n\nAs you study, ask three questions of each doctrine: What does it teach me about God? What does it ask me to believe? What does it call me to do?\n\nShare what you learn. Believers are to teach and admonish one another (Colossians 3:16) and to be ready to give an answer for the hope within them (1 Peter 3:15). Theology that is learned, loved and lived blesses the church and honours God.",
+          "refs": ["1 Timothy 1:5", "Colossians 3:16", "1 Peter 3:15"]
+        }
+      ],
+      "terms": [
+        { "term": "Illumination", "def": "The Holy Spirit's work of helping believers understand and receive God's Word." },
+        { "term": "Context", "def": "The surrounding words, book and setting that shape a passage's meaning." },
+        { "term": "Scripture interprets Scripture", "def": "Using clearer passages of the Bible to explain harder ones." },
+        { "term": "Rightly dividing", "def": "Handling and explaining God's Word accurately." },
+        { "term": "Application", "def": "Putting a truth into practice in belief, attitude and action." },
+        { "term": "Fear of the Lord", "def": "Reverent awe and submission toward God, the starting point of wisdom." }
+      ],
+      "texts": [
+        { "ref": "Proverbs 1:7", "teaches": "The fear of the LORD is the beginning of knowledge." },
+        { "ref": "John 16:13", "teaches": "The Spirit of truth guides believers into all truth." },
+        { "ref": "2 Timothy 2:15", "teaches": "Study diligently to handle the word of truth rightly." },
+        { "ref": "James 1:22", "teaches": "Be doers of the word and not hearers only." },
+        { "ref": "1 Peter 3:15", "teaches": "Be ready to give an answer for the hope that is in you." }
+      ],
+      "summary": [
+        "Study theology with humility, prayer and dependence on the Holy Spirit.",
+        "Read Scripture in context and let clear passages explain harder ones.",
+        "Learn from faithful teachers, but test everything by the Word.",
+        "Aim for love, faith and obedience, and share what you learn."
+      ],
+      "questions": [
+        { "q": "According to Proverbs 1:7, what is the beginning of knowledge?", "options": ["The fear of the LORD", "A good education", "Many books", "Long experience"], "answer": 0 },
+        { "q": "Which is a sound rule for studying a Bible verse?", "options": ["Read it in its context", "Take it alone, without its passage", "Choose the meaning you prefer", "Follow the first idea that comes to mind"], "answer": 0 },
+        { "q": "What does James 1:22 warn against?", "options": ["Hearing the word without doing it", "Reading the Old Testament", "Asking questions", "Praying before study"], "answer": 0 },
+        { "q": "In 1 Timothy 1:5, what is the goal of Paul's teaching?", "options": ["Love from a pure heart, a good conscience and sincere faith", "Winning every argument", "Being admired as a scholar", "Collecting knowledge"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Define theology in your own words.", "keywords": [["study", "knowing", "knowledge"], ["God"], ["relation", "everything", "all things", "Bible", "Scripture"]], "model": "Theology is the study of God and of all things in relation to Him, as revealed in Scripture." },
+      { "q": "What is the difference between general and special revelation?", "keywords": [["creation", "nature", "conscience"], ["Scripture", "Bible", "word", "Christ", "prophets"], ["salvation", "saved", "gospel", "forgiven"]], "model": "General revelation is God's self-disclosure to all people through creation and conscience; special revelation is His direct word, now in Scripture and fulfilled in Christ, which shows the way of salvation." },
+      { "q": "Why does every believer need sound doctrine?", "keywords": [["grow", "strong", "stable", "mature", "food"], ["deceive", "error", "false", "protect", "wind"]], "model": "Sound doctrine feeds believers so they grow strong and mature, and protects them from being deceived by false teaching." },
+      { "q": "What is the difference between biblical theology and systematic theology?", "keywords": [["story", "book by book", "unfold", "theme"], ["topic", "whole Bible", "order", "organise", "organize"]], "model": "Biblical theology traces a theme through the Bible's unfolding story; systematic theology gathers the whole Bible's teaching on a topic and arranges it in order." },
+      { "q": "Why must theology lead to worship and obedience?", "keywords": [["worship", "praise", "love"], ["obey", "obedience", "live", "doer", "practice"]], "model": "Because the truth about God is meant to move the heart to love and praise Him and the life to obey Him, as Romans 11-12 shows." },
+      { "q": "How should a believer treat doctrines on which faithful Christians differ?", "keywords": [["essential", "core", "firm"], ["patience", "love", "charity", "respect", "fairly"], ["Scripture", "Bible", "test"]], "model": "Hold firmly to the essentials, study the different views by Scripture, and show patience and love toward believers who differ on lesser matters." }
+    ],
+    "lists": [
+      { "q": "List the four main branches of theology studied in this course.", "items": [["biblical"], ["systematic"], ["historical"], ["practical"]], "need": 4 },
+      { "q": "List three ways God has revealed Himself.", "items": [["creation", "nature", "heavens"], ["conscience", "heart"], ["Scripture", "Bible", "word"], ["Christ", "Jesus", "Son"], ["prophets", "prophet"]], "need": 3 },
+      { "q": "List three rules for studying the Bible well.", "items": [["context"], ["scripture with scripture", "compare"], ["pray", "prayer"], ["all the evidence", "whole Bible"], ["test", "humble", "humility"], ["obey", "apply"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "My theology so far", "prompt": "Write about what you believed about God before this course and how the Bible confirms or corrects it. Use at least three Bible references from the course and explain each one in your own words.", "words": "400–600" },
+    { "title": "A plan to study one doctrine", "prompt": "Choose one doctrine (for example prayer, grace or the Holy Spirit). Describe how you would study it using the method in Week 4: which passages you would read, how you would check their context, which clearer passages would help, and how you would apply what you learn.", "words": "400–600" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Wayne Grudem, Bible Doctrine (abridged Systematic Theology)",
+    "Millard J. Erickson, Introducing Christian Doctrine",
+    "Louis Berkhof, Summary of Christian Doctrine"
+  ]
+}

@@ -15,6 +15,7 @@ export async function LearnBar() {
           <>
             <Link href="/dashboard/" className="font-semibold no-underline">My learning</Link>
             {user.role === "admin" && <Link href="/admin/" className="font-semibold no-underline">Admin</Link>}
+            {user.role === "instructor" && <Link href="/instructor/" className="font-semibold no-underline">Grading</Link>}
             <span className="hidden text-muted sm:inline">{user.name}</span>
             <form action={signOut}>
               <button type="submit" className="cursor-pointer border-0 bg-transparent p-0 font-[inherit] font-semibold text-royal hover:underline">Sign out</button>

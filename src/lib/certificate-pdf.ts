@@ -15,7 +15,7 @@ const asset = (f: string) => readFile(path.join(process.cwd(), "src/assets/certi
 type Fonts = { regular: PDFFont; italic: PDFFont; semibold: PDFFont; bold: PDFFont; serif: PDFFont };
 
 /** The certificate as a landscape A4 PDF in the STRONGS colours. */
-export async function certificatePdf(c: { code: string; learnerName: string; courseTitle: string; issuedAt: Date; verifyUrl: string }) {
+export async function certificatePdf(c: { code: string; learnerName: string; courseTitle: string; issuedAt: Date; verifyUrl: string; school?: string }) {
   const doc = await PDFDocument.create();
   doc.registerFontkit(fontkit);
   doc.setTitle(`Certificate of Completion: ${c.courseTitle}`);
@@ -79,7 +79,7 @@ export async function certificatePdf(c: { code: string; learnerName: string; cou
   centre(c.learnerName, H - 288, nameFont, 40, navy, 0, W - 200);
   page.drawLine({ start: { x: W / 2 - 170, y: H - 304 }, end: { x: W / 2 + 170, y: H - 304 }, thickness: 1, color: gold });
 
-  centre("has successfully completed the STRONGS course", H - 334, fonts.regular, 13, muted);
+  centre(c.school === "theology" ? "has successfully completed the STRONGS School of Theology course" : "has successfully completed the STRONGS course", H - 334, fonts.regular, 13, muted);
   const titleFont = coversAll(fonts.bold, c.courseTitle) ? fonts.bold : fonts.serif;
   centre(c.courseTitle, H - 372, titleFont, 26, navy, 0, W - 180);
 

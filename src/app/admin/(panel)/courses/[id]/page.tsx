@@ -38,7 +38,7 @@ export default async function CourseEditor({ params, searchParams }: { params: P
   const o = await getOutline(Number(id), true);
   if (!o) notFound();
   const c = o.course;
-  const cats = await q<{ id: string; name: string }>(`SELECT id, name FROM lms_category ORDER BY position`);
+  const cats = await q<{ id: string; name: string }>(`SELECT id, name FROM lms_category WHERE id <> 'theology' ORDER BY position`);
   const counts = await one<{ enrolled: number; completed: number }>(
     `SELECT count(*)::int AS enrolled, count(completed_at)::int AS completed FROM lms_enrolment WHERE course_id=$1`,
     [c.id],

@@ -20,6 +20,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
     ["/admin/submissions/", "Assignments to review", pending?.n],
     ["/admin/certificates/", "Certificates"],
     ["/admin/standards/", "Course standards"],
+    ["/instructor/", "School of Theology grading"],
   ];
   return (
     <>

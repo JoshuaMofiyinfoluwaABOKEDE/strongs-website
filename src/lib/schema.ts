@@ -154,4 +154,65 @@ CREATE TABLE IF NOT EXISTS lms_certificate (
 );
 `,
   },
+  {
+    id: 2,
+    name: "school of theology",
+    sql: `
+ALTER TABLE lms_course ADD COLUMN IF NOT EXISTS school TEXT NOT NULL DEFAULT 'courses';
+ALTER TABLE lms_enrolment ADD COLUMN IF NOT EXISTS last_key TEXT;
+
+CREATE TABLE IF NOT EXISTS th_lesson_done (
+  user_id TEXT NOT NULL,
+  course_id INT NOT NULL REFERENCES lms_course(id) ON DELETE CASCADE,
+  lesson_key TEXT NOT NULL,
+  done_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  PRIMARY KEY (user_id, course_id, lesson_key)
+);
+
+-- Quizzes, tests and the exam. questions = the learner's paper; marks = per-question marks.
+CREATE TABLE IF NOT EXISTS th_attempt (
+  id SERIAL PRIMARY KEY,
+  user_id TEXT NOT NULL,
+  course_id INT NOT NULL REFERENCES lms_course(id) ON DELETE CASCADE,
+  kind TEXT NOT NULL CHECK (kind IN ('quiz', 'test', 'exam')),
+  week INT,
+  questions JSONB NOT NULL,
+  answers JSONB NOT NULL DEFAULT '{}',
+  marks JSONB NOT NULL DEFAULT '{}',
+  score INT,
+  status TEXT NOT NULL DEFAULT 'open' CHECK (status IN ('open', 'submitted')),
+  started_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  deadline_at TIMESTAMPTZ,
+  submitted_at TIMESTAMPTZ,
+  reviewed_by TEXT,
+  reviewed_at TIMESTAMPTZ
+);
+CREATE INDEX IF NOT EXISTS th_attempt_user_idx ON th_attempt(user_id, course_id, kind);
+CREATE UNIQUE INDEX IF NOT EXISTS th_attempt_one_exam ON th_attempt(user_id, course_id) WHERE kind = 'exam';
+
+CREATE TABLE IF NOT EXISTS th_submission (
+  id SERIAL PRIMARY KEY,
+  user_id TEXT NOT NULL,
+  course_id INT NOT NULL REFERENCES lms_course(id) ON DELETE CASCADE,
+  assignment_no INT NOT NULL,
+  text TEXT NOT NULL DEFAULT '',
+  file_name TEXT,
+  file_type TEXT,
+  file_data BYTEA,
+  file_text TEXT NOT NULL DEFAULT '',
+  declaration TEXT NOT NULL,
+  declared_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  similarity JSONB NOT NULL DEFAULT '{}',
+  status TEXT NOT NULL DEFAULT 'submitted' CHECK (status IN ('submitted', 'graded', 'returned')),
+  score INT CHECK (score BETWEEN 0 AND 100),
+  feedback TEXT NOT NULL DEFAULT '',
+  graded_by TEXT,
+  graded_at TIMESTAMPTZ,
+  submitted_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  UNIQUE (user_id, course_id, assignment_no)
+);
+CREATE INDEX IF NOT EXISTS th_submission_status_idx ON th_submission(status);
+CREATE INDEX IF NOT EXISTS th_submission_course_idx ON th_submission(course_id, assignment_no);
+`,
+  },
 ];
