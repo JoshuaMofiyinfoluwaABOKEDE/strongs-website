@@ -101,43 +101,32 @@ export default function HomePage() {
             />
             <TextLink href="/meetings/">About the meetings</TextLink>
           </div>
-          <div className="grid gap-5 lg:grid-cols-2">
-            {meetings.map((m) => {
-              const last = m.recent.find((r) => r.image);
-              return (
+          <ol className="overflow-hidden rounded-2xl bg-navy text-white">
+            {meetings.map((m, i) => (
+              <li key={m.id} className={i > 0 ? "border-t border-navy-line" : ""}>
                 <Link
-                  key={m.id}
                   href={`/meetings/#${m.id}`}
-                  className="group grid overflow-hidden rounded-2xl border border-line bg-white text-ink no-underline hover:border-royal hover:text-ink sm:grid-cols-[13rem_1fr]"
+                  className="group grid gap-x-10 gap-y-4 px-[clamp(1.25rem,4vw,3rem)] py-[clamp(1.5rem,3.5vw,2.5rem)] text-white no-underline hover:bg-navy-2 hover:text-white md:grid-cols-[15.5rem_1fr_auto] md:items-center"
                 >
-                  {last?.image && (
-                    <figure className="relative h-72 overflow-hidden bg-navy sm:h-full">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={last.image} alt="" aria-hidden="true" loading="lazy" className="absolute inset-0 h-full w-full scale-110 object-cover opacity-40 blur-xl" />
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={last.image} alt={`Flyer: ${last.title}`} loading="lazy" className="absolute inset-0 h-full w-full object-contain p-3 pb-10" />
-                      <figcaption className="absolute inset-x-0 bottom-0 bg-navy/85 px-3 py-2 text-[0.75rem] leading-snug text-pale">
-                        Last flyer · {last.date}
-                      </figcaption>
-                    </figure>
-                  )}
-                  <div className="flex flex-col gap-3 p-[clamp(1.25rem,2.5vw,1.75rem)]">
-                    <h3 className="text-[clamp(1.3rem,2vw,1.6rem)] font-bold leading-tight text-navy">{m.name}</h3>
-                    <p className="text-[0.9375rem] text-muted">{m.purpose}.</p>
-                    <p className="flex flex-wrap items-baseline gap-x-2.5 border-y border-line py-3">
-                      <span className="text-2xl font-extrabold tracking-[-0.01em] text-navy">{m.day}</span>
-                      <span className="text-lg font-bold text-royal">{m.time}</span>
-                    </p>
-                    <p className="flex items-start gap-2 text-[0.9375rem] text-muted">
-                      <span className="mt-0.5 text-royal">{m.online ? <Globe size={18} /> : <Pin size={18} />}</span>
-                      <span><strong className="font-semibold text-navy">{m.whereNote}:</strong> {m.where}</span>
-                    </p>
-                    <span className="mt-auto pt-1 text-sm font-semibold text-royal group-hover:underline">Join us →</span>
+                  <div className="flex items-baseline gap-3 md:flex-col md:gap-1">
+                    <span className="text-[clamp(2.25rem,4.5vw,3.25rem)] font-extrabold uppercase leading-none tracking-[-0.02em]">{m.day.replace("Every ", "")}</span>
+                    <span className="text-xl font-bold text-gold">{m.time}</span>
                   </div>
+                  <div className="flex flex-col gap-1.5 md:border-l md:border-navy-line md:pl-10">
+                    <h3 className="text-[clamp(1.3rem,2.2vw,1.65rem)] font-bold leading-tight">{m.name}</h3>
+                    <p className="text-pale">{m.purpose}.</p>
+                    <p className="flex items-start gap-2 pt-1 text-[0.9375rem] text-pale">
+                      <span className="mt-0.5 text-gold">{m.online ? <Globe size={18} /> : <Pin size={18} />}</span>
+                      <span><strong className="font-semibold text-white">{m.whereNote}:</strong> {m.where}</span>
+                    </p>
+                  </div>
+                  <span className="inline-flex min-h-11 items-center gap-2 self-start rounded-full border border-gold/60 px-5 text-sm font-semibold text-gold group-hover:bg-gold group-hover:text-navy md:self-center">
+                    Join us <ArrowRight size={16} />
+                  </span>
                 </Link>
-              );
-            })}
-          </div>
+              </li>
+            ))}
+          </ol>
           <p className="flex items-center gap-3 text-[0.9375rem] text-muted">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={meetingsLeader.photo} alt="" className="h-10 w-10 rounded-full object-cover object-top" />
