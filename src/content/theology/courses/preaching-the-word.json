@@ -1,0 +1,241 @@
+{
+  "slug": "preaching-the-word",
+  "title": "Preaching the Word",
+  "track": "ministry",
+  "level": "Advanced",
+  "summary": "How to prepare and deliver faithful, clear and applied sermons: the theology of preaching, studying a passage, building an expository sermon, and preaching with power and integrity.",
+  "description": "\"Preach the word\" (2 Timothy 4:2). This course is for pastors, evangelists and lay preachers who want to handle God's Word faithfully. It covers why we preach, the preacher's life, studying a passage in context, finding the main idea, structuring an expository sermon, illustrating and applying, delivering with clarity and conviction, and avoiding common errors in preaching.",
+  "objectives": [
+    "Explain the biblical theology and purpose of preaching",
+    "Study a passage carefully to find its meaning",
+    "Build an expository sermon from the main idea of a text",
+    "Use illustration and application faithfully",
+    "Deliver sermons clearly and with integrity"
+  ],
+  "outcomes": [
+    "Explain why expository preaching serves the church",
+    "Move from text to main idea to sermon outline",
+    "Write a sermon introduction and conclusion",
+    "Apply a passage to real lives in your context",
+    "Evaluate sermons for faithfulness and clarity"
+  ],
+  "modules": [
+    {
+      "title": "Why We Preach",
+      "intro": "Preaching is God's chosen means to save and build His people. This week we study its theology and the preacher's life.",
+      "lessons": [
+        {
+          "title": "God speaks through preaching",
+          "body": "\"For after that in the wisdom of God the world by wisdom knew not God, it pleased God by the foolishness of preaching to save them that believe\" (1 Corinthians 1:21). \"How shall they hear without a preacher?\" (Romans 10:14).\n\nWhen the Word is faithfully preached, God speaks: the Thessalonians received Paul's preaching \"not as the word of men, but as it is in truth, the word of God, which effectually worketh also in you that believe\" (1 Thessalonians 2:13).\n\nThis is why Paul charged Timothy solemnly, \"before God, and the Lord Jesus Christ... Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine\" (2 Timothy 4:1-2).",
+          "refs": ["1 Corinthians 1:21-24", "1 Thessalonians 2:13", "2 Timothy 4:1-2"]
+        },
+        {
+          "title": "Expository preaching",
+          "body": "**Expository preaching** explains and applies the meaning of a Bible passage, so that the main point of the text becomes the main point of the sermon. Ezra's helpers \"read in the book in the law of God distinctly, and gave the sense, and caused them to understand the reading\" (Nehemiah 8:8).\n\nBenefits: it lets God set the agenda; it teaches people how to read the Bible; it covers \"all the counsel of God\" (Acts 20:27), including hard texts; and it protects the preacher from repeating favourite themes.\n\n**Topical** sermons can also be faithful when each point is drawn properly from Scripture in context. The danger is using texts as pegs for the preacher's own ideas.",
+          "refs": ["Nehemiah 8:1-8", "Acts 20:26-27", "Luke 24:27"]
+        },
+        {
+          "title": "The preacher's life",
+          "body": "\"Take heed unto thyself, and unto the doctrine; continue in them: for in doing this thou shalt both save thyself, and them that hear thee\" (1 Timothy 4:16).\n\nThe preacher must:\n\n- Be a **Christian** who lives what he preaches (1 Corinthians 9:27).\n- Be a man or woman of **the Word**, studying diligently (2 Timothy 2:15).\n- Be a person of **prayer**: the apostles gave themselves \"to prayer, and to the ministry of the word\" (Acts 6:4).\n- Depend on the **Spirit**: \"my preaching was not with enticing words of man's wisdom, but in demonstration of the Spirit and of power\" (1 Corinthians 2:4).\n- Be **humble**: we are clay pots carrying treasure (2 Corinthians 4:7).",
+          "refs": ["1 Timothy 4:12-16", "Acts 6:4", "1 Corinthians 2:1-5"]
+        }
+      ],
+      "terms": [
+        { "term": "Preaching", "def": "Proclaiming and explaining God's Word with authority and urgency." },
+        { "term": "Expository preaching", "def": "Preaching that explains and applies the main point of a Bible passage." },
+        { "term": "Topical preaching", "def": "Preaching on a theme drawn from several passages." },
+        { "term": "Homiletics", "def": "The study and craft of preparing and delivering sermons." },
+        { "term": "Exegesis", "def": "Drawing out the meaning of a text in its context." },
+        { "term": "Demonstration of the Spirit", "def": "The Spirit's power working through faithful preaching (1 Corinthians 2:4)." }
+      ],
+      "texts": [
+        { "ref": "1 Corinthians 1:21", "teaches": "It pleased God by the foolishness of preaching to save believers." },
+        { "ref": "2 Timothy 4:2", "teaches": "Preach the word; be instant in season and out of season." },
+        { "ref": "Nehemiah 8:8", "teaches": "They read distinctly, gave the sense and caused the people to understand." },
+        { "ref": "1 Timothy 4:16", "teaches": "Take heed to yourself and to the doctrine." },
+        { "ref": "1 Corinthians 2:4", "teaches": "Paul's preaching was in demonstration of the Spirit and of power." }
+      ],
+      "summary": [
+        "God saves and speaks through faithful preaching.",
+        "Expository preaching lets the text set the message.",
+        "Topical preaching must also be faithful to context.",
+        "The preacher's life, study, prayer and dependence on the Spirit matter."
+      ],
+      "questions": [
+        { "q": "What does Nehemiah 8:8 describe?", "options": ["Reading distinctly and giving the sense", "Building the wall", "Singing psalms", "Offering sacrifices"], "answer": 0 },
+        { "q": "What is expository preaching?", "options": ["Preaching that explains and applies a passage's main point", "Preaching only stories", "Preaching without the Bible", "Preaching loudly"], "answer": 0 },
+        { "q": "To what did the apostles give themselves in Acts 6:4?", "options": ["Prayer and the ministry of the word", "Business", "Building", "Politics"], "answer": 0 },
+        { "q": "What is homiletics?", "options": ["The craft of preparing and delivering sermons", "Church history", "Bible languages", "Church music"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Studying the Passage",
+      "intro": "Faithful sermons begin with careful study. This week we move from reading to understanding a passage.",
+      "lessons": [
+        {
+          "title": "Choose and pray over the text",
+          "body": "Choose a passage that is a complete unit of thought: a paragraph, a story or a psalm. Preaching through a book of the Bible over several weeks helps the church grasp context and avoids 'hobby horses'.\n\nBegin with prayer: \"Open thou mine eyes, that I may behold wondrous things out of thy law\" (Psalm 119:18).\n\nRead the passage many times, in more than one translation if possible, and read the whole book or chapter around it. Start study early in the week, not on Saturday night. \"Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth\" (2 Timothy 2:15).",
+          "refs": ["Psalm 119:18", "2 Timothy 2:15", "Ezra 7:10"]
+        },
+        {
+          "title": "Observe, interpret, apply",
+          "body": "Use the three steps of Bible study:\n\n1. **Observe**: What does it say? Note who, what, where, when, key words, repeated words, commands, contrasts and connectives (therefore, but, because).\n2. **Interpret**: What did it mean to the first hearers? Consider the literary type (story, poem, letter, prophecy), historical background, the flow of the book, and other Scripture (\"comparing spiritual things with spiritual\", 1 Corinthians 2:13). Check good commentaries after your own study.\n3. **Apply**: What does it mean for us now? What truth about God, warning, promise, example or command is here?\n\nEzra \"prepared his heart to seek the law of the LORD, and to do it, and to teach\" (Ezra 7:10): study, obey, then teach.",
+          "refs": ["Ezra 7:10", "1 Corinthians 2:12-13", "Acts 17:11"]
+        },
+        {
+          "title": "Christ in all the Scriptures",
+          "body": "Jesus taught that the Scriptures \"testify of me\" (John 5:39). On the Emmaus road, \"beginning at Moses and all the prophets, he expounded unto them in all the scriptures the things concerning himself\" (Luke 24:27).\n\nA Christian sermon on any text should ask how the passage relates to Christ: through prophecy, through types and patterns (like the Passover lamb), through the need it reveals that only Christ meets, or through the character of God fulfilled in Christ.\n\nThis guards against moralism, which preaches only \"Be like David\" without showing David's greater Son. Paul \"determined not to know any thing among you, save Jesus Christ, and him crucified\" (1 Corinthians 2:2).",
+          "refs": ["Luke 24:25-27", "John 5:39", "1 Corinthians 2:2"]
+        }
+      ],
+      "terms": [
+        { "term": "Preaching unit", "def": "A complete section of Scripture suitable for one sermon." },
+        { "term": "Book series", "def": "Preaching through a Bible book passage by passage." },
+        { "term": "Observation", "def": "Carefully noting what a passage says." },
+        { "term": "Interpretation", "def": "Discovering what a passage meant to its first readers." },
+        { "term": "Christ-centred preaching", "def": "Showing how each passage relates to Christ and His work." },
+        { "term": "Moralism", "def": "Preaching good behaviour without the gospel of grace." }
+      ],
+      "texts": [
+        { "ref": "Psalm 119:18", "teaches": "Open my eyes to see wondrous things in your law." },
+        { "ref": "2 Timothy 2:15", "teaches": "Rightly divide the word of truth." },
+        { "ref": "Ezra 7:10", "teaches": "Ezra prepared his heart to seek, do and teach God's law." },
+        { "ref": "Luke 24:27", "teaches": "Jesus expounded in all the Scriptures the things concerning Himself." },
+        { "ref": "1 Corinthians 2:2", "teaches": "Paul determined to know nothing but Christ crucified." }
+      ],
+      "summary": [
+        "Choose a complete passage; preaching through books helps.",
+        "Pray, read repeatedly and start early.",
+        "Observe, interpret and apply.",
+        "Show how each passage points to Christ, avoiding moralism."
+      ],
+      "questions": [
+        { "q": "What three steps guide Bible study?", "options": ["Observe, interpret, apply", "Read, sleep, preach", "Pray, shout, sing", "Copy, paste, print"], "answer": 0 },
+        { "q": "What did Ezra prepare his heart to do?", "options": ["Seek, do and teach God's law", "Build the temple", "Become king", "Leave Babylon"], "answer": 0 },
+        { "q": "On the Emmaus road, what did Jesus expound?", "options": ["The things concerning Himself in all the Scriptures", "Roman law", "Greek poetry", "Temple rules"], "answer": 0 },
+        { "q": "What is moralism in preaching?", "options": ["Preaching good behaviour without the gospel", "Preaching Christ", "Explaining the text", "Praying"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Building the Sermon",
+      "intro": "A sermon needs a clear main idea and structure. This week we move from study to outline, illustration and application.",
+      "lessons": [
+        {
+          "title": "The main idea",
+          "body": "Every good sermon has one **main idea**, the big point of the text, stated in one clear sentence.\n\nFirst find the passage's **subject** (what is it talking about?) and **complement** (what is it saying about that?). For example, Psalm 23: subject, the LORD as shepherd; complement, He provides, guides and protects His people in every season. Main idea: \"Because the LORD is my shepherd, I lack nothing I truly need, in life or death.\"\n\nThen ask the **purpose**: what should hearers believe, feel or do as a result? A sermon that cannot be summarised in a sentence is probably unclear.",
+          "refs": ["Psalm 23:1-6", "Habakkuk 2:2", "1 Corinthians 14:8-9"]
+        },
+        {
+          "title": "Outline, introduction and conclusion",
+          "body": "Build the **outline** from the text's own structure. Each main point should explain part of the main idea and come from the passage. Use clear, parallel headings; two to four points are usually enough.\n\nThe **introduction** gets attention, raises the need the text answers, and introduces the passage. Keep it short.\n\nThe **conclusion** restates the main idea, applies it, and calls for a response: to repent, believe, obey, give thanks. Peter's sermon ended with a clear call: \"Repent, and be baptized\" (Acts 2:38).\n\nKeep to time. Thirty to forty minutes of clear preaching is better than ninety minutes of repetition.",
+          "refs": ["Acts 2:14-40", "Acts 13:16-41", "Ecclesiastes 12:9-11"]
+        },
+        {
+          "title": "Illustration and application",
+          "body": "**Illustrations** are like windows that let light into the sermon. Jesus used farming, fishing, money, weddings and family life. Use illustrations from everyday Nigerian life, Scripture, history and nature. Make sure they are true, appropriate and serve the point, not just entertain. Avoid sharing others' secrets or embarrassing your family.\n\n**Application** answers \"So what?\" Be specific: speak to different groups (young people, parents, workers, leaders), to the heart and to actions. Apply first to yourself.\n\nNathan's parable led to the piercing application, \"Thou art the man\" (2 Samuel 12:7). Good application is direct, but loving.",
+          "refs": ["Matthew 13:1-9", "2 Samuel 12:1-7", "James 1:22-25"]
+        }
+      ],
+      "terms": [
+        { "term": "Main idea", "def": "The one central point of a passage and sermon, stated in a sentence." },
+        { "term": "Subject and complement", "def": "What a passage talks about and what it says about it." },
+        { "term": "Sermon outline", "def": "The structure of main points drawn from the text." },
+        { "term": "Introduction", "def": "The opening that gains attention, raises a need and introduces the passage." },
+        { "term": "Illustration", "def": "A story or image that clarifies a truth." },
+        { "term": "Application", "def": "Showing how the truth of a passage should change belief and life." }
+      ],
+      "texts": [
+        { "ref": "Habakkuk 2:2", "teaches": "Write the vision and make it plain." },
+        { "ref": "1 Corinthians 14:9", "teaches": "Unless you speak words easy to understand, how will it be known?" },
+        { "ref": "Acts 2:38", "teaches": "Peter called his hearers to repent and be baptized." },
+        { "ref": "2 Samuel 12:7", "teaches": "Nathan said to David, Thou art the man." },
+        { "ref": "Ecclesiastes 12:10", "teaches": "The Preacher sought acceptable and upright words of truth." }
+      ],
+      "summary": [
+        "State the main idea of the text in one sentence.",
+        "Build the outline from the text's own structure.",
+        "Introductions raise the need; conclusions call for response.",
+        "Illustrate truthfully and apply specifically and lovingly."
+      ],
+      "questions": [
+        { "q": "What should a sermon have at its centre?", "options": ["One main idea from the text", "Many unrelated points", "Only stories", "Announcements"], "answer": 0 },
+        { "q": "Where should the outline come from?", "options": ["The text's own structure", "The preacher's favourite themes", "Newspaper headlines", "Random choice"], "answer": 0 },
+        { "q": "What did Nathan say to David?", "options": ["Thou art the man", "Go in peace", "Build the temple", "Fear not"], "answer": 0 },
+        { "q": "What does application answer?", "options": ["So what?", "Who wrote it?", "When was it written?", "How long is it?"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Delivering the Message",
+      "intro": "Good preparation needs faithful delivery. This week we study delivery, common errors and growing as a preacher.",
+      "lessons": [
+        {
+          "title": "Clear and passionate delivery",
+          "body": "Delivery serves the message:\n\n- **Clarity**: speak plainly, at a pace people can follow; explain unfamiliar words.\n- **Voice**: vary pace, volume and pitch; pause for emphasis. Shouting is not the same as power.\n- **Eye contact and posture**: speak to people, not to your notes.\n- **Notes**: use a brief outline rather than reading a full script, but know your material well.\n- **Language**: use the language your hearers understand best; work well with interpreters by using short sentences.\n- **Passion**: believe what you preach. Paul preached \"with many tears\" (Acts 20:31).\n\n\"Let all things be done unto edifying\" (1 Corinthians 14:26).",
+          "refs": ["Acts 20:31", "1 Corinthians 14:26", "Colossians 4:4"]
+        },
+        {
+          "title": "Common errors",
+          "body": "Avoid:\n\n- **Eisegesis**: reading your own ideas into a text instead of drawing out its meaning.\n- **Proof-texting**: using a verse out of context, such as claiming Jeremiah 29:11 as a promise of wealth.\n- **Allegorising**: inventing hidden meanings for every detail.\n- **Manipulation**: using emotion, guilt or pressure, especially for money (2 Corinthians 2:17; 4:2).\n- **Self-promotion**: making yourself the hero of every story (2 Corinthians 4:5).\n- **Plagiarism**: preaching another's sermon as your own without credit.\n- **Neglecting the gospel**: sermons with no Christ and no grace.\n\n\"We have renounced the hidden things of dishonesty... nor handling the word of God deceitfully\" (2 Corinthians 4:2).",
+          "refs": ["2 Corinthians 2:17", "2 Corinthians 4:1-5", "Jeremiah 23:28-32"]
+        },
+        {
+          "title": "Growing as a preacher",
+          "body": "Every preacher can grow:\n\n- **Ask for feedback** from trusted, honest listeners: Was the main idea clear? Was it faithful to the text? Was it applied?\n- **Listen to good preachers** and learn from their approach.\n- **Read widely**: theology, commentaries, biographies and the culture.\n- **Keep a sermon file** of ideas, illustrations and passages to preach.\n- **Rest and refuel**: \"Come ye yourselves apart... and rest a while\" (Mark 6:31).\n\nFaithfulness, not fame, is the measure. Paul planted, Apollos watered, but God gave the increase (1 Corinthians 3:6). \"Well done, thou good and faithful servant\" is the reward to seek (Matthew 25:21).",
+          "refs": ["Proverbs 27:17", "1 Corinthians 3:5-9", "Matthew 25:21"]
+        }
+      ],
+      "terms": [
+        { "term": "Delivery", "def": "The way a sermon is spoken: voice, pace, posture and clarity." },
+        { "term": "Eisegesis", "def": "Reading one's own ideas into a text." },
+        { "term": "Proof-texting", "def": "Using verses out of context to support a point." },
+        { "term": "Allegorising", "def": "Inventing hidden symbolic meanings not intended by the text." },
+        { "term": "Manipulation", "def": "Using pressure, guilt or emotion to control hearers." },
+        { "term": "Sermon feedback", "def": "Honest evaluation from listeners to help a preacher improve." }
+      ],
+      "texts": [
+        { "ref": "Acts 20:31", "teaches": "Paul warned everyone night and day with tears." },
+        { "ref": "2 Corinthians 2:17", "teaches": "We do not corrupt the word of God for gain." },
+        { "ref": "2 Corinthians 4:2", "teaches": "We do not handle the word of God deceitfully." },
+        { "ref": "2 Corinthians 4:5", "teaches": "We preach not ourselves, but Christ Jesus the Lord." },
+        { "ref": "Proverbs 27:17", "teaches": "Iron sharpens iron." }
+      ],
+      "summary": [
+        "Deliver clearly, with varied voice, eye contact and passion.",
+        "Avoid eisegesis, proof-texting, allegorising and manipulation.",
+        "Preach Christ, not yourself, and give credit.",
+        "Grow through feedback, reading, rest and faithfulness."
+      ],
+      "questions": [
+        { "q": "What is eisegesis?", "options": ["Reading one's own ideas into a text", "Drawing out a text's meaning", "Translating a text", "Memorising a text"], "answer": 0 },
+        { "q": "Whom should preachers preach, according to 2 Corinthians 4:5?", "options": ["Christ Jesus the Lord", "Themselves", "Their church", "Their ministry"], "answer": 0 },
+        { "q": "Which is a common error in preaching?", "options": ["Manipulation for money", "Explaining the text", "Applying the text", "Praying"], "answer": 0 },
+        { "q": "What is the true measure of a preacher?", "options": ["Faithfulness", "Fame", "Crowd size", "Wealth"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Why is preaching important, according to Scripture?", "keywords": [["pleased God", "save", "1 Corinthians 1:21"], ["hear", "preacher", "Romans 10:14"], ["word of God", "1 Thessalonians 2:13", "worketh"]], "model": "God saves believers through preaching (1 Corinthians 1:21); people cannot hear without a preacher (Romans 10:14); faithful preaching is received as God's Word (1 Thessalonians 2:13)." },
+      { "q": "What is expository preaching and why is it valuable?", "keywords": [["explain", "main point", "passage", "text"], ["agenda", "whole counsel", "teaches", "protects"]], "model": "Preaching that explains and applies a passage's main point; it lets God set the agenda, covers the whole counsel of God and teaches people to read the Bible." },
+      { "q": "Describe the observe-interpret-apply method.", "keywords": [["observe", "says"], ["interpret", "meant", "first hearers", "context"], ["apply", "now", "us"]], "model": "Observe what the text says, interpret what it meant to the first hearers in context, and apply what it means for us now." },
+      { "q": "How do you find a passage's main idea?", "keywords": [["subject"], ["complement"], ["one sentence", "purpose"]], "model": "Identify the subject and the complement, then state the main idea in one sentence and decide its purpose." },
+      { "q": "What makes good application?", "keywords": [["specific", "groups"], ["heart", "action"], ["yourself", "loving", "direct"]], "model": "Application is specific to different groups, reaches heart and actions, is applied first to the preacher, and is direct yet loving." },
+      { "q": "Name three common errors in preaching.", "keywords": [["eisegesis", "proof-text", "context"], ["allegor", "manipulat"], ["self", "plagiar", "no gospel", "Christ"]], "model": "Eisegesis or proof-texting out of context, manipulation for money, and preaching without Christ and grace." }
+    ],
+    "lists": [
+      { "q": "List four qualities of the preacher's life.", "items": [["live", "example", "Christian"], ["word", "study"], ["prayer"], ["Spirit"], ["humble", "humility"]], "need": 4 },
+      { "q": "List four parts of a sermon.", "items": [["main idea"], ["introduction"], ["points", "outline", "body"], ["illustration"], ["application"], ["conclusion"]], "need": 4 },
+      { "q": "List four common preaching errors.", "items": [["eisegesis"], ["proof-texting", "context"], ["allegorising"], ["manipulation"], ["self-promotion"], ["plagiarism"], ["no gospel", "moralism"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "A sermon manuscript", "prompt": "Choose a passage of 5-15 verses. Submit your study notes (observations and interpretation), the main idea in one sentence, a full outline, introduction, illustrations, application and conclusion. Show how the passage points to Christ.", "words": "1,000–1,500" },
+    { "title": "Sermon evaluation", "prompt": "Listen to two sermons (in your church or recorded). Evaluate each for faithfulness to the text, clarity of main idea, Christ-centredness, application and delivery, using the principles of this course. Be fair and charitable.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "John Stott, I Believe in Preaching",
+    "Haddon W. Robinson, Biblical Preaching",
+    "D. Martyn Lloyd-Jones, Preaching and Preachers"
+  ]
+}

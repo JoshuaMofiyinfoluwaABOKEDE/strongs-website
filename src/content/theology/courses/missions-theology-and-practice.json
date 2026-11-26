@@ -1,0 +1,241 @@
+{
+  "slug": "missions-theology-and-practice",
+  "title": "Missions: Theology and Practice",
+  "track": "ministry",
+  "level": "Intermediate",
+  "summary": "God's mission to all nations from Genesis to Revelation, and how the church takes the gospel across cultures today: unreached peoples, cross-cultural ministry, and the role of every believer.",
+  "description": "Mission is not one activity of the church; it flows from the heart of God. This course traces God's mission through the Bible, studies Paul's missionary practice, explains unreached people groups and cross-cultural communication, and shows how believers and churches can go, send, pray and give. It gives special attention to Nigeria's role as a mission-sending nation.",
+  "objectives": [
+    "Trace God's mission through the whole Bible",
+    "Learn from Paul's missionary strategy",
+    "Explain unreached people groups and the remaining task",
+    "Understand culture and contextualisation in mission",
+    "Help believers and churches find their part in missions"
+  ],
+  "outcomes": [
+    "Explain the Abrahamic covenant as the root of mission",
+    "Describe Paul's strategy of planting churches in key cities",
+    "Define an unreached people group",
+    "Distinguish faithful contextualisation from syncretism",
+    "Plan how a church can go, send, pray and give"
+  ],
+  "modules": [
+    {
+      "title": "God's Mission in Scripture",
+      "intro": "Missions begins with God. This week we trace His purpose for the nations from Genesis to Revelation.",
+      "lessons": [
+        {
+          "title": "Blessed to be a blessing",
+          "body": "After the nations scattered at Babel (Genesis 11), God called Abraham: \"in thee shall all families of the earth be blessed\" (Genesis 12:3). This promise is the root of mission. Paul calls it the gospel preached beforehand (Galatians 3:8).\n\nIsrael was meant to be \"a kingdom of priests\" (Exodus 19:6), showing God to the nations. Solomon prayed that \"all people of the earth may know thy name\" (1 Kings 8:43). The psalms call the nations to praise God (Psalm 67; 96).\n\nThe prophets foresaw the Servant as \"a light to the Gentiles, that thou mayest be my salvation unto the end of the earth\" (Isaiah 49:6).",
+          "refs": ["Genesis 12:1-3", "Psalm 67:1-7", "Isaiah 49:6"]
+        },
+        {
+          "title": "Jesus and the nations",
+          "body": "Jesus ministered mainly to Israel, but reached out to a Samaritan woman, a Roman centurion and a Syro-Phoenician mother. He foresaw that \"many shall come from the east and west\" to the kingdom (Matthew 8:11).\n\nAfter His resurrection He gave the Great Commission in each Gospel and Acts: \"Go ye therefore, and teach all nations\" (Matthew 28:19); \"Go ye into all the world\" (Mark 16:15); \"repentance and remission of sins should be preached in his name among all nations\" (Luke 24:47); \"as my Father hath sent me, even so send I you\" (John 20:21); \"unto the uttermost part of the earth\" (Acts 1:8).\n\nThe word \"nations\" (Greek *ethne*) means peoples, not just countries.",
+          "refs": ["Matthew 28:18-20", "Luke 24:46-48", "John 20:21"]
+        },
+        {
+          "title": "The end of the story",
+          "body": "The Bible ends with mission accomplished: \"a great multitude, which no man could number, of all nations, and kindreds, and people, and tongues, stood before the throne\" (Revelation 7:9). The redeemed sing that Christ purchased people \"out of every kindred, and tongue, and people, and nation\" (Revelation 5:9).\n\nJesus said, \"this gospel of the kingdom shall be preached in all the world for a witness unto all nations; and then shall the end come\" (Matthew 24:14).\n\nMission therefore is not an optional programme. It is joining God in what He is certainly doing in history.",
+          "refs": ["Revelation 5:9-10", "Revelation 7:9-10", "Matthew 24:14"]
+        }
+      ],
+      "terms": [
+        { "term": "Missio Dei", "def": "Latin 'mission of God': mission begins in God's own purpose and sending." },
+        { "term": "Abrahamic covenant", "def": "God's promise to bless all families of the earth through Abraham (Genesis 12:3)." },
+        { "term": "Kingdom of priests", "def": "Israel's calling to represent God to the nations (Exodus 19:6)." },
+        { "term": "Ethne", "def": "Greek for nations or peoples, used in the Great Commission." },
+        { "term": "Light to the Gentiles", "def": "The Servant's mission to bring salvation to the ends of the earth (Isaiah 49:6)." },
+        { "term": "Missions", "def": "The church's work of taking the gospel across cultures and to all peoples." }
+      ],
+      "texts": [
+        { "ref": "Genesis 12:3", "teaches": "In Abraham all families of the earth shall be blessed." },
+        { "ref": "Psalm 67:2", "teaches": "That thy way may be known upon earth, thy saving health among all nations." },
+        { "ref": "Isaiah 49:6", "teaches": "The Servant is a light to the Gentiles to the end of the earth." },
+        { "ref": "John 20:21", "teaches": "As the Father sent me, so send I you." },
+        { "ref": "Revelation 7:9", "teaches": "A multitude from every nation stands before the throne." }
+      ],
+      "summary": [
+        "Mission begins with God's promise to bless all nations through Abraham.",
+        "Israel was to show God to the nations; the prophets foresaw a light to the Gentiles.",
+        "Jesus sent His church to all peoples (ethne).",
+        "The Bible ends with worshippers from every nation."
+      ],
+      "questions": [
+        { "q": "What did God promise Abraham in Genesis 12:3?", "options": ["All families of the earth would be blessed in him", "Great wealth only", "A large army", "A temple"], "answer": 0 },
+        { "q": "What does 'ethne' mean in the Great Commission?", "options": ["Peoples or nations", "Only countries", "Churches", "Leaders"], "answer": 0 },
+        { "q": "Who is a light to the Gentiles in Isaiah 49:6?", "options": ["The Servant", "Cyrus", "Isaiah", "Moses"], "answer": 0 },
+        { "q": "What will happen after the gospel is preached to all nations?", "options": ["The end shall come", "Nothing", "A new law", "The church will close"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Paul's Missionary Practice",
+      "intro": "Paul is the great model of cross-cultural mission. This week we study how he worked.",
+      "lessons": [
+        {
+          "title": "Sent by the church",
+          "body": "In Antioch, as leaders \"ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them\" (Acts 13:2). The church fasted, prayed, laid hands on them and sent them (13:3).\n\nMission is sent by the Spirit through the local church. Paul returned to report \"all that God had done with them\" (Acts 14:27), keeping the sending church involved.\n\nPaul worked in teams with Barnabas, Silas, Timothy, Luke, Priscilla and Aquila, and trained others. He was supported by churches like Philippi (Philippians 4:15-16) and also worked as a tentmaker (Acts 18:3).",
+          "refs": ["Acts 13:1-4", "Acts 14:26-27", "Philippians 4:15-17"]
+        },
+        {
+          "title": "Strategy: cities and churches",
+          "body": "Paul's strategy:\n\n- He went to **strategic cities** (Antioch, Ephesus, Corinth, Rome) from which the gospel could spread. From Ephesus \"all they which dwelt in Asia heard the word\" (Acts 19:10).\n- He began with those who were most prepared: synagogues and God-fearers.\n- He **planted churches**, not just converts, and appointed elders (Acts 14:23).\n- He moved on, trusting the Spirit and local leaders, but kept in touch through visits and letters.\n- He aimed for unreached areas: \"not where Christ was named, lest I should build upon another man's foundation\" (Romans 15:20).",
+          "refs": ["Acts 19:8-10", "Acts 14:21-23", "Romans 15:18-21"]
+        },
+        {
+          "title": "All things to all men",
+          "body": "Paul adapted to his hearers: \"unto the Jews I became as a Jew... to them that are without law, as without law... I am made all things to all men, that I might by all means save some\" (1 Corinthians 9:20-22).\n\nIn the synagogue he reasoned from the Old Testament (Acts 13:16-41). In Lystra, to farming pagans, he spoke of the Creator who gives rain and harvests (Acts 14:15-17). In Athens he quoted their poets and began with their altar \"TO THE UNKNOWN GOD\" (Acts 17:22-31).\n\nThe message never changed: Christ crucified and risen. Only the starting point and style changed.",
+          "refs": ["1 Corinthians 9:19-23", "Acts 14:15-17", "Acts 17:22-31"]
+        }
+      ],
+      "terms": [
+        { "term": "Sending church", "def": "The local church that commissions and supports missionaries, as Antioch did." },
+        { "term": "Missionary team", "def": "A group working together in mission, as Paul did with Barnabas, Silas and others." },
+        { "term": "Tentmaking", "def": "Supporting oneself through a trade while doing mission work." },
+        { "term": "Church planting", "def": "Starting new local churches with their own leaders." },
+        { "term": "Strategic city", "def": "A centre from which the gospel can spread to a region." },
+        { "term": "God-fearers", "def": "Gentiles who worshipped Israel's God without fully converting to Judaism." }
+      ],
+      "texts": [
+        { "ref": "Acts 13:2", "teaches": "The Holy Ghost said, Separate me Barnabas and Saul." },
+        { "ref": "Acts 14:23", "teaches": "Paul ordained elders in every church." },
+        { "ref": "Acts 19:10", "teaches": "From Ephesus all Asia heard the word." },
+        { "ref": "Romans 15:20", "teaches": "Paul strove to preach where Christ was not named." },
+        { "ref": "1 Corinthians 9:22", "teaches": "I am made all things to all men, that I might save some." }
+      ],
+      "summary": [
+        "Missionaries are sent by the Spirit through the local church.",
+        "Paul worked in teams and was supported by churches and his trade.",
+        "He planted churches in strategic cities and appointed elders.",
+        "He adapted his approach but never changed the message."
+      ],
+      "questions": [
+        { "q": "Which church sent Paul and Barnabas?", "options": ["Antioch", "Jerusalem", "Rome", "Corinth"], "answer": 0 },
+        { "q": "What was Paul's trade?", "options": ["Tentmaker", "Fisherman", "Carpenter", "Doctor"], "answer": 0 },
+        { "q": "From which city did all Asia hear the word?", "options": ["Ephesus", "Athens", "Lystra", "Philippi"], "answer": 0 },
+        { "q": "How did Paul begin his sermon in Athens?", "options": ["With their altar to the unknown God", "With the law of Moses", "With a miracle", "With a rebuke"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Culture and the Unreached",
+      "intro": "This week we study the remaining task and how to communicate the gospel across cultures.",
+      "lessons": [
+        {
+          "title": "Unreached people groups",
+          "body": "A **people group** is a community sharing language and culture, such as the Fulani, Kanuri or Tiv. An **unreached people group** is one without a church able to reach its own people without outside help.\n\nThousands of people groups worldwide remain unreached, many in North Africa, the Middle East and Asia. In Nigeria too, several groups, especially in the north, have very few believers.\n\nPaul's ambition was to preach where Christ was not named (Romans 15:20). Missions thinking asks not only \"How many people?\" but \"Which peoples have no access to the gospel?\" Resources such as the Joshua Project list unreached groups to guide prayer and sending.",
+          "refs": ["Romans 15:20-21", "Revelation 5:9", "Matthew 9:37-38"]
+        },
+        {
+          "title": "Culture and contextualisation",
+          "body": "Every culture has good gifts from God and also sinful elements. The gospel affirms what is good, rejects what is sinful, and transforms the rest.\n\n**Contextualisation** means communicating the unchanging gospel in ways a culture understands: in its language, illustrations, music and forms. The Jerusalem council (Acts 15) decided that Gentiles did not need to become culturally Jewish to follow Christ.\n\nThe danger is **syncretism**: changing the gospel to fit the culture. Faithful contextualisation changes the wrapping, never the content. Missionaries must learn language and culture humbly, as listeners first.",
+          "refs": ["Acts 15:7-20", "1 Corinthians 9:20-23", "Colossians 2:8"]
+        },
+        {
+          "title": "Bible translation and the heart language",
+          "body": "At Pentecost everyone heard \"in our own tongue, wherein we were born\" (Acts 2:8). God speaks to every people in its own language.\n\nBible translation has been central to mission: Carey in India, Crowther in Yoruba, and many Nigerian translators today. People who have Scripture in their **heart language** understand it more deeply and the church takes root.\n\nNigeria has hundreds of languages, and many still lack a full Bible. Organisations such as the Nigeria Bible Translation Trust work with local churches to translate Scripture and teach literacy. Supporting translation is a powerful way to serve missions.",
+          "refs": ["Acts 2:5-11", "Romans 10:17", "Revelation 14:6"]
+        }
+      ],
+      "terms": [
+        { "term": "People group", "def": "A community sharing language and culture." },
+        { "term": "Unreached people group", "def": "A people without a church able to evangelise it without outside help." },
+        { "term": "Contextualisation", "def": "Communicating the unchanging gospel in culturally understandable forms." },
+        { "term": "Syncretism", "def": "Mixing the gospel with elements that change or deny it." },
+        { "term": "Heart language", "def": "A person's first language, in which Scripture speaks most deeply." },
+        { "term": "Bible translation", "def": "Rendering Scripture into languages that lack it." }
+      ],
+      "texts": [
+        { "ref": "Revelation 5:9", "teaches": "Christ redeemed people from every kindred, tongue, people and nation." },
+        { "ref": "Acts 15:19", "teaches": "Do not trouble the Gentiles who are turning to God." },
+        { "ref": "Acts 2:8", "teaches": "Each heard in his own tongue wherein he was born." },
+        { "ref": "Colossians 2:8", "teaches": "Beware lest any spoil you through philosophy and tradition of men." },
+        { "ref": "Revelation 14:6", "teaches": "The everlasting gospel is for every nation, kindred, tongue and people." }
+      ],
+      "summary": [
+        "Many people groups, including some in Nigeria, remain unreached.",
+        "Contextualisation communicates the gospel in cultural forms without changing it.",
+        "Syncretism changes the gospel and must be avoided.",
+        "Bible translation into heart languages is vital to mission."
+      ],
+      "questions": [
+        { "q": "What is an unreached people group?", "options": ["A people without a church able to reach its own people", "Any rural village", "A non-Christian country", "A people with no language"], "answer": 0 },
+        { "q": "What did the Jerusalem council decide?", "options": ["Gentiles need not become culturally Jewish", "Gentiles must be circumcised", "Mission should stop", "Only Jews can be saved"], "answer": 0 },
+        { "q": "What is the difference between contextualisation and syncretism?", "options": ["One changes the wrapping, the other changes the content", "There is no difference", "Both are wrong", "Both are required"], "answer": 0 },
+        { "q": "At Pentecost, how did people hear the gospel?", "options": ["In their own native languages", "Only in Hebrew", "Only in Greek", "Through interpreters only"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Your Part in Missions",
+      "intro": "Every believer and church has a part. This week we study going, sending, praying and giving, and Nigeria's calling.",
+      "lessons": [
+        {
+          "title": "Go, send, pray, give",
+          "body": "\"How shall they hear without a preacher? And how shall they preach, except they be sent?\" (Romans 10:14-15). Mission needs both **goers** and **senders**.\n\n- **Go**: some are called to cross cultures long-term, short-term or as tentmakers in secular jobs abroad.\n- **Send**: churches commission, support and care for missionaries, sending them \"after a godly sort\" (3 John 6-8).\n- **Pray**: \"Pray ye therefore the Lord of the harvest, that he will send forth labourers\" (Matthew 9:38).\n- **Give**: the Philippians partnered with Paul through giving (Philippians 4:15-18).\n\nThose who send are partners in the reward.",
+          "refs": ["Romans 10:13-15", "3 John 5-8", "Matthew 9:37-38"]
+        },
+        {
+          "title": "Caring for missionaries",
+          "body": "Missionaries face loneliness, illness, culture stress, family pressures, financial need and sometimes danger. Paul often wrote of his hardships (2 Corinthians 11:23-28) and of friends who refreshed him (2 Timothy 1:16-18).\n\nChurches can care by:\n\n- Praying regularly and by name.\n- Sending faithful financial support, not irregular gifts.\n- Communicating: letters, calls and visits.\n- Caring for missionaries' children and families.\n- Welcoming them home and allowing rest.\n\nMissionaries need a team behind them, as Moses needed Aaron and Hur to hold up his hands (Exodus 17:12).",
+          "refs": ["2 Corinthians 11:23-28", "2 Timothy 1:16-18", "Exodus 17:11-12"]
+        },
+        {
+          "title": "Nigeria and the nations",
+          "body": "Nigeria received the gospel through missionaries, many of whom died. Now Nigerian churches send missionaries to unreached peoples at home and across Africa and the world, through agencies like Calvary Ministries (CAPRO), denominational mission boards and Pentecostal mission departments.\n\nThe Nigerian diaspora in Europe, America, Asia and the Middle East also creates opportunities for witness.\n\nChallenges include funding, training, caring for missionaries, and avoiding exporting church politics or prosperity teaching. Yet the opportunity is historic. \"Freely ye have received, freely give\" (Matthew 10:8). The church that was reached must now reach others.",
+          "refs": ["Matthew 10:8", "Isaiah 6:8", "Acts 1:8"]
+        }
+      ],
+      "terms": [
+        { "term": "Goer", "def": "A person who goes to serve in cross-cultural mission." },
+        { "term": "Sender", "def": "A person or church that supports and cares for missionaries." },
+        { "term": "Short-term mission", "def": "Mission service for weeks or months rather than years." },
+        { "term": "Member care", "def": "Ongoing care for the spiritual, emotional and practical needs of missionaries." },
+        { "term": "Diaspora", "def": "People living outside their homeland." },
+        { "term": "Partnership", "def": "Sharing together in gospel work through prayer, giving and support." }
+      ],
+      "texts": [
+        { "ref": "Romans 10:15", "teaches": "How shall they preach except they be sent?" },
+        { "ref": "3 John 8", "teaches": "Receive such, that we might be fellowhelpers to the truth." },
+        { "ref": "Matthew 9:38", "teaches": "Pray the Lord of the harvest to send labourers." },
+        { "ref": "Exodus 17:12", "teaches": "Aaron and Hur held up Moses' hands." },
+        { "ref": "Isaiah 6:8", "teaches": "Here am I; send me." }
+      ],
+      "summary": [
+        "Every believer can go, send, pray or give.",
+        "Churches must care for missionaries faithfully.",
+        "Nigeria has become a mission-sending nation.",
+        "Having freely received, we must freely give."
+      ],
+      "questions": [
+        { "q": "What does Romans 10:15 ask?", "options": ["How shall they preach except they be sent?", "Who will pay?", "Where is the temple?", "Why should we go?"], "answer": 0 },
+        { "q": "Who held up Moses' hands?", "options": ["Aaron and Hur", "Joshua and Caleb", "Peter and John", "Paul and Silas"], "answer": 0 },
+        { "q": "What is member care?", "options": ["Care for missionaries' needs", "Church membership fees", "Caring for church buildings", "Attendance records"], "answer": 0 },
+        { "q": "What did Isaiah say when God called?", "options": ["Here am I; send me", "Send someone else", "I am too young", "Not now"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "How is mission rooted in Genesis 12:3?", "keywords": [["Abraham"], ["all families", "nations", "blessed"], ["gospel", "Galatians 3:8"]], "model": "God promised that in Abraham all families of the earth would be blessed; Paul calls this the gospel preached beforehand (Galatians 3:8)." },
+      { "q": "What does 'nations' mean in the Great Commission, and why does it matter?", "keywords": [["ethne", "peoples"], ["not", "countries", "language", "culture"], ["unreached", "every people"]], "model": "Ethne means peoples sharing language and culture, not just countries, so the goal is to reach every people group." },
+      { "q": "Describe three features of Paul's missionary strategy.", "keywords": [["cities", "strategic"], ["churches", "elders", "planted"], ["teams", "unreached", "not where Christ was named"]], "model": "He went to strategic cities, planted churches with elders, and worked in teams aiming at unreached areas." },
+      { "q": "Distinguish contextualisation from syncretism.", "keywords": [["wrapping", "form", "language", "understand"], ["content", "change", "mix", "deny"], ["gospel"]], "model": "Contextualisation communicates the unchanging gospel in culturally understandable forms; syncretism changes or mixes the gospel's content." },
+      { "q": "Why is Bible translation important for mission?", "keywords": [["heart language", "own tongue"], ["understand", "root", "deep"], ["Pentecost", "Acts 2", "Crowther", "Carey"]], "model": "God speaks to each people in its heart language, as at Pentecost; Scripture in one's own language helps the church take root." },
+      { "q": "Name four ways a believer can take part in missions.", "keywords": [["go"], ["send"], ["pray"], ["give"]], "model": "By going, sending, praying and giving." }
+    ],
+    "lists": [
+      { "q": "List four statements of the Great Commission.", "items": [["Matthew 28"], ["Mark 16"], ["Luke 24"], ["John 20"], ["Acts 1"]], "need": 4 },
+      { "q": "List four ways churches can care for missionaries.", "items": [["pray"], ["support", "financial", "give"], ["communicate", "letters", "calls"], ["visit"], ["family", "children"], ["rest", "welcome home"]], "need": 4 },
+      { "q": "List three of Paul's missionary companions.", "items": [["Barnabas"], ["Silas"], ["Timothy"], ["Luke"], ["Priscilla"], ["Aquila"], ["Titus"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "An unreached people", "prompt": "Research one unreached or least-reached people group in Nigeria or elsewhere. Describe their language, culture, religion and Christian presence. Then suggest, from this course, how a church could pray, give, send and partner to reach them.", "words": "500–700" },
+    { "title": "A church mission plan", "prompt": "Write a one-year mission plan for your church or fellowship covering prayer, giving, sending, short-term outreach and member care, with biblical reasons for each part.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Christopher J. H. Wright, The Mission of God's People",
+    "John Piper, Let the Nations Be Glad!",
+    "Ralph D. Winter and Steven C. Hawthorne (eds), Perspectives on the World Christian Movement"
+  ]
+}

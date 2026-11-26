@@ -1,0 +1,241 @@
+{
+  "slug": "pastoral-care-and-counselling",
+  "title": "Pastoral Care and Counselling",
+  "track": "ministry",
+  "level": "Advanced",
+  "summary": "How to care for God's people biblically and wisely: the shepherd's heart, listening and counselling skills, ministry in grief, sickness and crisis, and knowing when to refer.",
+  "description": "\"Feed the flock of God which is among you\" (1 Peter 5:2). This course equips pastors, elders, deacons and caring church members to shepherd people through life's struggles. It covers the biblical basis of care, the skills of listening and biblical counselling, care for the sick, dying and bereaved, help in marriage and family conflict, depression and anxiety, and the boundaries, confidentiality and referral that keep care safe.",
+  "objectives": [
+    "Explain the biblical basis and goal of pastoral care",
+    "Practise listening and biblical counselling skills",
+    "Care for the sick, the dying and the bereaved",
+    "Help people facing conflict, depression, anxiety and crisis",
+    "Practise safe boundaries, confidentiality and referral"
+  ],
+  "outcomes": [
+    "Describe the shepherd's work from Ezekiel 34 and John 10",
+    "Use active listening and good questions",
+    "Lead a hospital visit and support a grieving family",
+    "Recognise signs that require professional help",
+    "Apply confidentiality and its limits wisely"
+  ],
+  "modules": [
+    {
+      "title": "The Shepherd's Heart",
+      "intro": "Pastoral care is shepherding God's flock as Christ does. This week we study its biblical foundation.",
+      "lessons": [
+        {
+          "title": "The Good Shepherd",
+          "body": "\"The LORD is my shepherd\" (Psalm 23:1). God promised, \"I will feed my flock... I will seek that which was lost, and bring again that which was driven away, and will bind up that which was broken, and will strengthen that which was sick\" (Ezekiel 34:15-16).\n\nJesus is \"the good shepherd\" who \"giveth his life for the sheep\" and knows them by name (John 10:11, 14). He was \"moved with compassion\" for the crowds, \"as sheep having no shepherd\" (Matthew 9:36).\n\nAll pastoral care flows from His care. We are under-shepherds of \"the chief Shepherd\" (1 Peter 5:4).",
+          "refs": ["Ezekiel 34:11-16", "John 10:11-14", "1 Peter 5:1-4"]
+        },
+        {
+          "title": "Bad shepherds and good shepherds",
+          "body": "God condemned Israel's leaders: \"Woe be to the shepherds of Israel that do feed themselves!... The diseased have ye not strengthened, neither have ye healed that which was sick... but with force and with cruelty have ye ruled them\" (Ezekiel 34:2-4).\n\nGood shepherds:\n\n- **Know** the flock: \"Be thou diligent to know the state of thy flocks\" (Proverbs 27:23).\n- **Feed** them with the Word.\n- **Lead** by example.\n- **Protect** them from wolves (Acts 20:28-29).\n- **Seek** the straying (Luke 15:4).\n- **Heal** and bind up the broken.\n\nCare is not only the pastor's job: believers are to \"bear one another's burdens\" (Galatians 6:2).",
+          "refs": ["Ezekiel 34:1-6", "Proverbs 27:23", "Galatians 6:1-2"]
+        },
+        {
+          "title": "The goal of care",
+          "body": "The goal of pastoral care is not merely to solve problems or make people feel better, but to help them know God and grow in Christ through their circumstances: \"that we may present every man perfect in Christ Jesus\" (Colossians 1:28).\n\nGod comforts us \"that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God\" (2 Corinthians 1:4).\n\nCare involves the whole person: spiritual, emotional, physical and practical. Sometimes the most spiritual thing to do is bring food, pay a hospital bill, or sit in silence. Job's friends did best in the first seven days, when they sat with him and said nothing (Job 2:13).",
+          "refs": ["Colossians 1:28-29", "2 Corinthians 1:3-4", "Job 2:11-13"]
+        }
+      ],
+      "terms": [
+        { "term": "Pastoral care", "def": "Shepherding God's people through life by word, presence and practical help." },
+        { "term": "Under-shepherd", "def": "A church leader who shepherds under Christ the chief Shepherd." },
+        { "term": "Shepherd", "def": "One who feeds, leads, protects and heals the flock." },
+        { "term": "Compassion", "def": "Deep pity that moves to help." },
+        { "term": "Ministry of presence", "def": "Caring by being with someone in their suffering." },
+        { "term": "Whole-person care", "def": "Caring for spiritual, emotional, physical and practical needs." }
+      ],
+      "texts": [
+        { "ref": "Ezekiel 34:16", "teaches": "God seeks the lost, binds up the broken and strengthens the sick." },
+        { "ref": "John 10:11", "teaches": "The good shepherd gives his life for the sheep." },
+        { "ref": "Proverbs 27:23", "teaches": "Be diligent to know the state of thy flocks." },
+        { "ref": "2 Corinthians 1:4", "teaches": "God comforts us so we can comfort others." },
+        { "ref": "Galatians 6:2", "teaches": "Bear one another's burdens." }
+      ],
+      "summary": [
+        "God and Christ are the model Shepherds.",
+        "God condemns shepherds who exploit the flock.",
+        "Good shepherds know, feed, lead, protect, seek and heal.",
+        "Care aims at Christlikeness and meets the whole person's needs."
+      ],
+      "questions": [
+        { "q": "Who is the chief Shepherd?", "options": ["Christ", "The pastor", "The bishop", "The general overseer"], "answer": 0 },
+        { "q": "What did God condemn in Ezekiel 34?", "options": ["Shepherds who fed themselves", "Shepherds who healed", "Shepherds who sought the lost", "Shepherds who prayed"], "answer": 0 },
+        { "q": "What did Job's friends do well at first?", "options": ["Sat with him in silence", "Accused him", "Preached to him", "Left him"], "answer": 0 },
+        { "q": "Why does God comfort us, according to 2 Corinthians 1:4?", "options": ["So we can comfort others", "So we never suffer", "So we become rich", "So we stop praying"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Listening and Counselling",
+      "intro": "Counselling begins with listening. This week we study the skills and process of biblical counselling.",
+      "lessons": [
+        {
+          "title": "Swift to hear",
+          "body": "\"Let every man be swift to hear, slow to speak, slow to wrath\" (James 1:19). \"He that answereth a matter before he heareth it, it is folly and shame unto him\" (Proverbs 18:13).\n\n**Active listening** means:\n\n- Giving full attention: put the phone away, look at the person.\n- Not interrupting or jumping to advice.\n- Reflecting back: \"It sounds like you feel...\"\n- Asking open questions: \"How did that affect you?\" \"What have you tried?\"\n- Listening for feelings as well as facts.\n\n\"Counsel in the heart of man is like deep water; but a man of understanding will draw it out\" (Proverbs 20:5).",
+          "refs": ["James 1:19", "Proverbs 18:13", "Proverbs 20:5"]
+        },
+        {
+          "title": "Biblical counselling",
+          "body": "Scripture is \"profitable for doctrine, for reproof, for correction, for instruction in righteousness\" (2 Timothy 3:16). Biblical counselling brings God's Word to bear on people's struggles with wisdom and love.\n\nA simple process:\n\n1. **Listen and understand** the person and situation.\n2. **Discern** what is happening in the heart: fears, desires, beliefs, sin and suffering (Proverbs 4:23; Jeremiah 17:9).\n3. **Bring Scripture**: God's character, promises and commands that speak to the situation.\n4. **Call to response**: repentance, faith, forgiveness, obedience, or lament and trust.\n5. **Plan practical steps** and follow up.\n\n\"Speaking the truth in love\" (Ephesians 4:15).",
+          "refs": ["2 Timothy 3:16-17", "Ephesians 4:15", "Proverbs 4:23"]
+        },
+        {
+          "title": "Suffering and sin",
+          "body": "People come with both **suffering** (things done to them, loss, illness) and **sin** (their own wrong responses or choices). Often both are present.\n\nWe must distinguish: blaming sufferers for their pain, like Job's friends, is cruel (Job 42:7). Yet ignoring sin leaves people trapped.\n\nPaul's guidance: \"warn them that are unruly, comfort the feebleminded, support the weak, be patient toward all men\" (1 Thessalonians 5:14). Different people need different responses.\n\nNever counsel with a hidden agenda, manipulation or harshness. Pray with and for those you counsel, and depend on the Spirit, \"the Comforter\" (John 14:16).",
+          "refs": ["1 Thessalonians 5:14", "Job 42:7", "Galatians 6:1"]
+        }
+      ],
+      "terms": [
+        { "term": "Active listening", "def": "Listening with full attention, reflecting back and asking open questions." },
+        { "term": "Reflecting", "def": "Restating what a person has said to show understanding." },
+        { "term": "Biblical counselling", "def": "Bringing Scripture to bear on people's struggles with wisdom and love." },
+        { "term": "Heart", "def": "In Scripture, the centre of a person's desires, thoughts and choices." },
+        { "term": "Lament", "def": "Honest grief expressed to God in faith." },
+        { "term": "Speaking the truth in love", "def": "Honest counsel given with genuine care (Ephesians 4:15)." }
+      ],
+      "texts": [
+        { "ref": "James 1:19", "teaches": "Be swift to hear, slow to speak." },
+        { "ref": "Proverbs 18:13", "teaches": "Answering before hearing is folly and shame." },
+        { "ref": "Proverbs 20:5", "teaches": "A man of understanding draws out counsel from the heart." },
+        { "ref": "Ephesians 4:15", "teaches": "Speak the truth in love." },
+        { "ref": "1 Thessalonians 5:14", "teaches": "Warn the unruly, comfort the feeble, support the weak, be patient." }
+      ],
+      "summary": [
+        "Listen actively before speaking.",
+        "Biblical counselling: listen, discern the heart, bring Scripture, call to response, plan.",
+        "Distinguish suffering from sin; often both are present.",
+        "Different people need warning, comfort or support."
+      ],
+      "questions": [
+        { "q": "What does James 1:19 command?", "options": ["Swift to hear, slow to speak", "Swift to speak", "Slow to hear", "Quick to anger"], "answer": 0 },
+        { "q": "What is reflecting in listening?", "options": ["Restating what someone said to show understanding", "Looking in a mirror", "Interrupting", "Giving quick advice"], "answer": 0 },
+        { "q": "Why did God rebuke Job's friends?", "options": ["They spoke wrongly, blaming Job", "They sat with him", "They prayed", "They brought gifts"], "answer": 0 },
+        { "q": "According to 1 Thessalonians 5:14, whom should we comfort?", "options": ["The feebleminded", "The unruly", "The proud", "The rich"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Care in Sickness, Death and Grief",
+      "intro": "Some of the most important care happens in hospitals and at gravesides. This week we study ministry to the sick, dying and bereaved.",
+      "lessons": [
+        {
+          "title": "Visiting the sick",
+          "body": "\"I was sick, and ye visited me\" (Matthew 25:36). James tells the sick to call the elders to pray (James 5:14).\n\nGuidelines for hospital and home visits:\n\n- Keep visits short unless invited to stay.\n- Respect hospital rules and the patient's privacy.\n- Listen more than talk; do not compare with others' illnesses.\n- Read a short, comforting passage such as Psalm 23, 46 or 121, and pray simply.\n- Do not promise healing God has not promised, or blame illness on lack of faith.\n- Offer practical help to the family: food, transport, help with bills.\n\nVisit faithfully, especially those with long illnesses who are often forgotten.",
+          "refs": ["Matthew 25:34-40", "James 5:13-16", "Psalm 121:1-8"]
+        },
+        {
+          "title": "Ministry to the dying",
+          "body": "Being with the dying is a sacred trust. Help them:\n\n- Be sure of their salvation: share the gospel gently if needed, and assurance from John 14:1-3 and Romans 8:38-39.\n- Make peace: forgiving and being forgiven, reconciling with family.\n- Settle practical matters: a will and wishes for burial, to prevent family conflict.\n- Face death with hope: \"to die is gain\" (Philippians 1:21).\n\nPray, sing familiar hymns, read Scripture, and simply be present. Support the family, who are also exhausted and grieving. \"Precious in the sight of the LORD is the death of his saints\" (Psalm 116:15).",
+          "refs": ["John 14:1-3", "Philippians 1:21-23", "Psalm 116:15"]
+        },
+        {
+          "title": "Comforting the bereaved",
+          "body": "\"Blessed are they that mourn: for they shall be comforted\" (Matthew 5:4). Jesus wept with Mary and Martha though He knew He would raise Lazarus (John 11:35).\n\nGrief takes time and may include shock, sorrow, anger, guilt and loneliness. It is not lack of faith. Believers \"sorrow not, even as others which have no hope\" (1 Thessalonians 4:13), but they do sorrow.\n\nHelp: be present; listen to memories; avoid clichés like \"it is God's will\" said too quickly; help with practical needs; protect widows from harmful customs and property grabbing (James 1:27); and keep visiting after the funeral, when others have gone. Anniversaries and holidays can be hard.",
+          "refs": ["John 11:32-36", "1 Thessalonians 4:13-18", "James 1:27"]
+        }
+      ],
+      "terms": [
+        { "term": "Visitation", "def": "Visiting members, especially the sick and needy, as pastoral care." },
+        { "term": "Ministry to the dying", "def": "Spiritual and practical care for those near death and their families." },
+        { "term": "Bereavement", "def": "The loss of a loved one through death." },
+        { "term": "Grief", "def": "The deep sorrow and mixed emotions that follow loss." },
+        { "term": "Cliché", "def": "An overused saying that can hurt more than help." },
+        { "term": "Widows and orphans", "def": "Those Scripture specially commands the church to protect (James 1:27)." }
+      ],
+      "texts": [
+        { "ref": "Matthew 25:36", "teaches": "I was sick and you visited me." },
+        { "ref": "Psalm 121:2", "teaches": "My help comes from the LORD, who made heaven and earth." },
+        { "ref": "John 14:2", "teaches": "In my Father's house are many mansions." },
+        { "ref": "John 11:35", "teaches": "Jesus wept." },
+        { "ref": "James 1:27", "teaches": "Pure religion visits the fatherless and widows in their affliction." }
+      ],
+      "summary": [
+        "Visit the sick briefly, listen, read Scripture, pray and help practically.",
+        "Help the dying find assurance, peace and hope.",
+        "Grief is normal; believers grieve with hope.",
+        "Care for the bereaved long after the funeral and protect widows."
+      ],
+      "questions": [
+        { "q": "What should we avoid saying to the sick?", "options": ["That illness is from lack of faith", "That God loves them", "That we will pray", "A comforting psalm"], "answer": 0 },
+        { "q": "What did Jesus do at Lazarus' tomb?", "options": ["Wept", "Rebuked the mourners", "Left quickly", "Laughed"], "answer": 0 },
+        { "q": "How do believers grieve, according to 1 Thessalonians 4:13?", "options": ["Not as those without hope", "Not at all", "Without any sorrow", "With despair"], "answer": 0 },
+        { "q": "Whom does James 1:27 tell us to visit?", "options": ["Fatherless and widows", "Only the rich", "Only leaders", "No one"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Crisis, Conflict and Safe Care",
+      "intro": "This week we study care in conflict, depression, anxiety and crisis, and the boundaries that keep care safe.",
+      "lessons": [
+        {
+          "title": "Conflict and reconciliation",
+          "body": "Conflict arises in marriages, families and churches. \"From whence come wars and fightings among you? come they not hence, even of your lusts?\" (James 4:1).\n\nIn helping:\n\n- Hear both sides before judging (Proverbs 18:17).\n- Help each person examine their own heart first (Matthew 7:3-5).\n- Encourage confession, forgiveness and practical change (Colossians 3:13).\n- Use the steps of Matthew 18:15-17 where sin persists.\n\nWhere there is **abuse or violence**, safety comes first. Do not send a victim back into danger in the name of reconciliation. Involve appropriate authorities and professional help.",
+          "refs": ["Proverbs 18:17", "Matthew 7:3-5", "Colossians 3:12-14"]
+        },
+        {
+          "title": "Depression, anxiety and crisis",
+          "body": "Godly people in Scripture knew deep distress: Elijah prayed to die (1 Kings 19:4); David cried, \"Why art thou cast down, O my soul?\" (Psalm 42:5); Paul despaired of life (2 Corinthians 1:8).\n\nGod cared for Elijah with rest, food, His presence and a new task (1 Kings 19:5-18). Depression and anxiety can have spiritual, emotional, physical and social causes, and are not simply a lack of faith.\n\nTake **talk of suicide or self-harm** seriously: stay with the person, ask directly, help them get urgent medical help, and involve family. Encourage ongoing professional care alongside the church's support and prayer. \"Cast thy burden upon the LORD, and he shall sustain thee\" (Psalm 55:22).",
+          "refs": ["1 Kings 19:3-8", "Psalm 42:5-11", "Psalm 55:22"]
+        },
+        {
+          "title": "Boundaries, confidentiality and referral",
+          "body": "Safe care requires:\n\n- **Confidentiality**: do not gossip about what is shared (Proverbs 11:13). But confidentiality has limits: when someone is at risk of harm, or a child is being abused, you must act and involve appropriate people and authorities.\n- **Boundaries**: meet in suitable places; counsel the opposite sex with another person present or nearby; avoid emotional or physical entanglement; do not create dependence on yourself.\n- **Referral**: know your limits. Refer to doctors, mental-health professionals, lawyers or social services when needed. Moses accepted Jethro's advice to share the load (Exodus 18:17-23).\n- **Self-care**: carers need rest, support and their own walk with God (Mark 6:31).",
+          "refs": ["Proverbs 11:13", "Exodus 18:17-23", "Mark 6:30-32"]
+        }
+      ],
+      "terms": [
+        { "term": "Reconciliation", "def": "Restoring broken relationships through confession and forgiveness." },
+        { "term": "Depression", "def": "A persistent low mood with physical, emotional and spiritual effects." },
+        { "term": "Crisis", "def": "A situation of acute danger or distress needing urgent help." },
+        { "term": "Confidentiality", "def": "Keeping private what is shared in care, within the limits of safety." },
+        { "term": "Boundaries", "def": "Healthy limits that keep care safe for carer and person." },
+        { "term": "Referral", "def": "Directing someone to another helper with suitable skills." }
+      ],
+      "texts": [
+        { "ref": "Proverbs 18:17", "teaches": "The first to state his case seems right until another examines him." },
+        { "ref": "Colossians 3:13", "teaches": "Forgive one another as Christ forgave you." },
+        { "ref": "1 Kings 19:5", "teaches": "An angel touched Elijah and told him to arise and eat." },
+        { "ref": "Proverbs 11:13", "teaches": "A faithful spirit conceals the matter." },
+        { "ref": "Exodus 18:18", "teaches": "The work is too heavy for you; you cannot do it alone." }
+      ],
+      "summary": [
+        "Hear both sides, encourage self-examination and forgiveness.",
+        "In abuse, safety comes first.",
+        "Take depression, anxiety and suicide risk seriously; get help.",
+        "Keep confidentiality within safety limits, keep boundaries, refer and rest."
+      ],
+      "questions": [
+        { "q": "What comes first when there is abuse?", "options": ["Safety", "Immediate reconciliation", "Silence", "Blaming the victim"], "answer": 0 },
+        { "q": "How did God care for Elijah when he wanted to die?", "options": ["Rest, food, His presence and a new task", "Rebuke only", "Ignoring him", "Taking his life"], "answer": 0 },
+        { "q": "When should confidentiality be broken?", "options": ["When someone is at risk of harm or a child is abused", "Never", "Whenever we like", "To share prayer points widely"], "answer": 0 },
+        { "q": "Whose advice did Moses accept about sharing the load?", "options": ["Jethro's", "Aaron's", "Pharaoh's", "Joshua's"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What does Ezekiel 34 teach about good and bad shepherds?", "keywords": [["feed themselves", "cruelty", "bad"], ["seek", "bind", "heal", "strengthen"], ["God", "Lord", "shepherd"]], "model": "Bad shepherds feed themselves and rule harshly; God as Shepherd seeks the lost, binds up the broken and strengthens the sick." },
+      { "q": "Describe active listening.", "keywords": [["attention"], ["interrupt", "advice"], ["reflect", "open questions", "feelings"]], "model": "Giving full attention, not interrupting or rushing to advice, reflecting back and asking open questions, listening for feelings." },
+      { "q": "Outline the process of biblical counselling.", "keywords": [["listen", "understand"], ["heart", "discern"], ["Scripture", "word"], ["response", "plan", "follow up"]], "model": "Listen and understand, discern the heart, bring Scripture, call to response and plan practical steps with follow-up." },
+      { "q": "Give four guidelines for visiting the sick.", "keywords": [["short"], ["listen"], ["Scripture", "pray"], ["promise", "blame", "practical"]], "model": "Keep visits short, listen more than talk, read Scripture and pray, avoid false promises or blame, and offer practical help." },
+      { "q": "How can we help the bereaved?", "keywords": [["present", "listen"], ["cliché", "avoid"], ["practical", "widows", "after the funeral"]], "model": "Be present and listen, avoid clichés, help practically, protect widows and keep visiting after the funeral." },
+      { "q": "Explain confidentiality and its limits.", "keywords": [["gossip", "private", "Proverbs 11:13"], ["risk", "harm", "abuse", "child"], ["act", "authorities", "report"]], "model": "Keep what is shared private, but when someone is at risk or a child is abused, act and involve appropriate authorities." }
+    ],
+    "lists": [
+      { "q": "List five tasks of a good shepherd.", "items": [["know"], ["feed"], ["lead"], ["protect"], ["seek"], ["heal", "bind"]], "need": 5 },
+      { "q": "List three people in the Bible who experienced deep distress.", "items": [["Elijah"], ["David"], ["Job"], ["Jeremiah"], ["Paul"], ["Hannah"]], "need": 3 },
+      { "q": "List four principles of safe care.", "items": [["confidentiality"], ["boundaries"], ["referral", "refer"], ["self-care", "rest"], ["safety"], ["accountability"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "A care visit", "prompt": "Visit someone who is sick, elderly or bereaved (with their permission). Without naming them, describe how you listened, what Scripture you shared, how you prayed, what practical help was needed, and what you learned, using the course passages.", "words": "400–600" },
+    { "title": "A church care plan", "prompt": "Write a pastoral care plan for your church covering visitation, care for the sick and bereaved, a response to crises such as suicide risk or abuse, confidentiality and its limits, and a list of local referral options.", "words": "600–800" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Paul David Tripp, Instruments in the Redeemer's Hands",
+    "Timothy S. Lane and Paul David Tripp, How People Change",
+    "Richard Baxter, The Reformed Pastor"
+  ]
+}

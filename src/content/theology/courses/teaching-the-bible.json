@@ -1,0 +1,241 @@
+{
+  "slug": "teaching-the-bible",
+  "title": "Teaching the Bible",
+  "track": "ministry",
+  "level": "Intermediate",
+  "summary": "How to teach God's Word effectively in Sunday school, Bible study groups and classes: the teacher's calling, how people learn, planning lessons, teaching children, youth and adults, and leading discussion.",
+  "description": "God has given teachers to the church to build up His people. This course is for Sunday school teachers, Bible study leaders, youth workers and parents. It explains the calling and responsibility of teaching, how people learn, how to plan a clear Bible lesson with aims and activities, how to teach different age groups, and how to lead discussion, ask good questions and assess learning.",
+  "objectives": [
+    "Understand the biblical calling and responsibility of teachers",
+    "Apply principles of how people learn",
+    "Plan Bible lessons with clear aims and structure",
+    "Adapt teaching for children, youth and adults",
+    "Lead discussion and assess learning"
+  ],
+  "outcomes": [
+    "Explain James 3:1 and the teacher's responsibility",
+    "Use the Hook-Book-Look-Took lesson plan",
+    "Write clear lesson aims for knowledge, attitude and action",
+    "Teach a Bible story to children with age-appropriate methods",
+    "Ask open questions and lead a group discussion well"
+  ],
+  "modules": [
+    {
+      "title": "Called to Teach",
+      "intro": "Teaching is a gift and a serious responsibility. This week we study the teacher's calling and character.",
+      "lessons": [
+        {
+          "title": "Teaching in Scripture",
+          "body": "God commanded Israel to teach His words to their children \"diligently\" (Deuteronomy 6:7). Ezra taught the law (Ezra 7:10). Jesus was called \"Teacher\" (Rabbi, Master) more than any other title, and \"the people were astonished at his doctrine: For he taught them as one having authority\" (Matthew 7:28-29).\n\nThe Great Commission includes \"teaching them to observe all things\" (Matthew 28:20). Christ gave \"pastors and teachers\" to the church (Ephesians 4:11), and teaching is listed among spiritual gifts (Romans 12:7).\n\nTeaching is how faith is passed from one generation to the next (2 Timothy 2:2; Psalm 78:4-7).",
+          "refs": ["Deuteronomy 6:6-7", "Matthew 7:28-29", "Psalm 78:4-7"]
+        },
+        {
+          "title": "A serious responsibility",
+          "body": "\"My brethren, be not many masters [teachers], knowing that we shall receive the greater condemnation [stricter judgement]\" (James 3:1). Teachers influence how others understand God; false teaching causes great harm (2 Peter 2:1).\n\nThis is not meant to frighten us away, but to make us careful: to study, to teach only what Scripture teaches, and to admit when we do not know.\n\nJesus warned that causing \"one of these little ones which believe in me\" to stumble is very serious (Matthew 18:6). Those who teach children carry a special trust.",
+          "refs": ["James 3:1-2", "2 Peter 2:1-3", "Matthew 18:5-6"]
+        },
+        {
+          "title": "The teacher's character",
+          "body": "Paul told Titus to be \"a pattern of good works: in doctrine shewing uncorruptness, gravity, sincerity, Sound speech\" (Titus 2:7-8). People learn more from who we are than from what we say.\n\nThe Lord's servant must be \"apt to teach, patient, In meekness instructing those that oppose themselves\" (2 Timothy 2:24-25).\n\nGood teachers love their learners (1 Thessalonians 2:8), prepare faithfully, keep learning, pray for each learner by name, and live what they teach. For those working with children and young people, safeguarding matters: never be alone with a child behind closed doors, follow church policies, and report concerns.",
+          "refs": ["Titus 2:7-8", "2 Timothy 2:24-25", "1 Thessalonians 2:7-8"]
+        }
+      ],
+      "terms": [
+        { "term": "Teacher", "def": "One gifted and called to explain God's Word so others understand and obey." },
+        { "term": "Rabbi", "def": "A Jewish teacher; a title often given to Jesus." },
+        { "term": "Gift of teaching", "def": "A Spirit-given ability to explain truth clearly (Romans 12:7)." },
+        { "term": "Stricter judgement", "def": "The greater accountability of teachers (James 3:1)." },
+        { "term": "Pattern of good works", "def": "Being an example that matches one's teaching (Titus 2:7)." },
+        { "term": "Safeguarding", "def": "Practices that protect children and vulnerable people from harm." }
+      ],
+      "texts": [
+        { "ref": "Deuteronomy 6:7", "teaches": "Teach God's words diligently to your children." },
+        { "ref": "Matthew 7:29", "teaches": "Jesus taught as one having authority." },
+        { "ref": "James 3:1", "teaches": "Teachers shall receive a stricter judgement." },
+        { "ref": "Titus 2:7", "teaches": "Be a pattern of good works in doctrine and life." },
+        { "ref": "2 Timothy 2:24", "teaches": "The Lord's servant must be apt to teach and patient." }
+      ],
+      "summary": [
+        "God commands His people to teach His Word across generations.",
+        "Jesus was the master Teacher.",
+        "Teachers carry serious responsibility for what they teach.",
+        "Character, love, preparation and safeguarding are essential."
+      ],
+      "questions": [
+        { "q": "What does James 3:1 warn about teachers?", "options": ["They receive stricter judgement", "They are better than others", "They need no study", "They should be many"], "answer": 0 },
+        { "q": "What title was most often given to Jesus?", "options": ["Teacher", "King", "Priest", "Prophet"], "answer": 0 },
+        { "q": "Which psalm speaks of telling the next generation God's works?", "options": ["Psalm 78", "Psalm 23", "Psalm 1", "Psalm 150"], "answer": 0 },
+        { "q": "Which is a safeguarding practice?", "options": ["Never be alone with a child behind closed doors", "Keep concerns secret", "Ignore church policies", "Teach alone always"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "How People Learn",
+      "intro": "Good teachers understand learners. This week we study principles of learning from Scripture and experience.",
+      "lessons": [
+        {
+          "title": "Jesus the master teacher",
+          "body": "Jesus taught with great variety:\n\n- **Stories**: parables from farming, fishing and family life (Matthew 13).\n- **Questions**: \"Whom say ye that I am?\" (Matthew 16:15). He asked more than 300 questions in the Gospels.\n- **Object lessons**: a child (Matthew 18:2), a coin (22:19), a fig tree (Mark 11:20-21).\n- **Experience**: sending disciples out and debriefing.\n- **Repetition**: key truths repeated in different ways.\n- **Starting where people were**: the Samaritan woman's water jar; Nicodemus's question.\n\nJesus always connected truth to life and called for a response.",
+          "refs": ["Matthew 13:34-35", "Matthew 16:13-17", "Matthew 18:1-4"]
+        },
+        {
+          "title": "Principles of learning",
+          "body": "People learn best when:\n\n- **They are actively involved**: discussing, writing, doing, not just listening.\n- **Truth connects to life**: \"How does this matter for me?\"\n- **Teaching moves from known to unknown**: building on what they already know.\n- **Several senses are used**: hearing, seeing, doing. People remember more of what they do than of what they only hear.\n- **There is repetition and review**: \"precept upon precept; line upon line\" (Isaiah 28:10).\n- **They feel safe and valued**, free to ask questions.\n- **They practise**: obedience deepens understanding (John 7:17).\n\nThe Spirit is the true Teacher (John 14:26). Pray for learners to understand.",
+          "refs": ["Isaiah 28:9-10", "John 7:17", "John 14:26"]
+        },
+        {
+          "title": "Different learners",
+          "body": "Learners differ. Some prefer listening, some reading, some discussion, some hands-on activity. Some think quickly; others need time. Some read easily; others are not literate.\n\nPaul adapted to his hearers (1 Corinthians 9:22). Teachers should vary methods: stories, questions, pictures, drama, songs, memory work, small-group tasks.\n\nIn many Nigerian churches, classes include people with very different levels of education. Use simple language, oral methods such as storytelling and repetition, and pair stronger readers with others. Never shame anyone for not knowing. \"Knowledge puffeth up, but charity edifieth\" (1 Corinthians 8:1).",
+          "refs": ["1 Corinthians 9:19-22", "1 Corinthians 8:1", "Romans 15:1-2"]
+        }
+      ],
+      "terms": [
+        { "term": "Parable", "def": "A story from ordinary life that teaches a spiritual truth." },
+        { "term": "Object lesson", "def": "Teaching using a physical object to illustrate truth." },
+        { "term": "Active learning", "def": "Learning by participating, not only listening." },
+        { "term": "Known to unknown", "def": "Building new learning on what learners already understand." },
+        { "term": "Review", "def": "Repeating key truths to help them stick." },
+        { "term": "Oral learning", "def": "Learning through hearing, telling, repeating and memorising, especially for non-readers." }
+      ],
+      "texts": [
+        { "ref": "Matthew 13:34", "teaches": "Jesus spoke to the multitudes in parables." },
+        { "ref": "Matthew 16:15", "teaches": "Jesus asked, But whom say ye that I am?" },
+        { "ref": "Isaiah 28:10", "teaches": "Precept upon precept, line upon line." },
+        { "ref": "John 7:17", "teaches": "If any man will do His will, he shall know of the doctrine." },
+        { "ref": "John 14:26", "teaches": "The Holy Ghost shall teach you all things." }
+      ],
+      "summary": [
+        "Jesus taught with stories, questions, objects and experience.",
+        "People learn by involvement, connection to life and repetition.",
+        "Use several senses and create a safe environment.",
+        "Adapt to different learners, including non-readers."
+      ],
+      "questions": [
+        { "q": "Which teaching method did Jesus use often?", "options": ["Parables", "Lectures only", "Written tests", "Slides"], "answer": 0 },
+        { "q": "What does 'known to unknown' mean?", "options": ["Building new learning on what learners know", "Teaching only new things", "Avoiding questions", "Memorising only"], "answer": 0 },
+        { "q": "Who is the true Teacher, according to John 14:26?", "options": ["The Holy Spirit", "The pastor", "The textbook", "The learner"], "answer": 0 },
+        { "q": "How should teachers treat learners who do not know answers?", "options": ["Never shame them", "Mock them", "Send them out", "Ignore them"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Planning a Bible Lesson",
+      "intro": "A well-planned lesson helps learners understand and obey. This week we learn to set aims and structure a lesson.",
+      "lessons": [
+        {
+          "title": "Setting aims",
+          "body": "Begin with the Bible passage and its main point (study it as in the preaching course: observe, interpret, apply). Then set **aims** for your learners:\n\n- **Know**: What should they understand? (e.g. \"Learners will explain why David trusted God against Goliath.\")\n- **Feel**: What attitude should grow? (e.g. \"Learners will feel confident that God is with them in fear.\")\n- **Do**: What should they do? (e.g. \"Learners will pray about one fear this week.\")\n\nClear aims keep the lesson focused and show what to assess. Ask: \"If they remember one thing, what should it be?\"",
+          "refs": ["1 Samuel 17:45-47", "Colossians 1:9-10", "Joshua 1:8"]
+        },
+        {
+          "title": "Hook, Book, Look, Took",
+          "body": "A simple lesson structure:\n\n1. **Hook**: catch attention and raise the need, with a question, story, picture or activity connected to life.\n2. **Book**: study the Bible passage: read it, tell it, explain it, ask questions about it.\n3. **Look**: look at the general truth and how it applies to life today.\n4. **Took**: help each learner decide what they will take away and do this week.\n\nThis follows Jesus' pattern of connecting to life, teaching truth and calling for response. Plan the time for each part, and end with prayer.",
+          "refs": ["Luke 10:25-37", "Acts 8:30-35", "James 1:22"]
+        },
+        {
+          "title": "Methods and materials",
+          "body": "Choose methods that fit your aims and learners:\n\n- **Storytelling**: tell Bible stories vividly, especially for children and oral learners.\n- **Questions and discussion**: for youth and adults.\n- **Drama and role-play**: act out a story or a life situation.\n- **Visual aids**: maps, pictures, objects, a chalkboard or flip chart.\n- **Memory verses** and songs.\n- **Small-group tasks**: groups study different parts of a passage and report back.\n- **Crafts and games** for children, always connected to the lesson.\n\nUse low-cost local materials. A good teacher with a Bible and a story can teach anywhere.",
+          "refs": ["Nehemiah 8:7-8", "Ezekiel 4:1-3", "Colossians 3:16"]
+        }
+      ],
+      "terms": [
+        { "term": "Lesson aim", "def": "A clear statement of what learners should know, feel or do." },
+        { "term": "Hook", "def": "The opening that gains attention and connects to learners' lives." },
+        { "term": "Book", "def": "The part of the lesson studying the Bible passage." },
+        { "term": "Look", "def": "Drawing out the truth and its meaning for today." },
+        { "term": "Took", "def": "Each learner's personal response to take away." },
+        { "term": "Visual aid", "def": "Something learners can see that helps them understand." }
+      ],
+      "texts": [
+        { "ref": "Colossians 1:9", "teaches": "Paul prayed they would be filled with knowledge of God's will." },
+        { "ref": "Acts 8:30", "teaches": "Philip asked, Understandest thou what thou readest?" },
+        { "ref": "Luke 10:37", "teaches": "Go, and do thou likewise." },
+        { "ref": "James 1:22", "teaches": "Be doers of the word, and not hearers only." },
+        { "ref": "Colossians 3:16", "teaches": "Teach and admonish one another in psalms and hymns." }
+      ],
+      "summary": [
+        "Start from the passage's main point.",
+        "Set aims for knowing, feeling and doing.",
+        "Structure lessons as Hook, Book, Look, Took.",
+        "Choose varied, low-cost methods that fit aims and learners."
+      ],
+      "questions": [
+        { "q": "What are the three kinds of lesson aims?", "options": ["Know, feel, do", "Read, write, count", "Sing, pray, give", "Start, middle, end"], "answer": 0 },
+        { "q": "What is the 'Hook' in a lesson?", "options": ["An opening that gains attention", "The closing prayer", "The offering", "The memory verse"], "answer": 0 },
+        { "q": "What did Philip ask the Ethiopian?", "options": ["Understandest thou what thou readest?", "Where are you going?", "Who is your king?", "Are you hungry?"], "answer": 0 },
+        { "q": "What is the 'Took'?", "options": ["Each learner's personal response", "The Bible reading", "The attendance list", "The snack time"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Teaching Different Ages",
+      "intro": "Children, young people and adults learn differently. This week we study each group and how to lead discussion.",
+      "lessons": [
+        {
+          "title": "Teaching children",
+          "body": "Jesus welcomed children: \"Suffer little children, and forbid them not, to come unto me\" (Matthew 19:14). Timothy knew the Scriptures \"from a child\" (2 Timothy 3:15).\n\nChildren learn best through stories, repetition, songs, movement and concrete objects. Their attention span is short, so change activity often.\n\nTips: tell Bible stories as true history; focus on one main truth; use simple words; let children act and respond; teach memory verses; love them and know their names. Present the gospel simply and clearly, but never pressure children to make decisions to please the teacher. Partner with parents, who are children's main teachers (Deuteronomy 6:7).",
+          "refs": ["Matthew 19:13-15", "2 Timothy 3:14-15", "Deuteronomy 6:6-9"]
+        },
+        {
+          "title": "Teaching youth and adults",
+          "body": "**Teenagers** are asking big questions about identity, purpose, relationships and doubt. They need honest answers, discussion, and adults who listen. Daniel and his friends stood firm as young men (Daniel 1:8); Paul told Timothy, \"Let no man despise thy youth; but be thou an example\" (1 Timothy 4:12). Involve them in serving.\n\n**Adults** bring experience and want teaching that is relevant and practical. They learn well through discussion, case studies and connecting Scripture to work, family and society. Respect their experience; let them teach one another (Titus 2:3-5).\n\nAll ages need the same gospel, taught at their level.",
+          "refs": ["1 Timothy 4:12", "Daniel 1:8", "Titus 2:1-8"]
+        },
+        {
+          "title": "Leading discussion and assessing learning",
+          "body": "Good questions open discussion:\n\n- **Observation**: What happened? Who said what?\n- **Interpretation**: Why did he say that? What does this teach about God?\n- **Application**: How does this apply to us? What will you do?\n\nAsk **open questions** (not yes/no), wait for answers, affirm contributions, gently correct errors, and keep the group on the passage. Do not let one person dominate.\n\nAssess learning by asking learners to retell the story, explain the main point, recite memory verses, or report back next week on what they did. The goal is not just knowledge but changed lives: \"the end of the commandment is charity out of a pure heart\" (1 Timothy 1:5).",
+          "refs": ["Luke 24:17-19", "Acts 17:2-3", "1 Timothy 1:5"]
+        }
+      ],
+      "terms": [
+        { "term": "Attention span", "def": "How long a learner can focus, shorter for young children." },
+        { "term": "Open question", "def": "A question that cannot be answered with yes or no." },
+        { "term": "Observation question", "def": "A question about what the text says." },
+        { "term": "Interpretation question", "def": "A question about what the text means." },
+        { "term": "Application question", "def": "A question about how the text applies to life." },
+        { "term": "Assessment", "def": "Checking whether learners have understood and applied the lesson." }
+      ],
+      "texts": [
+        { "ref": "Matthew 19:14", "teaches": "Suffer little children to come unto me." },
+        { "ref": "2 Timothy 3:15", "teaches": "From a child Timothy knew the holy Scriptures." },
+        { "ref": "1 Timothy 4:12", "teaches": "Let no man despise thy youth; be an example." },
+        { "ref": "Titus 2:4", "teaches": "Older women should teach the younger women." },
+        { "ref": "1 Timothy 1:5", "teaches": "The goal of the commandment is love out of a pure heart." }
+      ],
+      "summary": [
+        "Children learn through stories, repetition and activity; partner with parents.",
+        "Youth need honest answers and adults who listen.",
+        "Adults learn through discussion and practical application.",
+        "Ask observation, interpretation and application questions; assess for changed lives."
+      ],
+      "questions": [
+        { "q": "What did Jesus say about little children?", "options": ["Suffer them to come unto me", "Send them away", "They cannot understand", "They should be silent"], "answer": 0 },
+        { "q": "What kind of question opens discussion best?", "options": ["Open questions", "Yes/no questions", "Trick questions", "No questions"], "answer": 0 },
+        { "q": "Who are children's main teachers, according to Deuteronomy 6?", "options": ["Parents", "Only pastors", "Only schools", "Neighbours"], "answer": 0 },
+        { "q": "What is the goal of teaching, according to 1 Timothy 1:5?", "options": ["Love out of a pure heart", "Winning arguments", "Many certificates", "Large classes"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Why is teaching a serious responsibility?", "keywords": [["stricter", "judgement", "condemnation", "James 3:1"], ["influence", "false teaching", "harm"], ["children", "little ones", "stumble"]], "model": "Teachers face stricter judgement (James 3:1) because they shape how others understand God; false teaching harms, especially children." },
+      { "q": "Name four teaching methods Jesus used.", "keywords": [["parables", "stories"], ["questions"], ["object", "child", "coin"], ["experience", "sent", "repetition"]], "model": "Parables, questions, object lessons and practical experience." },
+      { "q": "Give three principles of how people learn.", "keywords": [["involved", "active"], ["life", "connect", "relevant"], ["repetition", "review", "senses", "known to unknown", "safe"]], "model": "People learn when actively involved, when truth connects to life, and through repetition and several senses." },
+      { "q": "Explain the Hook, Book, Look, Took structure.", "keywords": [["hook", "attention"], ["book", "Bible", "passage"], ["look", "truth", "today"], ["took", "response", "do"]], "model": "Hook gains attention; Book studies the passage; Look draws out the truth for today; Took is each learner's response." },
+      { "q": "How should we teach children?", "keywords": [["stories", "songs", "activity", "repetition"], ["one truth", "simple"], ["parents", "no pressure", "love"]], "model": "Through stories, songs and activities, focusing on one simple truth, loving them, avoiding pressure, and partnering with parents." },
+      { "q": "Give an example of observation, interpretation and application questions.", "keywords": [["what happened", "observation"], ["why", "mean", "interpretation"], ["apply", "do", "application"]], "model": "Observation: What happened? Interpretation: What does this teach about God? Application: What will you do this week?" }
+    ],
+    "lists": [
+      { "q": "List the four parts of a Hook-Book-Look-Took lesson.", "items": [["hook"], ["book"], ["look"], ["took"]], "need": 4 },
+      { "q": "List five teaching methods.", "items": [["story", "storytelling"], ["question", "discussion"], ["drama", "role-play"], ["visual", "pictures", "maps"], ["memory verse"], ["songs"], ["small groups"], ["crafts", "games"]], "need": 5 },
+      { "q": "List three kinds of discussion question.", "items": [["observation"], ["interpretation"], ["application"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "A full lesson plan", "prompt": "Write a complete Bible lesson plan for a class of your choice (children, youth or adults). Include the passage, main point, know-feel-do aims, Hook-Book-Look-Took sections with timings, methods, questions, and how you will assess learning.", "words": "600–900" },
+    { "title": "Reflecting on teaching", "prompt": "Teach your lesson (or observe a teacher). Reflect on what worked, how learners responded, and what you would change, using the principles of this course.", "words": "400–600" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Howard G. Hendricks, Teaching to Change Lives",
+    "Lawrence O. Richards and Gary J. Bredfeldt, Creative Bible Teaching",
+    "Bruce Wilkinson, The Seven Laws of the Learner"
+  ]
+}

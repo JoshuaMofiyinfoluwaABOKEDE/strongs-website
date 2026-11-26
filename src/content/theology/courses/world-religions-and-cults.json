@@ -1,0 +1,241 @@
+{
+  "slug": "world-religions-and-cults",
+  "title": "World Religions and Cults",
+  "track": "ministry",
+  "level": "Advanced",
+  "summary": "Understanding the beliefs of neighbours of other faiths and of groups that depart from biblical Christianity, so that believers can stand firm and witness with knowledge and love.",
+  "description": "Nigerian Christians live among Muslims, followers of African Traditional Religion, and many religious movements. This course explains how to study other beliefs fairly, describes African Traditional Religion and Islam accurately and respectfully, sets out the marks of a cult, examines groups such as Jehovah's Witnesses, the Latter-day Saints and several movements active in Nigeria, and equips believers to respond with truth, grace and the gospel.",
+  "objectives": [
+    "Approach other religions fairly, accurately and lovingly",
+    "Understand African Traditional Religion and the gospel's answer",
+    "Understand the main beliefs of Islam and how they compare with Christianity",
+    "Identify the marks of a cult and examine major groups",
+    "Witness wisely to people of other faiths and movements"
+  ],
+  "outcomes": [
+    "Describe the main features of African Traditional Religion",
+    "Explain the five pillars of Islam and Islamic views of Jesus",
+    "Name marks that distinguish cults from biblical Christianity",
+    "Compare Jehovah's Witness and Latter-day Saint teaching with Scripture",
+    "Share the gospel respectfully across religious lines"
+  ],
+  "modules": [
+    {
+      "title": "Studying Other Faiths; African Traditional Religion",
+      "intro": "This week we learn how to approach other religions and study African Traditional Religion.",
+      "lessons": [
+        {
+          "title": "How to study other religions",
+          "body": "We study other beliefs to understand our neighbours, to witness wisely, and to guard against error (1 John 4:1).\n\nGood principles:\n\n- **Be accurate**: describe beliefs as their followers would, using reliable sources. \"Thou shalt not bear false witness\" (Exodus 20:16) applies here too.\n- **Be respectful**: \"Honour all men\" (1 Peter 2:17). Avoid mockery.\n- **Know your own faith well**: the best defence against counterfeits is knowing the real thing.\n- **Find bridges**: Paul began with what the Athenians already sensed (Acts 17:23).\n- **Point to Christ**: the aim is not winning debates but introducing people to Jesus.",
+          "refs": ["1 John 4:1-3", "1 Peter 2:17", "Acts 17:22-23"]
+        },
+        {
+          "title": "African Traditional Religion",
+          "body": "**African Traditional Religion** (ATR) varies across peoples but often includes:\n\n- Belief in a **Supreme God** (such as Olodumare among the Yoruba, Chukwu among the Igbo), often seen as distant.\n- **Divinities and spirits** (such as orisa), approached through priests and shrines.\n- **Ancestors**, believed to influence the living and honoured through rituals.\n- **Divination** (such as Ifa) to discover hidden causes and guidance.\n- **Charms, medicine and sacrifices** for protection and power.\n- A strong sense of **community** and moral order.\n\nMany Nigerian Christians and Muslims also retain ATR practices alongside their faith.",
+          "refs": ["Acts 14:15-17", "Acts 17:24-28", "Romans 1:19-23"]
+        },
+        {
+          "title": "The gospel and ATR",
+          "body": "The gospel affirms ATR's sense of a Supreme Creator, the reality of the spirit world, and the value of community. Paul told pagans that God \"left not himself without witness\" (Acts 14:17).\n\nBut it also corrects: God is not distant but has come near in Jesus (John 1:14); we need no lesser intermediaries, \"For there is one God, and one mediator between God and men, the man Christ Jesus\" (1 Timothy 2:5); Christ has defeated the spirits (Colossians 2:15); and divination and consulting the dead are forbidden (Deuteronomy 18:10-12).\n\nThe gospel answers ATR's deep fears with the peace of belonging to a Father who rules all powers.",
+          "refs": ["1 Timothy 2:5", "Colossians 2:13-15", "Deuteronomy 18:10-14"]
+        }
+      ],
+      "terms": [
+        { "term": "African Traditional Religion", "def": "The indigenous religious beliefs and practices of African peoples." },
+        { "term": "Supreme God", "def": "The high God of ATR, such as Olodumare or Chukwu, often seen as distant." },
+        { "term": "Divinities", "def": "Lesser spiritual beings in ATR, such as the orisa." },
+        { "term": "Ancestors", "def": "Departed family members believed in ATR to influence the living." },
+        { "term": "Divination", "def": "Seeking hidden knowledge or guidance through spiritual means, forbidden in Scripture." },
+        { "term": "Bridge", "def": "A shared belief or concern used to begin gospel conversation." }
+      ],
+      "texts": [
+        { "ref": "1 John 4:1", "teaches": "Try the spirits whether they are of God." },
+        { "ref": "Acts 14:17", "teaches": "God left not Himself without witness." },
+        { "ref": "1 Timothy 2:5", "teaches": "There is one mediator between God and men, Christ Jesus." },
+        { "ref": "Colossians 2:15", "teaches": "Christ spoiled principalities and powers." },
+        { "ref": "Deuteronomy 18:10", "teaches": "There shall not be found among you a diviner." }
+      ],
+      "summary": [
+        "Study other faiths accurately, respectfully and with knowledge of your own.",
+        "ATR includes a Supreme God, divinities, ancestors, divination and charms.",
+        "The gospel affirms ATR's sense of God and the spirit world.",
+        "It corrects it: God has come near in Christ, the one Mediator, who has defeated the spirits."
+      ],
+      "questions": [
+        { "q": "What is the Yoruba name for the Supreme God in ATR?", "options": ["Olodumare", "Chukwu", "Allah", "Orisa"], "answer": 0 },
+        { "q": "What does 1 Timothy 2:5 teach?", "options": ["There is one mediator, Christ Jesus", "Many mediators exist", "Ancestors mediate", "No mediator is needed"], "answer": 0 },
+        { "q": "What does Deuteronomy 18 forbid?", "options": ["Divination and consulting the dead", "Prayer", "Farming", "Marriage"], "answer": 0 },
+        { "q": "Which is a good principle for studying other religions?", "options": ["Describe beliefs accurately", "Mock them", "Avoid learning about them", "Assume the worst"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Islam",
+      "intro": "Islam is the faith of many Nigerians. This week we study its history, beliefs and practices, and compare them with Christianity.",
+      "lessons": [
+        {
+          "title": "Origins and spread",
+          "body": "Islam began in Arabia with **Muhammad** (about AD 570-632), who Muslims believe received revelations from God through the angel Gabriel, recorded in the **Qur'an**. Islam means 'submission' to God, and a Muslim is 'one who submits'.\n\nIslam spread rapidly across the Middle East and North Africa. It reached the Kanem-Bornu empire around the eleventh century and spread through trade to the Hausa states. In 1804 **Usman dan Fodio** led a jihad that founded the **Sokoto Caliphate**, which shaped northern Nigeria.\n\nMuslims are divided mainly into **Sunni** (the majority, including most Nigerian Muslims) and **Shia**, with various other movements.",
+          "refs": ["Genesis 16:11-12", "Genesis 21:17-21", "Acts 2:11"]
+        },
+        {
+          "title": "Beliefs and practices",
+          "body": "Core Muslim beliefs include: one God (Allah) who has no partner; angels; prophets from Adam to Muhammad, the last; holy books (Torah, Psalms, Gospel and Qur'an); the Day of Judgement; and God's decree.\n\nThe **five pillars** of practice are:\n\n1. **Shahada**: confession that there is no god but God and Muhammad is His messenger.\n2. **Salat**: prayer five times daily.\n3. **Zakat**: giving to the poor.\n4. **Sawm**: fasting in the month of Ramadan.\n5. **Hajj**: pilgrimage to Mecca if able.\n\nMany Muslims are sincere and devout. Christians should respect their seriousness about God while sharing the gospel.",
+          "refs": ["Romans 10:1-4", "Deuteronomy 6:4", "Matthew 6:1-7"]
+        },
+        {
+          "title": "Jesus in Islam and in the Bible",
+          "body": "The Qur'an honours Jesus (Isa) as a great prophet, born of the virgin Mary, a worker of miracles and the Messiah. But it denies that He is the Son of God, denies the Trinity, and (in most interpretations) denies that He died on the cross, teaching that He was taken up to God.\n\nThe Bible teaches that Jesus is the eternal Son (John 1:1, 14), that He truly died for our sins (1 Corinthians 15:3), and that He rose again. Salvation is God's free gift through Christ, not earned by good deeds outweighing bad (Ephesians 2:8-9).\n\nBridges for conversation: shared respect for Jesus, Abraham and prayer; the question of assurance of salvation (1 John 5:13); and reading the Gospels together.",
+          "refs": ["John 1:1-14", "1 Corinthians 15:3-4", "1 John 5:11-13"]
+        }
+      ],
+      "terms": [
+        { "term": "Islam", "def": "Arabic for submission: the religion founded through Muhammad." },
+        { "term": "Qur'an", "def": "The holy book of Islam." },
+        { "term": "Five pillars", "def": "Islam's five core practices: shahada, salat, zakat, sawm and hajj." },
+        { "term": "Isa", "def": "The Qur'anic name for Jesus." },
+        { "term": "Sokoto Caliphate", "def": "The Islamic state founded after Usman dan Fodio's jihad of 1804." },
+        { "term": "Sunni and Shia", "def": "The two main branches of Islam." }
+      ],
+      "texts": [
+        { "ref": "Deuteronomy 6:4", "teaches": "The LORD our God is one LORD." },
+        { "ref": "John 1:14", "teaches": "The Word was made flesh and dwelt among us." },
+        { "ref": "1 Corinthians 15:3", "teaches": "Christ died for our sins according to the scriptures." },
+        { "ref": "Ephesians 2:8", "teaches": "By grace are ye saved through faith, not of works." },
+        { "ref": "1 John 5:13", "teaches": "You may know that you have eternal life." }
+      ],
+      "summary": [
+        "Islam began with Muhammad in Arabia; the Qur'an is its holy book.",
+        "Islam reached northern Nigeria through Kanem-Bornu, trade and the Sokoto Caliphate.",
+        "Muslims practise the five pillars and believe in one God.",
+        "Islam honours Jesus as prophet but denies His deity and death; the Bible proclaims both."
+      ],
+      "questions": [
+        { "q": "What does 'Islam' mean?", "options": ["Submission", "Peace only", "Prayer", "Book"], "answer": 0 },
+        { "q": "Which is one of the five pillars?", "options": ["Fasting in Ramadan", "Baptism", "The Lord's Supper", "Tithing"], "answer": 0 },
+        { "q": "Who led the jihad that founded the Sokoto Caliphate?", "options": ["Usman dan Fodio", "Muhammad", "Mansa Musa", "Ahmadu Bello"], "answer": 0 },
+        { "q": "What does the Qur'an deny about Jesus?", "options": ["That He is the Son of God", "That He was a prophet", "That He did miracles", "That He was born of Mary"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Recognising Cults",
+      "intro": "Some groups use Christian words but deny core truths. This week we learn the marks of a cult and study two major groups.",
+      "lessons": [
+        {
+          "title": "Marks of a cult",
+          "body": "A **cult**, in the theological sense, is a group that claims to be Christian or biblical but denies essential Christian doctrines. Common marks:\n\n- **Another Jesus**: denying His full deity or humanity (2 Corinthians 11:4; 1 John 4:2-3).\n- **Another gospel**: salvation by works or membership (Galatians 1:6-9).\n- **Extra-biblical authority**: new books, prophets or leaders placed above Scripture.\n- **Denial of the Trinity**.\n- **Exclusive claims**: only the group's members will be saved.\n- **Control**: demanding total obedience to leaders, isolating members from family.\n\nJesus warned, \"Beware of false prophets... Ye shall know them by their fruits\" (Matthew 7:15-16).",
+          "refs": ["2 Corinthians 11:3-4", "Galatians 1:6-9", "Matthew 7:15-20"]
+        },
+        {
+          "title": "Jehovah's Witnesses",
+          "body": "The **Jehovah's Witnesses** arose from the Bible Student movement of **Charles Taze Russell** in the 1870s in the USA. They are directed by the Watch Tower Society.\n\nKey teachings: there is no Trinity; Jesus is God's first creation, identified with Michael the archangel; the Holy Spirit is God's active force; only 144,000 go to heaven, while others may live on a paradise earth; no hell; blood transfusions are forbidden. Their New World Translation renders John 1:1 as \"the Word was a god\".\n\nScripture teaches Christ's full deity: \"the Word was God\" (John 1:1); Thomas called Him \"My Lord and my God\" (John 20:28); He is \"the true God, and eternal life\" (1 John 5:20).",
+          "refs": ["John 1:1-3", "John 20:28", "Hebrews 1:6-8"]
+        },
+        {
+          "title": "The Latter-day Saints (Mormons)",
+          "body": "The **Church of Jesus Christ of Latter-day Saints** was founded by **Joseph Smith** in the USA in 1830. Smith claimed an angel led him to golden plates, which he translated as the **Book of Mormon**. Other authoritative writings include *Doctrine and Covenants* and *The Pearl of Great Price*.\n\nKey teachings: the Father has a body of flesh and bones; humans existed before birth as spirit children; faithful members may be exalted to godhood; the church was restored through Smith after a great apostasy.\n\nScripture teaches there is one eternal God: \"before me there was no God formed, neither shall there be after me\" (Isaiah 43:10). God is spirit (John 4:24), and the faith was \"once delivered unto the saints\" (Jude 3), needing no new revelation.",
+          "refs": ["Isaiah 43:10-11", "John 4:24", "Jude 3"]
+        }
+      ],
+      "terms": [
+        { "term": "Cult", "def": "A group claiming to be Christian that denies essential Christian doctrines." },
+        { "term": "Another Jesus", "def": "A distorted view of Christ that denies His true deity or humanity (2 Corinthians 11:4)." },
+        { "term": "Extra-biblical authority", "def": "A book, prophet or leader placed above or beside Scripture." },
+        { "term": "Watch Tower Society", "def": "The organisation directing the Jehovah's Witnesses." },
+        { "term": "Book of Mormon", "def": "A book Joseph Smith published in 1830, treated as scripture by Latter-day Saints." },
+        { "term": "Exaltation", "def": "The Latter-day Saint teaching that faithful members may become gods." }
+      ],
+      "texts": [
+        { "ref": "Galatians 1:8", "teaches": "Any other gospel is accursed." },
+        { "ref": "Matthew 7:15", "teaches": "Beware of false prophets in sheep's clothing." },
+        { "ref": "John 1:1", "teaches": "The Word was God." },
+        { "ref": "John 20:28", "teaches": "Thomas said to Jesus, My Lord and my God." },
+        { "ref": "Isaiah 43:10", "teaches": "Before me there was no God formed, neither after me." }
+      ],
+      "summary": [
+        "Cults deny essential doctrines while using Christian language.",
+        "Marks include another Jesus, another gospel, extra authority and control.",
+        "Jehovah's Witnesses deny the Trinity and Christ's deity.",
+        "Latter-day Saints add scriptures and teach that humans may become gods."
+      ],
+      "questions": [
+        { "q": "Who founded the movement that became the Jehovah's Witnesses?", "options": ["Charles Taze Russell", "Joseph Smith", "Mary Baker Eddy", "Paul Twitchell"], "answer": 0 },
+        { "q": "How does the New World Translation render John 1:1?", "options": ["The Word was a god", "The Word was God", "The Word was flesh", "The Word was light"], "answer": 0 },
+        { "q": "Who founded the Latter-day Saints?", "options": ["Joseph Smith", "Charles Russell", "Ellen White", "John Wesley"], "answer": 0 },
+        { "q": "Which is a mark of a cult?", "options": ["Placing another authority above Scripture", "Believing the Trinity", "Preaching grace", "Loving neighbours"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Movements in Nigeria and Our Response",
+      "intro": "Several religious movements are active in Nigeria. This week we study some of them, the New Age, and how to respond.",
+      "lessons": [
+        {
+          "title": "Movements active in Nigeria",
+          "body": "Several groups with significant Nigerian followings depart from biblical faith:\n\n- **Brotherhood of the Cross and Star**, founded in Calabar by Olumba Olumba Obu, whom many members regard as divine.\n- **The Grail Movement**, based on *The Grail Message* by Oskar Ernst Bernhardt (Abd-ru-shin), teaching reincarnation and spiritual laws.\n- **Eckankar**, founded by Paul Twitchell in the USA in 1965, teaching soul travel and reincarnation.\n- **Secret societies** such as the Rosicrucian Order (AMORC) and lodges that demand secret oaths.\n\nTest each by Scripture: Jesus alone is Lord and Saviour (Acts 4:12); there is no reincarnation, for \"it is appointed unto men once to die, but after this the judgment\" (Hebrews 9:27).",
+          "refs": ["Acts 4:12", "Hebrews 9:27", "Matthew 24:23-26"]
+        },
+        {
+          "title": "New Age and false teaching within churches",
+          "body": "The **New Age** movement blends Eastern religion, occult practices and self-help: everyone is divine, all paths lead to God, and spiritual power comes through techniques, crystals or energies. Scripture warns against those who \"changed the truth of God into a lie, and worshipped and served the creature more than the Creator\" (Romans 1:25).\n\nDanger also comes from **within** churches: leaders who claim new revelation above Scripture, sell anointing, demand unquestioning obedience, or teach that Christ's work is not enough. \"There shall be false teachers among you\" (2 Peter 2:1).\n\nThe Bereans' practice is the safeguard: they \"searched the scriptures daily, whether those things were so\" (Acts 17:11).",
+          "refs": ["Romans 1:22-25", "2 Peter 2:1-3", "Acts 17:11"]
+        },
+        {
+          "title": "Responding with truth and love",
+          "body": "When meeting people of other faiths or movements:\n\n- **Pray** for them; spiritual blindness is real (2 Corinthians 4:4).\n- **Build relationships**: many come to Christ through a Christian friend.\n- **Ask questions** and listen; understand what they believe.\n- **Focus on Jesus**: who He is and what He has done, rather than side issues.\n- **Use Scripture** gently and clearly.\n- **Share your testimony** and the assurance of salvation in Christ.\n- **Be patient** and never coercive.\n- **Protect the flock**: teach believers sound doctrine so they are not \"carried about with every wind of doctrine\" (Ephesians 4:14).\n\n\"Speaking the truth in love\" (Ephesians 4:15).",
+          "refs": ["2 Corinthians 4:3-6", "Ephesians 4:11-15", "2 Timothy 2:24-26"]
+        }
+      ],
+      "terms": [
+        { "term": "Brotherhood of the Cross and Star", "def": "A movement founded in Calabar by Olumba Olumba Obu." },
+        { "term": "Grail Movement", "def": "A movement based on The Grail Message by Oskar Ernst Bernhardt, teaching reincarnation." },
+        { "term": "Eckankar", "def": "A movement founded by Paul Twitchell (1965) teaching soul travel and reincarnation." },
+        { "term": "Reincarnation", "def": "The belief that souls are reborn in new bodies, contrary to Hebrews 9:27." },
+        { "term": "New Age", "def": "A blend of Eastern religion, occultism and self-help teaching that all are divine." },
+        { "term": "Secret society", "def": "A group bound by secret oaths and rituals, which Christians should avoid." }
+      ],
+      "texts": [
+        { "ref": "Acts 4:12", "teaches": "There is salvation in no other name." },
+        { "ref": "Hebrews 9:27", "teaches": "Men die once, and after this the judgment." },
+        { "ref": "Romans 1:25", "teaches": "They changed the truth of God into a lie and worshipped the creature." },
+        { "ref": "2 Peter 2:1", "teaches": "There shall be false teachers among you." },
+        { "ref": "Ephesians 4:14", "teaches": "Be no more carried about with every wind of doctrine." }
+      ],
+      "summary": [
+        "Several movements in Nigeria depart from biblical faith; test them by Scripture.",
+        "Scripture rejects reincarnation and any saviour besides Christ.",
+        "Beware of New Age ideas and false teaching within churches.",
+        "Respond with prayer, relationship, questions, Christ-centred witness and patience."
+      ],
+      "questions": [
+        { "q": "Who founded Eckankar?", "options": ["Paul Twitchell", "Olumba Olumba Obu", "Joseph Smith", "Charles Russell"], "answer": 0 },
+        { "q": "Which verse contradicts reincarnation?", "options": ["Hebrews 9:27", "John 3:16", "Genesis 1:1", "Psalm 23:1"], "answer": 0 },
+        { "q": "What did the Bereans do?", "options": ["Searched the Scriptures daily", "Accepted every teaching", "Rejected Paul", "Joined a secret society"], "answer": 0 },
+        { "q": "Where should witness to other faiths focus?", "options": ["On Jesus, who He is and what He did", "On winning arguments", "On side issues", "On politics"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Give three principles for studying other religions.", "keywords": [["accurate", "accurately", "false witness"], ["respect", "honour"], ["know your own", "bridge", "Christ"]], "model": "Describe beliefs accurately, treat followers with respect, know your own faith, find bridges and point to Christ." },
+      { "q": "How does the gospel both affirm and correct African Traditional Religion?", "keywords": [["Supreme", "Creator", "spirit world", "affirm"], ["mediator", "Christ", "near"], ["divination", "ancestors", "spirits defeated", "forbid"]], "model": "It affirms a Supreme Creator and the reality of the spirit world, but shows God has come near in Christ, the one Mediator, who defeated the spirits; divination and consulting the dead are forbidden." },
+      { "q": "Name the five pillars of Islam.", "keywords": [["shahada", "confession"], ["salat", "prayer"], ["zakat", "giving"], ["sawm", "fasting", "Ramadan"], ["hajj", "pilgrimage"]], "model": "Shahada (confession), salat (prayer), zakat (giving), sawm (fasting in Ramadan) and hajj (pilgrimage)." },
+      { "q": "Compare the Islamic and biblical views of Jesus.", "keywords": [["prophet", "virgin", "Messiah"], ["deny", "Son of God", "cross", "died"], ["Son", "died for our sins", "rose"]], "model": "Islam honours Jesus as a prophet born of a virgin but denies He is God's Son and that He died on the cross; the Bible teaches He is the eternal Son who died for our sins and rose." },
+      { "q": "Name four marks of a cult.", "keywords": [["another Jesus", "deity"], ["another gospel", "works"], ["authority", "new books", "prophet"], ["Trinity", "exclusive", "control"]], "model": "Another Jesus, another gospel, extra-biblical authority, and denial of the Trinity or controlling exclusivity." },
+      { "q": "How do Jehovah's Witnesses view Jesus, and how does Scripture answer?", "keywords": [["created", "Michael", "a god"], ["John 1:1", "John 20:28", "Word was God"], ["deity", "true God"]], "model": "They teach Jesus is God's first creation, Michael the archangel; Scripture says the Word was God (John 1:1) and Thomas called Him 'My Lord and my God' (John 20:28)." }
+    ],
+    "lists": [
+      { "q": "List four features of African Traditional Religion.", "items": [["Supreme God", "Olodumare", "Chukwu"], ["divinities", "orisa", "spirits"], ["ancestors"], ["divination", "Ifa"], ["charms", "medicine"], ["sacrifices"], ["community"]], "need": 4 },
+      { "q": "List the five pillars of Islam.", "items": [["shahada", "confession"], ["salat", "prayer"], ["zakat", "almsgiving", "giving"], ["sawm", "fasting"], ["hajj", "pilgrimage"]], "need": 5 },
+      { "q": "List four ways to respond to people of other faiths.", "items": [["pray"], ["relationship", "friend"], ["questions", "listen"], ["Jesus", "Christ"], ["Scripture"], ["testimony"], ["patient", "patience"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "Understanding a neighbour's faith", "prompt": "Choose a faith or movement common in your community. Describe its main beliefs accurately (as its followers would), compare them with Scripture on God, Jesus and salvation, and suggest respectful ways to begin gospel conversations.", "words": "600–800" },
+    { "title": "Protecting the flock", "prompt": "Write a short teaching for your church on how to recognise false teaching, using the marks of a cult and at least five passages from the course. Include practical steps for members who are approached by such groups.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Walter Martin, The Kingdom of the Cults",
+    "Winfried Corduan, Neighboring Faiths",
+    "Byang H. Kato, Theological Pitfalls in Africa"
+  ]
+}

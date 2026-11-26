@@ -1,0 +1,241 @@
+{
+  "slug": "christian-leadership",
+  "title": "Christian Leadership",
+  "track": "ministry",
+  "level": "Intermediate",
+  "summary": "Leading like Jesus in church, ministry, work and community: the servant leader's character, vision and planning, building teams, handling conflict and finishing well.",
+  "description": "Leadership is influence used for God's purposes. This course draws on Scripture and the lives of Moses, Nehemiah, David, Jesus and Paul to teach the character of a servant leader, how to discern and share vision, plan and organise, build and develop teams, make decisions, handle conflict and criticism, manage time and money with integrity, and finish well.",
+  "objectives": [
+    "Define Christian leadership as servant influence",
+    "Develop the character required for godly leadership",
+    "Cast vision, plan and organise like Nehemiah",
+    "Build, delegate to and develop teams",
+    "Handle conflict and criticism, and finish well"
+  ],
+  "outcomes": [
+    "Explain servant leadership from Mark 10:42-45",
+    "Identify character qualities and pitfalls of leaders",
+    "Write a simple vision and action plan",
+    "Delegate effectively using Exodus 18",
+    "Respond to conflict and criticism biblically"
+  ],
+  "modules": [
+    {
+      "title": "Servant Leadership",
+      "intro": "Jesus redefined leadership as service. This week we study what Christian leadership is.",
+      "lessons": [
+        {
+          "title": "Not so among you",
+          "body": "\"Ye know that they which are accounted to rule over the Gentiles exercise lordship over them... But so shall it not be among you: but whosoever will be great among you, shall be your minister: And whosoever of you will be the chiefest, shall be servant of all. For even the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many\" (Mark 10:42-45).\n\nChristian leadership is **influence used to serve God's purposes and people**, not a position to gain status, money or control.\n\nJesus washed feet (John 13:14-15). A leader's question is not \"How can they serve me?\" but \"How can I serve them toward God's purpose?\"",
+          "refs": ["Mark 10:42-45", "John 13:12-17", "Philippians 2:3-8"]
+        },
+        {
+          "title": "Called and gifted",
+          "body": "God calls leaders: Moses at the burning bush (Exodus 3), Gideon threshing wheat (Judges 6), David the shepherd boy (1 Samuel 16), Peter the fisherman (Luke 5).\n\nOften God chooses unlikely people: \"God hath chosen the weak things of the world to confound the things which are mighty\" (1 Corinthians 1:27). Moses protested, \"I am slow of speech\" (Exodus 4:10); God promised, \"I will be with thy mouth\".\n\nLeadership is also a gift: \"he that ruleth, with diligence\" (Romans 12:8). Leaders serve in families, churches, schools, businesses and governments. Every believer leads someone and influences others.",
+          "refs": ["Exodus 3:10-12", "1 Corinthians 1:26-29", "Romans 12:6-8"]
+        },
+        {
+          "title": "Leading under authority",
+          "body": "Christian leaders are themselves under authority: Christ's (Colossians 1:18), Scripture's, and often other human leaders. The centurion understood authority: \"I also am a man set under authority\" (Matthew 8:9).\n\nLeaders will give account: those who \"watch for your souls, as they that must give account\" (Hebrews 13:17). Stewards must be faithful (1 Corinthians 4:2).\n\nSaul lost his kingdom when he disobeyed God to please the people (1 Samuel 15:22-24). David, though anointed, refused to seize power by killing Saul (1 Samuel 24:6). Godly leaders wait for God's timing and submit to His will.",
+          "refs": ["Matthew 8:8-10", "Hebrews 13:17", "1 Samuel 15:22-24"]
+        }
+      ],
+      "terms": [
+        { "term": "Leadership", "def": "Influence that moves people toward a shared purpose." },
+        { "term": "Servant leadership", "def": "Leading by serving others toward God's purposes, after Jesus' example." },
+        { "term": "Calling", "def": "God's summons to a particular task or role." },
+        { "term": "Gift of leadership", "def": "A Spirit-given ability to lead with diligence (Romans 12:8)." },
+        { "term": "Under authority", "def": "Being accountable to God and to appropriate human leaders." },
+        { "term": "Stewardship of leadership", "def": "Leadership as a trust for which we must give account." }
+      ],
+      "texts": [
+        { "ref": "Mark 10:45", "teaches": "The Son of man came not to be served but to serve." },
+        { "ref": "John 13:14", "teaches": "You also ought to wash one another's feet." },
+        { "ref": "1 Corinthians 1:27", "teaches": "God chose the weak things to confound the mighty." },
+        { "ref": "Romans 12:8", "teaches": "He that ruleth, with diligence." },
+        { "ref": "1 Samuel 15:22", "teaches": "To obey is better than sacrifice." }
+      ],
+      "summary": [
+        "Christian leadership is servant influence, not status.",
+        "God calls and equips unlikely people.",
+        "Leaders are under authority and will give account.",
+        "Obedience to God matters more than pleasing people."
+      ],
+      "questions": [
+        { "q": "What did Jesus say the great among you must be?", "options": ["Servant", "Ruler", "Rich", "Famous"], "answer": 0 },
+        { "q": "What did Moses say when God called him?", "options": ["I am slow of speech", "I am ready", "I am the greatest", "I will go alone"], "answer": 0 },
+        { "q": "Why did Saul lose his kingdom?", "options": ["He disobeyed God to please the people", "He was too humble", "He prayed too much", "He was young"], "answer": 0 },
+        { "q": "What did the centurion understand?", "options": ["Authority", "Healing techniques", "Roman law", "Fishing"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Leader's Character",
+      "intro": "Character is the foundation of lasting leadership. This week we study the qualities and pitfalls of leaders.",
+      "lessons": [
+        {
+          "title": "Integrity and humility",
+          "body": "\"The integrity of the upright shall guide them\" (Proverbs 11:3). Samuel could ask the nation, \"Whose ox have I taken?... or whom have I defrauded?\" and they answered, \"Thou hast not defrauded us\" (1 Samuel 12:3-4). Daniel's enemies could find no fault (Daniel 6:4).\n\n**Humility**: Moses \"was very meek, above all the men which were upon the face of the earth\" (Numbers 12:3). \"God resisteth the proud, but giveth grace unto the humble\" (James 4:6).\n\nHumble leaders admit mistakes, give credit to others, receive correction and do not need to be the centre. Integrity means being the same person in private and public.",
+          "refs": ["1 Samuel 12:1-5", "Numbers 12:3", "James 4:6-10"]
+        },
+        {
+          "title": "Faith, courage and diligence",
+          "body": "God told Joshua, \"Be strong and of a good courage... for the LORD thy God is with thee whithersoever thou goest\" (Joshua 1:9). Leaders must make hard decisions and face opposition.\n\nNehemiah combined faith and diligence: \"We made our prayer unto our God, and set a watch against them day and night\" (Nehemiah 4:9).\n\nLeaders must also be **teachable** and keep growing, **disciplined** in time and habits, and **loving** toward those they lead. Paul's charge: \"Watch ye, stand fast in the faith, quit you like men, be strong. Let all your things be done with charity\" (1 Corinthians 16:13-14).",
+          "refs": ["Joshua 1:6-9", "Nehemiah 4:9", "1 Corinthians 16:13-14"]
+        },
+        {
+          "title": "Pitfalls of leaders",
+          "body": "Scripture records leaders who fell:\n\n- **Pride**: Uzziah grew strong, then \"his heart was lifted up to his destruction\" (2 Chronicles 26:16).\n- **Sexual sin**: David with Bathsheba (2 Samuel 11).\n- **Greed**: Gehazi took Naaman's gifts and was struck with leprosy (2 Kings 5:20-27).\n- **Jealousy and insecurity**: Saul's jealousy of David (1 Samuel 18:7-9).\n- **Isolation and burnout**: Elijah alone under a tree (1 Kings 19).\n- **Abuse of power**: Rehoboam's harshness split the kingdom (1 Kings 12:13-16).\n\nSafeguards: accountability, honest friends, a strong devotional life, transparency with money, and rest.",
+          "refs": ["2 Chronicles 26:15-21", "1 Kings 12:6-16", "1 Corinthians 10:12"]
+        }
+      ],
+      "terms": [
+        { "term": "Integrity", "def": "Wholeness and consistency of character in public and private." },
+        { "term": "Humility", "def": "A right view of oneself before God, free from pride." },
+        { "term": "Courage", "def": "Strength to do right despite fear or opposition." },
+        { "term": "Teachability", "def": "Willingness to learn and receive correction." },
+        { "term": "Burnout", "def": "Exhaustion from prolonged overwork and stress." },
+        { "term": "Transparency", "def": "Openness, especially in finances and decisions." }
+      ],
+      "texts": [
+        { "ref": "Proverbs 11:3", "teaches": "The integrity of the upright shall guide them." },
+        { "ref": "James 4:6", "teaches": "God resists the proud but gives grace to the humble." },
+        { "ref": "Joshua 1:9", "teaches": "Be strong and of good courage; God is with you." },
+        { "ref": "2 Chronicles 26:16", "teaches": "When Uzziah was strong, his heart was lifted up to destruction." },
+        { "ref": "1 Corinthians 10:12", "teaches": "Let him that thinks he stands take heed lest he fall." }
+      ],
+      "summary": [
+        "Integrity and humility are foundations of leadership.",
+        "Leaders need faith, courage, diligence and love.",
+        "Pride, sexual sin, greed, jealousy and burnout destroy leaders.",
+        "Accountability and a strong walk with God are safeguards."
+      ],
+      "questions": [
+        { "q": "Who was described as very meek above all men?", "options": ["Moses", "Saul", "Rehoboam", "Uzziah"], "answer": 0 },
+        { "q": "What destroyed Uzziah?", "options": ["Pride", "Poverty", "Illness only", "War"], "answer": 0 },
+        { "q": "Whose greed led to leprosy?", "options": ["Gehazi's", "Elisha's", "Naaman's", "Elijah's"], "answer": 0 },
+        { "q": "What split the kingdom under Rehoboam?", "options": ["His harshness", "His humility", "His generosity", "His prayers"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Vision, Planning and Teams",
+      "intro": "Nehemiah rebuilt Jerusalem's walls in 52 days. This week we learn vision, planning and teamwork from him and others.",
+      "lessons": [
+        {
+          "title": "Vision from God",
+          "body": "Nehemiah heard of Jerusalem's broken walls and \"wept, and mourned certain days, and fasted, and prayed\" (Nehemiah 1:4). Vision began with a burden and prayer.\n\nHe then shared the vision clearly: \"Ye see the distress that we are in... come, and let us build up the wall\" (2:17). He linked it to God's hand on him (2:18), and the people said, \"Let us rise up and build.\"\n\nA vision is a clear picture of a better future God wants. \"Write the vision, and make it plain\" (Habakkuk 2:2). Good vision is God-centred, specific, shared and worth sacrifice.",
+          "refs": ["Nehemiah 1:1-11", "Nehemiah 2:11-18", "Habakkuk 2:2-3"]
+        },
+        {
+          "title": "Planning and organising",
+          "body": "Nehemiah planned carefully: he asked the king for time, letters and timber (2:5-8); he inspected the walls by night before announcing plans (2:12-15); he assigned families to sections near their own homes (chapter 3).\n\nFaith and planning go together: \"The preparations of the heart in man... from the LORD\" (Proverbs 16:1); \"Commit thy works unto the LORD, and thy thoughts shall be established\" (16:3).\n\nA simple plan answers: What is the goal? What steps are needed? Who will do each? What resources? By when? How will we know we have succeeded? Review and adjust as you go (Proverbs 15:22).",
+          "refs": ["Nehemiah 2:4-9", "Proverbs 16:1-3", "Luke 14:28-30"]
+        },
+        {
+          "title": "Building and developing teams",
+          "body": "Moses was wearing himself out judging the people alone. Jethro said, \"The thing that thou doest is not good... thou art not able to perform it thyself alone\" (Exodus 18:17-18). He advised choosing \"able men, such as fear God, men of truth, hating covetousness\" and delegating (18:21-22).\n\nGood delegation gives clear responsibility and authority, trains people, trusts them, supports them and reviews progress.\n\nJesus developed the Twelve; Paul trained Timothy and Titus. Leaders should always be raising the next generation (2 Timothy 2:2). A team with diverse gifts achieves more than one gifted person (1 Corinthians 12:14-21; Ecclesiastes 4:9).",
+          "refs": ["Exodus 18:13-26", "2 Timothy 2:2", "Ecclesiastes 4:9-12"]
+        }
+      ],
+      "terms": [
+        { "term": "Vision", "def": "A clear picture of a better future that God wants." },
+        { "term": "Burden", "def": "A deep, God-given concern that moves to prayer and action." },
+        { "term": "Planning", "def": "Deciding goals, steps, people, resources and timing." },
+        { "term": "Delegation", "def": "Giving others responsibility and authority for parts of the work." },
+        { "term": "Succession", "def": "Preparing future leaders to carry on the work." },
+        { "term": "Team", "def": "A group with diverse gifts working toward a shared goal." }
+      ],
+      "texts": [
+        { "ref": "Nehemiah 1:4", "teaches": "Nehemiah wept, mourned, fasted and prayed." },
+        { "ref": "Nehemiah 2:18", "teaches": "They said, Let us rise up and build." },
+        { "ref": "Habakkuk 2:2", "teaches": "Write the vision and make it plain." },
+        { "ref": "Proverbs 16:3", "teaches": "Commit your works to the LORD, and your plans shall be established." },
+        { "ref": "Exodus 18:18", "teaches": "You are not able to perform it yourself alone." }
+      ],
+      "summary": [
+        "Vision begins with a burden and prayer, then is shared clearly.",
+        "Nehemiah planned carefully and organised the people.",
+        "Faith and planning go together.",
+        "Delegate to capable, godly people and develop future leaders."
+      ],
+      "questions": [
+        { "q": "What did Nehemiah do when he heard about Jerusalem?", "options": ["Wept, fasted and prayed", "Ignored it", "Built immediately alone", "Wrote a letter of complaint"], "answer": 0 },
+        { "q": "Who advised Moses to delegate?", "options": ["Jethro", "Aaron", "Joshua", "Miriam"], "answer": 0 },
+        { "q": "How did Nehemiah assign work on the wall?", "options": ["Families built sections near their homes", "One man built it all", "Foreigners built it", "By lottery"], "answer": 0 },
+        { "q": "What qualities did Jethro say leaders should have?", "options": ["Fear God, truthful, hating covetousness", "Rich and famous", "Young and strong", "Related to Moses"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Conflict, Criticism and Finishing Well",
+      "intro": "Every leader faces opposition. This week we study conflict, criticism, decisions and finishing well.",
+      "lessons": [
+        {
+          "title": "Handling opposition and criticism",
+          "body": "Nehemiah faced mockery (4:1-3), threats (4:8), distraction (6:2-3) and false rumours (6:5-8). He prayed, guarded, kept working and refused to be drawn away: \"I am doing a great work, so that I cannot come down\" (6:3).\n\nWhen criticised, ask: Is any of this true? Take it to God, learn from valid criticism (Proverbs 12:1), and do not retaliate. Moses was criticised by Miriam and Aaron and left it to God (Numbers 12).\n\nDavid encouraged himself in the LORD when his own men spoke of stoning him (1 Samuel 30:6). Leaders need a secure identity in God, not in people's approval (Galatians 1:10).",
+          "refs": ["Nehemiah 4:1-9", "Nehemiah 6:1-9", "1 Samuel 30:6"]
+        },
+        {
+          "title": "Conflict and decisions",
+          "body": "Conflict is normal. Paul and Barnabas had \"sharp contention\" over Mark and parted (Acts 15:39), yet later Paul valued Mark (2 Timothy 4:11).\n\nThe Jerusalem council modelled good conflict resolution: the issue was stated, all sides heard, Scripture consulted, a decision made and communicated clearly and kindly (Acts 15:6-31).\n\nFor decisions: gather facts, pray, consult Scripture and wise counsel (Proverbs 15:22), consider those affected, decide, communicate clearly and review. Abigail's wise, quick intervention prevented David's revenge (1 Samuel 25). Leaders should be peacemakers (Matthew 5:9).",
+          "refs": ["Acts 15:6-22", "Proverbs 15:22", "1 Samuel 25:23-33"]
+        },
+        {
+          "title": "Finishing well",
+          "body": "Many leaders start well but finish poorly: Solomon's heart turned away in old age (1 Kings 11:4). Others finish well: Paul could say, \"I have fought a good fight, I have finished my course, I have kept the faith\" (2 Timothy 4:7). Joshua and Samuel ended with integrity.\n\nTo finish well: keep a fresh walk with God; stay accountable; keep learning; guard family; handle money transparently; prepare successors and hand over gracefully, as Moses did to Joshua (Deuteronomy 31:7-8) and Elijah to Elisha.\n\nThe aim is to hear, \"Well done, thou good and faithful servant\" (Matthew 25:21).",
+          "refs": ["2 Timothy 4:6-8", "1 Kings 11:4", "Deuteronomy 31:7-8"]
+        }
+      ],
+      "terms": [
+        { "term": "Opposition", "def": "Resistance to a leader or work, from inside or outside." },
+        { "term": "Constructive criticism", "def": "Correction that helps a leader improve." },
+        { "term": "Conflict resolution", "def": "Handling disagreements fairly and peacefully." },
+        { "term": "Wise counsel", "def": "Advice from godly, experienced people (Proverbs 15:22)." },
+        { "term": "Finishing well", "def": "Remaining faithful to God to the end of one's life and leadership." },
+        { "term": "Handover", "def": "Passing leadership to a prepared successor." }
+      ],
+      "texts": [
+        { "ref": "Nehemiah 6:3", "teaches": "I am doing a great work, so that I cannot come down." },
+        { "ref": "1 Samuel 30:6", "teaches": "David encouraged himself in the LORD his God." },
+        { "ref": "Proverbs 15:22", "teaches": "In the multitude of counsellors purposes are established." },
+        { "ref": "2 Timothy 4:7", "teaches": "I have fought a good fight, I have finished my course." },
+        { "ref": "Matthew 25:21", "teaches": "Well done, thou good and faithful servant." }
+      ],
+      "summary": [
+        "Respond to opposition with prayer, vigilance and focus.",
+        "Learn from criticism without retaliating; find security in God.",
+        "Resolve conflict fairly, as at the Jerusalem council.",
+        "Finish well and hand over gracefully."
+      ],
+      "questions": [
+        { "q": "What did Nehemiah say to those trying to distract him?", "options": ["I am doing a great work and cannot come down", "Let us meet", "I will stop", "Pay me"], "answer": 0 },
+        { "q": "Whom did Paul and Barnabas disagree about?", "options": ["Mark", "Silas", "Timothy", "Peter"], "answer": 0 },
+        { "q": "Who finished poorly as his heart turned away in old age?", "options": ["Solomon", "Paul", "Joshua", "Samuel"], "answer": 0 },
+        { "q": "To whom did Moses hand over leadership?", "options": ["Joshua", "Caleb", "Aaron", "Eleazar"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What is servant leadership, according to Mark 10:42-45?", "keywords": [["serve", "servant", "minister"], ["not", "lordship", "Gentiles", "rule over"], ["Son of man", "ransom", "example"]], "model": "Unlike rulers who lord it over others, Christian leaders serve, following the Son of man who came to serve and give His life." },
+      { "q": "Name three character qualities of godly leaders.", "keywords": [["integrity"], ["humility", "humble"], ["courage", "faith", "diligence", "love"]], "model": "Integrity, humility and courage." },
+      { "q": "Name three pitfalls of leaders with biblical examples.", "keywords": [["pride", "Uzziah"], ["sexual", "David"], ["greed", "Gehazi", "jealousy", "Saul", "burnout", "Elijah"]], "model": "Pride (Uzziah), sexual sin (David) and greed (Gehazi)." },
+      { "q": "What can we learn about vision from Nehemiah?", "keywords": [["burden", "wept", "prayed"], ["shared", "clear", "let us build"], ["God", "hand"]], "model": "Vision begins with a burden and prayer, is shared clearly, and points to God's hand at work." },
+      { "q": "What principles of delegation come from Exodus 18?", "keywords": [["alone", "not able"], ["able", "fear God", "truth", "covetousness"], ["responsibility", "authority", "smaller matters"]], "model": "No leader can do everything alone; choose able, God-fearing, truthful, unselfish people and give them real responsibility." },
+      { "q": "How can a leader finish well?", "keywords": [["walk with God", "devotion"], ["accountable", "accountability"], ["successor", "handover", "money", "family"]], "model": "Keep a fresh walk with God, stay accountable, guard family and money, and prepare successors." }
+    ],
+    "lists": [
+      { "q": "List four biblical leaders and one lesson from each.", "items": [["Moses"], ["Nehemiah"], ["David"], ["Joshua"], ["Paul"], ["Samuel"], ["Daniel"], ["Jesus"]], "need": 4 },
+      { "q": "List four questions a simple plan should answer.", "items": [["goal"], ["steps"], ["who"], ["resources"], ["when", "by when"], ["success", "measure"]], "need": 4 },
+      { "q": "List four safeguards for leaders.", "items": [["accountability"], ["friends"], ["devotional", "prayer", "Bible"], ["transparency", "money"], ["rest"], ["family"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "A vision and plan", "prompt": "Identify a need in your church, fellowship or community. Using Nehemiah 1-6, write a vision statement and a simple action plan (goal, steps, people, resources, timeline, measures), with biblical reasons for your approach.", "words": "500–700" },
+    { "title": "A leader study", "prompt": "Study the life of one biblical leader (for example Moses, Nehemiah, David or Paul). Describe their calling, strengths, failures, how they handled opposition, and whether they finished well. Draw five lessons for leaders today.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "J. Oswald Sanders, Spiritual Leadership",
+    "John C. Maxwell, The 21 Irrefutable Laws of Leadership",
+    "Henry and Richard Blackaby, Spiritual Leadership"
+  ]
+}

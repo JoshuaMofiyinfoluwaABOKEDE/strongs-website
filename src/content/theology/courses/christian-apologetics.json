@@ -1,0 +1,241 @@
+{
+  "slug": "christian-apologetics",
+  "title": "Christian Apologetics",
+  "track": "ministry",
+  "level": "Advanced",
+  "summary": "Giving reasons for the hope within us: evidence for God, the reliability of the Bible, the resurrection of Jesus, and answers to common objections, shared with gentleness and respect.",
+  "description": "Apologetics is the defence of the Christian faith. This course explains the biblical basis and right spirit of apologetics, the main arguments for God's existence, the reliability of the Bible, the historical evidence for the resurrection of Jesus, and answers to hard questions about suffering, science, other religions and the claim that Christianity is a foreign religion. It is designed for students, workers and church leaders who meet doubters and sceptics.",
+  "objectives": [
+    "Explain the biblical basis and spirit of apologetics",
+    "Present reasonable arguments for the existence of God",
+    "Defend the reliability of Scripture",
+    "Present the evidence for the resurrection of Christ",
+    "Answer common objections with gentleness and respect"
+  ],
+  "outcomes": [
+    "Explain 1 Peter 3:15 and Paul's approach in Athens",
+    "Summarise the cosmological, design and moral arguments",
+    "Explain manuscript evidence and the canon",
+    "Present the minimal facts for the resurrection",
+    "Respond to the problem of evil and the 'foreign religion' objection"
+  ],
+  "modules": [
+    {
+      "title": "Why and How We Defend the Faith",
+      "intro": "Apologetics is commanded in Scripture and must be done in Christ's spirit. This week we lay the foundation.",
+      "lessons": [
+        {
+          "title": "Ready to give an answer",
+          "body": "\"But sanctify the Lord God in your hearts: and be ready always to give an answer to every man that asketh you a reason of the hope that is in you with meekness and fear\" (1 Peter 3:15). The word *answer* is the Greek *apologia*, a reasoned defence.\n\nPaul was \"set for the defence of the gospel\" (Philippians 1:17). He \"reasoned\" in synagogues and the marketplace (Acts 17:2, 17). Jude urged believers to \"earnestly contend for the faith\" (Jude 3).\n\nApologetics strengthens believers' confidence, removes obstacles for seekers, and answers attacks on the truth. It does not replace the Spirit or the gospel, but clears the way for them.",
+          "refs": ["1 Peter 3:15-16", "Philippians 1:7", "Jude 3"]
+        },
+        {
+          "title": "Faith and reason",
+          "body": "Biblical faith is not blind belief against evidence. It is trust in a God who has acted in history. Luke wrote \"that thou mightest know the certainty of those things\" (Luke 1:4). Jesus \"shewed himself alive after his passion by many infallible proofs\" (Acts 1:3). John wrote his signs \"that ye might believe\" (John 20:31).\n\nYet reason alone cannot save. Sin affects the mind (Romans 1:21; 2 Corinthians 4:4), and the Spirit must open eyes (1 Corinthians 2:14).\n\nSo we use reason humbly as a servant of faith, trusting God to work through truth, prayer and the gospel.",
+          "refs": ["Luke 1:1-4", "Acts 1:3", "2 Corinthians 4:3-6"]
+        },
+        {
+          "title": "The right spirit",
+          "body": "Apologetics must be done \"with meekness and fear\" (1 Peter 3:15), not with arrogance or anger. \"The servant of the Lord must not strive; but be gentle unto all men, apt to teach, patient, In meekness instructing those that oppose themselves\" (2 Timothy 2:24-25).\n\nPaul in Athens listened, observed their culture, found common ground (their altar \"TO THE UNKNOWN GOD\"), quoted their poets, and then proclaimed Christ and the resurrection (Acts 17:22-31).\n\nAim to win people, not arguments. Listen to the question behind the question; sometimes a hard question comes from personal pain. And live in a way that matches the truth (1 Peter 3:16).",
+          "refs": ["2 Timothy 2:24-26", "Acts 17:22-31", "Colossians 4:5-6"]
+        }
+      ],
+      "terms": [
+        { "term": "Apologetics", "def": "The reasoned defence of the Christian faith." },
+        { "term": "Apologia", "def": "Greek for a reasoned defence or answer (1 Peter 3:15)." },
+        { "term": "Faith and reason", "def": "The relationship between trusting God and using evidence and argument." },
+        { "term": "Infallible proofs", "def": "The convincing evidence of Jesus' resurrection (Acts 1:3)." },
+        { "term": "Common ground", "def": "Shared beliefs or concerns used as a starting point in conversation." },
+        { "term": "Noetic effects of sin", "def": "The ways sin darkens and distorts human thinking." }
+      ],
+      "texts": [
+        { "ref": "1 Peter 3:15", "teaches": "Be ready to give a reason for your hope with meekness and fear." },
+        { "ref": "Jude 3", "teaches": "Earnestly contend for the faith." },
+        { "ref": "Luke 1:4", "teaches": "Luke wrote that Theophilus might know the certainty of these things." },
+        { "ref": "Acts 1:3", "teaches": "Jesus showed Himself alive by many infallible proofs." },
+        { "ref": "2 Timothy 2:25", "teaches": "In meekness instruct those that oppose themselves." }
+      ],
+      "summary": [
+        "Scripture commands believers to give reasons for their hope.",
+        "Biblical faith rests on God's acts in history.",
+        "Reason serves faith but cannot save without the Spirit.",
+        "Defend the faith with gentleness, respect and a consistent life."
+      ],
+      "questions": [
+        { "q": "What does apologia mean?", "options": ["A reasoned defence", "An apology for wrongdoing", "A prayer", "A song"], "answer": 0 },
+        { "q": "How should we give answers, according to 1 Peter 3:15?", "options": ["With meekness and fear", "With anger", "With mockery", "With force"], "answer": 0 },
+        { "q": "What altar did Paul refer to in Athens?", "options": ["To the unknown God", "To Zeus", "To Caesar", "To Apollo"], "answer": 0 },
+        { "q": "What is the aim of apologetics?", "options": ["To win people, not arguments", "To embarrass opponents", "To replace the gospel", "To avoid evangelism"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Does God Exist?",
+      "intro": "This week we study classic arguments that point to God's existence.",
+      "lessons": [
+        {
+          "title": "The cosmological argument",
+          "body": "Everything that begins to exist has a cause. The universe began to exist, as both Scripture (\"In the beginning God created\", Genesis 1:1) and modern cosmology suggest. Therefore the universe has a cause.\n\nThat cause must be beyond space, time and matter, immensely powerful and personal (able to choose to create). This fits the God of the Bible: \"Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear\" (Hebrews 11:3).\n\nThe question \"Who made God?\" misunderstands: God did not begin to exist. He is eternal (Psalm 90:2).",
+          "refs": ["Genesis 1:1", "Hebrews 11:3", "Psalm 90:2"]
+        },
+        {
+          "title": "The design argument",
+          "body": "\"The heavens declare the glory of God; and the firmament sheweth his handywork\" (Psalm 19:1). Paul says God's \"eternal power and Godhead\" are \"clearly seen, being understood by the things that are made\" (Romans 1:20).\n\nThe universe shows remarkable order: physical constants finely tuned for life, the complex information in DNA, the intricate design of the eye and the cell. Just as a phone implies a designer, such complexity points to a Designer.\n\nSome answer that chance and natural processes explain everything. Christians respond that natural laws themselves need explanation, and that information and fine-tuning are best explained by intelligence.",
+          "refs": ["Psalm 19:1-4", "Romans 1:19-20", "Psalm 139:13-14"]
+        },
+        {
+          "title": "The moral argument",
+          "body": "Almost everyone believes some things are truly wrong: torturing children for fun, ritual killing, slavery. But if there is no God, right and wrong are only opinions or survival instincts. Why then should anyone be obliged to obey them?\n\nObjective moral values point to a moral Lawgiver. Paul says the Gentiles \"shew the work of the law written in their hearts, their conscience also bearing witness\" (Romans 2:15).\n\nAfricans widely share a sense of a Supreme Being and of moral order. These are pointers to the true God, who is fully revealed in Jesus Christ (John 1:18). Arguments do not save, but they show that faith is reasonable.",
+          "refs": ["Romans 2:14-16", "Ecclesiastes 3:11", "John 1:18"]
+        }
+      ],
+      "terms": [
+        { "term": "Cosmological argument", "def": "The argument that the universe's beginning requires a cause beyond it." },
+        { "term": "Design argument", "def": "The argument that order and complexity in nature point to a Designer." },
+        { "term": "Fine-tuning", "def": "The precise values of physical constants needed for life." },
+        { "term": "Moral argument", "def": "The argument that objective moral values point to a moral Lawgiver." },
+        { "term": "General revelation", "def": "God's self-revelation in nature and conscience." },
+        { "term": "Atheism", "def": "The belief that there is no God." }
+      ],
+      "texts": [
+        { "ref": "Genesis 1:1", "teaches": "In the beginning God created the heaven and the earth." },
+        { "ref": "Hebrews 11:3", "teaches": "The worlds were framed by the word of God." },
+        { "ref": "Psalm 19:1", "teaches": "The heavens declare the glory of God." },
+        { "ref": "Romans 1:20", "teaches": "God's power and Godhead are clearly seen in creation." },
+        { "ref": "Romans 2:15", "teaches": "The law is written on hearts; conscience bears witness." }
+      ],
+      "summary": [
+        "The universe's beginning points to an eternal, powerful, personal Cause.",
+        "Order and fine-tuning point to a Designer.",
+        "Objective morality points to a moral Lawgiver.",
+        "These arguments show faith is reasonable; Christ reveals God fully."
+      ],
+      "questions": [
+        { "q": "What does the cosmological argument focus on?", "options": ["The universe's beginning needing a cause", "Moral values", "The resurrection", "The Bible's manuscripts"], "answer": 0 },
+        { "q": "Which psalm says the heavens declare God's glory?", "options": ["Psalm 19", "Psalm 23", "Psalm 51", "Psalm 119"], "answer": 0 },
+        { "q": "How do Christians answer 'Who made God?'", "options": ["God did not begin to exist; He is eternal", "Another god made Him", "No one knows", "God made Himself"], "answer": 0 },
+        { "q": "What does the moral argument point to?", "options": ["A moral Lawgiver", "Evolution only", "Culture alone", "Nothing"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Bible and the Resurrection",
+      "intro": "Christianity stands or falls on the resurrection, recorded in a reliable Bible. This week we study the evidence.",
+      "lessons": [
+        {
+          "title": "Is the Bible reliable?",
+          "body": "Some claim the Bible has been changed. The evidence shows otherwise:\n\n- **Manuscripts**: there are thousands of Greek manuscripts of the New Testament, some within a few generations of the originals, far more than for any other ancient book.\n- **The Dead Sea Scrolls** (found 1947) include Old Testament texts about a thousand years older than previous copies, and show careful transmission.\n- **Archaeology** has confirmed many places, rulers and customs mentioned in Scripture.\n- **Eyewitnesses**: the Gospels come from eyewitnesses and their associates (2 Peter 1:16; 1 John 1:1-3).\n\nMinor copying differences exist, but none affects any core doctrine. \"The word of the Lord endureth for ever\" (1 Peter 1:25).",
+          "refs": ["2 Peter 1:16-21", "1 John 1:1-3", "1 Peter 1:24-25"]
+        },
+        {
+          "title": "The evidence for the resurrection",
+          "body": "Paul says, \"if Christ be not risen, then is our preaching vain\" (1 Corinthians 15:14). Facts widely accepted even by many sceptical historians include:\n\n1. Jesus died by crucifixion.\n2. His tomb was found empty, first by women (whose testimony was not valued then, so unlikely to be invented).\n3. Many people, individually and in groups, believed they saw Him alive (1 Corinthians 15:5-8 lists over five hundred).\n4. The disciples were transformed from fearful men into bold witnesses willing to die.\n5. Sceptics such as James, Jesus' brother, and Paul, a persecutor, were converted.\n\nThe best explanation of these facts is that Jesus truly rose.",
+          "refs": ["1 Corinthians 15:3-8", "1 Corinthians 15:14-20", "Acts 4:13-20"]
+        },
+        {
+          "title": "Alternative theories",
+          "body": "Other explanations fail:\n\n- **The disciples stole the body** (Matthew 28:13): would they die for what they knew was a lie?\n- **Jesus only fainted**: Roman executioners were experts; a half-dead man could not inspire belief in a glorious resurrection.\n- **Hallucinations**: hallucinations are individual, not shared by groups of five hundred, and would not empty a tomb.\n- **Wrong tomb**: the authorities could simply have produced the body.\n- **Legend**: the resurrection was proclaimed in Jerusalem within weeks, while witnesses were alive (1 Corinthians 15:6).\n\nThe resurrection proves Jesus is the Son of God (Romans 1:4) and guarantees judgment (Acts 17:31).",
+          "refs": ["Matthew 28:11-15", "Romans 1:4", "Acts 17:30-31"]
+        }
+      ],
+      "terms": [
+        { "term": "Manuscript", "def": "A handwritten copy of an ancient text." },
+        { "term": "Dead Sea Scrolls", "def": "Ancient Jewish manuscripts found in 1947, including Old Testament books." },
+        { "term": "Textual criticism", "def": "The study of manuscripts to establish the original text." },
+        { "term": "Empty tomb", "def": "The fact that Jesus' tomb was found empty on the third day." },
+        { "term": "Minimal facts", "def": "Facts about Jesus' death and resurrection accepted by most historians." },
+        { "term": "Swoon theory", "def": "The claim that Jesus only fainted on the cross." }
+      ],
+      "texts": [
+        { "ref": "2 Peter 1:16", "teaches": "We were eyewitnesses of His majesty, not followers of fables." },
+        { "ref": "1 Peter 1:25", "teaches": "The word of the Lord endures for ever." },
+        { "ref": "1 Corinthians 15:6", "teaches": "Over five hundred brethren saw the risen Christ at once." },
+        { "ref": "1 Corinthians 15:14", "teaches": "If Christ is not risen, our preaching is vain." },
+        { "ref": "Romans 1:4", "teaches": "Jesus was declared the Son of God by the resurrection." }
+      ],
+      "summary": [
+        "Manuscripts, the Dead Sea Scrolls and archaeology support the Bible's reliability.",
+        "Key facts: crucifixion, empty tomb, appearances, transformed disciples, converted sceptics.",
+        "Alternative theories fail to explain the facts.",
+        "The resurrection proves Jesus is the Son of God."
+      ],
+      "questions": [
+        { "q": "When were the Dead Sea Scrolls found?", "options": ["1947", "1611", "1517", "1906"], "answer": 0 },
+        { "q": "How many people saw the risen Jesus at once, according to 1 Corinthians 15:6?", "options": ["Over five hundred", "Twelve", "Two", "Seventy"], "answer": 0 },
+        { "q": "Why is the women's testimony significant?", "options": ["Their testimony was not valued then, so unlikely to be invented", "They were priests", "They were Romans", "They wrote the Gospels"], "answer": 0 },
+        { "q": "Which sceptic was converted after seeing the risen Jesus?", "options": ["James, Jesus' brother", "Pilate", "Caiaphas", "Herod"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Hard Questions",
+      "intro": "This week we answer common hard questions about suffering, science, other religions and Christianity in Africa.",
+      "lessons": [
+        {
+          "title": "Why does God allow suffering?",
+          "body": "This is the hardest question. A full answer is beyond us, but Scripture gives light:\n\n- Suffering entered through **sin and the fall** (Genesis 3; Romans 8:20-22), not through God's design for creation.\n- God gave humans **real freedom**, and much suffering comes from human evil.\n- God can bring **good out of evil**: Joseph said, \"ye thought evil against me; but God meant it unto good\" (Genesis 50:20).\n- God **suffered with us** in Christ, who wept and was crucified.\n- God will **end all suffering** (Revelation 21:4) and judge all evil.\n\nWhen someone asks in pain, comfort before you argue (Job 2:13).",
+          "refs": ["Genesis 50:20", "Romans 8:18-28", "Revelation 21:3-5"]
+        },
+        {
+          "title": "Science and other religions",
+          "body": "**Science**: Many founders of modern science, such as Kepler, Newton and Faraday, were believers who saw science as \"thinking God's thoughts after him\". Science explains how the natural world works; it cannot explain why there is a world at all, or answer questions of meaning and morality. Christians differ on how to read the days of Genesis, but all affirm God as Creator.\n\n**Other religions**: Religions contain some truth through general revelation, but they differ fundamentally on God, sin and salvation. Jesus' claim is unique: \"I am the way, the truth, and the life: no man cometh unto the Father, but by me\" (John 14:6). Only Christianity offers salvation as a free gift through a God who became man, died and rose.",
+          "refs": ["John 14:6", "Acts 4:12", "Colossians 1:16-17"]
+        },
+        {
+          "title": "Is Christianity a foreign religion?",
+          "body": "Some say Christianity is the 'white man's religion' brought to colonise Africa. History says otherwise:\n\n- Christianity began in the Middle East, not Europe, and Jesus lived in Asia, sheltered in Africa as a child (Matthew 2:13).\n- Africans were among the first believers: the Ethiopian official (Acts 8), Simon of Cyrene, Lucius of Cyrene and Simeon Niger (Acts 13:1).\n- North Africa produced great early theologians like Tertullian, Athanasius and Augustine, and Ethiopia has been Christian for over 1,600 years.\n- In Nigeria, African agents like Samuel Ajayi Crowther did much of the missionary work.\n\nThe gospel belongs to every nation (Revelation 7:9), and Christ is Lord of all cultures.",
+          "refs": ["Acts 8:26-39", "Acts 13:1", "Revelation 7:9"]
+        }
+      ],
+      "terms": [
+        { "term": "Problem of evil", "def": "The question of how a good, all-powerful God can allow evil and suffering." },
+        { "term": "Theodicy", "def": "An attempt to explain God's goodness in the face of evil." },
+        { "term": "Free will defence", "def": "The argument that God permits evil because He gave humans real freedom." },
+        { "term": "Religious pluralism", "def": "The view that all religions are equally valid paths to God." },
+        { "term": "Exclusivity", "def": "The claim that salvation is only through Jesus Christ." },
+        { "term": "Foreign religion objection", "def": "The claim that Christianity is a European religion imposed on Africa." }
+      ],
+      "texts": [
+        { "ref": "Genesis 50:20", "teaches": "What men meant for evil, God meant for good." },
+        { "ref": "Romans 8:28", "teaches": "All things work together for good to those who love God." },
+        { "ref": "Revelation 21:4", "teaches": "God shall wipe away all tears; no more pain." },
+        { "ref": "John 14:6", "teaches": "I am the way, the truth and the life." },
+        { "ref": "Colossians 1:17", "teaches": "In Christ all things consist." }
+      ],
+      "summary": [
+        "Suffering comes from the fall and human evil; God brings good from it and will end it.",
+        "Comfort the suffering before arguing.",
+        "Science and faith are not enemies; Christ's claim is unique among religions.",
+        "Christianity has ancient African roots; it belongs to every nation."
+      ],
+      "questions": [
+        { "q": "What did Joseph say about his brothers' evil?", "options": ["God meant it for good", "God caused it", "It was meaningless", "He would take revenge"], "answer": 0 },
+        { "q": "Which scientist was a believer?", "options": ["Isaac Newton", "Karl Marx", "Friedrich Nietzsche", "None"], "answer": 0 },
+        { "q": "Where did Christianity begin?", "options": ["The Middle East", "Europe", "America", "China"], "answer": 0 },
+        { "q": "What should we do first when someone asks about suffering in pain?", "options": ["Comfort them", "Argue logically", "Rebuke them", "Ignore them"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What is apologetics and what spirit should mark it?", "keywords": [["defence", "reason", "apologia"], ["meekness", "gentleness", "respect"], ["1 Peter 3:15"]], "model": "Apologetics is the reasoned defence of the faith (1 Peter 3:15), given with meekness, gentleness and respect." },
+      { "q": "Summarise the cosmological argument.", "keywords": [["begin", "beginning"], ["cause"], ["God", "eternal", "beyond"]], "model": "Whatever begins to exist has a cause; the universe began; so it has a cause beyond space and time, which fits the eternal God." },
+      { "q": "Summarise the moral argument.", "keywords": [["objective", "truly wrong", "moral values"], ["lawgiver", "God"], ["conscience", "Romans 2"]], "model": "Objective moral values exist; without God they would be mere opinion; so they point to a moral Lawgiver, as conscience witnesses (Romans 2:15)." },
+      { "q": "Give three reasons to trust the reliability of the Bible.", "keywords": [["manuscripts"], ["Dead Sea Scrolls"], ["archaeology", "eyewitnesses"]], "model": "Thousands of early manuscripts, the Dead Sea Scrolls showing careful transmission, and archaeological and eyewitness support." },
+      { "q": "List the main facts supporting the resurrection.", "keywords": [["crucifixion", "died"], ["empty tomb"], ["appearances", "saw"], ["disciples", "transformed", "James", "Paul", "sceptics"]], "model": "Jesus died by crucifixion, the tomb was empty, many saw Him alive, the disciples were transformed and sceptics like James and Paul were converted." },
+      { "q": "How would you answer the claim that Christianity is a foreign religion?", "keywords": [["Middle East", "not Europe"], ["Ethiopian", "Africa", "Acts 8", "Simon"], ["Augustine", "Tertullian", "Ethiopia", "Crowther"]], "model": "Christianity began in the Middle East, Africans were among its first believers (the Ethiopian, Simon of Cyrene), North Africa produced great early theologians, and Africans like Crowther led missions in Nigeria." }
+    ],
+    "lists": [
+      { "q": "List three arguments for God's existence.", "items": [["cosmological"], ["design", "teleological"], ["moral"], ["ontological"]], "need": 3 },
+      { "q": "List four alternative theories to the resurrection.", "items": [["stole", "stolen"], ["swoon", "fainted"], ["hallucination"], ["wrong tomb"], ["legend"]], "need": 4 },
+      { "q": "List four biblical points about suffering.", "items": [["fall", "sin"], ["freedom", "free will"], ["good", "Genesis 50"], ["Christ suffered", "suffered with us"], ["end", "Revelation 21"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "Answering a friend", "prompt": "A friend says, \"The Bible has been changed, and Jesus never really rose from the dead.\" Write a reply using the evidence from this course, with the right spirit described in 1 Peter 3:15.", "words": "600–800" },
+    { "title": "The problem of suffering", "prompt": "Write a pastoral and reasoned answer to someone who asks, \"If God is good, why did my child die?\" Combine comfort and biblical truth, using at least five passages.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "C. S. Lewis, Mere Christianity",
+    "Timothy Keller, The Reason for God",
+    "Lee Strobel, The Case for Christ"
+  ]
+}
