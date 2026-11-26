@@ -28,12 +28,12 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
   const latest = active[0];
 
   return (
-    <>
+    <div className="edx">
       <LearnBar />
       <section className="bg-navy text-white">
         <div className="container-site flex flex-col gap-5 py-[clamp(2.5rem,5vw,4rem)]">
           <p className="eyebrow-dark">My learning</p>
-          <h1 className="text-[clamp(2.2rem,4.6vw,3.4rem)] font-bold leading-[1.08] tracking-[-0.02em]">Welcome, {(me?.name ?? user.name).split(" ")[0]}.</h1>
+          <h1 className="text-[clamp(1.625rem,4.6vw,3.4rem)] font-bold leading-[1.08] tracking-[-0.02em]">Welcome, {(me?.name ?? user.name).split(" ")[0]}.</h1>
           {latest ? (
             <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
               <p className="lead text-pale">Continue <strong className="text-white">{latest.title}</strong> · {pct(latest)}% complete</p>
@@ -52,7 +52,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
         <div className="container-site section-pad grid items-start gap-12 lg:grid-cols-[1fr_22rem]">
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-navy">My courses</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-navy">My courses</h2>
               {active.length === 0 ? (
                 <p className="text-muted">No courses in progress.</p>
               ) : (
@@ -79,7 +79,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
             </div>
 
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-navy">Completed and certificates</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-navy">Completed and certificates</h2>
               {finished.length === 0 ? (
                 <p className="text-muted">Finish a course and its certificate will appear here, ready to download.</p>
               ) : (
@@ -117,6 +117,6 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
           </aside>
         </div>
       </section>
-    </>
+    </div>
   );
 }

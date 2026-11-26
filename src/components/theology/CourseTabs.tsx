@@ -18,7 +18,7 @@ export function CourseTabs({ slug }: { slug: string }) {
           key={t.href}
           href={t.href}
           aria-current={t.active ? "page" : undefined}
-          className={`rounded-t-lg px-5 py-2.5 text-sm font-semibold no-underline ${t.active ? "bg-mist text-navy" : "text-pale hover:bg-navy-2 hover:text-white"}`}
+          className={`rounded-t-lg px-4 py-2 text-sm sm:px-5 sm:py-2.5 font-semibold no-underline ${t.active ? "bg-mist text-navy" : "text-pale hover:bg-navy-2 hover:text-white"}`}
         >
           {t.label}
         </Link>

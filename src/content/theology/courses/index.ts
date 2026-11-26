@@ -2,14 +2,18 @@
 import type { TheologyCourse } from "../types";
 import c_angels_satan_and_demons from "./angels-satan-and-demons.json";
 import c_creation_and_providence from "./creation-and-providence.json";
+import c_grace_election_and_calling from "./grace-election-and-calling.json";
 import c_how_the_bible_came_to_us from "./how-the-bible-came-to-us.json";
 import c_humanity_in_the_image_of_god from "./humanity-in-the-image-of-god.json";
 import c_interpreting_the_bible from "./interpreting-the-bible.json";
 import c_introduction_to_theology from "./introduction-to-theology.json";
+import c_justification_and_adoption from "./justification-and-adoption.json";
 import c_new_testament_survey_epistles_and_revelation from "./new-testament-survey-epistles-and-revelation.json";
 import c_new_testament_survey_gospels_and_acts from "./new-testament-survey-gospels-and-acts.json";
 import c_old_testament_survey_law_and_history from "./old-testament-survey-law-and-history.json";
 import c_old_testament_survey_poetry_and_prophets from "./old-testament-survey-poetry-and-prophets.json";
+import c_repentance_faith_and_conversion from "./repentance-faith-and-conversion.json";
+import c_sanctification_and_holiness from "./sanctification-and-holiness.json";
 import c_sin_and_the_fall from "./sin-and-the-fall.json";
 import c_the_bible_revelation_and_authority from "./the-bible-revelation-and-authority.json";
 import c_the_doctrine_of_god from "./the-doctrine-of-god.json";
@@ -18,4 +22,4 @@ import c_the_holy_trinity from "./the-holy-trinity.json";
 import c_the_person_of_christ from "./the-person-of-christ.json";
 import c_the_work_of_christ from "./the-work-of-christ.json";
 
-export const theologyCourses = [c_angels_satan_and_demons, c_creation_and_providence, c_how_the_bible_came_to_us, c_humanity_in_the_image_of_god, c_interpreting_the_bible, c_introduction_to_theology, c_new_testament_survey_epistles_and_revelation, c_new_testament_survey_gospels_and_acts, c_old_testament_survey_law_and_history, c_old_testament_survey_poetry_and_prophets, c_sin_and_the_fall, c_the_bible_revelation_and_authority, c_the_doctrine_of_god, c_the_holy_spirit, c_the_holy_trinity, c_the_person_of_christ, c_the_work_of_christ] as TheologyCourse[];
+export const theologyCourses = [c_angels_satan_and_demons, c_creation_and_providence, c_grace_election_and_calling, c_how_the_bible_came_to_us, c_humanity_in_the_image_of_god, c_interpreting_the_bible, c_introduction_to_theology, c_justification_and_adoption, c_new_testament_survey_epistles_and_revelation, c_new_testament_survey_gospels_and_acts, c_old_testament_survey_law_and_history, c_old_testament_survey_poetry_and_prophets, c_repentance_faith_and_conversion, c_sanctification_and_holiness, c_sin_and_the_fall, c_the_bible_revelation_and_authority, c_the_doctrine_of_god, c_the_holy_spirit, c_the_holy_trinity, c_the_person_of_christ, c_the_work_of_christ] as TheologyCourse[];

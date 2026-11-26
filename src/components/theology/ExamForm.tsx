@@ -43,9 +43,9 @@ export function ExamForm({ slug, attemptId, deadline, children, action }: { slug
   const secs = Math.floor((left % 60000) / 1000);
   return (
     <form ref={form} action={action} onSubmit={() => (submitted.current = true)} className="flex flex-col gap-5">
-      <div className="sticky top-[73px] z-10 flex flex-wrap items-center justify-between gap-3 rounded-2xl bg-navy px-5 py-3 text-white shadow-lg">
+      <div className="sticky top-[73px] z-10 flex flex-wrap items-center justify-between gap-3 rounded-2xl bg-navy px-4 py-3 sm:px-5 text-white shadow-lg">
         <span className="text-sm text-pale">Time left</span>
-        <span className={`font-mono text-2xl font-bold ${left < 5 * 60000 ? "text-gold" : "text-white"}`} aria-live="polite">{String(mins).padStart(2, "0")}:{String(secs).padStart(2, "0")}</span>
+        <span className={`font-mono text-xl sm:text-2xl font-bold ${left < 5 * 60000 ? "text-gold" : "text-white"}`} aria-live="polite">{String(mins).padStart(2, "0")}:{String(secs).padStart(2, "0")}</span>
         <span className="text-xs text-pale">{saved}</span>
       </div>
       <input type="hidden" name="slug" value={slug} />

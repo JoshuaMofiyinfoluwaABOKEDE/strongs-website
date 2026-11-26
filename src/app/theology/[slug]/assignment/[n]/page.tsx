@@ -32,7 +32,7 @@ export default async function AssignmentPage({ params, searchParams }: { params:
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2 border-b border-line pb-5">
         <p className="eyebrow">Assignment {no} of {c.assignments.length} · assignments are {theologyRules.weights.assignments}% of your grade</p>
-        <h1 className="text-[clamp(1.8rem,3.4vw,2.5rem)] font-bold leading-tight text-navy">{a.title}</h1>
+        <h1 className="text-[clamp(1.375rem,3.4vw,2.5rem)] font-bold leading-tight text-navy">{a.title}</h1>
         <p className="text-sm text-muted">Length: {a.words} words · graded by an instructor out of 100</p>
       </header>
       <div className="lesson-text max-w-3xl whitespace-pre-line">{a.prompt}</div>
@@ -41,7 +41,7 @@ export default async function AssignmentPage({ params, searchParams }: { params:
       {error && errors[error] && <p role="alert" className="rounded-xl bg-[#fdecec] px-4 py-3 text-sm text-[#8a1c1c]">{errors[error]}</p>}
 
       {sub && (
-        <div className={`flex flex-col gap-2 rounded-2xl p-5 ${sub.status === "graded" ? "bg-navy text-white" : sub.status === "returned" ? "border border-gold bg-[#fbf5e6]" : "bg-mist"}`}>
+        <div className={`flex flex-col gap-2 rounded-2xl p-4 sm:p-5 ${sub.status === "graded" ? "bg-navy text-white" : sub.status === "returned" ? "border border-gold bg-[#fbf5e6]" : "bg-mist"}`}>
           <p className="font-semibold">
             {sub.status === "graded" ? `Graded: ${sub.score}/100` : sub.status === "returned" ? "Returned for revision" : "Submitted, waiting to be graded"}
           </p>

@@ -28,7 +28,7 @@ export default async function InstructorHome() {
       <AdminTitle title="School of Theology" intro="Grade assignments, check short answers on tests and exams, and follow each learner's progress." />
       <ul className="grid grid-cols-2 gap-3 md:grid-cols-3">
         {stats.map(([l, n, h]) => (
-          <li key={l}><Link href={h} className="flex h-full flex-col gap-1 rounded-2xl border border-line bg-white p-4 no-underline hover:border-royal"><span className="text-3xl font-extrabold text-navy">{n}</span><span className="text-sm text-muted">{l}</span></Link></li>
+          <li key={l}><Link href={h} className="flex h-full flex-col gap-1 rounded-2xl border border-line bg-white p-4 no-underline hover:border-royal"><span className="text-2xl sm:text-3xl font-extrabold text-navy">{n}</span><span className="text-sm text-muted">{l}</span></Link></li>
         ))}
       </ul>
       <Card title="Waiting longest">

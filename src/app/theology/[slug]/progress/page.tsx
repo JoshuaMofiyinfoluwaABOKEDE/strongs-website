@@ -28,8 +28,8 @@ export default async function ProgressPage({ params }: { params: Promise<{ slug:
 
   return (
     <div className="flex flex-col gap-6">
-      <section className="flex flex-col gap-4 rounded-2xl border border-line bg-white p-6">
-        <h1 className="text-2xl font-bold text-navy">Report card</h1>
+      <section className="flex flex-col gap-4 rounded-2xl border border-line bg-white p-5 sm:p-6">
+        <h1 className="text-xl sm:text-2xl font-bold text-navy">Report card</h1>
         <div className={`rounded-xl p-4 ${g.passed ? "bg-navy text-white" : "bg-mist text-navy"}`}>
           {g.passed ? (
             <div className="flex flex-wrap items-center gap-4">
@@ -53,11 +53,11 @@ export default async function ProgressPage({ params }: { params: Promise<{ slug:
         </div>
       </section>
 
-      <section className="flex flex-col gap-3 rounded-2xl border border-line bg-white p-6">
-        <h2 className="text-xl font-bold text-navy">Grading breakdown</h2>
+      <section className="flex flex-col gap-3 rounded-2xl border border-line bg-white p-5 sm:p-6">
+        <h2 className="text-lg sm:text-xl font-bold text-navy">Grading breakdown</h2>
         <div className="overflow-x-auto">
-          <table className="w-full min-w-[30rem] text-left text-[0.9375rem]">
-            <thead className="text-xs uppercase tracking-wide text-muted"><tr><th className="py-2">Assessment type</th><th>Weight</th><th>Your score</th><th>Weighted</th></tr></thead>
+          <table className="w-full text-left text-sm sm:text-[0.9375rem]">
+            <thead className="text-xs uppercase tracking-wide text-muted"><tr><th className="py-2 pr-2">Assessment</th><th className="pr-2">Weight</th><th className="pr-2">Score</th><th>Weighted</th></tr></thead>
             <tbody className="divide-y divide-line">
               {rows.map((r) => (
                 <tr key={r.label}><td className="py-3 font-semibold text-navy">{r.label}</td><td>{r.weight}%</td><td>{r.score}%</td><td>{Math.round((r.score * r.weight) / 10) / 10}%</td></tr>
@@ -69,8 +69,8 @@ export default async function ProgressPage({ params }: { params: Promise<{ slug:
       </section>
 
       <div className="grid gap-6 lg:grid-cols-2">
-        <section className="flex flex-col gap-3 rounded-2xl border border-line bg-white p-6">
-          <h2 className="text-xl font-bold text-navy">Weekly quizzes</h2>
+        <section className="flex flex-col gap-3 rounded-2xl border border-line bg-white p-5 sm:p-6">
+          <h2 className="text-lg sm:text-xl font-bold text-navy">Weekly quizzes</h2>
           <ul className="flex flex-col divide-y divide-line text-[0.9375rem]">
             {c.modules.map((m, i) => {
               const b = g.quizBest[i];
@@ -84,8 +84,8 @@ export default async function ProgressPage({ params }: { params: Promise<{ slug:
           </ul>
           <p className="text-xs text-muted">Best score per week counts. Pass at {theologyRules.quiz.pass}%.</p>
         </section>
-        <section className="flex flex-col gap-3 rounded-2xl border border-line bg-white p-6">
-          <h2 className="text-xl font-bold text-navy">Assignments, test and exam</h2>
+        <section className="flex flex-col gap-3 rounded-2xl border border-line bg-white p-5 sm:p-6">
+          <h2 className="text-lg sm:text-xl font-bold text-navy">Assignments, test and exam</h2>
           <ul className="flex flex-col divide-y divide-line text-[0.9375rem]">
             {c.assignments.map((a, i) => {
               const s = g.assignments[i];

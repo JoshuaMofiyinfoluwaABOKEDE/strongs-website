@@ -12,7 +12,7 @@ export function PaperFields({ c, paper, saved = {} }: { c: TheologyCourse; paper
         if (!qn) return null;
         return (
           <li key={item.id}>
-            <fieldset className="flex flex-col gap-2.5 rounded-2xl border border-line bg-white p-5">
+            <fieldset className="flex flex-col gap-2.5 rounded-2xl border border-line bg-white p-4 sm:p-5">
               <legend className="px-1 font-semibold text-navy">{n + 1}. {qn.q}</legend>
               {qn.kind !== "mcq" && <p className="text-xs font-semibold uppercase tracking-wide text-royal">{label[qn.kind]}</p>}
               {qn.kind === "mcq" ? (
@@ -53,7 +53,7 @@ export function PaperReview({ c, paper, answers, marks, reveal }: { c: TheologyC
         const tone = got >= m.max ? "text-royal" : got > 0 ? "text-[#7a5a12]" : "text-[#8a1c1c]";
         const given = answers[item.id] ?? "";
         return (
-          <li key={item.id} className="flex flex-col gap-2 rounded-2xl border border-line bg-white p-5">
+          <li key={item.id} className="flex flex-col gap-2 rounded-2xl border border-line bg-white p-4 sm:p-5">
             <p className="font-semibold text-navy">
               {n + 1}. {qn.q} <span className={`whitespace-nowrap text-sm ${tone}`}>{got}/{m.max}{m.override != null && " (marked by instructor)"}</span>
             </p>

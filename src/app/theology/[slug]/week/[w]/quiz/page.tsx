@@ -31,7 +31,7 @@ export default async function QuizPage({ params, searchParams }: { params: Promi
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2 border-b border-line pb-5">
         <p className="eyebrow">Week {week} quiz</p>
-        <h1 className="text-[clamp(1.8rem,3.4vw,2.5rem)] font-bold leading-tight text-navy">{m.title}</h1>
+        <h1 className="text-[clamp(1.375rem,3.4vw,2.5rem)] font-bold leading-tight text-navy">{m.title}</h1>
         <p className="text-sm text-muted">
           {theologyRules.quiz.questions} questions drawn at random from a bank of 20+ · pass mark {theologyRules.quiz.pass}% · unlimited retakes
           {best != null && <> · your best: <strong className="text-navy">{best}%</strong>{passedEver && " ✓"}</>}
@@ -39,7 +39,7 @@ export default async function QuizPage({ params, searchParams }: { params: Promi
       </header>
 
       {!attempt && (
-        <form action={startQuiz} className="flex flex-wrap items-center gap-4 rounded-2xl bg-mist p-5">
+        <form action={startQuiz} className="flex flex-wrap items-center gap-4 rounded-2xl bg-mist p-4 sm:p-5">
           <input type="hidden" name="slug" value={slug} />
           <input type="hidden" name="week" value={week} />
           <button type="submit" className="btn btn-navy cursor-pointer border-0 font-[inherit]">{best == null ? "Start the quiz" : "Take a new quiz"}</button>
@@ -60,7 +60,7 @@ export default async function QuizPage({ params, searchParams }: { params: Promi
         <>
           <div className={`flex flex-col gap-3 rounded-3xl p-[clamp(1.25rem,3vw,2rem)] ${(attempt.score ?? 0) >= theologyRules.quiz.pass ? "bg-navy text-white" : "border border-gold bg-[#fbf5e6]"}`}>
             <p className={(attempt.score ?? 0) >= theologyRules.quiz.pass ? "eyebrow-dark" : "eyebrow"}>{(attempt.score ?? 0) >= theologyRules.quiz.pass ? "Passed" : "Not yet"}</p>
-            <p className={`text-[clamp(2.2rem,5vw,3.2rem)] font-extrabold leading-none ${(attempt.score ?? 0) >= theologyRules.quiz.pass ? "text-white" : "text-navy"}`}>{attempt.score}%</p>
+            <p className={`text-[clamp(1.625rem,5vw,3.2rem)] font-extrabold leading-none ${(attempt.score ?? 0) >= theologyRules.quiz.pass ? "text-white" : "text-navy"}`}>{attempt.score}%</p>
             <div className="flex flex-wrap gap-3">
               {(attempt.score ?? 0) >= theologyRules.quiz.pass ? (
                 <Link href={week < c.modules.length ? `/theology/${slug}/week/${week + 1}/` : `/theology/${slug}/`} className="btn btn-gold">{week < c.modules.length ? `On to Week ${week + 1}` : "Course home"} →</Link>

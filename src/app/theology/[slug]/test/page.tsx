@@ -29,7 +29,7 @@ export default async function TestPage({ params, searchParams }: { params: Promi
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2 border-b border-line pb-5">
         <p className="eyebrow">Course test · {theologyRules.weights.test}% of your grade</p>
-        <h1 className="text-[clamp(1.8rem,3.4vw,2.5rem)] font-bold leading-tight text-navy">{c.title}: course test</h1>
+        <h1 className="text-[clamp(1.375rem,3.4vw,2.5rem)] font-bold leading-tight text-navy">{c.title}: course test</h1>
         <p className="text-sm text-muted">
           {t.mcq} objective questions, {t.short} short answers and {t.lists} list question{t.lists > 1 && "s"}, drawn at random from the whole course. Not timed. {t.attempts} attempts; your highest score counts.
           {g.testBest != null && <> Best so far: <strong className="text-navy">{g.testBest}%</strong>.</>}
@@ -56,13 +56,13 @@ export default async function TestPage({ params, searchParams }: { params: Promi
       ) : (
         <>
           {left > 0 ? (
-            <form action={startTest} className="flex flex-wrap items-center gap-4 rounded-2xl bg-mist p-5">
+            <form action={startTest} className="flex flex-wrap items-center gap-4 rounded-2xl bg-mist p-4 sm:p-5">
               <input type="hidden" name="slug" value={slug} />
               <button type="submit" className="btn btn-navy cursor-pointer border-0 font-[inherit]">{used ? "Start another attempt" : "Start the test"}</button>
               <span className="text-sm text-muted">{left} of {t.attempts} attempts left.</span>
             </form>
           ) : (
-            <p className="rounded-2xl bg-mist p-5 text-navy">You have used all {t.attempts} attempts. Your best score, {g.testBest}%, counts towards your grade.</p>
+            <p className="rounded-2xl bg-mist p-4 sm:p-5 text-navy">You have used all {t.attempts} attempts. Your best score, {g.testBest}%, counts towards your grade.</p>
           )}
           {attempt && (
             <>

@@ -1,0 +1,241 @@
+{
+  "slug": "grace-election-and-calling",
+  "title": "Grace, Election and Calling",
+  "track": "christ",
+  "level": "Intermediate",
+  "summary": "How God takes the first step in salvation: His grace, His choosing and His call, with the Calvinist and Arminian views presented fairly.",
+  "description": "Salvation begins with God. This course explains the meaning of grace, what the Bible says about God's choosing (election and predestination), how the gospel call goes out to all, and how Calvinist and Arminian Christians understand these truths differently. It closes with what election means for humility, assurance, holiness and evangelism.",
+  "objectives": [
+    "Define grace and distinguish common grace from saving grace",
+    "Explain the biblical teaching on election and predestination",
+    "Present the Calvinist and Arminian views fairly",
+    "Explain the general and effectual call",
+    "Apply the doctrine of election to worship, assurance and evangelism"
+  ],
+  "outcomes": [
+    "Explain why salvation is by grace and not by works",
+    "Summarise the main texts on election",
+    "Compare unconditional and conditional election",
+    "Distinguish the general call from the effectual call",
+    "Show why election encourages, not hinders, evangelism"
+  ],
+  "modules": [
+    {
+      "title": "Amazing Grace",
+      "intro": "Grace is God's undeserved favour. This week we see what grace is, how widely God shows it, and why salvation is by grace alone.",
+      "lessons": [
+        {
+          "title": "What is grace?",
+          "body": "Grace is God's free, undeserved kindness to people who deserve His judgement. Mercy withholds the punishment we deserve; grace gives the blessing we do not deserve.\n\n\"For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast\" (Ephesians 2:8-9).\n\nGrace is not God's reward for good people. \"If by grace, then is it no more of works: otherwise grace is no more grace\" (Romans 11:6). It flows from God's own heart: \"I will be gracious to whom I will be gracious\" (Exodus 33:19).",
+          "refs": ["Ephesians 2:8-9", "Romans 11:6", "Titus 2:11"]
+        },
+        {
+          "title": "Common grace",
+          "body": "God shows kindness to all people, believers and unbelievers alike. He \"maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust\" (Matthew 5:45). He gives \"rain from heaven, and fruitful seasons, filling our hearts with food and gladness\" (Acts 14:17).\n\nTheologians call this **common grace**. It includes life, food, families, government that restrains evil (Romans 13:1-4), conscience (Romans 2:14-15), and human skill in science, art and medicine.\n\nCommon grace does not save, but it shows God's goodness and leads toward repentance (Romans 2:4).",
+          "refs": ["Matthew 5:44-45", "Acts 14:17", "Romans 2:4"]
+        },
+        {
+          "title": "Saving grace",
+          "body": "**Saving grace** is God's work of rescuing sinners through Christ. Because sinners are \"dead in trespasses and sins\" (Ephesians 2:1), they need more than advice; they need life. \"God, who is rich in mercy, for his great love wherewith he loved us, even when we were dead in sins, hath quickened us together with Christ\" (2:4-5).\n\nNo one comes to Christ unless drawn: \"No man can come to me, except the Father which hath sent me draw him\" (John 6:44).\n\nArminian Christians speak of **prevenient grace**: grace that goes before, enabling every person to respond freely. Calvinists speak of **irresistible** or effectual grace given to the elect. Both agree that without grace no one would come.",
+          "refs": ["Ephesians 2:1-5", "John 6:44", "2 Timothy 1:9"]
+        }
+      ],
+      "terms": [
+        { "term": "Grace", "def": "God's free, undeserved favour to sinners." },
+        { "term": "Mercy", "def": "God withholding the punishment we deserve." },
+        { "term": "Common grace", "def": "God's kindness to all people that does not save, such as rain, food and conscience." },
+        { "term": "Saving grace", "def": "God's work through Christ that rescues sinners from sin and death." },
+        { "term": "Prevenient grace", "def": "In Arminian teaching, grace that goes before and enables every person to respond to God." },
+        { "term": "Effectual grace", "def": "In Calvinist teaching, grace that certainly brings the elect to faith; also called irresistible grace." }
+      ],
+      "texts": [
+        { "ref": "Ephesians 2:8", "teaches": "By grace are ye saved through faith; it is the gift of God." },
+        { "ref": "Romans 11:6", "teaches": "If salvation is by grace, it is no more of works." },
+        { "ref": "Matthew 5:45", "teaches": "God sends sun and rain on the evil and the good." },
+        { "ref": "Romans 2:4", "teaches": "God's goodness leads people to repentance." },
+        { "ref": "John 6:44", "teaches": "No one can come to Christ unless the Father draws him." }
+      ],
+      "summary": [
+        "Grace is undeserved favour; mercy withholds deserved punishment.",
+        "Common grace blesses all people but does not save.",
+        "Saving grace gives life to those dead in sin.",
+        "Arminians speak of prevenient grace; Calvinists of effectual grace; both say salvation begins with God."
+      ],
+      "questions": [
+        { "q": "What is grace?", "options": ["God's undeserved favour", "A reward for good works", "A feeling of peace", "A church ceremony"], "answer": 0 },
+        { "q": "Which is an example of common grace?", "options": ["Rain on the just and unjust", "The new birth", "Justification", "Adoption"], "answer": 0 },
+        { "q": "According to John 6:44, who can come to Christ?", "options": ["Those the Father draws", "Everyone by their own strength", "Only the educated", "Only Jews"], "answer": 0 },
+        { "q": "Prevenient grace is a term mainly used by:", "options": ["Arminian Christians", "Roman Catholics only", "Atheists", "Jehovah's Witnesses"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Chosen in Christ",
+      "intro": "The Bible teaches that God chooses. This week we study the key texts on election and predestination.",
+      "lessons": [
+        {
+          "title": "The language of choosing",
+          "body": "Election means God's choosing. God chose Israel, not because they were great, but because He loved them (Deuteronomy 7:6-8).\n\nThe New Testament speaks of believers as chosen: God \"hath chosen us in him before the foundation of the world, that we should be holy\" (Ephesians 1:4). Believers are \"elect according to the foreknowledge of God the Father\" (1 Peter 1:2). Jesus said, \"Ye have not chosen me, but I have chosen you\" (John 15:16).\n\n**Predestination** means God's deciding beforehand: He \"predestinated us unto the adoption of children by Jesus Christ\" (Ephesians 1:5).",
+          "refs": ["Deuteronomy 7:6-8", "Ephesians 1:3-6", "John 15:16"]
+        },
+        {
+          "title": "The golden chain",
+          "body": "Romans 8:29-30 lists God's saving acts in order: \"whom he did foreknow, he also did predestinate to be conformed to the image of his Son... whom he did predestinate, them he also called: and whom he called, them he also justified: and whom he justified, them he also glorified.\"\n\nThis is sometimes called the **golden chain of salvation**. Each link is God's work, and none is lost from first to last.\n\nThe goal of predestination is Christlikeness: \"to be conformed to the image of his Son\". Election is not just about who goes to heaven; it is about God making a holy family.",
+          "refs": ["Romans 8:28-30", "2 Thessalonians 2:13", "Acts 13:48"]
+        },
+        {
+          "title": "Romans 9 and God's purpose",
+          "body": "In Romans 9 Paul explains why many Israelites rejected Christ. God chose Jacob over Esau before they were born, \"that the purpose of God according to election might stand, not of works, but of him that calleth\" (9:11).\n\nPaul answers objections: \"Is there unrighteousness with God? God forbid\" (9:14). He shows God's freedom: \"So then it is not of him that willeth, nor of him that runneth, but of God that sheweth mercy\" (9:16).\n\nYet the same section ends with human responsibility: \"whosoever shall call upon the name of the Lord shall be saved\" (10:13). Both truths stand together in Scripture.",
+          "refs": ["Romans 9:10-16", "Romans 10:9-13", "Romans 11:33"]
+        }
+      ],
+      "terms": [
+        { "term": "Election", "def": "God's choosing of people for salvation and holiness." },
+        { "term": "Predestination", "def": "God's deciding beforehand the destiny of His people." },
+        { "term": "Foreknowledge", "def": "God's knowing beforehand; understood either as foreseeing faith or as loving beforehand." },
+        { "term": "Golden chain", "def": "The sequence in Romans 8:29-30: foreknown, predestined, called, justified, glorified." },
+        { "term": "Elect", "def": "Those whom God has chosen." },
+        { "term": "Purpose of God", "def": "God's eternal plan, which stands not by works but by His call." }
+      ],
+      "texts": [
+        { "ref": "Ephesians 1:4", "teaches": "God chose believers in Christ before the foundation of the world to be holy." },
+        { "ref": "Romans 8:29", "teaches": "Those God foreknew He predestined to be conformed to the image of His Son." },
+        { "ref": "Romans 8:30", "teaches": "Those God called, He justified and glorified." },
+        { "ref": "John 15:16", "teaches": "Jesus chose His disciples; they did not first choose Him." },
+        { "ref": "Romans 10:13", "teaches": "Whoever calls upon the name of the Lord shall be saved." }
+      ],
+      "summary": [
+        "God chose Israel and chooses believers in Christ.",
+        "Predestination aims at making us like Christ.",
+        "Romans 8:29-30 shows God's saving work from start to finish.",
+        "Romans 9-10 holds together God's choosing and human responsibility."
+      ],
+      "questions": [
+        { "q": "When did God choose believers, according to Ephesians 1:4?", "options": ["Before the foundation of the world", "At their baptism", "When they joined a church", "At the last judgement"], "answer": 0 },
+        { "q": "What is the goal of predestination in Romans 8:29?", "options": ["To be conformed to the image of His Son", "To become rich", "To rule nations", "To avoid suffering"], "answer": 0 },
+        { "q": "Which twins does Paul mention in Romans 9?", "options": ["Jacob and Esau", "Cain and Abel", "Perez and Zerah", "Ephraim and Manasseh"], "answer": 0 },
+        { "q": "Romans 10:13 teaches that whoever calls on the Lord:", "options": ["Shall be saved", "Must first be elect", "Will be tested", "Is already saved"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Two Views of Election",
+      "intro": "Christians who love the Bible understand election in two main ways. This week we present each view fairly, with its texts and concerns.",
+      "lessons": [
+        {
+          "title": "The Calvinist view",
+          "body": "Following Augustine and John Calvin, Reformed Christians (including Reformed Baptists) teach **unconditional election**: God chose some for salvation not because of anything foreseen in them, but purely by His grace.\n\nThey stress that sinners are spiritually dead and cannot believe unless God first gives new life (Ephesians 2:1-5). Faith itself is God's gift. \"As many as were ordained to eternal life believed\" (Acts 13:48).\n\nThey see foreknowledge as God setting His love on people beforehand. This view is often summarised as TULIP, from the Synod of Dort (1619).",
+          "refs": ["Acts 13:48", "Ephesians 1:11", "Philippians 1:29"]
+        },
+        {
+          "title": "The Arminian view",
+          "body": "Following Jacob Arminius and John Wesley, many Christians, including Methodists, Holiness churches such as Deeper Life, most Pentecostals and many Baptists, teach **conditional election**: God chose those whom He foreknew would believe.\n\nThey stress that God \"will have all men to be saved\" (1 Timothy 2:4) and is \"not willing that any should perish\" (2 Peter 3:9). By prevenient grace, everyone is enabled to respond.\n\nThey see election as corporate (God chose a people in Christ) and conditional on faith (1 Peter 1:2), and they emphasise genuine human responsibility to believe.",
+          "refs": ["1 Timothy 2:3-4", "2 Peter 3:9", "1 Peter 1:2"]
+        },
+        {
+          "title": "Holding the tension",
+          "body": "Both views seek to honour Scripture. Calvinists fear that conditional election makes salvation depend on man; Arminians fear that unconditional election makes God seem unfair and weakens human responsibility.\n\nBoth agree on essentials: salvation is by grace through faith; no one is saved by works; God is sovereign and good; people are responsible to repent and believe; the gospel must be preached to all.\n\nCharles Spurgeon, a Calvinist Baptist, refused to choose between these truths, saying he did not need to reconcile friends. Some compare them to two railway lines that seem to meet only at the horizon. Humility, not pride, should mark how we hold our view (Romans 11:33-36).",
+          "refs": ["Romans 11:33-36", "Deuteronomy 29:29", "Philippians 2:12-13"]
+        }
+      ],
+      "terms": [
+        { "term": "Unconditional election", "def": "The Calvinist view that God chose people purely by grace, not because of foreseen faith." },
+        { "term": "Conditional election", "def": "The Arminian view that God chose those He foreknew would believe." },
+        { "term": "Calvinism", "def": "The Reformed system of theology associated with John Calvin, stressing God's sovereignty in salvation." },
+        { "term": "Arminianism", "def": "The system associated with Jacob Arminius and John Wesley, stressing God's universal love and human response." },
+        { "term": "TULIP", "def": "A summary of Calvinist teaching from the Synod of Dort." },
+        { "term": "Corporate election", "def": "The view that God chose a people in Christ, with individuals included by faith." }
+      ],
+      "texts": [
+        { "ref": "Acts 13:48", "teaches": "As many as were ordained to eternal life believed." },
+        { "ref": "1 Timothy 2:4", "teaches": "God will have all men to be saved." },
+        { "ref": "2 Peter 3:9", "teaches": "The Lord is not willing that any should perish." },
+        { "ref": "Philippians 2:13", "teaches": "God works in believers both to will and to do His good pleasure." },
+        { "ref": "Romans 11:33", "teaches": "God's judgements are unsearchable and His ways past finding out." }
+      ],
+      "summary": [
+        "Calvinists teach unconditional election by grace alone.",
+        "Arminians teach election conditioned on foreseen faith, with prevenient grace for all.",
+        "Both agree salvation is by grace through faith and the gospel is for all.",
+        "Hold your view with humility and worship."
+      ],
+      "questions": [
+        { "q": "Who is associated with conditional election?", "options": ["Jacob Arminius", "John Calvin", "Augustine", "Martin Luther"], "answer": 0 },
+        { "q": "TULIP summarises the teaching of:", "options": ["Calvinism", "Arminianism", "Catholicism", "Pentecostalism"], "answer": 0 },
+        { "q": "Which text do Arminians often cite?", "options": ["2 Peter 3:9", "Acts 13:48", "Romans 9:16", "Ephesians 1:11"], "answer": 0 },
+        { "q": "On what do both views agree?", "options": ["Salvation is by grace through faith", "Works earn salvation", "Evangelism is unnecessary", "God is unfair"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Call of God",
+      "intro": "God calls through the gospel. This week we study the general and effectual call and how election should shape our lives.",
+      "lessons": [
+        {
+          "title": "The general call",
+          "body": "The gospel invitation goes out to everyone. \"Come unto me, all ye that labour and are heavy laden\" (Matthew 11:28). \"Whosoever will, let him take the water of life freely\" (Revelation 22:17). God \"commandeth all men every where to repent\" (Acts 17:30).\n\nThis is the **general** or outward call. It is sincere: God takes no pleasure in the death of the wicked (Ezekiel 33:11).\n\nYet not all respond. \"Many are called, but few are chosen\" (Matthew 22:14). People who reject the call are responsible for their choice (John 5:40).",
+          "refs": ["Matthew 11:28", "Revelation 22:17", "Ezekiel 33:11"]
+        },
+        {
+          "title": "The effectual call",
+          "body": "Scripture also speaks of a call that brings people to Christ. Those who are \"called\" in Romans 8:30 are also justified. Paul says God \"called us with an holy calling\" (2 Timothy 1:9), and \"called you out of darkness into his marvellous light\" (1 Peter 2:9).\n\nLydia shows how this works: \"whose heart the Lord opened, that she attended unto the things which were spoken of Paul\" (Acts 16:14).\n\nCalvinists call this the **effectual call**, which always succeeds. Arminians see the inward call as grace that can be accepted or resisted (Acts 7:51). Both pray for God to open hearts.",
+          "refs": ["Acts 16:14", "1 Peter 2:9", "Acts 7:51"]
+        },
+        {
+          "title": "Living as the chosen",
+          "body": "Election is meant to shape how we live:\n\n- **Humility**: \"What hast thou that thou didst not receive?\" (1 Corinthians 4:7).\n- **Assurance**: our salvation rests on God's purpose, not our strength.\n- **Holiness**: chosen \"that we should be holy\" (Ephesians 1:4); \"give diligence to make your calling and election sure\" (2 Peter 1:10).\n- **Evangelism**: Paul endured all things \"for the elect's sakes, that they may also obtain the salvation\" (2 Timothy 2:10). God told Paul in Corinth, \"I have much people in this city\" (Acts 18:10).\n\nWe do not know who the elect are; we preach to all.",
+          "refs": ["2 Peter 1:10", "2 Timothy 2:10", "Acts 18:9-10"]
+        }
+      ],
+      "terms": [
+        { "term": "General call", "def": "The outward invitation of the gospel to all people." },
+        { "term": "Effectual call", "def": "God's inward call that brings a person to faith in Christ." },
+        { "term": "Calling", "def": "God's summons to salvation and to a holy life." },
+        { "term": "Whosoever will", "def": "The open gospel invitation of Revelation 22:17." },
+        { "term": "Calling and election sure", "def": "Peter's command to confirm our calling by growth in godliness (2 Peter 1:10)." },
+        { "term": "Resisting the Spirit", "def": "Opposing the Holy Spirit's work, as Stephen charged his hearers (Acts 7:51)." }
+      ],
+      "texts": [
+        { "ref": "Matthew 11:28", "teaches": "Jesus invites all who labour and are heavy laden to come to Him." },
+        { "ref": "Matthew 22:14", "teaches": "Many are called, but few are chosen." },
+        { "ref": "Acts 16:14", "teaches": "The Lord opened Lydia's heart to attend to Paul's words." },
+        { "ref": "2 Peter 1:10", "teaches": "Give diligence to make your calling and election sure." },
+        { "ref": "2 Timothy 2:10", "teaches": "Paul endured all things for the elect's sakes, that they might be saved." }
+      ],
+      "summary": [
+        "The general call of the gospel goes sincerely to all.",
+        "The inward call brings people to Christ; Calvinists see it as always effective, Arminians as resistible.",
+        "Election should produce humility, assurance and holiness.",
+        "Election encourages evangelism: we preach to all."
+      ],
+      "questions": [
+        { "q": "What is the general call?", "options": ["The gospel invitation to all", "A call to ministry", "A phone call", "A call to fast"], "answer": 0 },
+        { "q": "Whose heart did the Lord open in Acts 16?", "options": ["Lydia's", "Peter's", "Felix's", "Agrippa's"], "answer": 0 },
+        { "q": "How should election affect evangelism?", "options": ["It encourages us to preach to all", "It makes evangelism unnecessary", "It forbids preaching", "It limits preaching to Jews"], "answer": 0 },
+        { "q": "What does 2 Peter 1:10 command?", "options": ["Make your calling and election sure", "Stop preaching", "Find out who is elect", "Ignore holiness"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Distinguish grace from mercy.", "keywords": [["undeserved", "favour", "favor", "gives"], ["withhold", "punishment", "not receive"]], "model": "Grace gives undeserved favour and blessing; mercy withholds the punishment we deserve." },
+      { "q": "What is common grace? Give two examples.", "keywords": [["all people", "everyone", "unbelievers", "does not save"], ["rain", "sun", "food", "conscience", "government", "family"]], "model": "God's kindness to all people that does not save, such as rain and food, government and conscience." },
+      { "q": "Explain the golden chain of Romans 8:29-30.", "keywords": [["foreknow", "predestinate"], ["called", "justified"], ["glorified"]], "model": "Those God foreknew He predestined, called, justified and glorified; each link is His work and none is lost." },
+      { "q": "Summarise the Calvinist view of election.", "keywords": [["unconditional", "grace alone", "not foreseen"], ["dead", "cannot", "gift"]], "model": "God chose some unconditionally by grace, not because of foreseen faith; sinners are dead and faith is God's gift." },
+      { "q": "Summarise the Arminian view of election.", "keywords": [["foreknew", "foreseen", "conditional", "believe"], ["prevenient", "all", "everyone"]], "model": "God chose those He foreknew would believe; prevenient grace enables all to respond." },
+      { "q": "How should election affect a believer's life?", "keywords": [["humble", "humility"], ["assurance", "secure"], ["holy", "holiness", "evangelism", "preach"]], "model": "It produces humility, assurance resting on God, a pursuit of holiness and zeal to preach to all." }
+    ],
+    "lists": [
+      { "q": "List four examples of common grace.", "items": [["rain", "sun", "seasons"], ["food", "harvest"], ["government", "law"], ["conscience"], ["family", "marriage"], ["skill", "science", "medicine", "art"]], "need": 4 },
+      { "q": "List the five links of the golden chain.", "items": [["foreknew", "foreknow", "foreknowledge"], ["predestinated", "predestined", "predestination"], ["called", "calling"], ["justified", "justification"], ["glorified", "glorification"]], "need": 5 },
+      { "q": "List three points on which Calvinists and Arminians agree.", "items": [["grace", "through faith"], ["not by works"], ["sovereign", "God is good"], ["responsible", "repent and believe"], ["preach", "gospel to all", "evangelism"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Election and evangelism", "prompt": "Some say, \"If God has chosen who will be saved, why should I evangelise?\" Write a reply using at least five passages from this course, showing how both Calvinist and Arminian Christians answer this question.", "words": "500–700" },
+    { "title": "Comparing the two views", "prompt": "Present the Calvinist and Arminian views of election fairly. For each, give its main texts, its strongest point and the concern it raises about the other view. Close with what you have learned about holding such doctrines with humility.", "words": "600–800" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "J. I. Packer, Evangelism and the Sovereignty of God",
+    "Roger E. Olson, Arminian Theology: Myths and Realities",
+    "Millard J. Erickson, Christian Theology, the chapter on God's plan"
+  ]
+}

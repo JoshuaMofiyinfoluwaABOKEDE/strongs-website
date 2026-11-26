@@ -22,14 +22,14 @@ export default async function TheologyLesson({ params }: { params: Promise<{ slu
 
   return (
     <UnitShell c={c} g={g} current={`w${week}l${n}`}>
-    <article className="flex flex-col gap-8">
-      <header className="flex flex-col gap-3 border-b border-line pb-6">
+    <article className="flex flex-col gap-6 sm:gap-8">
+      <header className="flex flex-col gap-3 border-b border-line pb-4 sm:pb-6">
         <p className="eyebrow">Week {week} · {m.title} · Lesson {n} of {m.lessons.length}</p>
-        <h1 className="text-[clamp(1.9rem,3.6vw,2.8rem)] font-bold leading-[1.1] tracking-[-0.015em] text-navy">{lesson.title}</h1>
+        <h1 className="text-[clamp(1.5rem,3.6vw,2.8rem)] font-bold leading-[1.1] tracking-[-0.015em] text-navy">{lesson.title}</h1>
         {done && <p className="text-sm font-semibold text-royal">Completed ✓</p>}
       </header>
       <div className="lesson-text max-w-3xl" dangerouslySetInnerHTML={{ __html: renderMarkdown(lesson.body) }} />
-      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 rounded-2xl bg-mist p-5 text-[0.9375rem]">
+      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 rounded-2xl bg-mist p-4 text-sm sm:p-5 sm:text-[0.9375rem]">
         <span className="font-semibold text-navy">Read in the KJV:</span>
         {lesson.refs.map((r, i) => <span key={r}><Ref r={r} />{i < lesson.refs.length - 1 && ";"}</span>)}
       </div>

@@ -47,8 +47,8 @@ export function UnitShell({ c, g, current, children }: { c: TheologyCourse; g: G
   return (
     <div className="grid items-start gap-8 lg:grid-cols-[18rem_1fr]">
       <div className="hidden lg:block"><TheologyNav c={c} g={g} /></div>
-      <div className="flex min-w-0 flex-col gap-5">
-        <nav aria-label="Breadcrumb" className="text-sm text-muted">
+      <div className="flex min-w-0 flex-col gap-4 sm:gap-5">
+        <nav aria-label="Breadcrumb" className="text-[0.8125rem] leading-snug text-muted sm:text-sm">
           <Link href={`/theology/${c.slug}/`}>Course</Link> <span aria-hidden="true">›</span> Week {u.week}: {c.modules[u.week - 1].title} <span aria-hidden="true">›</span> <span className="text-navy">{u.title}</span>
         </nav>
         <ol aria-label={`Week ${u.week} units`} className="flex gap-1.5 overflow-x-auto rounded-xl border border-line bg-white p-1.5">
@@ -58,7 +58,7 @@ export function UnitShell({ c, g, current, children }: { c: TheologyCourse; g: G
                 href={x.href}
                 title={`${label[x.kind]}: ${x.title}`}
                 aria-current={x.key === current ? "step" : undefined}
-                className={`relative flex min-h-11 min-w-11 items-center justify-center rounded-lg text-lg no-underline ${
+                className={`relative flex min-h-10 min-w-10 items-center justify-center rounded-lg text-base sm:min-h-11 sm:min-w-11 sm:text-lg no-underline ${
                   x.key === current ? "bg-navy text-gold" : x.done ? "bg-mist text-royal hover:bg-line" : "text-steel hover:bg-mist"
                 }`}
               >
@@ -70,7 +70,7 @@ export function UnitShell({ c, g, current, children }: { c: TheologyCourse; g: G
           ))}
         </ol>
         {nav}
-        <div className="rounded-2xl border border-line bg-white p-[clamp(1.25rem,3vw,2.25rem)]">{children}</div>
+        <div className="-mx-[clamp(1.25rem,4vw,3rem)] border-y border-line bg-white px-[clamp(1.25rem,4vw,3rem)] py-6 sm:mx-0 sm:rounded-2xl sm:border sm:p-[clamp(1.25rem,3vw,2.25rem)]">{children}</div>
         {nav}
       </div>
     </div>
@@ -82,11 +82,11 @@ export function AssessShell({ c, g, title, children }: { c: TheologyCourse; g: G
   return (
     <div className="grid items-start gap-8 lg:grid-cols-[18rem_1fr]">
       <div className="hidden lg:block"><TheologyNav c={c} g={g} /></div>
-      <div className="flex min-w-0 flex-col gap-5">
-        <nav aria-label="Breadcrumb" className="text-sm text-muted">
+      <div className="flex min-w-0 flex-col gap-4 sm:gap-5">
+        <nav aria-label="Breadcrumb" className="text-[0.8125rem] leading-snug text-muted sm:text-sm">
           <Link href={`/theology/${c.slug}/`}>Course</Link> <span aria-hidden="true">›</span> Assessment <span aria-hidden="true">›</span> <span className="text-navy">{title}</span>
         </nav>
-        <div className="rounded-2xl border border-line bg-white p-[clamp(1.25rem,3vw,2.25rem)]">{children}</div>
+        <div className="-mx-[clamp(1.25rem,4vw,3rem)] border-y border-line bg-white px-[clamp(1.25rem,4vw,3rem)] py-6 sm:mx-0 sm:rounded-2xl sm:border sm:p-[clamp(1.25rem,3vw,2.25rem)]">{children}</div>
       </div>
     </div>
   );

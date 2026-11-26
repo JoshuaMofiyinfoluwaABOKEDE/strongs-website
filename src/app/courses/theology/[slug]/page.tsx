@@ -67,33 +67,33 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
   ];
 
   return (
-    <>
+    <div className="edx">
       <LearnBar />
       {/* Hero */}
       <section aria-labelledby="c-title" className="bg-navy text-white">
-        <div className="container-site grid items-center gap-10 py-[clamp(2.5rem,5vw,4.5rem)] lg:grid-cols-[1.5fr_1fr]">
-          <div className="flex flex-col gap-5">
-            <nav aria-label="Breadcrumb" className="text-sm text-pale">
+        <div className="container-site grid items-center gap-6 py-[clamp(1.75rem,5vw,4.5rem)] lg:gap-10 lg:grid-cols-[1.5fr_1fr]">
+          <div className="flex flex-col gap-3.5 sm:gap-5">
+            <nav aria-label="Breadcrumb" className="text-[0.8125rem] leading-snug text-pale sm:text-sm">
               <Link href="/courses/" className="text-pale hover:text-white">Courses</Link> <span aria-hidden="true">›</span>{" "}
               <Link href="/courses/theology/" className="text-pale hover:text-white">School of Theology</Link> <span aria-hidden="true">›</span>{" "}
               <Link href={`/courses/theology/#${track?.id}`} className="text-pale hover:text-white">{track?.name}</Link>
             </nav>
             <p className="eyebrow-dark">STRONGS School of Theology · {code}</p>
-            <h1 id="c-title" className="text-[clamp(2.2rem,4.6vw,3.6rem)] font-bold leading-[1.08] tracking-[-0.02em]">{c.title}</h1>
+            <h1 id="c-title" className="text-[clamp(1.625rem,4.6vw,3.6rem)] font-bold leading-[1.08] tracking-[-0.02em]">{c.title}</h1>
             <p className="lead max-w-2xl text-pale">{c.summary}</p>
-            <div className="flex flex-wrap items-center gap-4">{enrolButton}<span className="text-sm text-pale">Start any time · learn at your own pace</span></div>
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2">{enrolButton}<span className="text-sm text-pale">Start any time · learn at your own pace</span></div>
           </div>
-          <ul className="grid grid-cols-2 gap-3">
+          <ul className="grid grid-cols-2 gap-2 sm:gap-3">
             {[
               ["⏱", courseHours(c), "of learning"],
               ["⟳", "Self-paced", "start any time"],
               ["✓", "Free learning", "no fees"],
               ["★", "Certificate", "free, verifiable"],
             ].map(([icon, big, small]) => (
-              <li key={big} className="flex flex-col gap-1 rounded-2xl bg-navy-2 p-5">
-                <span aria-hidden="true" className="text-xl text-gold">{icon}</span>
-                <span className="font-bold leading-tight">{big}</span>
-                <span className="text-sm text-pale">{small}</span>
+              <li key={big} className="flex flex-col gap-0.5 rounded-xl bg-navy-2 px-3.5 py-3 sm:gap-1 sm:rounded-2xl sm:p-5">
+                <span aria-hidden="true" className="text-base text-gold sm:text-xl">{icon}</span>
+                <span className="text-[0.9375rem] font-bold leading-tight sm:text-base">{big}</span>
+                <span className="text-[0.8125rem] text-pale sm:text-sm">{small}</span>
               </li>
             ))}
           </ul>
@@ -102,39 +102,39 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
 
       {/* Body */}
       <section className="bg-white">
-        <div className="container-site section-pad grid items-start gap-14 lg:grid-cols-[1.5fr_1fr]">
-          <div className="flex flex-col gap-12">
+        <div className="container-site section-pad grid items-start gap-10 lg:grid-cols-[1.5fr_1fr] lg:gap-14">
+          <div className="flex flex-col gap-9 sm:gap-12">
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-navy">About this course</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-navy">About this course</h2>
               <p className="lead whitespace-pre-line text-muted">{c.description}</p>
             </div>
 
-            <div className="flex flex-col gap-4 rounded-3xl bg-mist p-[clamp(1.5rem,3vw,2.25rem)]">
-              <h2 className="text-2xl font-bold text-navy">What you&rsquo;ll learn</h2>
-              <ul className="grid gap-3 sm:grid-cols-2">{c.outcomes.map((o) => <li key={o} className="tick">{o}</li>)}</ul>
+            <div className="flex flex-col gap-4 rounded-2xl bg-mist p-[clamp(1.25rem,3vw,2.25rem)] sm:rounded-3xl">
+              <h2 className="text-xl sm:text-2xl font-bold text-navy">What you&rsquo;ll learn</h2>
+              <ul className="grid gap-3 sm:grid-cols-2">{c.outcomes.map((o) => <li key={o} className="tick text-[0.9375rem] sm:text-base">{o}</li>)}</ul>
             </div>
 
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-navy">Key highlights</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-navy">Key highlights</h2>
               <ul className="flex flex-col gap-2.5">
-                {c.objectives.map((o) => <li key={o} className="tick">{o}</li>)}
-                <li className="tick">{lessonCount(c)} byte-sized lessons with King James Bible references, key terms and weekly summaries</li>
-                <li className="tick">A weekly quiz drawn from a bank of 20+ questions, a course test, written assignments and a final exam</li>
+                {c.objectives.map((o) => <li key={o} className="tick text-[0.9375rem] sm:text-base">{o}</li>)}
+                <li className="tick text-[0.9375rem] sm:text-base">{lessonCount(c)} byte-sized lessons with King James Bible references, key terms and weekly summaries</li>
+                <li className="tick text-[0.9375rem] sm:text-base">A weekly quiz drawn from a bank of 20+ questions, a course test, written assignments and a final exam</li>
               </ul>
             </div>
 
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-navy">Syllabus</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-navy">Syllabus</h2>
               <ol className="flex flex-col border-t border-line">
                 {c.modules.map((m, i) => (
                   <li key={i}>
                     <details className="group border-b border-line" open={i === 0}>
-                      <summary className="flex cursor-pointer list-none items-center gap-4 py-4">
-                        <span className="flex h-9 w-14 flex-none items-center justify-center rounded-lg bg-navy text-xs font-bold uppercase text-gold">Wk {i + 1}</span>
-                        <span className="flex flex-1 flex-col"><span className="font-semibold text-navy">{m.title}</span><span className="text-sm text-muted">{m.lessons.length} lessons · key terms · summary · quiz</span></span>
+                      <summary className="flex cursor-pointer list-none items-center gap-3 py-3.5 sm:gap-4 sm:py-4">
+                        <span className="flex h-8 w-12 flex-none items-center justify-center rounded-md bg-navy text-[0.6875rem] sm:h-9 sm:w-14 sm:rounded-lg sm:text-xs font-bold uppercase text-gold">Wk {i + 1}</span>
+                        <span className="flex min-w-0 flex-1 flex-col"><span className="text-[0.9375rem] font-semibold leading-snug text-navy sm:text-base">{m.title}</span><span className="text-[0.8125rem] text-muted sm:text-sm">{m.lessons.length} lessons · key terms · summary · quiz</span></span>
                         <span className="text-xl text-royal group-open:hidden">+</span><span className="hidden text-xl text-royal group-open:inline">−</span>
                       </summary>
-                      <div className="flex flex-col gap-2 pb-5 pl-[4.5rem]">
+                      <div className="flex flex-col gap-2 pb-5 text-[0.9375rem] sm:pl-[4.5rem] sm:text-base">
                         <p className="text-muted">{m.intro}</p>
                         <ul className="flex list-disc flex-col gap-1 pl-5 text-[0.9375rem]">{m.lessons.map((l) => <li key={l.title}>{l.title}</li>)}</ul>
                         <p className="text-sm text-muted">Key texts: {m.texts.map((t, j) => <span key={t.ref}><Ref r={t.ref} />{j < m.texts.length - 1 && "; "}</span>)}</p>
@@ -142,20 +142,20 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
                     </details>
                   </li>
                 ))}
-                <li className="flex items-center gap-4 border-b border-line py-4">
-                  <span className="flex h-9 w-14 flex-none items-center justify-center rounded-lg bg-gold text-xs font-bold uppercase text-navy">Final</span>
-                  <span className="flex flex-col"><span className="font-semibold text-navy">Assessment</span><span className="text-sm text-muted">{c.assignments.length} assignments · course test · final exam</span></span>
+                <li className="flex items-center gap-3 border-b border-line py-3.5 sm:gap-4 sm:py-4">
+                  <span className="flex h-8 w-12 flex-none items-center justify-center rounded-md bg-gold text-[0.6875rem] sm:h-9 sm:w-14 sm:rounded-lg sm:text-xs font-bold uppercase text-navy">Final</span>
+                  <span className="flex flex-col"><span className="text-[0.9375rem] font-semibold text-navy sm:text-base">Assessment</span><span className="text-[0.8125rem] text-muted sm:text-sm">{c.assignments.length} assignments · course test · final exam</span></span>
                 </li>
               </ol>
             </div>
 
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-navy">Who this course is for</h2>
-              <ul className="grid gap-3 sm:grid-cols-2">{audienceFor(c).map((a) => <li key={a} className="rounded-xl border border-line px-4 py-3 text-[0.9375rem] text-ink">{a}</li>)}</ul>
+              <h2 className="text-xl sm:text-2xl font-bold text-navy">Who this course is for</h2>
+              <ul className="grid gap-3 sm:grid-cols-2">{audienceFor(c).map((a) => <li key={a} className="rounded-xl border border-line px-4 py-3 text-sm text-ink sm:text-[0.9375rem]">{a}</li>)}</ul>
             </div>
 
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-navy">How you are assessed</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-navy">How you are assessed</h2>
               <ul className="grid grid-cols-2 gap-3 md:grid-cols-4">
                 {[
                   ["Final exam", w.exam, `Timed (${c.examMinutes} min), one attempt`],
@@ -163,9 +163,9 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
                   ["Assignments", w.assignments, `${c.assignments.length}, instructor-graded`],
                   ["Weekly quizzes", w.quizzes, `Pass at ${theologyRules.quiz.pass}%+`],
                 ].map(([t, pc, d]) => (
-                  <li key={t} className="flex flex-col gap-1 rounded-2xl bg-mist p-4">
-                    <span className="text-2xl font-extrabold text-royal">{pc}%</span>
-                    <span className="font-semibold text-navy">{t}</span>
+                  <li key={t} className="flex flex-col gap-0.5 rounded-xl bg-mist p-3.5 sm:gap-1 sm:rounded-2xl sm:p-4">
+                    <span className="text-xl font-extrabold text-royal sm:text-2xl">{pc}%</span>
+                    <span className="text-[0.9375rem] font-semibold text-navy sm:text-base">{t}</span>
                     <span className="text-xs text-muted">{d}</span>
                   </li>
                 ))}
@@ -174,14 +174,14 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
             </div>
 
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-navy">Frequently asked questions</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-navy">Frequently asked questions</h2>
               <div className="flex flex-col border-t border-line">
                 {faqs.map(([q, a]) => (
                   <details key={q} className="group border-b border-line">
-                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-4 font-semibold text-navy">
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-3.5 text-[0.9375rem] font-semibold text-navy sm:py-4 sm:text-base">
                       {q}<span className="text-xl text-royal group-open:hidden">+</span><span className="hidden text-xl text-royal group-open:inline">−</span>
                     </summary>
-                    <p className="pb-4 text-muted">{a}</p>
+                    <p className="pb-4 text-[0.9375rem] text-muted sm:text-base">{a}</p>
                   </details>
                 ))}
               </div>
@@ -190,16 +190,16 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
 
           {/* Sidebar: course details, enrol, sample certificate */}
           <aside className="flex flex-col gap-5 lg:sticky lg:top-28" aria-label="Course details">
-            <div className="flex flex-col gap-4 rounded-3xl border border-line p-6">
+            <div className="flex flex-col gap-4 rounded-2xl border border-line p-5 sm:rounded-3xl sm:p-6">
               <h2 className="text-lg font-bold text-navy">Course details</h2>
-              <dl className="flex flex-col divide-y divide-line text-[0.9375rem]">
+              <dl className="flex flex-col divide-y divide-line text-sm sm:text-[0.9375rem]">
                 {details.map(([k, v]) => (
                   <div key={k} className="flex justify-between gap-4 py-2.5"><dt className="text-muted">{k}</dt><dd className="text-right font-semibold text-navy">{v}</dd></div>
                 ))}
               </dl>
               {enrolButton && <div className="[&_.btn]:w-full [&_form]:w-full">{enrolButton}</div>}
             </div>
-            <div className="flex flex-col gap-3 rounded-3xl bg-mist p-6">
+            <div className="flex flex-col gap-3 rounded-2xl bg-mist p-5 sm:rounded-3xl sm:p-6">
               <h2 className="text-lg font-bold text-navy">Sample certificate</h2>
               <div className="flex flex-col items-center gap-1.5 rounded-lg border-[6px] border-navy bg-white px-4 py-5 text-center outline outline-1 -outline-offset-[12px] outline-gold">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -212,7 +212,7 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
               <p className="text-xs text-muted">Download it as a PDF, and share a link anyone can use to verify it.</p>
             </div>
             {c.reading && c.reading.length > 0 && (
-              <div className="flex flex-col gap-2 rounded-3xl border border-line p-6">
+              <div className="flex flex-col gap-2 rounded-2xl border border-line p-5 sm:rounded-3xl sm:p-6">
                 <h2 className="text-lg font-bold text-navy">For further reading</h2>
                 <ul className="flex list-disc flex-col gap-1 pl-5 text-[0.9375rem] text-muted">{c.reading.map((r) => <li key={r}>{r}</li>)}</ul>
               </div>
@@ -224,12 +224,12 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
       {related.length > 0 && (
         <section className="bg-mist">
           <div className="container-site section-pad flex flex-col gap-6">
-            <h2 className="h2 text-navy">More in {track?.name}</h2>
-            <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{related.map((x) => <li key={x.slug}><TheologyCard c={x} n={theologyOrder.findIndex((o) => o.slug === x.slug) + 1} /></li>)}</ul>
+            <h2 className="text-[clamp(1.375rem,3.6vw,2.875rem)] font-bold leading-tight tracking-[-0.02em] text-navy">More in {track?.name}</h2>
+            <ul className="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">{related.map((x) => <li key={x.slug}><TheologyCard c={x} n={theologyOrder.findIndex((o) => o.slug === x.slug) + 1} /></li>)}</ul>
             <Link href="/courses/theology/" className="self-start font-semibold">All School of Theology courses →</Link>
           </div>
         </section>
       )}
-    </>
+    </div>
   );
 }
