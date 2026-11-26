@@ -6,6 +6,18 @@ import { SectionHeading } from "@/components/ui";
 import { StrongsForm } from "@/components/Form";
 import { Shield } from "@/components/icons";
 
+/** Which course subject each community's "Take a course" button opens. */
+const communityCourses: Record<string, { subject: string; label: string }> = {
+  Writers: { subject: "writing", label: "writing" },
+  Musicians: { subject: "music", label: "music" },
+  Creatives: { subject: "media", label: "media and design" },
+  Speakers: { subject: "leadership", label: "leadership and speaking" },
+  Teenagers: { subject: "health", label: "teen and life" },
+  Intellectuals: { subject: "theology", label: "theology" },
+  "Young Professionals": { subject: "skills", label: "career and skills" },
+  Readers: { subject: "bible", label: "Bible" },
+};
+
 export const metadata: Metadata = {
   title: "STRONGS Communities",
   description:
@@ -73,8 +85,8 @@ export default function CommunitiesPage() {
                     {c.activities.map((a) => <li key={a} className="tick text-[0.9375rem]">{a}</li>)}
                   </ul>
                   {c.note && <p className="rounded-xl bg-mist p-3 text-sm text-ink">{c.note}</p>}
-                  {(c.short === "Writers" || c.short === "Musicians" || c.short === "Creatives") && (
-                    <Link href={`/courses/#${c.short === "Writers" ? "writing" : c.short === "Musicians" ? "music" : "media"}`} className="text-sm font-semibold">Take a {c.short === "Writers" ? "writing" : c.short === "Musicians" ? "music" : "media"} course →</Link>
+                  {communityCourses[c.short] && (
+                    <Link href={`/courses/search/?subject=${communityCourses[c.short].subject}`} className="btn btn-navy min-h-10 self-start px-5 text-sm">Take a {communityCourses[c.short].label} course →</Link>
                   )}
                 </div>
               </details>

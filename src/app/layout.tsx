@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/Header";
+import { NavGuard } from "@/components/NavGuard";
 import { Footer } from "@/components/Footer";
 import { CarouselScript } from "@/components/CarouselScript";
 import { site } from "@/content/site";
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         >
           Skip to content
         </a>
+        <NavGuard />
         <Header />
         <main id="main">{children}</main>
         <Footer />
