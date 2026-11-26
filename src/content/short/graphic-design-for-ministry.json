@@ -1,0 +1,411 @@
+{
+ "slug": "graphic-design-for-ministry",
+ "objectives": [
+  "Apply the core principles of design to ministry graphics",
+  "Use typography and colour with purpose and consistency",
+  "Create designs in Canva and understand Photoshop basics",
+  "Design an event flyer and keep a ministry brand consistent"
+ ],
+ "modules": [
+  {
+   "title": "Design basics",
+   "summary": "The principles behind every good design.",
+   "lessons": [
+    {
+     "title": "Design that serves",
+     "scripture": "Exodus 31:1-6; Habakkuk 2:2",
+     "body": "God filled Bezaleel \"with the spirit of God, in wisdom, and in understanding, and in knowledge, and in all manner of workmanship, to devise cunning works\" (Exodus 31:3-4). Design and craftsmanship are gifts God uses.\n\nMinistry design **serves a message**. A flyer, social media graphic or banner should help people understand quickly: What is it? When? Where? Why should I come? \"Write the vision, and make it plain\" (Habakkuk 2:2).\n\nBefore you design, answer:\n\n- **Purpose**: inform, invite, inspire?\n- **Audience**: students, families, professionals, children?\n- **Main message** in one sentence.\n- **Essential information**: title, date, time, venue, contact.\n- **Where it will be seen**: WhatsApp, Instagram, a printed poster, a banner.\n\nGood design is not decoration added at the end. It is clear communication from the start."
+    },
+    {
+     "title": "Four principles",
+     "scripture": "1 Corinthians 14:33; 1 Corinthians 14:40",
+     "body": "\"God is not the author of confusion\" (1 Corinthians 14:33). Four principles bring order to design (often remembered as **CRAP**, or more politely **PARC**):\n\n- **Contrast**: make important things different (bigger, bolder, a different colour) so the eye knows where to look. Strong contrast between text and background is essential for reading.\n- **Repetition**: repeat colours, fonts and shapes so the design feels unified.\n- **Alignment**: line elements up with each other. Nothing should be placed randomly.\n- **Proximity**: group related information together (date, time and venue in one block).\n\nAlso:\n\n- **Hierarchy**: one main thing first (usually the title), then supporting details.\n- **White space**: empty space is not wasted; it lets the design breathe.\n- **Less is more**: cut anything that doesn't help the message."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What should ministry design serve?",
+     "options": [
+      "A message",
+      "Decoration only",
+      "The designer's ego",
+      "Filling every space"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which principle groups related information together?",
+     "options": [
+      "Proximity",
+      "Contrast",
+      "Repetition",
+      "Alignment"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why is white space important?",
+     "options": [
+      "It lets the design breathe and helps readers focus",
+      "It is wasted space",
+      "It makes designs cheaper",
+      "It hides mistakes"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is hierarchy in design?",
+     "options": [
+      "Showing one main thing first, then supporting details",
+      "Using many fonts",
+      "Putting everything the same size",
+      "Ranking designers"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Typography and colour",
+   "summary": "Choosing fonts and colours with purpose.",
+   "lessons": [
+    {
+     "title": "Typography",
+     "scripture": "Proverbs 25:11; 1 Corinthians 14:9",
+     "body": "Typography is how text looks. It can make a design clear or confusing.\n\nGuidelines:\n\n- **Use one or two fonts**, rarely three. For example, a bold heading font and a clean body font.\n- **Serif fonts** (with small feet, like Georgia) feel traditional; **sans-serif** fonts (like Montserrat, Poppins) feel modern and clean, and read well on screens.\n- **Avoid novelty fonts** for important information; they are hard to read.\n- **Size for distance**: a poster seen from across a room needs large text. On phones, small text disappears.\n- **Limit text**: say less, more clearly.\n- **Don't stretch or squash** letters.\n- **Watch line spacing** and letter spacing for readability.\n- **Check spelling**, especially names, dates and Bible references.\n\n\"Words easy to be understood\" (1 Corinthians 14:9) applies to how words look, too."
+    },
+    {
+     "title": "Colour",
+     "scripture": "Genesis 9:13-16; Exodus 28:5-8",
+     "body": "God put His bow in the cloud as a sign (Genesis 9:13). The priests' garments used \"gold, and blue, and purple, and scarlet, and fine linen\" (Exodus 28:5). Colour communicates.\n\nColour basics:\n\n- **Limit your palette** to two or three main colours plus neutrals (white, black, grey).\n- **Use contrast**: dark text on light backgrounds, or light text on dark. Avoid red on green or yellow on white.\n- **Colour has associations**: blue (trust, calm), gold/yellow (joy, light), red (energy, urgency), green (growth), purple (royalty). These vary by culture, so think of your audience.\n- **Use brand colours** consistently (Module 5). STRONGS uses navy, royal blue and gold.\n- **Be careful with photos**: text over busy images is hard to read; add a dark overlay or a solid shape behind text.\n- **Check accessibility**: about 1 in 12 men has some colour vision deficiency, so don't rely on colour alone to carry meaning."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many fonts should most designs use?",
+     "options": [
+      "One or two",
+      "Five or more",
+      "A different font for every word",
+      "None"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which font style usually reads well on screens?",
+     "options": [
+      "Sans-serif",
+      "Decorative script",
+      "Novelty fonts",
+      "Very thin fonts at small sizes"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which colour combination should be avoided for readability?",
+     "options": [
+      "Yellow text on white",
+      "Dark navy on white",
+      "White on dark blue",
+      "Black on light grey"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How can you make text readable over a busy photo?",
+     "options": [
+      "Add a dark overlay or solid shape behind the text",
+      "Make the text smaller",
+      "Use more colours",
+      "Use a thin font"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Canva and Photoshop",
+   "summary": "Tools for ministry design.",
+   "lessons": [
+    {
+     "title": "Designing in Canva",
+     "scripture": "Proverbs 22:29; Ecclesiastes 9:10",
+     "body": "\"Whatsoever thy hand findeth to do, do it with thy might\" (Ecclesiastes 9:10). Canva is a free, easy design tool on phone and computer, ideal for ministry teams.\n\nGetting started:\n\n1. **Choose the right size**: Instagram post (1080×1080 px), story/status (1080×1920), A4 or A3 for print, banner sizes for print shops.\n2. **Start from a template** if you're new, but change it to match your message and brand. Don't use a template unchanged.\n3. **Set your brand**: upload logos, choose brand colours and fonts (Canva's Brand Kit, if available).\n4. **Use layers and alignment**: position, group, and align elements with guides.\n5. **Use quality images**: Canva's library or your own photos, with permission from people pictured.\n6. **Download correctly**: PNG for social media, PDF Print for printing.\n\nCanva makes it easy to create quickly. Your design principles make it good."
+    },
+    {
+     "title": "Photoshop basics and images",
+     "scripture": "Exodus 20:15; Philippians 4:8",
+     "body": "**Adobe Photoshop** is professional software for editing photos and creating detailed designs. Key ideas you should understand, whatever tool you use:\n\n- **Layers**: separate elements stacked on top of each other, so you can edit one without affecting others.\n- **Resolution**: for print, images should be about 300 pixels per inch at the printed size; for screens, 72 to 150 is enough. Low-resolution images look blurry when printed large.\n- **Cropping and straightening** photos.\n- **Adjusting** brightness, contrast and colour.\n- **Masks** to hide parts of an image without deleting them.\n- **File types**: PSD (editable Photoshop file), JPG (photos), PNG (graphics with transparency), PDF (print).\n\n**Image ethics**:\n\n- Don't use images found online without permission or a licence; use free libraries such as Unsplash or Pexels, or your own photos. \"Thou shalt not steal\" (Exodus 20:15).\n- Don't edit photos in ways that deceive.\n- Choose images that are \"lovely\" and \"of good report\" (Philippians 4:8)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What size is a standard Instagram square post?",
+     "options": [
+      "1080 × 1080 pixels",
+      "100 × 100 pixels",
+      "A0 paper",
+      "1920 × 1080 always"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which file type is best for printing a Canva design?",
+     "options": [
+      "PDF Print",
+      "A screenshot",
+      "A low-resolution JPG",
+      "A WhatsApp image"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What are layers?",
+     "options": [
+      "Separate elements stacked so each can be edited on its own",
+      "Printing paper types",
+      "Font families",
+      "Colour codes"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What resolution do print images usually need?",
+     "options": [
+      "About 300 pixels per inch at the printed size",
+      "10 pixels per inch",
+      "72 pixels per inch for large banners",
+      "Resolution doesn't matter"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "The event flyer",
+   "summary": "Designing a flyer step by step.",
+   "lessons": [
+    {
+     "title": "Planning the flyer",
+     "scripture": "Nehemiah 8:1-3; Proverbs 21:5",
+     "body": "\"The thoughts of the diligent tend only to plenteousness\" (Proverbs 21:5). Plan before you design.\n\nWhat every event flyer needs:\n\n- **Event title** (biggest, clearest)\n- **Theme or tagline** and Scripture (optional)\n- **Date and time**\n- **Venue** (with a landmark if needed)\n- **Speakers or ministers** (names and titles spelled correctly; photos with permission)\n- **Organiser and logo**\n- **Contact** (phone, WhatsApp, social handle)\n- **Call to action**: \"Come with a friend\", \"Register at...\", \"Free entry\"\n\nRank the information by importance. The title and date should be visible in two seconds on a phone screen.\n\nGather all information **in writing** from the organiser before designing. Many flyer mistakes come from guessing."
+    },
+    {
+     "title": "Designing and checking",
+     "scripture": "Luke 14:28-30; Proverbs 27:17",
+     "body": "Design steps:\n\n1. **Choose the format** (square for WhatsApp/Instagram, A4 or A3 for print).\n2. **Set the background**: a solid colour, gradient or photo with overlay.\n3. **Place the title** large, with strong contrast.\n4. **Group details** (date, time, venue) in one aligned block.\n5. **Add speakers' photos** cleanly cropped, the same size and style.\n6. **Add logos and contact** at the bottom.\n7. **Check hierarchy**: squint at it. What do you see first? It should be the title.\n\nBefore publishing, **proofread** every word, and get the organiser to approve it. Check:\n\n- [ ] Date and day match (is the 14th really a Saturday?)\n- [ ] Time, venue, phone numbers correct\n- [ ] Names and titles correct\n- [ ] Readable on a small phone screen\n- [ ] Logo clear\n\nMake versions for different formats (WhatsApp status, square post, print) that share the same look."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What should be the biggest element on a flyer?",
+     "options": [
+      "The event title",
+      "The phone number",
+      "The logo of the printer",
+      "The border"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How quickly should the title and date be visible on a phone?",
+     "options": [
+      "In about two seconds",
+      "After a minute of reading",
+      "Only after zooming in",
+      "It doesn't matter"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why gather information in writing before designing?",
+     "options": [
+      "Many flyer mistakes come from guessing",
+      "It is required by law",
+      "To make the flyer longer",
+      "Designers can't remember"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What simple test checks hierarchy?",
+     "options": [
+      "Squint at it and see what stands out first",
+      "Count the colours",
+      "Print it ten times",
+      "Ask how many fonts there are"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Brand and consistency",
+   "summary": "Keeping a ministry's look recognisable.",
+   "lessons": [
+    {
+     "title": "What a brand is",
+     "scripture": "Proverbs 22:1; Matthew 5:14-16",
+     "body": "\"A good name is rather to be chosen than great riches\" (Proverbs 22:1). A ministry's **brand** is how people recognise and remember it: its name, logo, colours, fonts, tone and, above all, its character.\n\nVisual brand elements:\n\n- **Logo**: used correctly, never stretched, recoloured or crowded.\n- **Colour palette**: primary and secondary colours with exact codes (HEX for screens, CMYK for print).\n- **Fonts**: chosen headings and body fonts.\n- **Photography style**: real people, warm, dignified.\n- **Graphic elements**: shapes, patterns or icons used regularly.\n- **Tone of voice**: how the ministry speaks (warm, clear, hopeful).\n\nWhen every flyer looks different, people don't recognise the ministry. When designs are consistent, each one builds trust.\n\nA city set on a hill cannot be hidden (Matthew 5:14). Consistency helps a ministry's light be seen."
+    },
+    {
+     "title": "Brand guidelines and templates",
+     "scripture": "1 Corinthians 14:40; 2 Timothy 2:2",
+     "body": "Write a simple **brand guide** (one to three pages):\n\n- Logo versions (full colour, white, small) and minimum size and clear space.\n- Colour codes.\n- Fonts and sizes for headings and body.\n- Do's and don'ts with examples.\n- Templates for common needs.\n\nCreate **templates** for:\n\n- Weekly programme graphics\n- Event flyers (square and status)\n- Quote or Scripture graphics\n- Announcement banners\n- Certificates and letterheads\n\nTemplates help several designers produce consistent work quickly. Train new team members with them, as Paul passed his teaching to \"faithful men, who shall be able to teach others also\" (2 Timothy 2:2).\n\nStore logos, fonts and templates in a shared folder so everyone uses the correct, latest versions."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is a ministry's brand?",
+     "options": [
+      "How people recognise and remember it: name, logo, colours, tone and character",
+      "Only its logo",
+      "Its bank account",
+      "Its building"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you never do with a logo?",
+     "options": [
+      "Stretch, recolour or crowd it",
+      "Use it correctly",
+      "Give it clear space",
+      "Use the approved version"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which colour codes are used for print?",
+     "options": [
+      "CMYK",
+      "HEX only",
+      "RGB only",
+      "None"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why create templates?",
+     "options": [
+      "They help designers produce consistent work quickly",
+      "To avoid thinking",
+      "To make every design different",
+      "To slow down production"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "What should you answer before starting a design?",
+   "options": [
+    "Its purpose, audience, main message and essential information",
+    "Which font is trending",
+    "How many colours you can use",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which principle makes important things stand out?",
+   "options": [
+    "Contrast",
+    "Proximity",
+    "Repetition",
+    "Alignment"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why repeat colours, fonts and shapes?",
+   "options": [
+    "To make the design feel unified",
+    "To confuse the reader",
+    "To fill space",
+    "Because there's nothing else"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is a risk of novelty fonts?",
+   "options": [
+    "They are hard to read",
+    "They are always too formal",
+    "They are free",
+    "They look the same as body fonts"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why not rely only on colour to carry meaning?",
+   "options": [
+    "Some people have colour vision deficiency",
+    "Colour is unimportant",
+    "Printers can't print colour",
+    "Colour is too expensive"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which file type keeps transparency for graphics?",
+   "options": [
+    "PNG",
+    "JPG",
+    "DOC",
+    "TXT"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Where can you find free images legally?",
+   "options": [
+    "Libraries such as Unsplash or Pexels, or your own photos",
+    "Any image from Google Images",
+    "Other ministries' flyers without asking",
+    "Screenshots of films"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which should every event flyer include?",
+   "options": [
+    "Date, time and venue",
+    "The designer's life story",
+    "Every Bible verse on the theme",
+    "Small, unreadable text"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Who should approve a flyer before it is published?",
+   "options": [
+    "The organiser",
+    "No one",
+    "The printer only",
+    "A random friend"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does a brand guide contain?",
+   "options": [
+    "Logo use, colour codes, fonts and do's and don'ts",
+    "The ministry's finances",
+    "Member addresses",
+    "Sermon notes"
+   ],
+   "answer": 0
+  }
+ ],
+ "assignment": {
+  "title": "Practical assignment: design a flyer set",
+  "body": "Design a set of graphics for a real or planned ministry event (for example a STRONGS outreach, Bible Club meeting or church programme):\n\n1. A square social media flyer (1080×1080).\n2. A WhatsApp status version (1080×1920).\n3. A print version (A4 or A3, PDF).\n\nUse a consistent palette and fonts. Hand in the three designs and a 250 to 400 word explanation of your choices (hierarchy, typography, colour, images and their sources), plus the checklist from Module 4 with every item ticked."
+ },
+ "reading": [
+  "Robin Williams, The Non-Designer's Design Book",
+  "Ellen Lupton, Thinking with Type"
+ ]
+}

@@ -1,0 +1,469 @@
+{
+ "slug": "foundations-of-the-faith",
+ "objectives": [
+  "State the core truths of the Christian faith from Scripture",
+  "Explain the gospel of Christ's death and resurrection clearly",
+  "Describe the work of the Holy Spirit in salvation and holy living",
+  "Show why the Church and the return of Christ matter for daily life"
+ ],
+ "modules": [
+  {
+   "title": "The Word of God",
+   "summary": "Why the Bible is our final authority.",
+   "lessons": [
+    {
+     "title": "God has spoken",
+     "scripture": "2 Timothy 3:16-17; 2 Peter 1:20-21; Hebrews 1:1-2",
+     "body": "Christianity rests on one claim: God has spoken. He spoke \"at sundry times and in divers manners... by the prophets\" and finally \"by his Son\" (Hebrews 1:1-2). The Bible records that speech.\n\nScripture is **inspired**: \"All scripture is given by inspiration of God\" (2 Timothy 3:16). The writers were real people with their own styles, yet \"holy men of God spake as they were moved by the Holy Ghost\" (2 Peter 1:21). So the Bible is both a human book and fully God's word.\n\nBecause it is God's word, it is **true** (\"thy word is truth\", John 17:17), **sufficient** to make us \"wise unto salvation\" and equip us for every good work (2 Timothy 3:15-17), and **authoritative**: it judges our traditions, feelings and experiences, not the other way round."
+    },
+    {
+     "title": "Living under the Word",
+     "scripture": "Psalm 119:105; Matthew 4:4; Luke 24:27",
+     "body": "Believing the Bible is more than agreeing that it is true. It means living under it.\n\nJesus Himself lived by Scripture. Tempted in the wilderness, He answered each time, \"It is written\" (Matthew 4:4). After His resurrection He explained \"in all the scriptures the things concerning himself\" (Luke 24:27). The whole Bible points to Christ.\n\nPractical marks of a life under the Word:\n\n- **Daily reading**, even a chapter a day.\n- **Testing teaching** by Scripture, as the Bereans did (Acts 17:11).\n- **Obeying quickly** when the Word corrects us.\n- **Memorising** key verses so they guide us when we have no Bible open.\n\n\"Thy word is a lamp unto my feet, and a light unto my path\" (Psalm 119:105). A lamp shows the next step, which is often all we need."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What does 'inspired' mean when we say Scripture is inspired?",
+     "options": [
+      "It was given by God through human writers moved by the Holy Spirit",
+      "It is inspiring to read",
+      "It was written without human writers",
+      "Only some parts come from God"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "According to Hebrews 1:2, God has spoken finally through:",
+     "options": [
+      "His Son",
+      "Angels",
+      "Church councils",
+      "Dreams only"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How did Jesus answer the devil in the wilderness?",
+     "options": [
+      "With Scripture: \"It is written\"",
+      "With silence",
+      "With a miracle",
+      "With an argument from philosophy"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does it mean that Scripture is our final authority?",
+     "options": [
+      "It judges our traditions, feelings and experiences",
+      "Feelings can overrule it",
+      "It must agree with culture",
+      "It applies only on Sundays"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "God and man",
+   "summary": "Who God is, who we are, and what went wrong.",
+   "lessons": [
+    {
+     "title": "The one true God",
+     "scripture": "Deuteronomy 6:4; Isaiah 6:1-5; Matthew 28:19",
+     "body": "\"Hear, O Israel: The LORD our God is one LORD\" (Deuteronomy 6:4). There is one God, yet He has revealed Himself as **Father, Son and Holy Spirit**. Jesus commanded baptism \"in the name\" (singular) \"of the Father, and of the Son, and of the Holy Ghost\" (Matthew 28:19). This is the doctrine of the **Trinity**: one God in three persons, equal in power and glory.\n\nGod is **holy**. Isaiah saw the Lord and heard the seraphim cry, \"Holy, holy, holy\" (Isaiah 6:3). His response was not excitement but fear: \"Woe is me! for I am undone\" (Isaiah 6:5). God is also **love** (1 John 4:8), **all-powerful**, **all-knowing**, **everywhere present**, and **unchanging**.\n\nKnowing God rightly shapes everything. A small view of God produces careless worship and weak faith. A biblical view produces reverence, trust and joy."
+    },
+    {
+     "title": "Made in His image, fallen in Adam",
+     "scripture": "Genesis 1:26-27; Genesis 3:1-19; Romans 3:23",
+     "body": "God made man \"in his own image\" (Genesis 1:27), male and female. Every person, of every tribe and status, therefore has dignity and worth. We were made to know God, reflect Him and care for His world.\n\nBut Adam and Eve disobeyed (Genesis 3). Sin brought shame, fear, broken relationships, pain and death. Since then every human being is born with a sinful nature: \"all have sinned, and come short of the glory of God\" (Romans 3:23).\n\nSin is not only wrong actions. It is rebellion against God, a heart turned away from Him. Its wages are death (Romans 6:23): spiritual separation now and eternal separation unless God intervenes.\n\nThis bad news matters. Only those who see the disease will seek the cure. The gospel is good news precisely because our situation without Christ is so serious."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the doctrine of the Trinity?",
+     "options": [
+      "One God in three persons: Father, Son and Holy Spirit",
+      "Three separate gods",
+      "God appearing in three costumes at different times",
+      "God, angels and man"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What was Isaiah's response when he saw the holy God?",
+     "options": [
+      "\"Woe is me! for I am undone\"",
+      "He boasted of his goodness",
+      "He fell asleep",
+      "He ran away from his calling"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why does every person have dignity and worth?",
+     "options": [
+      "Every person is made in the image of God",
+      "Because of their wealth",
+      "Because of their tribe",
+      "Only if they are educated"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "According to Romans 3:23, who has sinned?",
+     "options": [
+      "All people",
+      "Only unbelievers",
+      "Only the very wicked",
+      "Only those who know the law"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Christ and His cross",
+   "summary": "Who Jesus is and what He accomplished.",
+   "lessons": [
+    {
+     "title": "Truly God, truly man",
+     "scripture": "John 1:1-14; Philippians 2:5-11; Hebrews 4:15",
+     "body": "\"In the beginning was the Word, and the Word was with God, and the Word was God... And the Word was made flesh, and dwelt among us\" (John 1:1, 14). Jesus Christ is fully God and fully man in one person.\n\nHe is **God**: He forgives sins, receives worship, and calms the sea. He is **man**: He was born, grew tired, wept and was \"in all points tempted like as we are, yet without sin\" (Hebrews 4:15).\n\nBoth truths matter. Only God could bear the full weight of sin and defeat death. Only a man could stand in our place as our representative. Paul describes how the eternal Son \"made himself of no reputation, and took upon him the form of a servant\" and became \"obedient unto death, even the death of the cross\" (Philippians 2:7-8). Therefore God has highly exalted Him, and every knee will bow."
+    },
+    {
+     "title": "The cross and the empty tomb",
+     "scripture": "Isaiah 53:4-6; 2 Corinthians 5:21; 1 Corinthians 15:3-8",
+     "body": "At the cross, Jesus died as our **substitute**. \"He was wounded for our transgressions... and the LORD hath laid on him the iniquity of us all\" (Isaiah 53:5-6). \"He hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him\" (2 Corinthians 5:21).\n\nThe cross shows God's justice (sin is punished) and His love (He punished it in His Son, in our place). Nothing we do adds to it. \"It is finished\" (John 19:30).\n\nThen Christ **rose bodily** on the third day. Paul lists the witnesses: Peter, the twelve, over five hundred brethren at once, James, and Paul himself (1 Corinthians 15:3-8). The resurrection proves that the sacrifice was accepted, that death is defeated, and that Jesus is Lord. Without it, Paul says, our faith is vain (1 Corinthians 15:17)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What does John 1:14 teach?",
+     "options": [
+      "The eternal Word became flesh",
+      "Jesus was only a good teacher",
+      "Jesus only seemed human",
+      "The Word was created at Bethlehem"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why did Christ need to be truly man?",
+     "options": [
+      "To stand in our place as our representative",
+      "So that He could sin",
+      "To avoid suffering",
+      "So that He would not be God"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does 'substitute' mean regarding the cross?",
+     "options": [
+      "Jesus died in our place, bearing our sin",
+      "Jesus died only as an example",
+      "Jesus died for His own sins",
+      "Jesus replaced the Bible"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why is the resurrection essential, according to 1 Corinthians 15:17?",
+     "options": [
+      "Without it our faith is vain",
+      "It is only a symbol",
+      "It is a later tradition",
+      "It is optional to believe"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Salvation",
+   "summary": "How a sinner is made right with God.",
+   "lessons": [
+    {
+     "title": "Grace through faith",
+     "scripture": "Ephesians 2:8-9; Romans 5:1; Titus 3:5",
+     "body": "\"For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast\" (Ephesians 2:8-9).\n\n**Grace** is God's undeserved favour. We cannot earn salvation by good deeds, church attendance or religious effort (Titus 3:5). **Faith** is the empty hand that receives the gift: trusting Christ alone.\n\nSalvation includes:\n\n- **Justification**: God declares the guilty sinner righteous because of Christ (Romans 5:1).\n- **Regeneration**: the new birth, a new heart from the Holy Spirit (John 3:3-7).\n- **Adoption**: we become children of God (John 1:12).\n- **Forgiveness**: our sins are removed \"as far as the east is from the west\" (Psalm 103:12).\n\nAll of this is God's work. That is why the saved person boasts only in the Lord."
+    },
+    {
+     "title": "Repentance and assurance",
+     "scripture": "Acts 3:19; 1 John 5:11-13; Luke 15:17-24",
+     "body": "True faith is joined to **repentance**: a change of mind that turns from sin to God. \"Repent ye therefore, and be converted, that your sins may be blotted out\" (Acts 3:19). The prodigal son \"came to himself\", rose, and returned to his father (Luke 15:17-20). Repentance is not self-punishment; it is coming home.\n\nCan a believer know that he is saved? John says yes: \"These things have I written unto you that believe on the name of the Son of God; that ye may know that ye have eternal life\" (1 John 5:13).\n\nAssurance rests on three things:\n\n1. **God's promise** in His Word (1 John 5:11-12).\n2. **The witness of the Spirit** with our spirit (Romans 8:16).\n3. **The fruit of a changed life**: love for God, His people and His commands (1 John 2:3; 3:14).\n\nAssurance is not pride. It is resting in what Christ has done."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "According to Ephesians 2:8-9, salvation is:",
+     "options": [
+      "By grace through faith, not of works",
+      "By good works alone",
+      "By church membership",
+      "By being born into a Christian family"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is justification?",
+     "options": [
+      "God declaring the sinner righteous because of Christ",
+      "Making excuses for sin",
+      "Becoming sinless immediately",
+      "Being baptised"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is repentance?",
+     "options": [
+      "A change of mind that turns from sin to God",
+      "Feeling sad without change",
+      "Punishing yourself",
+      "Doing penance to earn forgiveness"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why did John write 1 John 5:13?",
+     "options": [
+      "So that believers may know they have eternal life",
+      "To make believers doubt",
+      "To list church rules",
+      "To describe heaven's size"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "The Holy Spirit and holiness",
+   "summary": "The Spirit's work and the call to a holy life.",
+   "lessons": [
+    {
+     "title": "The Spirit who gives life and power",
+     "scripture": "John 16:7-14; Acts 1:8; Galatians 5:22-23",
+     "body": "The Holy Spirit is not a force but a **person**, fully God. Jesus called Him \"the Comforter\" and said He would convict the world of sin, guide believers into truth and glorify Christ (John 16:7-14).\n\nHis work includes:\n\n- **New birth**: we are \"born of the Spirit\" (John 3:8).\n- **Indwelling**: the believer's body is His temple (1 Corinthians 6:19).\n- **Power for witness**: \"ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses\" (Acts 1:8).\n- **Gifts** for serving the church (1 Corinthians 12).\n- **Fruit**: \"love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance\" (Galatians 5:22-23).\n\nSeek both His gifts and His fruit. Gifts without character have wrecked many ministries; character is the proof of the Spirit's presence."
+    },
+    {
+     "title": "Called to be holy",
+     "scripture": "1 Peter 1:15-16; Romans 12:1-2; Hebrews 12:14",
+     "body": "\"Be ye holy; for I am holy\" (1 Peter 1:16). Holiness means being set apart for God and becoming like Him in character. It is not optional: \"follow... holiness, without which no man shall see the Lord\" (Hebrews 12:14).\n\nHoliness begins when God sets us apart in Christ, and it grows over a lifetime as the Spirit transforms us. Our part is real:\n\n- **Present your body** as a living sacrifice (Romans 12:1).\n- **Renew your mind** with God's Word rather than being conformed to this world (Romans 12:2).\n- **Put off** old habits and **put on** Christlike ones (Ephesians 4:22-24).\n- **Flee** temptation, as Joseph did (Genesis 39:12).\n- **Confess quickly** when you fall (1 John 1:9).\n\nHoliness is not gloomy. It is the beauty of a life that reflects God."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "The Holy Spirit is best described as:",
+     "options": [
+      "A person, fully God",
+      "An impersonal force",
+      "An angel",
+      "A feeling"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "According to Acts 1:8, the Spirit gives power for:",
+     "options": [
+      "Witness",
+      "Wealth",
+      "Fame",
+      "Politics"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which is part of the fruit of the Spirit?",
+     "options": [
+      "Longsuffering",
+      "Prophecy",
+      "Tongues",
+      "Healing"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does Romans 12:2 say about our minds?",
+     "options": [
+      "Be transformed by the renewing of your mind",
+      "Empty your mind completely",
+      "Follow the world's thinking",
+      "Thinking is unspiritual"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "The Church and the last things",
+   "summary": "God's people now and the hope ahead.",
+   "lessons": [
+    {
+     "title": "The body of Christ",
+     "scripture": "Matthew 16:18; Acts 2:41-47; Ephesians 4:11-16",
+     "body": "Jesus said, \"I will build my church\" (Matthew 16:18). The Church is not a building but the people of God, the **body of Christ**, made up of all true believers everywhere, gathered in local congregations.\n\nThe first church in Jerusalem \"continued stedfastly in the apostles' doctrine and fellowship, and in breaking of bread, and in prayers\" (Acts 2:42). These remain the marks of healthy church life: teaching, fellowship, the Lord's Supper and prayer, together with worship, giving, and witness.\n\nChrist gave the ordinances of **baptism** and the **Lord's Supper**. He also gave leaders \"for the perfecting of the saints, for the work of the ministry\" (Ephesians 4:12). Every member has a part to play. No believer is meant to live the Christian life alone."
+    },
+    {
+     "title": "Christ will come again",
+     "scripture": "Acts 1:11; 1 Thessalonians 4:13-18; Revelation 21:1-5",
+     "body": "The angels promised, \"this same Jesus... shall so come in like manner as ye have seen him go into heaven\" (Acts 1:11). Christians differ on the order of some end-time events, but all agree on the central hope: Christ will return personally and visibly.\n\nAt His coming the dead in Christ will rise, believers will be gathered to Him, \"and so shall we ever be with the Lord\" (1 Thessalonians 4:16-17). There will be a final judgment, and God will make \"all things new\": no more tears, death, sorrow or pain (Revelation 21:4-5).\n\nThis hope changes how we live now. It comforts the grieving (1 Thessalonians 4:18), calls us to purity (1 John 3:3), and urges us to preach the gospel while there is time. \"Even so, come, Lord Jesus\" (Revelation 22:20)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the Church?",
+     "options": [
+      "The people of God, the body of Christ",
+      "A building only",
+      "A denomination's headquarters",
+      "A social club"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which is listed in Acts 2:42?",
+     "options": [
+      "The apostles' doctrine",
+      "Fundraising events",
+      "Political campaigns",
+      "Secret rituals"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What did the angels promise in Acts 1:11?",
+     "options": [
+      "Jesus will come again in like manner",
+      "Jesus will never return",
+      "Jesus returned in AD 70 only",
+      "A new prophet will replace Him"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How should the hope of Christ's return affect believers now?",
+     "options": [
+      "It calls us to purity and urgency in the gospel",
+      "It means we can stop working",
+      "It makes holiness unnecessary",
+      "It should cause constant fear"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "What makes the Bible our final authority?",
+   "options": [
+    "It is God's inspired word",
+    "It is very old",
+    "Church leaders say so",
+    "It is beautifully written"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which verse teaches that Scripture is given by inspiration of God?",
+   "options": [
+    "2 Timothy 3:16",
+    "Genesis 1:1",
+    "John 3:16",
+    "Revelation 22:20"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What did sin bring into the world, according to Genesis 3?",
+   "options": [
+    "Shame, broken relationships, pain and death",
+    "Greater freedom",
+    "Better knowledge of God",
+    "Nothing serious"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Jesus Christ is:",
+   "options": [
+    "Fully God and fully man",
+    "Only God",
+    "Only man",
+    "Half God and half man"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What did Christ's resurrection prove?",
+   "options": [
+    "His sacrifice was accepted and death is defeated",
+    "He had not really died",
+    "Only His spirit lived on",
+    "Nothing about salvation"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Salvation is received by:",
+   "options": [
+    "Faith in Christ alone",
+    "Good works",
+    "Religious rituals",
+    "Family background"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is NOT one of the grounds of assurance taught in this course?",
+   "options": [
+    "Having no struggles at all",
+    "God's promise in His Word",
+    "The witness of the Spirit",
+    "The fruit of a changed life"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does the Holy Spirit do, according to John 16?",
+   "options": [
+    "Convicts of sin, guides into truth and glorifies Christ",
+    "Glorifies Himself above Christ",
+    "Replaces the Bible",
+    "Only works among leaders"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Without holiness, Hebrews 12:14 says:",
+   "options": [
+    "No man shall see the Lord",
+    "Life is more fun",
+    "We will be rich",
+    "Nothing changes"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is the blessed hope of every Christian?",
+   "options": [
+    "The personal return of Christ",
+    "Long life on earth",
+    "A perfect government",
+    "Escaping all trials now"
+   ],
+   "answer": 0
+  }
+ ],
+ "assignment": {
+  "title": "Practical assignment: my statement of faith",
+  "body": "Write a personal statement of faith in your own words (400 to 600 words) covering all six areas of this course: the Bible, God and man, Christ and His cross, salvation, the Holy Spirit and holiness, and the Church and Christ's return.\n\nFor each area, write two or three sentences and give at least one Bible reference that supports it. End with a short paragraph on which truth in this course has most changed how you live, and why."
+ },
+ "reading": [
+  "J. I. Packer, Knowing God",
+  "John Stott, Basic Christianity"
+ ]
+}

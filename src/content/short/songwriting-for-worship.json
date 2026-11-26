@@ -1,0 +1,353 @@
+{
+ "slug": "songwriting-for-worship",
+ "objectives": [
+  "Write songs that are biblically true and teach the church",
+  "Craft clear, singable lyrics with strong images",
+  "Shape melody and song form for congregations",
+  "Finish, test and share a song responsibly"
+ ],
+ "modules": [
+  {
+   "title": "Songs that teach",
+   "summary": "Why worship songs must be true.",
+   "lessons": [
+    {
+     "title": "The songwriter's responsibility",
+     "scripture": "Colossians 3:16; Exodus 15:1-2; Revelation 15:3",
+     "body": "After crossing the Red Sea, \"sang Moses and the children of Israel this song unto the LORD\" (Exodus 15:1). In Revelation the redeemed sing \"the song of Moses... and the song of the Lamb\" (Revelation 15:3). God's people have always turned His acts into songs.\n\nSongs **teach** (Colossians 3:16). A congregation may sing your words hundreds of times. That is a great privilege and responsibility. A songwriter is a kind of teacher.\n\nBefore writing, ask:\n\n- **What is true about God here?** His character, His works, His promises.\n- **What passage** of Scripture is this song rooted in?\n- **Who will sing it?** A congregation, a choir, a soloist, children?\n- **What response** should it invite: praise, confession, trust, commitment?\n\nGreat worship songs often grow from long meditation on one passage or one truth."
+    },
+    {
+     "title": "Theology in a few lines",
+     "scripture": "Psalm 145:1-7; Philippians 2:5-11",
+     "body": "Some scholars think Philippians 2:6-11 may have been an early Christian hymn. Whether or not it was sung, it shows how much truth a few lines can carry: Christ's divinity, humility, death, exaltation and lordship.\n\nKeep your song **true**:\n\n- **Say what Scripture says**, not just what feels good. Avoid promising what God has not promised.\n- **Keep God at the centre.** It is fine to sing about our response, but the focus should be on who He is and what He has done.\n- **Balance**: celebration and lament, joy and repentance, personal and corporate (\"I\" and \"we\").\n- **Be specific**: \"You are good\" is true; \"You fed five thousand with five loaves\" shows *how*.\n- **Ask a pastor or theologically trained friend** to review your lyrics.\n\nPsalm 145 says, \"One generation shall praise thy works to another, and shall declare thy mighty acts\" (verse 4). Songs carry the faith from one generation to the next."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Why is a songwriter described as a kind of teacher?",
+     "options": [
+      "Congregations learn and repeat the song's words many times",
+      "Songwriters must have degrees",
+      "Songs replace sermons",
+      "Only teachers write songs"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should be at the centre of a worship song?",
+     "options": [
+      "Who God is and what He has done",
+      "Only our feelings",
+      "The singer's talent",
+      "The beat"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which line is more specific?",
+     "options": [
+      "You fed five thousand with five loaves",
+      "You are good",
+      "You are great",
+      "You are nice"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Who could review your lyrics for biblical accuracy?",
+     "options": [
+      "A pastor or theologically trained friend",
+      "No one",
+      "Only fans",
+      "A stranger online"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Lyrics",
+   "summary": "Crafting words that sing.",
+   "lessons": [
+    {
+     "title": "Images, clarity and the hook",
+     "scripture": "Psalm 23:1-6; Psalm 46:1-3",
+     "body": "Psalm 23 uses one image (a shepherd) throughout: green pastures, still waters, rod and staff, a table, an anointing, a house. One strong image carries the whole song.\n\nLyric craft:\n\n- **Choose a central image or idea** and stay with it.\n- **Use concrete words**: rock, river, fire, bread, light, storm.\n- **Write a strong hook**: a short, memorable line (often the title) that sums up the song and returns in the chorus.\n- **Be clear**: congregations sing at first sight on a screen. Avoid obscure words and twisted word order.\n- **Avoid clichés** where possible: find a fresh way to say an old truth.\n- **Make lines singable**: open vowels (\"ah\", \"oh\") on long, high notes; avoid clusters of consonants there."
+    },
+    {
+     "title": "Rhyme, rhythm and language",
+     "scripture": "Psalm 119:1-8; Lamentations 1:1",
+     "body": "Hebrew poets used patterns: Psalm 119 is an acrostic, each section starting with the next letter of the Hebrew alphabet. Structure helps memory.\n\n- **Rhyme** helps people remember, but never force a rhyme that changes the meaning. Near rhymes (*grace* / *place*, *love* / *above*) are fine.\n- **Rhythm of words**: stressed syllables should fall on strong beats. Say the line aloud; if the natural stress fights the melody, rewrite.\n- **Repetition** is powerful in choruses, but verses should develop the idea.\n- **Language**: songs in Yoruba, Igbo, Hausa, Pidgin and other languages can touch people deeply. In tonal languages, fit the melody to the tones so meaning is not changed. Bilingual songs can unite congregations.\n\nRead your lyric aloud as a poem before you set it to music. If it doesn't make sense spoken, it won't make sense sung."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What image runs through Psalm 23?",
+     "options": [
+      "A shepherd",
+      "A king's palace",
+      "A ship",
+      "A battlefield"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a hook?",
+     "options": [
+      "A short, memorable line that sums up the song",
+      "A guitar effect",
+      "The last verse",
+      "A type of microphone"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why avoid forcing a rhyme?",
+     "options": [
+      "It can change the meaning",
+      "Rhyme is always wrong",
+      "It makes songs too short",
+      "Congregations dislike rhyme"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "In tonal languages, the melody should:",
+     "options": [
+      "Fit the tones so meaning is not changed",
+      "Ignore the tones",
+      "Always rise",
+      "Use only one note"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Melody and form",
+   "summary": "Writing tunes congregations can sing.",
+   "lessons": [
+    {
+     "title": "Singable melodies",
+     "scripture": "Psalm 95:1-2; Psalm 100:1-2",
+     "body": "\"O come, let us sing unto the LORD: let us make a joyful noise to the rock of our salvation\" (Psalm 95:1). Congregational melodies must be singable by ordinary people, not only trained singers.\n\nGuidelines:\n\n- **Range**: keep most of the melody within about an octave plus a note or two; around A below middle C to D above the octave suits most congregations.\n- **Steps and small leaps**: mostly stepwise motion, with a few memorable leaps.\n- **Clear rhythm**: avoid very complex syncopation for congregational songs.\n- **Repetition with variety**: repeat melodic ideas so people learn quickly, but vary them so the song develops.\n- **A high point**: often in the chorus or bridge, on an important word.\n- **Breathing places**: leave space between phrases.\n\nTest it: can a friend who doesn't read music sing it back after hearing it twice?"
+    },
+    {
+     "title": "Song form",
+     "scripture": "Psalm 136:1-9; Psalm 107:1-15",
+     "body": "Psalm 136 repeats \"for his mercy endureth for ever\" after every line, a refrain. Psalm 107 repeats a pattern of trouble, crying out, deliverance and thanksgiving. Form helps people follow.\n\nCommon forms:\n\n- **Verse–chorus**: verses tell or develop; the chorus repeats the main idea.\n- **Verse–chorus–bridge**: a bridge adds a new angle or climax before a final chorus.\n- **Hymn (strophic)**: several verses on the same tune, each developing the theme, often ending with a doxology or hope of heaven.\n- **Call and response**: a leader sings, the congregation answers. Very common in African worship.\n\nPlan your **lyric's journey**: verse 1 might describe a need, verse 2 what God did, the bridge our response, and the final chorus a declaration of praise. Each section should earn its place."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What range suits most congregations?",
+     "options": [
+      "About an octave plus a note or two",
+      "Three octaves",
+      "Only very high notes",
+      "Only very low notes"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What test helps check a melody is singable?",
+     "options": [
+      "Can a friend sing it back after hearing it twice?",
+      "Is it very hard to sing?",
+      "Does it use many leaps?",
+      "Is it fast?"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does a bridge do?",
+     "options": [
+      "Adds a new angle or climax before the final chorus",
+      "Repeats the first verse exactly",
+      "Ends the song",
+      "Introduces the band"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is call and response?",
+     "options": [
+      "A leader sings and the congregation answers",
+      "Everyone sings different songs",
+      "Only instruments play",
+      "The song has no chorus"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Finishing a song",
+   "summary": "Revision, testing and sharing.",
+   "lessons": [
+    {
+     "title": "Revising and testing",
+     "scripture": "Proverbs 15:22; Psalm 40:3",
+     "body": "\"Without counsel purposes are disappointed: but in the multitude of counsellors they are established\" (Proverbs 15:22).\n\nSteps to finish:\n\n1. **Record a rough demo** on your phone: voice and one instrument.\n2. **Leave it for a few days**, then listen fresh.\n3. **Check the lyrics**: true, clear, specific, singable.\n4. **Check the melody**: range, flow, high point, breathing.\n5. **Get feedback** from a pastor (theology), a musician (craft) and an ordinary church member (singability).\n6. **Revise**. Most good songs go through many drafts.\n7. **Test it** in a small group or fellowship before a large service.\n8. **Watch the people**: do they join in by the second chorus?\n\n\"He hath put a new song in my mouth, even praise unto our God: many shall see it, and fear, and shall trust in the LORD\" (Psalm 40:3). Aim for songs that help many trust the Lord."
+    },
+    {
+     "title": "Sharing, rights and integrity",
+     "scripture": "Exodus 20:15; Romans 13:7",
+     "body": "When you share your songs:\n\n- **Write a lead sheet**: melody, lyrics and chords, with your name, date and the Scripture reference.\n- **Keep dated copies** (recordings and written versions). They show the song is yours.\n- **Copyright**: in most countries, including Nigeria, an original song is protected by copyright automatically once it is written down or recorded. Registration with the national copyright body can add evidence. Seek advice before signing any publishing agreement.\n- **Respect others' rights**: don't copy another writer's melody or lyrics. \"Thou shalt not steal\" (Exodus 20:15). If you co-write, agree on credit and shares in writing.\n- **Churches using songs** may need licences for projecting or recording copyrighted songs; ask your church about this.\n- **Give credit** to co-writers and to any hymn or Scripture you adapt.\n\nGive God the glory for every song He gives you. Hold your songs with open hands; they are for His people."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the first step to finish a song in this course?",
+     "options": [
+      "Record a rough demo",
+      "Sell it",
+      "Perform it at a big event",
+      "Register it in five countries"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Who should give feedback on singability?",
+     "options": [
+      "An ordinary church member",
+      "Only professional producers",
+      "No one",
+      "Only the songwriter"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a lead sheet?",
+     "options": [
+      "Melody, lyrics and chords written out with the writer's details",
+      "A list of band members",
+      "A contract",
+      "A stage plan"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should co-writers do?",
+     "options": [
+      "Agree on credit and shares in writing",
+      "Keep it secret",
+      "Let the first person take all credit",
+      "Never co-write"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "Which song did Israel sing after crossing the Red Sea?",
+   "options": [
+    "The song of Moses in Exodus 15",
+    "Psalm 23",
+    "The Magnificat",
+    "The Song of Solomon"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why should a worship song be rooted in Scripture?",
+   "options": [
+    "So that it teaches what is true",
+    "So that it is longer",
+    "So that it can be sold",
+    "So that it rhymes"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which balance should worship songs keep?",
+   "options": [
+    "Celebration and lament, personal and corporate",
+    "Only celebration",
+    "Only 'I' and never 'we'",
+    "Only slow songs"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why use concrete words in lyrics?",
+   "options": [
+    "They create images people can see and remember",
+    "They are longer",
+    "They are more difficult",
+    "They avoid meaning"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Where should open vowels like 'ah' be placed?",
+   "options": [
+    "On long, high notes",
+    "On short, fast notes",
+    "Only at the start",
+    "Nowhere"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should you do if natural word stress fights the melody?",
+   "options": [
+    "Rewrite the line or melody",
+    "Ignore it",
+    "Sing louder",
+    "Add more words"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which form repeats one tune for several developing verses?",
+   "options": [
+    "Hymn (strophic) form",
+    "Call and response",
+    "Bridge",
+    "Intro"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why test a song in a small group first?",
+   "options": [
+    "To see if people can sing and join it before a large service",
+    "To keep it secret",
+    "Because large services don't sing",
+    "It is not necessary"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "In Nigeria, when is an original song protected by copyright?",
+   "options": [
+    "Automatically once it is written down or recorded",
+    "Only after ten years",
+    "Never",
+    "Only if it becomes famous"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does 'Thou shalt not steal' mean for songwriters?",
+   "options": [
+    "Don't copy another writer's melody or lyrics",
+    "Don't write songs",
+    "Don't share songs",
+    "Don't sing hymns"
+   ],
+   "answer": 0
+  }
+ ],
+ "assignment": {
+  "title": "Practical assignment: write a worship song",
+  "body": "Write an original worship song rooted in one passage of Scripture. Hand in:\n\n1. The passage and a one-sentence statement of the song's main truth.\n2. The full lyrics, with sections labelled (verse, chorus, bridge).\n3. A lead sheet or chord chart with the key, and a phone recording of you (or someone else) singing it.\n4. A 250 to 400 word reflection: how you developed the song, feedback you received from at least two people, and the changes you made."
+ },
+ "reading": [
+  "Jimmy Webb, Tunesmith",
+  "Bob Kauflin, Worship Matters"
+ ]
+}

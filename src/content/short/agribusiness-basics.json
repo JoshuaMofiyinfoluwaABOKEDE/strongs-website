@@ -1,0 +1,295 @@
+{
+ "slug": "agribusiness-basics",
+ "objectives": [
+  "Identify viable opportunities in agriculture and the value chain",
+  "Plan and start a small farm or agribusiness wisely",
+  "Keep simple records of costs, sales and profit",
+  "Market and sell produce honestly and profitably"
+ ],
+ "modules": [
+  {
+   "title": "Opportunities in agriculture",
+   "summary": "Seeing farming as a calling and a business.",
+   "lessons": [
+    {
+     "title": "God the first farmer",
+     "scripture": "Genesis 2:8-15; Genesis 8:22; Proverbs 12:11",
+     "body": "\"The LORD God planted a garden eastward in Eden\" and put man there \"to dress it and to keep it\" (Genesis 2:8, 15). Farming is one of the oldest callings. God promised, \"While the earth remaineth, seedtime and harvest... shall not cease\" (Genesis 8:22).\n\n\"He that tilleth his land shall be satisfied with bread\" (Proverbs 12:11). Agriculture feeds nations, employs millions of Nigerians, and offers real opportunities for young people with skill and diligence.\n\n**Agribusiness** means farming and the businesses around it as a profitable enterprise, not only subsistence. The **value chain** includes:\n\n- **Inputs**: seeds, seedlings, feed, fertiliser, tools.\n- **Production**: crops, poultry, fish, livestock, snails, bees, mushrooms.\n- **Processing**: garri, palm oil, smoked fish, plantain chips, packaged pepper, feed milling.\n- **Storage and transport**.\n- **Marketing and sales**: markets, shops, restaurants, online.\n- **Services**: veterinary, mechanisation, training, consulting.\n\nYou don't have to own land to be in agribusiness."
+    },
+    {
+     "title": "Choosing an opportunity",
+     "scripture": "Proverbs 27:23-27; Luke 14:28",
+     "body": "\"Be thou diligent to know the state of thy flocks, and look well to thy herds\" (Proverbs 27:23).\n\nQuestions for choosing an enterprise:\n\n- **Demand**: what do people in your area buy regularly? Who will buy from you?\n- **Your resources**: land, water, money, time, skills.\n- **Start-up cost** and **time to first income**: vegetables or broilers may pay in weeks; tree crops take years.\n- **Risks**: disease, weather, theft, price changes. How can you reduce them?\n- **Climate and soil** suitability.\n- **Learning**: can you get training or mentorship?\n\nStarter options often suitable for young people:\n\n- Vegetables (pepper, tomato, leafy greens) in small plots or containers.\n- Poultry (broilers or layers) at small scale.\n- Catfish in tanks.\n- Processing and packaging (e.g. pepper mix, plantain chips).\n- Selling inputs or produce as a trader.\n\nVisit successful farmers before you start. Learn from their mistakes."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What does agribusiness mean?",
+     "options": [
+      "Farming and related businesses run as a profitable enterprise",
+      "Only subsistence farming",
+      "Only selling land",
+      "Government farming only"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which is part of the agricultural value chain?",
+     "options": [
+      "Processing, such as making garri or palm oil",
+      "Only planting",
+      "Only eating",
+      "Only buying land"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which question helps choose an enterprise?",
+     "options": [
+      "Who will buy from me?",
+      "What is the most fashionable crop?",
+      "What did my friend start?",
+      "How can I avoid learning?"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which usually brings income faster?",
+     "options": [
+      "Vegetables or broilers",
+      "Tree crops like cocoa",
+      "Timber",
+      "Oil palm plantations"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Planning and starting small",
+   "summary": "Building a simple plan and beginning well.",
+   "lessons": [
+    {
+     "title": "A simple business plan",
+     "scripture": "Proverbs 24:27; Proverbs 21:5; Luke 14:28-30",
+     "body": "\"Which of you, intending to build a tower, sitteth not down first, and counteth the cost, whether he have sufficient to finish it?\" (Luke 14:28).\n\nA one-page agribusiness plan:\n\n1. **What**: the product (e.g. 200 broilers per batch).\n2. **Who**: customers (households, eateries, market women) and how you'll reach them.\n3. **How**: production steps, location, equipment, labour.\n4. **When**: a timeline from preparation to sale.\n5. **Costs**: start-up costs (housing, equipment) and running costs per batch (chicks, feed, drugs, transport).\n6. **Income**: expected sales × price, with a realistic estimate of losses.\n7. **Profit**: income minus all costs.\n8. **Risks** and how you'll manage them.\n\nUse realistic local prices. Ask sellers and farmers. Assume some losses (for example, mortality in poultry)."
+    },
+    {
+     "title": "Starting small and growing",
+     "scripture": "Zechariah 4:10; Proverbs 13:11; Ecclesiastes 11:4",
+     "body": "\"For who hath despised the day of small things?\" (Zechariah 4:10). \"Wealth gotten by vanity shall be diminished: but he that gathereth by labour shall increase\" (Proverbs 13:11).\n\nPrinciples:\n\n- **Start small** enough to learn without losing everything. A first batch of 50 birds teaches as much as 500, with less risk.\n- **Learn the skill** first: attend training (Agricultural Development Programmes, extension officers, farmers' groups, online courses).\n- **Avoid debt** for a first venture where possible; use savings or small contributions.\n- **Get good inputs**: certified seeds, healthy chicks or fingerlings from reliable sources.\n- **Follow good practice**: vaccination schedules, clean water, proper spacing, pest control.\n- **Grow from profit**, reinvesting step by step.\n- **Join a cooperative** or farmers' group for shared learning, bulk buying and better prices.\n\n\"He that observeth the wind shall not sow\" (Ecclesiastes 11:4). Don't wait for perfect conditions. Prepare wisely, then begin."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What does Luke 14:28 teach about starting a business?",
+     "options": [
+      "Count the cost first",
+      "Start without planning",
+      "Borrow as much as possible",
+      "Copy others"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How is profit calculated?",
+     "options": [
+      "Income minus all costs",
+      "Income plus costs",
+      "Only sales",
+      "Costs minus income"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why start small?",
+     "options": [
+      "To learn without losing everything",
+      "Because big is always wrong",
+      "To avoid customers",
+      "It is required by law"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a benefit of joining a cooperative?",
+     "options": [
+      "Shared learning, bulk buying and better prices",
+      "Avoiding work",
+      "Never paying for inputs",
+      "Guaranteed profit"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Records and selling",
+   "summary": "Keeping accounts and reaching customers.",
+   "lessons": [
+    {
+     "title": "Keeping records",
+     "scripture": "Luke 16:1-2; Proverbs 27:23; 1 Corinthians 4:2",
+     "body": "The steward in Luke 16 was told, \"give an account of thy stewardship\" (Luke 16:2). Good records show whether your business is truly making money.\n\nKeep simple records in a notebook or spreadsheet:\n\n- **Expenses**: date, item, quantity, cost (feed, seeds, labour, transport, drugs).\n- **Sales**: date, customer, quantity, price, total, paid or owed.\n- **Production**: planting dates, harvest quantities, eggs per day, bird mortality, weights.\n- **Stock**: inputs on hand.\n\nAt the end of each batch or month:\n\n- **Total income** − **total expenses** = **profit or loss**.\n- **Cost per unit**: total cost ÷ number sold (e.g. cost per bird). Make sure your price is above this.\n\n**Separate** business money from personal money. Pay yourself a set amount rather than spending business money freely."
+    },
+    {
+     "title": "Marketing honestly",
+     "scripture": "Proverbs 11:1; Proverbs 20:23; Proverbs 22:1",
+     "body": "\"A false balance is abomination to the LORD: but a just weight is his delight\" (Proverbs 11:1). Honesty is good business and good faith.\n\nMarketing basics:\n\n- **Know your customers**: households, restaurants, schools, hotels, market traders.\n- **Quality and consistency**: fresh, clean, well-sorted produce brings repeat buyers.\n- **Packaging and branding**: simple labels with your name and phone number build recognition.\n- **Pricing**: cover your costs and a fair profit; check market prices.\n- **Channels**: local markets, direct to customers, WhatsApp status and groups, Instagram and Facebook, aggregators and off-takers.\n- **Timing**: plan production for seasons of high demand (festive seasons) and avoid gluts.\n- **Customer service**: deliver on time, answer calls, keep promises.\n\n**Integrity**: use accurate scales and measures; don't hide bad produce under good; don't use dangerous chemicals to ripen or preserve food. \"A good name is rather to be chosen than great riches\" (Proverbs 22:1)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Why keep farm records?",
+     "options": [
+      "To know whether the business is truly making money",
+      "Records are only for big companies",
+      "To impress visitors",
+      "They are not needed"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How do you calculate cost per unit?",
+     "options": [
+      "Total cost divided by the number sold",
+      "Price minus profit",
+      "Total income times two",
+      "Number sold divided by price"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why separate business money from personal money?",
+     "options": [
+      "To see the true state of the business and avoid spending its capital",
+      "It is illegal to mix them",
+      "To pay less tax",
+      "It doesn't matter"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does Proverbs 11:1 teach traders?",
+     "options": [
+      "A false balance is an abomination; use just weights",
+      "Use whatever scale works",
+      "Hide bad produce",
+      "Charge whatever you can"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "What did God promise in Genesis 8:22?",
+   "options": [
+    "Seedtime and harvest shall not cease",
+    "Farming will end",
+    "There will always be famine",
+    "Only some nations will farm"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Can you be in agribusiness without owning land?",
+   "options": [
+    "Yes, through processing, trading, inputs or services",
+    "No, never",
+    "Only with government permission",
+    "Only after age 50"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a risk to consider before starting?",
+   "options": [
+    "Disease, weather and price changes",
+    "Too many customers",
+    "Too much training",
+    "Good records"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is the first item in a simple business plan?",
+   "options": [
+    "What product you will produce",
+    "Your profit only",
+    "Your bank loan",
+    "Your logo"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why assume some losses when planning?",
+   "options": [
+    "Losses like mortality happen and affect profit",
+    "To make the plan look bad",
+    "They never happen",
+    "To borrow more"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Where can you get agricultural training?",
+   "options": [
+    "Extension officers, ADPs, farmers' groups and online courses",
+    "Nowhere",
+    "Only abroad",
+    "Only from social media rumours"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How should a young farmer grow the business?",
+   "options": [
+    "Step by step, reinvesting profit",
+    "Borrow heavily at the start",
+    "Spend all profit immediately",
+    "Expand before learning"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should sales records include?",
+   "options": [
+    "Date, customer, quantity, price, total and payment status",
+    "Only the customer's name",
+    "Only the total for the year",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a good marketing channel for small farmers?",
+   "options": [
+    "WhatsApp status and groups",
+    "Hiding the produce",
+    "Waiting for customers to find you without telling anyone",
+    "Selling only once a year"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which practice shows integrity in selling produce?",
+   "options": [
+    "Using accurate scales and not hiding bad produce",
+    "Using dangerous chemicals to ripen fruit",
+    "Adjusting the scale in your favour",
+    "Mixing old and new stock secretly"
+   ],
+   "answer": 0
+  }
+ ],
+ "assignment": {
+  "title": "Practical assignment: a one-page agribusiness plan",
+  "body": "Choose an agribusiness you could start in your area. Visit or call at least one farmer or trader in that line of business. Then hand in:\n\n1. A one-page business plan using the eight headings in Module 2, with realistic local prices.\n2. A simple record sheet (expenses, sales, production) you would use.\n3. A 250 to 400 word note on what you learned from the farmer or trader, the biggest risks, and how you would market the product honestly."
+ },
+ "reading": [
+  "Your state Agricultural Development Programme (ADP) extension materials",
+  "FAO, Farmer Field School resources (fao.org)"
+ ]
+}

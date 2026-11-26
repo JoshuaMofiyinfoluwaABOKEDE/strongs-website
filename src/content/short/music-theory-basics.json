@@ -1,0 +1,363 @@
+{
+ "slug": "music-theory-basics",
+ "objectives": [
+  "Read notes and rhythms on the staff and count time",
+  "Use tonic sol-fa and connect it to staff notation",
+  "Understand major scales, keys and key signatures",
+  "Build basic chords and read a simple chord chart"
+ ],
+ "modules": [
+  {
+   "title": "Notes and rhythm",
+   "summary": "The building blocks of written music.",
+   "lessons": [
+    {
+     "title": "The staff and note names",
+     "scripture": "Psalm 33:2-3",
+     "body": "Music is written on a **staff** (or stave) of five lines and four spaces. A **clef** at the start tells you which notes the lines represent:\n\n- **Treble clef** (G clef): for higher voices and instruments (soprano, alto, right hand on keyboard).\n- **Bass clef** (F clef): for lower voices and instruments (tenor, bass, left hand).\n\nNotes are named with the letters **A B C D E F G**, then repeat.\n\nTreble clef:\n\n- Lines from bottom: **E G B D F** (\"Every Good Boy Deserves Favour\").\n- Spaces from bottom: **F A C E** (\"FACE\").\n\nBass clef:\n\n- Lines: **G B D F A** (\"Good Boys Do Fine Always\").\n- Spaces: **A C E G** (\"All Cows Eat Grass\").\n\n**Middle C** sits on a short extra line (a ledger line) between the two staves. \"Play skilfully\" (Psalm 33:3): reading music is a skill anyone can learn with practice."
+    },
+    {
+     "title": "Rhythm and time signatures",
+     "scripture": "Ecclesiastes 3:1-4",
+     "body": "\"To every thing there is a season, and a time\" (Ecclesiastes 3:1). In music, **rhythm** is the pattern of long and short sounds.\n\nCommon note values (in 4/4 time):\n\n- **Semibreve** (whole note): 4 beats\n- **Minim** (half note): 2 beats\n- **Crotchet** (quarter note): 1 beat\n- **Quaver** (eighth note): ½ beat\n- **Semiquaver** (sixteenth note): ¼ beat\n\nEach has a matching **rest** (silence) of the same length. A **dot** after a note adds half its value (a dotted minim = 3 beats).\n\nThe **time signature** at the start shows the beats in each bar:\n\n- **4/4**: four crotchet beats per bar (most common).\n- **3/4**: three beats (waltz feel, many hymns).\n- **6/8**: two groups of three quavers (a lilting feel).\n\nClap and count aloud: \"1 and 2 and 3 and 4 and\"."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many lines does a staff have?",
+     "options": [
+      "Five",
+      "Four",
+      "Six",
+      "Seven"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What are the treble clef lines from the bottom?",
+     "options": [
+      "E G B D F",
+      "F A C E",
+      "G B D F A",
+      "A C E G"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How many beats does a minim have in 4/4 time?",
+     "options": [
+      "Two",
+      "One",
+      "Three",
+      "Four"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does a 3/4 time signature mean?",
+     "options": [
+      "Three crotchet beats per bar",
+      "Three bars per song",
+      "Four beats per bar",
+      "The song is in the key of 3"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does a dot after a note do?",
+     "options": [
+      "Adds half the note's value",
+      "Halves the note",
+      "Makes it silent",
+      "Makes it louder"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Sol-fa and staff",
+   "summary": "Connecting tonic sol-fa with written notes.",
+   "lessons": [
+    {
+     "title": "Tonic sol-fa",
+     "scripture": "Psalm 150:3-6",
+     "body": "**Tonic sol-fa** names notes by their position in the scale, not by fixed letters:\n\n**d r m f s l t d'** (*doh ray me fah soh lah te doh*)\n\nThe first note (*doh*) can be any pitch; it is the \"home\" note of the key. This makes sol-fa excellent for singing in any key and for hearing relationships between notes. Many Nigerian choirs and church music traditions teach parts in sol-fa.\n\nNotation:\n\n- Higher octave: **d'** (a mark above or after)\n- Lower octave: **d,** (a mark below or after)\n- Rhythm in sol-fa uses **colons and dots** between notes: `| d : r | m : - |` where **:** separates beats and **-** continues a note.\n\nPractise: sing *d m s d'*, then *d' s m d*. Then *d r m f s* slowly with a keyboard."
+    },
+    {
+     "title": "From sol-fa to staff",
+     "scripture": "1 Corinthians 14:7-8",
+     "body": "\"Except they give a distinction in the sounds, how shall it be known what is piped or harped?\" (1 Corinthians 14:7). Knowing both systems makes you a stronger musician.\n\nTo connect them:\n\n1. Find the **key** (Module 3 explains key signatures).\n2. The key note on the staff is **doh**.\n3. Count up the scale: if C is *doh*, then D is *ray*, E is *me*, F is *fah*, G is *soh*, A is *lah*, B is *te*.\n4. In G major, G is *doh*, A is *ray*, B is *me*, C is *fah*, D is *soh*, E is *lah*, F♯ is *te*.\n\nPractice:\n\n- Take a hymn printed in staff notation. Write the sol-fa under the melody.\n- Take a sol-fa part and write it on the staff in C major.\n\nOver time you will \"hear\" the notes as you read either system."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "In tonic sol-fa, what is 'doh'?",
+     "options": [
+      "The home note of the key",
+      "Always the note C",
+      "The highest note",
+      "A rest"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does d' mean in sol-fa?",
+     "options": [
+      "Doh in the higher octave",
+      "Doh in the lower octave",
+      "A long doh",
+      "A silent doh"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "In C major, which note is 'soh'?",
+     "options": [
+      "G",
+      "F",
+      "A",
+      "E"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "In G major, which note is 'te'?",
+     "options": [
+      "F sharp",
+      "F",
+      "G",
+      "E"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Scales and keys",
+   "summary": "Major scales and key signatures.",
+   "lessons": [
+    {
+     "title": "The major scale",
+     "scripture": "Psalm 98:4-5",
+     "body": "A **major scale** has eight notes from one note to the same note an octave higher, following a pattern of **tones** (T, whole steps) and **semitones** (S, half steps):\n\n**T T S T T T S**\n\nOn a keyboard, a semitone is the nearest key (white or black); a tone is two semitones.\n\nC major uses only white keys: **C D E F G A B C**. The semitones fall between **E–F** and **B–C**, matching *me–fah* and *te–doh'* in sol-fa.\n\nStarting on G, the pattern needs **F♯** (F sharp) to keep the semitone between the 7th and 8th notes: **G A B C D E F♯ G**.\n\nStarting on F, it needs **B♭** (B flat): **F G A B♭ C D E F**.\n\n**Sharp (♯)** raises a note a semitone; **flat (♭)** lowers it a semitone; **natural (♮)** cancels them."
+    },
+    {
+     "title": "Key signatures",
+     "scripture": "1 Chronicles 15:16",
+     "body": "Instead of writing a sharp or flat every time, music uses a **key signature** at the start of each line.\n\nCommon major keys:\n\n- **C**: no sharps or flats\n- **G**: 1 sharp (F♯)\n- **D**: 2 sharps (F♯ C♯)\n- **A**: 3 sharps (F♯ C♯ G♯)\n- **F**: 1 flat (B♭)\n- **B♭**: 2 flats (B♭ E♭)\n- **E♭**: 3 flats (B♭ E♭ A♭)\n\nQuick ways to find *doh*:\n\n- **Sharps**: the last sharp is *te*; *doh* is one semitone above.\n- **Flats**: the second-last flat is *doh* (for F major, remember it has one flat).\n\nThe Levites appointed singers \"with instruments of musick, psalteries and harps and cymbals\" (1 Chronicles 15:16). Instruments and singers must agree on the key. Choosing a good key for the congregation is one of a music leader's most practical skills."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the pattern of a major scale?",
+     "options": [
+      "T T S T T T S",
+      "T S T T S T T",
+      "S S T T T T T",
+      "T T T S T T S"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Where are the semitones in C major?",
+     "options": [
+      "Between E–F and B–C",
+      "Between C–D and G–A",
+      "Between D–E and A–B",
+      "There are none"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which key has one sharp, F sharp?",
+     "options": [
+      "G major",
+      "D major",
+      "F major",
+      "C major"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "With sharps, how do you find doh?",
+     "options": [
+      "The last sharp is te; doh is one semitone above",
+      "The first sharp is doh",
+      "Count the sharps and add two",
+      "Doh is always C"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Chords",
+   "summary": "Building chords and understanding harmony.",
+   "lessons": [
+    {
+     "title": "Triads",
+     "scripture": "Ecclesiastes 4:12",
+     "body": "\"A threefold cord is not quickly broken\" (Ecclesiastes 4:12). The most basic chord is a **triad**: three notes stacked in thirds.\n\nBuild a major triad on any note: **root + 3rd + 5th** of its major scale.\n\n- C major chord: **C E G** (*d m s*)\n- F major chord: **F A C** (*f l d'*)\n- G major chord: **G B D** (*s t r'*)\n\nIn every major key, three chords do much of the work:\n\n- **I** (built on *doh*)\n- **IV** (built on *fah*)\n- **V** (built on *soh*)\n\nIn C major these are C, F and G. In G major: G, C and D. Many hymns and choruses can be accompanied with I, IV and V alone.\n\nThe chords on *ray*, *me* and *lah* are **minor** (ii, iii, vi). In C major: Dm, Em, Am. Minor chords sound softer or sadder; they add colour."
+    },
+    {
+     "title": "Chord charts and practice",
+     "scripture": "Psalm 92:1-3; 2 Timothy 2:15",
+     "body": "Worship bands often use **chord charts**: lyrics with chord names written above the words where the chord changes.\n\n```\nC              F        C\nPraise the Lord, all ye nations\n        Am       F      G     C\nPraise Him, all ye people, Amen\n```\n\nSometimes charts use **numbers** (the Nashville system: 1, 4, 5, 6m) so a song can be played in any key.\n\nTo read and play:\n\n- Know the **key** and its I, IV, V and vi chords.\n- Watch **where** each chord changes on the lyric.\n- Keep a steady **rhythm**.\n\nA practice routine:\n\n1. Play I–IV–V–I slowly in C, G and F.\n2. Add vi (Am in C) and ii (Dm in C).\n3. Take a simple hymn, find its key and chords, and play along.\n4. Write a chord chart for a song your church sings.\n\n\"It is a good thing to give thanks unto the LORD... upon an instrument of ten strings, and upon the psaltery; upon the harp with a solemn sound\" (Psalm 92:1-3)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is a triad?",
+     "options": [
+      "Three notes stacked in thirds",
+      "Three songs in a row",
+      "Three beats per bar",
+      "Three instruments"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What notes make the C major chord?",
+     "options": [
+      "C E G",
+      "C D E",
+      "C F G",
+      "C E A"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "In G major, what are chords I, IV and V?",
+     "options": [
+      "G, C and D",
+      "G, A and B",
+      "C, F and G",
+      "D, G and A"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a chord chart?",
+     "options": [
+      "Lyrics with chord names written above where the chord changes",
+      "A list of choir members",
+      "A graph of volume",
+      "A seating plan for the band"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "Which clef is used for lower voices like tenor and bass?",
+   "options": [
+    "Bass clef",
+    "Treble clef",
+    "No clef",
+    "Alto clef only"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What are the treble clef spaces from the bottom?",
+   "options": [
+    "F A C E",
+    "E G B D",
+    "A C E G",
+    "G B D F"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How many beats does a semibreve have in 4/4?",
+   "options": [
+    "Four",
+    "Two",
+    "One",
+    "Eight"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is 6/8 time?",
+   "options": [
+    "Two groups of three quavers per bar",
+    "Six bars per line",
+    "Eight beats per bar",
+    "Six crotchets per bar"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why is sol-fa useful for singers?",
+   "options": [
+    "It names notes by their place in the scale, so it works in any key",
+    "It only works in C major",
+    "It replaces rhythm",
+    "It is used only for drums"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "In C major, which note is 'fah'?",
+   "options": [
+    "F",
+    "G",
+    "E",
+    "D"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does a flat do?",
+   "options": [
+    "Lowers a note by a semitone",
+    "Raises a note by a semitone",
+    "Makes it louder",
+    "Makes it longer"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which key has two flats?",
+   "options": [
+    "B flat major",
+    "F major",
+    "D major",
+    "G major"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which three chords do most of the work in a major key?",
+   "options": [
+    "I, IV and V",
+    "ii, iii and vi",
+    "I, II and III",
+    "V, VI and VII"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "In C major, which chord is vi?",
+   "options": [
+    "A minor",
+    "A major",
+    "F major",
+    "G minor"
+   ],
+   "answer": 0
+  }
+ ],
+ "assignment": {
+  "title": "Practical assignment: theory workbook",
+  "body": "Complete these exercises and hand in photos or a typed document:\n\n1. Write the treble and bass clef note names for one line of a hymn.\n2. Write the sol-fa under the melody of a hymn in C, G or F major.\n3. Write out the scales of C, G, D, F and B♭ major and their key signatures.\n4. Write the I, IV, V and vi chords for C, G and F major.\n5. Write a chord chart for a worship song or hymn your church sings, naming its key.\n\nAdd a 150-word note on which part of theory you found hardest and how you practised it."
+ },
+ "reading": [
+  "Eric Taylor, The AB Guide to Music Theory, Part I",
+  "ABRSM, Music Theory in Practice, Grade 1"
+ ]
+}

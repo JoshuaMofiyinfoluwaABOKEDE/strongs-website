@@ -1,0 +1,295 @@
+{
+ "slug": "storytelling-and-testimony-writing",
+ "objectives": [
+  "Use the basic shape of a story to write true accounts that hold attention",
+  "Interview people and listen well to gather their stories",
+  "Write testimonies and ministry reports that are honest and vivid",
+  "Handle consent, privacy and accuracy responsibly"
+ ],
+ "modules": [
+  {
+   "title": "The shape of a story",
+   "summary": "How stories work and why they move people.",
+   "lessons": [
+    {
+     "title": "Why stories matter",
+     "scripture": "Psalm 107:2; Mark 5:18-20; 2 Samuel 12:1-7",
+     "body": "\"Let the redeemed of the LORD say so\" (Psalm 107:2). God's people have always told stories of what He has done. Jesus sent the healed man home: \"Go home to thy friends, and tell them how great things the Lord hath done for thee\" (Mark 5:19). Nathan confronted King David not with a lecture but with a story of a poor man's lamb (2 Samuel 12:1-7).\n\nStories reach the heart because they show truth in a real life. Readers remember stories long after they forget arguments.\n\nA **testimony** tells how God worked in a person's life. A **ministry report** tells what God did through an outreach, crusade or project. Both are true stories, so they must be told truthfully and well. Exaggeration dishonours God, who does not need our help to look great."
+    },
+    {
+     "title": "The story arc",
+     "scripture": "Genesis 37:1-36; Genesis 50:20",
+     "body": "Most stories follow an **arc**:\n\n1. **Setting and character**: who, where, when. \"In 2019, Grace was a final-year student in Ogbomoso.\"\n2. **Desire or problem**: what the person wants or faces. \"She had failed the same course twice.\"\n3. **Struggle**: attempts, obstacles, rising tension.\n4. **Turning point**: a moment of change, often where God intervenes or the person decides.\n5. **Resolution**: what happened as a result.\n6. **Meaning**: what it shows about God or life (often stated briefly, or left for the reader to see).\n\nJoseph's story (Genesis 37 to 50) has every element: a favoured son, betrayal, slavery, prison, a turning point before Pharaoh, and the meaning stated at the end: \"ye thought evil against me; but God meant it unto good\" (Genesis 50:20).\n\n**Show, don't just tell**: \"She cried in the bus all the way home\" shows sadness better than \"She was very sad.\""
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What did Jesus tell the healed man in Mark 5:19?",
+     "options": [
+      "Go home and tell them how great things the Lord has done",
+      "Tell no one ever",
+      "Write a book first",
+      "Go to the temple and stay there"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a testimony?",
+     "options": [
+      "A true account of how God worked in a person's life",
+      "A made-up story with a moral",
+      "A list of church rules",
+      "A sermon outline"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which element comes at the moment of change in a story arc?",
+     "options": [
+      "The turning point",
+      "The setting",
+      "The title",
+      "The ending only"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which sentence shows rather than tells?",
+     "options": [
+      "She cried in the bus all the way home",
+      "She was very sad",
+      "She had feelings",
+      "Sadness happened"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Interviewing and listening",
+   "summary": "Gathering stories from other people.",
+   "lessons": [
+    {
+     "title": "Preparing and asking",
+     "scripture": "Proverbs 18:13; Proverbs 20:5; James 1:19",
+     "body": "\"Counsel in the heart of man is like deep water; but a man of understanding will draw it out\" (Proverbs 20:5). Interviewing is drawing out a story.\n\nBefore the interview:\n\n- **Explain your purpose**: what you are writing and where it will appear.\n- **Ask permission** to record or take notes.\n- **Prepare open questions**.\n\nGood questions:\n\n- \"Tell me about your life before ___.\"\n- \"What happened then? What did you feel?\"\n- \"What was the turning point?\"\n- \"What has changed since?\"\n- \"Can you describe that moment: where you were, what you saw?\"\n\nAvoid yes/no questions and questions that suggest the answer (\"Wasn't it amazing?\"). Ask for **specifics**: names (with permission), places, dates, numbers, exact words spoken.\n\n\"Be swift to hear, slow to speak\" (James 1:19). Let silences sit; people often share the most important thing after a pause."
+    },
+    {
+     "title": "Listening, notes and checking",
+     "scripture": "Luke 1:1-4; Proverbs 18:17",
+     "body": "Luke's Gospel was drawn from \"eyewitnesses\" (Luke 1:2), carefully researched. Careful listening produces accurate writing.\n\nDuring the interview:\n\n- **Listen more than you write.** Note key words, phrases and quotes.\n- **Record exact quotes** carefully; if you aren't sure of the wording, ask them to repeat it.\n- **Ask follow-up questions**: \"What do you mean by that?\"\n- **Notice details**: setting, gestures, emotions.\n\nAfter the interview:\n\n- **Write up your notes the same day**, while memory is fresh.\n- **Check facts**: dates, names, places. \"He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him\" (Proverbs 18:17). Where possible, confirm with another source.\n- **Read sensitive parts back** to the person, or show them the draft, to make sure it is accurate and that they are comfortable with it."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which is an open question?",
+     "options": [
+      "Tell me about your life before you met Christ",
+      "Were you happy?",
+      "Was it amazing?",
+      "Did it happen on Sunday?"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you do before recording an interview?",
+     "options": [
+      "Ask permission",
+      "Hide the recorder",
+      "Assume it's fine",
+      "Record secretly"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "When should interview notes be written up?",
+     "options": [
+      "The same day, while memory is fresh",
+      "After a month",
+      "Only before publishing",
+      "Never"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does Proverbs 18:17 teach writers?",
+     "options": [
+      "Check facts, because one side of a story may be incomplete",
+      "The first story you hear is always right",
+      "Never ask questions",
+      "Facts don't matter"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Reports and consent",
+   "summary": "Ministry reports, privacy and honesty.",
+   "lessons": [
+    {
+     "title": "Writing ministry reports",
+     "scripture": "Acts 14:27; Acts 15:3-4; Acts 21:19",
+     "body": "When Paul and Barnabas returned to Antioch, \"they had gathered the church together, they rehearsed all that God had done with them, and how he had opened the door of faith unto the Gentiles\" (Acts 14:27). Paul later \"declared particularly what things God had wrought among the Gentiles by his ministry\" (Acts 21:19).\n\nA good **ministry report** (for a crusade, outreach or project) includes:\n\n- **What, where, when, who**: the event, location, dates, team.\n- **What happened**: activities, attendance, decisions, follow-up arrangements.\n- **Stories**: one or two short, true accounts that show the impact.\n- **Numbers**, honestly counted and clearly explained (\"312 decision cards were collected\").\n- **Challenges and lessons**: what went wrong and what will change.\n- **Thanks**: partners, volunteers, hosts.\n- **Next steps** and prayer points.\n- **Photos** with captions (and consent).\n\nGive God the glory. Report numbers accurately; inflated figures are lies, however good the motive."
+    },
+    {
+     "title": "Consent, privacy and dignity",
+     "scripture": "Exodus 20:16; Proverbs 11:13; Matthew 7:12",
+     "body": "\"Thou shalt not bear false witness\" (Exodus 20:16). \"A talebearer revealeth secrets: but he that is of a faithful spirit concealeth the matter\" (Proverbs 11:13).\n\nRules for responsible storytelling:\n\n- **Get consent** before publishing anyone's story, name or photo. Explain where it will appear. Written consent is best.\n- **Children**: get a parent's or guardian's consent; don't publish a child's full name, school or location.\n- **Change names and details** when needed for safety, and say so (\"names have been changed\").\n- **Protect dignity**: don't use photos of people in distress, sickness or poverty in ways that shame them. Ask: would I want my picture used this way?\n- **Don't exaggerate** healings, numbers or results. Report what you know, and say what you don't.\n- **Let people withdraw** their story if they change their minds.\n- **Avoid revealing** sensitive matters (health, family conflict, past sins) unless the person clearly wants them shared.\n\n\"Whatsoever ye would that men should do to you, do ye even so to them\" (Matthew 7:12)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What did Paul and Barnabas do when they returned to Antioch?",
+     "options": [
+      "Gathered the church and reported all that God had done",
+      "Kept everything secret",
+      "Wrote only numbers",
+      "Asked for payment"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which belongs in a ministry report?",
+     "options": [
+      "Challenges and lessons learned",
+      "Only the good news",
+      "Exaggerated numbers",
+      "Private details without consent"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What must you get before publishing a person's story or photo?",
+     "options": [
+      "Their consent",
+      "A large audience",
+      "A professional camera",
+      "An editor's signature only"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How should a child's story be published?",
+     "options": [
+      "With a parent's or guardian's consent and without full name, school or location",
+      "With all their details",
+      "Without asking anyone",
+      "Only if the child is famous"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "Why do stories move people?",
+   "options": [
+    "They show truth in a real life",
+    "They are always longer",
+    "They avoid truth",
+    "They replace Scripture"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does exaggeration in a testimony do?",
+   "options": [
+    "Dishonours God, who doesn't need our help to look great",
+    "Makes it more spiritual",
+    "Is acceptable if the motive is good",
+    "Helps readers believe"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is the first element of a story arc?",
+   "options": [
+    "Setting and character",
+    "Resolution",
+    "Meaning",
+    "Turning point"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is the meaning of Joseph's story stated in Genesis 50:20?",
+   "options": [
+    "Ye thought evil against me, but God meant it unto good",
+    "Brothers can never be forgiven",
+    "Dreams are always literal",
+    "Egypt is the promised land"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why avoid yes/no questions in interviews?",
+   "options": [
+    "They produce short answers instead of stories",
+    "They are rude",
+    "They take too long",
+    "They are illegal"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should you do during silences in an interview?",
+   "options": [
+    "Let them sit; people often share important things after a pause",
+    "Fill every silence quickly",
+    "End the interview",
+    "Change the subject"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why read sensitive parts back to the interviewee?",
+   "options": [
+    "To ensure accuracy and that they are comfortable",
+    "To make the interview longer",
+    "To impress them",
+    "It is never necessary"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How should numbers be reported in a ministry report?",
+   "options": [
+    "Accurately and clearly explained",
+    "Rounded up generously",
+    "Estimated without counting",
+    "Left out always"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should you write when names have been changed for safety?",
+   "options": [
+    "Say that names have been changed",
+    "Nothing",
+    "Claim they are real names",
+    "Use the real names anyway"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which principle sums up responsible storytelling?",
+   "options": [
+    "Do to others what you would want done to you",
+    "Publish whatever is interesting",
+    "The story matters more than the person",
+    "Consent is optional"
+   ],
+   "answer": 0
+  }
+ ],
+ "assignment": {
+  "title": "Practical assignment: write a testimony and a short report",
+  "body": "Interview someone (with their permission) about how God has worked in their life, and write their testimony in 500 to 800 words using the story arc.\n\nThen write a one-page report (300 to 500 words) on any church, fellowship or STRONGS activity you took part in, following the guidelines in Module 3.\n\nAttach a short note (100 words) confirming how you obtained consent and what details you changed for privacy, if any."
+ },
+ "reading": [
+  "Jack Hart, Storycraft",
+  "William Zinsser, Writing About Your Life"
+ ]
+}

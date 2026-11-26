@@ -1,0 +1,295 @@
+{
+ "slug": "editing-and-proofreading",
+ "objectives": [
+  "Apply the grammar and punctuation rules most writers get wrong",
+  "Line-edit a draft for clarity, flow and consistency",
+  "Proofread systematically using a checklist",
+  "Edit other people's work with skill and courtesy"
+ ],
+ "modules": [
+  {
+   "title": "Grammar and punctuation",
+   "summary": "The rules that cause most mistakes.",
+   "lessons": [
+    {
+     "title": "Grammar that trips writers",
+     "scripture": "Proverbs 25:11",
+     "body": "Good grammar is not snobbery; it removes obstacles between the reader and the meaning. \"A word fitly spoken is like apples of gold\" (Proverbs 25:11).\n\nCommon problems:\n\n- **Subject-verb agreement**: \"The list of names **is** long\" (the subject is *list*, not *names*). \"Each of the students **has** a Bible.\"\n- **Pronoun clarity**: \"When Tunde met Ade, he was happy.\" Who was happy? Rewrite: \"Tunde was happy to meet Ade.\"\n- **Tense consistency**: don't drift between past and present in one story.\n- **Confused words**:\n  - *its* (belonging to it) / *it's* (it is)\n  - *their* / *there* / *they're*\n  - *your* / *you're*\n  - *affect* (verb) / *effect* (usually noun)\n  - *loose* / *lose*, *advice* (noun) / *advise* (verb)\n- **Nigerian English vs international usage**: decide which your readers expect. For international readers, avoid local constructions like \"on the light\" (switch on the light) or \"borrow me\" (lend me), unless writing dialogue."
+    },
+    {
+     "title": "Punctuation that matters",
+     "scripture": "Nehemiah 8:8",
+     "body": "Ezra's readers \"gave the sense\" (Nehemiah 8:8). Punctuation helps readers find the sense.\n\n- **Full stop**: end sentences. Short sentences are your friend.\n- **Comma**: separate items in a list, set off introductory phrases (\"After the meeting, we prayed.\"), and surround extra information (\"Paul, who wrote Romans, was a tentmaker.\"). Do not join two full sentences with only a comma: \"I came, I left early\" is a **comma splice**; use a full stop or \"and\".\n- **Apostrophe**: possession (the church's choir, the churches' choirs) and contractions (don't). Never for plurals: *CDs*, not *CD's*.\n- **Colon**: introduces a list, explanation or quotation.\n- **Semicolon**: joins two closely related full sentences.\n- **Quotation marks**: for exact words. Be consistent with single or double marks.\n- **Capitals**: names, places, days, and pronouns for God if your publication's style uses them, consistently.\n- **Exclamation marks**: rarely. One is enough!"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which sentence has correct subject-verb agreement?",
+     "options": [
+      "The list of names is long",
+      "The list of names are long",
+      "Each of the students have a Bible",
+      "The team are is ready"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which is correct?",
+     "options": [
+      "It's raining, and the tree lost its leaves",
+      "Its raining, and the tree lost it's leaves",
+      "It's raining, and the tree lost it's leaves",
+      "Its raining, and the tree lost its leaves"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a comma splice?",
+     "options": [
+      "Joining two full sentences with only a comma",
+      "Using a comma in a list",
+      "A comma after an introductory phrase",
+      "A missing full stop at the end of a paragraph"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which uses the apostrophe correctly?",
+     "options": [
+      "The church's choir sang",
+      "We bought new CD's",
+      "The choir sang it's best",
+      "The book's are on the shelf"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Line editing",
+   "summary": "Making sentences clear, smooth and consistent.",
+   "lessons": [
+    {
+     "title": "Editing for clarity",
+     "scripture": "Ecclesiastes 12:10; 1 Corinthians 14:9",
+     "body": "\"Except ye utter by the tongue words easy to be understood, how shall it be known what is spoken?\" (1 Corinthians 14:9). **Line editing** improves sentences and paragraphs so readers understand them easily.\n\nLine-editing moves:\n\n- **Cut wordiness**: \"due to the fact that\" → \"because\"; \"at this point in time\" → \"now\"; \"in order to\" → \"to\".\n- **Prefer active voice**: \"Mistakes were made\" → \"We made mistakes.\"\n- **Replace weak verbs with strong ones**: \"make a decision\" → \"decide\"; \"give encouragement\" → \"encourage\".\n- **Break long sentences** with more than one main idea.\n- **Remove repetition** of words and ideas, unless repetition is deliberate for emphasis.\n- **Replace vague words** (*thing, stuff, aspect, various*) with specific ones.\n- **Keep the author's voice.** Edit to clarify, not to make the writing sound like you."
+    },
+    {
+     "title": "Consistency and style sheets",
+     "scripture": "1 Corinthians 14:40",
+     "body": "\"Let all things be done decently and in order\" (1 Corinthians 14:40). Readers notice inconsistency even when they can't name it.\n\nCheck consistency in:\n\n- **Spelling**: British (colour, organise) or American (color, organize). STRONGS uses British spelling.\n- **Names**: the same spelling and title each time (Pastor Ade Ojo, then Pastor Ojo).\n- **Numbers**: commonly words for one to nine, figures for 10 and above; figures for dates, money and percentages.\n- **Bible references**: one format (John 3:16; 1 Corinthians 13:4-7) and the same version named.\n- **Capitalisation and hyphenation**: decide once (e.g. *e-mail* or *email*) and keep it.\n- **Headings and lists**: same style throughout.\n\nKeep a **style sheet**: a one-page list of decisions for the document. It saves time and helps several editors work together."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the shorter form of 'due to the fact that'?",
+     "options": [
+      "Because",
+      "Since the time when",
+      "Due to the reason being that",
+      "In view of the fact of"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which is a strong-verb revision of 'make a decision'?",
+     "options": [
+      "Decide",
+      "Make a choice decision",
+      "Do deciding",
+      "Have a decision made"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a style sheet?",
+     "options": [
+      "A list of style decisions for a document, used to keep it consistent",
+      "A fashion guide",
+      "The publisher's logo",
+      "A list of typos"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should a line editor preserve?",
+     "options": [
+      "The author's voice",
+      "Their own preferred style",
+      "Every wordy phrase",
+      "All repetition"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Proofreading",
+   "summary": "The final check before publication.",
+   "lessons": [
+    {
+     "title": "A proofreading method",
+     "scripture": "Luke 1:3",
+     "body": "Luke \"had perfect understanding of all things from the very first\" and wrote \"in order\" (Luke 1:3). Careful work deserves a careful final check.\n\n**Proofreading** catches the last errors after editing is done: typos, missing words, wrong punctuation, formatting slips.\n\nMethod:\n\n1. **Take a break** before proofreading. Fresh eyes catch more.\n2. **Print it** or change the font or size; the brain sees familiar text less carefully.\n3. **Read slowly, aloud**, or follow with a finger or ruler.\n4. **Read in several passes**, each for one thing: spelling; punctuation; names and numbers; headings and formatting.\n5. **Read backwards** sentence by sentence to catch spelling without being carried by meaning.\n6. **Check the high-risk places**: titles, headings, captions, names, dates, phone numbers, Bible references, and the first and last lines.\n7. **Use spellcheck**, but do not trust it: it won't catch *form* for *from* or *pubic* for *public*."
+    },
+    {
+     "title": "Proofreading checklist and tools",
+     "scripture": "Proverbs 27:17",
+     "body": "\"Iron sharpeneth iron\" (Proverbs 27:17). Ask someone else to proofread too; others see what we miss.\n\nA checklist for print and online:\n\n- [ ] Title and headings spelled correctly\n- [ ] Author names and titles correct\n- [ ] Dates, times, venues and phone numbers checked against the source\n- [ ] Bible references checked against the Bible itself\n- [ ] Quotations exact, with sources credited\n- [ ] No double spaces, doubled words (\"the the\") or missing words\n- [ ] Consistent spelling, capitals and numbers (see the style sheet)\n- [ ] Links work (online)\n- [ ] Page numbers, captions and contents page match (print)\n\nUseful tools: your word processor's spelling and grammar checker, the \"Find\" function to search for common errors, and a style guide. Tools help; careful reading decides.\n\nOn event flyers and programmes, one wrong date or phone number can undo all the work. Check them twice."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "When does proofreading happen?",
+     "options": [
+      "After editing, as the final check",
+      "Before writing",
+      "Instead of editing",
+      "After printing ten thousand copies"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why read a text backwards when proofreading?",
+     "options": [
+      "To catch spelling without being carried by the meaning",
+      "To make it more fun",
+      "To find the main idea",
+      "To check the argument"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which error might spellcheck miss?",
+     "options": [
+      "Writing 'form' instead of 'from'",
+      "Writing 'teh' for 'the'",
+      "Writing 'recieve' for 'receive'",
+      "Writing 'adress' for 'address'"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which details on a flyer should be checked twice?",
+     "options": [
+      "Dates and phone numbers",
+      "The colour of the border",
+      "The font name",
+      "The number of pictures"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "Why does good grammar matter?",
+   "options": [
+    "It removes obstacles between the reader and the meaning",
+    "It makes writing sound important",
+    "Only teachers care about it",
+    "It replaces clear thinking"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which pair is used correctly?",
+   "options": [
+    "You're welcome to bring your Bible",
+    "Your welcome to bring you're Bible",
+    "You're welcome to bring you're Bible",
+    "Your welcome to bring your Bible"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What fixes a comma splice?",
+   "options": [
+    "A full stop or a joining word such as 'and'",
+    "Adding more commas",
+    "An exclamation mark",
+    "Removing all punctuation"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does line editing focus on?",
+   "options": [
+    "Clarity and flow of sentences and paragraphs",
+    "Only spelling",
+    "Printing",
+    "The book cover"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is the active version of 'Mistakes were made'?",
+   "options": [
+    "We made mistakes",
+    "Mistakes have been made by someone",
+    "It was mistakes",
+    "Making of mistakes occurred"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which spelling does STRONGS use?",
+   "options": [
+    "British",
+    "American",
+    "A mixture",
+    "Whatever the writer prefers each time"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why print or change the font when proofreading?",
+   "options": [
+    "The brain sees familiar text less carefully",
+    "To use more paper",
+    "To make the text longer",
+    "Because screens are sinful"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a high-risk place for errors?",
+   "options": [
+    "Headings and phone numbers",
+    "The middle of long paragraphs only",
+    "Blank spaces",
+    "The margins"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why should someone else also proofread?",
+   "options": [
+    "Others see what we miss",
+    "To share the blame",
+    "Because we can never improve",
+    "It is not necessary"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How should an editor treat another person's work?",
+   "options": [
+    "With skill and courtesy, clarifying while keeping their voice",
+    "Rewriting it in the editor's own style",
+    "Criticising harshly",
+    "Ignoring their meaning"
+   ],
+   "answer": 0
+  }
+ ],
+ "assignment": {
+  "title": "Practical assignment: edit and proofread a piece",
+  "body": "Take a 600 to 1,000 word piece: either a draft of your own, or (with permission) a draft by someone else such as a church bulletin article or a student essay.\n\nHand in: (1) the original text, (2) your edited and proofread version with changes marked (use Track Changes or colour), (3) a one-page style sheet you created for it, and (4) a 200-word note explaining the five most important changes you made and why."
+ },
+ "reading": [
+  "Lynne Truss, Eats, Shoots and Leaves",
+  "New Hart's Rules (Oxford style guide)"
+ ]
+}

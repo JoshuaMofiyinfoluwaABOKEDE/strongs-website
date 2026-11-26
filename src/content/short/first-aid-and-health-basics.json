@@ -1,0 +1,295 @@
+{
+ "slug": "first-aid-and-health-basics",
+ "objectives": [
+  "Keep yourself and others safe and call for help correctly in an emergency",
+  "Give basic first aid for common emergencies until help arrives",
+  "Recognise when someone needs urgent medical care",
+  "Practise everyday habits that prevent common illnesses"
+ ],
+ "modules": [
+  {
+   "title": "Staying safe and calling for help",
+   "summary": "The first minutes of any emergency.",
+   "lessons": [
+    {
+     "title": "Danger, response and help",
+     "scripture": "Luke 10:30-37; Proverbs 3:27",
+     "body": "The Good Samaritan \"went to him, and bound up his wounds, pouring in oil and wine, and set him on his own beast, and brought him to an inn, and took care of him\" (Luke 10:34). Caring for the injured is love in action. \"Withhold not good from them to whom it is due, when it is in the power of thine hand to do it\" (Proverbs 3:27).\n\nThis course teaches basic first aid. It does **not** replace a hands-on, certified first aid course (for example from the Nigerian Red Cross Society or St John Ambulance), which every outreach and event team should have.\n\nWhen you find someone hurt or ill, remember **D-R-S**:\n\n- **Danger**: check for traffic, fire, electricity, violence, or falling objects. Don't become a second casualty.\n- **Response**: speak loudly and tap their shoulders. \"Can you hear me?\"\n- **Send for help**: call **112** (Nigeria's national emergency number) or the nearest hospital or ambulance, or ask someone specific to call: \"You, in the blue shirt, call 112 now.\""
+    },
+    {
+     "title": "Airway, breathing and CPR",
+     "scripture": "Ezekiel 37:5; Acts 20:9-12",
+     "body": "If the person does not respond:\n\n- **Airway**: tilt the head back gently and lift the chin.\n- **Breathing**: look, listen and feel for normal breathing for no more than 10 seconds.\n\nIf they **are breathing normally**, place them in the **recovery position** (on their side, top knee bent, head tilted so the mouth drains) and keep checking breathing until help arrives.\n\nIf they are **not breathing normally**, start **CPR** (cardiopulmonary resuscitation):\n\n- Kneel beside them. Put the heel of one hand in the **centre of the chest**, the other hand on top.\n- Press down hard and fast, about **5 to 6 cm** deep, at **100 to 120 compressions a minute**, letting the chest rise fully between each.\n- If trained, give 2 rescue breaths after every 30 compressions; if not, continue **hands-only** compressions.\n- If an AED (defibrillator) is available, switch it on and follow its voice instructions.\n- Continue until help arrives or the person starts breathing normally.\n\nCPR is tiring; take turns with others every two minutes if possible."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What do the letters D-R-S stand for?",
+     "options": [
+      "Danger, Response, Send for help",
+      "Drive, Run, Stop",
+      "Drink, Rest, Sleep",
+      "Doctor, Rescue, Survive"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is Nigeria's national emergency number?",
+     "options": [
+      "112",
+      "911",
+      "999 only",
+      "000"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you do if an unresponsive person is breathing normally?",
+     "options": [
+      "Place them in the recovery position and keep checking",
+      "Start chest compressions",
+      "Give them water",
+      "Leave them alone"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "At what rate should chest compressions be given?",
+     "options": [
+      "100 to 120 per minute",
+      "10 per minute",
+      "300 per minute",
+      "As slowly as possible"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Common emergencies",
+   "summary": "First aid for injuries and sudden illness.",
+   "lessons": [
+    {
+     "title": "Bleeding, burns and fractures",
+     "scripture": "Isaiah 1:6; Luke 10:34",
+     "body": "**Severe bleeding**:\n\n- Press firmly on the wound with a clean cloth or pad. Keep pressing.\n- Raise the injured part if possible.\n- If blood soaks through, add more cloth on top; don't remove the first.\n- Wear gloves or use a plastic bag over your hands if available.\n- Call for help. Watch for shock (pale, cold, clammy skin, fast breathing): lay them down, keep them warm.\n\n**Burns**:\n\n- Cool the burn under **cool running water for 20 minutes**.\n- Remove rings or tight clothing near the burn unless stuck to it.\n- Cover loosely with cling film or a clean, non-fluffy cloth.\n- **Do not** apply oil, toothpaste, butter, raw egg or palm oil.\n- Seek medical help for large burns, burns on the face, hands or genitals, or burns on children.\n\n**Fractures (broken bones)**:\n\n- Keep the injured part still; support it in the position found.\n- Don't try to straighten it.\n- Get medical help. If you suspect a neck or back injury, don't move the person unless they are in danger."
+    },
+    {
+     "title": "Choking, fainting, seizures and bites",
+     "scripture": "Proverbs 22:3; Acts 28:3-6",
+     "body": "**Choking** (adult cannot speak, cough or breathe):\n\n- Give up to **5 back blows** between the shoulder blades.\n- Then up to **5 abdominal thrusts**: stand behind, fist above the navel, pull sharply inward and upward.\n- Repeat until it clears; call 112 if it doesn't. (Infants need a different technique; learn it on a course.)\n\n**Fainting**: lay them down and raise their legs. Loosen tight clothing. If they don't recover within a minute or two, call for help.\n\n**Seizures (fits)**:\n\n- Clear the space around them; protect the head.\n- **Do not** hold them down or put anything in their mouth.\n- Time the seizure. After it stops, put them in the recovery position.\n- Call for help if it lasts more than 5 minutes, repeats, or it's their first seizure.\n\n**Snakebite**:\n\n- Keep the person **still and calm**, the bitten limb still and below heart level.\n- Remove rings and tight items.\n- Get to a **hospital** quickly for antivenom.\n- **Do not** cut, suck, apply a tight tourniquet, or use herbs or \"black stone\"."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the first step for severe bleeding?",
+     "options": [
+      "Press firmly on the wound with a clean cloth",
+      "Wash it with hot water",
+      "Apply palm oil",
+      "Leave it uncovered"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How long should a burn be cooled under running water?",
+     "options": [
+      "20 minutes",
+      "10 seconds",
+      "1 minute",
+      "It shouldn't be cooled"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you NOT do during a seizure?",
+     "options": [
+      "Put anything in the person's mouth",
+      "Protect their head",
+      "Time the seizure",
+      "Clear space around them"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is the correct first aid for a snakebite?",
+     "options": [
+      "Keep the person still and get to hospital quickly",
+      "Cut the wound and suck out the venom",
+      "Apply a very tight tourniquet",
+      "Use a black stone"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Health and prevention",
+   "summary": "Everyday habits that keep communities healthy.",
+   "lessons": [
+    {
+     "title": "Preventing common illnesses",
+     "scripture": "3 John 1:2; Leviticus 13:46; 1 Corinthians 6:19-20",
+     "body": "\"I wish above all things that thou mayest prosper and be in health, even as thy soul prospereth\" (3 John 1:2). The law of Moses contained health rules about washing, quarantine and clean camps. Prevention honours the body God gave us.\n\n**Malaria**:\n\n- Sleep under an **insecticide-treated net** every night.\n- Clear stagnant water around the home.\n- If you have fever, **get tested** before treatment; malaria is treated with the right medicine (often an ACT) at the right dose from a qualified health worker. Don't rely on self-medication.\n\n**Diarrhoea and cholera**:\n\n- Wash hands with soap after the toilet and before eating or cooking.\n- Drink safe water (boiled, treated or sealed).\n- Use **ORS** (oral rehydration solution) for diarrhoea, and seek care for children, blood in stool, or signs of dehydration (very little urine, sunken eyes, extreme thirst).\n\n**Others**: get vaccinations as recommended, especially for children; cover coughs; don't share razors or needles."
+    },
+    {
+     "title": "Healthy living and getting care",
+     "scripture": "Proverbs 17:22; Mark 2:17; Luke 10:34",
+     "body": "Jesus said, \"They that are whole have no need of the physician, but they that are sick\" (Mark 2:17). Seeking medical care is not a lack of faith. Luke, who wrote two books of the New Testament, was \"the beloved physician\" (Colossians 4:14). Pray **and** see a doctor.\n\nHealthy living:\n\n- **Eat** a varied diet: vegetables, fruit, beans, whole grains, fish or lean meat; less sugar, salt and fried food.\n- **Drink** enough water.\n- **Move**: walk, play, exercise regularly.\n- **Sleep** 7 to 9 hours (teenagers need more).\n- **Avoid** tobacco, drug misuse and excess alcohol.\n- **Check-ups**: know your blood pressure and blood sugar, especially after 40.\n- **Rest your mind**: \"A merry heart doeth good like a medicine\" (Proverbs 17:22). Talk to someone when you are struggling.\n\n**Get urgent care** for: chest pain, difficulty breathing, sudden weakness or confusion, severe bleeding, high fever in a baby, seizures, or severe pain. Don't wait."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the best protection against malaria at night?",
+     "options": [
+      "Sleeping under an insecticide-treated net",
+      "Leaving windows open",
+      "Drinking cold water",
+      "Sleeping outside"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you do before treating a fever for malaria?",
+     "options": [
+      "Get tested",
+      "Take any tablets available",
+      "Wait a week",
+      "Use only herbs"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is ORS used for?",
+     "options": [
+      "Replacing fluids lost through diarrhoea",
+      "Treating burns",
+      "Stopping bleeding",
+      "Curing malaria"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Is seeking medical care a lack of faith?",
+     "options": [
+      "No; Jesus said the sick need a physician",
+      "Yes, always",
+      "Only for serious illness",
+      "Only if prayer fails"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "Why should every outreach team have someone with certified first aid training?",
+   "options": [
+    "This course does not replace hands-on certified training",
+    "Certification is never useful",
+    "First aid is only for hospitals",
+    "It is required for preaching"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should you check first at an emergency scene?",
+   "options": [
+    "Danger to yourself and others",
+    "The person's phone",
+    "Who is to blame",
+    "The time"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How should you ask someone to call for help?",
+   "options": [
+    "Point to a specific person and tell them to call",
+    "Shout to the crowd generally",
+    "Wait for someone to volunteer",
+    "Don't ask anyone"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Where should hands be placed for CPR?",
+   "options": [
+    "In the centre of the chest",
+    "On the stomach",
+    "On the neck",
+    "On the left shoulder"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should you do if blood soaks through a dressing?",
+   "options": [
+    "Add more cloth on top and keep pressing",
+    "Remove the first cloth",
+    "Stop pressing",
+    "Pour water on it"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which should NOT be applied to a burn?",
+   "options": [
+    "Toothpaste or oil",
+    "Cool running water",
+    "Cling film loosely",
+    "A clean, non-fluffy cloth"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is the first action for an adult who is choking and can't breathe?",
+   "options": [
+    "Up to 5 back blows",
+    "Give them water",
+    "Lay them down to sleep",
+    "Wait for it to pass"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "When should you call for help for a seizure?",
+   "options": [
+    "If it lasts more than 5 minutes or repeats",
+    "Never",
+    "Only if it lasts an hour",
+    "Only if it's in church"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a sign of dehydration?",
+   "options": [
+    "Very little urine and sunken eyes",
+    "Clear urine",
+    "Normal energy",
+    "A good appetite"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which symptom needs urgent medical care?",
+   "options": [
+    "Chest pain or difficulty breathing",
+    "A mild cold",
+    "Feeling hungry",
+    "Tiredness after work"
+   ],
+   "answer": 0
+  }
+ ],
+ "assignment": {
+  "title": "Practical assignment: an event safety plan",
+  "body": "Write a one-page safety and first aid plan (300 to 500 words) for a real or planned event (an outreach, crusade, camp or church programme). Include:\n\n1. Who is responsible for first aid, and whether they have certified training.\n2. The contents of the first aid kit.\n3. The nearest hospital or clinic, its phone number, and how you would get someone there.\n4. What the team will do in three likely emergencies (for example fainting in the heat, a cut, a seizure).\n5. Health precautions (water, shade, hand-washing).\n\nIf possible, also take part in a certified first aid course and mention it."
+ },
+ "reading": [
+  "St John Ambulance, British Red Cross and St Andrew's First Aid, First Aid Manual",
+  "Nigerian Red Cross Society first aid courses (contact your state branch)"
+ ]
+}

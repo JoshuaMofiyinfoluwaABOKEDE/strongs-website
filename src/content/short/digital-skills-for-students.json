@@ -1,0 +1,353 @@
+{
+ "slug": "digital-skills-for-students",
+ "objectives": [
+  "Create and format clear documents for school and ministry",
+  "Use spreadsheets to organise data and do simple calculations",
+  "Communicate professionally by email and stay safe online",
+  "Research effectively and use sources honestly"
+ ],
+ "modules": [
+  {
+   "title": "Documents",
+   "summary": "Word processing for assignments, letters and reports.",
+   "lessons": [
+    {
+     "title": "Creating clear documents",
+     "scripture": "Habakkuk 2:2; 1 Corinthians 14:40",
+     "body": "\"Write the vision, and make it plain\" (Habakkuk 2:2). Most schoolwork, job applications and ministry reports are typed documents. You can use **Microsoft Word**, **Google Docs** (free, works on phones), or **LibreOffice Writer** (free).\n\nKey skills:\n\n- **Headings**: use the built-in Heading 1, Heading 2 styles rather than just making text bold. They create structure and allow an automatic table of contents.\n- **Fonts**: one clear font (e.g. Calibri, Arial or Times New Roman) at 11 or 12 point for body text.\n- **Line spacing**: 1.15 to 1.5 for readability (or as your school requires).\n- **Margins**: usually 2.5 cm (1 inch).\n- **Lists**: bullets for unordered items; numbers for steps.\n- **Page numbers** and a **header/footer** with your name or title.\n- **Tables** for data, with a header row.\n- **Images** with captions; don't stretch them.\n- **Save** with clear file names: `Surname_Course_Assignment1.docx`."
+    },
+    {
+     "title": "Editing, sharing and formats",
+     "scripture": "Proverbs 27:17; Luke 14:28",
+     "body": "Good documents are revised, shared and saved safely.\n\n- **Spelling and grammar check**: use it, but read carefully too.\n- **Track changes and comments**: let others suggest edits you can accept or reject. Useful for group work and editing.\n- **Sharing**: in Google Docs, share a link as \"viewer\", \"commenter\" or \"editor\". Be careful who can edit.\n- **Version history**: Google Docs saves versions automatically; in Word, save new versions (v1, v2).\n- **PDF**: export to PDF when sending a final document so the layout doesn't change on other devices.\n- **Backups**: save important work in the cloud (Google Drive, OneDrive) **and** on another device or flash drive. A lost phone shouldn't mean a lost project.\n- **Keyboard shortcuts** save time: Ctrl+C (copy), Ctrl+V (paste), Ctrl+Z (undo), Ctrl+S (save), Ctrl+F (find), Ctrl+B (bold).\n\n\"Count the cost\" (Luke 14:28): an hour backing up is cheaper than losing a semester's work."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Why use built-in heading styles?",
+     "options": [
+      "They create structure and allow an automatic table of contents",
+      "They make text smaller",
+      "They hide text",
+      "They are required to print"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a good body font size for most documents?",
+     "options": [
+      "11 or 12 point",
+      "4 point",
+      "24 point",
+      "40 point"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why export a final document to PDF?",
+     "options": [
+      "So the layout doesn't change on other devices",
+      "To make it editable by everyone",
+      "To make it longer",
+      "To remove the text"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does Ctrl+Z do?",
+     "options": [
+      "Undo",
+      "Save",
+      "Bold",
+      "Paste"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Spreadsheets",
+   "summary": "Organising data and doing calculations.",
+   "lessons": [
+    {
+     "title": "Spreadsheet basics",
+     "scripture": "Numbers 1:1-3; Luke 16:10",
+     "body": "God told Moses to \"take ye the sum of all the congregation... by their families\" (Numbers 1:2). Counting and recording well is part of faithful stewardship. \"He that is faithful in that which is least is faithful also in much\" (Luke 16:10).\n\nA **spreadsheet** (Excel, Google Sheets, LibreOffice Calc) is a grid of **cells**. Columns have letters (A, B, C), rows have numbers (1, 2, 3); a cell's address is like **B3**.\n\nUses: attendance lists, budgets, grades, contact lists, inventories, outreach records.\n\nGood habits:\n\n- **One header row** with clear column names (Name, Phone, Date, Amount).\n- **One kind of data per column** (don't mix dates and text).\n- **One record per row**.\n- **Freeze the header row** so it stays visible while scrolling.\n- **Format** numbers as currency (₦), dates as dates, phone numbers as text (so the leading 0 isn't lost).\n- **Sort and filter** to find information quickly."
+    },
+    {
+     "title": "Formulas and charts",
+     "scripture": "Luke 14:28-30; Proverbs 27:23-24",
+     "body": "Formulas start with **=**. Common ones:\n\n- `=SUM(B2:B20)`: adds the numbers in B2 to B20.\n- `=AVERAGE(C2:C20)`: the average.\n- `=COUNT(B2:B20)`: how many numbers.\n- `=MAX()` and `=MIN()`: highest and lowest.\n- `=B2*C2`: multiply (e.g. quantity × price).\n- `=IF(D2>=50,\"Pass\",\"Fail\")`: a simple decision.\n\nCopy a formula down a column by dragging the small square at the bottom-right of the cell.\n\n**Charts**: select your data and insert a column, bar, line or pie chart. Give it a title and labels. Use charts to show trends (attendance over months) or comparisons (spending by category).\n\nExample budget columns: Item | Quantity | Unit price | Total (`=B2*C2`) | then `=SUM(D2:D15)` at the bottom.\n\n\"Know the state of thy flocks\" (Proverbs 27:23). Spreadsheets help you see the true state of things."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the address of the cell in column B, row 3?",
+     "options": [
+      "B3",
+      "3B",
+      "BB3",
+      "Row B"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why format phone numbers as text?",
+     "options": [
+      "So the leading 0 isn't lost",
+      "To make them bold",
+      "To add them up",
+      "To hide them"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does =SUM(B2:B20) do?",
+     "options": [
+      "Adds the numbers in cells B2 to B20",
+      "Counts the cells",
+      "Finds the average",
+      "Deletes the cells"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which chart is good for showing attendance over months?",
+     "options": [
+      "A line or column chart",
+      "No chart",
+      "A random picture",
+      "A table of colours"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Email and online safety",
+   "summary": "Professional communication and protecting yourself.",
+   "lessons": [
+    {
+     "title": "Professional email",
+     "scripture": "Colossians 4:6; Proverbs 15:23",
+     "body": "\"Let your speech be alway with grace, seasoned with salt\" (Colossians 4:6). Email is still how schools, employers and scholarship bodies communicate.\n\n- **Use a professional address**: firstname.lastname@gmail.com, not coolboy2009@...\n- **Clear subject line**: \"Application for Admission: Ade Ojo\" or \"Assignment 2 Submission: Biology 101\".\n- **Greeting**: \"Dear Dr Okafor,\" or \"Dear Admissions Office,\".\n- **Short paragraphs**: who you are, why you are writing, what you need.\n- **Polite close**: \"Thank you for your time. Yours sincerely, [full name], [phone].\"\n- **Attachments**: PDF, clearly named; mention them in the email.\n- **Proofread** before sending; check the recipient address.\n- **Reply** within a day or two; don't use text-speak (\"pls\", \"u\").\n- **Reply all** only when everyone needs the reply."
+    },
+    {
+     "title": "Staying safe online",
+     "scripture": "Matthew 10:16; Proverbs 14:15",
+     "body": "\"Be ye therefore wise as serpents, and harmless as doves\" (Matthew 10:16). \"The simple believeth every word: but the prudent man looketh well to his going\" (Proverbs 14:15).\n\nOnline safety basics:\n\n- **Strong passwords**: long phrases, different for each account; use a password manager if possible.\n- **Two-step verification** on email and social media.\n- **Never share** OTPs, PINs, BVN or passwords with anyone, even someone claiming to be from your bank or school.\n- **Beware of scams**: \"You've won a scholarship/prize\", job offers asking for payment, \"urgent\" messages from \"friends\" asking for money. Verify by calling the person directly.\n- **Phishing links**: check the web address before logging in; don't click suspicious links.\n- **Update** your phone and apps.\n- **Privacy**: limit who sees your posts and location.\n- **Digital footprint**: employers and universities may look at what you post.\n- **Be kind** and avoid sharing false news; check before forwarding."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which is a professional email address?",
+     "options": [
+      "firstname.lastname@gmail.com",
+      "coolboy2009@mail.com",
+      "sexygirl@mail.com",
+      "bigboss_nolimits@mail.com"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should an email subject line be?",
+     "options": [
+      "Clear and specific about the purpose",
+      "Empty",
+      "\"Hi\"",
+      "All in capitals with many exclamation marks"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Who should you share your OTP or PIN with?",
+     "options": [
+      "No one",
+      "Anyone who calls from 'the bank'",
+      "Close friends",
+      "Your lecturer"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you do if a 'friend' messages urgently asking for money?",
+     "options": [
+      "Verify by calling them directly",
+      "Send money immediately",
+      "Forward the message to others",
+      "Share your PIN"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Research skills",
+   "summary": "Finding, judging and using information well.",
+   "lessons": [
+    {
+     "title": "Finding good information",
+     "scripture": "Acts 17:11; Proverbs 18:17",
+     "body": "The Bereans \"searched the scriptures daily, whether those things were so\" (Acts 17:11). Good research checks claims.\n\nWhere to search:\n\n- **Search engines** (Google): use specific words, quotation marks for exact phrases (\"youth unemployment Nigeria\"), and `site:` (e.g. `site:gov.ng`) for particular sites.\n- **Google Scholar** for academic articles.\n- **Libraries** (school, public, digital libraries).\n- **Official sources**: government agencies, universities, international bodies (e.g. WHO, UNESCO, the National Bureau of Statistics).\n\nJudging sources (ask **CRAAP** questions):\n\n- **Currency**: is it recent?\n- **Relevance**: does it answer my question?\n- **Authority**: who wrote it? Are they qualified?\n- **Accuracy**: is it supported by evidence? Do other good sources agree?\n- **Purpose**: is it informing, selling, or pushing an agenda?\n\n\"He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him\" (Proverbs 18:17). Check more than one source."
+    },
+    {
+     "title": "Using sources honestly",
+     "scripture": "Exodus 20:15; Exodus 20:16; Proverbs 12:22",
+     "body": "**Plagiarism** is presenting someone else's words or ideas as your own. It is a form of stealing and lying (Exodus 20:15-16), and schools punish it severely.\n\nUsing sources honestly:\n\n- **Quote** exact words in quotation marks, with the source.\n- **Paraphrase** in your own words and sentence structure, still citing the source.\n- **Cite** every source in the format your school uses (e.g. APA or Harvard): author, year, title, publisher or website, and link.\n- **Keep a list** of sources as you research, so you don't lose track.\n- **Use reference tools** like Zotero (free) or the citation tool in Word or Google Docs.\n\n**AI tools** (chatbots) can help brainstorm or explain, but:\n\n- They can produce errors and invented sources; **check everything**.\n- Follow your school's rules on AI use.\n- Never submit AI-written work as your own if it isn't allowed.\n\nHonest work builds real skill and a good name."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What does the 'A' for Authority in CRAAP ask?",
+     "options": [
+      "Who wrote it, and are they qualified?",
+      "Is it attractive?",
+      "Is it available offline?",
+      "Is it about Africa?"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does putting words in quotation marks in a Google search do?",
+     "options": [
+      "Searches for that exact phrase",
+      "Ignores those words",
+      "Translates them",
+      "Deletes them"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is plagiarism?",
+     "options": [
+      "Presenting someone else's words or ideas as your own",
+      "Quoting with a citation",
+      "Paraphrasing with a citation",
+      "Reading many sources"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you do with information from AI chatbots?",
+     "options": [
+      "Check everything, because they can produce errors and invented sources",
+      "Trust it completely",
+      "Submit it as your own work always",
+      "Never read it"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "Which free word processor works well on phones?",
+   "options": [
+    "Google Docs",
+    "Paint",
+    "Calculator",
+    "Camera"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why name files clearly, like Surname_Course_Assignment1?",
+   "options": [
+    "So they are easy to find and identify",
+    "To make them larger",
+    "Because computers require it",
+    "To hide them"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why back up important work in two places?",
+   "options": [
+    "So losing one device doesn't mean losing your work",
+    "To use more storage",
+    "Because one copy is illegal",
+    "To share it publicly"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does a spreadsheet formula start with?",
+   "options": [
+    "=",
+    "#",
+    "@",
+    "?"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does =IF(D2>=50,\"Pass\",\"Fail\") do?",
+   "options": [
+    "Shows Pass if D2 is 50 or more, otherwise Fail",
+    "Adds D2 and 50",
+    "Deletes D2",
+    "Counts cells"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a polite email close?",
+   "options": [
+    "Thank you for your time. Yours sincerely, followed by your full name",
+    "Bye",
+    "Reply fast",
+    "U get?"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is two-step verification?",
+   "options": [
+    "An extra security code when logging in",
+    "Using two emails",
+    "Writing your password twice",
+    "Having two phones"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does the 'C' for Currency in CRAAP ask?",
+   "options": [
+    "Is the information recent?",
+    "Is it about money?",
+    "Is it in naira?",
+    "Is it colourful?"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How should you paraphrase a source?",
+   "options": [
+    "In your own words and structure, with a citation",
+    "Change one word and no citation",
+    "Copy it exactly without quotation marks",
+    "Avoid citing anything"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why is plagiarism wrong for Christians?",
+   "options": [
+    "It is a form of stealing and lying",
+    "It is only wrong if you're caught",
+    "It isn't wrong",
+    "It's wrong only in universities"
+   ],
+   "answer": 0
+  }
+ ],
+ "assignment": {
+  "title": "Practical assignment: a digital skills portfolio",
+  "body": "Create and hand in:\n\n1. A two-page document (a report on a topic of your choice) with headings, a table, page numbers and at least three cited sources, exported as PDF.\n2. A spreadsheet with at least 15 rows (for example a budget or attendance record) using SUM, AVERAGE and IF formulas, and one chart.\n3. A professional email (sent to your course instructor or written as a screenshot) submitting the two files.\n4. A 150-word note listing three online safety steps you have taken on your accounts."
+ },
+ "reading": [
+  "Google, Applied Digital Skills (free online lessons)",
+  "Microsoft Learn and Google Workspace training (free online tutorials)"
+ ]
+}

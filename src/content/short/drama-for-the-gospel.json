@@ -1,0 +1,353 @@
+{
+ "slug": "drama-for-the-gospel",
+ "objectives": [
+  "Explain how drama can serve the gospel and the church",
+  "Write a short gospel drama script with clear structure",
+  "Use basic acting skills: voice, movement and character",
+  "Stage and rehearse a production safely and effectively"
+ ],
+ "modules": [
+  {
+   "title": "Drama and the gospel",
+   "summary": "Why and how the church uses drama.",
+   "lessons": [
+    {
+     "title": "Showing the truth",
+     "scripture": "Ezekiel 4:1-3; Jeremiah 13:1-11; 2 Samuel 12:1-7",
+     "body": "God sometimes told prophets to **act out** His message. Ezekiel drew Jerusalem on a tile and laid siege to it as \"a sign to the house of Israel\" (Ezekiel 4:1-3). Jeremiah buried a linen girdle and dug it up ruined to show Judah's pride (Jeremiah 13:1-11). Nathan's story made David see his sin (2 Samuel 12). Jesus told parables full of characters and drama.\n\nDrama works because people **see** truth in action. It can:\n\n- Draw crowds at outreaches who would not enter a church.\n- Show the consequences of sin and the hope of the gospel.\n- Make Bible stories come alive for children and youth.\n- Raise questions before a preacher answers them.\n\nDrama is a servant of the message, not a replacement for it. Usually it prepares hearts for a clear gospel word or appeal."
+    },
+    {
+     "title": "Kinds of gospel drama",
+     "scripture": "Mark 4:33-34; 1 Corinthians 9:22",
+     "body": "Jesus spoke \"with many such parables... as they were able to hear it\" (Mark 4:33). Choose the form that fits your audience.\n\n- **Short sketch** (3 to 10 minutes): one situation, one point. Good for services and outreaches.\n- **Mime**: no words, movement to music. Crosses language barriers; powerful at crusades.\n- **Street drama**: loud, simple, energetic, to gather a crowd in a market or motor park.\n- **Bible drama**: acting a Bible story faithfully.\n- **Full play** (30 to 90 minutes): for Easter, Christmas, campus programmes or evangelistic nights.\n- **Dance drama**: movement and music telling a story.\n\nNigeria has a rich tradition of Christian drama on stage and film. Learn from it, and aim for excellence: poor drama can distract from the gospel, while good drama opens hearts."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which prophet drew Jerusalem on a tile as a sign?",
+     "options": [
+      "Ezekiel",
+      "Isaiah",
+      "Amos",
+      "Jonah"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is drama's relationship to the gospel message?",
+     "options": [
+      "It serves and prepares for the message, not replace it",
+      "It replaces preaching",
+      "It has nothing to do with the gospel",
+      "It is only entertainment"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which form crosses language barriers best?",
+     "options": [
+      "Mime",
+      "Long dialogue play",
+      "Radio drama",
+      "Reading a script aloud"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why is street drama loud, simple and energetic?",
+     "options": [
+      "To gather a crowd in a busy public place",
+      "Because subtlety is sinful",
+      "Because scripts are not allowed",
+      "To avoid the gospel"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Script writing",
+   "summary": "Writing short, clear drama scripts.",
+   "lessons": [
+    {
+     "title": "Structure of a script",
+     "scripture": "Luke 15:11-32; Genesis 37:3-4",
+     "body": "The parable of the prodigal son (Luke 15:11-32) is a perfect short drama: a clear **character** (the younger son), a **desire** (freedom and money), **conflict** (famine, hunger, shame), a **turning point** (\"he came to himself\"), and a **resolution** (the father's embrace), plus a twist (the angry older brother).\n\nA short script structure:\n\n1. **Opening**: set the scene quickly. Who, where, what's normal?\n2. **Inciting incident**: something happens that creates a problem.\n3. **Rising conflict**: things get harder; choices matter.\n4. **Climax/turning point**: the moment of decision or revelation.\n5. **Resolution**: what happens as a result, pointing to the message.\n\nKeep it focused: **one main message**, few characters (two to six), one or two locations."
+    },
+    {
+     "title": "Writing dialogue and format",
+     "scripture": "Proverbs 15:23; Colossians 4:6",
+     "body": "\"A word spoken in due season, how good is it!\" (Proverbs 15:23).\n\nDialogue tips:\n\n- **Make it sound real**: people speak in short sentences, interrupt, and use everyday language (Pidgin or local languages where appropriate).\n- **Show character** through what people say and how.\n- **Avoid preaching** in dialogue. Let the story make the point; a character can speak truth naturally at the climax.\n- **Use humour** wisely: it relaxes the audience and makes serious moments stronger.\n- **Cut** anything that doesn't move the story.\n\nScript format:\n\n```\nSCENE 1. A BUS STOP. EVENING.\n(TUNDE paces, checking his phone.)\nTUNDE: Where is this man? I can't be late again.\n(MAMA BOLA enters with a heavy basket.)\n```\n\nCharacter names in capitals, directions in brackets. Number scenes and pages. Read the script aloud with others before rehearsal."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "In the prodigal son, what is the turning point?",
+     "options": [
+      "He came to himself",
+      "He asked for his inheritance",
+      "He wasted his money",
+      "The older brother was angry"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How many main messages should a short sketch have?",
+     "options": [
+      "One",
+      "Five",
+      "As many as possible",
+      "None"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why avoid preaching in dialogue?",
+     "options": [
+      "The story should make the point; preachy dialogue sounds unnatural",
+      "Truth should never be spoken",
+      "Audiences dislike Scripture",
+      "Characters must be silent"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How are character names usually written in a script?",
+     "options": [
+      "In capitals before their lines",
+      "In brackets",
+      "In lowercase only",
+      "They are not written"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Acting",
+   "summary": "Voice, movement and character.",
+   "lessons": [
+    {
+     "title": "Voice and body",
+     "scripture": "Nehemiah 8:3-8; 1 Corinthians 14:8",
+     "body": "When Ezra read the law, \"the ears of all the people were attentive\" (Nehemiah 8:3). Actors must be heard and understood.\n\n**Voice**:\n\n- **Project**: speak from the breath, aiming your voice at the back row, without shouting.\n- **Articulate**: clear consonants, especially outdoors.\n- **Vary**: pitch, pace and volume show emotion.\n- **Pause**: silence before an important line draws attention.\n\n**Body**:\n\n- **Face the audience** (\"cheat out\"): even when talking to another actor, angle your body toward the audience.\n- **Move with purpose**: every movement should mean something.\n- **Use your whole body** to show emotion: posture, gestures, facial expression.\n- **Stay in character** even when not speaking; react to others.\n\nWarm up voice and body before every rehearsal and performance."
+    },
+    {
+     "title": "Building a character",
+     "scripture": "1 Samuel 16:7; Hebrews 4:15",
+     "body": "Good actors understand **who** their character is and **why** they act as they do.\n\nAsk about your character:\n\n- What do they **want** in this scene?\n- What **stops** them getting it?\n- What do they **believe** about God, themselves and others?\n- How do they **walk, talk and dress**?\n- How do they **change** by the end?\n\nEven villains and sinners should be played truthfully, not as cartoons. Audiences recognise themselves in honest characters.\n\nChristian actors must keep **integrity**:\n\n- Do not act out sin in ways that cause stumbling (sexual content, real drunkenness, vulgar language). Suggest it instead.\n- Separate role from life: playing a thief doesn't make you one, but guard your heart.\n- Pray before performances; you are ministering."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What does 'project your voice' mean?",
+     "options": [
+      "Speak from the breath to reach the back row without shouting",
+      "Scream every line",
+      "Whisper",
+      "Use a recording"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does 'cheat out' mean?",
+     "options": [
+      "Angle your body toward the audience even when talking to another actor",
+      "Cheat in a game",
+      "Leave the stage early",
+      "Turn your back to the audience"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which question helps you build a character?",
+     "options": [
+      "What does my character want in this scene?",
+      "What colour is the stage?",
+      "How long is the play?",
+      "Who is in the audience?"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How should Christian actors portray sin?",
+     "options": [
+      "Suggest it rather than act it out in ways that cause stumbling",
+      "Act it out exactly",
+      "Never show any wrong at all",
+      "Make it look attractive"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Staging",
+   "summary": "Rehearsing and presenting a production.",
+   "lessons": [
+    {
+     "title": "Rehearsals and roles",
+     "scripture": "1 Corinthians 14:40; Nehemiah 4:6",
+     "body": "\"So built we the wall... for the people had a mind to work\" (Nehemiah 4:6). A production is teamwork.\n\nKey roles:\n\n- **Director**: shapes the whole production, guides actors.\n- **Stage manager**: runs rehearsals and the show, keeps time, manages cues.\n- **Actors**.\n- **Costumes, props and set**.\n- **Sound and music**, **lighting** (if available).\n\nRehearsal plan for a short drama:\n\n1. **Read-through**: everyone reads the script together.\n2. **Blocking**: decide where actors stand and move (write it in scripts).\n3. **Scene work**: rehearse scene by scene for meaning and emotion.\n4. **Off-book**: lines learned by a set date.\n5. **Run-throughs**: the whole piece without stopping.\n6. **Technical rehearsal**: with sound, props and costumes.\n7. **Dress rehearsal**: exactly like the performance.\n\nPray at every rehearsal. Unity in the team matters more than a perfect show."
+    },
+    {
+     "title": "Performing outdoors and safely",
+     "scripture": "Proverbs 22:3; Acts 19:23-41",
+     "body": "Much gospel drama is performed outdoors: crusades, markets, campuses, villages.\n\nPractical staging:\n\n- **Simple sets and props** that are easy to carry.\n- **Bold costumes** that show character at a distance.\n- **Sound**: use microphones if possible; otherwise strong projection and fewer, louder lines.\n- **Sightlines**: make sure the audience can see; use a raised area or form a circle.\n- **Music** to gather a crowd and to cover scene changes.\n\nSafety:\n\n- **Get permission** from local authorities, market leaders or school management.\n- **Know the area**: avoid conflict zones; have a team leader watching the crowd.\n- **Avoid realistic weapons** or anything that could cause panic.\n- **Plan for heat and rain**: water, shade, covers for equipment.\n- **Have a follow-up team** ready for those who respond.\n\n\"A prudent man foreseeth the evil, and hideth himself\" (Proverbs 22:3). Wise planning protects people and the message."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is blocking?",
+     "options": [
+      "Deciding where actors stand and move",
+      "Stopping a rehearsal",
+      "Blocking the audience",
+      "Learning lines"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What happens at a dress rehearsal?",
+     "options": [
+      "The performance is rehearsed exactly as it will be",
+      "Actors choose clothes",
+      "Only the director attends",
+      "Nothing is performed"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you get before performing in a public place?",
+     "options": [
+      "Permission from local authorities or leaders",
+      "A large budget",
+      "Professional lights",
+      "Nothing"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why avoid realistic weapons in outdoor drama?",
+     "options": [
+      "They could cause panic or danger",
+      "They are expensive",
+      "They are hard to carry",
+      "Audiences prefer no props"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "Why does drama help communicate the gospel?",
+   "options": [
+    "People see truth in action",
+    "It removes the need for preaching",
+    "It is always funny",
+    "It needs no preparation"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a feature of a short sketch?",
+   "options": [
+    "One situation and one main point",
+    "Twenty characters",
+    "Several hours long",
+    "Many unrelated messages"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does the inciting incident do?",
+   "options": [
+    "Creates the problem that drives the story",
+    "Ends the story",
+    "Introduces the audience",
+    "Lists the cast"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which tip helps dialogue sound real?",
+   "options": [
+    "Use short sentences and everyday language",
+    "Use long speeches",
+    "Use only formal English",
+    "Avoid humour completely"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why pause before an important line?",
+   "options": [
+    "Silence draws attention",
+    "To forget the line",
+    "To end the scene",
+    "To rest"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why should even villains be played truthfully?",
+   "options": [
+    "Audiences recognise themselves in honest characters",
+    "To make sin attractive",
+    "To scare children",
+    "It doesn't matter"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Who runs rehearsals and manages cues?",
+   "options": [
+    "The stage manager",
+    "The audience",
+    "The lead actor",
+    "The sound engineer alone"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does 'off-book' mean?",
+   "options": [
+    "Lines learned by heart",
+    "Script lost",
+    "Actor absent",
+    "Scene cut"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should be ready for those who respond at an outdoor drama?",
+   "options": [
+    "A follow-up team",
+    "Nothing",
+    "A ticket desk",
+    "A photo booth"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What matters more than a perfect show?",
+   "options": [
+    "Unity in the team",
+    "Expensive costumes",
+    "Famous actors",
+    "Long scripts"
+   ],
+   "answer": 0
+  }
+ ],
+ "assignment": {
+  "title": "Practical assignment: write and stage a short sketch",
+  "body": "Write a gospel sketch of 5 to 8 minutes with two to five characters, using the script format from Module 2. Then rehearse and perform it (at church, fellowship, outreach or for friends) or record it on a phone.\n\nHand in: the script, a list of roles and props, and a 300 to 400 word reflection on the rehearsal process, how the audience responded, and what you would improve. Include a link to a recording if you have one."
+ },
+ "reading": [
+  "Paul Burbridge and Murray Watts, Lightning Sketches",
+  "Konstantin Stanislavski, An Actor Prepares"
+ ]
+}
