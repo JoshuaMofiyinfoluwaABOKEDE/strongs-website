@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { theologyRules } from "@/content/theology/catalog";
 import { one } from "@/lib/db";
 import { loadTheology } from "@/lib/theology/learner";
+import { AssessShell } from "@/components/theology/Units";
 import { submitTheologyAssignment } from "@/app/theology/actions";
 
 export const dynamic = "force-dynamic";
@@ -17,7 +18,7 @@ export default async function AssignmentPage({ params, searchParams }: { params:
   const { slug, n } = await params;
   const { sent, error } = await searchParams;
   const no = Number(n);
-  const { user, c, row } = await loadTheology(slug);
+  const { user, c, row, g } = await loadTheology(slug);
   const a = c.assignments[no - 1];
   if (!a) notFound();
   const sub = await one<{ id: number; text: string; file_name: string | null; status: string; score: number | null; feedback: string; submitted_at: string; graded_at: string | null }>(
@@ -27,6 +28,7 @@ export default async function AssignmentPage({ params, searchParams }: { params:
   const locked = sub?.status === "graded";
 
   return (
+    <AssessShell c={c} g={g} title={`Assignment ${no}`}>
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2 border-b border-line pb-5">
         <p className="eyebrow">Assignment {no} of {c.assignments.length} · assignments are {theologyRules.weights.assignments}% of your grade</p>
@@ -75,5 +77,6 @@ export default async function AssignmentPage({ params, searchParams }: { params:
         </form>
       )}
     </article>
+    </AssessShell>
   );
 }

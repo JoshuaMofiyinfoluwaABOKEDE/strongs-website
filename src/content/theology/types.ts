@@ -54,6 +54,8 @@ export type TheologyCourse = {
   written: { short: TheologyShort[]; lists: TheologyList[] };
   assignments: TheologyAssignment[];
   examMinutes: number;
+  /** Who the course is for (shown on the course page). A sensible default is used if omitted. */
+  audience?: string[];
   /** Optional reading suggestions (titles and authors only). */
   reading?: string[];
 };

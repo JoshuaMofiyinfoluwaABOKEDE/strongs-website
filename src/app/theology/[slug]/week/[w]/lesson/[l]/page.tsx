@@ -1,9 +1,9 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Ref } from "@/components/theology/Ref";
 import { q } from "@/lib/db";
 import { lessonKey } from "@/lib/theology/content";
 import { loadTheology } from "@/lib/theology/learner";
+import { UnitShell } from "@/components/theology/Units";
 import { renderMarkdown } from "@/lib/markdown";
 import { completeTheologyLesson } from "@/app/theology/actions";
 
@@ -19,9 +19,9 @@ export default async function TheologyLesson({ params }: { params: Promise<{ slu
   if (!lesson) notFound();
   await q(`UPDATE lms_enrolment SET last_key = $3, last_active_at = now() WHERE user_id = $1 AND course_id = $2`, [user.id, row.id, lessonKey(week, n)]);
   const done = g.lessonsDone.has(lessonKey(week, n));
-  const prev = n > 1 ? `/theology/${slug}/week/${week}/lesson/${n - 1}/` : week > 1 ? `/theology/${slug}/week/${week - 1}/` : null;
 
   return (
+    <UnitShell c={c} g={g} current={`w${week}l${n}`}>
     <article className="flex flex-col gap-8">
       <header className="flex flex-col gap-3 border-b border-line pb-6">
         <p className="eyebrow">Week {week} · {m.title} · Lesson {n} of {m.lessons.length}</p>
@@ -40,10 +40,7 @@ export default async function TheologyLesson({ params }: { params: Promise<{ slu
         <button type="submit" className="btn btn-navy cursor-pointer border-0 font-[inherit]">{done ? "Next" : "Mark as read and continue"} →</button>
         {n === m.lessons.length && <span className="text-sm text-muted">Then review the key terms and summary, and take the week&rsquo;s quiz.</span>}
       </form>
-      <nav aria-label="Lesson navigation" className="flex justify-between gap-4 border-t border-line pt-5 text-sm">
-        {prev ? <Link href={prev}>← Previous</Link> : <span />}
-        <Link href={`/theology/${slug}/week/${week}/`}>Week {week} overview →</Link>
-      </nav>
     </article>
+    </UnitShell>
   );
 }

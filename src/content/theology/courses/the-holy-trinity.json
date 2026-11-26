@@ -1,0 +1,240 @@
+{
+  "slug": "the-holy-trinity",
+  "title": "The Holy Trinity",
+  "track": "god",
+  "level": "Intermediate",
+  "summary": "One God in three Persons: what the Bible teaches, how the church confessed it, and why it matters.",
+  "description": "The doctrine of the Trinity is at the heart of the Christian faith. This course shows from Scripture that there is one God, that the Father, the Son and the Holy Spirit are each fully God, and that they are distinct Persons. It explains how the early church guarded this truth against error, and how the Trinity shapes salvation, prayer, worship and Christian life.",
+  "objectives": [
+    "Show from Scripture that there is only one God",
+    "Show the full deity and distinct personhood of the Father, Son and Holy Spirit",
+    "Explain the historic creeds and the errors they rejected",
+    "Apply the doctrine of the Trinity to salvation and daily life"
+  ],
+  "outcomes": [
+    "State the doctrine of the Trinity in one clear sentence",
+    "Give Bible evidence for the deity of the Son and of the Spirit",
+    "Recognise modalism, Arianism and tritheism",
+    "Explain the role of the Council of Nicaea",
+    "Describe how each Person of the Trinity works in salvation"
+  ],
+  "modules": [
+    {
+      "title": "There Is One God",
+      "intro": "The Bible's first great confession is that God is one. The Trinity never means three gods.",
+      "lessons": [
+        {
+          "title": "Hear, O Israel",
+          "body": "Israel lived among nations with many gods. God revealed that He alone is God: \"Hear, O Israel: The LORD our God is one LORD\" (Deuteronomy 6:4). \"I am the LORD, and there is none else, there is no God beside me\" (Isaiah 45:5).\n\nThe New Testament repeats this truth. Jesus quoted the Shema as the first commandment (Mark 12:29). Paul says, \"there is none other God but one\" (1 Corinthians 8:4), and James, \"Thou believest that there is one God; thou doest well\" (James 2:19).\n\nChristians are monotheists: we worship one God only.",
+          "refs": ["Deuteronomy 6:4", "Isaiah 45:5", "Mark 12:29"]
+        },
+        {
+          "title": "Hints in the Old Testament",
+          "body": "Though the Old Testament stresses God's oneness, it also hints at plurality within the one God.\n\nGod says, \"Let us make man in our image\" (Genesis 1:26). The \"angel of the LORD\" speaks as God and is called God (Genesis 16:10-13; Exodus 3:2-6). The Spirit of God moves on the waters (Genesis 1:2). In Isaiah 48:16 the speaker says, \"the Lord GOD, and his Spirit, hath sent me.\"\n\nThese hints become clear only in the light of the New Testament, when the Son is made flesh and the Spirit is poured out.",
+          "refs": ["Genesis 1:26", "Exodus 3:2-6", "Isaiah 48:16"]
+        },
+        {
+          "title": "What the Trinity is and is not",
+          "body": "The doctrine of the Trinity can be summed up in three statements:\n\n1. There is one God.\n2. The Father is God, the Son is God, and the Holy Spirit is God.\n3. The Father, the Son and the Holy Spirit are distinct Persons.\n\nThe Trinity does **not** mean three gods (tritheism), or one Person wearing three masks (modalism). God is one in **essence** (being) and three in **Persons**.\n\nThe word \"Trinity\" is not in the Bible, but the truth it names is. Jesus commands baptism \"in the name\" (singular) \"of the Father, and of the Son, and of the Holy Ghost\" (Matthew 28:19).",
+          "refs": ["Matthew 28:19", "2 Corinthians 13:14", "1 Corinthians 8:6"]
+        }
+      ],
+      "terms": [
+        { "term": "Monotheism", "def": "Belief that there is only one God." },
+        { "term": "Trinity", "def": "One God eternally existing as three Persons: Father, Son and Holy Spirit." },
+        { "term": "Essence", "def": "God's one divine being, which all three Persons fully share." },
+        { "term": "Person", "def": "A distinct 'who' within the Godhead: Father, Son or Holy Spirit." },
+        { "term": "Angel of the LORD", "def": "An Old Testament figure who speaks as God and is often seen as a pre-incarnate appearance of the Son." },
+        { "term": "Godhead", "def": "The divine nature; God as He is in Himself." }
+      ],
+      "texts": [
+        { "ref": "Deuteronomy 6:4", "teaches": "The LORD our God is one LORD." },
+        { "ref": "Isaiah 45:5", "teaches": "There is no God besides the LORD." },
+        { "ref": "Genesis 1:26", "teaches": "God said, 'Let us make man in our image.'" },
+        { "ref": "Matthew 28:19", "teaches": "Baptism is in the one name of the Father, Son and Holy Ghost." },
+        { "ref": "2 Corinthians 13:14", "teaches": "The apostolic blessing names the Lord Jesus, God the Father and the Holy Ghost together." }
+      ],
+      "summary": [
+        "There is only one God; Christians are monotheists.",
+        "The Old Testament hints at plurality within God.",
+        "One God in essence, three distinct Persons.",
+        "The Trinity is not three gods, nor one Person in three roles."
+      ],
+      "questions": [
+        { "q": "Which statement best expresses the Trinity?", "options": ["One God in three distinct Persons", "Three separate gods", "One Person in three modes", "God the Father alone is God"], "answer": 0 },
+        { "q": "In Matthew 28:19, baptism is in the name (singular) of:", "options": ["The Father, the Son and the Holy Ghost", "Jesus only", "The apostles", "The church"], "answer": 0 },
+        { "q": "Which Old Testament verse uses \"us\" in creation?", "options": ["Genesis 1:26", "Genesis 3:15", "Exodus 20:3", "Isaiah 6:3"], "answer": 0 },
+        { "q": "Is the word \"Trinity\" found in the Bible?", "options": ["No, but the truth it names is taught there", "Yes, in Matthew 28", "Yes, in 1 John 5", "No, and the idea is not biblical"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Father, the Son and the Spirit",
+      "intro": "This week we see that each Person is fully God, and that each is distinct from the others.",
+      "lessons": [
+        {
+          "title": "The Father is God; the Son is God",
+          "body": "No one disputes that the Father is God (John 6:27; Ephesians 4:6).\n\nThe New Testament clearly calls the Son God. \"The Word was God\" (John 1:1). Thomas worshipped Him: \"My Lord and my God\" (John 20:28). Paul calls Him \"God blessed for ever\" (Romans 9:5), and Hebrews says the Father addresses the Son: \"Thy throne, O God, is for ever\" (Hebrews 1:8).\n\nJesus does what only God does: forgives sins (Mark 2:5-7), receives worship (Matthew 14:33), creates and upholds all things (Colossians 1:16-17), and claims the divine name \"I am\" (John 8:58).",
+          "refs": ["John 1:1", "John 20:28", "John 8:58"]
+        },
+        {
+          "title": "The Holy Spirit is God",
+          "body": "The Holy Spirit is not a force but a Person, and He is God.\n\nPeter told Ananias he had lied \"to the Holy Ghost\", and then, \"thou hast not lied unto men, but unto God\" (Acts 5:3-4). The Spirit has divine qualities: He is eternal (Hebrews 9:14), everywhere present (Psalm 139:7), and knows the deep things of God (1 Corinthians 2:10-11).\n\nHe acts as a Person: He teaches (John 14:26), speaks (Acts 13:2), can be grieved (Ephesians 4:30) and intercedes (Romans 8:26).",
+          "refs": ["Acts 5:3-4", "1 Corinthians 2:10-11", "Ephesians 4:30"]
+        },
+        {
+          "title": "Three distinct Persons",
+          "body": "The Persons are distinct, not the same Person in different roles.\n\nAt Jesus' baptism, the Son is in the water, the Spirit descends like a dove, and the Father speaks from heaven (Matthew 3:16-17). Jesus prays to the Father (John 17:1), and says the Father will send \"another Comforter\" (John 14:16). The Father loves the Son (John 3:35).\n\nThey relate to one another in eternal love and fellowship. The Son is eternally begotten of the Father (John 1:18), and the Spirit proceeds from the Father and is sent by the Son (John 15:26).",
+          "refs": ["Matthew 3:16-17", "John 14:16", "John 15:26"]
+        }
+      ],
+      "terms": [
+        { "term": "Deity of Christ", "def": "The truth that Jesus Christ is fully God." },
+        { "term": "Deity of the Spirit", "def": "The truth that the Holy Spirit is fully God." },
+        { "term": "Personhood of the Spirit", "def": "The truth that the Holy Spirit is a Person, not an impersonal force." },
+        { "term": "Only begotten", "def": "The Son's unique, eternal relationship to the Father." },
+        { "term": "Procession", "def": "The Spirit's eternal relationship of coming from the Father (and sent by the Son)." },
+        { "term": "Comforter", "def": "Jesus' title for the Holy Spirit, one called alongside to help." }
+      ],
+      "texts": [
+        { "ref": "John 1:1", "teaches": "The Word was with God and the Word was God." },
+        { "ref": "John 20:28", "teaches": "Thomas confessed Jesus as 'My Lord and my God.'" },
+        { "ref": "Acts 5:4", "teaches": "Lying to the Holy Ghost is lying to God." },
+        { "ref": "Matthew 3:17", "teaches": "At Jesus' baptism the Father speaks from heaven about His beloved Son." },
+        { "ref": "John 15:26", "teaches": "The Spirit proceeds from the Father and is sent by the Son." }
+      ],
+      "summary": [
+        "The Father is God, the Son is God, the Holy Spirit is God.",
+        "Jesus does what only God does and receives worship.",
+        "The Holy Spirit is a Person with divine qualities.",
+        "The three Persons are distinct, relating in eternal love."
+      ],
+      "questions": [
+        { "q": "What did Thomas call Jesus after the resurrection?", "options": ["My Lord and my God", "A good teacher", "A prophet", "The son of Joseph"], "answer": 0 },
+        { "q": "How does Acts 5:3-4 show the Spirit is God?", "options": ["Lying to the Holy Ghost is called lying to God", "The Spirit appears as a dove", "The Spirit is called a force", "The Spirit is sent by Peter"], "answer": 0 },
+        { "q": "Which event shows all three Persons distinctly present?", "options": ["The baptism of Jesus", "The feeding of the five thousand", "The wedding at Cana", "The call of Matthew"], "answer": 0 },
+        { "q": "Which shows the Spirit is a Person, not a force?", "options": ["He can be grieved", "He is invisible", "He is powerful", "He is like wind"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Guarding the Truth",
+      "intro": "The early church faced teachings that denied the Trinity. This week we learn the errors and the creeds that answered them.",
+      "lessons": [
+        {
+          "title": "Three errors",
+          "body": "- **Modalism** (Sabellianism) says God is one Person who appears in three modes: sometimes as Father, sometimes as Son, sometimes as Spirit. It cannot explain Jesus praying to the Father or the baptism scene. Some modern \"Jesus only\" or Oneness groups hold a form of this view.\n- **Arianism** says the Son is the first and highest creature, not eternal God: \"there was a time when he was not.\" Jehovah's Witnesses teach something similar today.\n- **Tritheism** says there are three separate gods.\n\nEach error tries to make God simpler than He has revealed Himself to be.",
+          "refs": ["John 17:5", "John 1:3", "Colossians 1:16-17"]
+        },
+        {
+          "title": "Nicaea and Constantinople",
+          "body": "In AD 325 the Council of Nicaea met to answer Arius. Led by men such as Athanasius of Alexandria, the church confessed that the Son is \"of one substance\" (Greek *homoousios*) with the Father, \"begotten, not made\".\n\nIn AD 381 the Council of Constantinople expanded the creed to confess the Holy Spirit as \"the Lord, the giver of life\", worshipped and glorified together with the Father and the Son.\n\nThe Nicene Creed is still confessed by Christians worldwide. Athanasius, an African, stood firm when many opposed him, earning the saying \"Athanasius against the world\".",
+          "refs": ["John 10:30", "Hebrews 1:3", "Jude 1:3"]
+        },
+        {
+          "title": "Why it matters",
+          "body": "Is the Trinity just a puzzle for scholars? No. If Jesus is not God, He could not reveal God perfectly or bear the infinite weight of our sin. If the Spirit is not God, He could not make us new or dwell in us as God's temple (1 Corinthians 6:19).\n\nOnly a triune God can be love from all eternity, before creation, because love needs someone to love: the Father has always loved the Son in the Spirit (John 17:24).\n\nGuarding this truth guards the gospel. Every Bible-believing church, Baptist and Pentecostal alike, confesses it.",
+          "refs": ["John 17:24", "1 Corinthians 6:19", "1 John 4:8"]
+        }
+      ],
+      "terms": [
+        { "term": "Modalism", "def": "The error that God is one Person appearing in three modes." },
+        { "term": "Arianism", "def": "The error that the Son is a created being, not eternal God." },
+        { "term": "Tritheism", "def": "The error that there are three separate gods." },
+        { "term": "Homoousios", "def": "Greek for 'of one substance'; the Son shares the Father's very being." },
+        { "term": "Council of Nicaea", "def": "The church council of AD 325 that confessed the full deity of the Son." },
+        { "term": "Nicene Creed", "def": "The statement of faith from Nicaea (325) and Constantinople (381) confessing the Trinity." }
+      ],
+      "texts": [
+        { "ref": "John 17:5", "teaches": "The Son shared the Father's glory before the world was." },
+        { "ref": "John 1:3", "teaches": "All things were made by the Word; He is not made." },
+        { "ref": "John 10:30", "teaches": "Jesus said, 'I and my Father are one.'" },
+        { "ref": "Hebrews 1:3", "teaches": "The Son is the brightness of God's glory and the express image of His person." },
+        { "ref": "John 17:24", "teaches": "The Father loved the Son before the foundation of the world." }
+      ],
+      "summary": [
+        "Modalism, Arianism and tritheism each distort the biblical God.",
+        "Nicaea (325) confessed the Son as of one substance with the Father.",
+        "Constantinople (381) confessed the full deity of the Holy Spirit.",
+        "The Trinity guards the gospel and shows God as eternal love."
+      ],
+      "questions": [
+        { "q": "Which error teaches that the Son is a created being?", "options": ["Arianism", "Modalism", "Tritheism", "Pelagianism"], "answer": 0 },
+        { "q": "Which error teaches one Person appearing in three modes?", "options": ["Modalism", "Arianism", "Tritheism", "Gnosticism"], "answer": 0 },
+        { "q": "What does homoousios mean?", "options": ["Of one substance", "Of similar substance", "Created first", "Three gods"], "answer": 0 },
+        { "q": "Which council confessed the full deity of the Holy Spirit in AD 381?", "options": ["Constantinople", "Nicaea", "Chalcedon", "Jerusalem"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Trinity in Salvation and Life",
+      "intro": "The triune God saves us and draws us into His fellowship. This week we see the Trinity at work and in worship.",
+      "lessons": [
+        {
+          "title": "The Father plans, the Son accomplishes, the Spirit applies",
+          "body": "All three Persons work together in salvation, each in a particular way.\n\n- The **Father** chose and sent: \"God so loved the world, that he gave his only begotten Son\" (John 3:16; Ephesians 1:3-6).\n- The **Son** came and redeemed us by His blood (Ephesians 1:7).\n- The **Spirit** applies salvation: He regenerates, seals and indwells believers (Ephesians 1:13-14; Titus 3:5).\n\nPeter describes believers as \"elect according to the foreknowledge of God the Father, through sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ\" (1 Peter 1:2).",
+          "refs": ["Ephesians 1:3-14", "1 Peter 1:2", "Titus 3:4-6"]
+        },
+        {
+          "title": "Praying to the triune God",
+          "body": "Christian prayer is Trinitarian. We pray **to** the Father, **through** the Son, **in** the Spirit: \"For through him we both have access by one Spirit unto the Father\" (Ephesians 2:18).\n\nJesus taught us to pray \"Our Father\" (Matthew 6:9), and to ask in His name (John 16:23). The Spirit helps our weakness and intercedes for us (Romans 8:26).\n\nIt is right also to worship the Son and the Spirit, for each is God. Stephen prayed, \"Lord Jesus, receive my spirit\" (Acts 7:59).",
+          "refs": ["Ephesians 2:18", "John 16:23", "Romans 8:26"]
+        },
+        {
+          "title": "Unity and love in the church",
+          "body": "Jesus prayed for His people \"that they all may be one; as thou, Father, art in me, and I in thee\" (John 17:21). The unity of the Father, Son and Spirit is the pattern for the church: real unity with real difference.\n\nPaul ties church unity to the Trinity: \"one Spirit... one Lord... One God and Father of all\" (Ephesians 4:4-6). Different gifts come from the same Spirit, the same Lord, the same God (1 Corinthians 12:4-6).\n\nThe church reflects the triune God when it is united in truth, humble in service and rich in love.",
+          "refs": ["John 17:21-23", "Ephesians 4:3-6", "1 Corinthians 12:4-6"]
+        }
+      ],
+      "terms": [
+        { "term": "Economic Trinity", "def": "How the three Persons work in creation and salvation." },
+        { "term": "Ontological Trinity", "def": "What God is eternally in Himself: three Persons in one being." },
+        { "term": "Election", "def": "The Father's choosing of a people for salvation." },
+        { "term": "Redemption", "def": "The Son's work of buying back sinners by His blood." },
+        { "term": "Sealing", "def": "The Spirit's work of marking believers as God's own." },
+        { "term": "Access", "def": "Believers' approach to the Father through the Son by the Spirit." }
+      ],
+      "texts": [
+        { "ref": "John 3:16", "teaches": "God so loved the world that He gave His only begotten Son." },
+        { "ref": "Ephesians 1:13", "teaches": "Believers are sealed with the Holy Spirit of promise." },
+        { "ref": "1 Peter 1:2", "teaches": "Salvation involves the Father's foreknowledge, the Spirit's sanctification and the Son's blood." },
+        { "ref": "Ephesians 2:18", "teaches": "Through Christ we have access by one Spirit to the Father." },
+        { "ref": "John 17:21", "teaches": "Believers' unity is patterned on the Father and Son's unity." }
+      ],
+      "summary": [
+        "The Father plans, the Son accomplishes and the Spirit applies salvation.",
+        "We pray to the Father, through the Son, in the Spirit.",
+        "The Son and the Spirit may also be worshipped, for each is God.",
+        "The Trinity is the pattern for unity and love in the church."
+      ],
+      "questions": [
+        { "q": "Which Person especially applies salvation to believers?", "options": ["The Holy Spirit", "The Father", "The Son", "The church"], "answer": 0 },
+        { "q": "According to Ephesians 2:18, we have access to the Father:", "options": ["Through Christ by one Spirit", "Through angels", "Through good works", "Through priests"], "answer": 0 },
+        { "q": "What is the economic Trinity?", "options": ["How the three Persons work in creation and salvation", "The cost of salvation", "A church budget", "Three gods working separately"], "answer": 0 },
+        { "q": "Jesus' prayer in John 17:21 makes the Trinity a pattern for:", "options": ["The unity of believers", "Church buildings", "Missionary journeys", "Fasting"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "State the doctrine of the Trinity in your own words.", "keywords": [["one God", "one"], ["three", "Persons"], ["Father"], ["Son", "Spirit", "Holy Ghost"]], "model": "There is one God who eternally exists as three distinct Persons: the Father, the Son and the Holy Spirit, each fully God." },
+      { "q": "Give two Bible evidences that Jesus is God.", "keywords": [["John 1:1", "Word was God", "John 20:28", "my God", "Romans 9:5", "Hebrews 1:8"], ["forgive", "worship", "create", "I am"]], "model": "John 1:1 says the Word was God; Thomas called Him 'My Lord and my God'; He forgives sins, receives worship and claimed the name 'I am'." },
+      { "q": "How do we know the Holy Spirit is a Person?", "keywords": [["grieved", "teaches", "speaks", "intercedes"], ["person", "not a force"]], "model": "He acts as a Person: He teaches, speaks, intercedes and can be grieved; He is not an impersonal force." },
+      { "q": "What is modalism, and why is it wrong?", "keywords": [["one Person", "modes", "masks", "roles"], ["baptism", "prays", "praying", "distinct"]], "model": "Modalism says God is one Person appearing in three modes; it is wrong because Scripture shows the Persons as distinct, for example at Jesus' baptism and when the Son prays to the Father." },
+      { "q": "What did the Council of Nicaea confess and why?", "keywords": [["Arius", "Arianism"], ["one substance", "homoousios", "same substance"], ["Son", "God"]], "model": "Against Arius, Nicaea (325) confessed that the Son is of one substance with the Father, fully God, begotten not made." },
+      { "q": "Describe the work of each Person in salvation.", "keywords": [["Father", "plans", "chose", "sent"], ["Son", "redeemed", "died", "blood"], ["Spirit", "applies", "regenerates", "seals", "indwells"]], "model": "The Father planned and sent, the Son redeemed us by His blood, and the Spirit applies salvation by regenerating, sealing and indwelling believers." }
+    ],
+    "lists": [
+      { "q": "List the three Persons of the Godhead.", "items": [["Father"], ["Son", "Jesus", "Word"], ["Holy Spirit", "Holy Ghost", "Spirit"]], "need": 3 },
+      { "q": "List three errors about the Trinity.", "items": [["modalism", "Sabellianism", "Oneness"], ["Arianism", "Arius"], ["tritheism", "three gods"]], "need": 3 },
+      { "q": "List three things Jesus did that only God can do.", "items": [["forgive", "forgives", "forgiving"], ["worship", "worshipped"], ["create", "creation", "made all things"], ["uphold", "upholds"], ["I am"], ["raise", "life"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Explaining the Trinity", "prompt": "A new believer asks, \"How can Christians say there is one God, yet call Jesus God and the Spirit God?\" Write a clear, simple answer with at least five Bible references, and explain why common illustrations (water, egg, one man as father, son and husband) can mislead.", "words": "500–700" },
+    { "title": "The Trinity and my prayers", "prompt": "Study Ephesians 1:3-14 or Ephesians 2:18. Describe what each Person of the Trinity does for the believer, then write how this should shape your own prayer life.", "words": "400–600" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Fred Sanders, The Deep Things of God",
+    "Robert Letham, The Holy Trinity",
+    "Wayne Grudem, Systematic Theology, chapter 14"
+  ]
+}

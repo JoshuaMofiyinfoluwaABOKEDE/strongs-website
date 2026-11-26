@@ -4,6 +4,7 @@ import { theologyRules } from "@/content/theology/catalog";
 import { Ref } from "@/components/theology/Ref";
 import { lessonKey } from "@/lib/theology/content";
 import { loadTheology } from "@/lib/theology/learner";
+import { UnitShell } from "@/components/theology/Units";
 
 export const dynamic = "force-dynamic";
 
@@ -17,6 +18,7 @@ export default async function WeekPage({ params }: { params: Promise<{ slug: str
   const read = m.lessons.filter((_, j) => g.lessonsDone.has(lessonKey(week, j + 1))).length;
 
   return (
+    <UnitShell c={c} g={g} current={`w${week}r`}>
     <article className="flex flex-col gap-8">
       <header className="flex flex-col gap-3 border-b border-line pb-6">
         <p className="eyebrow">Week {week} of {c.modules.length}</p>
@@ -77,5 +79,6 @@ export default async function WeekPage({ params }: { params: Promise<{ slug: str
         <Link href={`/theology/${slug}/week/${week}/quiz/`} className="btn btn-gold">{best == null ? "Take the quiz" : best >= theologyRules.quiz.pass ? "Review or retake" : "Try again"}</Link>
       </section>
     </article>
+    </UnitShell>
   );
 }

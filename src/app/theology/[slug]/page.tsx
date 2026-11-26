@@ -1,116 +1,128 @@
 import Link from "next/link";
 import { theologyRules } from "@/content/theology/catalog";
+import { courseUnits } from "@/components/theology/Units";
 import { one } from "@/lib/db";
-import { lessonKey } from "@/lib/theology/content";
 import { loadTheology } from "@/lib/theology/learner";
 
 export const dynamic = "force-dynamic";
 
-/** The first unfinished step, in course order. */
-function nextStep(c: Awaited<ReturnType<typeof loadTheology>>["c"], g: Awaited<ReturnType<typeof loadTheology>>["g"]) {
-  const base = `/theology/${c.slug}`;
-  for (const [i, m] of c.modules.entries()) {
-    const w = i + 1;
-    for (const [j, l] of m.lessons.entries()) if (!g.lessonsDone.has(lessonKey(w, j + 1))) return { href: `${base}/week/${w}/lesson/${j + 1}/`, label: `Week ${w}: ${l.title}` };
-    if ((g.quizBest[i] ?? 0) < theologyRules.quiz.pass) return { href: `${base}/week/${w}/quiz/`, label: `Week ${w} quiz` };
-  }
-  for (const [i, a] of c.assignments.entries()) if (!g.assignments[i] || g.assignments[i]?.status === "returned") return { href: `${base}/assignment/${i + 1}/`, label: `Assignment ${i + 1}: ${a.title}` };
-  if (!g.parts.test) return { href: `${base}/test/`, label: "Course test" };
-  if (!g.parts.exam) return { href: `${base}/exam/`, label: "Final exam" };
-  return null;
-}
+const icon = { lesson: "▤", review: "☰", quiz: "✎" } as const;
 
+/** The Course tab (edX-style outline): welcome, Resume, and every week and unit with its status. */
 export default async function TheologyHome({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const { user, c, row, g } = await loadTheology(slug);
-  const w = theologyRules.weights;
-  const step = nextStep(c, g);
-  const resume = g.lastKey?.match(/^w(\d+)l(\d+)$/);
+  const units = courseUnits(c, g);
+  const last = g.lastKey ? units.find((u) => u.key === g.lastKey) : null;
+  const next = units.find((u) => !u.done);
+  const resume = last && !last.done ? last : next;
+  const base = `/theology/${slug}`;
   const cert = g.passed ? await one<{ code: string; revoked: boolean }>(`SELECT code, revoked FROM lms_certificate WHERE user_id = $1 AND course_id = $2`, [user.id, row.id]) : null;
-  const waiting = g.assignments.filter((a) => a?.status === "submitted").length;
-
-  const rows: { label: string; weight: number; score: number; status: string }[] = [
-    { label: "Final exam", weight: w.exam, score: g.components.exam, status: g.parts.exam ? "Taken" : "Not taken" },
-    { label: "Course test (best of 3)", weight: w.test, score: g.components.test, status: g.testAttempts.length ? `${g.testAttempts.filter((t) => t.status === "submitted").length} of 3 used` : "Not taken" },
-    { label: "Assignments", weight: w.assignments, score: g.components.assignments, status: `${g.assignments.filter((a) => a?.status === "graded").length} of ${c.assignments.length} graded${waiting ? ` · ${waiting} waiting` : ""}` },
-    { label: "Weekly quizzes", weight: w.quizzes, score: g.components.quizzes, status: `${g.quizzesPassed} of ${c.modules.length} passed (80%+)` },
+  const assess = [
+    ...c.assignments.map((a, i) => ({ title: `Assignment ${i + 1}: ${a.title}`, href: `${base}/assignment/${i + 1}/`, status: g.assignments[i]?.status === "graded" ? `Graded ${g.assignments[i]!.score}/100` : g.assignments[i]?.status === "returned" ? "Returned for revision" : g.assignments[i] ? "Waiting to be graded" : "Not handed in", done: g.assignments[i]?.status === "graded" })),
+    { title: "Course test", href: `${base}/test/`, status: g.testBest != null ? `Best ${g.testBest}% · ${g.testAttempts.filter((t) => t.status === "submitted").length} of ${theologyRules.test.attempts} attempts used` : "Not taken", done: g.parts.test },
+    { title: "Final exam", href: `${base}/exam/`, status: g.exam?.status === "submitted" ? `${g.exam.score}%` : g.parts.lessons && g.parts.quizzes ? "Ready to take" : "Opens after every lesson and quiz", done: g.parts.exam },
   ];
 
   return (
-    <div className="flex flex-col gap-8">
-      {g.passed ? (
-        <div className="flex flex-col gap-4 rounded-3xl bg-navy p-[clamp(1.5rem,4vw,2.5rem)] text-white">
-          <p className="eyebrow-dark">Course passed · {g.total}%</p>
-          <h1 className="text-[clamp(1.8rem,3.4vw,2.6rem)] font-bold leading-tight">Well done, {user.name.split(" ")[0]}.</h1>
-          {cert && !cert.revoked && (
-            <div className="flex flex-wrap gap-3">
-              <a href={`/certificates/${cert.code}/pdf/`} className="btn btn-gold">Download your certificate</a>
-              <Link href={`/certificates/${cert.code}/`} className="btn btn-line-light">View and share</Link>
-            </div>
+    <div className="grid items-start gap-8 lg:grid-cols-[1fr_20rem]">
+      <div className="flex flex-col gap-6">
+        <div className="flex flex-wrap items-center gap-4 rounded-2xl border border-line bg-white p-6">
+          <div className="flex min-w-0 flex-1 flex-col gap-1">
+            <h1 className="text-xl font-bold text-navy">{g.percentDone === 0 ? `Welcome to ${c.title}` : `Welcome back, ${user.name.split(" ")[0]}`}</h1>
+            <p className="text-sm text-muted">{resume ? <>Next up: <strong className="text-navy">Week {resume.week} · {resume.title}</strong></> : "All units complete. Finish the assessments below."}</p>
+          </div>
+          {resume ? (
+            <Link href={resume.href} className="btn btn-navy">{g.percentDone === 0 ? "Start course" : "Resume course"}</Link>
+          ) : (
+            <Link href={`${base}/progress/`} className="btn btn-navy">View progress</Link>
           )}
         </div>
-      ) : g.complete ? (
-        <div className="flex flex-col gap-3 rounded-3xl border border-gold bg-[#fbf5e6] p-[clamp(1.5rem,4vw,2.5rem)]">
-          <p className="eyebrow">Course finished · {g.total}%</p>
-          <h1 className="text-[clamp(1.6rem,3vw,2.2rem)] font-bold leading-tight text-navy">Not yet at the {theologyRules.passMark}% pass mark</h1>
-          <p className="text-muted">You can still raise your total by retaking weekly quizzes and using any test attempts you have left. Talk to your instructor if you need help.</p>
+
+        <section aria-labelledby="outline" className="flex flex-col gap-3">
+          <div className="flex items-baseline justify-between gap-3">
+            <h2 id="outline" className="text-xl font-bold text-navy">Course outline</h2>
+            <span className="text-sm text-muted">{units.filter((u) => u.done).length} of {units.length} units complete</span>
+          </div>
+          <ol className="flex flex-col gap-3">
+            {c.modules.map((m, i) => {
+              const w = i + 1;
+              const wu = units.filter((u) => u.week === w);
+              const done = wu.every((u) => u.done);
+              return (
+                <li key={w}>
+                  <details className="group rounded-2xl border border-line bg-white" open={!done && wu.some((u) => u.key === resume?.key)}>
+                    <summary className="flex cursor-pointer list-none items-center gap-4 px-5 py-4">
+                      <span className={`grid h-8 w-8 flex-none place-items-center rounded-full text-sm font-bold ${done ? "bg-royal text-white" : "bg-mist text-navy"}`}>{done ? "✓" : w}</span>
+                      <span className="flex flex-1 flex-col"><span className="text-xs font-bold uppercase tracking-[0.12em] text-royal">Week {w}</span><span className="font-semibold text-navy">{m.title}</span></span>
+                      <span className="text-sm text-muted">{wu.filter((u) => u.done).length}/{wu.length}</span>
+                      <span className="text-xl text-royal group-open:rotate-180">⌄</span>
+                    </summary>
+                    <ul className="flex flex-col border-t border-line">
+                      {wu.map((u) => (
+                        <li key={u.key}>
+                          <Link href={u.href} className="flex items-center gap-3 px-5 py-3 text-[0.9375rem] text-ink no-underline hover:bg-mist">
+                            <span aria-hidden="true" className="w-5 text-center text-steel">{icon[u.kind]}</span>
+                            <span className="flex-1">{u.title}{u.kind === "quiz" && g.quizBest[i] != null && <span className="text-muted"> · best {g.quizBest[i]}%</span>}</span>
+                            {u.done ? <span className="text-royal" aria-label="complete">✓</span> : <span className="text-steel" aria-hidden="true">○</span>}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                </li>
+              );
+            })}
+            <li className="rounded-2xl border border-line bg-white">
+              <p className="flex items-center gap-4 px-5 py-4">
+                <span className="grid h-8 w-8 flex-none place-items-center rounded-full bg-gold text-sm font-bold text-navy">★</span>
+                <span className="flex flex-col"><span className="text-xs font-bold uppercase tracking-[0.12em] text-royal">Assessment</span><span className="font-semibold text-navy">Assignments, course test and final exam</span></span>
+              </p>
+              <ul className="flex flex-col border-t border-line">
+                {assess.map((a) => (
+                  <li key={a.title}>
+                    <Link href={a.href} className="flex flex-wrap items-center gap-x-3 gap-y-0.5 px-5 py-3 text-[0.9375rem] text-ink no-underline hover:bg-mist">
+                      <span className="flex-1">{a.title}</span>
+                      <span className="text-sm text-muted">{a.status}</span>
+                      {a.done ? <span className="text-royal" aria-label="complete">✓</span> : <span className="text-steel" aria-hidden="true">○</span>}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          </ol>
+        </section>
+      </div>
+
+      <aside className="flex flex-col gap-4 lg:sticky lg:top-28" aria-label="Your progress">
+        <div className="flex flex-col gap-3 rounded-2xl border border-line bg-white p-5">
+          <h2 className="font-bold text-navy">Your grade so far</h2>
+          <p className="text-4xl font-extrabold text-navy">{g.total}%</p>
+          <div className="relative h-3 rounded-full bg-mist">
+            <div className="h-full rounded-full bg-royal" style={{ width: `${g.total}%` }} />
+            <span className="absolute -top-1 h-5 w-0.5 bg-gold" style={{ left: `${theologyRules.passMark}%` }} title={`Pass mark ${theologyRules.passMark}%`} />
+          </div>
+          <p className="text-xs text-muted">Gold line: pass mark {theologyRules.passMark}%</p>
+          <Link href={`${base}/progress/`} className="text-sm font-semibold">Full report card →</Link>
         </div>
-      ) : (
-        <div className="flex flex-col gap-4 rounded-3xl bg-navy p-[clamp(1.5rem,4vw,2.5rem)] text-white">
-          <p className="eyebrow-dark">{g.percentDone === 0 ? "Ready when you are" : "Welcome back"}</p>
-          <h1 className="text-[clamp(1.8rem,3.4vw,2.6rem)] font-bold leading-tight">{g.percentDone === 0 ? "Begin Week 1" : "Pick up where you stopped"}</h1>
-          {step ? (
+        <div className="flex flex-col gap-2 rounded-2xl border border-line bg-white p-5">
+          <h2 className="font-bold text-navy">Certificate</h2>
+          {cert && !cert.revoked ? (
             <>
-              <p className="lead text-pale">Next: <strong className="text-white">{step.label}</strong></p>
-              <div className="flex flex-wrap gap-3">
-                <Link href={step.href} className="btn btn-gold">{g.percentDone === 0 ? "Start" : "Continue"}</Link>
-                {resume && <Link href={`/theology/${slug}/week/${resume[1]}/lesson/${resume[2]}/`} className="btn btn-line-light">Back to your last lesson</Link>}
-              </div>
+              <p className="text-sm text-muted">You have earned your certificate.</p>
+              <a href={`/certificates/${cert.code}/pdf/`} className="btn btn-gold min-h-10 text-sm">Download certificate</a>
             </>
           ) : (
-            <p className="lead text-pale">Everything is handed in. Your certificate is issued as soon as your assignments are graded and your total is {theologyRules.passMark}% or more.</p>
+            <p className="text-sm text-muted">Complete every part and reach {theologyRules.passMark}% overall to earn your free certificate.</p>
           )}
         </div>
-      )}
-
-      <section aria-labelledby="grades" className="flex flex-col gap-4">
-        <h2 id="grades" className="text-2xl font-bold text-navy">Your grades</h2>
-        <div className="overflow-x-auto rounded-2xl border border-line bg-white">
-          <table className="w-full min-w-[34rem] text-left text-[0.9375rem]">
-            <thead className="bg-mist text-xs uppercase tracking-wide text-muted">
-              <tr><th className="px-4 py-3">Part</th><th className="px-3">Weight</th><th className="px-3">Score</th><th className="px-3">Status</th></tr>
-            </thead>
-            <tbody className="divide-y divide-line">
-              {rows.map((r) => (
-                <tr key={r.label}><td className="px-4 py-3 font-semibold text-navy">{r.label}</td><td className="px-3">{r.weight}%</td><td className="px-3">{r.score}%</td><td className="px-3 text-muted">{r.status}</td></tr>
-              ))}
-              <tr className="bg-mist/60"><td className="px-4 py-3 font-bold text-navy">Weighted total</td><td className="px-3">100%</td><td className="px-3 font-bold text-navy">{g.total}%</td><td className="px-3 text-muted">Pass mark {theologyRules.passMark}%</td></tr>
-            </tbody>
-          </table>
+        <div className="flex flex-col gap-1 rounded-2xl border border-line bg-white p-5 text-sm">
+          <h2 className="pb-1 font-bold text-navy">Course tools</h2>
+          <Link href={`/courses/theology/${slug}/`}>About this course</Link>
+          <Link href="/dashboard/">My learning</Link>
+          <Link href="/courses/theology/">All theology courses</Link>
         </div>
-        <p className="text-sm text-muted">
-          To receive the certificate: read every lesson, pass every weekly quiz with {theologyRules.quiz.pass}% or more (unlimited retakes), take the course test (best of {theologyRules.test.attempts} attempts counts), have every assignment graded, sit the timed final exam (one attempt), and reach a weighted total of {theologyRules.passMark}%.
-        </p>
-      </section>
-
-      <section aria-labelledby="weeks" className="flex flex-col gap-4">
-        <h2 id="weeks" className="text-2xl font-bold text-navy">Weeks</h2>
-        <ol className="grid gap-3 sm:grid-cols-2">
-          {c.modules.map((m, i) => {
-            const done = m.lessons.filter((_, j) => g.lessonsDone.has(lessonKey(i + 1, j + 1))).length;
-            const best = g.quizBest[i];
-            return (
-              <li key={i}>
-                <Link href={`/theology/${slug}/week/${i + 1}/`} className="flex h-full flex-col gap-1 rounded-2xl border border-line bg-white p-5 no-underline hover:border-royal">
-                  <span className="text-xs font-bold uppercase tracking-[0.12em] text-royal">Week {i + 1}</span>
-                  <span className="font-semibold text-navy">{m.title}</span>
-                  <span className="text-sm text-muted">{done}/{m.lessons.length} lessons · quiz {best == null ? "not taken" : `${best}%${best >= theologyRules.quiz.pass ? " ✓" : ""}`}</span>
-                </Link>
-              </li>
-            );
-          })}
-        </ol>
-      </section>
+      </aside>
     </div>
   );
 }

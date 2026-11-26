@@ -1,0 +1,288 @@
+{
+  "slug": "new-testament-survey-epistles-and-revelation",
+  "title": "New Testament Survey II: Epistles and Revelation",
+  "track": "survey",
+  "level": "Foundation",
+  "summary": "Romans to Revelation: the letters of Paul and the other apostles, and the book of Revelation.",
+  "description": "This course surveys the twenty-one New Testament letters and the book of Revelation. It sets each letter in its situation, outlines its message and key passages, and shows how the apostles applied the gospel to the life of the churches. It closes with an introduction to Revelation and the main ways Christians interpret it.",
+  "objectives": [
+    "Outline the life and ministry of Paul",
+    "Summarise the purpose and message of each epistle",
+    "Introduce the general epistles and their emphases",
+    "Explain the main approaches to interpreting Revelation fairly"
+  ],
+  "outcomes": [
+    "Group Paul's letters as early, prison and pastoral epistles",
+    "Explain the main argument of Romans and Galatians",
+    "Summarise the message of Hebrews, James, 1 Peter and 1 John",
+    "Describe the structure and main message of Revelation",
+    "Compare the main schools of interpretation of Revelation"
+  ],
+  "modules": [
+    {
+      "title": "Paul, Romans and Galatians",
+      "intro": "We meet the apostle Paul and the two letters that set out most fully the gospel of justification by faith.",
+      "lessons": [
+        {
+          "title": "The apostle Paul",
+          "body": "Saul of Tarsus was a Pharisee who persecuted the church (Philippians 3:5-6). The risen Christ met him on the Damascus road and called him as apostle to the Gentiles (Acts 9:15).\n\nPaul made three missionary journeys, planting churches in Asia Minor, Macedonia and Greece, then was imprisoned in Caesarea and Rome. Tradition says he was executed in Rome under Nero about AD 67.\n\nHe wrote thirteen New Testament letters, usually to churches he had founded or to co-workers. They were real letters answering real needs, yet inspired by God for all churches (2 Peter 3:15-16).",
+          "refs": ["Acts 9:15", "Philippians 3:5-7", "2 Timothy 4:6-8"]
+        },
+        {
+          "title": "Romans: the gospel explained",
+          "body": "Romans is Paul's fullest explanation of the gospel, written to a church he had not yet visited (Romans 1:15-17).\n\n- **Chapters 1-3:** all have sinned, Jew and Gentile alike (3:23).\n- **Chapters 3-5:** justification by grace through faith in Christ's blood (3:24-26; 5:1).\n- **Chapters 6-8:** union with Christ, freedom from sin's dominion, and life in the Spirit; \"no condemnation\" (8:1).\n- **Chapters 9-11:** God's plan for Israel and the nations.\n- **Chapters 12-16:** living sacrifices in church and society.",
+          "refs": ["Romans 1:16-17", "Romans 3:23-26", "Romans 8:1"]
+        },
+        {
+          "title": "Galatians: freedom in Christ",
+          "body": "Teachers in Galatia said Gentile believers must be circumcised and keep the law to be fully saved. Paul replied with unusual severity: anyone preaching another gospel is accursed (Galatians 1:8).\n\nHe argued that \"a man is not justified by the works of the law, but by the faith of Jesus Christ\" (2:16), that Abraham was justified by faith, and that the law was a schoolmaster to bring us to Christ (3:24).\n\nFreedom is not licence: \"by love serve one another\" (5:13). Walking in the Spirit produces the fruit of the Spirit (5:22-23).",
+          "refs": ["Galatians 1:6-9", "Galatians 2:16", "Galatians 5:16-23"]
+        }
+      ],
+      "terms": [
+        { "term": "Epistle", "def": "A letter written by an apostle to a church or person." },
+        { "term": "Justification", "def": "God's act of declaring a sinner righteous through faith in Christ." },
+        { "term": "Judaizers", "def": "Teachers who insisted Gentile believers must keep the law of Moses to be saved." },
+        { "term": "Schoolmaster", "def": "Paul's picture of the law as a guardian leading people to Christ." },
+        { "term": "Fruit of the Spirit", "def": "The Christlike qualities the Holy Spirit produces, listed in Galatians 5:22-23." },
+        { "term": "Living sacrifice", "def": "Offering the whole self to God in daily obedience (Romans 12:1)." }
+      ],
+      "texts": [
+        { "ref": "Romans 1:16", "teaches": "The gospel is the power of God unto salvation to all who believe." },
+        { "ref": "Romans 3:23", "teaches": "All have sinned and come short of the glory of God." },
+        { "ref": "Romans 8:1", "teaches": "There is no condemnation to those in Christ Jesus." },
+        { "ref": "Galatians 2:16", "teaches": "A man is justified by faith in Christ, not by the works of the law." },
+        { "ref": "Galatians 5:22-23", "teaches": "The Spirit produces love, joy, peace and other Christlike fruit." }
+      ],
+      "summary": [
+        "Paul, once a persecutor, became the apostle to the Gentiles and wrote thirteen letters.",
+        "Romans explains sin, justification, new life in the Spirit and Christian living.",
+        "Galatians defends justification by faith against those adding the law.",
+        "Christian freedom is used to serve one another in love."
+      ],
+      "questions": [
+        { "q": "What was Paul's background before his conversion?", "options": ["A Pharisee who persecuted the church", "A Roman soldier", "A fisherman", "A tax collector"], "answer": 0 },
+        { "q": "Which chapters of Romans deal mainly with God's plan for Israel?", "options": ["9-11", "1-3", "6-8", "12-16"], "answer": 0 },
+        { "q": "What problem did Paul address in Galatians?", "options": ["Teachers adding circumcision and the law to the gospel", "Denial of the resurrection", "Disorder at the Lord's Supper", "Idleness while waiting for Christ"], "answer": 0 },
+        { "q": "Romans 8:1 declares:", "options": ["There is no condemnation to them which are in Christ Jesus", "All have sinned", "The just shall live by faith", "Love is the fulfilling of the law"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Corinthians and the Prison Letters",
+      "intro": "Paul's letters to a troubled church in Corinth, and four letters written from prison.",
+      "lessons": [
+        {
+          "title": "1 and 2 Corinthians",
+          "body": "Corinth was a wealthy, immoral port city. The church there was gifted but divided and worldly.\n\n**1 Corinthians** addresses divisions (1:10), sexual immorality and church discipline (5), lawsuits, marriage, food offered to idols, order in worship, spiritual gifts (12-14), love (13) and the resurrection of the body (15).\n\n**2 Corinthians** is Paul's most personal letter, defending his ministry against false apostles. It speaks of God's comfort in suffering (1:3-4), the new covenant ministry (3), the new creation (5:17), generous giving (8-9), and strength in weakness: \"my grace is sufficient for thee\" (12:9).",
+          "refs": ["1 Corinthians 1:10", "1 Corinthians 13:4-8", "2 Corinthians 12:9"]
+        },
+        {
+          "title": "Ephesians and Colossians",
+          "body": "Written while Paul was in prison (Ephesians 3:1; Colossians 4:18), these letters exalt Christ and His church.\n\n**Ephesians** moves from the believer's riches in Christ (chosen, redeemed, sealed, chapter 1; saved by grace, 2:8-9) to the unity of Jew and Gentile in one body, and then to the walk of the church: unity, purity, Spirit-filled homes, and spiritual warfare (6:10-18).\n\n**Colossians** answers a false teaching mixing philosophy, rules and angel-worship by showing Christ's supremacy: \"in him dwelleth all the fulness of the Godhead bodily\" (2:9). Believers are complete in Him.",
+          "refs": ["Ephesians 2:8-10", "Ephesians 6:10-18", "Colossians 1:15-20"]
+        },
+        {
+          "title": "Philippians and Philemon",
+          "body": "**Philippians** is a letter of joy from prison. Paul thanks the church for its gifts and urges unity through humility, holding up Christ, who \"humbled himself, and became obedient unto death\" (2:5-11). He counts all things loss for Christ (3:8) and has learned contentment (4:11-13). \"Rejoice in the Lord alway\" (4:4).\n\n**Philemon** is a short personal letter asking Philemon to receive his runaway slave Onesimus, now a believer, \"not now as a servant, but above a servant, a brother beloved\" (Philemon 1:16). It shows the gospel transforming relationships.",
+          "refs": ["Philippians 2:5-11", "Philippians 4:4-7", "Philemon 1:15-16"]
+        }
+      ],
+      "terms": [
+        { "term": "Prison epistles", "def": "Ephesians, Philippians, Colossians and Philemon, written while Paul was imprisoned." },
+        { "term": "Church discipline", "def": "Loving correction of unrepentant sin in the church, aimed at restoration." },
+        { "term": "New creation", "def": "The new life of one who is in Christ (2 Corinthians 5:17)." },
+        { "term": "Kenosis", "def": "Christ's 'emptying' of Himself to become a servant (Philippians 2:7)." },
+        { "term": "Supremacy of Christ", "def": "Christ's first place over all creation and the church (Colossians 1:18)." },
+        { "term": "Onesimus", "def": "The runaway slave converted through Paul and sent back to Philemon as a brother." }
+      ],
+      "texts": [
+        { "ref": "1 Corinthians 13:13", "teaches": "Faith, hope and charity abide, and the greatest is charity." },
+        { "ref": "2 Corinthians 5:17", "teaches": "If any man be in Christ, he is a new creature." },
+        { "ref": "Ephesians 2:8", "teaches": "By grace you are saved through faith, the gift of God." },
+        { "ref": "Philippians 2:5", "teaches": "Let the mind of Christ, His humility, be in you." },
+        { "ref": "Colossians 2:9", "teaches": "All the fulness of the Godhead dwells bodily in Christ." }
+      ],
+      "summary": [
+        "1 Corinthians corrects divisions and disorder and teaches love and the resurrection.",
+        "2 Corinthians shows strength in weakness and the glory of the new covenant ministry.",
+        "Ephesians and Colossians exalt Christ and His church.",
+        "Philippians teaches joy and humility; Philemon shows the gospel changing relationships."
+      ],
+      "questions": [
+        { "q": "Which chapter is Paul's great description of love?", "options": ["1 Corinthians 13", "1 Corinthians 15", "Ephesians 6", "Romans 8"], "answer": 0 },
+        { "q": "Which letter is known as a letter of joy from prison?", "options": ["Philippians", "Galatians", "1 Corinthians", "Titus"], "answer": 0 },
+        { "q": "Which letter answers false teaching by showing Christ's supremacy?", "options": ["Colossians", "Philemon", "2 Thessalonians", "James"], "answer": 0 },
+        { "q": "Who was Onesimus?", "options": ["A runaway slave who became a believer", "A false apostle in Corinth", "Paul's travelling companion", "A Roman governor"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Thessalonians and the Pastoral Letters",
+      "intro": "Letters about the Lord's return, and letters to Timothy and Titus about church leadership and sound doctrine.",
+      "lessons": [
+        {
+          "title": "1 and 2 Thessalonians",
+          "body": "Paul founded the church in Thessalonica quickly before being driven out (Acts 17:1-10). The young church stood firm under persecution.\n\n**1 Thessalonians** encourages holy living and comforts those grieving for believers who had died: \"the dead in Christ shall rise first\" and the living shall be \"caught up\" to meet the Lord (4:16-17).\n\n**2 Thessalonians** corrects the idea that the day of the Lord had already come, describing a \"man of sin\" who must first be revealed (2:3), and rebukes idleness: \"if any would not work, neither should he eat\" (3:10).",
+          "refs": ["1 Thessalonians 4:13-18", "2 Thessalonians 2:1-3", "2 Thessalonians 3:10"]
+        },
+        {
+          "title": "1 Timothy and Titus",
+          "body": "The **pastoral epistles** were written to Paul's co-workers leading churches.\n\n**1 Timothy**, to Timothy in Ephesus, guards sound doctrine against false teachers, orders public prayer, and gives qualifications for bishops (overseers) and deacons (chapter 3). Godliness with contentment is great gain (6:6).\n\n**Titus**, to Titus in Crete, likewise lists elders' qualifications (1:5-9) and shows how grace teaches godly living: \"the grace of God that bringeth salvation... teaching us that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly\" (2:11-12).",
+          "refs": ["1 Timothy 3:1-13", "1 Timothy 6:6", "Titus 2:11-14"]
+        },
+        {
+          "title": "2 Timothy: Paul's last letter",
+          "body": "Written from a Roman prison shortly before his death, 2 Timothy is Paul's farewell. He urges Timothy not to be ashamed of the gospel (1:8), to entrust the truth to faithful men (2:2), to endure hardship as a good soldier (2:3), and to continue in the Scriptures, which are given by inspiration of God (3:14-17).\n\nHis final charge: \"Preach the word; be instant in season, out of season\" (4:2).\n\nPaul faced death with confidence: \"I have fought a good fight, I have finished my course, I have kept the faith\" (4:7).",
+          "refs": ["2 Timothy 2:2-3", "2 Timothy 4:2", "2 Timothy 4:7-8"]
+        }
+      ],
+      "terms": [
+        { "term": "Pastoral epistles", "def": "1 and 2 Timothy and Titus, letters about leading churches." },
+        { "term": "Bishop (overseer)", "def": "A church leader who oversees and teaches the flock; also called elder." },
+        { "term": "Deacon", "def": "A servant leader appointed to practical ministry in the church." },
+        { "term": "Rapture", "def": "Being 'caught up' to meet the Lord in the air (1 Thessalonians 4:17)." },
+        { "term": "Man of sin", "def": "The lawless figure who must be revealed before the day of the Lord (2 Thessalonians 2:3)." },
+        { "term": "Sound doctrine", "def": "Healthy teaching that agrees with the apostolic gospel." }
+      ],
+      "texts": [
+        { "ref": "1 Thessalonians 4:16", "teaches": "The dead in Christ shall rise first when the Lord descends." },
+        { "ref": "1 Timothy 3:2", "teaches": "A bishop must be blameless and apt to teach." },
+        { "ref": "Titus 2:11-12", "teaches": "God's saving grace teaches us to deny ungodliness and live godly." },
+        { "ref": "2 Timothy 2:2", "teaches": "Commit the truth to faithful men who will teach others." },
+        { "ref": "2 Timothy 4:7", "teaches": "Paul fought a good fight, finished his course and kept the faith." }
+      ],
+      "summary": [
+        "The Thessalonian letters comfort believers and teach about Christ's return.",
+        "1 Timothy and Titus guard sound doctrine and set qualifications for leaders.",
+        "Grace that saves also trains us in godly living.",
+        "2 Timothy is Paul's farewell charge: guard the truth and preach the word."
+      ],
+      "questions": [
+        { "q": "What comfort did Paul give in 1 Thessalonians 4?", "options": ["The dead in Christ shall rise first", "There is no resurrection", "The day of the Lord has already come", "Only apostles will be raised"], "answer": 0 },
+        { "q": "Which letters are called the pastoral epistles?", "options": ["1 and 2 Timothy and Titus", "Ephesians and Colossians", "Romans and Galatians", "1 and 2 Peter"], "answer": 0 },
+        { "q": "Where are the qualifications for bishops and deacons listed?", "options": ["1 Timothy 3", "Romans 12", "Galatians 5", "Hebrews 11"], "answer": 0 },
+        { "q": "Which was Paul's last letter?", "options": ["2 Timothy", "Romans", "Philemon", "1 Thessalonians"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Hebrews and the General Letters",
+      "intro": "Hebrews, James, 1 and 2 Peter, 1-3 John and Jude: letters to the wider church.",
+      "lessons": [
+        {
+          "title": "Hebrews: Christ is better",
+          "body": "Hebrews was written to Jewish believers tempted to turn back to the old system under pressure. Its author is not named. Its key word is **better**: Christ is better than angels, Moses and the Levitical priests; He brings a better covenant and a better sacrifice (Hebrews 1:4; 8:6; 9:23).\n\nHe is our great High Priest who offered Himself once for all (10:10-14). Chapter 11 lists heroes of faith, and chapter 12 calls us to run the race \"looking unto Jesus\" (12:2).\n\nHebrews contains serious warnings against drifting and falling away (2:1-3; 6:4-6), which Christians interpret in different ways.",
+          "refs": ["Hebrews 1:1-4", "Hebrews 10:10-14", "Hebrews 12:1-2"]
+        },
+        {
+          "title": "James and the letters of Peter",
+          "body": "**James**, the Lord's brother, writes practical wisdom: endure trials, be doers of the word, show no favouritism, control the tongue, and prove faith by works, for \"faith without works is dead\" (James 2:26).\n\n**1 Peter** encourages suffering believers as \"strangers\" in the world: they have a living hope (1:3), are a royal priesthood (2:9), and should follow Christ's example in suffering (2:21).\n\n**2 Peter** warns against false teachers and scoffers who deny Christ's return, assuring that the Lord is not slack but patient, \"not willing that any should perish\" (3:9).",
+          "refs": ["James 1:22", "1 Peter 2:9", "2 Peter 3:9"]
+        },
+        {
+          "title": "The letters of John and Jude",
+          "body": "**1 John** gives tests of true faith: believing that Jesus Christ has come in the flesh, obeying His commandments, and loving the brethren. It was written \"that ye may know that ye have eternal life\" (5:13). \"God is love\" (4:8), and \"if we confess our sins, he is faithful and just to forgive us\" (1:9).\n\n**2 and 3 John** are short notes about truth, love and hospitality to faithful teachers.\n\n**Jude** urges believers to \"earnestly contend for the faith which was once delivered unto the saints\" (Jude 1:3) against ungodly men who turn grace into licence.",
+          "refs": ["1 John 1:9", "1 John 5:13", "Jude 1:3"]
+        }
+      ],
+      "terms": [
+        { "term": "General epistles", "def": "Letters written to the wider church: James, 1-2 Peter, 1-3 John and Jude (often with Hebrews)." },
+        { "term": "High Priest", "def": "Christ's role in offering Himself and interceding for His people." },
+        { "term": "Once for all", "def": "Christ's sacrifice, offered one time, never to be repeated." },
+        { "term": "Royal priesthood", "def": "Peter's description of all believers as priests serving God." },
+        { "term": "Tests of life", "def": "1 John's marks of true faith: right belief, obedience and love." },
+        { "term": "Contend for the faith", "def": "Earnestly defend the gospel once delivered to the saints." }
+      ],
+      "texts": [
+        { "ref": "Hebrews 10:14", "teaches": "By one offering Christ has perfected for ever them that are sanctified." },
+        { "ref": "Hebrews 12:2", "teaches": "Run the race looking unto Jesus, the author and finisher of our faith." },
+        { "ref": "James 2:26", "teaches": "Faith without works is dead." },
+        { "ref": "1 Peter 1:3", "teaches": "God has begotten us again to a living hope through Christ's resurrection." },
+        { "ref": "1 John 5:13", "teaches": "John wrote so that believers may know they have eternal life." }
+      ],
+      "summary": [
+        "Hebrews shows Christ is better than all that came before.",
+        "James calls for faith that works; Peter encourages hope in suffering.",
+        "2 Peter and Jude warn against false teachers.",
+        "1 John gives tests by which believers may know they have eternal life."
+      ],
+      "questions": [
+        { "q": "What is the key word of Hebrews?", "options": ["Better", "Joy", "Love", "Wisdom"], "answer": 0 },
+        { "q": "Who wrote that \"faith without works is dead\"?", "options": ["James", "Paul", "Peter", "Jude"], "answer": 0 },
+        { "q": "Why did John write 1 John, according to 5:13?", "options": ["That believers may know they have eternal life", "To appoint elders", "To describe the end times", "To answer the Judaizers"], "answer": 0 },
+        { "q": "Which letter urges believers to contend for the faith once delivered?", "options": ["Jude", "3 John", "Hebrews", "Philemon"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Revelation",
+      "intro": "The last book of the Bible reveals the risen Christ, encourages suffering churches and shows God's final victory.",
+      "lessons": [
+        {
+          "title": "Setting and structure",
+          "body": "Revelation is \"the Revelation of Jesus Christ\" given to John on the island of Patmos (Revelation 1:1, 9). It promises a blessing to those who read and keep it (1:3).\n\nIt follows the outline in 1:19: \"the things which thou hast seen\" (the vision of the glorified Christ, chapter 1), \"the things which are\" (letters to seven churches, chapters 2-3), and \"the things which shall be hereafter\" (chapters 4-22).\n\nIt uses symbols drawn largely from the Old Testament: lampstands, seals, trumpets, beasts, the Lamb. Many are explained in the text itself (1:20).",
+          "refs": ["Revelation 1:1-3", "Revelation 1:19-20", "Revelation 2:7"]
+        },
+        {
+          "title": "Main message",
+          "body": "Whatever details we hold, Revelation's main message is clear:\n\n- Christ, the Lamb that was slain, is worthy and reigns (5:9-12).\n- God is sovereign over history and will judge evil.\n- Believers are called to faithful endurance, even unto death (2:10).\n- Satan, the beast and death will be finally defeated (20:10, 14).\n- God will make all things new: a new heaven and earth, where He wipes away every tear (21:1-5).\n\nThe book ends with Jesus' promise, \"Surely I come quickly\", and the church's prayer, \"Even so, come, Lord Jesus\" (22:20).",
+          "refs": ["Revelation 5:9-12", "Revelation 21:1-5", "Revelation 22:20"]
+        },
+        {
+          "title": "How Christians read Revelation",
+          "body": "Bible-believing Christians interpret Revelation in different ways:\n\n- **Futurist:** most of chapters 4-22 describe events still to come before and at Christ's return. Common among Baptists and Pentecostal and Holiness churches, including Deeper Life, often with a pre-tribulation rapture.\n- **Historicist:** the visions trace church history from the apostles to the end; common among the Reformers.\n- **Preterist:** much was fulfilled in the first century, especially the fall of Jerusalem and persecution by Rome.\n- **Idealist:** the visions portray the ongoing conflict between Christ and evil in every age.\n\nEach view has strengths. All agree that Christ will return, judge and make all things new. Later courses study these questions more fully.",
+          "refs": ["Revelation 4:1", "Revelation 19:11-16", "Revelation 20:1-6"]
+        }
+      ],
+      "terms": [
+        { "term": "Apocalyptic", "def": "A kind of writing that reveals God's hidden purposes through visions and symbols." },
+        { "term": "Patmos", "def": "The island where John received the Revelation." },
+        { "term": "The Lamb", "def": "Revelation's main title for Christ, slain and now reigning." },
+        { "term": "Futurist view", "def": "Reading most of Revelation 4-22 as future events surrounding Christ's return." },
+        { "term": "Preterist view", "def": "Reading much of Revelation as fulfilled in the first century." },
+        { "term": "Idealist view", "def": "Reading Revelation as a picture of the ongoing battle between good and evil." }
+      ],
+      "texts": [
+        { "ref": "Revelation 1:3", "teaches": "Those who read and keep the prophecy are blessed." },
+        { "ref": "Revelation 1:19", "teaches": "John was told to write what he had seen, what is, and what shall be." },
+        { "ref": "Revelation 2:10", "teaches": "Be faithful unto death and receive a crown of life." },
+        { "ref": "Revelation 5:12", "teaches": "Worthy is the Lamb that was slain." },
+        { "ref": "Revelation 21:4", "teaches": "God will wipe away all tears; there will be no more death." }
+      ],
+      "summary": [
+        "Revelation is the revelation of Jesus Christ given to John on Patmos.",
+        "It is structured by 1:19: past vision, the seven churches, things to come.",
+        "Its main message: the Lamb reigns, believers must endure, and God will make all things new.",
+        "Christians read it in futurist, historicist, preterist and idealist ways."
+      ],
+      "questions": [
+        { "q": "Where did John receive the Revelation?", "options": ["Patmos", "Ephesus", "Rome", "Jerusalem"], "answer": 0 },
+        { "q": "Which verse gives the outline of Revelation?", "options": ["Revelation 1:19", "Revelation 22:20", "Revelation 13:18", "Revelation 4:1"], "answer": 0 },
+        { "q": "Which view reads most of Revelation 4-22 as still future?", "options": ["Futurist", "Preterist", "Historicist", "Idealist"], "answer": 0 },
+        { "q": "What do all faithful views of Revelation agree on?", "options": ["Christ will return, judge and make all things new", "The exact date of the end", "Every symbol's meaning", "That it is only history"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Summarise the main argument of Romans 1-8.", "keywords": [["sinned", "sin"], ["justified", "justification", "faith"], ["Spirit", "new life", "no condemnation"]], "model": "All have sinned; sinners are justified by grace through faith in Christ; and those in Christ live a new life in the Spirit, free from condemnation." },
+      { "q": "Why did Paul write so strongly in Galatians?", "keywords": [["another gospel", "different gospel", "gospel"], ["law", "circumcision", "works"], ["faith", "grace"]], "model": "Because teachers were adding circumcision and law-keeping to faith, which is another gospel; Paul insisted we are justified by faith in Christ alone." },
+      { "q": "What does Hebrews mean by saying Christ is 'better'?", "keywords": [["angels", "Moses", "priests", "priesthood"], ["covenant"], ["sacrifice", "once"]], "model": "Christ is greater than angels, Moses and the old priests, and brings a better covenant through His once-for-all sacrifice." },
+      { "q": "How do James and Paul agree on faith and works?", "keywords": [["faith"], ["works"], ["dead", "real", "true", "evidence", "show"]], "model": "Both teach that we are saved by faith, and that genuine faith shows itself in works; faith without works is dead." },
+      { "q": "What are the main qualifications of a church leader in 1 Timothy 3 or Titus 1?", "keywords": [["blameless", "character", "above reproach"], ["teach", "apt to teach", "doctrine"], ["household", "family", "wife", "children"]], "model": "Godly, blameless character; ability to teach sound doctrine; and a well-ordered home and family life." },
+      { "q": "What is the main message of Revelation that all faithful readers share?", "keywords": [["Christ", "Lamb", "Jesus"], ["return", "come", "judge", "victory", "defeat"], ["new", "all things new", "endure", "faithful"]], "model": "Christ the Lamb reigns and will return to judge evil and make all things new, so believers must endure faithfully." }
+    ],
+    "lists": [
+      { "q": "List the four prison epistles.", "items": [["Ephesians"], ["Philippians"], ["Colossians"], ["Philemon"]], "need": 4 },
+      { "q": "List the three pastoral epistles.", "items": [["1 Timothy", "first Timothy"], ["2 Timothy", "second Timothy"], ["Titus"]], "need": 3 },
+      { "q": "List four approaches to interpreting Revelation.", "items": [["futurist"], ["historicist"], ["preterist"], ["idealist"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "A letter for today", "prompt": "Choose one epistle from this course. Describe the situation it was written for, outline its main message, and explain how it speaks to a particular situation in Nigerian churches today. Use at least four verses.", "words": "600–800" },
+    { "title": "Comfort from Revelation", "prompt": "Explain how Revelation 4-5 and 21-22 would encourage believers facing persecution or hardship. Show how the main message stands whichever interpretive view a reader holds.", "words": "400–600" }
+  ],
+  "examMinutes": 75,
+  "reading": [
+    "D. A. Carson and Douglas J. Moo, An Introduction to the New Testament",
+    "F. F. Bruce, Paul: Apostle of the Heart Set Free",
+    "Leon Morris, The Book of Revelation (Tyndale New Testament Commentaries)"
+  ]
+}

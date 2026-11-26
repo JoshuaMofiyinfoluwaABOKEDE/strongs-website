@@ -5,10 +5,9 @@ import { theologyOrder, theologyRules, theologyTracks } from "@/content/theology
 import { LearnBar } from "@/components/learn/LearnBar";
 import { Ref } from "@/components/theology/Ref";
 import { TheologyCard } from "@/components/theology/TheologyCard";
-import { SectionHeading } from "@/components/ui";
-import { Book, Calendar, Clock, People, Signal } from "@/components/icons";
 import { hasDatabase, one } from "@/lib/db";
 import { allTheologyCourses, getTheologyCourse } from "@/lib/theology/content";
+import { audienceFor, courseHours, lessonCount } from "@/lib/theology/meta";
 import { courseRow } from "@/lib/theology/progress";
 import { getUser } from "@/lib/session";
 import { enrolTheology } from "@/app/theology/actions";
@@ -26,90 +25,116 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
   const c = getTheologyCourse(slug);
   if (!c) notFound();
   const n = theologyOrder.findIndex((o) => o.slug === slug) + 1;
+  const code = `TH ${String(n).padStart(3, "0")}`;
   const track = theologyTracks.find((t) => t.id === theologyOrder[n - 1]?.track);
   const user = hasDatabase ? await getUser() : null;
   const row = hasDatabase ? await courseRow(slug) : null;
   const enrolled = user && row ? !!(await one(`SELECT 1 FROM lms_enrolment WHERE user_id=$1 AND course_id=$2`, [user.id, row.id])) : false;
-  const lessons = c.modules.reduce((s, m) => s + m.lessons.length, 0);
-  const related = allTheologyCourses().filter((x) => x.slug !== slug && theologyOrder.find((o) => o.slug === x.slug)?.track === track?.id).slice(0, 6);
+  const related = allTheologyCourses().filter((x) => x.slug !== slug && theologyOrder.find((o) => o.slug === x.slug)?.track === track?.id).slice(0, 3);
   const w = theologyRules.weights;
 
-  const facts = [
-    { Icon: Clock, label: "Duration", value: `${c.modules.length} weeks` },
-    { Icon: Calendar, label: "Effort", value: "3–4 hours a week" },
-    { Icon: Signal, label: "Level", value: c.level },
-    { Icon: Book, label: "Lessons", value: `${lessons} short lessons` },
-    { Icon: People, label: "Cost", value: "Free" },
+  const enrolButton = enrolled ? (
+    <Link href={`/theology/${slug}/`} className="btn btn-gold">Go to course</Link>
+  ) : user ? (
+    <form action={enrolTheology}>
+      <input type="hidden" name="slug" value={slug} />
+      <button type="submit" className="btn btn-gold cursor-pointer border-0 font-[inherit]">Enrol now, free</button>
+    </form>
+  ) : hasDatabase ? (
+    <Link href={`/sign-up/?next=${encodeURIComponent(`/courses/theology/${slug}/`)}`} className="btn btn-gold">Enrol now, free</Link>
+  ) : null;
+
+  const details: [string, string][] = [
+    ["Length", `${c.modules.length} weeks`],
+    ["Effort", "3–4 hours per week"],
+    ["Price", "Free, with free certificate"],
+    ["Institution", "STRONGS School of Theology"],
+    ["Subject", track?.name ?? "Theology"],
+    ["Level", c.level],
+    ["Language", "English"],
+    ["Scripture", "King James Version"],
+    ["Course code", code],
+  ];
+
+  const faqs: [string, string][] = [
+    ["Is this course really free?", "Yes. Learning, assessment and the certificate are all free."],
+    ["Is it self-paced?", `Yes. There are no fixed dates. Each week is designed for about 3–4 hours, but you may go faster or slower. Your progress is saved and "Resume" takes you back to where you stopped.`],
+    ["How am I assessed?", `Final exam ${w.exam}%, course test ${w.test}%, assignments ${w.assignments}% and weekly quizzes ${w.quizzes}%. You need ${theologyRules.passMark}% overall and every part completed to earn the certificate.`],
+    ["Can I retake quizzes and tests?", `Weekly quizzes: as many times as you like until you score ${theologyRules.quiz.pass}% or more; each attempt draws new questions. Course test: ${theologyRules.test.attempts} attempts, best score counts. Final exam: one timed attempt (${c.examMinutes} minutes).`],
+    ["Who marks my assignments?", "A STRONGS instructor reads and grades each assignment and gives written feedback. Submissions are checked for copied wording, and you sign a declaration that the work is your own, written without AI tools."],
+    ["Can others check my certificate?", "Yes. Every certificate has a number that anyone can verify on this website."],
+    ["How does the course handle doctrines Christians disagree on?", "Where Bible-believing traditions differ, each view is set out fairly with its Scriptures, so you can weigh them for yourself."],
   ];
 
   return (
     <>
       <LearnBar />
+      {/* Hero */}
       <section aria-labelledby="c-title" className="bg-navy text-white">
-        <div className="container-site flex flex-col gap-5 py-[clamp(2.5rem,5vw,4.5rem)]">
-          <nav aria-label="Breadcrumb" className="text-sm text-pale">
-            <Link href="/courses/" className="text-pale hover:text-white">Courses</Link> <span aria-hidden="true">›</span>{" "}
-            <Link href="/courses/theology/" className="text-pale hover:text-white">School of Theology</Link> <span aria-hidden="true">›</span>{" "}
-            <Link href={`/courses/theology/#${track?.id}`} className="text-pale hover:text-white">{track?.name}</Link>
-          </nav>
-          <p className="eyebrow-dark">TH {String(n).padStart(3, "0")}</p>
-          <h1 id="c-title" className="max-w-4xl text-[clamp(2.2rem,4.6vw,3.6rem)] font-bold leading-[1.08] tracking-[-0.02em]">{c.title}</h1>
-          <p className="lead max-w-3xl text-pale">{c.summary}</p>
-          <div className="flex flex-wrap items-center gap-3.5">
-            {enrolled ? (
-              <Link href={`/theology/${slug}/`} className="btn btn-gold">Go to the course</Link>
-            ) : user ? (
-              <form action={enrolTheology}>
-                <input type="hidden" name="slug" value={slug} />
-                <button type="submit" className="btn btn-gold cursor-pointer border-0 font-[inherit]">Enrol free and start</button>
-              </form>
-            ) : hasDatabase ? (
-              <Link href={`/sign-up/?next=${encodeURIComponent(`/courses/theology/${slug}/`)}`} className="btn btn-gold">Enrol free</Link>
-            ) : null}
-            <span className="text-sm text-pale">Self-paced and online. Start today.</span>
+        <div className="container-site grid items-center gap-10 py-[clamp(2.5rem,5vw,4.5rem)] lg:grid-cols-[1.5fr_1fr]">
+          <div className="flex flex-col gap-5">
+            <nav aria-label="Breadcrumb" className="text-sm text-pale">
+              <Link href="/courses/" className="text-pale hover:text-white">Courses</Link> <span aria-hidden="true">›</span>{" "}
+              <Link href="/courses/theology/" className="text-pale hover:text-white">School of Theology</Link> <span aria-hidden="true">›</span>{" "}
+              <Link href={`/courses/theology/#${track?.id}`} className="text-pale hover:text-white">{track?.name}</Link>
+            </nav>
+            <p className="eyebrow-dark">STRONGS School of Theology · {code}</p>
+            <h1 id="c-title" className="text-[clamp(2.2rem,4.6vw,3.6rem)] font-bold leading-[1.08] tracking-[-0.02em]">{c.title}</h1>
+            <p className="lead max-w-2xl text-pale">{c.summary}</p>
+            <div className="flex flex-wrap items-center gap-4">{enrolButton}<span className="text-sm text-pale">Start any time · learn at your own pace</span></div>
           </div>
+          <ul className="grid grid-cols-2 gap-3">
+            {[
+              ["⏱", courseHours(c), "of learning"],
+              ["⟳", "Self-paced", "start any time"],
+              ["✓", "Free learning", "no fees"],
+              ["★", "Certificate", "free, verifiable"],
+            ].map(([icon, big, small]) => (
+              <li key={big} className="flex flex-col gap-1 rounded-2xl bg-navy-2 p-5">
+                <span aria-hidden="true" className="text-xl text-gold">{icon}</span>
+                <span className="font-bold leading-tight">{big}</span>
+                <span className="text-sm text-pale">{small}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
-      <section aria-label="At a glance" className="border-b border-line bg-white">
-        <ul className="container-site grid grid-cols-2 gap-x-6 gap-y-5 py-7 md:grid-cols-5">
-          {facts.map(({ Icon, label, value }) => (
-            <li key={label} className="flex items-start gap-3">
-              <span className="mt-0.5 text-royal"><Icon size={22} /></span>
-              <span className="flex flex-col"><span className="text-xs font-semibold uppercase tracking-[0.12em] text-muted">{label}</span><span className="font-semibold leading-snug text-navy">{value}</span></span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
+      {/* Body */}
       <section className="bg-white">
-        <div className="container-site section-pad grid items-start gap-14 lg:grid-cols-[1.4fr_1fr]">
+        <div className="container-site section-pad grid items-start gap-14 lg:grid-cols-[1.5fr_1fr]">
           <div className="flex flex-col gap-12">
             <div className="flex flex-col gap-4">
-              <SectionHeading title="About this course" />
+              <h2 className="text-2xl font-bold text-navy">About this course</h2>
               <p className="lead whitespace-pre-line text-muted">{c.description}</p>
             </div>
-            <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-navy">Course objectives</h2>
-              <ol className="flex list-decimal flex-col gap-2.5 pl-6 marker:font-bold marker:text-royal">{c.objectives.map((o) => <li key={o} className="pl-1">{o}</li>)}</ol>
-            </div>
+
             <div className="flex flex-col gap-4 rounded-3xl bg-mist p-[clamp(1.5rem,3vw,2.25rem)]">
-              <h2 className="text-2xl font-bold text-navy">Learning outcomes</h2>
-              <p className="text-muted">By the end of the course you will be able to:</p>
+              <h2 className="text-2xl font-bold text-navy">What you&rsquo;ll learn</h2>
               <ul className="grid gap-3 sm:grid-cols-2">{c.outcomes.map((o) => <li key={o} className="tick">{o}</li>)}</ul>
             </div>
+
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-navy">Week by week</h2>
+              <h2 className="text-2xl font-bold text-navy">Key highlights</h2>
+              <ul className="flex flex-col gap-2.5">
+                {c.objectives.map((o) => <li key={o} className="tick">{o}</li>)}
+                <li className="tick">{lessonCount(c)} byte-sized lessons with King James Bible references, key terms and weekly summaries</li>
+                <li className="tick">A weekly quiz drawn from a bank of 20+ questions, a course test, written assignments and a final exam</li>
+              </ul>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <h2 className="text-2xl font-bold text-navy">Syllabus</h2>
               <ol className="flex flex-col border-t border-line">
                 {c.modules.map((m, i) => (
                   <li key={i}>
                     <details className="group border-b border-line" open={i === 0}>
                       <summary className="flex cursor-pointer list-none items-center gap-4 py-4">
-                        <span className="flex h-9 w-9 flex-none items-center justify-center rounded-full bg-navy text-sm font-bold text-gold">{i + 1}</span>
+                        <span className="flex h-9 w-14 flex-none items-center justify-center rounded-lg bg-navy text-xs font-bold uppercase text-gold">Wk {i + 1}</span>
                         <span className="flex flex-1 flex-col"><span className="font-semibold text-navy">{m.title}</span><span className="text-sm text-muted">{m.lessons.length} lessons · key terms · summary · quiz</span></span>
                         <span className="text-xl text-royal group-open:hidden">+</span><span className="hidden text-xl text-royal group-open:inline">−</span>
                       </summary>
-                      <div className="flex flex-col gap-2 pb-5 pl-[3.25rem]">
+                      <div className="flex flex-col gap-2 pb-5 pl-[4.5rem]">
                         <p className="text-muted">{m.intro}</p>
                         <ul className="flex list-disc flex-col gap-1 pl-5 text-[0.9375rem]">{m.lessons.map((l) => <li key={l.title}>{l.title}</li>)}</ul>
                         <p className="text-sm text-muted">Key texts: {m.texts.map((t, j) => <span key={t.ref}><Ref r={t.ref} />{j < m.texts.length - 1 && "; "}</span>)}</p>
@@ -117,28 +142,81 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
                     </details>
                   </li>
                 ))}
+                <li className="flex items-center gap-4 border-b border-line py-4">
+                  <span className="flex h-9 w-14 flex-none items-center justify-center rounded-lg bg-gold text-xs font-bold uppercase text-navy">Final</span>
+                  <span className="flex flex-col"><span className="font-semibold text-navy">Assessment</span><span className="text-sm text-muted">{c.assignments.length} assignments · course test · final exam</span></span>
+                </li>
               </ol>
             </div>
-          </div>
-          <aside className="flex flex-col gap-5 lg:sticky lg:top-28" aria-label="Assessment">
-            <div className="flex flex-col gap-3 rounded-3xl border border-line p-6">
-              <h2 className="text-lg font-bold text-navy">How you are assessed</h2>
-              <ul className="flex flex-col gap-2 text-[0.9375rem]">
-                <li><strong className="text-navy">Final exam {w.exam}%</strong> <span className="text-muted">· timed ({c.examMinutes} min), one attempt</span></li>
-                <li><strong className="text-navy">Course test {w.test}%</strong> <span className="text-muted">· objective, short-answer and list questions; best of {theologyRules.test.attempts}</span></li>
-                <li><strong className="text-navy">Assignments {w.assignments}%</strong> <span className="text-muted">· {c.assignments.length} written assignments, graded with feedback</span></li>
-                <li><strong className="text-navy">Weekly quizzes {w.quizzes}%</strong> <span className="text-muted">· retake until you score {theologyRules.quiz.pass}%+</span></li>
-              </ul>
-              <p className="text-sm text-muted">Certificate: complete every part and reach {theologyRules.passMark}% overall.</p>
-              <h2 className="pt-2 text-lg font-bold text-navy">Assignments</h2>
-              <ul className="flex list-disc flex-col gap-1 pl-5 text-[0.9375rem] text-muted">{c.assignments.map((a) => <li key={a.title}>{a.title}</li>)}</ul>
-              {c.reading && c.reading.length > 0 && (
-                <>
-                  <h2 className="pt-2 text-lg font-bold text-navy">For further reading</h2>
-                  <ul className="flex list-disc flex-col gap-1 pl-5 text-[0.9375rem] text-muted">{c.reading.map((r) => <li key={r}>{r}</li>)}</ul>
-                </>
-              )}
+
+            <div className="flex flex-col gap-4">
+              <h2 className="text-2xl font-bold text-navy">Who this course is for</h2>
+              <ul className="grid gap-3 sm:grid-cols-2">{audienceFor(c).map((a) => <li key={a} className="rounded-xl border border-line px-4 py-3 text-[0.9375rem] text-ink">{a}</li>)}</ul>
             </div>
+
+            <div className="flex flex-col gap-4">
+              <h2 className="text-2xl font-bold text-navy">How you are assessed</h2>
+              <ul className="grid grid-cols-2 gap-3 md:grid-cols-4">
+                {[
+                  ["Final exam", w.exam, `Timed (${c.examMinutes} min), one attempt`],
+                  ["Course test", w.test, `Best of ${theologyRules.test.attempts}`],
+                  ["Assignments", w.assignments, `${c.assignments.length}, instructor-graded`],
+                  ["Weekly quizzes", w.quizzes, `Pass at ${theologyRules.quiz.pass}%+`],
+                ].map(([t, pc, d]) => (
+                  <li key={t} className="flex flex-col gap-1 rounded-2xl bg-mist p-4">
+                    <span className="text-2xl font-extrabold text-royal">{pc}%</span>
+                    <span className="font-semibold text-navy">{t}</span>
+                    <span className="text-xs text-muted">{d}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-sm text-muted">Complete every part and reach {theologyRules.passMark}% overall to earn your certificate.</p>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <h2 className="text-2xl font-bold text-navy">Frequently asked questions</h2>
+              <div className="flex flex-col border-t border-line">
+                {faqs.map(([q, a]) => (
+                  <details key={q} className="group border-b border-line">
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-4 font-semibold text-navy">
+                      {q}<span className="text-xl text-royal group-open:hidden">+</span><span className="hidden text-xl text-royal group-open:inline">−</span>
+                    </summary>
+                    <p className="pb-4 text-muted">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Sidebar: course details, enrol, sample certificate */}
+          <aside className="flex flex-col gap-5 lg:sticky lg:top-28" aria-label="Course details">
+            <div className="flex flex-col gap-4 rounded-3xl border border-line p-6">
+              <h2 className="text-lg font-bold text-navy">Course details</h2>
+              <dl className="flex flex-col divide-y divide-line text-[0.9375rem]">
+                {details.map(([k, v]) => (
+                  <div key={k} className="flex justify-between gap-4 py-2.5"><dt className="text-muted">{k}</dt><dd className="text-right font-semibold text-navy">{v}</dd></div>
+                ))}
+              </dl>
+              {enrolButton && <div className="[&_.btn]:w-full [&_form]:w-full">{enrolButton}</div>}
+            </div>
+            <div className="flex flex-col gap-3 rounded-3xl bg-mist p-6">
+              <h2 className="text-lg font-bold text-navy">Sample certificate</h2>
+              <div className="flex flex-col items-center gap-1.5 rounded-lg border-[6px] border-navy bg-white px-4 py-5 text-center outline outline-1 -outline-offset-[12px] outline-gold">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/strongs-logo.webp" alt="" width={32} height={32} />
+                <span className="text-[0.625rem] font-bold uppercase tracking-[0.25em] text-royal">Certificate of completion</span>
+                <span className="font-serif text-lg font-semibold text-navy">Your Name</span>
+                <span className="text-[0.6875rem] text-muted">has successfully completed the STRONGS School of Theology course</span>
+                <span className="text-sm font-bold leading-tight text-navy">{c.title}</span>
+              </div>
+              <p className="text-xs text-muted">Download it as a PDF, and share a link anyone can use to verify it.</p>
+            </div>
+            {c.reading && c.reading.length > 0 && (
+              <div className="flex flex-col gap-2 rounded-3xl border border-line p-6">
+                <h2 className="text-lg font-bold text-navy">For further reading</h2>
+                <ul className="flex list-disc flex-col gap-1 pl-5 text-[0.9375rem] text-muted">{c.reading.map((r) => <li key={r}>{r}</li>)}</ul>
+              </div>
+            )}
           </aside>
         </div>
       </section>
@@ -146,7 +224,7 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
       {related.length > 0 && (
         <section className="bg-mist">
           <div className="container-site section-pad flex flex-col gap-6">
-            <SectionHeading title={`More in ${track?.name}`} />
+            <h2 className="h2 text-navy">More in {track?.name}</h2>
             <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{related.map((x) => <li key={x.slug}><TheologyCard c={x} n={theologyOrder.findIndex((o) => o.slug === x.slug) + 1} /></li>)}</ul>
             <Link href="/courses/theology/" className="self-start font-semibold">All School of Theology courses →</Link>
           </div>

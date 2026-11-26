@@ -1,0 +1,289 @@
+{
+  "slug": "the-doctrine-of-god",
+  "title": "The Doctrine of God",
+  "track": "god",
+  "level": "Foundation",
+  "summary": "Who God is: His existence, His attributes, His names, and His sovereign will.",
+  "description": "Everything in theology depends on who God is. This course studies how we can know God, His greatness (attributes that belong to Him alone, such as eternity and unchangeableness), His goodness (qualities He shares in part with us, such as love and holiness), His names in Scripture, and His sovereign rule over all things. Each truth is shown from the Bible and applied to worship and daily trust.",
+  "objectives": [
+    "Show how God can be known and why His existence is evident",
+    "Explain God's attributes simply and biblically",
+    "Introduce the main names of God in Scripture",
+    "Explain God's sovereignty, will and providence"
+  ],
+  "outcomes": [
+    "Distinguish communicable and incommunicable attributes",
+    "Explain God's eternity, omnipresence, omniscience and omnipotence",
+    "Explain God's holiness, love, justice, mercy and faithfulness",
+    "Give the meaning of key Hebrew names of God",
+    "Show how knowing God shapes worship, trust and obedience"
+  ],
+  "modules": [
+    {
+      "title": "Knowing God",
+      "intro": "Can finite people know the infinite God? This week we see that God is knowable because He has made Himself known.",
+      "lessons": [
+        {
+          "title": "The God who is there",
+          "body": "The Bible does not argue for God's existence at length; it begins, \"In the beginning God\" (Genesis 1:1). It says creation plainly shows His power and Godhead, so that people are without excuse (Romans 1:20), and that \"The fool hath said in his heart, There is no God\" (Psalm 14:1).\n\nThoughtful people have given reasons: the existence of the universe needs a cause; its order points to a designer; the moral law in our conscience points to a Lawgiver.\n\nYet true knowledge of God comes by faith in His revelation: \"he that cometh to God must believe that he is\" (Hebrews 11:6).",
+          "refs": ["Genesis 1:1", "Psalm 14:1", "Hebrews 11:6"]
+        },
+        {
+          "title": "Knowable yet beyond us",
+          "body": "God is **incomprehensible**: we can never know Him fully. \"Canst thou by searching find out God?\" (Job 11:7). \"His greatness is unsearchable\" (Psalm 145:3).\n\nYet God is **knowable**: we can know Him truly, because He has spoken. Jesus said, \"this is life eternal, that they might know thee the only true God\" (John 17:3).\n\nBoth truths matter. The first keeps us humble and full of wonder; the second gives us confidence and joy. We will spend eternity learning more of Him.",
+          "refs": ["Job 11:7", "Psalm 145:3", "John 17:3"]
+        },
+        {
+          "title": "Knowing about God and knowing God",
+          "body": "It is possible to know many facts about God without knowing Him personally. The demons believe there is one God, and tremble (James 2:19).\n\nGod says, \"let him that glorieth glory in this, that he understandeth and knoweth me\" (Jeremiah 9:24). Paul's great desire was \"That I may know him\" (Philippians 3:10).\n\nKnowing God means a relationship: trusting Him, loving Him, obeying Him and enjoying His presence. Doctrine is the map; fellowship with God is the journey.",
+          "refs": ["Jeremiah 9:23-24", "Philippians 3:10", "James 2:19"]
+        }
+      ],
+      "terms": [
+        { "term": "Incomprehensible", "def": "Beyond full understanding; God can never be known completely." },
+        { "term": "Knowable", "def": "Able to be truly known, because God has revealed Himself." },
+        { "term": "Theism", "def": "Belief in one personal God who created and rules the world." },
+        { "term": "Atheism", "def": "The denial that God exists." },
+        { "term": "Cosmological argument", "def": "The reasoning that the universe's existence requires a first cause." },
+        { "term": "Moral argument", "def": "The reasoning that the moral law within us points to a divine Lawgiver." }
+      ],
+      "texts": [
+        { "ref": "Genesis 1:1", "teaches": "In the beginning God created the heaven and the earth." },
+        { "ref": "Hebrews 11:6", "teaches": "Whoever comes to God must believe that He is." },
+        { "ref": "Psalm 145:3", "teaches": "God's greatness is unsearchable." },
+        { "ref": "John 17:3", "teaches": "Eternal life is to know the only true God and Jesus Christ." },
+        { "ref": "Jeremiah 9:24", "teaches": "Glory only in understanding and knowing the LORD." }
+      ],
+      "summary": [
+        "Scripture assumes God's existence; creation and conscience testify to it.",
+        "God is beyond full understanding, yet truly knowable through revelation.",
+        "Knowing God is more than knowing facts about Him.",
+        "Eternal life is a personal knowledge of God through Christ."
+      ],
+      "questions": [
+        { "q": "What does \"incomprehensible\" mean when said of God?", "options": ["He can never be fully known", "He cannot be known at all", "He is confusing", "He does not speak"], "answer": 0 },
+        { "q": "According to John 17:3, what is life eternal?", "options": ["To know the only true God and Jesus Christ", "To live a long life", "To keep the law perfectly", "To understand all mysteries"], "answer": 0 },
+        { "q": "What does James 2:19 show about knowing facts about God?", "options": ["Even demons believe there is one God", "Facts are all we need", "Demons do not believe", "Belief is useless"], "answer": 0 },
+        { "q": "Which argument reasons from the moral law within us?", "options": ["The moral argument", "The cosmological argument", "The design argument", "The ontological argument"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Greatness of God",
+      "intro": "Some attributes belong to God alone. This week we study His self-existence, eternity, unchangeableness, presence, knowledge and power.",
+      "lessons": [
+        {
+          "title": "Self-existent, eternal, unchanging",
+          "body": "God is **self-existent**: He depends on nothing. \"I AM THAT I AM\" (Exodus 3:14). He has life in Himself (John 5:26).\n\nGod is **eternal**: without beginning or end. \"From everlasting to everlasting, thou art God\" (Psalm 90:2).\n\nGod is **immutable** (unchanging) in His being, character and promises: \"I am the LORD, I change not\" (Malachi 3:6). Where Scripture says God \"repented\", it describes Him responding as He promised to people's change, without any change in His nature or purpose (Jonah 3:10; Numbers 23:19).",
+          "refs": ["Exodus 3:14", "Psalm 90:2", "Malachi 3:6"]
+        },
+        {
+          "title": "Everywhere present, all-knowing",
+          "body": "God is **omnipresent**: present everywhere with His whole being. \"Whither shall I flee from thy presence?\" (Psalm 139:7). He is not spread out like air; He is fully present in every place.\n\nGod is **omniscient**: He knows all things, past, present, future and possible. \"Neither is there any creature that is not manifest in his sight\" (Hebrews 4:13). He knows our thoughts before we speak (Psalm 139:4).\n\nThese truths warn us that nothing is hidden, and comfort us that God sees every tear and need.",
+          "refs": ["Psalm 139:1-12", "Hebrews 4:13", "Matthew 10:29-30"]
+        },
+        {
+          "title": "All-powerful",
+          "body": "God is **omnipotent**: He can do all that He wills. \"Is any thing too hard for the LORD?\" (Genesis 18:14). \"With God all things are possible\" (Matthew 19:26).\n\nOmnipotence does not mean God can do what contradicts His nature. He \"cannot lie\" (Titus 1:2) or deny Himself (2 Timothy 2:13). This is not weakness but perfection.\n\nGod's power created the world, raised Christ from the dead (Ephesians 1:19-20), and keeps His people. Jeremiah prayed, \"there is nothing too hard for thee\" (Jeremiah 32:17).",
+          "refs": ["Genesis 18:14", "Jeremiah 32:17", "Ephesians 1:19-20"]
+        }
+      ],
+      "terms": [
+        { "term": "Incommunicable attributes", "def": "Qualities that belong to God alone, such as eternity and omnipresence." },
+        { "term": "Self-existence", "def": "God depends on nothing outside Himself for His existence." },
+        { "term": "Eternity", "def": "God has no beginning or end." },
+        { "term": "Immutability", "def": "God does not change in His being, character or purposes." },
+        { "term": "Omnipresence", "def": "God is fully present everywhere." },
+        { "term": "Omniscience", "def": "God knows all things perfectly." },
+        { "term": "Omnipotence", "def": "God is able to do all that He wills." }
+      ],
+      "texts": [
+        { "ref": "Exodus 3:14", "teaches": "God's name I AM THAT I AM shows He is self-existent." },
+        { "ref": "Psalm 90:2", "teaches": "From everlasting to everlasting, God is God." },
+        { "ref": "Malachi 3:6", "teaches": "The LORD does not change." },
+        { "ref": "Psalm 139:7", "teaches": "There is nowhere to flee from God's presence." },
+        { "ref": "Jeremiah 32:17", "teaches": "Nothing is too hard for the Lord GOD." }
+      ],
+      "summary": [
+        "God is self-existent, eternal and unchanging.",
+        "He is present everywhere and knows all things.",
+        "He is all-powerful, yet never acts against His own nature.",
+        "These truths humble us and give great comfort."
+      ],
+      "questions": [
+        { "q": "Which verse teaches God's immutability?", "options": ["Malachi 3:6", "Psalm 139:7", "Genesis 18:14", "John 4:24"], "answer": 0 },
+        { "q": "What does omnipresence mean?", "options": ["God is fully present everywhere", "God is spread thinly through the universe", "God is present only in heaven", "God is present only in churches"], "answer": 0 },
+        { "q": "Why can God not lie?", "options": ["It would contradict His perfect nature", "He lacks the power", "It is against Israel's law", "He has never been tempted"], "answer": 0 },
+        { "q": "Attributes that belong to God alone are called:", "options": ["Incommunicable", "Communicable", "Moral", "Relational"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Goodness of God",
+      "intro": "Some of God's qualities are reflected, in part, in His people. This week: holiness, love, justice, mercy, grace and faithfulness.",
+      "lessons": [
+        {
+          "title": "Holy, holy, holy",
+          "body": "Holiness is God's majestic separateness from all creation and His perfect moral purity. The seraphim cry, \"Holy, holy, holy, is the LORD of hosts\" (Isaiah 6:3). Holiness is the only attribute repeated three times like this.\n\nGod's holiness exposed Isaiah's sin (\"Woe is me!\") and then provided cleansing (Isaiah 6:5-7).\n\nGod calls His people to share His holiness: \"Be ye holy; for I am holy\" (1 Peter 1:16). This is a **communicable** attribute: we reflect it, imperfectly now, perfectly in glory.",
+          "refs": ["Isaiah 6:1-7", "1 Peter 1:15-16", "Habakkuk 1:13"]
+        },
+        {
+          "title": "Love, grace and mercy",
+          "body": "\"God is love\" (1 John 4:8). He loves freely, not because we are lovely. \"God commendeth his love toward us, in that, while we were yet sinners, Christ died for us\" (Romans 5:8).\n\nTwo words describe God's love toward sinners:\n- **Grace** is God's undeserved favour, giving us what we do not deserve (Ephesians 2:8).\n- **Mercy** is God's compassion, withholding the punishment we do deserve (Titus 3:5).\n\nGod is also **good** and **patient**: \"The LORD is merciful and gracious, slow to anger, and plenteous in mercy\" (Psalm 103:8).",
+          "refs": ["1 John 4:8-10", "Romans 5:8", "Psalm 103:8-12"]
+        },
+        {
+          "title": "Just and faithful",
+          "body": "God is **righteous and just**: He always does what is right and will punish sin. \"Shall not the Judge of all the earth do right?\" (Genesis 18:25). His justice is not cancelled by His love; at the cross both meet, so that God is \"just, and the justifier of him which believeth in Jesus\" (Romans 3:26).\n\nGod is **faithful**: He keeps every promise. \"Great is thy faithfulness\" (Lamentations 3:23). \"If we believe not, yet he abideth faithful\" (2 Timothy 2:13).\n\nWe can rest our whole weight on God's character.",
+          "refs": ["Genesis 18:25", "Romans 3:26", "Lamentations 3:22-23"]
+        }
+      ],
+      "terms": [
+        { "term": "Communicable attributes", "def": "Qualities of God that His people reflect in part, such as love and holiness." },
+        { "term": "Holiness", "def": "God's majestic separateness and perfect moral purity." },
+        { "term": "Grace", "def": "God's undeserved favour toward sinners." },
+        { "term": "Mercy", "def": "God's compassion in withholding deserved punishment." },
+        { "term": "Justice", "def": "God's perfect rightness in rewarding good and punishing evil." },
+        { "term": "Faithfulness", "def": "God's reliability in keeping every promise." }
+      ],
+      "texts": [
+        { "ref": "Isaiah 6:3", "teaches": "The LORD of hosts is holy, holy, holy." },
+        { "ref": "1 Peter 1:16", "teaches": "Be holy, for God is holy." },
+        { "ref": "Romans 5:8", "teaches": "God showed His love in that Christ died for us while we were sinners." },
+        { "ref": "Romans 3:26", "teaches": "At the cross God is both just and the justifier of believers." },
+        { "ref": "2 Timothy 2:13", "teaches": "God abides faithful; He cannot deny Himself." }
+      ],
+      "summary": [
+        "God is supremely holy and calls His people to holiness.",
+        "God is love; grace gives what we do not deserve, mercy withholds what we do.",
+        "God is perfectly just; love and justice meet at the cross.",
+        "God is faithful to every promise."
+      ],
+      "questions": [
+        { "q": "Which attribute do the seraphim repeat three times in Isaiah 6?", "options": ["Holiness", "Love", "Power", "Wisdom"], "answer": 0 },
+        { "q": "Mercy means:", "options": ["Withholding punishment we deserve", "Giving rewards we earn", "Ignoring sin", "God changing His mind"], "answer": 0 },
+        { "q": "How are God's justice and love both satisfied?", "options": ["At the cross of Christ", "By God ignoring sin", "By our good works", "They cannot both be satisfied"], "answer": 0 },
+        { "q": "Attributes that God shares in part with His people are called:", "options": ["Communicable", "Incommunicable", "Natural", "Hidden"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Names of God",
+      "intro": "In Scripture a name reveals character. This week we study the main names by which God makes Himself known.",
+      "lessons": [
+        {
+          "title": "Elohim, Adonai and Jehovah",
+          "body": "**Elohim** is the general Hebrew word for God, used in Genesis 1:1. It is plural in form though used with singular verbs, which many see as a hint of the fulness of the Godhead.\n\n**Adonai** means Lord or Master, expressing God's authority and our service.\n\n**Jehovah** (or Yahweh), written in the KJV as LORD in capital letters, is God's personal covenant name, revealed to Moses: \"I AM THAT I AM\" (Exodus 3:14-15; 6:3). It speaks of God's self-existence and faithfulness to His covenant people.",
+          "refs": ["Genesis 1:1", "Exodus 3:14-15", "Exodus 6:3"]
+        },
+        {
+          "title": "Compound names of the LORD",
+          "body": "Scripture joins God's covenant name to descriptions of what He does:\n\n- **Jehovah-jireh:** the LORD will provide (Genesis 22:14).\n- **Jehovah-rapha:** the LORD that healeth thee (Exodus 15:26).\n- **Jehovah-nissi:** the LORD my banner (Exodus 17:15).\n- **Jehovah-shalom:** the LORD send peace (Judges 6:24).\n- **Jehovah-tsidkenu:** THE LORD OUR RIGHTEOUSNESS (Jeremiah 23:6).\n- **Jehovah-shammah:** the LORD is there (Ezekiel 48:35).\n\nEach arose from a real situation and became a lasting promise.",
+          "refs": ["Genesis 22:14", "Exodus 15:26", "Jeremiah 23:6"]
+        },
+        {
+          "title": "God most high, Almighty, Father",
+          "body": "**El Elyon**, God most high, possessor of heaven and earth (Genesis 14:19). **El Shaddai**, God Almighty, the all-sufficient one who made promises to Abraham (Genesis 17:1). **The LORD of hosts** (Jehovah Sabaoth), commander of heaven's armies (1 Samuel 1:3).\n\nIn the New Testament, Jesus taught us to call God **Father** (Matthew 6:9). Through the Spirit of adoption, believers cry \"Abba, Father\" (Romans 8:15).\n\nKnowing God's names helps us pray: we call on Him according to who He has revealed Himself to be.",
+          "refs": ["Genesis 17:1", "Matthew 6:9", "Romans 8:15"]
+        }
+      ],
+      "terms": [
+        { "term": "Elohim", "def": "The general Hebrew word for God, used in Genesis 1:1." },
+        { "term": "Adonai", "def": "Hebrew for Lord or Master." },
+        { "term": "Jehovah (Yahweh)", "def": "God's personal covenant name, printed LORD in the KJV." },
+        { "term": "Jehovah-jireh", "def": "'The LORD will provide' (Genesis 22:14)." },
+        { "term": "El Shaddai", "def": "'God Almighty', the all-sufficient God." },
+        { "term": "Abba", "def": "Aramaic for 'Father', used by believers in close trust." }
+      ],
+      "texts": [
+        { "ref": "Exodus 6:3", "teaches": "God made Himself known by His name JEHOVAH." },
+        { "ref": "Genesis 22:14", "teaches": "Abraham called the place Jehovah-jireh: the LORD will provide." },
+        { "ref": "Exodus 15:26", "teaches": "God revealed Himself as the LORD that heals." },
+        { "ref": "Jeremiah 23:6", "teaches": "The coming King will be called THE LORD OUR RIGHTEOUSNESS." },
+        { "ref": "Genesis 17:1", "teaches": "God revealed Himself to Abraham as the Almighty God." }
+      ],
+      "summary": [
+        "God's names reveal His character and works.",
+        "Elohim, Adonai and Jehovah are His main Old Testament names.",
+        "Compound names show God as provider, healer, banner, peace and righteousness.",
+        "In Christ we know God as Father."
+      ],
+      "questions": [
+        { "q": "How does the KJV usually print God's covenant name Jehovah?", "options": ["LORD in capital letters", "God", "Lord in small letters", "Almighty"], "answer": 0 },
+        { "q": "What does Jehovah-jireh mean?", "options": ["The LORD will provide", "The LORD is my banner", "The LORD is there", "The LORD our righteousness"], "answer": 0 },
+        { "q": "What does El Shaddai mean?", "options": ["God Almighty", "God most high", "God of peace", "God who sees"], "answer": 0 },
+        { "q": "What does \"Abba\" mean?", "options": ["Father", "Master", "King", "Holy One"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Sovereign God",
+      "intro": "God rules over all things. This week we study His sovereignty, His will and His providence, and what they mean for our trust.",
+      "lessons": [
+        {
+          "title": "God reigns",
+          "body": "God's sovereignty is His supreme rule and authority over all things. \"Our God is in the heavens: he hath done whatsoever he hath pleased\" (Psalm 115:3). Even Nebuchadnezzar confessed that God \"doeth according to his will in the army of heaven, and among the inhabitants of the earth\" (Daniel 4:35).\n\nGod \"worketh all things after the counsel of his own will\" (Ephesians 1:11). Nothing takes Him by surprise; no plan of His fails (Isaiah 46:10).\n\nThis does not make people robots. Scripture holds both truths: God reigns, and people make real choices for which they are responsible (Acts 2:23).",
+          "refs": ["Psalm 115:3", "Isaiah 46:9-10", "Acts 2:23"]
+        },
+        {
+          "title": "God's will",
+          "body": "Theologians speak of God's will in two senses:\n\n- His **decreed** (secret) will: what God has purposed to happen, which always comes to pass (Ephesians 1:11).\n- His **revealed** (moral) will: what God commands us to do, which we can obey or disobey (1 Thessalonians 4:3).\n\n\"The secret things belong unto the LORD our God: but those things which are revealed belong unto us\" (Deuteronomy 29:29).\n\nFor guidance, we focus on God's revealed will in Scripture, and trust Him with what is hidden.",
+          "refs": ["Deuteronomy 29:29", "Ephesians 1:11", "1 Thessalonians 4:3"]
+        },
+        {
+          "title": "Providence and trust",
+          "body": "**Providence** is God's continuing care and control of all He has made. He upholds all things by His word (Hebrews 1:3), feeds the birds and clothes the lilies (Matthew 6:26-30), and not a sparrow falls without Him (Matthew 10:29).\n\nHe works even through evil for good: Joseph's brothers meant evil, \"but God meant it unto good\" (Genesis 50:20). \"All things work together for good to them that love God\" (Romans 8:28).\n\nSovereignty is a pillow for the believer: we can be at peace, pray with confidence and serve without fear, because our Father reigns.",
+          "refs": ["Hebrews 1:3", "Matthew 10:29-31", "Romans 8:28"]
+        }
+      ],
+      "terms": [
+        { "term": "Sovereignty", "def": "God's supreme rule and authority over all things." },
+        { "term": "Decreed will", "def": "God's eternal purpose for all that happens, which always comes to pass." },
+        { "term": "Revealed will", "def": "God's commands in Scripture, which we are to obey." },
+        { "term": "Providence", "def": "God's ongoing care and control of all creation." },
+        { "term": "Human responsibility", "def": "People's real accountability for their choices, alongside God's rule." },
+        { "term": "Counsel of His will", "def": "God's wise eternal plan by which He works all things." }
+      ],
+      "texts": [
+        { "ref": "Psalm 115:3", "teaches": "God has done whatever He pleased." },
+        { "ref": "Isaiah 46:10", "teaches": "God declares the end from the beginning and His counsel stands." },
+        { "ref": "Ephesians 1:11", "teaches": "God works all things after the counsel of His own will." },
+        { "ref": "Matthew 10:29", "teaches": "Not one sparrow falls without the Father." },
+        { "ref": "Romans 8:28", "teaches": "All things work together for good to them that love God." }
+      ],
+      "summary": [
+        "God reigns over all things and His purposes never fail.",
+        "God's sovereignty and human responsibility are both taught in Scripture.",
+        "We obey God's revealed will and trust Him with His secret will.",
+        "God's providence cares for His people and works all things for their good."
+      ],
+      "questions": [
+        { "q": "What is God's revealed will?", "options": ["His commands in Scripture", "His secret plan for the future", "Our personal feelings", "Signs in nature"], "answer": 0 },
+        { "q": "How does Acts 2:23 show both sovereignty and responsibility?", "options": ["Christ was delivered by God's counsel, yet wicked hands crucified Him", "God forced people to sin", "People were not responsible", "God did not know beforehand"], "answer": 0 },
+        { "q": "What is providence?", "options": ["God's ongoing care and control of creation", "A city in America", "Human planning", "Luck"], "answer": 0 },
+        { "q": "Which verse says all things work together for good to them that love God?", "options": ["Romans 8:28", "Psalm 115:3", "Isaiah 46:10", "Hebrews 1:3"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Explain the difference between God being incomprehensible and knowable.", "keywords": [["never", "fully", "completely"], ["truly", "revealed", "revelation"]], "model": "God can never be fully understood (incomprehensible), yet He can be truly known because He has revealed Himself (knowable)." },
+      { "q": "Define God's omniscience and give one comfort it brings.", "keywords": [["knows", "know"], ["all", "everything"], ["comfort", "sees", "needs", "tears", "cares"]], "model": "God knows all things perfectly; this comforts believers because He sees every need and tear." },
+      { "q": "What is the difference between grace and mercy?", "keywords": [["undeserved", "favour", "favor", "give"], ["withhold", "punishment", "deserve"]], "model": "Grace is God's undeserved favour, giving what we do not deserve; mercy withholds the punishment we do deserve." },
+      { "q": "How do God's love and justice meet at the cross?", "keywords": [["punish", "penalty", "justice", "just"], ["love", "save", "justifier"], ["Christ", "cross"]], "model": "At the cross God punished sin in Christ, satisfying His justice, and in love provided salvation, so He is just and the justifier of believers." },
+      { "q": "What do the names Jehovah-jireh and Jehovah-rapha mean?", "keywords": [["provide"], ["heal", "healeth"]], "model": "Jehovah-jireh means 'the LORD will provide'; Jehovah-rapha means 'the LORD that healeth thee'." },
+      { "q": "Explain God's providence with one Bible example.", "keywords": [["care", "control", "rules", "upholds"], ["Joseph", "sparrow", "birds", "lilies", "Esther"]], "model": "Providence is God's ongoing care and control of all things, as when He turned Joseph's brothers' evil into good." }
+    ],
+    "lists": [
+      { "q": "List four incommunicable attributes of God.", "items": [["self-existent", "self-existence", "aseity"], ["eternal", "eternity"], ["immutable", "unchanging", "immutability"], ["omnipresent", "omnipresence"], ["omniscient", "omniscience"], ["omnipotent", "omnipotence", "all-powerful"]], "need": 4 },
+      { "q": "List four communicable attributes of God.", "items": [["holy", "holiness"], ["love"], ["grace"], ["mercy"], ["just", "justice", "righteous"], ["faithful", "faithfulness"], ["good", "goodness"], ["wisdom", "wise"]], "need": 4 },
+      { "q": "List three compound names of Jehovah.", "items": [["jireh"], ["rapha"], ["nissi"], ["shalom"], ["tsidkenu"], ["shammah"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "An attribute in my life", "prompt": "Choose one attribute of God from this course. Explain it from at least three passages, then describe how believing it should change your prayer, your fears and your obedience this week.", "words": "500–700" },
+    { "title": "Praying God's names", "prompt": "Write a prayer, and a short explanation, using at least four names of God from Week 4. For each name, give its meaning and reference and explain why you are calling on God by that name.", "words": "400–600" }
+  ],
+  "examMinutes": 75,
+  "reading": [
+    "J. I. Packer, Knowing God",
+    "A. W. Tozer, The Knowledge of the Holy",
+    "Louis Berkhof, Systematic Theology, Part One"
+  ]
+}

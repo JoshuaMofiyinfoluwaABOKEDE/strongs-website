@@ -3,6 +3,7 @@ import { PaperFields, PaperReview } from "@/components/theology/Paper";
 import { one } from "@/lib/db";
 import type { Mark, PaperItem } from "@/lib/theology/content";
 import { loadTheology } from "@/lib/theology/learner";
+import { AssessShell } from "@/components/theology/Units";
 import { startTest, submitTest } from "@/app/theology/actions";
 
 export const dynamic = "force-dynamic";
@@ -24,6 +25,7 @@ export default async function TestPage({ params, searchParams }: { params: Promi
   const reveal = left === 0 && !g.testOpen;
 
   return (
+    <AssessShell c={c} g={g} title={"Course test"}>
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2 border-b border-line pb-5">
         <p className="eyebrow">Course test · {theologyRules.weights.test}% of your grade</p>
@@ -72,5 +74,6 @@ export default async function TestPage({ params, searchParams }: { params: Promi
         </>
       )}
     </article>
+    </AssessShell>
   );
 }

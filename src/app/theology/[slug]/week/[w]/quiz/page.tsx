@@ -5,6 +5,7 @@ import { PaperFields, PaperReview } from "@/components/theology/Paper";
 import { one } from "@/lib/db";
 import type { Mark, PaperItem } from "@/lib/theology/content";
 import { loadTheology } from "@/lib/theology/learner";
+import { UnitShell } from "@/components/theology/Units";
 import { startQuiz, submitQuiz } from "@/app/theology/actions";
 
 export const dynamic = "force-dynamic";
@@ -26,6 +27,7 @@ export default async function QuizPage({ params, searchParams }: { params: Promi
   const passedEver = (best ?? 0) >= theologyRules.quiz.pass;
 
   return (
+    <UnitShell c={c} g={g} current={`w${week}q`}>
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2 border-b border-line pb-5">
         <p className="eyebrow">Week {week} quiz</p>
@@ -77,5 +79,6 @@ export default async function QuizPage({ params, searchParams }: { params: Promi
         </>
       )}
     </article>
+    </UnitShell>
   );
 }

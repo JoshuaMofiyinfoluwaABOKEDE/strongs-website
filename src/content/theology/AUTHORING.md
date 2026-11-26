@@ -18,3 +18,8 @@ One JSON file per course in `courses/<slug>.json` (shape: `types.ts`). After add
 - `written`: 6 short-answer questions (2–3 keyword groups each, plus a model answer) and 3 list questions.
 - 2 assignments with a clear prompt and word range. `examMinutes`: 60 (75 for six-week courses).
 - `reading`: 2–4 titles with authors (no quotations).
+
+## Presentation (edX and UniAthena style, in STRONGS colours)
+- Catalogue cards: course code, "Free certificate" badge, self-paced duration and hours, level, "Start now".
+- Course page: highlights strip (hours, self-paced, free learning, certificate), About, What you'll learn, Key highlights, Syllabus by week, Who this course is for (`audience`, optional), How you are assessed, FAQs; sidebar with Course details, Enrol, Sample certificate, Further reading.
+- Inside a course: Course and Progress tabs; the Course tab is an outline with Resume; each unit has a breadcrumb, a step bar for the week's units, and Previous/Next; Progress is a report card with a grade bar, pass line and grading breakdown.

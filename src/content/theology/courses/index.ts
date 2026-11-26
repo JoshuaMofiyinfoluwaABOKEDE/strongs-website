@@ -3,9 +3,12 @@ import type { TheologyCourse } from "../types";
 import c_how_the_bible_came_to_us from "./how-the-bible-came-to-us.json";
 import c_interpreting_the_bible from "./interpreting-the-bible.json";
 import c_introduction_to_theology from "./introduction-to-theology.json";
+import c_new_testament_survey_epistles_and_revelation from "./new-testament-survey-epistles-and-revelation.json";
 import c_new_testament_survey_gospels_and_acts from "./new-testament-survey-gospels-and-acts.json";
 import c_old_testament_survey_law_and_history from "./old-testament-survey-law-and-history.json";
 import c_old_testament_survey_poetry_and_prophets from "./old-testament-survey-poetry-and-prophets.json";
 import c_the_bible_revelation_and_authority from "./the-bible-revelation-and-authority.json";
+import c_the_doctrine_of_god from "./the-doctrine-of-god.json";
+import c_the_holy_trinity from "./the-holy-trinity.json";
 
-export const theologyCourses = [c_how_the_bible_came_to_us, c_interpreting_the_bible, c_introduction_to_theology, c_new_testament_survey_gospels_and_acts, c_old_testament_survey_law_and_history, c_old_testament_survey_poetry_and_prophets, c_the_bible_revelation_and_authority] as TheologyCourse[];
+export const theologyCourses = [c_how_the_bible_came_to_us, c_interpreting_the_bible, c_introduction_to_theology, c_new_testament_survey_epistles_and_revelation, c_new_testament_survey_gospels_and_acts, c_old_testament_survey_law_and_history, c_old_testament_survey_poetry_and_prophets, c_the_bible_revelation_and_authority, c_the_doctrine_of_god, c_the_holy_trinity] as TheologyCourse[];

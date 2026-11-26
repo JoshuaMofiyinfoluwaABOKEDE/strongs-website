@@ -4,6 +4,7 @@ import { PaperFields } from "@/components/theology/Paper";
 import { one } from "@/lib/db";
 import type { Mark, PaperItem } from "@/lib/theology/content";
 import { loadTheology } from "@/lib/theology/learner";
+import { AssessShell } from "@/components/theology/Units";
 import { startExam, submitExam } from "@/app/theology/actions";
 
 export const dynamic = "force-dynamic";
@@ -20,6 +21,7 @@ export default async function ExamPage({ params, searchParams }: { params: Promi
   const ready = g.parts.lessons && g.parts.quizzes;
 
   return (
+    <AssessShell c={c} g={g} title={"Final exam"}>
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2 border-b border-line pb-5">
         <p className="eyebrow">Final exam · {theologyRules.weights.exam}% of your grade</p>
@@ -60,5 +62,6 @@ export default async function ExamPage({ params, searchParams }: { params: Promi
       )}
       {error === "locked" && <p role="alert" className="text-sm text-[#8a1c1c]">Finish the lessons and pass every weekly quiz first.</p>}
     </article>
+    </AssessShell>
   );
 }
