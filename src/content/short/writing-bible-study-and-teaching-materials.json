@@ -1,0 +1,309 @@
+{
+ "slug": "writing-bible-study-and-teaching-materials",
+ "objectives": [
+  "Write inductive Bible studies with observation, interpretation and application questions",
+  "Plan teaching lessons with clear aims, activities and assessment for different ages",
+  "Design a multi-week discipleship or study series",
+  "Edit, test and publish materials that leaders can use easily"
+ ],
+ "modules": [
+  {
+   "title": "The inductive Bible study",
+   "summary": "Questions that lead people into the text.",
+   "lessons": [
+    {
+     "title": "Faithful to the text",
+     "scripture": "Nehemiah 8:8; 2 Timothy 2:15; Acts 8:30-35",
+     "body": "Philip asked the Ethiopian, \"Understandest thou what thou readest?\", and the man replied, \"How can I, except some man should guide me?\" (Acts 8:30-31). Study materials are guides that help people understand.\n\nFaithful materials:\n\n- **Start with the text**, not with a topic you want to push.\n- **Study the passage yourself** first, using observation, interpretation and application.\n- **Find the main point** of the passage in one sentence; build the study around it.\n- **Respect context**: the chapter, the book, and the whole Bible.\n- **Check doctrine** with trusted resources and a pastor.\n- **Point to Christ** where the passage leads there (Luke 24:27).\n- **Be humble** on disputed questions; present them fairly.\n\nDaily Bible study guides have long shaped believers' habits. Many Nigerian Christians grew up with daily devotional and study guides from their churches and ministries, a reminder of how much a well-written guide can help people stay in the Word every day."
+    },
+    {
+     "title": "Writing good questions",
+     "scripture": "Luke 2:46-47; Matthew 16:13-16; Luke 10:26",
+     "body": "Jesus taught with questions: \"Whom do men say that I the Son of man am?... But whom say ye that I am?\" (Matthew 16:13-15). \"What is written in the law? how readest thou?\" (Luke 10:26).\n\nThe inductive pattern uses three kinds of questions:\n\n- **Observation** (What does it say?): \"What does Paul command in verse 6? What reason does he give in verse 7?\"\n- **Interpretation** (What does it mean?): \"Why do you think Paul connects prayer with peace here? What does 'guard your hearts' suggest?\"\n- **Application** (What will we do?): \"What worry will you bring to God in prayer this week? How?\"\n\nGood questions are:\n\n- **Open** (not yes/no).\n- **Clear** and **short**.\n- **Answerable from the text** (especially observation questions).\n- **In a logical order**, building toward the main point.\n\nAvoid: leading questions (\"Isn't it wonderful that...?\"), questions that only experts can answer, and vague questions (\"What do you think about this passage?\" alone)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Where should a Bible study begin?",
+     "options": [
+      "With the text, not a topic you want to push",
+      "With a popular quote",
+      "With your opinion",
+      "With the application only"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which is an observation question?",
+     "options": [
+      "What does Paul command in verse 6?",
+      "How will you obey this?",
+      "Isn't this wonderful?",
+      "What do you think about life?"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a leading question?",
+     "options": [
+      "A question that pushes people toward a particular answer",
+      "A question asked by the leader",
+      "An open question",
+      "A question at the beginning"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How did Jesus use questions in Matthew 16?",
+     "options": [
+      "He moved from what others said to 'whom say ye that I am?'",
+      "He avoided questions",
+      "He asked only yes/no questions",
+      "He answered for them"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Lessons for different ages",
+   "summary": "Lesson plans for children, youth and adults.",
+   "lessons": [
+    {
+     "title": "The lesson plan",
+     "scripture": "Deuteronomy 6:6-9; Proverbs 22:6; Luke 2:52",
+     "body": "\"Train up a child in the way he should go\" (Proverbs 22:6). Teaching is planned work.\n\nA simple lesson plan:\n\n1. **Aim**: what learners should know, feel and do by the end. (\"Children will know that God hears prayer, feel safe to talk to Him, and pray a short prayer.\")\n2. **Bible passage** and **memory verse**.\n3. **Hook** (3 to 5 minutes): a question, object, story or game that connects to the theme.\n4. **Bible teaching** (10 to 20 minutes): tell or study the passage.\n5. **Activity**: craft, drama, discussion, worksheet or game that reinforces the point.\n6. **Application**: what will we do this week?\n7. **Prayer** and **review**.\n8. **Materials** needed.\n\nWrite a **leader's guide** with background notes, suggested answers and tips, and a **learner's sheet** with the text and questions."
+    },
+    {
+     "title": "Age and learning styles",
+     "scripture": "1 Corinthians 13:11; Hebrews 5:12-14; 1 Corinthians 9:22",
+     "body": "\"When I was a child, I spake as a child, I understood as a child\" (1 Corinthians 13:11). Materials must fit their learners.\n\n- **Young children (3 to 7)**: short attention spans; stories, songs, pictures, movement, repetition, one simple truth.\n- **Older children (8 to 12)**: love facts, challenges, quizzes and memory work; can look up verses.\n- **Teenagers**: want honesty, discussion, real-life issues (identity, relationships, purpose), and respect for their questions.\n- **Adults**: bring experience; value discussion, depth and practical application.\n- **New believers**: basic truths, clear language, assurance.\n\nDifferent people learn in different ways: some by **listening**, some by **seeing** (charts, pictures), some by **doing** (activities, drama). Vary methods.\n\nUse **local examples** and languages. Keep reading levels appropriate; test with a typical learner. Move learners from \"milk\" to \"meat\" over time (Hebrews 5:12-14)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What should a lesson aim state?",
+     "options": [
+      "What learners should know, feel and do by the end",
+      "Only the title",
+      "The teacher's name",
+      "The room number"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is the purpose of a hook?",
+     "options": [
+      "To connect learners to the theme at the start",
+      "To end the lesson",
+      "To collect offerings",
+      "To take attendance"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What do young children need in a lesson?",
+     "options": [
+      "Stories, songs, movement and one simple truth",
+      "Long lectures",
+      "Complex theology",
+      "Silent reading for an hour"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What do teenagers especially value in teaching?",
+     "options": [
+      "Honesty, discussion and respect for their questions",
+      "Being lectured without questions",
+      "Avoiding real-life issues",
+      "Childish activities"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Series and publishing",
+   "summary": "Designing a series and preparing materials for use.",
+   "lessons": [
+    {
+     "title": "Designing a study series",
+     "scripture": "Acts 20:27; Colossians 2:6-7",
+     "body": "Paul \"shunned not to declare... all the counsel of God\" (Acts 20:27). A series helps people grow steadily, \"rooted and built up in him\" (Colossians 2:7).\n\nTypes of series:\n\n- **Book study**: work through a book of the Bible (e.g. Philippians in four sessions).\n- **Topical**: a theme across Scripture (prayer, holiness, money, evangelism), each session based on a main passage.\n- **Discipleship**: foundations for new believers (assurance, prayer, the Word, the church, witness).\n- **Character study**: lives of Bible people (Joseph, Ruth, Daniel, Peter).\n\nPlanning a series:\n\n1. **Overall aim** of the series.\n2. **Number of sessions** and **length** of each (45 to 60 minutes is common for groups).\n3. **Session titles**, passages and main points in a table.\n4. A **consistent format** for every session (opening question, read, observe, interpret, apply, pray).\n5. **Progression**: each session builds on the last.\n6. **Review** at the end."
+    },
+    {
+     "title": "Editing, testing and publishing",
+     "scripture": "Proverbs 15:22; 2 Timothy 2:2",
+     "body": "\"The things that thou hast heard of me... commit thou to faithful men, who shall be able to teach others also\" (2 Timothy 2:2). Good materials help ordinary leaders teach.\n\nBefore publishing:\n\n- **Test** each session with a real group; note where people got confused or bored.\n- **Revise** questions that didn't work.\n- **Check** every Bible reference and quotation.\n- **Doctrinal review** by a pastor or theologian.\n- **Proofread** carefully.\n- **Design** for readability: clear headings, space to write answers, large enough font, a simple layout that photocopies well.\n- **Name the translation** used and follow its copyright guidelines for quotations.\n- **Credit** sources and contributors.\n\nPublishing options: printed booklets, PDF downloads, WhatsApp-friendly daily guides, a church website, or a STRONGS course. Include a short **\"How to use this guide\"** page for leaders."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which is a type of study series?",
+     "options": [
+      "A book study working through a book of the Bible",
+      "A random list of verses",
+      "A single sermon",
+      "A newspaper"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why keep a consistent format across sessions?",
+     "options": [
+      "It helps leaders and groups know what to expect and follow easily",
+      "It is boring",
+      "It is required by law",
+      "To make it longer"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why test materials with a real group?",
+     "options": [
+      "To find where people get confused or bored and revise",
+      "It isn't necessary",
+      "To sell copies",
+      "To get compliments"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should every guide include for leaders?",
+     "options": [
+      "A short 'How to use this guide' page",
+      "The author's photo only",
+      "Advertisements",
+      "Nothing extra"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "What did the Ethiopian say in Acts 8:31?",
+   "options": [
+    "How can I, except some man should guide me?",
+    "I understand everything",
+    "I don't want to read",
+    "Leave me alone"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why should a study be built around the passage's main point?",
+   "options": [
+    "So the study teaches what the text actually teaches",
+    "To make it shorter",
+    "To avoid questions",
+    "To push the writer's topic"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What are the three kinds of inductive questions?",
+   "options": [
+    "Observation, interpretation, application",
+    "Easy, medium, hard",
+    "Who, where, when",
+    "Yes, no, maybe"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a good interpretation question?",
+   "options": [
+    "Why do you think Paul connects prayer with peace here?",
+    "What is verse 6?",
+    "Do you like this?",
+    "Isn't this nice?"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which question should be avoided?",
+   "options": [
+    "What do you think about this passage? (on its own, vague)",
+    "What does verse 7 say?",
+    "How will you apply this?",
+    "Why does Paul say this?"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is a leader's guide?",
+   "options": [
+    "Notes, suggested answers and tips for the person leading",
+    "A list of attendees",
+    "A map",
+    "A hymn book"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which age group needs one simple truth with stories and movement?",
+   "options": [
+    "Young children (3 to 7)",
+    "Adults",
+    "Teenagers",
+    "Postgraduate students"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why vary teaching methods?",
+   "options": [
+    "People learn by listening, seeing and doing",
+    "To fill time",
+    "Because one method is sinful",
+    "To confuse learners"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should a series have to help learners grow?",
+   "options": [
+    "Progression: each session builds on the last",
+    "No connection between sessions",
+    "Different formats every time",
+    "No aim"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Who should review study materials for doctrine?",
+   "options": [
+    "A pastor or theologian",
+    "No one",
+    "Only the printer",
+    "Only the author"
+   ],
+   "answer": 0
+  }
+ ],
+ "title": "Writing Bible Study and Teaching Materials",
+ "category": "writing",
+ "level": "Intermediate",
+ "effort": "3 hours a week",
+ "summary": "Write Bible study guides, Sunday school lessons, discipleship booklets and teaching handouts that are faithful, clear and easy to lead.",
+ "about": "Churches, fellowships and Bible Clubs need good teaching materials. This course teaches how to write inductive Bible study guides with strong questions, lesson plans for children and youth, discipleship series and handouts, all faithful to Scripture and usable by leaders who are not trained theologians. It draws on long traditions of daily Bible study guides used across Nigerian churches.",
+ "audience": "Bible study leaders, Sunday school teachers, discipleship coordinators, campus fellowship leaders and Christian writers.",
+ "prerequisites": "How to Study the Bible is recommended.",
+ "outcomes": [
+  "Write good open questions and avoid poor ones",
+  "Write a leader's guide with notes and answers",
+  "Produce a lesson plan with an aim, hook, teaching, activity and application",
+  "Complete and test a four-session study series"
+ ],
+ "assignment": {
+  "title": "Practical assignment: a four-session study series",
+  "body": "Write a four-session Bible study series on a book or theme. For each session include: the passage, the main point in one sentence, an opening question, six to ten observation, interpretation and application questions, a closing prayer prompt, and leader's notes with suggested answers.\n\nAdd one children's lesson plan (for ages 6 to 10) based on one of the four passages.\n\nTest at least one session with a group and hand in a 200 to 300 word report on what you revised afterwards."
+ },
+ "reading": [
+  "Howard and William Hendricks, Living By the Book",
+  "Gordon Fee and Douglas Stuart, How to Read the Bible for All Its Worth"
+ ]
+}

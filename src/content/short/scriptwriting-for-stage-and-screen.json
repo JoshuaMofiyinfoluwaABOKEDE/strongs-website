@@ -1,0 +1,309 @@
+{
+ "slug": "scriptwriting-for-stage-and-screen",
+ "objectives": [
+  "Develop a premise and characters with clear desires and conflict",
+  "Structure a story in acts and build effective scenes",
+  "Write natural dialogue and use correct stage and screen formats",
+  "Revise a script and prepare it for a reading or production"
+ ],
+ "modules": [
+  {
+   "title": "Story and character",
+   "summary": "The foundations of every script.",
+   "lessons": [
+    {
+     "title": "Premise and logline",
+     "scripture": "2 Samuel 12:1-7; Luke 10:25-37",
+     "body": "When a lawyer asked, \"Who is my neighbour?\", Jesus told a story: a man attacked on the road, a priest and a Levite who passed by, and a Samaritan who stopped (Luke 10:30-37). The story's **premise** was simple and strong: a despised outsider shows true love.\n\nEvery script needs a premise you can state in a **logline**: one sentence naming the main character, their goal, and the obstacle.\n\n- \"A proud university student who mocks his Christian roommate must depend on him when a flood traps them in their hostel.\"\n- \"A market woman who has cheated customers for years must choose between her business and her new faith when her daughter starts selling with her.\"\n\nA good logline suggests **conflict** and **change**. If you can't write one, the story isn't clear yet.\n\nNathan's parable to David (2 Samuel 12) shows the power of a well-chosen premise: it made the king judge himself."
+    },
+    {
+     "title": "Characters who want something",
+     "scripture": "Genesis 32:24-30; Luke 19:1-10",
+     "body": "Drama comes from characters who **want** something and face **obstacles**. Jacob wrestled all night and would not let go: \"I will not let thee go, except thou bless me\" (Genesis 32:26). Zacchaeus wanted to see Jesus but \"could not for the press, because he was little of stature\", so he ran ahead and climbed a tree (Luke 19:3-4).\n\nFor each main character, write:\n\n- **Want**: what they consciously pursue (money, love, respect, escape).\n- **Need**: what they truly need (forgiveness, humility, God). Often the story moves them from want to need.\n- **Flaw**: what stands in their way from inside.\n- **Backstory**: what shaped them.\n- **Voice**: how they speak (vocabulary, language, rhythm).\n\nAvoid **cardboard characters**: perfect Christians and pure villains. Real people are mixed. Audiences believe characters who struggle, and they are moved when grace meets them."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is a logline?",
+     "options": [
+      "One sentence naming the main character, their goal and the obstacle",
+      "The last line of a script",
+      "A list of actors",
+      "A camera instruction"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What did Jesus' story of the Good Samaritan show?",
+     "options": [
+      "A despised outsider showing true love",
+      "That priests are always right",
+      "That travel is dangerous",
+      "That neighbours are only family"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is the difference between a character's want and need?",
+     "options": [
+      "Want is what they pursue; need is what they truly need",
+      "They are always the same",
+      "Need is less important",
+      "Only villains have needs"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why avoid perfect Christian characters?",
+     "options": [
+      "Audiences believe characters who struggle",
+      "Christians should never be shown",
+      "Perfect characters are illegal",
+      "They are too expensive to cast"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Structure and scenes",
+   "summary": "Shaping the story.",
+   "lessons": [
+    {
+     "title": "Three acts",
+     "scripture": "Genesis 37:1-36; Genesis 45:1-8",
+     "body": "Most stories follow a **three-act structure**:\n\n- **Act One (setup, about a quarter)**: introduce the world and characters; an **inciting incident** disrupts normal life; the character commits to a goal.\n- **Act Two (confrontation, about half)**: obstacles grow; the stakes rise; a **midpoint** twist changes things; often everything seems lost near the end.\n- **Act Three (resolution, about a quarter)**: the **climax**, where the main conflict is faced, and the **resolution**, showing the new normal.\n\nJoseph's story fits: dreams and a jealous family (setup), betrayal and slavery (inciting incident), rise and fall in Egypt (confrontation), the brothers before him (climax), and \"God did send me before you to preserve life\" (resolution, Genesis 45:5).\n\nOutline your story on cards or in a list: one line per scene. Move scenes around until the shape works before you write dialogue."
+    },
+    {
+     "title": "Building a scene",
+     "scripture": "Ruth 3:1-18; John 21:15-17",
+     "body": "A **scene** is a unit of action in one place and time. Every scene should **change something**: a decision, a revelation, a shift in a relationship.\n\nAsk of each scene:\n\n- **Whose scene is it?** Who wants what?\n- **What's the conflict?** Something must resist.\n- **What changes** by the end?\n- **Where does it start and end?** Enter late, leave early: skip greetings and goodbyes unless they matter.\n\nJesus' conversation with Peter by the lake (John 21:15-17) is a powerful scene: three questions, Peter's grief, and a commission. A past failure (three denials) is healed by three affirmations, without a single wasted line.\n\nShow, don't tell. Instead of a character saying \"I am angry\", show him slamming the gate or refusing to eat. Let actions and silence speak."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What happens in Act One?",
+     "options": [
+      "The world and characters are introduced and an inciting incident disrupts normal life",
+      "The climax",
+      "The final resolution",
+      "Nothing important"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a midpoint?",
+     "options": [
+      "A twist in Act Two that changes things",
+      "The first scene",
+      "The credits",
+      "The interval"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does 'enter late, leave early' mean?",
+     "options": [
+      "Skip unnecessary openings and endings in a scene",
+      "Actors arrive late",
+      "Start rehearsals late",
+      "Leave the theatre early"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should every scene do?",
+     "options": [
+      "Change something",
+      "Repeat the previous scene",
+      "Introduce every character",
+      "Explain the theme in words"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Dialogue, format and revision",
+   "summary": "Writing pages that can be produced.",
+   "lessons": [
+    {
+     "title": "Dialogue that lives",
+     "scripture": "Proverbs 15:23; Colossians 4:6; Matthew 5:37",
+     "body": "\"A word spoken in due season, how good is it!\" (Proverbs 15:23).\n\nGood dialogue:\n\n- **Sounds natural but is shaped**: real speech has many \"ehn\" and \"you know\"; script dialogue keeps the flavour but cuts the waste.\n- **Reveals character**: a lecturer, a bus conductor and a grandmother speak differently.\n- **Carries subtext**: people often don't say exactly what they mean. \"Have you eaten?\" may mean \"I'm sorry.\"\n- **Uses language** truthfully: Pidgin, Yoruba, Igbo, Hausa and English mix in real Nigerian speech. Use subtitles or context for screen.\n- **Avoids sermons**: let the story carry the message. A short, true line at the right moment does more than a long speech.\n- **Is short**: long speeches are rare and must earn their place.\n\nRead dialogue aloud with others. If actors stumble, rewrite."
+    },
+    {
+     "title": "Formats and revision",
+     "scripture": "Habakkuk 2:2; Proverbs 15:22",
+     "body": "**Stage format** (common style):\n\n```\nACT ONE, SCENE 1\nA hostel room. Night. Rain on the roof.\nTUNDE: (not looking up) You're praying again?\nDAYO: Every night. You could join.\n```\n\n**Screenplay format** (film/TV):\n\n```\nINT. HOSTEL ROOM - NIGHT\nRain drums on the roof. TUNDE (20) scrolls on his phone. DAYO (21) kneels by the bed.\n                    TUNDE\n          You're praying again?\n```\n\nScreenplays use scene headings (INT./EXT., place, time), action lines in present tense, and centred character names and dialogue. Free tools like **Celtx**, **WriterDuet** or **Trelby** format automatically. Roughly, one formatted page equals one minute of screen time.\n\n**Revision**:\n\n- Hold a **table read** with friends.\n- Cut scenes that don't change anything.\n- Check that the main character changes.\n- Get feedback from a director or experienced writer.\n\nRegister and date your script, and agree in writing on credits and rights with any producer."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is subtext?",
+     "options": [
+      "Meaning beneath what characters actually say",
+      "Subtitles",
+      "Stage directions",
+      "The script's title"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why avoid long sermons in dialogue?",
+     "options": [
+      "The story should carry the message; short true lines do more",
+      "Truth should never be spoken",
+      "Actors can't memorise",
+      "Audiences dislike speaking"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does INT. mean in a screenplay scene heading?",
+     "options": [
+      "Interior",
+      "Interval",
+      "Introduction",
+      "International"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Roughly how much screen time does one screenplay page represent?",
+     "options": [
+      "About one minute",
+      "One second",
+      "Ten minutes",
+      "One hour"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "What should a logline suggest?",
+   "options": [
+    "Conflict and change",
+    "Only the setting",
+    "Only the title",
+    "The budget"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What made Nathan's parable to David powerful?",
+   "options": [
+    "Its premise led the king to judge himself",
+    "It was very long",
+    "It had many characters",
+    "It was funny"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which character trait makes drama?",
+   "options": [
+    "Wanting something and facing obstacles",
+    "Having no goals",
+    "Being perfect",
+    "Never changing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which act is usually the longest?",
+   "options": [
+    "Act Two",
+    "Act One",
+    "Act Three",
+    "They are always equal"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Where is the climax of a three-act story?",
+   "options": [
+    "Act Three",
+    "Act One",
+    "The title page",
+    "The opening scene"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does 'show, don't tell' mean in scripts?",
+   "options": [
+    "Let actions and silence reveal feelings rather than stating them",
+    "Use only narration",
+    "Tell the audience the theme directly",
+    "Avoid actions"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is true of good dialogue?",
+   "options": [
+    "It reveals character and is usually short",
+    "It includes every 'ehn' and pause from real speech",
+    "It explains everything",
+    "It is always formal English"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "In screenplays, action lines are written in:",
+   "options": [
+    "Present tense",
+    "Past tense",
+    "Future tense",
+    "Questions"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is a table read?",
+   "options": [
+    "Reading the script aloud with others to test it",
+    "Reading at the dinner table alone",
+    "A list of tables needed",
+    "The final performance"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should you agree on in writing with a producer?",
+   "options": [
+    "Credits and rights",
+    "Your favourite actor",
+    "The lunch menu",
+    "Nothing"
+   ],
+   "answer": 0
+  }
+ ],
+ "title": "Scriptwriting for Stage and Screen",
+ "category": "writing",
+ "level": "Intermediate",
+ "effort": "3 hours a week",
+ "summary": "Write scripts for stage plays, short films and web series that tell true stories and carry the gospel with craft.",
+ "about": "Nigeria has one of the world's largest film industries, and stage drama remains a powerful tool for ministry. This course teaches how scripts work: premise, character, structure, scene and dialogue. You will learn the formats for stage and screen, write scenes, and finish with a short script for a play or film, with the honesty and excellence that Christian storytelling needs.",
+ "audience": "Writers, drama ministers, aspiring filmmakers and anyone with a story to put on stage or screen.",
+ "prerequisites": "Christian Writing Foundations or Drama for the Gospel is helpful but not required.",
+ "outcomes": [
+  "Write a one-sentence logline for a story idea",
+  "Outline a story using a three-act structure",
+  "Format a stage script and a screenplay correctly",
+  "Complete and revise a short original script"
+ ],
+ "assignment": {
+  "title": "Practical assignment: a short script",
+  "body": "Write an original short script: either a 10 to 15 minute stage play or a 10 to 12 page short film screenplay. Hand in:\n\n1. A logline and a one-paragraph synopsis.\n2. Character sketches (want, need, flaw) for the two or three main characters.\n3. A scene-by-scene outline.\n4. The full script in correct format.\n5. A 250 to 400 word reflection on a table read or feedback you received and the changes you made."
+ },
+ "reading": [
+  "Syd Field, Screenplay: The Foundations of Screenwriting",
+  "Lajos Egri, The Art of Dramatic Writing"
+ ]
+}

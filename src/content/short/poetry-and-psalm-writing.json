@@ -1,0 +1,309 @@
+{
+ "slug": "poetry-and-psalm-writing",
+ "objectives": [
+  "Read the Psalms as poetry and notice how they work",
+  "Use images, sound and line breaks with purpose",
+  "Write psalms of praise, lament and thanksgiving",
+  "Revise poems and prepare them for sharing or publication"
+ ],
+ "modules": [
+  {
+   "title": "Learning from the Psalms",
+   "summary": "How biblical poetry works.",
+   "lessons": [
+    {
+     "title": "Parallelism: thought rhyme",
+     "scripture": "Psalm 19:1-2; Psalm 103:1-2; Proverbs 15:1",
+     "body": "Hebrew poetry rhymes **ideas** more than sounds. This is called **parallelism**: a second line answers the first.\n\n- **Synonymous** (the second line echoes the first): \"The heavens declare the glory of God; and the firmament sheweth his handywork\" (Psalm 19:1).\n- **Antithetic** (the second line contrasts): \"A soft answer turneth away wrath: but grievous words stir up anger\" (Proverbs 15:1).\n- **Synthetic** or building (the second line extends): \"Bless the LORD, O my soul, and forget not all his benefits\" (Psalm 103:2).\n\nBecause it rhymes thought, biblical poetry survives translation into every language. That is a gift to poets: you can write in English, Yoruba, Igbo or Pidgin and still use this ancient form.\n\n**Exercise**: write three couplets about God's faithfulness, one of each type."
+    },
+    {
+     "title": "Images and honesty",
+     "scripture": "Psalm 42:1-3; Psalm 23:1-4; Psalm 13:1-2",
+     "body": "The psalmists think in pictures. \"As the hart panteth after the water brooks, so panteth my soul after thee, O God\" (Psalm 42:1). Thirst for God becomes a deer at a stream. \"The LORD is my shepherd\" turns care into a picture of grass, water, a rod and a valley.\n\nImages make the invisible visible. Compare:\n\n- Abstract: \"I felt far from God.\"\n- Image: \"My prayers fell like stones into a dry well.\"\n\nThe Psalms are also **honest**. \"How long wilt thou forget me, O LORD? for ever? how long wilt thou hide thy face from me?\" (Psalm 13:1). They bring fear, anger, grief and doubt to God, and they usually move toward trust by the end (Psalm 13:5-6).\n\nChristian poetry does not need to be cheerful all the time. It needs to be **true**: true to God and true to life.\n\n**Exercise**: list ten images from your daily world (a danfo, a generator, a harmattan morning, a market at dusk) and write one line connecting each to something about God."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is parallelism in Hebrew poetry?",
+     "options": [
+      "A second line answering the first, rhyming ideas more than sounds",
+      "Lines that never connect",
+      "Rhyming only the last letters",
+      "Writing in two columns"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which type is 'A soft answer turneth away wrath: but grievous words stir up anger'?",
+     "options": [
+      "Antithetic",
+      "Synonymous",
+      "Synthetic",
+      "Acrostic"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why is an image stronger than an abstract statement?",
+     "options": [
+      "It makes the invisible visible",
+      "It is always longer",
+      "It avoids meaning",
+      "It uses more adjectives"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What do the Psalms show about honesty?",
+     "options": [
+      "They bring fear, grief and doubt to God and usually move toward trust",
+      "They only express happiness",
+      "They hide feelings",
+      "They avoid speaking to God"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "The poet's tools",
+   "summary": "Sound, line and form.",
+   "lessons": [
+    {
+     "title": "Sound and rhythm",
+     "scripture": "Psalm 150:3-6; Ecclesiastes 12:10",
+     "body": "Poems are made to be **heard**. Read every draft aloud.\n\nSound tools:\n\n- **Rhyme**: matching end sounds (*grace / place*). Use it if it serves the poem; never twist meaning to force it.\n- **Alliteration**: repeated first sounds (\"the still, small sound\").\n- **Assonance**: repeated vowel sounds (\"the cold stone of the road\").\n- **Rhythm and metre**: patterns of stressed and unstressed syllables. Many hymns use a steady beat, such as Common Metre (8.6.8.6 syllables), which is why many hymn texts can be sung to several tunes.\n- **Repetition and refrain**: Psalm 136 repeats \"for his mercy endureth for ever\" in every verse.\n\nThe Preacher \"sought to find out acceptable words\" (Ecclesiastes 12:10). Choose words for their sound as well as their sense."
+    },
+    {
+     "title": "Lines and forms",
+     "scripture": "Psalm 119:1-8; Lamentations 3:22-23",
+     "body": "Where a line ends is a decision. A **line break** creates a small pause and emphasis. Ending a line on a strong word (\"fire\", \"cross\", \"home\") gives it weight.\n\nForms to try:\n\n- **Acrostic**: each line or stanza begins with the next letter. Psalm 119 does this with the Hebrew alphabet; Lamentations 1 to 4 also use it. Try your name or a word like GRACE.\n- **Quatrain**: four-line stanzas, often rhymed ABAB or ABCB. Common in hymns.\n- **Haiku-like short form**: three short lines capturing one moment (originally 5-7-5 syllables in Japanese).\n- **Free verse**: no fixed rhyme or metre, but careful rhythm, image and line breaks.\n- **Praise poem (oríkì style)**: many Nigerian cultures praise a person or God by heaping up names, deeds and titles. Psalm 145 does something similar.\n\nForm is not a cage. It is a trellis that helps the poem grow."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Why should poems be read aloud?",
+     "options": [
+      "They are made to be heard; sound matters",
+      "To memorise them",
+      "Because silent reading is wrong",
+      "To make them longer"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is alliteration?",
+     "options": [
+      "Repeated first sounds in nearby words",
+      "Rhyming end sounds",
+      "A long poem",
+      "A line break"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is an acrostic?",
+     "options": [
+      "A poem where each line or stanza begins with the next letter",
+      "A poem with no lines",
+      "A poem about animals",
+      "A poem written backwards"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does ending a line on a strong word do?",
+     "options": [
+      "Gives that word weight and emphasis",
+      "Hides it",
+      "Makes the poem rhyme",
+      "Weakens the line"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Writing and sharing your poems",
+   "summary": "Praise, lament and a small collection.",
+   "lessons": [
+    {
+     "title": "Psalms of praise and lament",
+     "scripture": "Psalm 100:1-5; Psalm 88:1-3; Psalm 30:11-12",
+     "body": "Two of the most common kinds of psalm:\n\n**Praise** (e.g. Psalm 100): a **call** to praise (\"Make a joyful noise\"), **reasons** (\"For the LORD is good\"), and often a renewed call.\n\n**Lament** (e.g. Psalm 13, Psalm 88): an **address** to God, a **complaint** (the pain), a **request** (help), often a **statement of trust**, and a **vow of praise**. Psalm 88 is unusual: it ends in darkness, reminding us that God receives even prayers that don't resolve.\n\n**Thanksgiving** (e.g. Psalm 30): tells the story of trouble and rescue: \"Thou hast turned for me my mourning into dancing\" (verse 11).\n\n**Exercise**: write a psalm of lament about something you or your community has suffered, following the five movements. Then write a psalm of praise or thanksgiving with specific reasons, not general ones."
+    },
+    {
+     "title": "Revising and sharing",
+     "scripture": "Proverbs 27:17; Psalm 45:1",
+     "body": "\"My heart is inditing a good matter... my tongue is the pen of a ready writer\" (Psalm 45:1).\n\nRevising a poem:\n\n- **Cut** extra words, especially adjectives and \"very\". Poems are concentrated.\n- **Replace abstractions** (*love, joy, pain*) with images.\n- **Check line breaks**: does each line end where it should?\n- **Read aloud** for rhythm and sound.\n- **Check theology**: is what you say about God true to Scripture?\n- **Title**: give the reader a door into the poem.\n\nSharing:\n\n- Read at a fellowship, open mic or STRONGS Writers meeting.\n- Submit to church magazines, anthologies and poetry competitions (read the rules).\n- Post on a blog or social media with a clear layout.\n- Pair a poem with a photograph or calligraphy.\n\nKeep originals dated. Credit any line you borrow, and never present someone else's poem as yours."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which is a movement in a psalm of lament?",
+     "options": [
+      "A complaint expressing the pain",
+      "A list of jokes",
+      "A recipe",
+      "A financial report"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is unusual about Psalm 88?",
+     "options": [
+      "It ends in darkness without resolution",
+      "It is the shortest psalm",
+      "It has no words",
+      "It is written by Paul"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you replace abstract words with when revising?",
+     "options": [
+      "Images",
+      "More abstract words",
+      "Capital letters",
+      "Numbers"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you do with a line you borrow from another poet?",
+     "options": [
+      "Credit it",
+      "Claim it as yours",
+      "Change one word and keep it",
+      "Hide where it came from"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "Why does biblical poetry survive translation well?",
+   "options": [
+    "It rhymes ideas through parallelism, not only sounds",
+    "It has no meaning",
+    "It is always short",
+    "It uses English rhymes"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which psalm begins 'As the hart panteth after the water brooks'?",
+   "options": [
+    "Psalm 42",
+    "Psalm 1",
+    "Psalm 150",
+    "Psalm 119"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a concrete image?",
+   "options": [
+    "My prayers fell like stones into a dry well",
+    "I felt far from God",
+    "Things were bad",
+    "I was sad"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does Common Metre (8.6.8.6) allow?",
+   "options": [
+    "Many hymn texts to be sung to several tunes",
+    "Poems without lines",
+    "Only one tune per hymn",
+    "Songs without rhythm"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is assonance?",
+   "options": [
+    "Repeated vowel sounds",
+    "Repeated first consonants",
+    "A type of metre",
+    "A refrain"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does Psalm 136 repeat after every line?",
+   "options": [
+    "For his mercy endureth for ever",
+    "Praise ye the LORD",
+    "Selah",
+    "Amen"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is a praise poem in the oríkì style?",
+   "options": [
+    "A poem heaping up names, deeds and titles to praise",
+    "A poem of complaint",
+    "A poem without names",
+    "A rhyming couplet only"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which psalm says 'Thou hast turned for me my mourning into dancing'?",
+   "options": [
+    "Psalm 30",
+    "Psalm 23",
+    "Psalm 51",
+    "Psalm 2"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why check theology when revising a poem?",
+   "options": [
+    "What we say about God should be true to Scripture",
+    "Poems don't need truth",
+    "To make it rhyme",
+    "It's not necessary"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is form compared to in this course?",
+   "options": [
+    "A trellis that helps the poem grow",
+    "A cage",
+    "A wall",
+    "A prison"
+   ],
+   "answer": 0
+  }
+ ],
+ "title": "Poetry and Psalm Writing",
+ "category": "writing",
+ "level": "Beginner",
+ "effort": "2–3 hours a week",
+ "summary": "Learn the craft of poetry from the Psalms and the great tradition, and write poems of praise, lament and witness.",
+ "about": "The Bible's songbook is poetry, and God's people have written poems ever since. This course teaches the tools of the poet (image, sound, line and form) by reading the Psalms closely and practising short exercises. You will write psalms of praise and lament, try traditional and free forms, and finish with a small collection of your own poems ready to share.",
+ "audience": "Anyone who loves words, from beginners to writers who want to try poetry, including members of the STRONGS Writers community.",
+ "prerequisites": "None. Bring a notebook and a Bible.",
+ "outcomes": [
+  "Explain Hebrew parallelism and use it in your own writing",
+  "Write concrete images instead of abstract statements",
+  "Choose between rhymed, metred and free verse for a poem's purpose",
+  "Complete a short collection of revised original poems"
+ ],
+ "assignment": {
+  "title": "Practical assignment: a collection of five poems",
+  "body": "Write and revise five original poems:\n\n1. A set of three parallel couplets (synonymous, antithetic, synthetic).\n2. A psalm of lament in five movements.\n3. A psalm of praise or thanksgiving with specific reasons.\n4. A poem in a fixed form (acrostic, quatrains or a praise poem).\n5. A free-verse poem built around one strong image from daily life.\n\nAdd a 200 to 300 word note explaining your revisions to one of the poems and how the Psalms shaped your writing."
+ },
+ "reading": [
+  "George Herbert, The Temple (1633)",
+  "C. S. Lewis, Reflections on the Psalms"
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "slug": "academic-and-research-writing",
+ "objectives": [
+  "Plan and write a well-structured academic essay with a clear thesis",
+  "Find, evaluate and synthesise scholarly sources in a literature review",
+  "Write the main sections of a research project or paper",
+  "Cite sources correctly and maintain academic integrity"
+ ],
+ "modules": [
+  {
+   "title": "The academic essay",
+   "summary": "Thesis, structure and academic style.",
+   "lessons": [
+    {
+     "title": "Thesis and structure",
+     "scripture": "Proverbs 18:15; Daniel 1:17; Ecclesiastes 12:9",
+     "body": "\"The heart of the prudent getteth knowledge; and the ear of the wise seeketh knowledge\" (Proverbs 18:15). God gave Daniel's friends \"knowledge and skill in all learning and wisdom\" (Daniel 1:17). Scholarship can be worship.\n\nAn academic essay argues a **thesis**: a clear, specific, arguable claim answering the question.\n\n- Weak: \"Climate change is a problem.\"\n- Strong: \"Rising temperatures threaten cassava yields in south-west Nigeria, so state governments should fund drought-tolerant varieties.\"\n\nStructure:\n\n1. **Introduction**: context, the question, and the thesis (often the last sentence).\n2. **Body paragraphs**: each makes one point supporting the thesis. Use **PEEL**: **P**oint, **E**vidence, **E**xplanation, **L**ink back to the thesis.\n3. **Counter-argument** where appropriate, with a response.\n4. **Conclusion**: restate the thesis in light of the evidence, show significance, and note limitations or further questions. No new evidence.\n\n**Always answer the question asked.** Underline the command words: *discuss, compare, evaluate, analyse, explain*."
+    },
+    {
+     "title": "Academic style",
+     "scripture": "Ecclesiastes 12:10; Proverbs 17:27",
+     "body": "\"He that hath knowledge spareth his words\" (Proverbs 17:27). Academic style is **precise, formal and objective**, but it should still be clear.\n\n- **Formal tone**: avoid slang, contractions (*don't*) and exclamation marks.\n- **Precise words**: \"The data suggest...\" not \"It's obvious that...\"\n- **Hedging** where evidence is limited: *may, suggests, appears, is likely*.\n- **Third person** is common, though many fields now accept \"I\" or \"we\" for describing what you did. Follow your department's guidance.\n- **Define key terms** the first time you use them.\n- **Avoid long, tangled sentences**; clarity is a virtue.\n- **Paragraphs** of four to eight sentences, each with a topic sentence.\n- **Signposting**: \"This section examines...\", \"In contrast...\", \"Therefore...\"\n\nRead good articles in your field and notice how they sound."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which is a strong thesis statement?",
+     "options": [
+      "Rising temperatures threaten cassava yields in south-west Nigeria, so states should fund drought-tolerant varieties",
+      "Climate change is a problem",
+      "This essay is about climate",
+      "Many things happen in agriculture"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does PEEL stand for?",
+     "options": [
+      "Point, Evidence, Explanation, Link",
+      "Plan, Edit, Explain, Leave",
+      "Paragraph, Example, Essay, Language",
+      "Present, Evaluate, End, List"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should a conclusion NOT include?",
+     "options": [
+      "New evidence",
+      "A restatement of the thesis",
+      "Significance",
+      "Limitations"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is hedging in academic writing?",
+     "options": [
+      "Using words like 'may' or 'suggests' where evidence is limited",
+      "Avoiding the question",
+      "Using slang",
+      "Writing in capitals"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Sources and literature review",
+   "summary": "Reading, using and synthesising scholarship.",
+   "lessons": [
+    {
+     "title": "Finding and using sources",
+     "scripture": "Acts 17:11; Luke 1:1-3; Proverbs 18:17",
+     "body": "The Bereans \"searched the scriptures daily, whether those things were so\" (Acts 17:11). Luke drew on eyewitness accounts and wrote \"having had perfect understanding of all things from the very first\" (Luke 1:3).\n\n**Scholarly sources**: peer-reviewed journal articles, academic books, theses, and official reports. Find them on Google Scholar, your library's databases, AJOL (African Journals Online), and repositories.\n\nUsing sources:\n\n- **Quote** sparingly: exact words in quotation marks with page number. Use when the wording itself matters.\n- **Paraphrase**: restate in your own words and structure, with a citation.\n- **Summarise**: give the main idea briefly, with a citation.\n- **Take good notes**: record full reference details and page numbers as you read.\n- Use a **reference manager** (Zotero, Mendeley) to store and cite sources.\n\nEvaluate each source: Who wrote it? Is it peer-reviewed? How recent? What evidence does it use?"
+    },
+    {
+     "title": "Writing a literature review",
+     "scripture": "Proverbs 15:22; Ecclesiastes 1:9-10",
+     "body": "A **literature review** surveys what is already known about your topic and shows where your study fits. \"Is there any thing whereof it may be said, See, this is new? it hath been already of old time\" (Ecclesiastes 1:10): reviewing the literature stops us reinventing the wheel and shows us the real gap.\n\nA good literature review:\n\n- Is **organised by themes or debates**, not just a list of summaries (\"Smith says... Jones says...\").\n- **Synthesises**: shows where sources agree, disagree, and build on each other.\n- **Evaluates**: notes strengths and weaknesses of studies (sample size, method, context).\n- **Identifies the gap**: what is unknown, unclear or unstudied, especially in your context (e.g. Nigerian or West African settings).\n- **Leads to your research question**.\n\nUse a **synthesis matrix**: a table with sources in rows and themes in columns. It reveals patterns and helps you write by theme."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which is a scholarly source?",
+     "options": [
+      "A peer-reviewed journal article",
+      "A random blog post",
+      "A forwarded WhatsApp message",
+      "An advertisement"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "When should you quote directly?",
+     "options": [
+      "When the exact wording matters",
+      "Always, for every point",
+      "Never",
+      "Only for statistics"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How should a literature review be organised?",
+     "options": [
+      "By themes or debates, synthesising sources",
+      "As a list of summaries one after another",
+      "Alphabetically by author",
+      "Randomly"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is the purpose of identifying a gap in the literature?",
+     "options": [
+      "To show what is unknown and lead to your research question",
+      "To criticise other scholars",
+      "To make the review longer",
+      "To avoid citing sources"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Research reports and integrity",
+   "summary": "Project chapters, citation and honesty.",
+   "lessons": [
+    {
+     "title": "Writing a research report",
+     "scripture": "Luke 14:28-30; Proverbs 21:5",
+     "body": "Many research projects and papers follow the **IMRaD** structure:\n\n- **Introduction**: background, problem statement, aims, objectives and research questions, significance.\n- **Literature review** (often a separate chapter in projects and theses).\n- **Methods (Methodology)**: design, population and sample, instruments, procedure, data analysis and ethics. Write it so another researcher could repeat the study.\n- **Results**: what you found, using tables and figures, without interpretation.\n- **Discussion**: what the results mean, how they compare with previous studies, limitations, and implications.\n- **Conclusion and recommendations**.\n- **References** and **appendices** (questionnaires, consent forms).\n\nNigerian undergraduate projects often use five chapters (introduction, literature review, methodology, results, discussion/summary). Always follow your department's **guidelines and template**.\n\nWrite the **abstract** last: a 150 to 300 word summary of purpose, methods, key results and conclusion."
+    },
+    {
+     "title": "Citation and academic integrity",
+     "scripture": "Exodus 20:15-16; Proverbs 11:1; Colossians 3:23",
+     "body": "Academic integrity is honesty in scholarship. Plagiarism, fabricated data and buying assignments are theft and lying (Exodus 20:15-16). \"A false balance is abomination to the LORD\" (Proverbs 11:1).\n\n**Citation styles**: APA (common in social sciences and education), Harvard, MLA (humanities), Chicago, Vancouver (medicine). Use the one your department requires, consistently.\n\nAPA 7 examples:\n\n- In text: (Adeyemi, 2021) or Adeyemi (2021) found...\n- Reference list: Adeyemi, T. (2021). *Youth unemployment in Nigeria*. University Press.\n- Journal article: Okafor, C., & Bello, A. (2020). Title of article. *Journal Name, 12*(3), 45–60. https://doi.org/...\n\nIntegrity rules:\n\n- Cite **every** source of words, ideas, data and images.\n- **Never fabricate** or alter data.\n- Get **ethical approval** and **informed consent** for research with people.\n- Follow your institution's rules on **AI tools**; disclose use when required; never submit AI-generated text as your own original work.\n- Run your work through **similarity checks** when available, and fix any problems honestly."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What does IMRaD stand for?",
+     "options": [
+      "Introduction, Methods, Results and Discussion",
+      "Ideas, Models, Reviews and Data",
+      "Introduction, Materials, References and Data",
+      "Information, Method, Reading and Drafting"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Where should results be interpreted?",
+     "options": [
+      "In the discussion",
+      "In the results section only",
+      "In the abstract only",
+      "Nowhere"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "When should the abstract usually be written?",
+     "options": [
+      "Last",
+      "First",
+      "Never",
+      "Before the research starts"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which is a breach of academic integrity?",
+     "options": [
+      "Fabricating data",
+      "Citing sources",
+      "Getting ethical approval",
+      "Using a reference manager"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "How can scholarship be worship?",
+   "options": [
+    "It uses God-given knowledge and skill with diligence and honesty",
+    "It replaces prayer",
+    "It is unrelated to God",
+    "Only theology can be worship"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should you underline in an essay question?",
+   "options": [
+    "The command words, such as discuss or evaluate",
+    "Every word",
+    "Nothing",
+    "Only the date"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is appropriate academic style?",
+   "options": [
+    "The data suggest that...",
+    "It's totally obvious that...",
+    "Everyone knows that...",
+    "Wow, this is amazing!"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is paraphrasing?",
+   "options": [
+    "Restating a source in your own words and structure, with a citation",
+    "Copying it exactly without quotation marks",
+    "Changing one or two words",
+    "Ignoring the source"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is AJOL?",
+   "options": [
+    "African Journals Online",
+    "A citation style",
+    "A university",
+    "A grammar rule"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does a synthesis matrix help you do?",
+   "options": [
+    "See patterns across sources and write by theme",
+    "Calculate statistics",
+    "Replace reading",
+    "Format references"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should the methods section allow?",
+   "options": [
+    "Another researcher to repeat the study",
+    "Readers to skip the study",
+    "The results to be hidden",
+    "The author to give opinions"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which citation style is common in social sciences and education?",
+   "options": [
+    "APA",
+    "Vancouver",
+    "None",
+    "Bible style"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is required for research with people?",
+   "options": [
+    "Ethical approval and informed consent",
+    "Nothing",
+    "Payment only",
+    "A large sample always"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How should AI tools be used in academic work?",
+   "options": [
+    "According to your institution's rules, disclosed when required, never as your own original text",
+    "Freely, without disclosure",
+    "To fabricate sources",
+    "To write the whole thesis secretly"
+   ],
+   "answer": 0
+  }
+ ],
+ "title": "Academic and Research Writing",
+ "category": "writing",
+ "level": "Intermediate",
+ "effort": "3–4 hours a week",
+ "summary": "Write strong essays, project reports and research papers: clear arguments, honest sources and correct academic style.",
+ "about": "Many students struggle not with ideas but with academic writing: structuring an essay, reviewing literature, writing a project or thesis chapter, citing sources and avoiding plagiarism. This course teaches the conventions of academic writing step by step, with practical help for undergraduate and postgraduate students in Nigerian and international institutions.",
+ "audience": "Secondary school leavers, undergraduates, postgraduate students and anyone writing reports or research.",
+ "prerequisites": "Digital Skills for Students is helpful.",
+ "outcomes": [
+  "Write a thesis statement and an essay outline",
+  "Summarise, paraphrase and synthesise sources accurately",
+  "Draft introduction, methods, results and discussion sections",
+  "Format references in APA or Harvard style"
+ ],
+ "assignment": {
+  "title": "Practical assignment: an essay and a mini literature review",
+  "body": "Choose a topic in your field of study.\n\n1. Write a 1,500 to 2,000 word argumentative essay with a clear thesis, PEEL paragraphs, a counter-argument, and at least six scholarly sources cited in APA or Harvard style.\n2. Write a 600 to 900 word mini literature review on the same topic, organised by themes, ending with a research gap and a possible research question.\n3. Attach your synthesis matrix and a 150-word note on how you ensured academic integrity."
+ },
+ "reading": [
+  "Wayne C. Booth, Gregory G. Colomb and Joseph M. Williams, The Craft of Research",
+  "Publication Manual of the American Psychological Association (7th edition)"
+ ]
+}

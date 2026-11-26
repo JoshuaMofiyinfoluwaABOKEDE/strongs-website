@@ -8,8 +8,8 @@ export async function LearnBar() {
   const user = hasDatabase ? await getUser().catch(() => null) : null;
   return (
     <div className="border-b border-line bg-mist">
-      <div className="container-site flex min-h-12 flex-wrap items-center gap-x-5 gap-y-1 py-2 text-sm">
-        <Link href="/courses/" className="font-semibold text-navy no-underline">STRONGS Courses</Link>
+      <div className="container-site flex min-h-12 items-center gap-x-4 py-2 text-sm sm:gap-x-5">
+        <Link href="/courses/" className="whitespace-nowrap font-semibold text-navy no-underline">STRONGS Courses</Link>
         <span className="flex-1" />
         {user ? (
           <>
@@ -24,7 +24,7 @@ export async function LearnBar() {
         ) : hasDatabase ? (
           <>
             <Link href="/sign-in/" className="font-semibold no-underline">Sign in</Link>
-            <Link href="/sign-up/" className="btn btn-navy min-h-9 px-4 text-sm">Create a free account</Link>
+            <Link href="/sign-up/" className="btn btn-navy min-h-9 whitespace-nowrap px-4 text-sm"><span className="sm:hidden">Sign up</span><span className="hidden sm:inline">Create a free account</span></Link>
           </>
         ) : null}
       </div>

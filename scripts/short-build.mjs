@@ -28,7 +28,7 @@ for (const file of fs.readdirSync(src).filter((f) => f.endsWith(".md"))) {
     if ((m = line.match(/^@(\w+)\s*(.*)$/))) {
       flush(); const [, k, v] = m;
       if (["objectives", "outcomes", "reading"].includes(k)) { mode = "list"; list = c[k] = c[k]?.length ? c[k] : []; }
-      else if (k === "about") mode = "about";
+      else if (k === "about") { mode = "about"; if (v) buf.push(v); }
       else if (k === "final") { mode = "quiz"; qs = c.final; }
       else if (k === "assignment") { mode = "assignment"; c.assignment = { title: v, body: "" }; }
       else if (k === "featured") c.featured = true;

@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { mainNav } from "@/content/site";
 import { Menu } from "@/components/icons";
-import { BackButton } from "@/components/NavGuard";
 
 /** True when the current page belongs to this menu item (e.g. /crusades/this-same-jesus/ → Crusades). */
 function isActive(pathname: string, href: string) {
@@ -20,7 +19,6 @@ export function Header() {
     <header className="sticky top-0 z-30 border-b border-line bg-white">
       <div className="mx-auto flex w-full max-w-[82.5rem] items-center justify-between gap-6 px-[clamp(1.25rem,4vw,3rem)] py-3">
         <div className="flex min-w-0 items-center gap-2.5">
-        {pathname !== "/" && <BackButton className="xl:hidden" />}
         <Link href="/" aria-label="STRONGS home" className="flex items-center gap-3 no-underline">
           <img src="/images/strongs-logo.webp" alt="" width={52} height={52} className="h-12 w-12 lg:h-[3.25rem] lg:w-[3.25rem]" />
           <span className="flex flex-col leading-tight">

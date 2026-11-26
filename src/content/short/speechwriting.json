@@ -1,0 +1,309 @@
+{
+ "slug": "speechwriting",
+ "objectives": [
+  "Analyse the occasion, audience and purpose of a speech",
+  "Structure a speech with a strong opening, clear body and memorable close",
+  "Write for the ear using rhythm, repetition and rhetorical devices",
+  "Write occasion speeches and draft in another person's voice"
+ ],
+ "modules": [
+  {
+   "title": "Occasion and message",
+   "summary": "What every speech needs before a word is written.",
+   "lessons": [
+    {
+     "title": "Occasion, audience, purpose",
+     "scripture": "Ecclesiastes 3:1-7; Proverbs 15:23",
+     "body": "\"To every thing there is a season... a time to keep silence, and a time to speak\" (Ecclesiastes 3:1, 7). \"A word spoken in due season, how good is it!\" (Proverbs 15:23).\n\nBefore writing, answer the **speech brief**:\n\n- **Occasion**: graduation, wedding, funeral, launch, award, church anniversary, conference opening?\n- **Audience**: who will be there? How many? What do they know, feel and expect?\n- **Purpose**: to inform, inspire, honour, persuade, welcome, thank, comfort?\n- **Time**: how long exactly? (About 130 to 150 spoken words per minute; a five-minute speech is roughly 650 to 750 words.)\n- **Setting**: indoors or outdoors, microphone, protocol, who speaks before and after?\n- **Speaker**: you or someone else? Their style, position and relationship to the audience.\n\nA beautiful speech at the wrong length or wrong tone fails. A simple speech that fits the moment succeeds."
+    },
+    {
+     "title": "One central message",
+     "scripture": "Acts 2:36; Joshua 24:14-15",
+     "body": "Peter's Pentecost speech built to one sentence: \"God hath made that same Jesus, whom ye have crucified, both Lord and Christ\" (Acts 2:36). Joshua's farewell built to one choice: \"choose you this day whom ye will serve\" (Joshua 24:15).\n\nWrite your **central message** in one sentence: \"Graduates, your degree is a tool; your character will decide what you build with it.\"\n\nThen choose **two or three supporting points**, each with a story, example or fact.\n\nListeners can't re-read, so:\n\n- **Say what you'll say, say it, then say what you said** (in fresh words).\n- **Signpost**: \"Let me share three things...\", \"The second thing is...\"\n- **Fewer ideas, more depth**: one memorable message beats ten forgotten ones."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "About how many words are spoken per minute in a speech?",
+     "options": [
+      "130 to 150",
+      "20 to 30",
+      "500 to 600",
+      "1,000"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a speech brief?",
+     "options": [
+      "Answers about the occasion, audience, purpose, time, setting and speaker",
+      "A short speech",
+      "The speaker's clothing",
+      "The microphone check"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How many supporting points should most speeches have?",
+     "options": [
+      "Two or three",
+      "Twelve",
+      "None",
+      "As many as possible"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why signpost in a speech?",
+     "options": [
+      "Listeners can't re-read, so they need guidance",
+      "To make it longer",
+      "Signposts are for roads only",
+      "To confuse the audience"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Structure and style",
+   "summary": "Writing for the ear.",
+   "lessons": [
+    {
+     "title": "Openings and closings",
+     "scripture": "Acts 17:22-23; Ecclesiastes 12:13-14",
+     "body": "**Openings** (first 30 to 60 seconds) must win attention:\n\n- A short **story** or personal moment.\n- A **question** to the audience.\n- A striking **fact** or image.\n- A **quotation** (brief, credited) or a Bible verse.\n- A gracious **acknowledgement** of the occasion.\n\nPaul in Athens opened by noticing their altar (Acts 17:23): he started where his audience was.\n\n**Protocol**: in many Nigerian settings, speeches begin by recognising dignitaries. Keep it brief and correct (\"The Vice-Chancellor, distinguished guests, graduands, ladies and gentlemen\"), then move quickly to your opening.\n\n**Closings** are remembered most:\n\n- Return to the opening story or image.\n- Restate the central message memorably.\n- End with a call, a blessing, a toast or a short powerful line.\n\nEcclesiastes ends: \"Let us hear the conclusion of the whole matter: Fear God, and keep his commandments\" (12:13). Know your last line before you start writing."
+    },
+    {
+     "title": "Writing for the ear",
+     "scripture": "Psalm 136:1-9; Isaiah 40:1-9; Matthew 5:3-11",
+     "body": "Speeches are heard once, so write for the ear:\n\n- **Short sentences** and simple words.\n- **Concrete images**, not abstractions.\n- **Rhythm**: vary sentence length; read aloud as you write.\n- **Personal words**: \"you\", \"we\", \"us\".\n- **Rhetorical devices**:\n  - **Repetition (anaphora)**: repeating the opening of phrases. The Beatitudes repeat \"Blessed are...\" (Matthew 5:3-11).\n  - **Refrain**: Psalm 136 repeats \"for his mercy endureth for ever\".\n  - **Triads (rule of three)**: \"faith, hope, charity\" (1 Corinthians 13:13).\n  - **Contrast (antithesis)**: \"not as a servant, but... a brother beloved\" (Philemon 1:16).\n  - **Rhetorical questions**: \"Who shall separate us from the love of Christ?\" (Romans 8:35).\n  - **Vivid imagery**: \"Every valley shall be exalted, and every mountain and hill shall be made low\" (Isaiah 40:4).\n\nMark pauses in the script with a slash (/) and underline words to stress."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Why should you know your last line before writing?",
+     "options": [
+      "Closings are remembered most and guide the whole speech",
+      "It saves paper",
+      "Speeches have no endings",
+      "To end early"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How should protocol be handled in Nigerian settings?",
+     "options": [
+      "Briefly and correctly, then move quickly to the opening",
+      "Skip it entirely",
+      "Make it the longest part",
+      "Recognise only friends"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which device is used in the Beatitudes?",
+     "options": [
+      "Repetition (anaphora) of 'Blessed are...'",
+      "Rhetorical question",
+      "Silence",
+      "Footnotes"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is the rule of three?",
+     "options": [
+      "Grouping ideas in threes for rhythm and memory",
+      "Speaking for three hours",
+      "Using three microphones",
+      "Three speakers at once"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Occasions and other voices",
+   "summary": "Special speeches and ghostwriting.",
+   "lessons": [
+    {
+     "title": "Occasion speeches",
+     "scripture": "Romans 12:15; 2 Samuel 1:17-27; John 2:1-11",
+     "body": "\"Rejoice with them that do rejoice, and weep with them that weep\" (Romans 12:15). Different occasions need different tones.\n\n- **Welcome address**: greet, honour guests, state the purpose of the gathering, set the tone (3 to 5 minutes).\n- **Vote of thanks**: thank specific people and groups accurately and warmly; be brief (2 to 3 minutes). Check names and titles.\n- **Graduation or valedictory speech**: memories, gratitude, a central challenge for the future. Avoid inside jokes that exclude.\n- **Wedding toast**: a short story about the couple, warmth, a blessing or toast. Never embarrass the couple.\n- **Eulogy or tribute**: honour the person's life with specific stories and qualities, comfort the grieving, and point to Christian hope where appropriate. David's lament for Saul and Jonathan (2 Samuel 1:17-27) honours even a flawed king.\n- **Award acceptance**: thank, give God glory, share the credit; keep it short.\n\nRespect time limits. Overrunning is the most common complaint about speeches."
+    },
+    {
+     "title": "Writing for someone else",
+     "scripture": "2 Samuel 12:1-7; Proverbs 25:11; Romans 16:22",
+     "body": "Tertius wrote down Paul's letter to the Romans and greeted the readers himself: \"I Tertius, who wrote this epistle, salute you in the Lord\" (Romans 16:22). Writing for others is an old and honourable service.\n\nWhen drafting for a leader (pastor, principal, executive):\n\n- **Interview them**: what do they want to say? What stories do they tell? What phrases do they use?\n- **Listen to their voice**: recordings of past speeches. Match their vocabulary and rhythm.\n- **Respect their convictions**: never put words in their mouth they wouldn't believe or say.\n- **Check every fact**, name and title. They'll be blamed for errors.\n- **Format for delivery**: large font (14 to 16 point), double-spaced, short paragraphs, page numbers, pauses marked, names spelled phonetically if needed.\n- **Rehearse** with them if possible; adjust what doesn't sound natural.\n- **Confidentiality**: the speech is theirs. Don't claim credit unless agreed."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which speech should be brief and accurate with names and titles?",
+     "options": [
+      "A vote of thanks",
+      "A three-hour lecture",
+      "An unplanned rant",
+      "A novel"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should a wedding toast never do?",
+     "options": [
+      "Embarrass the couple",
+      "Share a warm story",
+      "Offer a blessing",
+      "Be short"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is the most common complaint about speeches?",
+     "options": [
+      "Overrunning the time",
+      "Being too short",
+      "Having a clear message",
+      "Using stories"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you do first when writing for a leader?",
+     "options": [
+      "Interview them about what they want to say",
+      "Write whatever you like",
+      "Copy someone else's speech",
+      "Avoid talking to them"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "What does Ecclesiastes 3:7 say?",
+   "options": [
+    "There is a time to keep silence and a time to speak",
+    "Always speak",
+    "Never speak",
+    "Speak only at night"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How long is a five-minute speech in words, roughly?",
+   "options": [
+    "650 to 750 words",
+    "100 words",
+    "2,000 words",
+    "5,000 words"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What was the one central point of Peter's Pentecost speech?",
+   "options": [
+    "God has made Jesus both Lord and Christ",
+    "The weather",
+    "The history of Rome",
+    "The temple's beauty"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a good opening technique?",
+   "options": [
+    "A short story or a question to the audience",
+    "A long apology",
+    "Reading the programme",
+    "Silence for five minutes"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why use short sentences in speeches?",
+   "options": [
+    "Listeners hear them once and need clarity",
+    "They are easier to type",
+    "Long sentences are illegal",
+    "To save ink"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a rhetorical question?",
+   "options": [
+    "Who shall separate us from the love of Christ?",
+    "Please sit down.",
+    "The meeting starts at 4pm.",
+    "Thank you all."
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How should a eulogy honour the person?",
+   "options": [
+    "With specific stories and qualities, comforting the grieving",
+    "With gossip",
+    "With general statements only",
+    "By criticising the family"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How did Tertius serve Paul?",
+   "options": [
+    "He wrote down the letter to the Romans",
+    "He preached for Paul",
+    "He replaced Paul",
+    "He refused to write"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "When writing for someone else, what must you respect?",
+   "options": [
+    "Their convictions and voice",
+    "Only your own style",
+    "Nothing",
+    "The audience's demands only"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which formatting helps a speaker deliver a script?",
+   "options": [
+    "Large font, double spacing and marked pauses",
+    "Tiny font in one long paragraph",
+    "No page numbers",
+    "Handwritten notes only"
+   ],
+   "answer": 0
+  }
+ ],
+ "title": "Speechwriting",
+ "category": "writing",
+ "level": "Intermediate",
+ "effort": "2–3 hours a week",
+ "summary": "Write speeches that sound natural, hold attention and move listeners, for yourself or for someone else to deliver.",
+ "about": "Speeches are written for the ear, not the eye. This course teaches how to write addresses, welcome speeches, toasts, valedictory speeches, eulogies and short talks: knowing the occasion and audience, structuring the message, writing in a speakable style, using rhetorical devices, and writing in someone else's voice when you draft for a leader.",
+ "audience": "Student leaders, ministry leaders, executives' assistants, writers and anyone asked to speak or write for a speaker.",
+ "prerequisites": "None. Public Speaking and Preaching is a helpful companion course.",
+ "outcomes": [
+  "Write a speech brief for any occasion",
+  "Outline a speech around one central message",
+  "Use at least five rhetorical devices appropriately",
+  "Draft and rehearse a five-minute occasion speech"
+ ],
+ "assignment": {
+  "title": "Practical assignment: an occasion speech",
+  "body": "Choose a real or likely occasion (a graduation, church anniversary, welcome address, tribute or award). Hand in:\n\n1. A completed speech brief.\n2. A full speech script of 600 to 800 words (about five minutes), formatted for delivery with pauses and emphasis marked.\n3. A list of at least five rhetorical devices you used, with examples from your script.\n4. A recording of you (or the intended speaker) delivering it, and a 150-word reflection on what you changed after hearing it aloud."
+ },
+ "reading": [
+  "Peggy Noonan, On Speaking Well",
+  "Sam Leith, You Talkin' to Me? Rhetoric from Aristotle to Obama"
+ ]
+}

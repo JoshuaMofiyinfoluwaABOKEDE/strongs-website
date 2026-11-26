@@ -1,0 +1,309 @@
+{
+ "slug": "creative-nonfiction-and-memoir",
+ "objectives": [
+  "Understand the difference between memoir, personal essay and autobiography",
+  "Use scene, detail and reflection to tell true stories",
+  "Write about real people with honesty, fairness and care",
+  "Shape a memoir piece or personal essay for publication"
+ ],
+ "modules": [
+  {
+   "title": "True stories, well told",
+   "summary": "What creative nonfiction is.",
+   "lessons": [
+    {
+     "title": "Memoir, essay and testimony",
+     "scripture": "Deuteronomy 8:2; Psalm 78:1-7; Galatians 1:11-24",
+     "body": "\"Thou shalt remember all the way which the LORD thy God led thee these forty years in the wilderness\" (Deuteronomy 8:2). Remembering is a spiritual practice. Psalm 78 retells Israel's history \"that the generation to come might know them\" (verse 6). Paul writes his own story in Galatians 1:11-24: his zeal, his conversion, his years in Arabia, his visits to Jerusalem.\n\nForms of creative nonfiction:\n\n- **Memoir**: a true story from part of a life, focused on a theme (a season of illness, growing up in a village, a call to ministry). Not your whole life.\n- **Autobiography**: a whole-life account, usually chronological.\n- **Personal essay**: a shorter piece that explores an idea through experience (\"What my grandmother's farm taught me about waiting\").\n- **Testimony**: a story of God's work in a life, usually shorter and more direct.\n- **Literary journalism**: true stories about others, reported with care.\n\nAll share one rule: **it must be true**."
+    },
+    {
+     "title": "Finding your stories",
+     "scripture": "Psalm 77:11-12; Mark 5:19",
+     "body": "\"I will remember the works of the LORD: surely I will remember thy wonders of old. I will meditate also of all thy work\" (Psalm 77:11-12).\n\nExercises for finding stories:\n\n- **Memory map**: draw the house, street or village you grew up in. Mark places where things happened. Each mark is a story.\n- **Turning points**: list ten moments that changed you (a loss, a move, a conversation, a failure, a conversion).\n- **Objects**: a photograph, a Bible, a letter, a piece of cloth. What stories do they hold?\n- **People**: who shaped you, for good or ill?\n- **Questions**: what do you still not understand about your past?\n\nThe best stories often carry a **tension**: something you struggled with, wondered about, or had to learn. A story where everything was easy rarely moves readers.\n\nJesus told the healed man to \"tell them how great things the Lord hath done for thee\" (Mark 5:19). Your ordinary story may be extraordinary to someone else."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is a memoir?",
+     "options": [
+      "A true story from part of a life, focused on a theme",
+      "A whole-life account from birth",
+      "A fictional novel",
+      "A news report"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is the one rule all creative nonfiction shares?",
+     "options": [
+      "It must be true",
+      "It must be long",
+      "It must be sad",
+      "It must rhyme"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a memory map?",
+     "options": [
+      "A drawing of a place from your past, marking where stories happened",
+      "A road map",
+      "A list of dates",
+      "A family tree only"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What do the best stories often carry?",
+     "options": [
+      "A tension or struggle",
+      "No problems at all",
+      "Only good news",
+      "Many characters"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "The craft",
+   "summary": "Scene, detail, voice and reflection.",
+   "lessons": [
+    {
+     "title": "Scene and detail",
+     "scripture": "2 Samuel 18:24-33; John 20:1-8",
+     "body": "The Bible is full of vivid scenes. David waiting at the gate for news of Absalom, the watchman calling out runners, and his cry, \"O my son Absalom... would God I had died for thee\" (2 Samuel 18:33). John running to the tomb, outrunning Peter, stooping to see \"the linen clothes lying\", and the napkin \"wrapped together in a place by itself\" (John 20:4-7). The details make us believe.\n\nScene-writing tools:\n\n- **Place and time**: where exactly? What season, what hour?\n- **Senses**: what did you see, hear, smell, taste, touch? (The smell of kerosene, the sound of rain on zinc.)\n- **Action**: what happened, moment by moment?\n- **Dialogue**: what was said? Use memory honestly; if you aren't sure of exact words, signal it (\"My father said something like...\").\n- **Specific details**: not \"a car\" but \"my uncle's dented blue Peugeot 504\".\n\nAlternate **scene** (showing a moment) with **summary** (covering time quickly)."
+    },
+    {
+     "title": "Voice and reflection",
+     "scripture": "Ecclesiastes 1:12-14; Psalm 73:16-17",
+     "body": "Memoir has two narrators: the **younger you** who lived it, and the **present you** who understands it now. Ecclesiastes is full of reflection: \"I gave my heart to seek and search out by wisdom\" (1:13). In Psalm 73 the writer describes envying the wicked until \"I went into the sanctuary of God; then understood I their end\" (73:17). The story moves from experience to insight.\n\n**Reflection** is where meaning happens:\n\n- What did I believe then? What do I see now?\n- What did this teach me about God, myself or others?\n- What questions remain?\n\nBalance: too much reflection and the story disappears; too little and it's just events.\n\n**Voice** is the sound of you on the page: your vocabulary, humour, rhythm, honesty. Write the way you think when you are being most honest. Don't try to sound impressive.\n\nAvoid **preaching** the lesson. Trust the reader. A brief, honest reflection is stronger than a long moral."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which detail is more specific?",
+     "options": [
+      "My uncle's dented blue Peugeot 504",
+      "A car",
+      "A vehicle",
+      "Transport"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should you do if you aren't sure of exact words remembered in dialogue?",
+     "options": [
+      "Signal it honestly, e.g. 'something like...'",
+      "Invent exact quotes confidently",
+      "Leave out all dialogue always",
+      "Make it more dramatic"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What are the two narrators of memoir?",
+     "options": [
+      "The younger you who lived it and the present you who understands it",
+      "The author and the publisher",
+      "Two different people",
+      "The reader and the writer"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Where does meaning happen in memoir?",
+     "options": [
+      "In reflection",
+      "In the title only",
+      "In the page numbers",
+      "In the dedication"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Ethics and shaping",
+   "summary": "Writing about real people, and finishing the piece.",
+   "lessons": [
+    {
+     "title": "Writing about real people",
+     "scripture": "Exodus 20:16; Ephesians 4:15; Proverbs 10:12",
+     "body": "Memoir always involves others: parents, siblings, friends, pastors, enemies. \"Thou shalt not bear false witness against thy neighbour\" (Exodus 20:16). \"Speaking the truth in love\" (Ephesians 4:15). \"Love covereth all sins\" (Proverbs 10:12).\n\nGuidelines:\n\n- **Tell the truth**, but you don't have to tell everything. Ask: is this detail necessary for the story?\n- **Be fair**: show people's complexity, including their good sides. Avoid writing to settle scores.\n- **Write about yourself most harshly**: your own faults belong in the story.\n- **Protect the vulnerable**: children, victims, people who could be harmed.\n- **Change names and identifying details** where needed, and say so in a note.\n- **Consider showing** sensitive passages to the people involved before publishing.\n- **Don't invent** composite characters, events or dialogue and present them as fact. If you compress time, say so.\n\nBefore publishing, pray and ask: does this honour God and love my neighbour?"
+    },
+    {
+     "title": "Shaping and publishing",
+     "scripture": "Habakkuk 2:2; Psalm 102:18",
+     "body": "\"This shall be written for the generation to come\" (Psalm 102:18).\n\nShaping a piece:\n\n- **Find the theme**: what is this story really about? (Not \"my father's farm\" but \"learning to trust slow growth\".)\n- **Choose a structure**: chronological, braided (two timelines woven together), or circular (ending where it began, changed).\n- **Start in a scene**, not with background.\n- **Cut** what doesn't serve the theme, even if it's true and interesting.\n- **End with resonance**: a final image or quiet insight, not a sermon.\n\nPublishing options:\n\n- Magazines and literary journals that publish personal essays (read their guidelines).\n- Church and ministry magazines; anthologies; writing competitions.\n- Your blog or a newsletter.\n- A full memoir manuscript, if your story warrants a book (see Book Writing and Self-Publishing).\n\nKeep a **journal**. Today's notes are tomorrow's memoir."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which principle guides writing about others in memoir?",
+     "options": [
+      "Tell the truth in love, and you don't have to tell everything",
+      "Expose everything about everyone",
+      "Write to settle scores",
+      "Invent details to make it dramatic"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Whose faults should a memoirist write about most honestly?",
+     "options": [
+      "Their own",
+      "Their parents' only",
+      "Their enemies' only",
+      "No one's"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a braided structure?",
+     "options": [
+      "Two timelines woven together",
+      "A story without structure",
+      "A list of dates",
+      "A poem"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How should a memoir piece end?",
+     "options": [
+      "With a resonant image or quiet insight, not a sermon",
+      "With a long moral lecture",
+      "Abruptly with no conclusion",
+      "With a list of thanks"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "Why is remembering a spiritual practice?",
+   "options": [
+    "God told His people to remember the way He led them",
+    "It isn't spiritual",
+    "Only historians remember",
+    "It replaces prayer"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is a personal essay?",
+   "options": [
+    "A shorter piece exploring an idea through experience",
+    "A whole-life biography",
+    "A sermon",
+    "A fictional story"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which exercise helps find stories?",
+   "options": [
+    "Listing turning points in your life",
+    "Copying someone else's story",
+    "Waiting for inspiration",
+    "Avoiding your past"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which tool helps write a vivid scene?",
+   "options": [
+    "Sensory details: sight, sound, smell, touch, taste",
+    "Only summaries",
+    "Abstract words",
+    "Long lists of dates"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why alternate scene and summary?",
+   "options": [
+    "Scenes show key moments; summary covers time quickly",
+    "To confuse readers",
+    "Summary is always better",
+    "Scenes are unnecessary"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is voice in memoir?",
+   "options": [
+    "The sound of you on the page",
+    "The volume of reading aloud",
+    "A recording",
+    "The publisher's style"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why should you avoid preaching the lesson in memoir?",
+   "options": [
+    "A brief honest reflection trusts the reader and is stronger",
+    "Lessons are never allowed",
+    "Readers dislike God",
+    "It makes the piece too short"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should you do if you compress time in a true story?",
+   "options": [
+    "Say so",
+    "Hide it",
+    "Invent extra events",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does Exodus 20:16 mean for memoir writers?",
+   "options": [
+    "Don't bear false witness about others",
+    "Don't write about anyone",
+    "Only write about yourself",
+    "Write anything if it's true to you"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Where should a memoir piece usually start?",
+   "options": [
+    "In a scene, not with background",
+    "With a long family history",
+    "With an apology",
+    "With the ending"
+   ],
+   "answer": 0
+  }
+ ],
+ "title": "Creative Nonfiction and Memoir",
+ "category": "writing",
+ "level": "Intermediate",
+ "effort": "3 hours a week",
+ "summary": "Write true stories from life, including memoir, personal essays and testimonies, with the craft of fiction and the honesty of fact.",
+ "about": "Creative nonfiction tells true stories using the tools of fiction: scene, character, voice and structure. Memoir and the personal essay turn experience into meaning. This course helps you find your stories, shape them, write about family and community with honesty and care, and reflect on God's work in your life without exaggeration or exposure.",
+ "audience": "Writers who want to tell their own stories or the stories of their families, churches and communities.",
+ "prerequisites": "Christian Writing Foundations or Storytelling and Testimony Writing is recommended.",
+ "outcomes": [
+  "Generate a list of personal stories worth telling",
+  "Write scenes with sensory detail and dialogue from memory, truthfully",
+  "Balance narration and reflection in a personal essay",
+  "Revise a 1,500 to 2,500 word piece ready for submission"
+ ],
+ "assignment": {
+  "title": "Practical assignment: a personal essay or memoir piece",
+  "body": "Write a personal essay or memoir chapter of 1,500 to 2,500 words about a real experience. It should include at least two fully written scenes with sensory detail, honest reflection, and a clear theme.\n\nAdd a 250 to 400 word note covering: your theme, your structure, how you handled any real people in the story (names changed, consent sought), and what you cut during revision and why."
+ },
+ "reading": [
+  "Annie Dillard, An American Childhood",
+  "William Zinsser, Inventing the Truth: The Art and Craft of Memoir"
+ ]
+}
