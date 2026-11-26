@@ -1,0 +1,288 @@
+{
+  "slug": "old-testament-survey-poetry-and-prophets",
+  "title": "Old Testament Survey II: Poetry and Prophets",
+  "track": "survey",
+  "level": "Foundation",
+  "summary": "Job to Malachi: the Bible's books of wisdom and worship, and the messages of the prophets.",
+  "description": "This course surveys the poetic and wisdom books (Job, Psalms, Proverbs, Ecclesiastes and Song of Solomon) and the prophets from Isaiah to Malachi. It explains each book's setting, main message and key passages, and shows how the prophets called God's people to repentance and pointed forward to the Messiah and the new covenant.",
+  "objectives": [
+    "Introduce the wisdom and poetic books and how to read them",
+    "Explain the role and message of the Old Testament prophets",
+    "Place each prophet in Israel's history",
+    "Show the prophets' witness to Christ and the new covenant"
+  ],
+  "outcomes": [
+    "Summarise the message of Job, Psalms, Proverbs, Ecclesiastes and Song of Solomon",
+    "Explain what a prophet was and did",
+    "Place the major and minor prophets before, during or after the exile",
+    "Explain key messianic prophecies such as Isaiah 53 and Micah 5:2",
+    "Explain the promise of the new covenant in Jeremiah 31"
+  ],
+  "modules": [
+    {
+      "title": "Job and Psalms",
+      "intro": "Job wrestles with suffering; the Psalms give words for every season of the soul.",
+      "lessons": [
+        {
+          "title": "Job: suffering and the sovereignty of God",
+          "body": "Job was \"perfect and upright\" (Job 1:1), yet he lost wealth, children and health. Heaven's scene shows that Satan accused him and God permitted the trial (Job 1-2).\n\nJob's three friends insisted he must have sinned. Job protested his innocence and longed for God to answer, yet declared, \"I know that my redeemer liveth\" (Job 19:25).\n\nWhen God spoke from the whirlwind, He did not explain the reasons but revealed His wisdom and power in creation (Job 38-41). Job humbled himself, and God restored him. Suffering is not always punishment; God is wise even when we cannot see why.",
+          "refs": ["Job 1:1", "Job 19:25-26", "Job 42:1-6"]
+        },
+        {
+          "title": "The Psalms: Israel's hymnbook",
+          "body": "The 150 psalms were Israel's songs and prayers, many by David. They are arranged in five books (1-41, 42-72, 73-89, 90-106, 107-150).\n\nThere are psalms of **praise** (Psalm 100), **lament** (Psalm 13), **thanksgiving** (Psalm 30), **wisdom** (Psalm 1), **repentance** (Psalm 51) and **trust** (Psalm 23).\n\nThe Psalms teach us to bring every feeling to God honestly, and to move from complaint to trust. Calvin called the book \"an anatomy of all the parts of the soul\".",
+          "refs": ["Psalm 1:1-3", "Psalm 51:10-12", "Psalm 100:1-5"]
+        },
+        {
+          "title": "Christ in the Psalms",
+          "body": "Jesus said the psalms spoke of Him (Luke 24:44). Some psalms speak of the anointed King, David's greater Son.\n\n- Psalm 2: God's Son set as King over the nations (Acts 13:33).\n- Psalm 16: the Holy One would not see corruption, fulfilled in the resurrection (Acts 2:25-31).\n- Psalm 22: \"My God, my God, why hast thou forsaken me?\", the cry from the cross (Matthew 27:46), with piercing of hands and feet (Psalm 22:16).\n- Psalm 110: Christ seated at God's right hand, a priest for ever after the order of Melchizedek (Hebrews 5:6).",
+          "refs": ["Psalm 22:1", "Psalm 16:10", "Psalm 110:1-4"]
+        }
+      ],
+      "terms": [
+        { "term": "Wisdom literature", "def": "Books such as Job, Proverbs and Ecclesiastes that teach how to live in God's world." },
+        { "term": "Lament", "def": "A prayer of complaint or sorrow brought honestly to God." },
+        { "term": "Messianic psalm", "def": "A psalm that speaks of the coming Messiah, fulfilled in Christ." },
+        { "term": "Redeemer", "def": "One who buys back or rescues; Job's hope in God." },
+        { "term": "Selah", "def": "A word in the Psalms probably calling for a pause." },
+        { "term": "Sovereignty", "def": "God's supreme rule and authority over all things." }
+      ],
+      "texts": [
+        { "ref": "Job 19:25", "teaches": "Job knew his Redeemer lives." },
+        { "ref": "Job 42:5-6", "teaches": "Seeing God, Job humbled himself and repented." },
+        { "ref": "Psalm 51:10", "teaches": "Ask God to create a clean heart." },
+        { "ref": "Psalm 22:1", "teaches": "The cry of forsakenness that Christ uttered on the cross." },
+        { "ref": "Psalm 110:1", "teaches": "The LORD tells David's Lord to sit at His right hand." }
+      ],
+      "summary": [
+        "Job teaches that suffering is not always punishment and that God is wise and sovereign.",
+        "The Psalms give words for praise, lament, repentance and trust.",
+        "Many psalms point to Christ: His kingship, death, resurrection and priesthood.",
+        "Bring every feeling to God honestly, moving from complaint to trust."
+      ],
+      "questions": [
+        { "q": "What did Job's friends wrongly insist?", "options": ["That he must have sinned to suffer so", "That God did not exist", "That Satan was innocent", "That Job should curse God"], "answer": 0 },
+        { "q": "How did God answer Job from the whirlwind?", "options": ["By revealing His wisdom and power in creation", "By listing Job's sins", "By explaining Satan's challenge", "By staying silent"], "answer": 0 },
+        { "q": "Which psalm contains the cry Jesus uttered on the cross?", "options": ["Psalm 22", "Psalm 23", "Psalm 1", "Psalm 119"], "answer": 0 },
+        { "q": "How many psalms are in the book of Psalms?", "options": ["150", "100", "119", "176"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Proverbs, Ecclesiastes and Song of Solomon",
+      "intro": "Three books of wisdom: skill for daily life, the search for meaning, and the gift of married love.",
+      "lessons": [
+        {
+          "title": "Proverbs: wisdom for daily life",
+          "body": "Proverbs, mostly from Solomon, teaches skill in godly living. Its theme verse: \"The fear of the LORD is the beginning of knowledge: but fools despise wisdom and instruction\" (Proverbs 1:7).\n\nIt speaks to speech, work, money, friendship, anger, sexual purity and family. It contrasts two ways: wisdom and folly, the righteous and the wicked.\n\nProverbs are general truths, not promises for every case. For example, \"A soft answer turneth away wrath\" (Proverbs 15:1) is usually true, but not always. Christ is the perfect Wisdom of God (1 Corinthians 1:24).",
+          "refs": ["Proverbs 1:7", "Proverbs 3:5-6", "Proverbs 15:1"]
+        },
+        {
+          "title": "Ecclesiastes: life under the sun",
+          "body": "The Preacher (traditionally Solomon) explores pleasure, work, wisdom and wealth \"under the sun\", that is, life viewed without God. His verdict: \"vanity of vanities; all is vanity\" (Ecclesiastes 1:2), meaning everything is fleeting like vapour.\n\nYet he also sees that life is God's gift to be enjoyed with gratitude (Ecclesiastes 3:12-13), that God \"hath set the world in their heart\" (3:11), and that God will bring every work into judgement.\n\nHis conclusion: \"Fear God, and keep his commandments: for this is the whole duty of man\" (Ecclesiastes 12:13).",
+          "refs": ["Ecclesiastes 1:2", "Ecclesiastes 3:11", "Ecclesiastes 12:13-14"]
+        },
+        {
+          "title": "Song of Solomon: married love",
+          "body": "The Song of Solomon is a love poem celebrating the joy, longing and faithfulness of love between a bride and bridegroom. It honours God's gift of romantic and physical love within marriage, and warns not to awaken love before its time (Song of Solomon 2:7).\n\nIts conclusion: \"love is strong as death... Many waters cannot quench love\" (Song of Solomon 8:6-7).\n\nMany Christians through history have also seen in it a picture of Christ's love for His church (compare Ephesians 5:25-32). Its first meaning, however, is a celebration of pure married love.",
+          "refs": ["Song of Solomon 2:7", "Song of Solomon 8:6-7", "Ephesians 5:25-32"]
+        }
+      ],
+      "terms": [
+        { "term": "Proverb", "def": "A short, memorable saying expressing a general truth about life." },
+        { "term": "Fool", "def": "In Proverbs, a person who rejects God's wisdom and instruction." },
+        { "term": "Vanity", "def": "In Ecclesiastes, something fleeting and empty, like vapour." },
+        { "term": "Under the sun", "def": "Ecclesiastes' phrase for life viewed from a merely earthly point of view." },
+        { "term": "Whole duty of man", "def": "To fear God and keep His commandments (Ecclesiastes 12:13)." },
+        { "term": "Wisdom of God", "def": "God's perfect knowledge and skill, personified in Christ." }
+      ],
+      "texts": [
+        { "ref": "Proverbs 1:7", "teaches": "The fear of the LORD is the beginning of knowledge." },
+        { "ref": "Proverbs 3:5-6", "teaches": "Trust in the LORD with all your heart and He will direct your paths." },
+        { "ref": "Ecclesiastes 1:2", "teaches": "Life without God is vanity of vanities." },
+        { "ref": "Ecclesiastes 12:13", "teaches": "Fear God and keep His commandments: this is the whole duty of man." },
+        { "ref": "Song of Solomon 8:7", "teaches": "Many waters cannot quench love." }
+      ],
+      "summary": [
+        "Proverbs teaches practical godly wisdom; its proverbs are general truths.",
+        "Ecclesiastes shows the emptiness of life without God and calls us to fear Him.",
+        "Song of Solomon celebrates pure love within marriage.",
+        "Christ is the perfect Wisdom of God."
+      ],
+      "questions": [
+        { "q": "What is the theme verse of Proverbs?", "options": ["Proverbs 1:7", "Proverbs 31:10", "Proverbs 22:6", "Proverbs 15:1"], "answer": 0 },
+        { "q": "What does \"vanity\" mean in Ecclesiastes?", "options": ["Something fleeting and empty, like vapour", "Pride in one's appearance", "A kind of sacrifice", "A false god"], "answer": 0 },
+        { "q": "What is the conclusion of Ecclesiastes?", "options": ["Fear God and keep His commandments", "Eat, drink and forget God", "Wisdom is worthless", "Work is the meaning of life"], "answer": 0 },
+        { "q": "The first meaning of Song of Solomon is:", "options": ["A celebration of pure married love", "A history of Israel's kings", "A law code", "A prophecy against Egypt"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Isaiah and Jeremiah",
+      "intro": "Two great prophets: Isaiah, the evangelical prophet, and Jeremiah, the weeping prophet.",
+      "lessons": [
+        {
+          "title": "What is a prophet?",
+          "body": "A prophet was God's spokesman, sent with \"Thus saith the LORD\". Prophets mostly **forth-told**, calling people back to the covenant, warning of judgement and promising mercy to the repentant. Sometimes they **foretold** future events.\n\nTrue prophets were tested: their words had to agree with God's law and come to pass (Deuteronomy 13:1-5; 18:22).\n\nThe prophetic books are often grouped as **major** (Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel) and **minor** (the twelve shorter books). \"Minor\" refers to length, not importance.",
+          "refs": ["Deuteronomy 18:18-22", "Amos 3:7", "2 Peter 1:21"]
+        },
+        {
+          "title": "Isaiah: holiness and salvation",
+          "body": "Isaiah ministered in Judah about 740 to 690 BC. He saw the Lord \"high and lifted up\" and heard \"Holy, holy, holy\" (Isaiah 6:1-8).\n\nHe warned of judgement, yet gave the clearest Old Testament pictures of the Messiah: born of a virgin, Immanuel (Isaiah 7:14); \"unto us a child is born\" (9:6); the suffering Servant \"wounded for our transgressions\" (53:5).\n\nChapters 40-66 comfort the people with promises of return from exile and of new heavens and a new earth (Isaiah 65:17). Isaiah is quoted in the New Testament more than almost any other prophet.",
+          "refs": ["Isaiah 6:1-8", "Isaiah 9:6-7", "Isaiah 53:4-6"]
+        },
+        {
+          "title": "Jeremiah and Lamentations",
+          "body": "Jeremiah prophesied from about 627 BC until the fall of Jerusalem in 586 BC. Called as a youth, he was told, \"Before I formed thee in the belly I knew thee\" (Jeremiah 1:5). He faced rejection, beatings and prison for warning that Judah would fall to Babylon.\n\nYet he promised a **new covenant**: God would write His law on their hearts and remember their sin no more (Jeremiah 31:31-34), fulfilled in Christ (Hebrews 8:8-12).\n\n**Lamentations** mourns Jerusalem's ruin, but in the middle confesses, \"his compassions fail not. They are new every morning: great is thy faithfulness\" (Lamentations 3:22-23).",
+          "refs": ["Jeremiah 1:5", "Jeremiah 31:31-34", "Lamentations 3:22-23"]
+        }
+      ],
+      "terms": [
+        { "term": "Prophet", "def": "A person sent by God to speak His word to His people." },
+        { "term": "Forth-telling", "def": "Proclaiming God's word to the present situation, calling for repentance." },
+        { "term": "Foretelling", "def": "Predicting future events by God's revelation." },
+        { "term": "Major prophets", "def": "The longer prophetic books: Isaiah, Jeremiah, Lamentations, Ezekiel and Daniel." },
+        { "term": "Suffering Servant", "def": "Isaiah's figure who suffers for the sins of others, fulfilled in Christ." },
+        { "term": "New covenant", "def": "God's promise to write His law on hearts and forgive sin fully, fulfilled in Christ." }
+      ],
+      "texts": [
+        { "ref": "Deuteronomy 18:22", "teaches": "A word that does not come to pass was not spoken by the LORD." },
+        { "ref": "Isaiah 6:3", "teaches": "The seraphim cry that the LORD of hosts is holy, holy, holy." },
+        { "ref": "Isaiah 7:14", "teaches": "A virgin shall conceive and bear a son called Immanuel." },
+        { "ref": "Isaiah 53:5", "teaches": "The Servant was wounded for our transgressions." },
+        { "ref": "Jeremiah 31:33", "teaches": "God will put His law in their inward parts and write it in their hearts." }
+      ],
+      "summary": [
+        "Prophets spoke God's word: calling to repentance and sometimes predicting the future.",
+        "Isaiah reveals God's holiness and the coming Messiah, the suffering Servant.",
+        "Jeremiah warned of Babylon and promised the new covenant.",
+        "Lamentations mourns judgement yet trusts God's faithfulness."
+      ],
+      "questions": [
+        { "q": "Why are some prophets called \"minor\"?", "options": ["Their books are shorter", "They were less important", "They were young", "They spoke only to Gentiles"], "answer": 0 },
+        { "q": "Which chapter of Isaiah describes the suffering Servant wounded for our transgressions?", "options": ["Isaiah 53", "Isaiah 6", "Isaiah 40", "Isaiah 1"], "answer": 0 },
+        { "q": "Which passage promises the new covenant?", "options": ["Jeremiah 31:31-34", "Isaiah 9:6", "Ezekiel 1:1", "Amos 5:24"], "answer": 0 },
+        { "q": "Which book contains \"great is thy faithfulness\"?", "options": ["Lamentations", "Jeremiah", "Psalms", "Isaiah"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Ezekiel and Daniel",
+      "intro": "Two prophets in exile in Babylon: Ezekiel the priest-prophet and Daniel the statesman-prophet.",
+      "lessons": [
+        {
+          "title": "Ezekiel: the glory departs and returns",
+          "body": "Ezekiel was taken to Babylon in 597 BC and prophesied there to the exiles. He saw God's glory in a dramatic vision (Ezekiel 1) and later saw that glory leave the defiled temple (Ezekiel 10).\n\nHe taught personal responsibility: \"The soul that sinneth, it shall die\" (Ezekiel 18:20), and God's desire that the wicked turn and live (18:23).\n\nAfter Jerusalem fell, he brought hope: a new heart and a new spirit (36:26), dry bones brought to life (37), and a vision of a renewed temple to which the glory returns (43:4-5).",
+          "refs": ["Ezekiel 18:20-23", "Ezekiel 36:26-27", "Ezekiel 37:1-14"]
+        },
+        {
+          "title": "Daniel: faithful in Babylon",
+          "body": "Daniel was taken to Babylon as a youth in 605 BC. He \"purposed in his heart that he would not defile himself\" (Daniel 1:8). God gave him wisdom to interpret Nebuchadnezzar's dreams.\n\nHis friends would not bow to the golden image and were delivered from the fiery furnace (Daniel 3). Daniel kept praying though it meant the lions' den (Daniel 6).\n\nThe lesson: God rules over the kingdoms of men (Daniel 4:17), and His people can live faithfully in a hostile culture.",
+          "refs": ["Daniel 1:8", "Daniel 3:17-18", "Daniel 6:10"]
+        },
+        {
+          "title": "Daniel's visions of the kingdoms",
+          "body": "Daniel 2 and 7 describe four world empires, commonly understood as Babylon, Medo-Persia, Greece and Rome, followed by God's kingdom, a stone \"cut out without hands\" that fills the earth (Daniel 2:44-45).\n\nIn Daniel 7, \"one like the Son of man\" receives an everlasting kingdom from the Ancient of days (7:13-14). Jesus took this title for Himself (Mark 14:62).\n\nDaniel 9 speaks of seventy weeks and the Messiah being \"cut off\" (9:26). Christians differ on the details of the later visions; all agree they show God's sovereign plan ending in the triumph of His kingdom.",
+          "refs": ["Daniel 2:44", "Daniel 7:13-14", "Mark 14:62"]
+        }
+      ],
+      "terms": [
+        { "term": "Glory of God", "def": "The visible display of God's presence and majesty." },
+        { "term": "Watchman", "def": "Ezekiel's role: to warn the people of coming judgement." },
+        { "term": "Valley of dry bones", "def": "Ezekiel's vision of God bringing His people back to life." },
+        { "term": "Son of man", "def": "In Daniel 7, the heavenly figure who receives an everlasting kingdom; Jesus' favourite title for Himself." },
+        { "term": "Ancient of days", "def": "Daniel's title for God the eternal Judge." },
+        { "term": "Seventy weeks", "def": "Daniel 9's prophecy of a period leading to the coming of the Messiah." }
+      ],
+      "texts": [
+        { "ref": "Ezekiel 18:20", "teaches": "The soul that sins shall die; each person is responsible." },
+        { "ref": "Ezekiel 36:26", "teaches": "God promises a new heart and a new spirit." },
+        { "ref": "Daniel 1:8", "teaches": "Daniel purposed in his heart not to defile himself." },
+        { "ref": "Daniel 4:17", "teaches": "The Most High rules in the kingdom of men." },
+        { "ref": "Daniel 7:14", "teaches": "The Son of man receives an everlasting dominion." }
+      ],
+      "summary": [
+        "Ezekiel saw God's glory leave the temple and promised a new heart and restoration.",
+        "Daniel lived faithfully in Babylon and God delivered him and his friends.",
+        "Daniel's visions show God's kingdom triumphing over world empires.",
+        "Jesus is the Son of man who receives the everlasting kingdom."
+      ],
+      "questions": [
+        { "q": "Where did Ezekiel prophesy?", "options": ["Among the exiles in Babylon", "In Jerusalem's temple", "In Egypt", "In Samaria"], "answer": 0 },
+        { "q": "What does Ezekiel 36:26 promise?", "options": ["A new heart and a new spirit", "A new king", "A new temple only", "Return to Egypt"], "answer": 0 },
+        { "q": "Who were delivered from the fiery furnace?", "options": ["Daniel's three friends", "Daniel himself", "Ezekiel and Jeremiah", "Mordecai and Esther"], "answer": 0 },
+        { "q": "Which title from Daniel 7 did Jesus apply to Himself?", "options": ["Son of man", "Ancient of days", "Prince of Persia", "King of the north"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Twelve: Hosea to Malachi",
+      "intro": "The twelve minor prophets span three centuries, from before the exile to the last word of the Old Testament.",
+      "lessons": [
+        {
+          "title": "Prophets before the exile",
+          "body": "**Hosea** married an unfaithful wife as a picture of God's faithful love for unfaithful Israel. **Joel** warned of the day of the LORD and promised the outpouring of the Spirit (Joel 2:28), fulfilled at Pentecost. **Amos** cried for justice: \"let judgment run down as waters\" (Amos 5:24). **Jonah** was sent to Nineveh and learned God's mercy to the nations. **Micah** foretold the Messiah's birth in Bethlehem (Micah 5:2) and summed up true religion: to do justly, love mercy and walk humbly with God (6:8).\n\n**Obadiah**, **Nahum**, **Habakkuk** and **Zephaniah** speak of judgement on the nations and on Judah, yet \"the just shall live by his faith\" (Habakkuk 2:4).",
+          "refs": ["Joel 2:28-29", "Micah 5:2", "Habakkuk 2:4"]
+        },
+        {
+          "title": "Prophets after the exile",
+          "body": "**Haggai** urged the returned exiles to finish the temple: \"Consider your ways\" (Haggai 1:5). **Zechariah** encouraged them with visions and messianic prophecy: the King coming \"lowly, and riding upon an ass\" (Zechariah 9:9), and the one \"whom they have pierced\" (12:10).\n\n**Malachi**, about 430 BC, rebuked careless worship, broken marriages and robbing God in tithes (Malachi 1-3). He promised the Lord would suddenly come to His temple, preceded by a messenger (3:1), and that Elijah would come before the great day (4:5), fulfilled in John the Baptist (Matthew 11:14).",
+          "refs": ["Haggai 1:5-8", "Zechariah 9:9", "Malachi 3:1"]
+        },
+        {
+          "title": "Four hundred silent years",
+          "body": "After Malachi there were about four hundred years without a new prophet. During this time Persia gave way to Greece under Alexander, then to the Romans. The synagogue spread, and the Hebrew Scriptures were translated into Greek (the Septuagint).\n\nGod was preparing the world: one common language, Roman roads, and a people longing for the Messiah. \"When the fulness of the time was come, God sent forth his Son\" (Galatians 4:4).\n\nThe Old Testament ends with a promise and an expectation; the New Testament opens with the coming of the One promised.",
+          "refs": ["Malachi 4:5-6", "Galatians 4:4", "Luke 2:25-32"]
+        }
+      ],
+      "terms": [
+        { "term": "Minor prophets", "def": "The twelve shorter prophetic books from Hosea to Malachi." },
+        { "term": "Day of the LORD", "def": "The time when God acts decisively in judgement and salvation." },
+        { "term": "Justice", "def": "Doing what is right, especially toward the poor and oppressed." },
+        { "term": "Intertestamental period", "def": "The roughly four hundred years between Malachi and the New Testament." },
+        { "term": "Septuagint", "def": "The Greek translation of the Old Testament made before Christ." },
+        { "term": "Messenger of the covenant", "def": "Malachi's promised forerunner, fulfilled in John the Baptist." }
+      ],
+      "texts": [
+        { "ref": "Joel 2:28", "teaches": "God will pour out His Spirit upon all flesh." },
+        { "ref": "Amos 5:24", "teaches": "Let judgment run down as waters and righteousness as a mighty stream." },
+        { "ref": "Micah 6:8", "teaches": "God requires us to do justly, love mercy and walk humbly with Him." },
+        { "ref": "Zechariah 9:9", "teaches": "The King comes lowly, riding upon an ass." },
+        { "ref": "Malachi 4:5", "teaches": "God will send Elijah before the great day of the LORD." }
+      ],
+      "summary": [
+        "The twelve minor prophets span before, during and after the exile.",
+        "They called for repentance, justice and faithful worship.",
+        "They foretold the Spirit's outpouring, the Messiah's birthplace and His humble entry.",
+        "After Malachi, four centuries of silence prepared the world for Christ."
+      ],
+      "questions": [
+        { "q": "Which prophet foretold the Messiah's birth in Bethlehem?", "options": ["Micah", "Malachi", "Jonah", "Joel"], "answer": 0 },
+        { "q": "Which prophecy did Peter say was fulfilled at Pentecost?", "options": ["Joel's promise of the Spirit", "Jonah's preaching", "Amos's call for justice", "Haggai's call to build"], "answer": 0 },
+        { "q": "Which prophet urged the returned exiles to finish the temple?", "options": ["Haggai", "Hosea", "Nahum", "Obadiah"], "answer": 0 },
+        { "q": "Malachi's promised Elijah was fulfilled in:", "options": ["John the Baptist", "Peter", "Elisha", "Paul"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What is the main lesson of the book of Job?", "keywords": [["suffering", "suffer"], ["not always", "not punishment", "innocent"], ["sovereign", "wise", "wisdom", "trust"]], "model": "Suffering is not always punishment for sin; God is sovereign and wise even when we do not understand, and we should trust Him." },
+      { "q": "Name two kinds of psalms and give an example of each.", "keywords": [["praise", "lament", "thanksgiving", "wisdom", "repentance", "trust", "messianic"], ["Psalm"]], "model": "For example, a lament such as Psalm 13 and a psalm of praise such as Psalm 100." },
+      { "q": "What did prophets mainly do?", "keywords": [["speak", "spokesman", "word"], ["repent", "covenant", "warn", "judgement", "judgment"], ["future", "foretold", "predict"]], "model": "They spoke God's word to His people, calling them back to the covenant, warning of judgement and promising mercy, and sometimes foretold future events." },
+      { "q": "How does Isaiah 53 point to Christ?", "keywords": [["suffer", "wounded", "bruised"], ["our sins", "transgressions", "iniquities", "for us"], ["Christ", "Jesus", "Servant"]], "model": "It describes the Servant wounded and bruised for our transgressions, bearing the sins of others, which Christ fulfilled on the cross." },
+      { "q": "What is the new covenant promised in Jeremiah 31?", "keywords": [["heart", "hearts"], ["law"], ["forgive", "remember no more", "sin"]], "model": "God would write His law on His people's hearts, all would know Him, and He would forgive their sin and remember it no more." },
+      { "q": "What does Micah 6:8 say God requires?", "keywords": [["justly", "justice"], ["mercy"], ["humbly", "humble"]], "model": "To do justly, to love mercy, and to walk humbly with God." }
+    ],
+    "lists": [
+      { "q": "List the five poetic and wisdom books of the Old Testament.", "items": [["Job"], ["Psalms", "Psalm"], ["Proverbs"], ["Ecclesiastes"], ["Song of Solomon", "Song of Songs"]], "need": 5 },
+      { "q": "List the five major prophets.", "items": [["Isaiah"], ["Jeremiah"], ["Lamentations"], ["Ezekiel"], ["Daniel"]], "need": 5 },
+      { "q": "List four of the twelve minor prophets.", "items": [["Hosea"], ["Joel"], ["Amos"], ["Obadiah"], ["Jonah"], ["Micah"], ["Nahum"], ["Habakkuk"], ["Zephaniah"], ["Haggai"], ["Zechariah"], ["Malachi"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "A psalm for life", "prompt": "Choose one psalm of lament (for example Psalm 13, 42 or 77). Explain its movement from complaint to trust, verse by verse, and describe how it could help a believer going through a hard time today.", "words": "500–700" },
+    { "title": "Christ in the prophets", "prompt": "Choose three messianic prophecies from this course. For each, give the KJV reference, explain it in its original setting, and show where and how the New Testament says it was fulfilled.", "words": "600–800" }
+  ],
+  "examMinutes": 75,
+  "reading": [
+    "Tremper Longman III, How to Read the Psalms",
+    "O. Palmer Robertson, The Christ of the Prophets",
+    "Hobart E. Freeman, An Introduction to the Old Testament Prophets"
+  ]
+}

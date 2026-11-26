@@ -1,0 +1,288 @@
+{
+  "slug": "interpreting-the-bible",
+  "title": "Interpreting the Bible",
+  "track": "foundations",
+  "level": "Foundation",
+  "summary": "A practical guide to reading any Bible passage accurately: observe, interpret, apply.",
+  "description": "Hermeneutics is the art and science of interpretation. This course teaches a simple, reliable method for understanding Scripture: observing what the text says, interpreting it in its context and kind of writing, letting Scripture explain Scripture, and applying it faithfully. It also shows how to handle the Old Testament, parables, prophecy and letters, and how to avoid common mistakes.",
+  "objectives": [
+    "Teach a clear three-step method: observation, interpretation, application",
+    "Show how context, grammar and history shape meaning",
+    "Explain how to read different kinds of biblical writing",
+    "Warn against common errors in interpretation"
+  ],
+  "outcomes": [
+    "Ask good observation questions of any passage",
+    "Explain a verse in its literary and historical context",
+    "Read narrative, poetry, prophecy, parables and letters appropriately",
+    "Recognise and avoid proof-texting and allegorising",
+    "Apply a passage faithfully to life today"
+  ],
+  "modules": [
+    {
+      "title": "Why Interpretation Matters",
+      "intro": "Everyone interprets the Bible. This week we see why careful interpretation is a duty for every believer.",
+      "lessons": [
+        {
+          "title": "Rightly dividing the word",
+          "body": "Paul tells Timothy to be \"a workman that needeth not to be ashamed, rightly dividing the word of truth\" (2 Timothy 2:15). The picture is of a craftsman cutting straight. Handling the Bible well takes care and skill.\n\nPeter warns that some \"wrest\" (twist) Paul's letters \"unto their own destruction\" (2 Peter 3:16). False teachers usually quote the Bible; they simply misread it.\n\nThe goal of interpretation is to discover what God meant by what He said through the human author, not what we would like it to mean.",
+          "refs": ["2 Timothy 2:15", "2 Peter 3:16", "Nehemiah 8:8"]
+        },
+        {
+          "title": "The Spirit and the student",
+          "body": "We need both the Holy Spirit and careful study. \"The natural man receiveth not the things of the Spirit of God\" (1 Corinthians 2:14). The Spirit illuminates the humble believer.\n\nYet the Spirit does not replace reading. The Bereans searched the Scriptures (Acts 17:11); Ezra \"prepared his heart to seek the law of the LORD, and to do it, and to teach\" (Ezra 7:10).\n\nPray before you read, read carefully, and be willing to obey what you find. A heart unwilling to obey will struggle to understand (John 7:17).",
+          "refs": ["1 Corinthians 2:12-14", "Ezra 7:10", "John 7:17"]
+        },
+        {
+          "title": "One meaning, many applications",
+          "body": "A sound rule is that each passage has one main intended meaning, given by God through its author, but may have many applications.\n\nFor example, Philippians 4:13, \"I can do all things through Christ\", means in context that Paul can be content in plenty or hunger by Christ's strength (Philippians 4:11-12). It applies to many situations of contentment and endurance; it is not a promise that we can achieve any ambition we choose.\n\nMeaning is fixed by the text; applications must grow out of that meaning.",
+          "refs": ["Philippians 4:11-13", "James 1:22", "Psalm 119:18"]
+        }
+      ],
+      "terms": [
+        { "term": "Hermeneutics", "def": "The principles and methods of interpreting Scripture." },
+        { "term": "Exegesis", "def": "Drawing the meaning out of a text by careful study." },
+        { "term": "Eisegesis", "def": "Reading one's own ideas into a text; the opposite of exegesis." },
+        { "term": "Author's intent", "def": "What God meant to communicate through the human writer." },
+        { "term": "Meaning and application", "def": "A text's one fixed sense, and the many ways it can rightly be lived out." },
+        { "term": "Wrest", "def": "To twist the Scriptures away from their true sense." }
+      ],
+      "texts": [
+        { "ref": "2 Timothy 2:15", "teaches": "God's workman must handle the word of truth accurately." },
+        { "ref": "2 Peter 3:16", "teaches": "Some twist the Scriptures to their own destruction." },
+        { "ref": "Ezra 7:10", "teaches": "Prepare the heart to seek, do and teach God's law." },
+        { "ref": "John 7:17", "teaches": "A willingness to do God's will helps us know the truth of the teaching." },
+        { "ref": "Philippians 4:13", "teaches": "Christ gives strength to be content in every circumstance." }
+      ],
+      "summary": [
+        "Interpretation is a duty: we must handle God's Word accurately.",
+        "We need the Spirit's illumination and diligent study together.",
+        "Seek the author's intended meaning, not our own ideas.",
+        "One meaning, many faithful applications."
+      ],
+      "questions": [
+        { "q": "What is eisegesis?", "options": ["Reading one's own ideas into the text", "Drawing meaning out of the text", "Translating from Greek", "Memorising verses"], "answer": 0 },
+        { "q": "In context, Philippians 4:13 is mainly about:", "options": ["Contentment and endurance through Christ's strength", "Success in any ambition", "Physical healing", "Winning arguments"], "answer": 0 },
+        { "q": "Which is true about the Holy Spirit and Bible study?", "options": ["The Spirit illuminates, but we must still study carefully", "The Spirit makes study unnecessary", "Only pastors receive illumination", "Feelings decide the meaning"], "answer": 0 },
+        { "q": "According to 2 Peter 3:16, what do the unstable do with Scripture?", "options": ["Wrest (twist) it", "Memorise it", "Translate it", "Ignore it"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Observation: What Does It Say?",
+      "intro": "Good interpretation starts by looking carefully. This week we practise observation.",
+      "lessons": [
+        {
+          "title": "Read slowly, ask questions",
+          "body": "Observation means noticing what is actually in the text before deciding what it means. Read the passage several times, ideally in one sitting with its chapter.\n\nAsk the reporter's questions: **Who** is speaking and to whom? **What** is happening? **When** and **where**? **Why** is it said? **How** does it unfold?\n\nPsalm 119:18 is a good prayer: \"Open thou mine eyes, that I may behold wondrous things out of thy law.\" Many errors come not from deep theology but from not reading what is there.",
+          "refs": ["Psalm 119:18", "Luke 10:26", "Acts 8:30"]
+        },
+        {
+          "title": "Key words and connections",
+          "body": "Look for **repeated words**: \"love\" in 1 Corinthians 13, \"better\" in Hebrews, \"believe\" in John.\n\nWatch **connecting words**: *therefore* (a conclusion), *but* (a contrast), *for* or *because* (a reason), *that* or *so that* (a purpose). Romans 12:1 begins \"I beseech you therefore\", pointing back to the mercies of God in chapters 1 to 11.\n\nNote **commands, promises, warnings and lists**, and any comparisons such as \"like\" or \"as\". These are the joints of the passage.",
+          "refs": ["Romans 12:1", "John 20:31", "1 Corinthians 13:1-8"]
+        },
+        {
+          "title": "Seeing the structure",
+          "body": "Most passages have a flow. A letter may move from greeting to prayer to teaching to application. A story has setting, conflict, climax and outcome. A psalm may move from complaint to trust.\n\nTry to outline the passage in a few lines. Ephesians, for example, moves from what God has done (chapters 1 to 3) to how believers should walk (chapters 4 to 6, beginning \"walk worthy\" in 4:1).\n\nSeeing the structure keeps us from lifting one sentence out of its place.",
+          "refs": ["Ephesians 4:1", "Psalm 13:1-6", "Acts 1:8"]
+        }
+      ],
+      "terms": [
+        { "term": "Observation", "def": "Carefully noticing what a text actually says before interpreting it." },
+        { "term": "Repeated words", "def": "Words used several times that often reveal a passage's theme." },
+        { "term": "Connecting words", "def": "Words such as therefore, but and because that show logical links." },
+        { "term": "Structure", "def": "The outline or flow of a passage." },
+        { "term": "Reporter's questions", "def": "Who, what, when, where, why and how." },
+        { "term": "Imperative", "def": "A command in the text." }
+      ],
+      "texts": [
+        { "ref": "Psalm 119:18", "teaches": "Ask God to open our eyes to see wonders in His law." },
+        { "ref": "Luke 10:26", "teaches": "Jesus asked, 'What is written? how readest thou?'" },
+        { "ref": "Romans 12:1", "teaches": "'Therefore' links Christian living to God's mercies." },
+        { "ref": "John 20:31", "teaches": "John states his purpose: that you might believe and have life." },
+        { "ref": "Ephesians 4:1", "teaches": "Believers are urged to walk worthy of their calling." }
+      ],
+      "summary": [
+        "Observe before you interpret: read slowly and repeatedly.",
+        "Ask who, what, when, where, why and how.",
+        "Notice repeated words and connecting words such as therefore and but.",
+        "Outline the passage to see its flow."
+      ],
+      "questions": [
+        { "q": "What does the word \"therefore\" usually signal?", "options": ["A conclusion drawn from what came before", "A contrast", "A question", "A new book"], "answer": 0 },
+        { "q": "Which question belongs to observation?", "options": ["Who is speaking and to whom?", "How should I apply this at work?", "Which denomination is right?", "What would I prefer it to mean?"], "answer": 0 },
+        { "q": "Ephesians 1-3 and 4-6 can be summarised as:", "options": ["What God has done; how believers should walk", "Law and prophets", "Israel and the church", "Prayer and fasting"], "answer": 0 },
+        { "q": "John 20:31 is helpful because it states:", "options": ["The author's purpose", "The date of writing", "The place of writing", "A list of miracles"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Interpretation: What Does It Mean?",
+      "intro": "This week we learn the main rules for finding the meaning: context, history, grammar and Scripture interpreting Scripture.",
+      "lessons": [
+        {
+          "title": "Context is king",
+          "body": "A verse must be read in its **context**: the sentence, the paragraph, the chapter, the book, and the whole Bible.\n\nTake Revelation 3:20: \"I stand at the door, and knock.\" In context, Christ is speaking to a lukewarm church at Laodicea, calling it back to fellowship (Revelation 3:14-22). It is often used in evangelism, and the principle of Christ's invitation is true, but its first meaning is a call to a church.\n\nA text without a context easily becomes a pretext for whatever we want it to say.",
+          "refs": ["Revelation 3:14-22", "Matthew 18:20", "Matthew 18:15-19"]
+        },
+        {
+          "title": "History, culture and grammar",
+          "body": "The Bible was written in real times and places. Knowing that Samaritans and Jews despised each other makes the Good Samaritan shocking (Luke 10:30-37; John 4:9). Knowing that Philippi was a Roman colony helps us read \"our conversation (citizenship) is in heaven\" (Philippians 3:20).\n\nGrammar matters too: who does what to whom, and when. In Ephesians 2:8, \"by grace are ye saved through faith; and that not of yourselves\", salvation as a whole is God's gift.\n\nA good study Bible, Bible dictionary and atlas are useful tools.",
+          "refs": ["Luke 10:30-37", "John 4:9", "Philippians 3:20"]
+        },
+        {
+          "title": "Scripture interprets Scripture",
+          "body": "Because the whole Bible has one divine Author, it does not contradict itself. Clearer passages help us understand harder ones.\n\nFor example, James 2:24 says a man is justified by works. Romans 3:28 says by faith without works. Reading both in context shows that Paul speaks of how we are declared righteous before God (by faith alone), while James speaks of how true faith is shown before others (by works). Both agree: saving faith is a working faith.\n\nAlways gather all that Scripture says before forming a doctrine.",
+          "refs": ["James 2:14-24", "Romans 3:28", "Ephesians 2:8-10"]
+        }
+      ],
+      "terms": [
+        { "term": "Context", "def": "The surrounding text and setting that determine a passage's meaning." },
+        { "term": "Historical background", "def": "The time, place, customs and events behind a passage." },
+        { "term": "Grammatical-historical method", "def": "Interpreting a text by its plain grammar and historical setting." },
+        { "term": "Analogy of faith", "def": "Interpreting Scripture in harmony with the rest of Scripture." },
+        { "term": "Pretext", "def": "A false reason; what a text becomes when torn from its context." },
+        { "term": "Cross-reference", "def": "Another passage on the same subject that helps explain a text." }
+      ],
+      "texts": [
+        { "ref": "Revelation 3:20", "teaches": "Christ calls a lukewarm church back to fellowship with Him." },
+        { "ref": "John 4:9", "teaches": "Jews had no dealings with the Samaritans." },
+        { "ref": "Romans 3:28", "teaches": "A man is justified by faith without the deeds of the law." },
+        { "ref": "James 2:24", "teaches": "True faith is shown to be real by works." },
+        { "ref": "Ephesians 2:10", "teaches": "Believers are created in Christ Jesus unto good works." }
+      ],
+      "summary": [
+        "Read every verse in its context: sentence, book and whole Bible.",
+        "History, culture and grammar shape meaning.",
+        "Scripture interprets Scripture; clear passages explain hard ones.",
+        "Gather all the Bible says before forming a doctrine."
+      ],
+      "questions": [
+        { "q": "To whom is Revelation 3:20 first addressed?", "options": ["The church at Laodicea", "Unbelievers in Rome", "The disciples at the Last Supper", "Israel in the wilderness"], "answer": 0 },
+        { "q": "How do Paul (Romans 3:28) and James (James 2:24) agree?", "options": ["Saving faith is a working faith", "Works earn salvation", "Faith is unnecessary", "They do not agree"], "answer": 0 },
+        { "q": "Why is the Good Samaritan story shocking in its setting?", "options": ["Jews and Samaritans despised each other", "Samaritans were Roman soldiers", "The priest was a Samaritan", "The road was in Egypt"], "answer": 0 },
+        { "q": "The analogy of faith means:", "options": ["Interpreting Scripture in harmony with the rest of Scripture", "Using stories to explain faith", "Comparing religions", "Following church tradition alone"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Reading Different Kinds of Writing",
+      "intro": "The Bible contains narrative, law, poetry, prophecy, parables and letters. Each is read a little differently.",
+      "lessons": [
+        {
+          "title": "Narrative and law",
+          "body": "**Narrative** tells what happened. Not everything recorded is approved: David's sin with Bathsheba is told as a warning (2 Samuel 11-12). Look for the lesson the story teaches about God and people, and check it against direct teaching elsewhere (1 Corinthians 10:11).\n\n**Law** shows God's holiness and the shape of a godly life. Some laws were for Israel's worship and national life and are fulfilled in Christ, such as sacrifices and food laws (Hebrews 10:1; Mark 7:19). The moral principles, summed up in love for God and neighbour, still guide us (Matthew 22:37-40).",
+          "refs": ["1 Corinthians 10:11", "Hebrews 10:1-4", "Matthew 22:37-40"]
+        },
+        {
+          "title": "Poetry, wisdom and prophecy",
+          "body": "**Poetry** (Psalms, Song of Solomon) uses images and parallel lines. \"The LORD is my shepherd\" is a picture of care, not a statement that we are sheep.\n\n**Wisdom** (Proverbs, Ecclesiastes, Job) gives general principles. Proverbs 22:6 describes what usually happens when a child is trained well; it is wisdom, not a guaranteed promise in every case.\n\n**Prophecy** includes calls to repent, promises and predictions. Some were fulfilled in Israel's history, some in Christ's first coming, some await His return. Interpret prophecy by its fulfilment in the New Testament where possible (Acts 2:16-21).",
+          "refs": ["Psalm 23:1", "Proverbs 22:6", "Acts 2:16-21"]
+        },
+        {
+          "title": "Parables and letters",
+          "body": "**Parables** are short stories with a main point, often a surprise. Jesus explained some details (Matthew 13:18-23), but we should not press every detail into a hidden meaning. Ask: what is the main lesson, and to whom was it told (Luke 15:1-3)?\n\n**Letters** (epistles) are written to real churches about real problems. Read them as whole arguments; follow the reasoning. Ask what the original readers were told to believe and do, then what principle carries over to us.\n\nWhen the reason given is timeless (such as God's character or creation), the command carries over directly.",
+          "refs": ["Matthew 13:18-23", "Luke 15:1-3", "1 Corinthians 1:10-11"]
+        }
+      ],
+      "terms": [
+        { "term": "Genre", "def": "A kind of writing, such as narrative, poetry, prophecy or letter." },
+        { "term": "Narrative", "def": "Writing that tells a story of events." },
+        { "term": "Parallelism", "def": "The Hebrew poetic habit of repeating or contrasting an idea in two lines." },
+        { "term": "Parable", "def": "A short story told by Jesus to teach a main spiritual point." },
+        { "term": "Allegorising", "def": "Treating every detail of a text as a hidden symbol, beyond what the author meant." },
+        { "term": "Fulfilment", "def": "The coming to pass of what was promised or predicted." }
+      ],
+      "texts": [
+        { "ref": "1 Corinthians 10:11", "teaches": "Old Testament events were written as examples for our warning." },
+        { "ref": "Matthew 22:37-40", "teaches": "All the law hangs on love for God and neighbour." },
+        { "ref": "Proverbs 22:6", "teaches": "Training a child in the right way usually shapes the whole life." },
+        { "ref": "Acts 2:16", "teaches": "Peter explained Pentecost as fulfilling Joel's prophecy." },
+        { "ref": "Matthew 13:18", "teaches": "Jesus explained the parable of the sower to His disciples." }
+      ],
+      "summary": [
+        "Narrative describes; not everything recorded is approved.",
+        "Laws for Israel's worship are fulfilled in Christ; moral principles remain.",
+        "Poetry uses images; proverbs give general wisdom, not guarantees.",
+        "Find the main point of parables; follow the argument of letters."
+      ],
+      "questions": [
+        { "q": "Why is David's sin with Bathsheba recorded?", "options": ["As a warning, not an example to follow", "To approve his actions", "As a law for Israel", "As a parable"], "answer": 0 },
+        { "q": "Proverbs are best read as:", "options": ["General wisdom about how life usually works", "Guaranteed promises in every case", "Prophecies about Christ", "Laws for the temple"], "answer": 0 },
+        { "q": "What is allegorising?", "options": ["Making every detail a hidden symbol beyond the author's meaning", "Finding the main point of a parable", "Studying history", "Reading in context"], "answer": 0 },
+        { "q": "How should we interpret prophecy where possible?", "options": ["By its fulfilment shown in the New Testament", "By today's newspapers", "By private dreams", "By numbers alone"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Application: How Should I Live?",
+      "intro": "Interpretation is not complete until the truth is lived. This week we learn to apply Scripture faithfully, and to avoid common errors.",
+      "lessons": [
+        {
+          "title": "From then to now",
+          "body": "Application builds a bridge from the original setting to ours. Three steps help:\n\n1. **What did it mean to them?** State the meaning for the first readers.\n2. **What is the timeless principle?** Find the truth about God and people behind it.\n3. **How does it apply to me now?** Bring that principle into today's choices.\n\nFor example, Paul's instruction about meat offered to idols (1 Corinthians 8) teaches the principle of not using our freedom in a way that makes a weaker believer stumble. That applies to many modern situations.",
+          "refs": ["1 Corinthians 8:9-13", "Romans 15:4", "2 Timothy 3:16-17"]
+        },
+        {
+          "title": "Common errors to avoid",
+          "body": "- **Proof-texting:** quoting a verse out of context to support an idea.\n- **Allegorising:** inventing hidden meanings for every detail.\n- **Spiritualising promises** made to a specific person or nation without asking how they apply.\n- **Reading experience into the text:** \"It must mean this, because it happened to me.\"\n- **Ignoring the whole Bible:** building a doctrine on one verse.\n\nJesus corrected the Sadducees: \"Ye do err, not knowing the scriptures, nor the power of God\" (Matthew 22:29).",
+          "refs": ["Matthew 22:29", "Matthew 4:5-7", "Acts 17:11"]
+        },
+        {
+          "title": "Study that changes us",
+          "body": "The goal of Bible study is not information but transformation. \"Sanctify them through thy truth: thy word is truth\" (John 17:17). We are changed into Christ's image as we behold His glory in the Word (2 Corinthians 3:18).\n\nEnd each study by asking: Is there a sin to confess, a promise to trust, a command to obey, an example to follow, or a truth about God to worship?\n\nThen share it. Teaching others is one of the best ways to learn (2 Timothy 2:2).",
+          "refs": ["John 17:17", "2 Corinthians 3:18", "2 Timothy 2:2"]
+        }
+      ],
+      "terms": [
+        { "term": "Application", "def": "Bringing a passage's meaning into present belief and practice." },
+        { "term": "Timeless principle", "def": "The lasting truth behind a command or event, which carries over to today." },
+        { "term": "Proof-texting", "def": "Using a verse out of context to support an idea." },
+        { "term": "Transformation", "def": "Being changed into Christ's likeness through the truth." },
+        { "term": "Original readers", "def": "The first people to whom a book or letter was written." },
+        { "term": "Spiritualising", "def": "Treating a literal or specific statement as a general spiritual promise without warrant." }
+      ],
+      "texts": [
+        { "ref": "1 Corinthians 8:9", "teaches": "Do not let your liberty become a stumbling block to the weak." },
+        { "ref": "Romans 15:4", "teaches": "What was written before was written for our learning and hope." },
+        { "ref": "Matthew 22:29", "teaches": "Error comes from not knowing the Scriptures or God's power." },
+        { "ref": "2 Corinthians 3:18", "teaches": "Beholding the Lord's glory, believers are changed into His image." },
+        { "ref": "2 Timothy 2:2", "teaches": "Commit what you have learned to faithful people who can teach others." }
+      ],
+      "summary": [
+        "Apply in three steps: meaning then, timeless principle, application now.",
+        "Avoid proof-texting, allegorising and building doctrine on one verse.",
+        "Aim for transformation, not just information.",
+        "Ask what to confess, trust, obey, follow or worship, and share it."
+      ],
+      "questions": [
+        { "q": "What is the second step in applying a passage?", "options": ["Find the timeless principle", "Choose a favourite verse", "Ask a friend's opinion", "Skip to personal feelings"], "answer": 0 },
+        { "q": "What is proof-texting?", "options": ["Quoting a verse out of context to support an idea", "Checking cross-references", "Reading a whole book", "Memorising Scripture"], "answer": 0 },
+        { "q": "What principle comes from 1 Corinthians 8?", "options": ["Do not use your freedom to make a weaker believer stumble", "Never eat meat", "Idols have real power", "Freedom has no limits"], "answer": 0 },
+        { "q": "According to Matthew 22:29, why did the Sadducees err?", "options": ["They did not know the Scriptures nor God's power", "They read too much", "They were too humble", "They trusted the prophets"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What is the difference between exegesis and eisegesis?", "keywords": [["out", "draw", "drawing"], ["into", "own ideas", "reading in"]], "model": "Exegesis draws the meaning out of the text; eisegesis reads one's own ideas into it." },
+      { "q": "Why is context so important in interpretation?", "keywords": [["meaning", "mean"], ["surround", "passage", "chapter", "book"], ["twist", "pretext", "wrong", "mislead"]], "model": "Because the surrounding words, passage and book determine a verse's meaning; without context a verse can be twisted to mean almost anything." },
+      { "q": "How do Romans 3:28 and James 2:24 fit together?", "keywords": [["faith"], ["works"], ["show", "shown", "evidence", "real", "true"]], "model": "We are justified before God by faith alone, and true faith is shown to be real by works; saving faith is a working faith." },
+      { "q": "How should proverbs be read?", "keywords": [["general", "usually", "principle"], ["not", "guarantee", "promise"]], "model": "As general wisdom about how life usually works, not as guaranteed promises for every case." },
+      { "q": "What three steps help apply a passage today?", "keywords": [["then", "original", "them", "first readers"], ["principle", "timeless"], ["now", "today", "me", "apply"]], "model": "Ask what it meant to the original readers, find the timeless principle, and apply that principle to life now." },
+      { "q": "Why should a doctrine not be built on a single verse?", "keywords": [["whole", "all", "rest of Scripture"], ["context", "balance", "harmony", "contradict"]], "model": "Because Scripture must be read as a whole; gathering all it says keeps doctrine balanced and in harmony with the rest of the Bible." }
+    ],
+    "lists": [
+      { "q": "List the three steps of the Bible study method taught in this course.", "items": [["observation", "observe"], ["interpretation", "interpret"], ["application", "apply"]], "need": 3 },
+      { "q": "List four kinds of writing (genres) found in the Bible.", "items": [["narrative", "history", "story"], ["law"], ["poetry", "psalms"], ["wisdom", "proverbs"], ["prophecy", "prophetic"], ["parable"], ["letter", "epistle"], ["apocalyptic", "revelation"]], "need": 4 },
+      { "q": "List three common errors in interpretation.", "items": [["proof-texting", "proof texting", "out of context"], ["allegorising", "allegorizing", "allegory"], ["eisegesis", "own ideas"], ["experience"], ["one verse"], ["spiritualising", "spiritualizing"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Study a passage", "prompt": "Choose one of these passages: Psalm 23, Luke 15:11-32, or Philippians 2:1-11. Write up your study in three sections: Observation (what it says), Interpretation (what it means in context, with at least two cross-references), and Application (how it applies today).", "words": "600–800" },
+    { "title": "Correcting a misused verse", "prompt": "Choose a verse you have heard used out of context (for example Jeremiah 29:11, Matthew 18:20 or Philippians 4:13). Explain how it is commonly used, what it means in its context, and how it can be applied faithfully.", "words": "400–600" }
+  ],
+  "examMinutes": 75,
+  "reading": [
+    "Gordon D. Fee and Douglas Stuart, How to Read the Bible for All Its Worth",
+    "Howard G. Hendricks and William D. Hendricks, Living by the Book",
+    "Louis Berkhof, Principles of Biblical Interpretation"
+  ]
+}

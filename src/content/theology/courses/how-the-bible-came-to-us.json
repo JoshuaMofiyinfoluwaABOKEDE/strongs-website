@@ -1,0 +1,240 @@
+{
+  "slug": "how-the-bible-came-to-us",
+  "title": "How the Bible Came to Us",
+  "track": "foundations",
+  "level": "Foundation",
+  "summary": "How the books of the Bible were written, recognised, copied, preserved and translated into our languages.",
+  "description": "Many believers have never asked how the Bible reached them. This course traces the journey: how God's Word was written over many centuries, how the church recognised which books belong in the Bible, how scribes copied them faithfully, and how translators, including the makers of the King James Version, brought them into the languages of the world.",
+  "objectives": [
+    "Explain how the Old and New Testaments were written and gathered",
+    "Show how the church recognised the canon of Scripture",
+    "Describe how the text was copied and preserved",
+    "Trace the history of Bible translation, especially into English and Nigerian languages"
+  ],
+  "outcomes": [
+    "Describe the Bible's structure: two testaments, sixty-six books",
+    "Explain the tests used to recognise the canon",
+    "Explain why the Apocrypha is not part of the Protestant Bible",
+    "Describe how manuscripts help us know the original text",
+    "Outline the story of the English Bible and the King James Version"
+  ],
+  "modules": [
+    {
+      "title": "One Book, Many Writers",
+      "intro": "The Bible is a library of sixty-six books written over about 1,500 years. This week we meet its shape and its writers.",
+      "lessons": [
+        {
+          "title": "Two testaments, sixty-six books",
+          "body": "The Protestant Bible has 39 books in the Old Testament and 27 in the New. The Old Testament was written mostly in Hebrew, with a few parts in Aramaic. The New Testament was written in Greek, the common language of the Roman world.\n\nAbout forty writers took part: kings, shepherds, priests, prophets, fishermen, a tax collector and a doctor. They wrote law, history, poetry, prophecy, gospels, letters and apocalyptic visions.\n\nYet the Bible tells one story: God's plan to redeem a people through Christ. Jesus said the Scriptures \"testify of me\" (John 5:39).",
+          "refs": ["John 5:39", "Luke 24:44", "Hebrews 1:1-2"]
+        },
+        {
+          "title": "How the Old Testament was written",
+          "body": "God commanded Moses to write (Exodus 17:14; 34:27). The law was kept beside the ark (Deuteronomy 31:24-26). Later prophets wrote at God's word, and the scrolls were treasured and read publicly (Jeremiah 36:2; Nehemiah 8:1-8).\n\nBy the time of Jesus, the Jews recognised a fixed collection, often called \"the law, the prophets and the psalms\" (Luke 24:44). Jesus and the apostles quoted it as Scripture, never correcting its contents.\n\nThis is the same collection Protestants call the Old Testament, arranged differently.",
+          "refs": ["Exodus 17:14", "Deuteronomy 31:24-26", "Nehemiah 8:1-8"]
+        },
+        {
+          "title": "How the New Testament was written",
+          "body": "The New Testament was written within the lifetime of the apostles and their companions, roughly AD 45 to 95. Matthew and John were apostles; Mark worked with Peter; Luke with Paul. Paul wrote letters to churches and individuals.\n\nThe apostles knew they wrote with Christ's authority. Paul said his words were \"the commandments of the Lord\" (1 Corinthians 14:37). Peter placed Paul's letters alongside \"the other scriptures\" (2 Peter 3:16).\n\nLetters were read in churches and shared between them (Colossians 4:16).",
+          "refs": ["1 Corinthians 14:37", "2 Peter 3:15-16", "Colossians 4:16"]
+        }
+      ],
+      "terms": [
+        { "term": "Testament", "def": "A covenant; the Bible's two main parts, Old and New." },
+        { "term": "Hebrew", "def": "The main language in which the Old Testament was written." },
+        { "term": "Koine Greek", "def": "The common Greek of the Roman world, in which the New Testament was written." },
+        { "term": "Aramaic", "def": "A related language used in parts of Daniel and Ezra." },
+        { "term": "Scroll", "def": "A long roll of papyrus or leather on which ancient books were written." },
+        { "term": "Epistle", "def": "A letter, such as those written by Paul, Peter and John." }
+      ],
+      "texts": [
+        { "ref": "John 5:39", "teaches": "The Scriptures testify of Christ." },
+        { "ref": "Luke 24:44", "teaches": "The law, the prophets and the psalms speak of Christ." },
+        { "ref": "Deuteronomy 31:26", "teaches": "The book of the law was kept beside the ark as a witness." },
+        { "ref": "2 Peter 3:16", "teaches": "Peter counted Paul's letters among the Scriptures." },
+        { "ref": "Colossians 4:16", "teaches": "Apostolic letters were read in and shared between churches." }
+      ],
+      "summary": [
+        "The Bible is sixty-six books by about forty writers over about 1,500 years.",
+        "The Old Testament was written mainly in Hebrew, the New in Greek.",
+        "Jesus received the Old Testament as Scripture.",
+        "The apostles wrote with Christ's authority, and the churches read their writings."
+      ],
+      "questions": [
+        { "q": "How many books are in the Protestant Old Testament?", "options": ["39", "27", "46", "66"], "answer": 0 },
+        { "q": "In what language was the New Testament written?", "options": ["Greek", "Latin", "Hebrew", "English"], "answer": 0 },
+        { "q": "Which apostle placed Paul's letters alongside \"the other scriptures\"?", "options": ["Peter", "John", "James", "Jude"], "answer": 0 },
+        { "q": "What phrase does Luke 24:44 use for the Old Testament?", "options": ["The law, the prophets and the psalms", "The books of Moses only", "The Septuagint", "The Apocrypha"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Canon of Scripture",
+      "intro": "Who decided which books belong in the Bible? This week we learn what the canon is and how it was recognised.",
+      "lessons": [
+        {
+          "title": "Recognised, not created",
+          "body": "*Canon* means a measuring rod or rule. The canon of Scripture is the list of books that are God's Word.\n\nThe church did not *make* books into Scripture. God inspired them; the church *recognised* them, as sheep recognise their shepherd's voice (John 10:27). A book was Scripture the moment God breathed it out.\n\nThis matters. Our confidence rests not on a church council's vote but on God, who gave His Word and guided His people to receive it.",
+          "refs": ["John 10:27", "2 Timothy 3:16", "1 Thessalonians 2:13"]
+        },
+        {
+          "title": "Tests the early church used",
+          "body": "In the early centuries, churches asked several questions of a book:\n\n- **Apostolic:** was it written by an apostle or a close companion?\n- **Orthodox:** did it agree with the faith already received (Galatians 1:8)?\n- **Ancient and universal:** had it been read in the churches from the beginning, widely and not just in one place?\n- **Spiritual power:** did it bear the marks of God's voice?\n\nBy about AD 367 the bishop Athanasius listed the 27 books of our New Testament, and councils in North Africa (Hippo, 393; Carthage, 397) confirmed the same list.",
+          "refs": ["Galatians 1:8-9", "Ephesians 2:20", "Jude 1:3"]
+        },
+        {
+          "title": "The Apocrypha",
+          "body": "Roman Catholic and Orthodox Bibles include extra books, such as Tobit, Judith and 1 and 2 Maccabees, called the Apocrypha or Deuterocanonical books.\n\nProtestants, including Baptists and Pentecostal churches such as Deeper Life, do not count them as Scripture, for several reasons: the Jews never included them in their Hebrew Scriptures; Jesus and the apostles never quote them as Scripture; and some teach things contrary to the rest of the Bible, such as prayers for the dead (2 Maccabees 12).\n\nThey can be read as history, but not as God's Word. The original 1611 King James Version printed them between the Testaments, clearly separated.",
+          "refs": ["Romans 3:1-2", "Luke 11:50-51", "Revelation 22:18"]
+        }
+      ],
+      "terms": [
+        { "term": "Canon", "def": "The list of books recognised as inspired Scripture; literally a measuring rod." },
+        { "term": "Apostolicity", "def": "The test of whether a book came from an apostle or a close associate." },
+        { "term": "Orthodoxy", "def": "Agreement with the faith already received from God." },
+        { "term": "Apocrypha", "def": "Extra books in Catholic and Orthodox Bibles that Protestants do not count as Scripture." },
+        { "term": "Athanasius", "def": "A bishop of Alexandria whose letter of AD 367 listed the 27 New Testament books." },
+        { "term": "Pseudepigrapha", "def": "Ancient writings falsely claiming famous authors, such as the Gospel of Thomas." }
+      ],
+      "texts": [
+        { "ref": "John 10:27", "teaches": "Christ's sheep hear and recognise His voice." },
+        { "ref": "1 Thessalonians 2:13", "teaches": "The believers received the apostles' message as the word of God." },
+        { "ref": "Galatians 1:8", "teaches": "Any gospel contrary to the one received is accursed." },
+        { "ref": "Ephesians 2:20", "teaches": "The church is built on the foundation of the apostles and prophets." },
+        { "ref": "Romans 3:2", "teaches": "The oracles of God were committed to the Jews." }
+      ],
+      "summary": [
+        "The canon is the list of books that are God's Word.",
+        "The church recognised the canon; it did not create it.",
+        "Books were tested for apostolic origin, orthodoxy, wide use and spiritual power.",
+        "Protestants do not accept the Apocrypha as Scripture."
+      ],
+      "questions": [
+        { "q": "What does \"canon\" literally mean?", "options": ["A measuring rod or rule", "A church council", "A holy scroll", "A translation"], "answer": 0 },
+        { "q": "Which statement is correct?", "options": ["The church recognised Scripture that God had already inspired", "A council made books inspired by voting", "Each Christian chooses his own canon", "The canon was fixed in 1611"], "answer": 0 },
+        { "q": "Why do Protestants not accept the Apocrypha as Scripture?", "options": ["The Jews did not include it and the apostles never quote it as Scripture", "It was written in English", "It was lost until the 1900s", "It contains no history"], "answer": 0 },
+        { "q": "Who listed the 27 New Testament books in AD 367?", "options": ["Athanasius", "Augustine", "Martin Luther", "John Wycliffe"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Copied and Preserved",
+      "intro": "We do not have the original papers, but we have thousands of copies. This week we see how the text was preserved.",
+      "lessons": [
+        {
+          "title": "Careful scribes",
+          "body": "For centuries the Bible was copied by hand. Jewish scribes treated the Hebrew Scriptures with great care, counting letters and lines to catch mistakes. Later scholars called the Masoretes (about AD 500 to 1000) preserved the Hebrew text with vowel marks and notes.\n\nIn 1947 the Dead Sea Scrolls were found, including a complete scroll of Isaiah about a thousand years older than the copies known before. It matched the later text remarkably closely, showing how faithfully the Old Testament had been preserved.\n\nGod said His word would endure (Isaiah 40:8), and history bears it out.",
+          "refs": ["Isaiah 40:8", "Psalm 119:89", "Matthew 24:35"]
+        },
+        {
+          "title": "Thousands of manuscripts",
+          "body": "The New Testament survives in over 5,000 Greek manuscripts, plus thousands of early translations and quotations by early Christian writers. No other ancient book comes close. For most Greek and Latin classics we have only a handful of copies, made centuries later.\n\nWith so many copies, scholars can compare them and see where a scribe slipped. Most differences are tiny: spelling, word order, a missing word.\n\nNo doctrine of the faith depends on a doubtful reading. Our Bibles faithfully give us what the writers wrote.",
+          "refs": ["1 Peter 1:23-25", "Luke 1:3-4"]
+        },
+        {
+          "title": "Different Greek texts",
+          "body": "Translators work from printed Greek texts based on the manuscripts. The King James Version (1611) used the *Textus Receptus*, based on later Byzantine manuscripts that were the majority in use for centuries. Most modern versions use a text based more on older manuscripts discovered later.\n\nThis explains why some verses, such as the ending of Mark (16:9-20) or 1 John 5:7, read differently in some modern Bibles. Christians hold different views on which text is best.\n\nThis school uses the KJV for its references. Both families of texts teach the same gospel and the same doctrines.",
+          "refs": ["Mark 16:9-20", "1 John 5:7", "Proverbs 30:5-6"]
+        }
+      ],
+      "terms": [
+        { "term": "Manuscript", "def": "A handwritten copy of a text." },
+        { "term": "Scribe", "def": "A person trained to copy texts by hand." },
+        { "term": "Masoretes", "def": "Jewish scholars who carefully preserved the Hebrew Old Testament text." },
+        { "term": "Dead Sea Scrolls", "def": "Ancient scrolls found from 1947, including very early copies of Old Testament books." },
+        { "term": "Textus Receptus", "def": "The printed Greek New Testament on which the King James Version was based." },
+        { "term": "Textual criticism", "def": "The careful study of manuscripts to recover the original wording." }
+      ],
+      "texts": [
+        { "ref": "Psalm 119:89", "teaches": "God's word is settled for ever in heaven." },
+        { "ref": "Matthew 24:35", "teaches": "Heaven and earth shall pass away, but Christ's words shall not." },
+        { "ref": "1 Peter 1:25", "teaches": "The word of the Lord endures for ever." },
+        { "ref": "Luke 1:3-4", "teaches": "Luke wrote an orderly account so readers could know the certainty of what they were taught." },
+        { "ref": "Proverbs 30:6", "teaches": "Do not add to God's words." }
+      ],
+      "summary": [
+        "Scribes copied the Scriptures with great care for centuries.",
+        "The Dead Sea Scrolls showed the Old Testament text was faithfully preserved.",
+        "The New Testament has far more manuscripts than any other ancient book.",
+        "Differences between texts are mostly minor and affect no doctrine of the faith."
+      ],
+      "questions": [
+        { "q": "What did the Dead Sea Scroll of Isaiah show?", "options": ["The text had been preserved very faithfully", "Isaiah was written in Greek", "Many chapters were missing", "The book was written after Christ"], "answer": 0 },
+        { "q": "About how many Greek manuscripts of the New Testament survive?", "options": ["Over 5,000", "About 12", "Exactly 27", "None"], "answer": 0 },
+        { "q": "The King James Version's New Testament is based on:", "options": ["The Textus Receptus", "The Dead Sea Scrolls", "The Latin Vulgate only", "The Apocrypha"], "answer": 0 },
+        { "q": "Do differences between manuscripts change any doctrine of the faith?", "options": ["No; no doctrine depends on a doubtful reading", "Yes, many doctrines", "Only the doctrine of God", "We cannot know"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Translated for Every Nation",
+      "intro": "God wants every people to hear His Word. This week traces Bible translation from Wycliffe to the King James Version and into Nigerian languages.",
+      "lessons": [
+        {
+          "title": "The English Bible",
+          "body": "In the 1380s John Wycliffe's followers translated the Latin Bible into English by hand. William Tyndale translated the New Testament from Greek and printed it in 1526; he was executed in 1536, praying \"Lord, open the King of England's eyes.\"\n\nOther versions followed: the Coverdale, the Geneva Bible and the Bishops' Bible. In 1604 King James I approved a new translation. About fifty scholars worked for seven years, and the **Authorised (King James) Version** appeared in 1611.\n\nIts language shaped English for centuries, and it is still loved and used across Nigeria today.",
+          "refs": ["Acts 2:6-11", "Psalm 68:11"]
+        },
+        {
+          "title": "Bibles in Nigerian languages",
+          "body": "Missionaries and Nigerian scholars have translated the Bible into many of the nation's languages. Samuel Ajayi Crowther, a freed slave who became the first African Anglican bishop, led early translation work into Yoruba; the complete Yoruba Bible appeared in the 1880s. The Igbo Union Bible followed in 1913, and the Hausa Bible in 1932.\n\nTranslation continues today, because \"faith cometh by hearing\" (Romans 10:17), and people hear best in their heart language.\n\nRevelation pictures worshippers from \"every kindred, and tongue, and people, and nation\" (Revelation 5:9).",
+          "refs": ["Romans 10:14-17", "Revelation 5:9", "Revelation 7:9"]
+        },
+        {
+          "title": "Choosing and using a translation",
+          "body": "Translations differ in approach. Some, like the KJV, follow the original words closely (formal equivalence). Others aim to give the sense in natural modern speech (dynamic equivalence). Paraphrases go further and should not be used for careful study.\n\nA good practice is to use a word-for-word translation such as the KJV for study and memory, and to compare other faithful versions when a passage is hard.\n\nWhatever version we use, the goal is the same: to hear God speak and to obey Him (Nehemiah 8:8).",
+          "refs": ["Nehemiah 8:8", "2 Timothy 2:15", "Acts 8:30-31"]
+        }
+      ],
+      "terms": [
+        { "term": "Translation", "def": "Putting the Bible from its original languages into another language." },
+        { "term": "William Tyndale", "def": "Translator of the first printed English New Testament from Greek, martyred in 1536." },
+        { "term": "Authorised Version", "def": "Another name for the King James Version of 1611." },
+        { "term": "Formal equivalence", "def": "A translation approach that follows the original words closely." },
+        { "term": "Dynamic equivalence", "def": "A translation approach that gives the sense in natural modern speech." },
+        { "term": "Samuel Ajayi Crowther", "def": "Nigerian bishop who led early Bible translation into Yoruba." }
+      ],
+      "texts": [
+        { "ref": "Acts 2:6", "teaches": "At Pentecost each person heard the gospel in his own language." },
+        { "ref": "Revelation 5:9", "teaches": "Christ redeemed people of every kindred, tongue and nation." },
+        { "ref": "Nehemiah 8:8", "teaches": "The law was read distinctly and its sense explained." },
+        { "ref": "Acts 8:31", "teaches": "People often need help to understand what they read." },
+        { "ref": "Psalm 68:11", "teaches": "The Lord gave the word, and great was the company that published it." }
+      ],
+      "summary": [
+        "Wycliffe and Tyndale pioneered the English Bible; the KJV appeared in 1611.",
+        "Nigerian translators such as Samuel Ajayi Crowther brought the Bible into Nigerian languages.",
+        "Translations differ between word-for-word and sense-for-sense approaches.",
+        "Use a faithful word-for-word version for study, and compare others when needed."
+      ],
+      "questions": [
+        { "q": "Who printed the first English New Testament translated from Greek?", "options": ["William Tyndale", "King James I", "Martin Luther", "John Calvin"], "answer": 0 },
+        { "q": "When was the King James Version first published?", "options": ["1611", "1526", "1382", "1913"], "answer": 0 },
+        { "q": "Who led early Bible translation into Yoruba?", "options": ["Samuel Ajayi Crowther", "William Tyndale", "Mary Slessor", "John Wycliffe"], "answer": 0 },
+        { "q": "A translation that follows the original words closely uses:", "options": ["Formal equivalence", "Paraphrase", "Dynamic equivalence", "Summary"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What is the canon of Scripture, and who decides it?", "keywords": [["list", "books"], ["God", "inspired"], ["recognised", "recognized", "received"]], "model": "The canon is the list of books that are God's Word. God decides it by inspiring the books; the church recognised them." },
+      { "q": "Name two tests the early church used to recognise New Testament books.", "keywords": [["apostle", "apostolic"], ["orthodox", "agree", "faith"], ["ancient", "widely", "universal", "read in the churches"]], "model": "Whether a book came from an apostle or close companion, and whether it agreed with the faith already received; also whether it was widely read from the beginning." },
+      { "q": "Why do Protestants reject the Apocrypha as Scripture?", "keywords": [["Jews", "Hebrew"], ["Jesus", "apostles", "quote"], ["contrary", "error", "dead", "disagree"]], "model": "The Jews never included it in the Hebrew Scriptures, Jesus and the apostles never quote it as Scripture, and parts of it teach things contrary to the Bible." },
+      { "q": "Why are so many manuscripts helpful?", "keywords": [["compare", "comparing"], ["mistake", "error", "slip", "differences"], ["original", "wording"]], "model": "By comparing thousands of copies, scholars can see where scribes made mistakes and recover the original wording." },
+      { "q": "What did the Dead Sea Scrolls show about the Old Testament?", "keywords": [["older", "earlier", "thousand"], ["faithful", "preserved", "matched", "same"]], "model": "They contained copies about a thousand years older than those known before, which matched the later text closely, showing it had been faithfully preserved." },
+      { "q": "Why does Bible translation into local languages matter?", "keywords": [["hear", "hearing", "understand"], ["faith", "salvation", "saved"], ["language", "tongue"]], "model": "Because faith comes by hearing the word of God, and people understand it best in their own language." }
+    ],
+    "lists": [
+      { "q": "List the three original languages of the Bible.", "items": [["Hebrew"], ["Aramaic"], ["Greek"]], "need": 3 },
+      { "q": "List three English Bible translators or translations mentioned in this course.", "items": [["Wycliffe"], ["Tyndale"], ["Coverdale"], ["Geneva"], ["Bishops"], ["King James", "Authorised", "KJV"]], "need": 3 },
+      { "q": "List three Nigerian languages with complete Bibles mentioned in this course.", "items": [["Yoruba"], ["Igbo"], ["Hausa"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Answering a sceptic", "prompt": "A friend says, \"The Bible has been changed so many times that we cannot know what it originally said.\" Write a respectful, clear answer using what you learned about manuscripts, the canon and translation.", "words": "500–700" },
+    { "title": "The Bible in my language", "prompt": "Find out what you can about the Bible in your own mother tongue: when it was translated and by whom. If no complete Bible exists, explain what is available. Reflect on what it means to hear God's Word in your heart language.", "words": "400–600" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "F. F. Bruce, The Books and the Parchments",
+    "F. F. Bruce, The Canon of Scripture",
+    "Neil R. Lightfoot, How We Got the Bible"
+  ]
+}

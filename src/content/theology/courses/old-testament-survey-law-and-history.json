@@ -1,0 +1,288 @@
+{
+  "slug": "old-testament-survey-law-and-history",
+  "title": "Old Testament Survey I: Law and History",
+  "track": "survey",
+  "level": "Foundation",
+  "summary": "Genesis to Esther: creation, the patriarchs, the exodus, the conquest, the kings, the exile and the return.",
+  "description": "This course walks through the first seventeen books of the Old Testament, from creation to the return from exile. For each section it gives the main events, people and themes, and shows how each step of the story prepares for the coming of Christ, the promised Seed and King.",
+  "objectives": [
+    "Give a clear outline of the Old Testament story from Genesis to Esther",
+    "Introduce the main people, places and events of each period",
+    "Explain the covenants God made with Noah, Abraham, Israel and David",
+    "Show how the history points forward to Christ"
+  ],
+  "outcomes": [
+    "Place the main Old Testament events in order",
+    "Summarise the message of each book from Genesis to Esther",
+    "Explain the Abrahamic, Mosaic and Davidic covenants",
+    "Describe the causes of the exile and the meaning of the return",
+    "Trace the promise of a Saviour through Israel's history"
+  ],
+  "modules": [
+    {
+      "title": "Beginnings: Genesis",
+      "intro": "Genesis is the book of beginnings: creation, the fall, the flood, the nations and the patriarchs.",
+      "lessons": [
+        {
+          "title": "Creation, fall and flood (Genesis 1-11)",
+          "body": "Genesis opens with God creating all things by His word and making man and woman in His image (Genesis 1:26-27). Adam and Eve disobeyed, and sin and death entered the world (Genesis 3).\n\nYet God gave the first gospel promise: the seed of the woman would bruise the serpent's head (Genesis 3:15).\n\nSin spread until God judged the world by the flood, saving Noah and his family in the ark, and making a covenant never again to destroy the earth by water (Genesis 9:11). At Babel, human pride was scattered into nations (Genesis 11).",
+          "refs": ["Genesis 1:26-27", "Genesis 3:15", "Genesis 9:11"]
+        },
+        {
+          "title": "Abraham and the promise (Genesis 12-25)",
+          "body": "God called Abram from Ur to a land He would show him, promising land, a great nation and blessing: \"in thee shall all families of the earth be blessed\" (Genesis 12:3).\n\nAbram believed God, \"and he counted it to him for righteousness\" (Genesis 15:6), the verse Paul uses to explain justification by faith (Romans 4:3). God confirmed His covenant, gave circumcision as its sign, and gave Isaac, the son of promise, in old age.\n\nAbraham's willingness to offer Isaac on Moriah, and God's provision of a ram, foreshadow the Father giving His Son (Genesis 22).",
+          "refs": ["Genesis 12:1-3", "Genesis 15:6", "Genesis 22:8-14"]
+        },
+        {
+          "title": "Isaac, Jacob and Joseph (Genesis 25-50)",
+          "body": "The promise passed to Isaac, then to Jacob, whom God renamed Israel. Jacob's twelve sons became the fathers of the twelve tribes.\n\nJoseph, sold by his brothers into Egypt, was raised by God to rule and save many lives in famine. He told his brothers, \"ye thought evil against me; but God meant it unto good\" (Genesis 50:20), a key text on providence.\n\nGenesis ends with Israel's family in Egypt and Jacob's prophecy that the sceptre would not depart from Judah \"until Shiloh come\" (Genesis 49:10), pointing to the coming King.",
+          "refs": ["Genesis 28:13-15", "Genesis 50:20", "Genesis 49:10"]
+        }
+      ],
+      "terms": [
+        { "term": "Patriarchs", "def": "The founding fathers of Israel: Abraham, Isaac and Jacob." },
+        { "term": "Protoevangelium", "def": "The 'first gospel' promise of Genesis 3:15." },
+        { "term": "Abrahamic covenant", "def": "God's promise to Abraham of land, descendants and blessing to all nations." },
+        { "term": "Circumcision", "def": "The sign of God's covenant with Abraham and his descendants." },
+        { "term": "Twelve tribes", "def": "The families descended from Jacob's twelve sons, forming the nation of Israel." },
+        { "term": "Shiloh", "def": "A name in Genesis 49:10 understood as the coming ruler from Judah." }
+      ],
+      "texts": [
+        { "ref": "Genesis 3:15", "teaches": "The seed of the woman will crush the serpent's head." },
+        { "ref": "Genesis 12:3", "teaches": "In Abraham all families of the earth will be blessed." },
+        { "ref": "Genesis 15:6", "teaches": "Abraham believed God and it was counted to him for righteousness." },
+        { "ref": "Genesis 50:20", "teaches": "God meant for good what people meant for evil." },
+        { "ref": "Genesis 49:10", "teaches": "The sceptre will not depart from Judah until the coming ruler." }
+      ],
+      "summary": [
+        "Genesis 1-11: creation, fall, flood and Babel.",
+        "Genesis 3:15 gives the first promise of a Saviour.",
+        "God's covenant with Abraham promises a people, a land and blessing to the nations.",
+        "Through Joseph, God preserves Israel in Egypt; Judah will produce the King."
+      ],
+      "questions": [
+        { "q": "Which verse is called the first gospel promise?", "options": ["Genesis 3:15", "Genesis 1:1", "Genesis 12:1", "Genesis 50:20"], "answer": 0 },
+        { "q": "Which verse does Paul use to show justification by faith?", "options": ["Genesis 15:6", "Genesis 9:11", "Genesis 22:2", "Genesis 49:10"], "answer": 0 },
+        { "q": "Who said, \"ye thought evil against me; but God meant it unto good\"?", "options": ["Joseph", "Jacob", "Abraham", "Moses"], "answer": 0 },
+        { "q": "From which tribe would the sceptre come?", "options": ["Judah", "Levi", "Joseph", "Benjamin"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Redemption and Law: Exodus to Deuteronomy",
+      "intro": "God redeems Israel from Egypt, gives His law at Sinai, dwells among them and leads them to the edge of the promised land.",
+      "lessons": [
+        {
+          "title": "The exodus",
+          "body": "Israel multiplied in Egypt and was cruelly enslaved. God called Moses at the burning bush, revealing His name, \"I AM THAT I AM\" (Exodus 3:14).\n\nAfter ten plagues, the last was the death of the firstborn. Families who killed a lamb and put its blood on their doorposts were passed over: \"when I see the blood, I will pass over you\" (Exodus 12:13). God then brought Israel through the Red Sea.\n\nThe Passover is a clear picture of Christ: \"Christ our passover is sacrificed for us\" (1 Corinthians 5:7).",
+          "refs": ["Exodus 3:14", "Exodus 12:13", "1 Corinthians 5:7"]
+        },
+        {
+          "title": "Sinai, law and tabernacle",
+          "body": "At Mount Sinai God made a covenant with the redeemed nation and gave the Ten Commandments (Exodus 20). Note the order: God first saved them, then gave the law to shape their life as His people.\n\nHe also gave instructions for the tabernacle, a portable tent where His glory dwelt among them (Exodus 40:34). Leviticus explains the priesthood and sacrifices, especially the Day of Atonement (Leviticus 16), and calls Israel to holiness: \"be holy; for I am holy\" (Leviticus 11:44).\n\nHebrews shows that these were shadows fulfilled in Christ (Hebrews 9:11-12).",
+          "refs": ["Exodus 20:1-17", "Leviticus 16:30", "Hebrews 9:11-12"]
+        },
+        {
+          "title": "Wilderness and renewal",
+          "body": "In **Numbers**, Israel refused to enter Canaan through unbelief after the spies' report, and wandered forty years until that generation died (Numbers 14). Yet God provided manna, water and the bronze serpent, which Jesus applied to His cross (John 3:14).\n\n**Deuteronomy** records Moses' final sermons on the plains of Moab, renewing the covenant with the new generation. It contains the Shema, \"Hear, O Israel: The LORD our God is one LORD\" (Deuteronomy 6:4), and calls Israel to choose life by loving and obeying God (Deuteronomy 30:19-20).\n\nMoses died, and Joshua was appointed to lead.",
+          "refs": ["Numbers 14:22-24", "John 3:14-15", "Deuteronomy 6:4-5"]
+        }
+      ],
+      "terms": [
+        { "term": "Exodus", "def": "Israel's departure from slavery in Egypt under Moses." },
+        { "term": "Passover", "def": "The feast remembering God passing over homes marked by the lamb's blood." },
+        { "term": "Mosaic covenant", "def": "The covenant God made with Israel at Sinai, including the law." },
+        { "term": "Tabernacle", "def": "The portable tent where God's presence dwelt among Israel." },
+        { "term": "Day of Atonement", "def": "The yearly day when the high priest made atonement for the nation's sins." },
+        { "term": "Shema", "def": "The confession of Deuteronomy 6:4: 'The LORD our God is one LORD.'" }
+      ],
+      "texts": [
+        { "ref": "Exodus 12:13", "teaches": "God passed over the homes marked by the blood of the lamb." },
+        { "ref": "Exodus 20:2", "teaches": "God first redeemed Israel, then gave them His commandments." },
+        { "ref": "Leviticus 11:44", "teaches": "God's people must be holy because He is holy." },
+        { "ref": "John 3:14", "teaches": "As the serpent was lifted up, so the Son of man must be lifted up." },
+        { "ref": "Deuteronomy 6:4", "teaches": "The LORD our God is one LORD." }
+      ],
+      "summary": [
+        "God redeemed Israel from Egypt; the Passover lamb points to Christ.",
+        "At Sinai He gave the law to a people already redeemed.",
+        "The tabernacle and sacrifices were shadows fulfilled in Christ.",
+        "Unbelief kept a generation out of Canaan; Deuteronomy renews the covenant."
+      ],
+      "questions": [
+        { "q": "What did God say when He saw the blood on the doorposts?", "options": ["I will pass over you", "Depart from me", "Build an altar", "Cross the sea"], "answer": 0 },
+        { "q": "What is the order of salvation and law in Exodus?", "options": ["God redeemed Israel first, then gave the law", "Israel kept the law first, then was redeemed", "The law was given in Egypt", "There was no law"], "answer": 0 },
+        { "q": "Why did Israel wander forty years?", "options": ["Unbelief after the spies' report", "Moses lost the way", "Egypt pursued them", "The land was flooded"], "answer": 0 },
+        { "q": "Which book contains Moses' farewell sermons?", "options": ["Deuteronomy", "Leviticus", "Numbers", "Joshua"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Land and Judges: Joshua, Judges, Ruth",
+      "intro": "Israel enters the promised land, then falls into cycles of sin and rescue, while Ruth shows God's quiet faithfulness.",
+      "lessons": [
+        {
+          "title": "Joshua: taking the land",
+          "body": "God told Joshua, \"Be strong and of a good courage\" and to meditate on His law (Joshua 1:8-9). Israel crossed the Jordan on dry ground, and Jericho fell when they obeyed God's unusual command (Joshua 6).\n\nRahab, a Canaanite who believed, was spared and later appears in the line of Christ (Joshua 2; Matthew 1:5). Achan's hidden sin brought defeat at Ai (Joshua 7).\n\nThe land was divided among the tribes, and Joshua's final challenge still rings: \"choose you this day whom ye will serve... as for me and my house, we will serve the LORD\" (Joshua 24:15).",
+          "refs": ["Joshua 1:8-9", "Joshua 6:20", "Joshua 24:15"]
+        },
+        {
+          "title": "Judges: the downward cycle",
+          "body": "After Joshua, a generation arose \"which knew not the LORD\" (Judges 2:10). Judges follows a repeated cycle: Israel sins, God allows oppression, the people cry out, God raises a judge to deliver them, and there is rest, until they sin again.\n\nThe judges include Deborah, Gideon and Samson: flawed people used by God's grace.\n\nThe book ends in moral chaos, repeating: \"In those days there was no king in Israel: every man did that which was right in his own eyes\" (Judges 21:25). It shows the need for a righteous king.",
+          "refs": ["Judges 2:10-19", "Judges 6:12-16", "Judges 21:25"]
+        },
+        {
+          "title": "Ruth: kindness in dark days",
+          "body": "Set \"in the days when the judges ruled\" (Ruth 1:1), Ruth tells of a Moabite widow who chose Israel's God: \"thy people shall be my people, and thy God my God\" (Ruth 1:16).\n\nBoaz, a relative of her late husband, acted as **kinsman-redeemer**, buying back family land and marrying Ruth (Ruth 4:9-10). Their son Obed was the grandfather of King David (Ruth 4:17).\n\nRuth shows God's providence in ordinary life, His welcome of Gentiles, and a picture of Christ, our Kinsman-Redeemer who took our flesh to redeem us.",
+          "refs": ["Ruth 1:16", "Ruth 4:9-10", "Ruth 4:17"]
+        }
+      ],
+      "terms": [
+        { "term": "Conquest", "def": "Israel's entry into and taking of Canaan under Joshua." },
+        { "term": "Judge", "def": "A leader God raised to deliver Israel from oppressors." },
+        { "term": "Cycle of Judges", "def": "The pattern of sin, oppression, crying out, deliverance and rest." },
+        { "term": "Kinsman-redeemer", "def": "A close relative with the right and duty to buy back land or a family member." },
+        { "term": "Rahab", "def": "A Canaanite woman of Jericho who believed and was spared, an ancestor of Christ." },
+        { "term": "Moabite", "def": "A person from Moab, east of the Dead Sea, like Ruth." }
+      ],
+      "texts": [
+        { "ref": "Joshua 1:8", "teaches": "Meditating on God's law day and night brings good success." },
+        { "ref": "Joshua 24:15", "teaches": "Choose this day whom you will serve." },
+        { "ref": "Judges 21:25", "teaches": "Without a king, everyone did what was right in his own eyes." },
+        { "ref": "Ruth 1:16", "teaches": "Ruth chose Israel's God and people as her own." },
+        { "ref": "Matthew 1:5", "teaches": "Rahab and Ruth appear in the family line of Christ." }
+      ],
+      "summary": [
+        "Joshua leads Israel into Canaan by faith and obedience.",
+        "Judges shows a cycle of sin and rescue and the need for a righteous king.",
+        "Ruth shows God's providence and His welcome of Gentiles.",
+        "Boaz the kinsman-redeemer points to Christ."
+      ],
+      "questions": [
+        { "q": "Who said, \"as for me and my house, we will serve the LORD\"?", "options": ["Joshua", "Moses", "Gideon", "Boaz"], "answer": 0 },
+        { "q": "What phrase sums up the moral state at the end of Judges?", "options": ["Every man did that which was right in his own eyes", "The land had rest forty years", "The glory filled the temple", "They built the wall"], "answer": 0 },
+        { "q": "What role did Boaz play for Ruth?", "options": ["Kinsman-redeemer", "Judge", "Priest", "Prophet"], "answer": 0 },
+        { "q": "Ruth's son Obed was the grandfather of:", "options": ["David", "Samuel", "Saul", "Solomon"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Kingdom: Samuel, Kings and Chronicles",
+      "intro": "Israel gets kings: Saul, David and Solomon, then the kingdom divides and declines.",
+      "lessons": [
+        {
+          "title": "Samuel, Saul and David",
+          "body": "Samuel, born in answer to Hannah's prayer, became prophet and last judge. Israel demanded a king \"like all the nations\" (1 Samuel 8:5), rejecting God's rule. Saul began well but disobeyed, and God said, \"to obey is better than sacrifice\" (1 Samuel 15:22).\n\nGod chose David, the shepherd, for \"the LORD looketh on the heart\" (1 Samuel 16:7). David defeated Goliath, waited patiently for the throne, and made Jerusalem his capital.\n\nIn 2 Samuel 7 God promised David an everlasting throne through his offspring, fulfilled in Jesus, the Son of David (Luke 1:32-33).",
+          "refs": ["1 Samuel 15:22", "1 Samuel 16:7", "2 Samuel 7:12-16"]
+        },
+        {
+          "title": "Solomon and the divided kingdom",
+          "body": "Solomon asked for wisdom, built the temple, and the glory of God filled it (1 Kings 3:9; 8:10-11). But his many foreign wives turned his heart to idols (1 Kings 11:4).\n\nAfter his death the kingdom split (about 930 BC): ten northern tribes formed **Israel** under Jeroboam, who set up golden calves; **Judah** in the south remained under David's line in Jerusalem (1 Kings 12).\n\nKings are judged by one standard: did they do what was right in God's eyes, like David, or evil?",
+          "refs": ["1 Kings 3:9-12", "1 Kings 11:4", "1 Kings 12:16-20"]
+        },
+        {
+          "title": "Prophets, decline and fall",
+          "body": "God sent prophets to call kings and people back. Elijah confronted Ahab and the prophets of Baal on Mount Carmel: \"How long halt ye between two opinions?\" (1 Kings 18:21). Elisha continued his ministry.\n\nThe north never had a godly king. It fell to Assyria in 722 BC (2 Kings 17). Judah had some reforming kings, such as Hezekiah and Josiah, but persisted in idolatry and fell to Babylon in 586 BC, when Jerusalem and the temple were destroyed (2 Kings 25).\n\n**Chronicles** retells this history for the returned exiles, focusing on David's line and the temple.",
+          "refs": ["1 Kings 18:21", "2 Kings 17:7-18", "2 Kings 25:8-11"]
+        }
+      ],
+      "terms": [
+        { "term": "Monarchy", "def": "The period of Israel's kings, from Saul onward." },
+        { "term": "Davidic covenant", "def": "God's promise of an everlasting throne to David's offspring." },
+        { "term": "Divided kingdom", "def": "The split after Solomon into Israel (north) and Judah (south)." },
+        { "term": "Temple", "def": "The house of God built by Solomon in Jerusalem." },
+        { "term": "Baal", "def": "A Canaanite storm and fertility god whose worship led Israel astray." },
+        { "term": "Exile", "def": "The removal of God's people from their land as judgement." }
+      ],
+      "texts": [
+        { "ref": "1 Samuel 15:22", "teaches": "To obey is better than sacrifice." },
+        { "ref": "1 Samuel 16:7", "teaches": "The LORD looks on the heart." },
+        { "ref": "2 Samuel 7:16", "teaches": "David's house and throne shall be established for ever." },
+        { "ref": "1 Kings 18:21", "teaches": "Stop wavering between two opinions; follow the LORD." },
+        { "ref": "2 Kings 17:7", "teaches": "Israel fell because the people sinned against the LORD." }
+      ],
+      "summary": [
+        "Saul disobeyed; David was chosen as a man after God's heart.",
+        "God promised David an everlasting kingdom, fulfilled in Christ.",
+        "After Solomon the kingdom divided into Israel and Judah.",
+        "Despite the prophets, Israel fell to Assyria (722 BC) and Judah to Babylon (586 BC)."
+      ],
+      "questions": [
+        { "q": "What did Samuel tell Saul after his disobedience?", "options": ["To obey is better than sacrifice", "The LORD looks on the outward appearance", "Choose this day whom you will serve", "Be strong and of good courage"], "answer": 0 },
+        { "q": "Which chapter records God's covenant with David?", "options": ["2 Samuel 7", "1 Kings 18", "Judges 2", "Genesis 15"], "answer": 0 },
+        { "q": "Who confronted the prophets of Baal on Mount Carmel?", "options": ["Elijah", "Elisha", "Samuel", "Nathan"], "answer": 0 },
+        { "q": "When did Judah fall to Babylon and the temple get destroyed?", "options": ["586 BC", "722 BC", "930 BC", "1446 BC"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Exile and Return: Ezra, Nehemiah, Esther",
+      "intro": "God keeps His promise to bring His people home, rebuilds the temple and the walls, and protects them in exile.",
+      "lessons": [
+        {
+          "title": "Return and rebuilding the temple",
+          "body": "Jeremiah had prophesied seventy years of exile (Jeremiah 29:10). In 539 BC Persia conquered Babylon, and King Cyrus decreed that the Jews could return and rebuild the temple, as Isaiah had foretold by name (Ezra 1:1-4; Isaiah 44:28).\n\nUnder Zerubbabel and Jeshua, the exiles laid the foundation. Opposition stopped the work for years, until the prophets Haggai and Zechariah stirred the people, and the second temple was completed in 516 BC (Ezra 6:14-15).\n\nLater, Ezra the scribe came to teach God's law in Israel (Ezra 7:10).",
+          "refs": ["Jeremiah 29:10", "Ezra 1:1-4", "Ezra 6:14-15"]
+        },
+        {
+          "title": "Nehemiah: rebuilding the walls",
+          "body": "Nehemiah, cupbearer to the Persian king, wept and prayed when he heard Jerusalem's walls were broken (Nehemiah 1:4-11). With the king's permission he led the people to rebuild, facing mockery and threats with prayer and watchfulness: \"we made our prayer unto our God, and set a watch\" (Nehemiah 4:9).\n\nThe wall was finished in fifty-two days (Nehemiah 6:15). Ezra read the law to the people, who wept, repented and renewed the covenant (Nehemiah 8-10).\n\nNehemiah is a model of prayerful, practical leadership.",
+          "refs": ["Nehemiah 1:4-11", "Nehemiah 4:9", "Nehemiah 8:8-10"]
+        },
+        {
+          "title": "Esther: God unseen but present",
+          "body": "Esther is set among Jews who remained in Persia. God's name is never mentioned, yet His hand is everywhere. Haman plotted to destroy all Jews; Esther, made queen, risked her life to plead for her people. Mordecai asked her, \"who knoweth whether thou art come to the kingdom for such a time as this?\" (Esther 4:14).\n\nThe king honoured Mordecai, Haman was hanged, and the Jews were delivered. The feast of Purim remembers it (Esther 9).\n\nThe Old Testament history closes with God's people back in the land, waiting for the promised King.",
+          "refs": ["Esther 4:14", "Esther 4:16", "Esther 9:26-28"]
+        }
+      ],
+      "terms": [
+        { "term": "Cyrus", "def": "The Persian king whose decree allowed the Jews to return, foretold by Isaiah." },
+        { "term": "Second temple", "def": "The temple rebuilt after the exile and completed in 516 BC." },
+        { "term": "Zerubbabel", "def": "The governor of David's line who led the first return and temple rebuilding." },
+        { "term": "Nehemiah", "def": "The Persian king's cupbearer who led the rebuilding of Jerusalem's walls." },
+        { "term": "Purim", "def": "The Jewish feast remembering deliverance from Haman in Esther's day." },
+        { "term": "Remnant", "def": "The faithful part of God's people whom He preserves through judgement." }
+      ],
+      "texts": [
+        { "ref": "Jeremiah 29:10", "teaches": "After seventy years God would bring His people home." },
+        { "ref": "Isaiah 44:28", "teaches": "God named Cyrus as His shepherd to rebuild Jerusalem." },
+        { "ref": "Ezra 7:10", "teaches": "Ezra prepared his heart to seek, do and teach God's law." },
+        { "ref": "Nehemiah 4:9", "teaches": "Pray to God and keep watch against enemies." },
+        { "ref": "Esther 4:14", "teaches": "God may place a person in position for such a time as this." }
+      ],
+      "summary": [
+        "God kept His promise: Cyrus let the exiles return in 539 BC.",
+        "The temple was rebuilt and finished in 516 BC.",
+        "Nehemiah rebuilt the walls; Ezra taught the law and the people renewed the covenant.",
+        "Esther shows God's hidden providence protecting His people."
+      ],
+      "questions": [
+        { "q": "Which Persian king decreed the return of the Jews?", "options": ["Cyrus", "Nebuchadnezzar", "Ahasuerus", "Darius the Mede"], "answer": 0 },
+        { "q": "How long did it take to rebuild Jerusalem's walls under Nehemiah?", "options": ["Fifty-two days", "Seven years", "Forty days", "Seventy years"], "answer": 0 },
+        { "q": "What is unusual about the book of Esther?", "options": ["God's name is never mentioned", "It is written in Greek", "It has no Jews in it", "It is a book of law"], "answer": 0 },
+        { "q": "Which prophets stirred the people to finish the temple?", "options": ["Haggai and Zechariah", "Elijah and Elisha", "Isaiah and Jeremiah", "Amos and Hosea"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What did God promise Abraham in Genesis 12?", "keywords": [["land"], ["nation", "descendants", "seed"], ["bless", "blessing", "families", "nations"]], "model": "A land, a great nation of descendants, and that in him all families of the earth would be blessed." },
+      { "q": "How does the Passover point to Christ?", "keywords": [["lamb"], ["blood"], ["Christ", "Jesus"], ["sacrifice", "sacrificed", "death", "judgement", "pass over"]], "model": "The lamb's blood protected Israel from judgement; Christ our Passover was sacrificed so that judgement passes over those sheltered by His blood." },
+      { "q": "Describe the cycle in the book of Judges.", "keywords": [["sin", "evil"], ["oppress", "oppression", "enemies"], ["cry", "cried"], ["deliver", "judge", "rescue"]], "model": "Israel sinned, God let enemies oppress them, they cried out, God raised a judge to deliver them, and there was rest until they sinned again." },
+      { "q": "What did God promise David in 2 Samuel 7, and how was it fulfilled?", "keywords": [["throne", "kingdom", "house"], ["for ever", "everlasting", "forever"], ["Jesus", "Christ", "Son of David"]], "model": "God promised David an everlasting house, throne and kingdom through his offspring, fulfilled in Jesus Christ, the Son of David." },
+      { "q": "Why did Israel and Judah go into exile?", "keywords": [["idol", "idolatry", "sin", "disobed"], ["prophets", "warn", "warning"], ["judgement", "judgment", "punish"]], "model": "Because they persisted in idolatry and sin despite the prophets' warnings, God judged them by sending them into exile." },
+      { "q": "What does the book of Esther teach about God?", "keywords": [["providence", "hidden", "unseen", "behind"], ["protect", "deliver", "preserve", "save"]], "model": "Although God is not named, He is at work in His providence, protecting and delivering His people." }
+    ],
+    "lists": [
+      { "q": "List the three patriarchs.", "items": [["Abraham", "Abram"], ["Isaac"], ["Jacob", "Israel"]], "need": 3 },
+      { "q": "List the first three kings of united Israel.", "items": [["Saul"], ["David"], ["Solomon"]], "need": 3 },
+      { "q": "List four covenants mentioned in this course.", "items": [["Noah", "Noahic"], ["Abraham", "Abrahamic"], ["Mosaic", "Sinai", "Moses"], ["David", "Davidic"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "The promise through history", "prompt": "Trace the promise of a Saviour from Genesis 3:15 through Abraham, Judah and David. For each step, quote the KJV reference, explain what it adds, and show how the New Testament says it is fulfilled in Christ.", "words": "600–800" },
+    { "title": "Lessons from a leader", "prompt": "Choose one leader from this course (Joseph, Moses, Joshua, Gideon, Samuel, David, Nehemiah or Esther). Summarise their story, what God did through them, their strengths and failures, and two lessons for Christian leadership today.", "words": "500–700" }
+  ],
+  "examMinutes": 75,
+  "reading": [
+    "Paul R. House, Old Testament Survey",
+    "Andrew E. Hill and John H. Walton, A Survey of the Old Testament",
+    "Irving L. Jensen, Jensen's Survey of the Old Testament"
+  ]
+}

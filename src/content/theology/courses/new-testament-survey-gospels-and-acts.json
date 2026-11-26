@@ -1,0 +1,288 @@
+{
+  "slug": "new-testament-survey-gospels-and-acts",
+  "title": "New Testament Survey I: Gospels and Acts",
+  "track": "survey",
+  "level": "Foundation",
+  "summary": "The world of the New Testament, the four Gospels' portraits of Jesus, and the spread of the church in Acts.",
+  "description": "This course introduces the setting of the New Testament and surveys the four Gospels and the Acts of the Apostles. It explains why there are four Gospels, what each one emphasises, the main events of Jesus' life, death and resurrection, and how the gospel spread from Jerusalem to Rome by the power of the Holy Spirit.",
+  "objectives": [
+    "Describe the political and religious world into which Jesus came",
+    "Explain the purpose and emphasis of each Gospel",
+    "Outline the main events of the life of Christ",
+    "Trace the expansion of the church in Acts"
+  ],
+  "outcomes": [
+    "Name the groups and powers of first-century Judea",
+    "Compare Matthew, Mark, Luke and John",
+    "Place the main events of Jesus' ministry, death and resurrection in order",
+    "Outline Acts using Acts 1:8",
+    "Explain the significance of Pentecost and the Jerusalem council"
+  ],
+  "modules": [
+    {
+      "title": "The World of the New Testament",
+      "intro": "Before reading the Gospels, we meet the world Jesus entered: Rome, the Jews, the temple and the synagogue.",
+      "lessons": [
+        {
+          "title": "Rome and the Herods",
+          "body": "When Jesus was born, Judea was under the Roman Empire. Caesar Augustus ordered the census that brought Joseph and Mary to Bethlehem (Luke 2:1-7). Herod the Great, a king appointed by Rome, tried to kill the infant Jesus (Matthew 2:16).\n\nLater, Herod Antipas ruled Galilee and beheaded John the Baptist, and Pontius Pilate governed Judea (Luke 3:1).\n\nRoman roads, peace and the common Greek language helped the gospel spread quickly (Galatians 4:4).",
+          "refs": ["Luke 2:1-7", "Matthew 2:16", "Luke 3:1-2"]
+        },
+        {
+          "title": "Jewish groups and leaders",
+          "body": "Several groups appear in the Gospels:\n\n- **Pharisees:** strict keepers of the law and their traditions; often in conflict with Jesus (Matthew 23).\n- **Sadducees:** priestly aristocrats who denied the resurrection (Acts 23:8).\n- **Scribes:** experts in the law.\n- **Zealots:** nationalists seeking to overthrow Rome; Simon the disciple was one (Luke 6:15).\n- **The Sanhedrin:** the Jewish ruling council led by the high priest.\n\nMany ordinary Jews were waiting for \"the consolation of Israel\" (Luke 2:25).",
+          "refs": ["Matthew 23:1-7", "Acts 23:8", "Luke 2:25"]
+        },
+        {
+          "title": "Temple, synagogue and Messiah",
+          "body": "The **temple** in Jerusalem, rebuilt by Herod, was the centre of sacrifice and the great feasts. The **synagogue** was the local place of prayer and Scripture reading; Jesus taught in synagogues (Luke 4:16-21).\n\nThe Jews expected a **Messiah** (Greek: *Christ*, \"Anointed One\"). Many hoped for a political king to drive out Rome. Jesus came as King, but first as the suffering Servant who would give His life a ransom for many (Mark 10:45).\n\nThe Gospels show how He fulfilled the Scriptures in ways that surprised even His disciples.",
+          "refs": ["Luke 4:16-21", "Mark 10:45", "John 1:41"]
+        }
+      ],
+      "terms": [
+        { "term": "Messiah", "def": "Hebrew for 'Anointed One'; in Greek, Christ." },
+        { "term": "Pharisees", "def": "A strict Jewish party devoted to the law and their traditions." },
+        { "term": "Sadducees", "def": "A priestly Jewish party that denied the resurrection." },
+        { "term": "Sanhedrin", "def": "The Jewish ruling council in Jerusalem, led by the high priest." },
+        { "term": "Synagogue", "def": "A local Jewish meeting place for prayer and reading Scripture." },
+        { "term": "Pontius Pilate", "def": "The Roman governor of Judea who sentenced Jesus to crucifixion." }
+      ],
+      "texts": [
+        { "ref": "Luke 2:1", "teaches": "Caesar Augustus's decree brought Jesus' family to Bethlehem." },
+        { "ref": "Acts 23:8", "teaches": "The Sadducees denied the resurrection." },
+        { "ref": "Luke 4:18", "teaches": "Jesus read Isaiah in the synagogue and said it was fulfilled in Him." },
+        { "ref": "Mark 10:45", "teaches": "The Son of man came to give His life a ransom for many." },
+        { "ref": "Galatians 4:4", "teaches": "God sent His Son when the fulness of time had come." }
+      ],
+      "summary": [
+        "Jesus was born under Roman rule, in the time of Herod.",
+        "Pharisees, Sadducees, scribes and the Sanhedrin shaped Jewish life.",
+        "The temple and synagogue were centres of worship and teaching.",
+        "The Jews expected a Messiah; Jesus came as both King and suffering Servant."
+      ],
+      "questions": [
+        { "q": "Which group denied the resurrection?", "options": ["Sadducees", "Pharisees", "Zealots", "Disciples"], "answer": 0 },
+        { "q": "What does \"Messiah\" mean?", "options": ["Anointed One", "Teacher", "Prophet", "Priest"], "answer": 0 },
+        { "q": "Which Roman governor sentenced Jesus?", "options": ["Pontius Pilate", "Herod the Great", "Caesar Augustus", "Felix"], "answer": 0 },
+        { "q": "Where did Jesus read Isaiah and say it was fulfilled?", "options": ["The synagogue in Nazareth", "The temple in Jerusalem", "Pilate's hall", "The upper room"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Matthew and Mark",
+      "intro": "Matthew presents Jesus as the promised King of the Jews; Mark presents Him as the active, suffering Servant.",
+      "lessons": [
+        {
+          "title": "Why four Gospels?",
+          "body": "The four Gospels are four inspired portraits of one Lord. Matthew, Mark and Luke are called the **Synoptic** Gospels (\"seen together\") because they share much material and order. John is different, adding much not found elsewhere.\n\nEach writer selected and arranged events for his readers and purpose (John 20:30-31). Differences of detail are like witnesses describing the same event from different places; they strengthen rather than weaken the testimony.\n\nTogether they give a full picture: King, Servant, Son of man and Son of God.",
+          "refs": ["John 20:30-31", "Luke 1:1-4", "John 21:25"]
+        },
+        {
+          "title": "Matthew: the King and His kingdom",
+          "body": "Matthew, a tax collector turned apostle, wrote especially for Jewish readers. He begins with Jesus' genealogy from Abraham and David (Matthew 1:1) and often says, \"that it might be fulfilled\" (Matthew 1:22).\n\nHe groups Jesus' teaching into five great discourses, including the Sermon on the Mount (chapters 5-7), and speaks of \"the kingdom of heaven\".\n\nMatthew ends with the Great Commission: \"Go ye therefore, and teach all nations\" (Matthew 28:19-20). The King of the Jews is Lord of all nations.",
+          "refs": ["Matthew 1:1", "Matthew 5:1-12", "Matthew 28:18-20"]
+        },
+        {
+          "title": "Mark: the Servant in action",
+          "body": "Mark, linked by early tradition with Peter, is the shortest Gospel and probably written for Roman readers. It moves quickly; the word \"straightway\" (immediately) appears again and again.\n\nMark focuses on what Jesus did: healing, casting out demons, calming storms. Its key verse is Mark 10:45: the Son of man came \"not to be ministered unto, but to minister, and to give his life a ransom for many\".\n\nNearly a third of Mark covers the last week of Jesus' life. At the cross a Roman centurion confesses, \"Truly this man was the Son of God\" (Mark 15:39).",
+          "refs": ["Mark 1:1", "Mark 10:45", "Mark 15:39"]
+        }
+      ],
+      "terms": [
+        { "term": "Gospel", "def": "'Good news'; also one of the four books about Jesus' life." },
+        { "term": "Synoptic Gospels", "def": "Matthew, Mark and Luke, which share much material and order." },
+        { "term": "Kingdom of heaven", "def": "Matthew's phrase for God's reign, present in Christ and coming in fulness." },
+        { "term": "Sermon on the Mount", "def": "Jesus' teaching in Matthew 5-7 on the life of the kingdom." },
+        { "term": "Great Commission", "def": "Christ's command to make disciples of all nations (Matthew 28:19-20)." },
+        { "term": "Straightway", "def": "Mark's frequent word meaning 'immediately', showing Jesus in action." }
+      ],
+      "texts": [
+        { "ref": "John 20:31", "teaches": "The Gospel was written that you might believe and have life." },
+        { "ref": "Matthew 1:1", "teaches": "Jesus is the son of David, the son of Abraham." },
+        { "ref": "Matthew 28:19", "teaches": "Go and teach all nations, baptising them." },
+        { "ref": "Mark 1:1", "teaches": "Mark opens with the gospel of Jesus Christ, the Son of God." },
+        { "ref": "Mark 15:39", "teaches": "The centurion confessed Jesus as the Son of God." }
+      ],
+      "summary": [
+        "Four Gospels give four inspired portraits of one Christ.",
+        "Matthew presents Jesus as the promised King who fulfils Scripture.",
+        "Mark presents Jesus as the active Servant who gives His life a ransom.",
+        "Differences of detail are like faithful witnesses from different angles."
+      ],
+      "questions": [
+        { "q": "Which Gospels are called the Synoptic Gospels?", "options": ["Matthew, Mark and Luke", "Mark, Luke and John", "Matthew and John", "All four"], "answer": 0 },
+        { "q": "Which Gospel was written especially for Jewish readers and often says \"that it might be fulfilled\"?", "options": ["Matthew", "Mark", "Luke", "John"], "answer": 0 },
+        { "q": "What is the key verse of Mark?", "options": ["Mark 10:45", "Mark 1:1", "Mark 16:15", "Mark 4:39"], "answer": 0 },
+        { "q": "Where is the Sermon on the Mount?", "options": ["Matthew 5-7", "Mark 4", "Luke 15", "John 14-16"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Luke and John",
+      "intro": "Luke presents Jesus as the Saviour of all people; John presents Him as the eternal Son of God.",
+      "lessons": [
+        {
+          "title": "Luke: the Saviour of the lost",
+          "body": "Luke, a physician and companion of Paul, wrote an \"orderly\" account for Theophilus after careful investigation (Luke 1:1-4). He gives the fullest birth narrative and many parables found only in Luke, such as the Good Samaritan and the Prodigal Son (Luke 10; 15).\n\nLuke highlights Jesus' care for the poor, women, Samaritans and outcasts, and the work of the Holy Spirit and prayer.\n\nIts key verse: \"the Son of man is come to seek and to save that which was lost\" (Luke 19:10). Luke wrote Acts as volume two.",
+          "refs": ["Luke 1:1-4", "Luke 15:1-7", "Luke 19:10"]
+        },
+        {
+          "title": "John: believe and live",
+          "body": "John, \"the disciple whom Jesus loved\", wrote last, perhaps around AD 90. He opens in eternity: \"In the beginning was the Word... and the Word was God... And the Word was made flesh\" (John 1:1, 14).\n\nJohn records seven signs (miracles), such as water into wine and the raising of Lazarus, and seven \"I am\" sayings: the bread of life, the light of the world, the door, the good shepherd, the resurrection and the life, the way, the truth and the life, and the true vine.\n\nHis purpose: \"that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name\" (John 20:31).",
+          "refs": ["John 1:1-14", "John 11:25-26", "John 20:31"]
+        },
+        {
+          "title": "The ministry of Jesus",
+          "body": "Jesus' public ministry lasted about three years. It began with His baptism by John and the temptation in the wilderness (Matthew 3-4).\n\nIn Galilee He called disciples, preached the kingdom, healed the sick and taught in parables. He chose twelve apostles (Mark 3:14). At Caesarea Philippi, Peter confessed, \"Thou art the Christ, the Son of the living God\" (Matthew 16:16). From then Jesus began to teach that He must suffer, die and rise again (16:21).\n\nHe then \"stedfastly set his face to go to Jerusalem\" (Luke 9:51).",
+          "refs": ["Matthew 4:17", "Matthew 16:16-21", "Luke 9:51"]
+        }
+      ],
+      "terms": [
+        { "term": "Theophilus", "def": "The person to whom Luke addressed his Gospel and Acts." },
+        { "term": "Parable", "def": "A story Jesus told to teach a truth about the kingdom." },
+        { "term": "The Word", "def": "John's title for the eternal Son of God, who became flesh." },
+        { "term": "Signs", "def": "John's word for Jesus' miracles, which point to who He is." },
+        { "term": "I am sayings", "def": "Seven statements in John where Jesus describes Himself, such as 'I am the bread of life'." },
+        { "term": "Caesarea Philippi", "def": "Where Peter confessed Jesus as the Christ, the Son of the living God." }
+      ],
+      "texts": [
+        { "ref": "Luke 19:10", "teaches": "The Son of man came to seek and save the lost." },
+        { "ref": "John 1:14", "teaches": "The Word was made flesh and dwelt among us." },
+        { "ref": "John 14:6", "teaches": "Jesus is the way, the truth and the life." },
+        { "ref": "Matthew 16:16", "teaches": "Peter confessed Jesus as the Christ, the Son of the living God." },
+        { "ref": "Luke 9:51", "teaches": "Jesus resolutely set out for Jerusalem." }
+      ],
+      "summary": [
+        "Luke presents Jesus as the Saviour seeking the lost, including outcasts.",
+        "John presents Jesus as the eternal Word made flesh, through signs and 'I am' sayings.",
+        "Jesus' ministry lasted about three years, mainly in Galilee and Judea.",
+        "After Peter's confession, Jesus taught that He must suffer, die and rise."
+      ],
+      "questions": [
+        { "q": "Which Gospel writer was a physician?", "options": ["Luke", "Matthew", "Mark", "John"], "answer": 0 },
+        { "q": "Which Gospel contains the parable of the Prodigal Son?", "options": ["Luke", "Matthew", "Mark", "John"], "answer": 0 },
+        { "q": "How does John's Gospel begin?", "options": ["In the beginning was the Word", "The book of the generation of Jesus Christ", "The beginning of the gospel of Jesus Christ", "Forasmuch as many have taken in hand"], "answer": 0 },
+        { "q": "Where did Peter confess Jesus as the Christ?", "options": ["Caesarea Philippi", "Capernaum", "Bethany", "Jericho"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Cross and the Empty Tomb",
+      "intro": "All four Gospels slow down for the final week. This week follows Jesus from the triumphal entry to the resurrection appearances.",
+      "lessons": [
+        {
+          "title": "The final week",
+          "body": "Jesus entered Jerusalem on a donkey, fulfilling Zechariah 9:9, as crowds cried \"Hosanna\" (Matthew 21:1-11). He cleansed the temple and taught in its courts.\n\nAt the Passover meal with His disciples He washed their feet and instituted the Lord's Supper: \"this is my blood of the new testament, which is shed for many for the remission of sins\" (Matthew 26:28).\n\nIn Gethsemane He prayed, \"not my will, but thine, be done\" (Luke 22:42). Judas betrayed Him, and He was arrested and tried before the Sanhedrin, Pilate and Herod.",
+          "refs": ["Matthew 21:1-11", "Matthew 26:26-28", "Luke 22:42"]
+        },
+        {
+          "title": "The crucifixion",
+          "body": "Pilate, knowing Jesus was innocent, gave Him to be crucified. Jesus was crucified between two thieves at Golgotha. The Gospels record seven sayings from the cross, including \"Father, forgive them\" (Luke 23:34), \"My God, my God, why hast thou forsaken me?\" (Matthew 27:46) and \"It is finished\" (John 19:30).\n\nDarkness covered the land, the veil of the temple was torn in two from top to bottom (Matthew 27:51), showing the way into God's presence was opened.\n\nJesus truly died and was buried in Joseph of Arimathea's tomb.",
+          "refs": ["Luke 23:33-34", "John 19:30", "Matthew 27:50-51"]
+        },
+        {
+          "title": "He is risen",
+          "body": "On the first day of the week, women found the tomb empty. Angels said, \"He is not here: for he is risen, as he said\" (Matthew 28:6).\n\nJesus appeared to Mary Magdalene, to two disciples on the Emmaus road, to the apostles, to Thomas, and to more than five hundred at once (1 Corinthians 15:5-8). He showed His hands and side and ate with them (Luke 24:39-43).\n\nAfter forty days He ascended to heaven from the Mount of Olives, promising the Holy Spirit and His return (Acts 1:3-11).",
+          "refs": ["Matthew 28:5-7", "Luke 24:36-43", "1 Corinthians 15:3-8"]
+        }
+      ],
+      "terms": [
+        { "term": "Triumphal entry", "def": "Jesus' entry into Jerusalem on a donkey, welcomed with 'Hosanna'." },
+        { "term": "Gethsemane", "def": "The garden where Jesus prayed in agony before His arrest." },
+        { "term": "Golgotha", "def": "'The place of a skull', where Jesus was crucified." },
+        { "term": "Veil of the temple", "def": "The curtain before the most holy place, torn when Jesus died." },
+        { "term": "Resurrection", "def": "Jesus' bodily rising from the dead on the third day." },
+        { "term": "Ascension", "def": "Jesus' return to heaven forty days after His resurrection." }
+      ],
+      "texts": [
+        { "ref": "Matthew 26:28", "teaches": "Christ's blood of the new testament is shed for the remission of sins." },
+        { "ref": "Luke 23:34", "teaches": "Jesus prayed for the forgiveness of those who crucified Him." },
+        { "ref": "John 19:30", "teaches": "Jesus declared, 'It is finished.'" },
+        { "ref": "Matthew 28:6", "teaches": "He is not here: for He is risen, as He said." },
+        { "ref": "1 Corinthians 15:6", "teaches": "The risen Christ was seen by more than five hundred at once." }
+      ],
+      "summary": [
+        "Jesus entered Jerusalem as the humble King and instituted the Lord's Supper.",
+        "He was betrayed, tried and crucified; the veil was torn at His death.",
+        "He rose bodily on the third day and appeared to many witnesses.",
+        "After forty days He ascended, promising the Spirit and His return."
+      ],
+      "questions": [
+        { "q": "Which prophecy did the triumphal entry fulfil?", "options": ["Zechariah 9:9", "Isaiah 7:14", "Micah 5:2", "Malachi 3:1"], "answer": 0 },
+        { "q": "What happened to the veil of the temple when Jesus died?", "options": ["It was torn from top to bottom", "It caught fire", "It was removed by priests", "Nothing"], "answer": 0 },
+        { "q": "To how many people did Christ appear at once, according to Paul?", "options": ["More than five hundred", "Twelve", "Seventy", "Three thousand"], "answer": 0 },
+        { "q": "How long after the resurrection did Jesus ascend?", "options": ["Forty days", "Three days", "Fifty days", "Seven days"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Acts: The Gospel Goes Out",
+      "intro": "Luke's second volume shows the risen Christ, by His Spirit, spreading the gospel from Jerusalem to Rome.",
+      "lessons": [
+        {
+          "title": "Jerusalem and Pentecost",
+          "body": "Acts 1:8 outlines the book: \"ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth.\"\n\nOn the day of Pentecost the Holy Spirit came upon the disciples, and they spoke in other tongues (Acts 2:4). Peter preached Christ crucified and risen, calling, \"Repent, and be baptized\" (2:38); about three thousand were added.\n\nThe early church devoted itself to the apostles' doctrine, fellowship, breaking of bread and prayers (2:42), and endured persecution, including the martyrdom of Stephen (Acts 7).",
+          "refs": ["Acts 1:8", "Acts 2:1-4", "Acts 2:38-42"]
+        },
+        {
+          "title": "Judea, Samaria and the Gentiles",
+          "body": "Persecution scattered believers, and the gospel went to Samaria through Philip (Acts 8). Saul of Tarsus, a persecutor, met the risen Christ on the Damascus road and became Paul, apostle to the Gentiles (Acts 9).\n\nGod sent Peter to the Roman centurion Cornelius, and the Spirit fell on Gentiles as He had on the Jews (Acts 10:44-48).\n\nThe Jerusalem council (Acts 15) decided that Gentiles are saved by grace through faith, without becoming Jews through circumcision (15:11).",
+          "refs": ["Acts 8:4-8", "Acts 9:1-6", "Acts 15:7-11"]
+        },
+        {
+          "title": "To the ends of the earth",
+          "body": "From Antioch, Paul and Barnabas were sent on the first missionary journey (Acts 13:2-3). Paul made three journeys, planting churches across Asia Minor and Greece: Philippi, Thessalonica, Corinth, Ephesus.\n\nArrested in Jerusalem, Paul appealed to Caesar and was taken to Rome, surviving a shipwreck on the way (Acts 27).\n\nActs ends with Paul in Rome under house arrest, \"preaching the kingdom of God... with all confidence, no man forbidding him\" (Acts 28:31). The story is unfinished; it continues through every generation of witnesses, including ours.",
+          "refs": ["Acts 13:2-3", "Acts 16:9-10", "Acts 28:30-31"]
+        }
+      ],
+      "terms": [
+        { "term": "Pentecost", "def": "The Jewish feast fifty days after Passover, when the Holy Spirit came upon the church." },
+        { "term": "Witness", "def": "One who testifies to what he has seen and heard of Christ." },
+        { "term": "Apostle to the Gentiles", "def": "Paul's calling to take the gospel to non-Jewish nations." },
+        { "term": "Jerusalem council", "def": "The meeting in Acts 15 that confirmed Gentiles are saved by grace without circumcision." },
+        { "term": "Missionary journey", "def": "One of Paul's travels to preach and plant churches." },
+        { "term": "Antioch", "def": "The Syrian city where believers were first called Christians and from which Paul was sent." }
+      ],
+      "texts": [
+        { "ref": "Acts 1:8", "teaches": "The Spirit empowers witnesses from Jerusalem to the ends of the earth." },
+        { "ref": "Acts 2:38", "teaches": "Repent and be baptized in the name of Jesus Christ for the remission of sins." },
+        { "ref": "Acts 2:42", "teaches": "The church continued in doctrine, fellowship, breaking of bread and prayers." },
+        { "ref": "Acts 15:11", "teaches": "Jews and Gentiles are saved alike through the grace of the Lord Jesus." },
+        { "ref": "Acts 28:31", "teaches": "Paul preached the kingdom of God with confidence in Rome." }
+      ],
+      "summary": [
+        "Acts 1:8 outlines the book: Jerusalem, Judea and Samaria, the ends of the earth.",
+        "At Pentecost the Spirit came; Peter preached and thousands believed.",
+        "The gospel went to Samaritans and Gentiles; the council affirmed salvation by grace.",
+        "Paul's journeys planted churches and brought the gospel to Rome."
+      ],
+      "questions": [
+        { "q": "Which verse gives the outline of Acts?", "options": ["Acts 1:8", "Acts 2:38", "Acts 9:4", "Acts 28:31"], "answer": 0 },
+        { "q": "About how many were added on the day of Pentecost?", "options": ["Three thousand", "Five hundred", "Twelve", "Five thousand"], "answer": 0 },
+        { "q": "What did the Jerusalem council decide?", "options": ["Gentiles are saved by grace without circumcision", "Gentiles must keep the whole law", "Only Jews could be saved", "Paul must stop preaching"], "answer": 0 },
+        { "q": "Where does Acts end?", "options": ["With Paul preaching in Rome", "With Paul's death", "At Pentecost", "In Antioch"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Why are there four Gospels?", "keywords": [["four", "portrait", "different"], ["purpose", "readers", "emphasis", "angle"], ["one", "same", "Christ", "Jesus"]], "model": "They are four inspired portraits of the one Christ, each written for particular readers and purposes, giving a fuller picture together." },
+      { "q": "What is the purpose of John's Gospel, according to John 20:31?", "keywords": [["believe"], ["Christ", "Son of God"], ["life"]], "model": "That readers might believe that Jesus is the Christ, the Son of God, and believing have life through His name." },
+      { "q": "What did the tearing of the temple veil signify?", "keywords": [["way", "access", "open"], ["God", "presence", "holy"], ["death", "Christ", "sacrifice"]], "model": "That through Christ's death the way into God's presence was opened for sinners." },
+      { "q": "Give three pieces of evidence for the resurrection from the Gospels and Paul.", "keywords": [["empty tomb", "tomb"], ["appeared", "appearances", "seen", "five hundred"], ["ate", "hands", "side", "touch", "body"]], "model": "The empty tomb, the many appearances (including to over five hundred at once), and His bodily presence: showing His hands and side and eating with the disciples." },
+      { "q": "What happened at Pentecost?", "keywords": [["Holy Spirit", "Holy Ghost", "Spirit"], ["tongues"], ["Peter", "preached", "three thousand"]], "model": "The Holy Spirit came upon the disciples, who spoke in other tongues; Peter preached Christ and about three thousand were saved and baptized." },
+      { "q": "Why was the Jerusalem council (Acts 15) important?", "keywords": [["Gentiles"], ["grace", "faith"], ["circumcision", "law"]], "model": "It confirmed that Gentiles are saved by grace through faith, without needing circumcision or becoming Jews." }
+    ],
+    "lists": [
+      { "q": "List the four Gospels.", "items": [["Matthew"], ["Mark"], ["Luke"], ["John"]], "need": 4 },
+      { "q": "List four of Jesus' 'I am' sayings in John.", "items": [["bread of life", "bread"], ["light of the world", "light"], ["door"], ["good shepherd", "shepherd"], ["resurrection"], ["way", "truth"], ["vine"]], "need": 4 },
+      { "q": "List the three stages of witness in Acts 1:8.", "items": [["Jerusalem"], ["Judaea", "Judea", "Samaria"], ["uttermost", "ends of the earth", "earth"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "One Christ, four portraits", "prompt": "Choose one event recorded in at least three Gospels (for example the feeding of the five thousand or the resurrection morning). Compare the accounts, note what each adds, and explain how the differences fit together and serve each writer's purpose.", "words": "500–700" },
+    { "title": "Witnesses today", "prompt": "Using Acts 1:8 and two events from Acts, explain what it means for a believer and a local church in Nigeria to be Christ's witnesses today. Include one practical step you will take.", "words": "400–600" }
+  ],
+  "examMinutes": 75,
+  "reading": [
+    "D. A. Carson and Douglas J. Moo, An Introduction to the New Testament",
+    "Robert H. Gundry, A Survey of the New Testament",
+    "Merrill C. Tenney, New Testament Survey"
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "slug": "the-bible-revelation-and-authority",
+  "title": "The Bible: Inspiration and Authority",
+  "track": "foundations",
+  "level": "Foundation",
+  "summary": "Why Christians believe the Bible is God's Word, and what that means for how we trust and obey it.",
+  "description": "This course studies the doctrine of Scripture. It explains what the Bible claims about itself, what inspiration means, why the Bible can be trusted, and why it is the final authority for faith and life. Each truth is drawn from the Bible's own words and applied to the life of an ordinary believer.",
+  "objectives": [
+    "Show what the Bible teaches about its own inspiration",
+    "Explain why Scripture is true and trustworthy in all it affirms",
+    "Establish the authority and sufficiency of Scripture over every other source",
+    "Encourage daily, obedient use of the Bible"
+  ],
+  "outcomes": [
+    "Explain inspiration using 2 Timothy 3:16 and 2 Peter 1:21",
+    "Define infallibility and inerrancy in simple words",
+    "Show why Scripture judges tradition, experience and prophecy",
+    "Explain the sufficiency and clarity of Scripture",
+    "Build a habit of reading, believing and obeying the Bible"
+  ],
+  "modules": [
+    {
+      "title": "God-Breathed: Inspiration",
+      "intro": "What does it mean that the Bible is inspired? This week we look at the Bible's own claims.",
+      "lessons": [
+        {
+          "title": "All Scripture is given by inspiration",
+          "body": "Paul writes, \"All scripture is given by inspiration of God\" (2 Timothy 3:16). The Greek word means \"God-breathed\". Scripture is not merely inspiring, like a good poem. It is breathed out by God, as truly as His own spoken word.\n\nThis covers *all* Scripture, not only the parts that seem important to us. Jesus said, \"the scripture cannot be broken\" (John 10:35), and that not one jot or tittle would pass from the law (Matthew 5:18).\n\nBecause the Bible comes from God, it carries His authority and His truthfulness.",
+          "refs": ["2 Timothy 3:16-17", "John 10:35", "Matthew 5:18"]
+        },
+        {
+          "title": "Holy men moved by the Holy Ghost",
+          "body": "How did God give His Word through human writers? Peter answers: \"holy men of God spake as they were moved by the Holy Ghost\" (2 Peter 1:21). The word *moved* pictures a ship carried along by the wind.\n\nGod did not usually dictate like a typist. Moses, David, Luke and Paul wrote in their own styles and from their own experience (Luke 1:1-3). Yet the Spirit so guided them that what they wrote was exactly what God intended.\n\nThis is called *verbal, plenary* inspiration: the very words (verbal) of all Scripture (plenary) are from God.",
+          "refs": ["2 Peter 1:20-21", "Luke 1:1-3", "1 Corinthians 2:13"]
+        },
+        {
+          "title": "What Jesus believed about Scripture",
+          "body": "The strongest reason to trust the Bible is Jesus' own view of it. He quoted the Old Testament as final: \"It is written\" (Matthew 4:4). He treated its history as real: Adam and Eve, Noah, Jonah (Matthew 19:4-5; 24:37; 12:40).\n\nHe also promised the apostles that the Spirit would bring His words to their remembrance and guide them into all truth (John 14:26; 16:13). This is the basis of the New Testament.\n\nIf we follow Christ as Lord, we must share His trust in Scripture.",
+          "refs": ["Matthew 4:4", "Matthew 19:4-5", "John 14:26"]
+        }
+      ],
+      "terms": [
+        { "term": "Inspiration", "def": "God's work of breathing out Scripture through human writers so that their words are His words." },
+        { "term": "Verbal inspiration", "def": "The teaching that the very words of Scripture, not only its ideas, are inspired." },
+        { "term": "Plenary inspiration", "def": "The teaching that all of Scripture, every part, is inspired." },
+        { "term": "Dictation theory", "def": "The mistaken idea that the writers were mere typists with no part of their own." },
+        { "term": "Apostle", "def": "One sent personally by Christ with authority to teach His church." },
+        { "term": "God-breathed", "def": "The meaning of the Greek word translated 'given by inspiration' in 2 Timothy 3:16." }
+      ],
+      "texts": [
+        { "ref": "2 Timothy 3:16", "teaches": "All Scripture is breathed out by God and is profitable." },
+        { "ref": "2 Peter 1:21", "teaches": "The writers spoke as they were carried along by the Holy Ghost." },
+        { "ref": "John 10:35", "teaches": "Scripture cannot be broken." },
+        { "ref": "Matthew 4:4", "teaches": "Jesus lived by every word that proceeds from God's mouth." },
+        { "ref": "John 14:26", "teaches": "The Spirit would bring Christ's words to the apostles' remembrance." }
+      ],
+      "summary": [
+        "Scripture is God-breathed: its words are God's words.",
+        "God used real human writers, carried along by the Holy Ghost.",
+        "Inspiration covers every word of all Scripture.",
+        "Jesus Himself treated Scripture as fully true and authoritative."
+      ],
+      "questions": [
+        { "q": "What does the Greek word behind \"given by inspiration\" mean?", "options": ["God-breathed", "Well written", "Spiritually uplifting", "Carefully copied"], "answer": 0 },
+        { "q": "In 2 Peter 1:21, the word \"moved\" pictures:", "options": ["A ship carried along by the wind", "A scribe copying a scroll", "A judge giving a verdict", "A builder laying stones"], "answer": 0 },
+        { "q": "Plenary inspiration means:", "options": ["All Scripture is inspired", "Only the words of Jesus are inspired", "Only doctrinal passages are inspired", "Scripture becomes inspired when we feel moved"], "answer": 0 },
+        { "q": "Which is the strongest reason given for trusting the Bible?", "options": ["Jesus' own view of Scripture", "Its age", "Its beautiful language", "Its popularity"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "True and Trustworthy",
+      "intro": "If God breathed out Scripture, it shares His truthfulness. This week we study infallibility and inerrancy.",
+      "lessons": [
+        {
+          "title": "God cannot lie",
+          "body": "Scripture's truthfulness rests on God's character. God \"cannot lie\" (Titus 1:2), and \"it was impossible for God to lie\" (Hebrews 6:18). Jesus prayed, \"thy word is truth\" (John 17:17).\n\nIf the Bible is God's Word, then whatever it affirms is true. \"Every word of God is pure\" (Proverbs 30:5). The psalmist says God's words are \"as silver tried in a furnace of earth, purified seven times\" (Psalm 12:6).\n\nSo when Scripture speaks about God, salvation, history or human life, we may rely on it completely.",
+          "refs": ["Titus 1:2", "John 17:17", "Proverbs 30:5", "Psalm 12:6"]
+        },
+        {
+          "title": "Infallible and inerrant",
+          "body": "Two words help us say this clearly. **Infallible** means Scripture cannot fail or mislead us in what it teaches. **Inerrant** means it contains no error in anything it affirms, as originally given.\n\nInerrancy does not mean the Bible uses modern scientific language. It speaks of the sun rising, as we still do. It uses round numbers, free quotations and ordinary descriptions. Truthfulness is judged by what the writer meant to say.\n\nIt applies to the original writings. Copies and translations are faithful to the degree that they match those originals, and God has preserved His Word remarkably well (1 Peter 1:25).",
+          "refs": ["1 Peter 1:24-25", "Psalm 119:160", "Isaiah 40:8"]
+        },
+        {
+          "title": "Handling hard passages",
+          "body": "Some passages seem difficult: numbers that differ between Kings and Chronicles, or Gospel accounts told from different angles. Faithful readers have found careful answers to most of these, often by reading the context, the purpose of each writer, or the way ancient writers summarised.\n\nWhere we do not yet know the answer, humility is wise. \"The secret things belong unto the LORD our God: but those things which are revealed belong unto us\" (Deuteronomy 29:29).\n\nA difficulty is not the same as an error. Our understanding is limited; God's Word is not.",
+          "refs": ["Deuteronomy 29:29", "2 Peter 3:15-16", "Psalm 119:89"]
+        }
+      ],
+      "terms": [
+        { "term": "Infallibility", "def": "Scripture cannot fail or lead astray in what it teaches." },
+        { "term": "Inerrancy", "def": "Scripture, as originally given, is without error in all that it affirms." },
+        { "term": "Autographs", "def": "The original writings of the biblical books, as first written." },
+        { "term": "Truthfulness of God", "def": "God's perfect faithfulness to what is real; He cannot lie." },
+        { "term": "Phenomenological language", "def": "Describing things as they appear, such as the sun rising." },
+        { "term": "Difficulty", "def": "A passage we do not yet fully understand, which is not the same as an error." }
+      ],
+      "texts": [
+        { "ref": "Titus 1:2", "teaches": "God cannot lie." },
+        { "ref": "John 17:17", "teaches": "God's word is truth." },
+        { "ref": "Psalm 12:6", "teaches": "God's words are pure, like silver purified seven times." },
+        { "ref": "Isaiah 40:8", "teaches": "The word of our God shall stand for ever." },
+        { "ref": "Deuteronomy 29:29", "teaches": "Secret things belong to God; revealed things belong to us." }
+      ],
+      "summary": [
+        "Because God cannot lie, His Word is wholly true.",
+        "Infallible: it never misleads. Inerrant: it has no error in what it affirms.",
+        "Inerrancy allows for ordinary language, round numbers and different viewpoints.",
+        "Difficulties call for humility and careful study, not doubt."
+      ],
+      "questions": [
+        { "q": "Scripture's truthfulness rests mainly on:", "options": ["The character of God, who cannot lie", "The education of its writers", "Agreement with modern science", "Church councils"], "answer": 0 },
+        { "q": "Inerrancy applies first to:", "options": ["The original writings", "Every modern paraphrase", "Sermon notes", "Study Bible footnotes"], "answer": 0 },
+        { "q": "Saying \"the sun rose\" in Scripture is an example of:", "options": ["Describing things as they appear", "A scientific error", "A copying mistake", "Symbolic prophecy"], "answer": 0 },
+        { "q": "How should a believer treat a hard passage they cannot yet explain?", "options": ["With humility and continued study", "As proof the Bible is wrong", "By ignoring that book", "By choosing a different translation"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Final Authority",
+      "intro": "This week we see why Scripture stands above tradition, experience and every other voice.",
+      "lessons": [
+        {
+          "title": "To the law and to the testimony",
+          "body": "God's people are to test every message by His written Word. \"To the law and to the testimony: if they speak not according to this word, it is because there is no light in them\" (Isaiah 8:20).\n\nJesus rebuked religious leaders for \"making the word of God of none effect through your tradition\" (Mark 7:13). Tradition can be helpful, but it must bow to Scripture.\n\nThe same is true of experiences, dreams and prophecies today. Paul says, \"Prove all things; hold fast that which is good\" (1 Thessalonians 5:21). The Bible is the measuring rod for everything else.",
+          "refs": ["Isaiah 8:20", "Mark 7:6-13", "1 Thessalonians 5:20-21"]
+        },
+        {
+          "title": "Sufficient for faith and life",
+          "body": "Scripture is **sufficient**: it contains all that God's people need to know for salvation and for living to please Him. It makes us \"wise unto salvation\" and \"throughly furnished unto all good works\" (2 Timothy 3:15-17). God's divine power \"hath given unto us all things that pertain unto life and godliness\" (2 Peter 1:3).\n\nThis does not mean the Bible tells us which job to take. It means it gives the principles for every decision, and we need no further revelation to know the way of salvation or the will of God for holy living.\n\nSo we must not add to it or take from it (Revelation 22:18-19).",
+          "refs": ["2 Timothy 3:15-17", "2 Peter 1:3", "Revelation 22:18-19"]
+        },
+        {
+          "title": "Clear and necessary",
+          "body": "Scripture is **clear** in its main message. \"The entrance of thy words giveth light; it giveth understanding unto the simple\" (Psalm 119:130). Some parts are hard (2 Peter 3:16), but the way of salvation and the duties of life can be understood by ordinary believers who read with prayer.\n\nScripture is also **necessary**. Without it we could know that God exists, but not how to be saved. \"Faith cometh by hearing, and hearing by the word of God\" (Romans 10:17).\n\nThis is why the Bible should be translated into every language and taught in every home.",
+          "refs": ["Psalm 119:130", "Romans 10:17", "Deuteronomy 6:6-7"]
+        }
+      ],
+      "terms": [
+        { "term": "Authority of Scripture", "def": "The Bible's right to command belief and obedience, because it is God's Word." },
+        { "term": "Sufficiency of Scripture", "def": "Scripture contains all we need to know for salvation and godly living." },
+        { "term": "Clarity of Scripture", "def": "The Bible's main message can be understood by ordinary believers who read with prayer." },
+        { "term": "Necessity of Scripture", "def": "Without God's written Word we cannot know the way of salvation." },
+        { "term": "Tradition", "def": "Teaching and customs handed down in the church, which must be tested by Scripture." },
+        { "term": "Sola Scriptura", "def": "The Reformation principle that Scripture alone is the final authority." }
+      ],
+      "texts": [
+        { "ref": "Isaiah 8:20", "teaches": "Every message must be tested by the law and the testimony." },
+        { "ref": "Mark 7:13", "teaches": "Human tradition must not cancel the word of God." },
+        { "ref": "2 Peter 1:3", "teaches": "God has given all things that pertain to life and godliness." },
+        { "ref": "Psalm 119:130", "teaches": "God's word gives light and understanding to the simple." },
+        { "ref": "Revelation 22:18-19", "teaches": "Nothing must be added to or taken from God's words." }
+      ],
+      "summary": [
+        "Scripture is the final authority over tradition, experience and prophecy.",
+        "It is sufficient for salvation and godly living.",
+        "Its main message is clear to ordinary believers.",
+        "It is necessary: faith comes by hearing the word of God."
+      ],
+      "questions": [
+        { "q": "What did Jesus rebuke in Mark 7:13?", "options": ["Making God's word of none effect through tradition", "Reading the prophets", "Praying in public", "Keeping the Sabbath"], "answer": 0 },
+        { "q": "The sufficiency of Scripture means:", "options": ["It contains all we need for salvation and godly living", "It answers every scientific question", "No other books may be read", "It tells us every personal choice in detail"], "answer": 0 },
+        { "q": "How should a dream or prophecy be treated?", "options": ["Tested by Scripture", "Accepted without question", "Placed above the Bible", "Ignored in all cases"], "answer": 0 },
+        { "q": "Sola Scriptura means:", "options": ["Scripture alone is the final authority", "Only scholars may read Scripture", "Tradition has no value at all", "Only the New Testament matters"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Living by the Word",
+      "intro": "Believing in the Bible's authority must change how we read, hear and obey it. This week is practical.",
+      "lessons": [
+        {
+          "title": "Reading and meditating",
+          "body": "The blessed person delights in the law of the LORD and meditates on it \"day and night\" (Psalm 1:2). Joshua was told the book of the law should not depart out of his mouth (Joshua 1:8).\n\nMeditation means slowly turning a passage over in the mind: reading it again, asking what it says about God, about us and about how to live, and praying it back to God.\n\nA simple plan helps: a regular time, a set passage, a notebook, and one truth to carry into the day.",
+          "refs": ["Psalm 1:1-3", "Joshua 1:8", "Psalm 119:97"]
+        },
+        {
+          "title": "Hearing and obeying",
+          "body": "Jesus ended the Sermon on the Mount with two builders. The wise man \"heareth these sayings of mine, and doeth them\" (Matthew 7:24). The storm showed the difference.\n\nJames warns against hearing without doing, like a man who looks in a mirror and forgets his face (James 1:22-25). Authority means the Bible is to be obeyed, not just admired.\n\nObedience is not a way to earn salvation, but the fruit of loving Christ: \"If ye love me, keep my commandments\" (John 14:15).",
+          "refs": ["Matthew 7:24-27", "James 1:22-25", "John 14:15"]
+        },
+        {
+          "title": "Hiding the Word in the heart",
+          "body": "\"Thy word have I hid in mine heart, that I might not sin against thee\" (Psalm 119:11). Memorising Scripture arms us against temptation, as Jesus answered Satan three times with \"It is written\" (Matthew 4:1-10).\n\nThe Word also comforts in trouble (Psalm 119:50), guides decisions (Psalm 119:105) and equips us to share the gospel.\n\nStart small: one verse a week, written on a card, repeated morning and evening. Over a year, that is more than fifty verses stored for life.",
+          "refs": ["Psalm 119:11", "Psalm 119:105", "Matthew 4:1-10"]
+        }
+      ],
+      "terms": [
+        { "term": "Meditation", "def": "Thinking slowly and prayerfully over a passage so it shapes the heart." },
+        { "term": "Obedience", "def": "Doing what God's Word commands, out of love for Christ." },
+        { "term": "Memorisation", "def": "Storing Scripture in the mind and heart by repetition." },
+        { "term": "Devotional reading", "def": "Regular personal reading of the Bible for worship and growth." },
+        { "term": "Hearer only", "def": "Someone who listens to the Word but does not put it into practice." },
+        { "term": "Lamp", "def": "A picture of God's Word giving guidance for each step of life." }
+      ],
+      "texts": [
+        { "ref": "Psalm 1:2", "teaches": "The blessed person delights in God's law and meditates on it day and night." },
+        { "ref": "Matthew 7:24", "teaches": "The wise builder hears Christ's words and does them." },
+        { "ref": "John 14:15", "teaches": "Love for Christ shows itself in keeping His commandments." },
+        { "ref": "Psalm 119:11", "teaches": "Hiding God's word in the heart guards against sin." },
+        { "ref": "Psalm 119:105", "teaches": "God's word is a lamp to our feet and a light to our path." }
+      ],
+      "summary": [
+        "Read the Bible regularly and meditate on it slowly.",
+        "Hear and obey: authority means doing what God says.",
+        "Obedience flows from love for Christ, not to earn salvation.",
+        "Memorise Scripture to resist temptation and guide your life."
+      ],
+      "questions": [
+        { "q": "In Matthew 7, what made the wise builder wise?", "options": ["He heard Christ's sayings and did them", "He built faster", "He used more expensive stone", "He prayed for good weather"], "answer": 0 },
+        { "q": "James compares a hearer who does not obey to someone who:", "options": ["Looks in a mirror and forgets his face", "Builds on sand", "Hides a lamp", "Loses a coin"], "answer": 0 },
+        { "q": "How did Jesus answer Satan's temptations?", "options": ["\"It is written\", quoting Scripture", "By performing miracles", "By staying silent", "By calling angels"], "answer": 0 },
+        { "q": "Why does the psalmist hide God's word in his heart?", "options": ["That he might not sin against God", "To impress others", "To win debates", "To avoid reading it daily"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Explain what 2 Timothy 3:16 teaches about Scripture.", "keywords": [["breathed", "inspiration", "inspired"], ["God"], ["all", "every"]], "model": "All Scripture is breathed out by God, so every part carries His authority and is profitable for teaching and righteousness." },
+      { "q": "How did God use human writers without their words being merely human?", "keywords": [["Holy Ghost", "Holy Spirit", "Spirit"], ["moved", "carried", "guided"], ["style", "own", "personality", "experience"]], "model": "The Holy Ghost carried the writers along so that, while they used their own styles and experience, what they wrote was exactly God's word." },
+      { "q": "Define inerrancy.", "keywords": [["error", "without error", "no error"], ["original", "autographs", "first written"], ["affirm", "teach"]], "model": "Inerrancy means Scripture, as originally given, is without error in everything it affirms." },
+      { "q": "What does the sufficiency of Scripture mean?", "keywords": [["all", "everything"], ["salvation", "saved"], ["godliness", "living", "life"]], "model": "Scripture contains everything we need to know for salvation and for living a godly life, so nothing needs to be added to it." },
+      { "q": "Why must tradition and experience be tested by Scripture?", "keywords": [["authority", "final"], ["God's word", "Scripture", "Bible"], ["error", "mislead", "wrong", "human"]], "model": "Because Scripture alone is God's word and final authority, while traditions and experiences are human and can mislead." },
+      { "q": "Why did Jesus' view of Scripture matter for Christians?", "keywords": [["Jesus", "Christ"], ["written", "quoted", "trusted", "cannot be broken"], ["follow", "Lord", "disciples"]], "model": "Jesus trusted and quoted Scripture as fully true ('It is written'; 'the scripture cannot be broken'), and His followers should share His view." }
+    ],
+    "lists": [
+      { "q": "List four qualities of Scripture studied in this course.", "items": [["inspired", "inspiration"], ["inerrant", "inerrancy"], ["infallible", "infallibility"], ["authority", "authoritative"], ["sufficient", "sufficiency"], ["clear", "clarity"], ["necessary", "necessity"]], "need": 4 },
+      { "q": "List three things Scripture is profitable for, according to 2 Timothy 3:16.", "items": [["doctrine"], ["reproof"], ["correction"], ["instruction in righteousness", "righteousness"]], "need": 3 },
+      { "q": "List three practical ways to live by the Word.", "items": [["read", "reading"], ["meditate", "meditation"], ["obey", "obedience", "doing"], ["memorise", "memorize", "hide"], ["pray", "prayer"], ["share", "teach"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Why I trust the Bible", "prompt": "Write a short explanation, for a friend who doubts, of why Christians trust the Bible as God's Word. Use at least four passages from this course, and answer one common objection fairly.", "words": "500–700" },
+    { "title": "A personal Bible plan", "prompt": "Describe a realistic plan for reading, meditating on, memorising and obeying Scripture over the next three months. Explain how each part of your plan is based on a passage from Week 4.", "words": "400–600" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Wayne Grudem, Systematic Theology, Part 1",
+    "Louis Berkhof, Introductory Volume to Systematic Theology",
+    "J. I. Packer, 'Fundamentalism' and the Word of God"
+  ]
+}
