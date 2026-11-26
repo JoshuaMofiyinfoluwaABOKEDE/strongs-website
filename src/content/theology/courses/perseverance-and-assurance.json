@@ -1,0 +1,241 @@
+{
+  "slug": "perseverance-and-assurance",
+  "title": "Perseverance and Assurance",
+  "track": "christ",
+  "level": "Intermediate",
+  "summary": "Can a believer be sure of salvation? Can a true Christian fall away? The biblical teaching on assurance, warning passages and enduring to the end.",
+  "description": "Many believers swing between false security and constant fear. This course studies God's promises to keep His people, the warning passages that call us to endure, the 'once saved, always saved' and 'conditional security' views held by different churches, the grounds of true assurance, and practical help for doubting and backsliding believers.",
+  "objectives": [
+    "Explain the biblical promises of God's keeping power",
+    "Study the warning passages carefully",
+    "Present fairly the eternal security and conditional security views",
+    "Explain the grounds of Christian assurance",
+    "Give pastoral help to doubters and backsliders"
+  ],
+  "outcomes": [
+    "Explain John 10:28-29 and Romans 8:38-39",
+    "Interpret Hebrews 6:4-6 and other warnings with care",
+    "Compare the Reformed, Baptist and Wesleyan-Holiness views",
+    "Name three grounds of assurance",
+    "Counsel a doubting or backslidden believer from Scripture"
+  ],
+  "modules": [
+    {
+      "title": "Kept by the Power of God",
+      "intro": "Scripture is full of promises that God keeps His people. This week we study them.",
+      "lessons": [
+        {
+          "title": "In the Father's hand",
+          "body": "Jesus said of His sheep, \"I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand. My Father, which gave them me, is greater than all; and no man is able to pluck them out of my Father's hand\" (John 10:28-29).\n\nHe also said, \"him that cometh to me I will in no wise cast out... of all which he hath given me I should lose nothing\" (John 6:37-39).\n\nEternal life is a present possession: \"He that heareth my word, and believeth... hath everlasting life, and shall not come into condemnation\" (John 5:24).",
+          "refs": ["John 10:27-29", "John 6:37-40", "John 5:24"]
+        },
+        {
+          "title": "Nothing can separate us",
+          "body": "Paul ends Romans 8 with a triumphant list: \"neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord\" (8:38-39).\n\nGod's work is sure: \"he which hath begun a good work in you will perform it until the day of Jesus Christ\" (Philippians 1:6). Believers \"are kept by the power of God through faith unto salvation\" (1 Peter 1:5).\n\nNote that God keeps us *through faith*. His power works by sustaining our trust in Him.",
+          "refs": ["Romans 8:35-39", "Philippians 1:6", "1 Peter 1:3-5"]
+        },
+        {
+          "title": "Christ's intercession and the Spirit's seal",
+          "body": "Believers are secure because Christ prays for them. To Peter He said, \"I have prayed for thee, that thy faith fail not\" (Luke 22:32). Peter fell badly but was restored. Christ \"ever liveth to make intercession\" and \"is able also to save them to the uttermost\" (Hebrews 7:25).\n\nThe Spirit is God's seal and pledge: \"ye were sealed with that holy Spirit of promise, which is the earnest of our inheritance\" (Ephesians 1:13-14), \"sealed unto the day of redemption\" (4:30).\n\nGod is \"able to keep you from falling, and to present you faultless\" (Jude 24).",
+          "refs": ["Luke 22:31-32", "Hebrews 7:25", "Jude 24-25"]
+        }
+      ],
+      "terms": [
+        { "term": "Perseverance of the saints", "def": "The teaching that true believers will continue in faith to the end." },
+        { "term": "Preservation", "def": "God's work of keeping His people safe in salvation." },
+        { "term": "Eternal life", "def": "The life of God given to believers, possessed now and enjoyed for ever." },
+        { "term": "Kept through faith", "def": "God's power guarding believers by sustaining their trust (1 Peter 1:5)." },
+        { "term": "Uttermost", "def": "Completely and for ever; Christ saves to the uttermost (Hebrews 7:25)." },
+        { "term": "Day of redemption", "def": "The final day when believers' salvation is completed." }
+      ],
+      "texts": [
+        { "ref": "John 10:28", "teaches": "Christ's sheep shall never perish and none can pluck them from His hand." },
+        { "ref": "Romans 8:39", "teaches": "Nothing shall separate believers from the love of God in Christ." },
+        { "ref": "Philippians 1:6", "teaches": "God will complete the good work He began." },
+        { "ref": "1 Peter 1:5", "teaches": "Believers are kept by the power of God through faith." },
+        { "ref": "Luke 22:32", "teaches": "Jesus prayed that Peter's faith would not fail." }
+      ],
+      "summary": [
+        "Jesus promised that His sheep shall never perish.",
+        "Nothing outside can separate believers from God's love.",
+        "God keeps us through faith; His power sustains our trust.",
+        "Christ intercedes and the Spirit seals believers."
+      ],
+      "questions": [
+        { "q": "According to John 10:28, Christ's sheep shall:", "options": ["Never perish", "Sometimes perish", "Earn their safety", "Wander for ever"], "answer": 0 },
+        { "q": "How does God keep believers, according to 1 Peter 1:5?", "options": ["Through faith", "Through wealth", "Through rituals", "Through fear"], "answer": 0 },
+        { "q": "For whom did Jesus pray that his faith would not fail?", "options": ["Peter", "Judas", "Thomas", "John"], "answer": 0 },
+        { "q": "Which chapter ends with nothing separating us from God's love?", "options": ["Romans 8", "Romans 3", "Hebrews 6", "John 15"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Warning Passages",
+      "intro": "Scripture also contains serious warnings against falling away. This week we read them carefully.",
+      "lessons": [
+        {
+          "title": "Hebrews 6 and 10",
+          "body": "Hebrews warns: \"it is impossible for those who were once enlightened, and have tasted of the heavenly gift, and were made partakers of the Holy Ghost... If they shall fall away, to renew them again unto repentance\" (6:4-6).\n\nAnd: \"if we sin wilfully after that we have received the knowledge of the truth, there remaineth no more sacrifice for sins\" (10:26).\n\nThe readers were Jewish Christians tempted to abandon Christ and return to the old sacrifices under persecution. The warnings concern deliberate, persistent rejection of Christ, not ordinary sins or struggles. The writer adds, \"we are persuaded better things of you\" (6:9).",
+          "refs": ["Hebrews 6:4-9", "Hebrews 10:26-29", "Hebrews 10:35-39"]
+        },
+        {
+          "title": "Other warnings",
+          "body": "Other passages call believers to continue:\n\n- \"he that shall endure unto the end, the same shall be saved\" (Matthew 24:13).\n- Christ will present you holy \"If ye continue in the faith grounded and settled\" (Colossians 1:22-23).\n- \"If a man abide not in me, he is cast forth as a branch\" (John 15:6).\n- \"Let him that thinketh he standeth take heed lest he fall\" (1 Corinthians 10:12).\n- Some \"concerning faith have made shipwreck\" (1 Timothy 1:19).\n\nThese warnings are real and must not be explained away. They are one of the means God uses to keep His people watchful.",
+          "refs": ["Matthew 24:13", "Colossians 1:21-23", "John 15:4-6"]
+        },
+        {
+          "title": "Those who went out from us",
+          "body": "Some who seemed to be believers do turn away. Judas was one of the Twelve. Demas \"forsook\" Paul, \"having loved this present world\" (2 Timothy 4:10).\n\nJohn explains one way of understanding this: \"They went out from us, but they were not of us; for if they had been of us, they would no doubt have continued with us\" (1 John 2:19).\n\nIn the parable of the sower, some received the word with joy, \"but have no root\" and fell away in trial (Luke 8:13). Christians differ on whether such people were ever truly saved, as next week shows. All agree that lasting faith is the mark of the genuine.",
+          "refs": ["1 John 2:19", "2 Timothy 4:10", "Luke 8:11-15"]
+        }
+      ],
+      "terms": [
+        { "term": "Apostasy", "def": "Deliberate abandonment of the Christian faith." },
+        { "term": "Falling away", "def": "Turning from Christ, as warned in Hebrews 6:6." },
+        { "term": "Wilful sin", "def": "In Hebrews 10:26, deliberate rejection of Christ after knowing the truth." },
+        { "term": "Endure to the end", "def": "Continuing in faith through trials until death or Christ's return." },
+        { "term": "Shipwreck of faith", "def": "Paul's picture of those who abandoned faith and a good conscience (1 Timothy 1:19)." },
+        { "term": "No root", "def": "In the parable of the sower, those whose faith was shallow and temporary." }
+      ],
+      "texts": [
+        { "ref": "Hebrews 6:6", "teaches": "Those who fall away cannot be renewed to repentance while they crucify Christ afresh." },
+        { "ref": "Hebrews 10:26", "teaches": "Wilful sin after knowing the truth leaves no other sacrifice." },
+        { "ref": "Matthew 24:13", "teaches": "He that endures to the end shall be saved." },
+        { "ref": "1 Corinthians 10:12", "teaches": "Let him that thinks he stands take heed lest he fall." },
+        { "ref": "1 John 2:19", "teaches": "Those who left were not truly of us, or they would have continued." }
+      ],
+      "summary": [
+        "Hebrews warns against deliberately abandoning Christ.",
+        "Many texts call believers to continue and endure.",
+        "Some who seemed believers do turn away.",
+        "The warnings are real means God uses to keep believers watchful."
+      ],
+      "questions": [
+        { "q": "Who were the first readers of Hebrews tempted to return to?", "options": ["The old sacrifices of Judaism", "Greek philosophy", "Roman emperor worship", "Islam"], "answer": 0 },
+        { "q": "Who forsook Paul, having loved this present world?", "options": ["Demas", "Luke", "Timothy", "Titus"], "answer": 0 },
+        { "q": "What does Matthew 24:13 say?", "options": ["He that endures to the end shall be saved", "All will be saved", "None can endure", "Endurance is optional"], "answer": 0 },
+        { "q": "What does 1 John 2:19 say about those who left?", "options": ["They were not of us", "They were apostles", "They will return automatically", "They were angels"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Two Views of Security",
+      "intro": "Christians understand the promises and warnings differently. This week we present the main views fairly.",
+      "lessons": [
+        {
+          "title": "Eternal security",
+          "body": "**Reformed** Christians teach the **perseverance of the saints**: all who are truly born again will persevere in faith to the end, because God keeps them. Those who fall away permanently were never truly regenerate (1 John 2:19). The warnings are God's means of ensuring perseverance.\n\nMany **Baptists** hold a related view often called **eternal security** or \"once saved, always saved\". At its best this means a true believer cannot lose salvation, though he may fall into sin and be disciplined by God (Hebrews 12:6).\n\nA danger is a careless version that says a person who 'prayed a prayer' is safe whatever they do afterwards. Scripture rejects this (Titus 1:16).",
+          "refs": ["1 John 2:19", "Hebrews 12:5-8", "Titus 1:16"]
+        },
+        {
+          "title": "Conditional security",
+          "body": "**Wesleyan, Methodist, Holiness and many Pentecostal** Christians, including Deeper Life Bible Church, teach that a believer is secure while continuing in faith and obedience, but can by persistent, wilful sin and unbelief turn away and be lost.\n\nThey take the warnings at face value as describing real believers: \"partakers of the Holy Ghost\" (Hebrews 6:4), branches that were \"in me\" (John 15:2, 6). They stress that God's keeping is \"through faith\" (1 Peter 1:5), and faith can be abandoned.\n\nThey also teach that a backslider who returns in repentance will be received, as the father received the prodigal son (Luke 15:20-24).",
+          "refs": ["John 15:1-6", "Hebrews 3:12-14", "Luke 15:20-24"]
+        },
+        {
+          "title": "Common ground",
+          "body": "Both views agree on vital truths:\n\n1. Salvation is by grace through faith, not by works.\n2. True faith perseveres and bears fruit.\n3. A person living in persistent, unrepentant sin has no grounds for assurance (1 John 3:6-10).\n4. The warnings must be taken seriously.\n5. A struggling believer who comes to Christ in repentance will be received (1 John 1:9).\n\nThe practical difference is small: both call believers to \"give diligence to make your calling and election sure\" (2 Peter 1:10), and both call backsliders to return now.",
+          "refs": ["1 John 3:6-10", "2 Peter 1:5-11", "1 John 1:9"]
+        }
+      ],
+      "terms": [
+        { "term": "Eternal security", "def": "The view that a truly saved person cannot lose salvation." },
+        { "term": "Once saved, always saved", "def": "A popular summary of eternal security, sometimes misused to excuse sin." },
+        { "term": "Conditional security", "def": "The view that believers are secure while continuing in faith, but can turn away and be lost." },
+        { "term": "Backsliding", "def": "Drifting or turning away from God after professing faith." },
+        { "term": "Prodigal son", "def": "The son in Jesus' parable who wasted his inheritance and returned to a welcoming father." },
+        { "term": "Make your election sure", "def": "Confirming one's calling through growth in godliness (2 Peter 1:10)." }
+      ],
+      "texts": [
+        { "ref": "Titus 1:16", "teaches": "Some profess to know God but deny Him in their works." },
+        { "ref": "John 15:6", "teaches": "A branch that does not abide in Christ is cast forth and withers." },
+        { "ref": "Hebrews 3:12", "teaches": "Beware of an evil heart of unbelief in departing from the living God." },
+        { "ref": "1 John 3:9", "teaches": "Whoever is born of God does not continue in sin as a way of life." },
+        { "ref": "2 Peter 1:10", "teaches": "Give diligence to make your calling and election sure." }
+      ],
+      "summary": [
+        "Reformed and many Baptists: true believers will persevere; they cannot be lost.",
+        "Wesleyan-Holiness, including Deeper Life: believers can turn away by persistent unbelief.",
+        "Careless 'once saved, always saved' teaching that excuses sin is unbiblical.",
+        "Both views call believers to diligence and backsliders to return."
+      ],
+      "questions": [
+        { "q": "Which tradition teaches the perseverance of the saints?", "options": ["Reformed", "Wesleyan", "Roman Catholic", "Orthodox"], "answer": 0 },
+        { "q": "Which church is an example of the conditional security view?", "options": ["Deeper Life Bible Church", "Reformed Baptist churches", "Presbyterian Church", "None"], "answer": 0 },
+        { "q": "What do both views agree about persistent unrepentant sin?", "options": ["It gives no grounds for assurance", "It does not matter", "It proves election", "It is impossible"], "answer": 0 },
+        { "q": "Which parable shows a father welcoming a returning son?", "options": ["The prodigal son", "The sower", "The talents", "The good Samaritan"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Assurance and Restoration",
+      "intro": "God wants His children to know they are His. This week we study the grounds of assurance and how to help doubters and backsliders.",
+      "lessons": [
+        {
+          "title": "That ye may know",
+          "body": "John wrote his first letter \"that ye may know that ye have eternal life\" (1 John 5:13). Assurance is God's will for believers.\n\nAssurance rests on three grounds:\n\n1. **God's promises**: \"He that hath the Son hath life\" (5:12). This is the main ground.\n2. **The Spirit's witness**: \"The Spirit itself beareth witness with our spirit\" (Romans 8:16).\n3. **A changed life**: love for believers, obedience, and turning from sin (1 John 2:3; 3:14).\n\nAssurance is not based on a past feeling or a single moment, but on a present trust in Christ.",
+          "refs": ["1 John 5:11-13", "Romans 8:15-16", "1 John 2:3-5"]
+        },
+        {
+          "title": "Helping the doubting believer",
+          "body": "Sincere believers sometimes doubt because of sin, trials, depression, poor teaching or Satan's accusations (Revelation 12:10).\n\nHow to help:\n\n- Point them to Christ and His promises, not to their feelings.\n- Ask whether they are trusting Christ now; if so, John 6:37 is for them.\n- Encourage confession of known sin (1 John 1:9).\n- Remind them that weak faith is still faith: \"Lord, I believe; help thou mine unbelief\" (Mark 9:24).\n- Encourage fellowship, prayer and the Lord's Supper.\n\nOften the very concern to be right with God is a sign of the Spirit's work.",
+          "refs": ["Mark 9:24", "Psalm 42:5", "Isaiah 50:10"]
+        },
+        {
+          "title": "Restoring the backslider",
+          "body": "\"Return, ye backsliding children, and I will heal your backslidings\" (Jeremiah 3:22). God's call to wanderers is full of grace.\n\nPeter denied Jesus three times, yet Jesus restored him with three questions, \"lovest thou me?\" and recommissioned him (John 21:15-17). David sinned grievously, yet prayed, \"Restore unto me the joy of thy salvation\" (Psalm 51:12).\n\nThe church has a part: \"if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness\" (Galatians 6:1). \"He which converteth the sinner from the error of his way shall save a soul from death\" (James 5:20).",
+          "refs": ["Jeremiah 3:22", "John 21:15-17", "Galatians 6:1"]
+        }
+      ],
+      "terms": [
+        { "term": "Assurance", "def": "A believer's confidence that he truly belongs to Christ." },
+        { "term": "Witness of the Spirit", "def": "The Spirit's inner testimony that we are God's children (Romans 8:16)." },
+        { "term": "False assurance", "def": "Confidence of salvation without genuine faith or a changed life." },
+        { "term": "Accuser of the brethren", "def": "A name for Satan, who accuses believers before God (Revelation 12:10)." },
+        { "term": "Restoration", "def": "Bringing a fallen believer back to fellowship with God and the church." },
+        { "term": "Spirit of meekness", "def": "Gentle humility in restoring others (Galatians 6:1)." }
+      ],
+      "texts": [
+        { "ref": "1 John 5:13", "teaches": "John wrote so believers may know they have eternal life." },
+        { "ref": "1 John 5:12", "teaches": "He that has the Son has life." },
+        { "ref": "Mark 9:24", "teaches": "Lord, I believe; help thou mine unbelief." },
+        { "ref": "Jeremiah 3:22", "teaches": "Return, backsliding children, and I will heal your backslidings." },
+        { "ref": "Galatians 6:1", "teaches": "Restore one overtaken in a fault in the spirit of meekness." }
+      ],
+      "summary": [
+        "God wants believers to know they have eternal life.",
+        "Assurance rests on God's promises, the Spirit's witness and a changed life.",
+        "Help doubters by pointing them to Christ, not their feelings.",
+        "God calls backsliders home; the church should restore them gently."
+      ],
+      "questions": [
+        { "q": "Why did John write 1 John, according to 5:13?", "options": ["That believers may know they have eternal life", "To teach history", "To condemn all doubters", "To describe heaven"], "answer": 0 },
+        { "q": "What is the main ground of assurance?", "options": ["God's promises in Christ", "A past feeling", "Church attendance", "Dreams"], "answer": 0 },
+        { "q": "How many times did Jesus ask Peter 'lovest thou me?'", "options": ["Three", "Once", "Seven", "Twelve"], "answer": 0 },
+        { "q": "How should a fallen believer be restored?", "options": ["In the spirit of meekness", "With harsh shaming", "By ignoring him", "Only by the pastor"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What does John 10:28-29 teach about believers' security?", "keywords": [["never perish", "eternal life"], ["hand", "pluck"], ["Father", "Christ", "Son"]], "model": "Christ gives His sheep eternal life; they shall never perish and no one can pluck them from His or the Father's hand." },
+      { "q": "Explain the setting and meaning of Hebrews 6:4-6.", "keywords": [["Jewish", "Hebrew", "return", "sacrifices"], ["deliberate", "reject", "abandon", "fall away"], ["persecution", "pressure", "temptation", "better things"]], "model": "Jewish Christians under persecution were tempted to abandon Christ for the old sacrifices; the warning is against deliberate, persistent rejection of Christ." },
+      { "q": "Summarise the Reformed view of perseverance.", "keywords": [["true", "regenerate", "born again"], ["persevere", "continue", "kept"], ["never", "were not", "1 John 2:19"]], "model": "All truly born-again believers will persevere because God keeps them; those who fall away permanently were never truly regenerate." },
+      { "q": "Summarise the conditional security view.", "keywords": [["secure", "continue", "faith"], ["can", "turn away", "lost", "fall"], ["Wesleyan", "Holiness", "Deeper Life", "Methodist", "Pentecostal"]], "model": "Held by Wesleyan, Holiness and many Pentecostal churches: believers are secure while continuing in faith but can turn away by persistent unbelief and be lost." },
+      { "q": "Name the three grounds of assurance.", "keywords": [["promises", "word"], ["Spirit", "witness"], ["changed life", "fruit", "obedience", "love"]], "model": "God's promises, the Spirit's witness and the evidence of a changed life." },
+      { "q": "How would you help a doubting believer?", "keywords": [["Christ", "promises"], ["confess", "repent"], ["feelings", "weak faith", "fellowship", "prayer"]], "model": "Point them to Christ's promises rather than feelings, encourage confession of sin, assure them that weak faith is faith, and encourage fellowship and prayer." }
+    ],
+    "lists": [
+      { "q": "List four promises or texts of God's keeping power.", "items": [["John 10:28", "never perish", "hand"], ["Romans 8:38", "separate"], ["Philippians 1:6", "good work"], ["1 Peter 1:5", "kept by the power"], ["Jude 24", "keep you from falling"], ["Hebrews 7:25", "intercession", "uttermost"], ["John 6:37", "cast out"]], "need": 4 },
+      { "q": "List three warning passages about falling away.", "items": [["Hebrews 6"], ["Hebrews 10"], ["Matthew 24:13", "endure"], ["Colossians 1:23", "continue"], ["John 15:6", "abide"], ["1 Corinthians 10:12", "take heed"], ["1 Timothy 1:19", "shipwreck"]], "need": 3 },
+      { "q": "List four common causes of doubt in believers.", "items": [["sin"], ["trials", "suffering"], ["depression", "feelings"], ["poor teaching", "false teaching"], ["Satan", "accusation", "devil"], ["comparison"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "Promises and warnings", "prompt": "Choose two promise passages and two warning passages from the course. Explain each in its context. Then show how the Reformed and Wesleyan-Holiness traditions hold them together, and what both views require of believers today.", "words": "600–800" },
+    { "title": "A letter to a backslider", "prompt": "Write a pastoral letter to a friend who once followed Christ but has drifted away. Use at least five passages from the course to call them back with both seriousness and hope.", "words": "400–600" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "D. A. Carson, Reflections on Assurance (essay)",
+    "J. Matthew Pinson (ed.), Four Views on Eternal Security",
+    "Thomas Brooks, Heaven on Earth: A Treatise on Christian Assurance"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "slug": "divine-healing",
+  "title": "Divine Healing",
+  "track": "christ",
+  "level": "Intermediate",
+  "summary": "What the Bible teaches about sickness, healing and suffering: God the Healer, healing in Jesus' ministry and the church, the views on healing and the atonement, and wise practice today.",
+  "description": "God heals. But why are some not healed? Is healing promised in the atonement? Should Christians use medicine? This course traces healing from the Old Testament through Jesus and the apostles, sets out fairly how Holiness and Pentecostal churches (including Deeper Life) and Baptist and Reformed churches understand healing and the atonement, and gives guidance for praying for the sick, using medicine wisely, suffering faithfully and avoiding abuses.",
+  "objectives": [
+    "Trace God's healing work through Scripture",
+    "Study healing in the ministry of Jesus and the early church",
+    "Present fairly the main views on healing and the atonement",
+    "Give biblical guidance on praying for the sick and on medicine",
+    "Help believers suffer faithfully when healing does not come"
+  ],
+  "outcomes": [
+    "Explain Jehovah Rapha and Old Testament healing",
+    "Describe the purposes of Jesus' healing miracles",
+    "Compare views on Isaiah 53:5 and healing in the atonement",
+    "Apply James 5:14-16 in church practice",
+    "Recognise and avoid abuses in healing ministry"
+  ],
+  "modules": [
+    {
+      "title": "The Lord That Healeth Thee",
+      "intro": "Healing begins with who God is. This week we study sickness and healing in the Old Testament.",
+      "lessons": [
+        {
+          "title": "Sickness in a fallen world",
+          "body": "God made a good world without sickness. Sickness and death entered through sin: \"by one man sin entered into the world, and death by sin\" (Romans 5:12). The whole creation now \"groaneth and travaileth in pain\" (Romans 8:22).\n\nThis does not mean every sickness is caused by a person's own sin. Jesus said of a man born blind, \"Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him\" (John 9:3). Job suffered though he was righteous.\n\nSometimes sickness is linked to sin (1 Corinthians 11:30), sometimes to Satan (Luke 13:16), and often simply to life in a fallen world.",
+          "refs": ["Romans 5:12", "John 9:1-3", "Luke 13:11-16"]
+        },
+        {
+          "title": "Jehovah Rapha",
+          "body": "After the bitter waters of Marah were made sweet, God revealed Himself: \"I am the LORD that healeth thee\" (Exodus 15:26). The Hebrew name is **Jehovah Rapha**.\n\nDavid praised God, \"Who forgiveth all thine iniquities; who healeth all thy diseases\" (Psalm 103:3). \"He sent his word, and healed them\" (Psalm 107:20).\n\nGod healed Miriam of leprosy (Numbers 12:13), healed the Israelites who looked to the bronze serpent (Numbers 21:8-9), and added fifteen years to Hezekiah's life (2 Kings 20:5).",
+          "refs": ["Exodus 15:26", "Psalm 103:1-5", "Psalm 107:20"]
+        },
+        {
+          "title": "Means and faith in the Old Testament",
+          "body": "God sometimes healed directly and sometimes through means. Isaiah told Hezekiah to place \"a lump of figs\" on his boil (2 Kings 20:7), even as God promised healing. Naaman was healed by obeying God's word to wash seven times in the Jordan (2 Kings 5:14).\n\nKing Asa, when diseased, \"sought not to the LORD, but to the physicians\" (2 Chronicles 16:12). The rebuke was not for using physicians, but for not seeking the Lord.\n\nThe Old Testament also looks forward to a day when \"the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped\" (Isaiah 35:5).",
+          "refs": ["2 Kings 20:1-7", "2 Kings 5:9-14", "2 Chronicles 16:12"]
+        }
+      ],
+      "terms": [
+        { "term": "Divine healing", "def": "God's restoring of health to body or mind, by direct power or through means." },
+        { "term": "Jehovah Rapha", "def": "The LORD who heals (Exodus 15:26)." },
+        { "term": "Fallen world", "def": "Creation as affected by sin, subject to decay, sickness and death." },
+        { "term": "Marah", "def": "The place of bitter waters where God revealed Himself as Healer." },
+        { "term": "Means", "def": "Ordinary instruments God may use, such as medicine, rest or food." },
+        { "term": "Naaman", "def": "The Syrian commander healed of leprosy by obeying Elisha's word." }
+      ],
+      "texts": [
+        { "ref": "Exodus 15:26", "teaches": "I am the LORD that healeth thee." },
+        { "ref": "Psalm 103:3", "teaches": "God forgives all iniquities and heals all diseases." },
+        { "ref": "John 9:3", "teaches": "The man born blind was not sick because of his own or his parents' sin." },
+        { "ref": "2 Kings 20:7", "teaches": "Isaiah used a lump of figs as God healed Hezekiah." },
+        { "ref": "Isaiah 35:5", "teaches": "The eyes of the blind shall be opened in the coming day." }
+      ],
+      "summary": [
+        "Sickness entered through sin but is not always caused by a person's own sin.",
+        "God reveals Himself as Jehovah Rapha, the LORD who heals.",
+        "God heals directly and through means such as figs or washing.",
+        "The prophets look forward to a day of full healing."
+      ],
+      "questions": [
+        { "q": "What does Jehovah Rapha mean?", "options": ["The LORD who heals", "The LORD our banner", "The LORD will provide", "The LORD is peace"], "answer": 0 },
+        { "q": "What did Jesus say caused the man's blindness in John 9?", "options": ["Neither his sin nor his parents'; that God's works be shown", "His parents' sin", "His own sin", "A curse"], "answer": 0 },
+        { "q": "What was placed on Hezekiah's boil?", "options": ["A lump of figs", "Oil", "Mud", "Salt"], "answer": 0 },
+        { "q": "Why was King Asa rebuked?", "options": ["He sought physicians but not the LORD", "He used physicians at all", "He prayed too much", "He fasted"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Jesus the Healer",
+      "intro": "Healing was central to Jesus' ministry and continued in the early church. This week we study what His healings meant.",
+      "lessons": [
+        {
+          "title": "Healing every sickness",
+          "body": "\"Jesus went about all Galilee, teaching... and preaching the gospel of the kingdom, and healing all manner of sickness and all manner of disease among the people\" (Matthew 4:23).\n\nHe healed lepers, the blind, the lame, the deaf, a woman with an issue of blood, and raised the dead. He healed by a word (Matthew 8:8), by touch (8:3), at a distance (8:13), and sometimes in stages (Mark 8:23-25).\n\nHe was moved with compassion (Matthew 14:14). His healings showed God's heart for suffering people.",
+          "refs": ["Matthew 4:23-24", "Matthew 8:1-17", "Matthew 14:14"]
+        },
+        {
+          "title": "Signs of the kingdom",
+          "body": "Jesus' healings were **signs** that the kingdom of God had come. When John the Baptist asked if Jesus was the Messiah, Jesus pointed to His works: \"The blind receive their sight, and the lame walk, the lepers are cleansed\" (Matthew 11:4-5), fulfilling Isaiah 35.\n\nHealings also proved His authority to forgive sins: \"that ye may know that the Son of man hath power on earth to forgive sins... Arise, take up thy bed\" (Mark 2:10-11).\n\nThey pointed beyond the body to the soul. The greatest healing is forgiveness, and the full healing awaits the resurrection.",
+          "refs": ["Matthew 11:2-6", "Mark 2:5-12", "Luke 11:20"]
+        },
+        {
+          "title": "Healing in the early church",
+          "body": "Jesus sent the Twelve and the Seventy to \"Heal the sick\" (Matthew 10:8; Luke 10:9). After Pentecost, healings continued: the lame man at the Beautiful gate (Acts 3:6-8), many healed in Jerusalem (5:16), Aeneas (9:34), Dorcas raised (9:40), and the sick on Malta (28:8-9).\n\nYet the apostles were not healed of everything. Paul left Trophimus \"at Miletum sick\" (2 Timothy 4:20), told Timothy to take a little wine for his stomach's sake and his \"often infirmities\" (1 Timothy 5:23), and himself had a \"thorn in the flesh\" (2 Corinthians 12:7-9).",
+          "refs": ["Acts 3:1-10", "Acts 5:12-16", "2 Timothy 4:20"]
+        }
+      ],
+      "terms": [
+        { "term": "Signs", "def": "Miracles pointing to who Jesus is and to the arrival of God's kingdom." },
+        { "term": "Kingdom of God", "def": "God's reign, breaking into the world through Jesus." },
+        { "term": "Compassion", "def": "Deep pity that moves to action, which led Jesus to heal." },
+        { "term": "Beautiful gate", "def": "The temple gate where Peter and John healed a lame man (Acts 3)." },
+        { "term": "Thorn in the flesh", "def": "Paul's affliction that God did not remove, giving grace instead." },
+        { "term": "Trophimus", "def": "Paul's companion whom he left sick at Miletum." }
+      ],
+      "texts": [
+        { "ref": "Matthew 4:23", "teaches": "Jesus healed all manner of sickness among the people." },
+        { "ref": "Matthew 11:5", "teaches": "The blind see and the lame walk as signs of the Messiah." },
+        { "ref": "Mark 2:10", "teaches": "Healing proved the Son of man's power to forgive sins." },
+        { "ref": "Acts 3:6", "teaches": "In the name of Jesus Christ of Nazareth, rise up and walk." },
+        { "ref": "2 Corinthians 12:9", "teaches": "My grace is sufficient for thee; strength is made perfect in weakness." }
+      ],
+      "summary": [
+        "Jesus healed all kinds of sickness, moved by compassion.",
+        "His healings were signs of the kingdom and of His authority.",
+        "Healings continued in the early church through Jesus' name.",
+        "Even the apostles were not healed of every sickness."
+      ],
+      "questions": [
+        { "q": "What did Jesus point to when John the Baptist asked who He was?", "options": ["His works of healing", "His family", "His education", "His wealth"], "answer": 0 },
+        { "q": "What did the healing of the paralysed man prove in Mark 2?", "options": ["Jesus' power to forgive sins", "That sickness is unreal", "That the man was sinless", "That the law was wrong"], "answer": 0 },
+        { "q": "Whom did Paul leave sick at Miletum?", "options": ["Trophimus", "Timothy", "Titus", "Silas"], "answer": 0 },
+        { "q": "What did God say to Paul about his thorn?", "options": ["My grace is sufficient for thee", "You lack faith", "It will go tomorrow", "You are under a curse"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Healing and the Atonement",
+      "intro": "Is healing promised in the atonement? This week we study Isaiah 53 and present the main views fairly.",
+      "lessons": [
+        {
+          "title": "\"With his stripes we are healed\"",
+          "body": "Isaiah 53:4-5 says: \"Surely he hath borne our griefs, and carried our sorrows... and with his stripes we are healed.\" The Hebrew words for griefs and sorrows can also mean sicknesses and pains.\n\nMatthew applies this to Jesus' healing ministry: He \"healed all that were sick: That it might be fulfilled which was spoken by Esaias the prophet... Himself took our infirmities, and bare our sicknesses\" (Matthew 8:16-17).\n\nPeter applies it to sin: Christ \"bare our sins in his own body on the tree... by whose stripes ye were healed\" (1 Peter 2:24).",
+          "refs": ["Isaiah 53:4-5", "Matthew 8:16-17", "1 Peter 2:24"]
+        },
+        {
+          "title": "The Holiness and Pentecostal view",
+          "body": "Many Holiness and Pentecostal churches, including Deeper Life Bible Church, teach that **healing is provided in the atonement**. Christ bore our sicknesses as well as our sins, so believers may claim healing by faith.\n\nThey point to Isaiah 53:4-5, Matthew 8:17, Exodus 15:26, James 5:15 and Jesus' healing of all who came to Him. Deeper Life teaches that believers should trust God for healing, while many in this tradition also allow the use of medicine.\n\nThey stress faith, prayer, holy living and the authority of Jesus' name, and warn against unbelief.",
+          "refs": ["Isaiah 53:4-5", "Matthew 8:17", "James 5:15"]
+        },
+        {
+          "title": "The Baptist and Reformed view",
+          "body": "Many Baptists and Reformed Christians agree that God heals today in answer to prayer, but understand the atonement differently: Christ's death **secures** our full healing, which will be received at the resurrection, when our bodies are made new (Romans 8:23; 1 Corinthians 15:42-44). In this life God may heal or may give grace to endure.\n\nThey note that Matthew applies Isaiah 53 to Jesus' ministry *before* the cross, and Peter applies it to sin. They point to Paul, Timothy and Trophimus, whose sicknesses were not removed.\n\nAll agree: Christ's work will end all sickness, God is able to heal now, and we should pray in faith while submitting to His will.",
+          "refs": ["Romans 8:22-23", "1 Corinthians 15:42-44", "Revelation 21:4"]
+        }
+      ],
+      "terms": [
+        { "term": "Healing in the atonement", "def": "The teaching that Christ's death provides physical healing as well as forgiveness." },
+        { "term": "Stripes", "def": "The wounds of Christ's scourging (Isaiah 53:5)." },
+        { "term": "Infirmities", "def": "Weaknesses and sicknesses of the body." },
+        { "term": "Already and not yet", "def": "The truth that God's kingdom has come in part now and will come fully later." },
+        { "term": "Redemption of the body", "def": "The future resurrection when believers' bodies are made new (Romans 8:23)." },
+        { "term": "Glorified body", "def": "The incorruptible body believers will receive at the resurrection." }
+      ],
+      "texts": [
+        { "ref": "Isaiah 53:5", "teaches": "With His stripes we are healed." },
+        { "ref": "Matthew 8:17", "teaches": "Himself took our infirmities and bare our sicknesses." },
+        { "ref": "1 Peter 2:24", "teaches": "Christ bore our sins on the tree; by His stripes you were healed." },
+        { "ref": "Romans 8:23", "teaches": "Believers wait for the redemption of the body." },
+        { "ref": "Revelation 21:4", "teaches": "In the new creation there will be no more death, sorrow or pain." }
+      ],
+      "summary": [
+        "Isaiah 53 speaks of the Servant bearing griefs and sorrows.",
+        "Matthew applies it to healing; Peter to sin.",
+        "Holiness and Pentecostal churches teach healing is provided in the atonement now.",
+        "Baptist and Reformed churches see full healing secured by the cross and received at the resurrection."
+      ],
+      "questions": [
+        { "q": "Where does Matthew apply Isaiah 53:4 to healing?", "options": ["Matthew 8:17", "Matthew 5:3", "Matthew 28:19", "Matthew 1:21"], "answer": 0 },
+        { "q": "How does Peter apply 'by whose stripes ye were healed'?", "options": ["To bearing our sins", "To financial wealth", "To political freedom", "To weather"], "answer": 0 },
+        { "q": "Which church teaches healing is in the atonement?", "options": ["Deeper Life Bible Church", "No church", "Only Roman Catholics", "Only atheists"], "answer": 0 },
+        { "q": "When does the Baptist and Reformed view say full healing comes?", "options": ["At the resurrection", "Never", "At baptism", "At age seventy"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Praying for the Sick Today",
+      "intro": "How should the church minister to the sick? This week we study James 5, the use of medicine, suffering, and abuses to avoid.",
+      "lessons": [
+        {
+          "title": "James 5 in practice",
+          "body": "\"Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord: And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him\" (James 5:14-15).\n\nNotice: the sick person calls; the elders come and pray; oil is used in the Lord's name; sins are confessed (5:16); and the healing is the Lord's work.\n\nThe oil is not magic. It is a symbol of the Spirit and of setting the person apart to God. Churches should practise this humbly and regularly.",
+          "refs": ["James 5:13-16", "Mark 6:13", "Mark 16:17-18"]
+        },
+        {
+          "title": "Medicine and faith",
+          "body": "Is it a lack of faith to use medicine? Luke, who wrote a quarter of the New Testament, was \"the beloved physician\" (Colossians 4:14). Jesus said, \"They that be whole need not a physician, but they that are sick\" (Matthew 9:12), assuming doctors are useful. The Good Samaritan used oil and wine on wounds (Luke 10:34).\n\nMany Christians see medicine as part of God's common grace: He gives skill to doctors as He gives rain to farmers. Some Holiness churches encourage trusting God alone; most allow both.\n\nWhatever we use, our trust must be in the Lord, not in the doctor or drug alone (2 Chronicles 16:12). Never forbid a sick person, especially a child, necessary medical care.",
+          "refs": ["Colossians 4:14", "Matthew 9:12", "Luke 10:33-34"]
+        },
+        {
+          "title": "When healing does not come, and abuses to avoid",
+          "body": "Not all are healed in this life. God's grace is sufficient (2 Corinthians 12:9). Suffering can produce endurance and character (Romans 5:3-5), and we have the hope of a body without pain (Revelation 21:4). Never tell a sick person they lack faith simply because they are not healed.\n\nAbuses to avoid:\n\n- Charging money or demanding offerings for healing (Acts 8:20; Matthew 10:8, \"freely give\").\n- Staged or exaggerated testimonies.\n- Blaming the sick for weak faith.\n- Using 'anointing oil', water or handkerchiefs as magic charms.\n- Forbidding medical treatment.\n\n\"Beloved, believe not every spirit, but try the spirits\" (1 John 4:1).",
+          "refs": ["2 Corinthians 12:7-10", "Romans 5:3-5", "Matthew 10:8"]
+        }
+      ],
+      "terms": [
+        { "term": "Prayer of faith", "def": "Prayer trusting God to act, in submission to His will (James 5:15)." },
+        { "term": "Anointing with oil", "def": "Applying oil in the Lord's name when praying for the sick, as a symbol." },
+        { "term": "Elders", "def": "The spiritual leaders of a local church, called to pray for the sick." },
+        { "term": "Beloved physician", "def": "Paul's description of Luke (Colossians 4:14)." },
+        { "term": "Freely give", "def": "Jesus' instruction that healing ministry must not be sold (Matthew 10:8)." },
+        { "term": "Sufficient grace", "def": "God's strength given to endure when a trial is not removed." }
+      ],
+      "texts": [
+        { "ref": "James 5:14", "teaches": "The sick should call the elders to pray and anoint them with oil." },
+        { "ref": "James 5:16", "teaches": "Confess faults and pray for one another that you may be healed." },
+        { "ref": "Colossians 4:14", "teaches": "Luke was the beloved physician." },
+        { "ref": "Matthew 10:8", "teaches": "Freely ye have received, freely give." },
+        { "ref": "Romans 5:3", "teaches": "Tribulation works patience." }
+      ],
+      "summary": [
+        "James 5 tells the sick to call the elders for prayer and anointing.",
+        "Medicine is a gift of God's common grace; trust the Lord in all means.",
+        "When healing does not come, God gives sufficient grace.",
+        "Avoid paid healing, blaming the sick, charms and forbidding treatment."
+      ],
+      "questions": [
+        { "q": "Whom should the sick call, according to James 5:14?", "options": ["The elders of the church", "A herbalist", "Only family", "No one"], "answer": 0 },
+        { "q": "What was Luke's profession?", "options": ["Physician", "Fisherman", "Tax collector", "Tentmaker"], "answer": 0 },
+        { "q": "Which is an abuse of healing ministry?", "options": ["Charging money for healing", "Praying for the sick", "Visiting the sick", "Using medicine wisely"], "answer": 0 },
+        { "q": "What should we never tell a sick person who is not healed?", "options": ["That it is simply because they lack faith", "That God loves them", "That grace is sufficient", "That we will pray"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Is all sickness caused by personal sin? Explain with Scripture.", "keywords": [["no", "not always", "not all"], ["John 9", "blind", "Job"], ["fallen", "Satan", "sin"]], "model": "No. Sickness entered through sin in general, but not always a person's own sin, as Jesus said of the man born blind (John 9:3) and as Job shows." },
+      { "q": "What were the purposes of Jesus' healings?", "keywords": [["compassion"], ["sign", "kingdom", "Messiah"], ["forgive", "authority"]], "model": "They showed His compassion, were signs that the kingdom and Messiah had come, and proved His authority to forgive sins." },
+      { "q": "Explain the view that healing is in the atonement.", "keywords": [["Isaiah 53", "stripes", "Matthew 8:17"], ["bore", "sickness", "sicknesses"], ["claim", "faith", "now"]], "model": "Christ bore our sicknesses as well as our sins (Isaiah 53:4-5; Matthew 8:17), so believers may receive healing by faith now." },
+      { "q": "Explain the Baptist and Reformed view of healing and the atonement.", "keywords": [["secures", "resurrection", "future"], ["may heal", "prayer", "grace"], ["Paul", "Timothy", "Trophimus", "Peter applies"]], "model": "The cross secures full healing received at the resurrection; God may heal now in answer to prayer or give grace to endure, as with Paul and Trophimus." },
+      { "q": "Summarise the practice of James 5:14-16.", "keywords": [["elders", "call"], ["pray", "anoint", "oil"], ["confess", "Lord"]], "model": "The sick call the elders, who pray and anoint with oil in the Lord's name; sins are confessed; the Lord raises them up." },
+      { "q": "Is using medicine a lack of faith? Explain.", "keywords": [["Luke", "physician", "Matthew 9:12"], ["common grace", "gift", "means"], ["trust", "Lord"]], "model": "No. Luke was a physician and Jesus assumed doctors help; medicine is a gift of common grace, but our trust must be in the Lord." }
+    ],
+    "lists": [
+      { "q": "List four ways Jesus healed people.", "items": [["word"], ["touch"], ["distance"], ["stages"], ["spittle", "clay", "mud"], ["casting out", "demon"]], "need": 4 },
+      { "q": "List four abuses to avoid in healing ministry.", "items": [["money", "charging", "offerings"], ["staged", "false testimonies", "exaggerated"], ["blaming", "lack of faith"], ["charms", "magic", "handkerchiefs", "oil as magic"], ["forbidding medicine", "forbidding treatment"]], "need": 4 },
+      { "q": "List three people in the Bible who were not healed or who suffered sickness long.", "items": [["Paul", "thorn"], ["Trophimus"], ["Timothy"], ["Epaphroditus"], ["Job"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Healing and the atonement", "prompt": "Study Isaiah 53:4-5, Matthew 8:16-17 and 1 Peter 2:24. Present fairly the Holiness-Pentecostal and Baptist-Reformed understandings of healing and the atonement. Explain where they agree and how each should shape the way we pray for the sick.", "words": "600–800" },
+    { "title": "A healing ministry policy", "prompt": "Draft a short policy for your church on ministry to the sick. Cover prayer and anointing (James 5), visiting, medicine, caring for those not healed, and safeguards against abuse. Support each point from Scripture.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Joni Eareckson Tada, A Place of Healing",
+    "Ken Blue, Authority to Heal",
+    "D. A. Carson, How Long, O Lord? Reflections on Suffering and Evil"
+  ]
+}
