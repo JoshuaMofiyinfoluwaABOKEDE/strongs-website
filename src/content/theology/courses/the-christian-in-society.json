@@ -1,0 +1,241 @@
+{
+  "slug": "the-christian-in-society",
+  "title": "The Christian in Society",
+  "track": "living",
+  "level": "Intermediate",
+  "summary": "Living as salt and light in public life: church and state, justice and the poor, ethnicity and reconciliation, religious pluralism and persecution.",
+  "description": "Christians are citizens of heaven and also of earthly nations. This course studies the biblical teaching on government and civic duty, justice for the poor and oppressed, ethnic and tribal reconciliation, living peaceably among people of other faiths, responding to persecution, and practical ways believers can serve and witness in society, with particular attention to the Nigerian context.",
+  "objectives": [
+    "Explain the biblical relationship between church and state",
+    "Teach God's concern for justice and the poor",
+    "Address tribalism and ethnic division in the light of the gospel",
+    "Guide believers in living among people of other faiths",
+    "Prepare believers to respond to persecution and to serve society"
+  ],
+  "outcomes": [
+    "Explain Romans 13 and its limits from Acts 4-5",
+    "Show how Scripture links faith with justice and mercy",
+    "Explain how the gospel overcomes ethnic division",
+    "Give principles for peaceful witness in a plural society",
+    "Respond to persecution as Jesus and the apostles taught"
+  ],
+  "modules": [
+    {
+      "title": "Church and State",
+      "intro": "God established government for our good. This week we study the duties and limits of obedience.",
+      "lessons": [
+        {
+          "title": "The powers that be",
+          "body": "\"Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God\" (Romans 13:1). Government is \"the minister of God to thee for good\", restraining evil and rewarding good (13:3-4).\n\nChristians therefore pay taxes (13:6-7), obey just laws, honour rulers (1 Peter 2:17), and pray \"for kings, and for all that are in authority; that we may lead a quiet and peaceable life\" (1 Timothy 2:1-2).\n\nPaul wrote this under the Roman empire, which was not Christian. Respect for authority does not depend on rulers being believers.",
+          "refs": ["Romans 13:1-7", "1 Peter 2:13-17", "1 Timothy 2:1-4"]
+        },
+        {
+          "title": "We ought to obey God rather than men",
+          "body": "Obedience to government has limits. When the council commanded the apostles not to preach in Jesus' name, Peter answered, \"We ought to obey God rather than men\" (Acts 5:29).\n\nThe Hebrew midwives refused Pharaoh's order to kill baby boys (Exodus 1:17). Daniel kept praying despite the king's decree (Daniel 6:10). Shadrach, Meshach and Abed-nego refused to bow to the image (Daniel 3:18).\n\nWhen a law requires sin, believers must refuse, peacefully and accepting the consequences, not with violence or rebellion. Jesus said, \"Render therefore unto Caesar the things which are Caesar's; and unto God the things that are God's\" (Matthew 22:21).",
+          "refs": ["Acts 5:27-29", "Daniel 3:16-18", "Matthew 22:17-21"]
+        },
+        {
+          "title": "Christians in public life",
+          "body": "Believers may serve in government, as Joseph, Daniel, Nehemiah and Erastus the city treasurer did (Romans 16:23). They should vote thoughtfully, pay taxes honestly, obey traffic and other laws, and speak for justice.\n\nThe church should not be the political arm of any party, nor should it sell its voice for favours. Its main task is the gospel. Yet the prophets spoke to kings (2 Samuel 12:7; Amos 7:10-17), and the church may speak to rulers about righteousness.\n\n\"Righteousness exalteth a nation: but sin is a reproach to any people\" (Proverbs 14:34). \"Seek the peace of the city... and pray unto the LORD for it\" (Jeremiah 29:7).",
+          "refs": ["Proverbs 14:34", "Jeremiah 29:4-7", "Daniel 6:1-4"]
+        }
+      ],
+      "terms": [
+        { "term": "Higher powers", "def": "Governing authorities ordained by God (Romans 13:1)." },
+        { "term": "Minister of God", "def": "Government's role as God's servant to restrain evil and promote good." },
+        { "term": "Civil disobedience", "def": "Peacefully refusing to obey a law that requires sin, accepting the consequences." },
+        { "term": "Render unto Caesar", "def": "Jesus' teaching to give government its due and God His due." },
+        { "term": "Prophetic voice", "def": "The church's call to speak God's truth about righteousness to society and rulers." },
+        { "term": "Peace of the city", "def": "The welfare of the community where believers live (Jeremiah 29:7)." }
+      ],
+      "texts": [
+        { "ref": "Romans 13:1", "teaches": "Every soul should be subject to the higher powers ordained by God." },
+        { "ref": "1 Timothy 2:2", "teaches": "Pray for kings and all in authority." },
+        { "ref": "Acts 5:29", "teaches": "We ought to obey God rather than men." },
+        { "ref": "Matthew 22:21", "teaches": "Render to Caesar what is Caesar's and to God what is God's." },
+        { "ref": "Proverbs 14:34", "teaches": "Righteousness exalts a nation." }
+      ],
+      "summary": [
+        "Government is ordained by God to restrain evil and promote good.",
+        "Christians pay taxes, obey just laws and pray for leaders.",
+        "When law requires sin, we obey God, peacefully.",
+        "Believers may serve in public life; the church keeps its prophetic voice."
+      ],
+      "questions": [
+        { "q": "Who ordains governing authorities, according to Romans 13:1?", "options": ["God", "The people alone", "The church", "Chance"], "answer": 0 },
+        { "q": "What did Peter say when told to stop preaching?", "options": ["We ought to obey God rather than men", "We will stop", "Let us fight", "Let us flee"], "answer": 0 },
+        { "q": "Who refused to bow to Nebuchadnezzar's image?", "options": ["Shadrach, Meshach and Abed-nego", "Peter and John", "Moses and Aaron", "Paul and Silas"], "answer": 0 },
+        { "q": "What did Jeremiah tell the exiles to seek?", "options": ["The peace of the city", "Revenge on Babylon", "Escape", "Wealth"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Justice and the Poor",
+      "intro": "God loves justice and cares for the poor. This week we study why social concern belongs to Christian faith.",
+      "lessons": [
+        {
+          "title": "The God of justice",
+          "body": "\"The LORD executeth righteousness and judgment for all that are oppressed\" (Psalm 103:6). He is \"a father of the fatherless, and a judge of the widows\" (Psalm 68:5).\n\nThe prophets condemned religion without justice: \"I hate, I despise your feast days... But let judgment run down as waters, and righteousness as a mighty stream\" (Amos 5:21, 24). \"Learn to do well; seek judgment, relieve the oppressed, judge the fatherless, plead for the widow\" (Isaiah 1:17).\n\nIsrael's laws protected the poor: gleaning (Leviticus 19:9-10), fair wages, honest weights (Proverbs 11:1) and care for strangers (Exodus 22:21).",
+          "refs": ["Psalm 146:5-9", "Amos 5:21-24", "Isaiah 1:16-17"]
+        },
+        {
+          "title": "Faith that cares",
+          "body": "Jesus announced good news to the poor and liberty to captives (Luke 4:18). In the parable of the sheep and goats He said, \"Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me\" (Matthew 25:40).\n\nThe early church shared so that \"Neither was there any among them that lacked\" (Acts 4:34). The apostles asked Paul to \"remember the poor\" (Galatians 2:10).\n\nJames: \"If a brother or sister be naked, and destitute of daily food, and one of you say unto them... be ye warmed and filled; notwithstanding ye give them not those things... what doth it profit?\" (James 2:15-16). Love \"in deed and in truth\" (1 John 3:17-18).",
+          "refs": ["Matthew 25:34-40", "Acts 4:32-35", "James 2:14-17"]
+        },
+        {
+          "title": "Evangelism and social action",
+          "body": "Christians sometimes set evangelism and social action against each other. Scripture holds them together. The Lausanne Covenant (1974) affirmed that evangelism has priority because eternal destiny is at stake, while social concern is also part of Christian duty.\n\nJesus both preached and healed (Matthew 9:35-36). Good works adorn the gospel (Titus 2:10; Matthew 5:16), but they cannot replace it (Romans 10:14).\n\nPractical action: feeding programmes, scholarships, skills training, medical outreach, prison visits, caring for widows and orphans, and speaking up for victims of injustice (Proverbs 31:8-9).",
+          "refs": ["Matthew 9:35-38", "Titus 2:10-14", "Proverbs 31:8-9"]
+        }
+      ],
+      "terms": [
+        { "term": "Justice", "def": "Doing what is right, especially protecting the weak and treating people fairly." },
+        { "term": "Oppression", "def": "Cruel or unjust treatment of people, especially the weak." },
+        { "term": "Gleaning", "def": "Israel's law leaving the edges of the harvest for the poor." },
+        { "term": "Social action", "def": "Practical work to meet needs and seek justice in society." },
+        { "term": "Lausanne Covenant", "def": "A 1974 evangelical statement holding evangelism and social responsibility together." },
+        { "term": "The least of these", "def": "The needy with whom Jesus identifies (Matthew 25:40)." }
+      ],
+      "texts": [
+        { "ref": "Amos 5:24", "teaches": "Let judgment run down as waters and righteousness as a mighty stream." },
+        { "ref": "Isaiah 1:17", "teaches": "Seek judgment, relieve the oppressed, plead for the widow." },
+        { "ref": "Matthew 25:40", "teaches": "What you did for the least of these, you did for Christ." },
+        { "ref": "James 2:16", "teaches": "Words without help for the needy profit nothing." },
+        { "ref": "Proverbs 31:8", "teaches": "Open your mouth for the dumb in the cause of the destitute." }
+      ],
+      "summary": [
+        "God loves justice and defends the poor and oppressed.",
+        "The prophets condemned worship without justice.",
+        "Jesus and the early church cared for the needy.",
+        "Evangelism and social action belong together; the gospel has priority."
+      ],
+      "questions": [
+        { "q": "Which prophet said 'let judgment run down as waters'?", "options": ["Amos", "Jonah", "Haggai", "Nahum"], "answer": 0 },
+        { "q": "With whom does Jesus identify in Matthew 25:40?", "options": ["The least of these", "The rich", "Rulers", "Priests"], "answer": 0 },
+        { "q": "What did the apostles ask Paul to remember?", "options": ["The poor", "The temple", "The law", "Their names"], "answer": 0 },
+        { "q": "What did the Lausanne Covenant affirm?", "options": ["Evangelism and social responsibility belong together", "Social action replaces evangelism", "The church should avoid society", "Only preaching matters"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "One New Man",
+      "intro": "The gospel creates one family from every tribe. This week we study ethnicity, tribalism and reconciliation.",
+      "lessons": [
+        {
+          "title": "Every nation, tribe and tongue",
+          "body": "God made \"of one blood all nations of men\" (Acts 17:26). Every ethnic group bears the image of God. Heaven's worship includes people \"of all nations, and kindreds, and people, and tongues\" (Revelation 7:9).\n\nEthnic and cultural diversity is good. Language, food, dress and music can all glorify God. What Scripture condemns is pride and hostility: treating one's own group as superior and others as less human.\n\nJonah resented God's mercy to Nineveh, an enemy nation (Jonah 4:1-2). Jesus made a Samaritan the hero of His parable (Luke 10:33). God's love crosses every boundary.",
+          "refs": ["Acts 17:26-27", "Revelation 7:9-10", "Luke 10:29-37"]
+        },
+        {
+          "title": "Breaking down the wall",
+          "body": "The deepest division in the New Testament was between Jews and Gentiles. Yet Christ \"hath broken down the middle wall of partition between us... for to make in himself of twain one new man, so making peace\" (Ephesians 2:14-15).\n\nWhen Peter withdrew from eating with Gentiles, Paul rebuked him because he \"walked not uprightly according to the truth of the gospel\" (Galatians 2:11-14). Ethnic favouritism is a gospel issue.\n\nThe church at Antioch had leaders from different backgrounds, including Simeon \"called Niger\" and Lucius of Cyrene, both from Africa (Acts 13:1). It was there that disciples were first called Christians.",
+          "refs": ["Ephesians 2:13-19", "Galatians 2:11-14", "Acts 13:1-3"]
+        },
+        {
+          "title": "Tribalism and reconciliation in practice",
+          "body": "Tribalism can show in churches as favouritism in leadership, marriage, jobs or welfare. In Acts 6 the Greek-speaking widows were neglected; the church responded by appointing men from that group (Acts 6:1-6).\n\nSteps toward reconciliation:\n\n- Repent of prejudice and ethnic jokes that demean others.\n- Build friendships across tribe and language.\n- Make leadership and hiring fair and transparent.\n- Worship and serve together, including across languages.\n- Be peacemakers in communal conflict (Matthew 5:9), refusing revenge.\n\n\"Ye are all one in Christ Jesus\" (Galatians 3:28).",
+          "refs": ["Acts 6:1-7", "Matthew 5:9", "Colossians 3:11"]
+        }
+      ],
+      "terms": [
+        { "term": "Ethnicity", "def": "Belonging to a people group with shared language, culture and ancestry." },
+        { "term": "Tribalism", "def": "Loyalty to one's own ethnic group that leads to favouritism and hostility toward others." },
+        { "term": "Middle wall of partition", "def": "The hostility between Jews and Gentiles broken down by Christ (Ephesians 2:14)." },
+        { "term": "One new man", "def": "The united people Christ creates from different groups." },
+        { "term": "Reconciliation", "def": "Restoring peace between people who were divided." },
+        { "term": "Favouritism", "def": "Unfairly preferring some people over others." }
+      ],
+      "texts": [
+        { "ref": "Acts 17:26", "teaches": "God made of one blood all nations of men." },
+        { "ref": "Revelation 7:9", "teaches": "A multitude from every nation, kindred, people and tongue worships the Lamb." },
+        { "ref": "Ephesians 2:14", "teaches": "Christ broke down the middle wall of partition." },
+        { "ref": "Galatians 3:28", "teaches": "All are one in Christ Jesus." },
+        { "ref": "Matthew 5:9", "teaches": "Blessed are the peacemakers." }
+      ],
+      "summary": [
+        "All peoples share one origin and bear God's image.",
+        "Diversity is good; pride and hostility are sin.",
+        "Christ makes one new people from divided groups.",
+        "Churches must repent of tribalism and practise fairness and reconciliation."
+      ],
+      "questions": [
+        { "q": "What did God make all nations from, according to Acts 17:26?", "options": ["One blood", "Different origins", "Clay only", "Water"], "answer": 0 },
+        { "q": "Why did Paul rebuke Peter in Galatians 2?", "options": ["He withdrew from eating with Gentiles", "He preached too long", "He refused to pray", "He was too generous"], "answer": 0 },
+        { "q": "Which church had a leader called Simeon Niger?", "options": ["Antioch", "Corinth", "Rome", "Ephesus"], "answer": 0 },
+        { "q": "How did the church respond to neglected widows in Acts 6?", "options": ["Appointed men to oversee fair distribution", "Ignored them", "Sent them away", "Blamed them"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Faith in a Plural Society",
+      "intro": "Christians live alongside people of other faiths and sometimes face persecution. This week we study peaceful witness and faithful suffering.",
+      "lessons": [
+        {
+          "title": "Neighbours of other faiths",
+          "body": "In Nigeria Christians live beside Muslims and followers of traditional religion, often in the same families. Scripture calls us to love our neighbours (Luke 10:27), \"live peaceably with all men\" as far as possible (Romans 12:18), and \"Honour all men\" (1 Peter 2:17).\n\nPaul in Athens respected people while proclaiming Christ clearly (Acts 17:22-31). We share the gospel \"with meekness and fear\" (1 Peter 3:15), never by force, bribery or insult.\n\nWe hold firmly that salvation is in Christ alone (John 14:6; Acts 4:12), while defending religious freedom for all and rejecting violence in the name of religion.",
+          "refs": ["Romans 12:17-21", "Acts 17:22-31", "1 Peter 3:15-16"]
+        },
+        {
+          "title": "When persecution comes",
+          "body": "Jesus said, \"If they have persecuted me, they will also persecute you\" (John 15:20). \"Yea, and all that will live godly in Christ Jesus shall suffer persecution\" (2 Timothy 3:12).\n\nThe right response:\n\n- **Rejoice** and stay faithful (Matthew 5:11-12; Acts 5:41).\n- **Pray** for persecutors and bless them (Matthew 5:44; Acts 7:60).\n- **Do not retaliate** (Romans 12:19-21).\n- **Flee when wise**: \"when they persecute you in this city, flee ye into another\" (Matthew 10:23).\n- **Use lawful rights**: Paul appealed to his Roman citizenship (Acts 22:25; 25:11).\n\nChristians around the world have suffered and died for Christ; the church remembers them (Hebrews 13:3).",
+          "refs": ["John 15:18-20", "Matthew 5:10-12", "Hebrews 13:3"]
+        },
+        {
+          "title": "Salt and light every day",
+          "body": "\"Ye are the salt of the earth... Ye are the light of the world... Let your light so shine before men, that they may see your good works, and glorify your Father\" (Matthew 5:13-16).\n\nSalt preserves and flavours; light exposes and guides. Believers influence society by:\n\n- Integrity at work and in public office.\n- Excellent service in health, education, business and the arts.\n- Strong families and care for neighbours.\n- Speaking for truth and justice.\n- Starting schools, hospitals and enterprises, as missionaries and churches have done in Nigeria.\n\n\"Having your conversation honest among the Gentiles: that... they may by your good works... glorify God\" (1 Peter 2:12).",
+          "refs": ["Matthew 5:13-16", "1 Peter 2:11-12", "Philippians 2:14-16"]
+        }
+      ],
+      "terms": [
+        { "term": "Religious pluralism", "def": "A society where people of many religions live together." },
+        { "term": "Religious freedom", "def": "The right of all people to hold and practise their faith without coercion." },
+        { "term": "Persecution", "def": "Hostility or suffering inflicted because of faith in Christ." },
+        { "term": "Martyr", "def": "A witness who dies for faith in Christ." },
+        { "term": "Meekness", "def": "Gentle strength; the manner in which believers give a reason for their hope." },
+        { "term": "Salt of the earth", "def": "Jesus' picture of believers preserving good in society." }
+      ],
+      "texts": [
+        { "ref": "Romans 12:18", "teaches": "As much as lies in you, live peaceably with all men." },
+        { "ref": "1 Peter 3:15", "teaches": "Give a reason for your hope with meekness and fear." },
+        { "ref": "2 Timothy 3:12", "teaches": "All who live godly in Christ Jesus shall suffer persecution." },
+        { "ref": "Matthew 10:23", "teaches": "When persecuted in one city, flee into another." },
+        { "ref": "Matthew 5:16", "teaches": "Let your light shine so others glorify your Father." }
+      ],
+      "summary": [
+        "Love and honour neighbours of other faiths; witness with gentleness.",
+        "Hold that salvation is in Christ alone while defending religious freedom.",
+        "Respond to persecution with faithfulness, prayer and no revenge.",
+        "Be salt and light through integrity, service and justice."
+      ],
+      "questions": [
+        { "q": "How should Christians share their faith, according to 1 Peter 3:15?", "options": ["With meekness and fear", "By force", "With insults", "Through bribery"], "answer": 0 },
+        { "q": "What did Jesus say to do when persecuted in one city?", "options": ["Flee into another", "Take revenge", "Deny Him", "Hide forever"], "answer": 0 },
+        { "q": "How did Paul use his Roman citizenship?", "options": ["He appealed to his lawful rights", "He hid it", "He renounced it", "He sold it"], "answer": 0 },
+        { "q": "What does light do in Jesus' picture?", "options": ["Shows good works so God is glorified", "Hides the church", "Burns enemies", "Nothing"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What does Romans 13 teach about government?", "keywords": [["ordained", "God", "minister"], ["subject", "obey", "taxes", "honour"], ["restrain evil", "good", "punish"]], "model": "Government is ordained by God as His minister to restrain evil and promote good; Christians submit, pay taxes and honour rulers." },
+      { "q": "When should Christians disobey the state, and how?", "keywords": [["sin", "God rather than men", "Acts 5:29"], ["peaceful", "peacefully", "consequences", "not violence"]], "model": "When a law requires sin, believers obey God rather than men (Acts 5:29), refusing peacefully and accepting the consequences." },
+      { "q": "How did the prophets connect worship and justice?", "keywords": [["Amos", "Isaiah"], ["hate", "feasts", "worship without"], ["justice", "judgment", "oppressed", "widow"]], "model": "Amos and Isaiah condemned worship without justice, calling Israel to let justice flow and to relieve the oppressed and plead for the widow." },
+      { "q": "How should evangelism and social action relate?", "keywords": [["together", "both"], ["priority", "gospel", "eternal"], ["Jesus", "preached", "healed", "good works"]], "model": "They belong together, as Jesus preached and healed; evangelism has priority because eternal destiny is at stake." },
+      { "q": "How does the gospel address tribalism?", "keywords": [["one blood", "image", "all nations"], ["wall", "one new man", "Ephesians 2"], ["favouritism", "fair", "reconcile", "Galatians 2"]], "model": "All peoples share one origin and bear God's image; Christ breaks down dividing walls to make one new people, so favouritism must be repented of and fairness practised." },
+      { "q": "Give four biblical responses to persecution.", "keywords": [["rejoice", "faithful"], ["pray", "bless"], ["not retaliate", "no revenge"], ["flee", "lawful", "rights"]], "model": "Stay faithful and rejoice, pray for persecutors, do not retaliate, and flee or use lawful rights when wise." }
+    ],
+    "lists": [
+      { "q": "List four duties of Christians toward government.", "items": [["pray"], ["taxes"], ["obey", "laws", "subject"], ["honour", "respect"], ["vote", "participate"], ["speak", "justice"]], "need": 4 },
+      { "q": "List four practical forms of Christian social action.", "items": [["feeding", "food"], ["scholarships", "education", "schools"], ["skills", "training"], ["medical", "health"], ["prison"], ["widows", "orphans"], ["advocacy", "speak up"]], "need": 4 },
+      { "q": "List three biblical people who refused unjust commands.", "items": [["midwives"], ["Daniel"], ["Shadrach", "Meshach", "Abed-nego"], ["Peter", "apostles"], ["Esther"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Salt and light in my community", "prompt": "Identify a social problem in your community (for example, youth unemployment, corruption, or care for widows). Using at least five passages from this course, explain how believers and the local church could respond with both gospel witness and practical action.", "words": "500–700" },
+    { "title": "Peaceful witness", "prompt": "Write guidance for Christians living among neighbours of another faith. Cover love and respect, sharing the gospel, family relationships, and responding to hostility, using the course passages.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "John Stott, Issues Facing Christians Today",
+    "Tokunboh Adeyemo (ed.), Africa Bible Commentary (articles on church and state, ethnicity and poverty)",
+    "Timothy Keller, Generous Justice"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "slug": "prayer-and-fasting",
+  "title": "Prayer and Fasting",
+  "track": "living",
+  "level": "Foundation",
+  "summary": "Learn to pray as Jesus taught and to fast in a biblical way: the meaning of prayer, the Lord's Prayer, kinds of prayer, answers and delays, and fasting with right motives.",
+  "description": "Prayer is the believer's lifeline and fasting is a God-given discipline. This course explains what prayer is and why we pray, walks through the Lord's Prayer as a pattern, studies praise, confession, thanksgiving, intercession and spiritual warfare in prayer, deals honestly with unanswered prayer, and teaches the purposes, kinds and right practice of fasting, including health cautions.",
+  "objectives": [
+    "Explain the nature and purpose of prayer",
+    "Use the Lord's Prayer as a pattern for daily prayer",
+    "Practise the main kinds of prayer found in Scripture",
+    "Understand answers, delays and hindrances to prayer",
+    "Fast biblically, safely and with right motives"
+  ],
+  "outcomes": [
+    "Explain why a sovereign God invites us to pray",
+    "Pray through the six petitions of the Lord's Prayer",
+    "Use the ACTS pattern in personal prayer",
+    "Name biblical hindrances to prayer",
+    "Plan a fast with clear purpose and wise precautions"
+  ],
+  "modules": [
+    {
+      "title": "Why We Pray",
+      "intro": "Prayer is talking with God. This week we see what prayer is, why we pray and how Jesus prayed.",
+      "lessons": [
+        {
+          "title": "What is prayer?",
+          "body": "Prayer is communion with God: speaking to Him and listening for Him through His Word. It is the cry of a child to a Father: \"Our Father which art in heaven\" (Matthew 6:9).\n\nWe pray **through Christ**, our only Mediator (1 Timothy 2:5; John 14:13), and **in the Spirit**, who helps our weakness (Romans 8:26; Jude 20).\n\nPrayer is not a way to manipulate God or to impress people (Matthew 6:5-7). It is humble dependence: \"Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you\" (Matthew 7:7).",
+          "refs": ["Matthew 6:5-9", "Matthew 7:7-11", "Romans 8:26-27"]
+        },
+        {
+          "title": "Why pray if God knows everything?",
+          "body": "Jesus said, \"your Father knoweth what things ye have need of, before ye ask him\" (Matthew 6:8). So why pray?\n\n- **God commands it**: \"Pray without ceasing\" (1 Thessalonians 5:17).\n- **God works through it**: \"ye have not, because ye ask not\" (James 4:2). God has chosen to accomplish His purposes through the prayers of His people.\n- **Prayer changes us**: it builds trust, humility and dependence.\n- **Prayer is relationship**: children talk to their father not to inform him but because they love him.\n\nGod's sovereignty is not a reason to stop praying but a reason to pray with confidence.",
+          "refs": ["1 Thessalonians 5:16-18", "James 4:2-3", "James 5:16-18"]
+        },
+        {
+          "title": "How Jesus prayed",
+          "body": "Jesus, the Son of God, was a man of prayer. He rose \"a great while before day\" to pray in a solitary place (Mark 1:35). He prayed all night before choosing the Twelve (Luke 6:12). He withdrew to pray when crowds pressed (Luke 5:16).\n\nIn Gethsemane He prayed, \"nevertheless not as I will, but as thou wilt\" (Matthew 26:39). In John 17 He prayed for His disciples and for all who would believe.\n\nSeeing Him pray, a disciple asked, \"Lord, teach us to pray\" (Luke 11:1). If Jesus needed to pray, how much more do we?",
+          "refs": ["Mark 1:35", "Luke 6:12-13", "Luke 11:1"]
+        }
+      ],
+      "terms": [
+        { "term": "Prayer", "def": "Communion with God: speaking to Him and listening to Him." },
+        { "term": "Mediator", "def": "Christ, through whom we come to the Father in prayer." },
+        { "term": "Praying in the Spirit", "def": "Praying with the help and guidance of the Holy Spirit." },
+        { "term": "Vain repetitions", "def": "Empty words repeated as if quantity moves God (Matthew 6:7)." },
+        { "term": "Pray without ceasing", "def": "Living in a constant attitude of prayer (1 Thessalonians 5:17)." },
+        { "term": "Gethsemane", "def": "The garden where Jesus prayed in agony before His arrest." }
+      ],
+      "texts": [
+        { "ref": "Matthew 7:7", "teaches": "Ask, seek and knock, and it shall be given." },
+        { "ref": "Matthew 6:8", "teaches": "The Father knows what you need before you ask." },
+        { "ref": "James 4:2", "teaches": "You have not, because you ask not." },
+        { "ref": "Mark 1:35", "teaches": "Jesus rose before day to pray in a solitary place." },
+        { "ref": "Matthew 26:39", "teaches": "Not as I will, but as thou wilt." }
+      ],
+      "summary": [
+        "Prayer is communion with God the Father through Christ in the Spirit.",
+        "We pray because God commands it, works through it and uses it to change us.",
+        "Jesus prayed regularly, early and in crisis.",
+        "Prayer submits to God's will."
+      ],
+      "questions": [
+        { "q": "Through whom do believers come to the Father in prayer?", "options": ["Christ, the one Mediator", "Saints", "Angels", "Ancestors"], "answer": 0 },
+        { "q": "Why should we pray if God already knows our needs?", "options": ["God commands it and works through it", "To inform God", "To earn favour", "There is no reason"], "answer": 0 },
+        { "q": "What did Jesus pray in Gethsemane?", "options": ["Not as I will, but as thou wilt", "Destroy my enemies", "Give me riches", "Save me at all costs"], "answer": 0 },
+        { "q": "What did Jesus warn against in Matthew 6:7?", "options": ["Vain repetitions", "Praying in secret", "Praying to the Father", "Short prayers"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Lord's Prayer and Kinds of Prayer",
+      "intro": "Jesus gave a pattern for prayer. This week we study it and the main kinds of prayer in Scripture.",
+      "lessons": [
+        {
+          "title": "The Lord's Prayer (1)",
+          "body": "\"After this manner therefore pray ye\" (Matthew 6:9). The Lord's Prayer is a pattern, not only words to recite.\n\n**\"Our Father which art in heaven\"**: we come as children, together (\"our\"), to a Father who is near yet majestic.\n\n**\"Hallowed be thy name\"**: first, we desire God to be honoured as holy.\n\n**\"Thy kingdom come\"**: we long for God's rule to spread now and to come fully.\n\n**\"Thy will be done in earth, as it is in heaven\"**: we submit our plans to His will.\n\nNotice the order: God's glory comes before our needs.",
+          "refs": ["Matthew 6:9-10", "Luke 11:2", "Psalm 115:1"]
+        },
+        {
+          "title": "The Lord's Prayer (2)",
+          "body": "**\"Give us this day our daily bread\"**: we depend on God for daily provision, not for luxury or hoarding (Proverbs 30:8).\n\n**\"And forgive us our debts, as we forgive our debtors\"**: we confess sin and extend forgiveness. Jesus adds, \"if ye forgive not men their trespasses, neither will your Father forgive your trespasses\" (Matthew 6:15).\n\n**\"And lead us not into temptation, but deliver us from evil\"**: we ask for protection from sin and from the evil one.\n\n**\"For thine is the kingdom, and the power, and the glory, for ever. Amen\"**: we end in praise and confidence.",
+          "refs": ["Matthew 6:11-15", "Proverbs 30:8-9", "1 Chronicles 29:11"]
+        },
+        {
+          "title": "ACTS: a pattern for daily prayer",
+          "body": "A simple guide to balanced prayer is **ACTS**:\n\n- **Adoration**: praising God for who He is (Psalm 145:1-3).\n- **Confession**: owning our sins (1 John 1:9; Psalm 32:5).\n- **Thanksgiving**: thanking God for what He has done: \"In every thing give thanks\" (1 Thessalonians 5:18).\n- **Supplication**: asking for our needs and others' (Philippians 4:6).\n\nOther forms include **intercession** for others (1 Timothy 2:1-2), including leaders and the lost; **lament**, honest crying out in pain (Psalm 13); and praying Scripture back to God.",
+          "refs": ["Philippians 4:6-7", "1 Timothy 2:1-4", "Psalm 13:1-6"]
+        }
+      ],
+      "terms": [
+        { "term": "Lord's Prayer", "def": "The model prayer Jesus taught His disciples (Matthew 6:9-13)." },
+        { "term": "Hallowed", "def": "Honoured as holy." },
+        { "term": "Adoration", "def": "Praising God for who He is." },
+        { "term": "Supplication", "def": "Humble asking for needs." },
+        { "term": "Intercession", "def": "Praying on behalf of others." },
+        { "term": "Lament", "def": "Honest prayer pouring out grief and complaint to God in faith." }
+      ],
+      "texts": [
+        { "ref": "Matthew 6:9", "teaches": "After this manner pray: Our Father which art in heaven, hallowed be thy name." },
+        { "ref": "Matthew 6:12", "teaches": "Forgive us our debts, as we forgive our debtors." },
+        { "ref": "Philippians 4:6", "teaches": "In everything by prayer and supplication with thanksgiving, make your requests known." },
+        { "ref": "1 Timothy 2:1", "teaches": "Supplications, prayers and intercessions should be made for all men." },
+        { "ref": "1 Thessalonians 5:18", "teaches": "In every thing give thanks." }
+      ],
+      "summary": [
+        "The Lord's Prayer is a pattern: God's glory first, then our needs.",
+        "We ask for daily bread, forgiveness and deliverance.",
+        "ACTS: adoration, confession, thanksgiving, supplication.",
+        "Intercession and lament are also biblical prayer."
+      ],
+      "questions": [
+        { "q": "What does 'hallowed' mean?", "options": ["Honoured as holy", "Forgotten", "Feared", "Hidden"], "answer": 0 },
+        { "q": "What comes first in the Lord's Prayer?", "options": ["God's name, kingdom and will", "Our daily bread", "Deliverance from enemies", "Forgiveness"], "answer": 0 },
+        { "q": "What does the S in ACTS stand for?", "options": ["Supplication", "Silence", "Singing", "Sacrifice"], "answer": 0 },
+        { "q": "What is intercession?", "options": ["Praying for others", "Praising God", "Confessing sin", "Fasting"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Answers, Delays and Warfare",
+      "intro": "Why are some prayers not answered as we hoped? This week we study conditions, hindrances, persistence and spiritual warfare.",
+      "lessons": [
+        {
+          "title": "Praying according to God's will",
+          "body": "\"And this is the confidence that we have in him, that, if we ask any thing according to his will, he heareth us\" (1 John 5:14). Praying \"in Jesus' name\" means praying as His representatives, for what He would want (John 14:13-14), not attaching a formula.\n\nGod answers in different ways: **yes**, **no**, or **wait**. Paul asked three times for his thorn to be removed; God said, \"My grace is sufficient for thee\" (2 Corinthians 12:8-9).\n\nGod's \"no\" is the answer of a wise Father: \"If ye then, being evil, know how to give good gifts unto your children, how much more...\" (Matthew 7:11).",
+          "refs": ["1 John 5:14-15", "John 14:13-14", "2 Corinthians 12:7-9"]
+        },
+        {
+          "title": "Hindrances and persistence",
+          "body": "Scripture names hindrances to prayer:\n\n- Cherished sin: \"If I regard iniquity in my heart, the Lord will not hear me\" (Psalm 66:18).\n- Wrong motives: \"ye ask amiss, that ye may consume it upon your lusts\" (James 4:3).\n- Unforgiveness (Mark 11:25).\n- Strife in marriage: husbands must honour their wives \"that your prayers be not hindered\" (1 Peter 3:7).\n- Unbelief (James 1:6-7).\n\nJesus also taught persistence: the widow kept coming to the unjust judge, and \"men ought always to pray, and not to faint\" (Luke 18:1-8). Daniel's answer was delayed by spiritual opposition (Daniel 10:12-13).",
+          "refs": ["Psalm 66:18-20", "James 4:3", "Luke 18:1-8"]
+        },
+        {
+          "title": "Prayer and spiritual warfare",
+          "body": "\"For we wrestle not against flesh and blood, but against principalities, against powers... against spiritual wickedness in high places\" (Ephesians 6:12). After describing the armour of God, Paul adds, \"Praying always with all prayer and supplication in the Spirit\" (6:18).\n\nBelievers resist the devil by submitting to God (James 4:7) and standing in Christ's victory (Colossians 2:15).\n\nBiblical warfare prayer is not shouting curses at people or fearing every misfortune as witchcraft. It is confident prayer in Christ's name, praying for the gospel to advance (Ephesians 6:19), for protection, and for deliverance from evil.",
+          "refs": ["Ephesians 6:10-19", "James 4:7", "2 Corinthians 10:3-5"]
+        }
+      ],
+      "terms": [
+        { "term": "In Jesus' name", "def": "Praying as Christ's representatives, according to His will and authority." },
+        { "term": "According to his will", "def": "Praying for what God desires, as revealed in Scripture." },
+        { "term": "Hindrance", "def": "Something that blocks effective prayer, such as cherished sin or unforgiveness." },
+        { "term": "Persistence", "def": "Continuing to pray without giving up (Luke 18:1)." },
+        { "term": "Spiritual warfare", "def": "The believer's conflict with Satan and evil powers, fought by faith and prayer." },
+        { "term": "Armour of God", "def": "The spiritual protection described in Ephesians 6:13-17." }
+      ],
+      "texts": [
+        { "ref": "1 John 5:14", "teaches": "If we ask anything according to His will, He hears us." },
+        { "ref": "Psalm 66:18", "teaches": "If I regard iniquity in my heart, the Lord will not hear me." },
+        { "ref": "James 4:3", "teaches": "You ask and receive not because you ask amiss." },
+        { "ref": "Luke 18:1", "teaches": "Men ought always to pray and not to faint." },
+        { "ref": "Ephesians 6:18", "teaches": "Pray always with all prayer and supplication in the Spirit." }
+      ],
+      "summary": [
+        "God hears prayer according to His will and answers yes, no or wait.",
+        "Cherished sin, wrong motives, unforgiveness and unbelief hinder prayer.",
+        "Jesus taught persistence in prayer.",
+        "Warfare prayer stands in Christ's victory, without fear or cursing."
+      ],
+      "questions": [
+        { "q": "How did God answer Paul's prayer about his thorn?", "options": ["My grace is sufficient for thee", "Yes, immediately", "Pray harder", "No answer at all"], "answer": 0 },
+        { "q": "What does James 4:3 say hinders prayer?", "options": ["Asking amiss with wrong motives", "Praying too often", "Praying alone", "Kneeling"], "answer": 0 },
+        { "q": "What parable teaches persistence in prayer?", "options": ["The widow and the unjust judge", "The sower", "The lost coin", "The ten virgins"], "answer": 0 },
+        { "q": "Against what do believers wrestle, according to Ephesians 6:12?", "options": ["Principalities and powers", "Flesh and blood", "Governments", "Neighbours"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Biblical Fasting",
+      "intro": "Jesus said, \"when ye fast\", not \"if\". This week we study why, how and how not to fast.",
+      "lessons": [
+        {
+          "title": "What fasting is and why we fast",
+          "body": "Fasting is going without food (and sometimes drink) for a time in order to seek God. Jesus expected His followers to fast: \"when ye fast\" (Matthew 6:16); \"then shall they fast\" (9:15).\n\nIn Scripture people fasted to:\n\n- **Humble themselves and repent** (Joel 2:12; Jonah 3:5-10).\n- **Seek guidance** before decisions (Acts 13:2-3; 14:23).\n- **Seek God's help in crisis** (Esther 4:16; Ezra 8:21-23).\n- **Mourn** (2 Samuel 1:12).\n- **Grow in devotion** (Luke 2:37).\n\nFasting does not earn God's favour or force His hand; it expresses dependence.",
+          "refs": ["Matthew 6:16-18", "Acts 13:2-3", "Ezra 8:21-23"]
+        },
+        {
+          "title": "Kinds of fasts",
+          "body": "Scripture shows different fasts:\n\n- **Normal fast**: no food, but water. Jesus fasted forty days and \"afterward hungered\" (Matthew 4:2).\n- **Partial fast**: limiting certain foods. Daniel ate no \"pleasant bread... flesh nor wine\" for three weeks (Daniel 10:3).\n- **Absolute fast**: no food or water, short and in extreme crisis (Esther 4:16). Going without water for more than about three days is dangerous.\n- **Corporate fast**: a church or nation fasting together (Joel 2:15; Acts 13:2).\n\nMany Nigerian churches hold seasons of fasting. These can be blessed when done with understanding, not as a ritual or a test of spirituality.",
+          "refs": ["Matthew 4:1-2", "Daniel 10:2-3", "Esther 4:15-16"]
+        },
+        {
+          "title": "Fasting rightly",
+          "body": "God rejects fasting that is for show or that ignores justice. The Pharisee boasted, \"I fast twice in the week\" (Luke 18:12) and went home unjustified. Through Isaiah God said, \"Is not this the fast that I have chosen? to loose the bands of wickedness... to deal thy bread to the hungry\" (Isaiah 58:6-7).\n\nGuidelines:\n\n- Fast in secret, without drawing attention (Matthew 6:17-18).\n- Replace meals with prayer and the Word.\n- Pair fasting with repentance and generosity.\n- **Health**: those who are pregnant, nursing, diabetic, on medication, very young, elderly or ill should seek medical advice and may choose other forms of fasting. God does not require harm to the body.",
+          "refs": ["Isaiah 58:3-9", "Luke 18:9-14", "1 Corinthians 6:19-20"]
+        }
+      ],
+      "terms": [
+        { "term": "Fasting", "def": "Going without food, and sometimes drink, for a time to seek God." },
+        { "term": "Normal fast", "def": "Abstaining from food but drinking water." },
+        { "term": "Partial fast", "def": "Limiting certain foods, as Daniel did." },
+        { "term": "Absolute fast", "def": "Going without food and water, only briefly and in great crisis." },
+        { "term": "Corporate fast", "def": "A fast observed together by a church or nation." },
+        { "term": "The chosen fast", "def": "God's call in Isaiah 58 for fasting joined to justice and mercy." }
+      ],
+      "texts": [
+        { "ref": "Matthew 6:16", "teaches": "When you fast, do not be like the hypocrites seeking to be seen." },
+        { "ref": "Acts 13:2", "teaches": "As they ministered and fasted, the Holy Ghost spoke." },
+        { "ref": "Esther 4:16", "teaches": "Esther called for a three-day fast before approaching the king." },
+        { "ref": "Daniel 10:3", "teaches": "Daniel ate no pleasant bread, meat or wine for three weeks." },
+        { "ref": "Isaiah 58:6", "teaches": "God's chosen fast looses the bands of wickedness." }
+      ],
+      "summary": [
+        "Jesus expected His followers to fast.",
+        "We fast to humble ourselves, seek guidance and seek God's help.",
+        "Fasts may be normal, partial, absolute or corporate.",
+        "Fast in secret, with repentance and justice, and with care for health."
+      ],
+      "questions": [
+        { "q": "What did Jesus say about fasting?", "options": ["When ye fast", "Never fast", "Fast only once a year", "Fasting is for priests only"], "answer": 0 },
+        { "q": "What kind of fast did Daniel keep in Daniel 10?", "options": ["A partial fast", "An absolute fast", "No fast", "A water-only fast for forty days"], "answer": 0 },
+        { "q": "What does Isaiah 58 join to fasting?", "options": ["Justice and mercy", "Wealth", "Loud announcements", "Rituals only"], "answer": 0 },
+        { "q": "Who should seek medical advice before fasting?", "options": ["Pregnant women and those who are ill", "No one", "Only pastors", "Only children"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Why should we pray if God already knows our needs?", "keywords": [["command", "commands", "commanded"], ["works through", "ask not", "James 4:2", "accomplish"], ["changes us", "relationship", "trust", "dependence"]], "model": "God commands prayer, has chosen to work through it (James 4:2), and uses it to deepen our trust and relationship with Him." },
+      { "q": "Explain the order of the Lord's Prayer.", "keywords": [["God", "name", "kingdom", "will"], ["first", "before"], ["needs", "bread", "forgive"]], "model": "It begins with God's name, kingdom and will before our needs of daily bread, forgiveness and deliverance." },
+      { "q": "What is the ACTS pattern?", "keywords": [["adoration"], ["confession"], ["thanksgiving"], ["supplication"]], "model": "Adoration, confession, thanksgiving and supplication." },
+      { "q": "Name three hindrances to prayer with Scripture.", "keywords": [["sin", "iniquity", "Psalm 66"], ["motives", "amiss", "James 4:3"], ["unforgiveness", "unbelief", "marriage", "1 Peter 3:7"]], "model": "Cherished sin (Psalm 66:18), wrong motives (James 4:3) and unforgiveness or strife in marriage (Mark 11:25; 1 Peter 3:7)." },
+      { "q": "Give three biblical purposes of fasting.", "keywords": [["humble", "repent", "repentance"], ["guidance", "decision"], ["crisis", "help", "mourn", "devotion"]], "model": "To humble ourselves in repentance, to seek guidance, and to seek God's help in crisis." },
+      { "q": "What did God require of fasting in Isaiah 58?", "keywords": [["justice", "loose", "wickedness", "oppressed"], ["hungry", "bread", "poor", "mercy"]], "model": "That fasting be joined with justice and mercy: freeing the oppressed and sharing bread with the hungry." }
+    ],
+    "lists": [
+      { "q": "List the six petitions of the Lord's Prayer.", "items": [["hallowed", "name"], ["kingdom"], ["will"], ["bread"], ["forgive", "debts"], ["temptation", "evil", "deliver"]], "need": 6 },
+      { "q": "List four kinds of fast.", "items": [["normal"], ["partial"], ["absolute"], ["corporate"], ["private", "secret"]], "need": 4 },
+      { "q": "List three answers God may give to prayer.", "items": [["yes"], ["no"], ["wait", "not yet"], ["grace", "something better"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Praying the Lord's Prayer", "prompt": "For one week, use the Lord's Prayer as the pattern for your daily prayer. Write about what you prayed under each petition, what you learned, and how it changed your prayer life. Support your reflections with at least four passages from the course.", "words": "400–600" },
+    { "title": "Planning a fast", "prompt": "Plan a one-day or three-day fast for yourself or your fellowship. State its purpose, the kind of fast, the prayer focus for each day, the Scriptures you will read, how it will include justice or generosity (Isaiah 58), and the health precautions you will take.", "words": "400–600" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "E. M. Bounds, Power Through Prayer",
+    "Timothy Keller, Prayer: Experiencing Awe and Intimacy with God",
+    "John Piper, A Hunger for God"
+  ]
+}

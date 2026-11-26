@@ -1,0 +1,241 @@
+{
+  "slug": "marriage-family-and-sexuality",
+  "title": "Marriage, Family and Sexuality",
+  "track": "living",
+  "level": "Intermediate",
+  "summary": "God's design for sexuality, singleness, marriage and family life, and how to live it faithfully in today's culture.",
+  "description": "God made us male and female and designed marriage and family for our good and His glory. This course studies the biblical teaching on sexuality and purity, singleness, choosing a spouse, the covenant of marriage and the roles of husband and wife, raising children in the Lord, honouring parents, and how the church can care for families facing conflict, infertility, divorce and loss.",
+  "objectives": [
+    "Explain God's design for sexuality and the call to purity",
+    "Honour singleness as a gift and calling",
+    "Explain marriage as a covenant and the roles of husband and wife",
+    "Teach biblical parenting and family life",
+    "Respond with truth and grace to family pain and brokenness"
+  ],
+  "outcomes": [
+    "Explain Genesis 1-2 as the foundation for marriage and sexuality",
+    "Give biblical guidance on dating, courtship and choosing a spouse",
+    "Explain Ephesians 5:21-33 and differing views on roles",
+    "Apply Deuteronomy 6 and Ephesians 6 to parenting",
+    "Give pastoral help in conflict, infertility and divorce"
+  ],
+  "modules": [
+    {
+      "title": "God's Design for Sexuality",
+      "intro": "Sexuality is God's good gift with God's good boundaries. This week we study creation, purity and temptation.",
+      "lessons": [
+        {
+          "title": "Male and female he created them",
+          "body": "\"So God created man in his own image... male and female created he them\" (Genesis 1:27). Both men and women bear God's image equally and together reflect Him.\n\nGod brought the woman to the man, and \"Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh\" (Genesis 2:24). Jesus quoted these verses as God's design for marriage (Matthew 19:4-6).\n\nSexual union is good, a gift for marriage between one man and one woman, for unity, delight and children (Proverbs 5:18-19; Genesis 1:28). It also pictures Christ and the church (Ephesians 5:31-32).",
+          "refs": ["Genesis 1:27-28", "Genesis 2:18-25", "Matthew 19:4-6"]
+        },
+        {
+          "title": "Flee fornication",
+          "body": "Because sex is precious, God guards it: \"Marriage is honourable in all, and the bed undefiled: but whoremongers and adulterers God will judge\" (Hebrews 13:4).\n\nScripture forbids sex outside marriage: fornication, adultery, homosexual acts, and other sexual sins (1 Corinthians 6:9-10; Leviticus 18). Jesus extends purity to the heart: lust is adultery in the heart (Matthew 5:28).\n\nThe body matters: \"Flee fornication... he that committeth fornication sinneth against his own body... ye are not your own... glorify God in your body\" (1 Corinthians 6:18-20). Yet \"such were some of you: but ye are washed\" (6:11). There is full forgiveness in Christ.",
+          "refs": ["Hebrews 13:4", "1 Corinthians 6:9-20", "Matthew 5:27-28"]
+        },
+        {
+          "title": "Purity in practice",
+          "body": "Joseph fled from Potiphar's wife, leaving his garment (Genesis 39:12). Job \"made a covenant with mine eyes\" (Job 31:1). David fell when he lingered and looked (2 Samuel 11:2).\n\nPractical purity:\n\n- Guard the eyes: pornography and sexual media enslave many. Use filters and accountability.\n- Set physical boundaries in relationships before temptation comes.\n- Avoid situations that invite compromise (Romans 13:14).\n- Be honest with a trusted mentor.\n- Fill the mind with good things (Philippians 4:8).\n\nGod's grace both forgives past failure and empowers new obedience (Titus 2:11-12).",
+          "refs": ["Genesis 39:7-12", "Job 31:1", "Philippians 4:8"]
+        }
+      ],
+      "terms": [
+        { "term": "One flesh", "def": "The deep union of husband and wife in marriage (Genesis 2:24)." },
+        { "term": "Fornication", "def": "Sexual activity outside of marriage." },
+        { "term": "Adultery", "def": "Sexual unfaithfulness by a married person." },
+        { "term": "Lust", "def": "Sinful sexual desire for someone one is not married to." },
+        { "term": "Purity", "def": "Keeping sexual desire and conduct within God's design." },
+        { "term": "Accountability", "def": "Openness to a trusted believer who helps one stay faithful." }
+      ],
+      "texts": [
+        { "ref": "Genesis 1:27", "teaches": "God created mankind in His image, male and female." },
+        { "ref": "Genesis 2:24", "teaches": "A man shall leave his parents, cleave to his wife, and they shall be one flesh." },
+        { "ref": "Hebrews 13:4", "teaches": "Marriage is honourable and the bed undefiled; God judges sexual immorality." },
+        { "ref": "1 Corinthians 6:18", "teaches": "Flee fornication." },
+        { "ref": "Job 31:1", "teaches": "Job made a covenant with his eyes." }
+      ],
+      "summary": [
+        "God made us male and female, equal in His image.",
+        "Sex is God's good gift for marriage between a man and a woman.",
+        "Scripture forbids sexual sin, including lust in the heart.",
+        "Purity is pursued wisely; forgiveness is full in Christ."
+      ],
+      "questions": [
+        { "q": "Which verse did Jesus quote about marriage?", "options": ["Genesis 2:24", "Exodus 20:14", "Deuteronomy 24:1", "Malachi 2:16"], "answer": 0 },
+        { "q": "What did Joseph do when tempted?", "options": ["Fled", "Argued", "Stayed", "Hid"], "answer": 0 },
+        { "q": "How did Jesus extend the commandment against adultery?", "options": ["To lust in the heart", "Only to married people", "Only to leaders", "He removed it"], "answer": 0 },
+        { "q": "What does 1 Corinthians 6:11 offer to those who sinned sexually?", "options": ["Washing and forgiveness", "No hope", "Permanent shame", "Only punishment"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Singleness and Choosing a Spouse",
+      "intro": "Singleness is not second best, and marriage should be entered wisely. This week we study both.",
+      "lessons": [
+        {
+          "title": "The gift of singleness",
+          "body": "Jesus was single. Paul was single and wrote, \"I would that all men were even as I myself. But every man hath his proper gift of God\" (1 Corinthians 7:7). He saw advantages: the unmarried can care \"for the things of the Lord\" with fewer distractions (7:32-35).\n\nIn many cultures, including in Nigeria, singles face pressure, gossip and shame, especially women. The church must honour singles as full members of God's family, use their gifts, and include them in fellowship.\n\nSingleness may be for a season or for life. Either way, a single believer's identity is in Christ, not in marital status.",
+          "refs": ["1 Corinthians 7:7-8", "1 Corinthians 7:32-35", "Isaiah 56:3-5"]
+        },
+        {
+          "title": "Choosing a spouse",
+          "body": "Key biblical principles:\n\n- **Marry a believer**: \"Be ye not unequally yoked together with unbelievers\" (2 Corinthians 6:14); a widow may marry \"only in the Lord\" (1 Corinthians 7:39).\n- **Look for character**: \"Favour is deceitful, and beauty is vain: but a woman that feareth the LORD, she shall be praised\" (Proverbs 31:30). The same holds for men.\n- **Seek counsel**: involve parents, pastors and mature friends.\n- **Pray and wait**: Isaac's servant prayed and God led (Genesis 24).\n\nChurches differ on dating and courtship practices, but all agree relationships before marriage should be pure, honest and purposeful.",
+          "refs": ["2 Corinthians 6:14", "Proverbs 31:10-31", "Genesis 24:12-27"]
+        },
+        {
+          "title": "Culture and the wedding",
+          "body": "Marriage involves families and culture. The Bible honours families and customs where they do not contradict God's Word.\n\nCaution is needed with:\n\n- **Bride price** that becomes a heavy burden or treats a woman as property. A modest, symbolic bride price honours families; exploitation does not.\n- **Lavish weddings** that put couples into debt (Proverbs 22:7).\n- **Rituals** that involve idols or ancestors.\n- **Pressure** from relatives about tribe or wealth over faith and character.\n\nThe wedding is a day; the marriage is a lifetime. Invest in pre-marital counselling on communication, money, sex, conflict and family.",
+          "refs": ["Proverbs 22:7", "Proverbs 24:3-4", "Colossians 3:17"]
+        }
+      ],
+      "terms": [
+        { "term": "Singleness", "def": "Being unmarried, which Scripture honours as a gift and calling." },
+        { "term": "Unequally yoked", "def": "Joined in a close partnership such as marriage with an unbeliever." },
+        { "term": "Courtship", "def": "A purposeful relationship aimed at discerning marriage, often involving family." },
+        { "term": "Bride price", "def": "A traditional gift from the groom's family to the bride's family." },
+        { "term": "Pre-marital counselling", "def": "Teaching and guidance for a couple before marriage." },
+        { "term": "Virtuous woman", "def": "The godly wife described in Proverbs 31." }
+      ],
+      "texts": [
+        { "ref": "1 Corinthians 7:7", "teaches": "Every man has his proper gift of God, married or single." },
+        { "ref": "1 Corinthians 7:32", "teaches": "The unmarried care for the things of the Lord." },
+        { "ref": "2 Corinthians 6:14", "teaches": "Be not unequally yoked with unbelievers." },
+        { "ref": "Proverbs 31:30", "teaches": "Favour is deceitful and beauty vain, but one who fears the LORD shall be praised." },
+        { "ref": "Proverbs 22:7", "teaches": "The borrower is servant to the lender." }
+      ],
+      "summary": [
+        "Singleness is an honourable gift; singles are full members of God's family.",
+        "Believers should marry believers and look for godly character.",
+        "Seek counsel, pray and keep relationships pure.",
+        "Honour culture where it agrees with Scripture; avoid burdens and idolatry."
+      ],
+      "questions": [
+        { "q": "Who called singleness a gift?", "options": ["Paul", "Moses", "Solomon", "David"], "answer": 0 },
+        { "q": "What does 'unequally yoked' warn against?", "options": ["Marrying an unbeliever", "Marrying someone poorer", "Marrying from another tribe", "Staying single"], "answer": 0 },
+        { "q": "What does Proverbs 31:30 say is vain?", "options": ["Beauty", "Fear of the LORD", "Wisdom", "Kindness"], "answer": 0 },
+        { "q": "What caution applies to lavish weddings?", "options": ["They can lead couples into debt", "They are always sinful", "They are required", "They guarantee happiness"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Covenant of Marriage",
+      "intro": "Marriage is a lifelong covenant reflecting Christ and the church. This week we study roles, love and faithfulness.",
+      "lessons": [
+        {
+          "title": "A covenant, not a contract",
+          "body": "Malachi calls a wife \"thy companion, and the wife of thy covenant\" (Malachi 2:14). A contract can be ended when one side fails; a covenant is a lifelong promise made before God.\n\nJesus said, \"What therefore God hath joined together, let not man put asunder\" (Matthew 19:6). Marriage is between one man and one woman; Jesus pointed back to the beginning (19:4-5), and church leaders must be \"the husband of one wife\" (1 Timothy 3:2). Polygamy appears in the Old Testament but brought much grief, as with Jacob, David and Solomon.\n\nMarriage is meant for companionship (Genesis 2:18), partnership, intimacy, children and a witness to Christ's love.",
+          "refs": ["Malachi 2:14-16", "Matthew 19:3-9", "Genesis 2:18"]
+        },
+        {
+          "title": "Husbands and wives",
+          "body": "Ephesians 5 begins: \"Submitting yourselves one to another in the fear of God\" (5:21). Wives are to submit to their husbands \"as unto the Lord\" (5:22), and husbands to \"love your wives, even as Christ also loved the church, and gave himself for it\" (5:25).\n\nChristians understand these roles in two main ways:\n\n- **Complementarians** see loving, servant headship for husbands and respectful support from wives, with equal worth.\n- **Egalitarians** stress mutual submission (5:21) and see the roles as shaped by the culture of the time.\n\nBoth reject domination, abuse and contempt. A husband who harms his wife disobeys Christ (Colossians 3:19). Husbands are to dwell with wives \"according to knowledge\" (1 Peter 3:7).",
+          "refs": ["Ephesians 5:21-33", "Colossians 3:18-19", "1 Peter 3:1-7"]
+        },
+        {
+          "title": "Love, intimacy and faithfulness",
+          "body": "Love in marriage is described in 1 Corinthians 13: patient, kind, not self-seeking, keeping no record of wrongs.\n\nSexual intimacy is a duty and delight within marriage: \"Let the husband render unto the wife due benevolence: and likewise also the wife unto the husband\" (1 Corinthians 7:3-5). It should never be withheld as punishment or demanded with force.\n\nFaithfulness is guarded by: daily time together, honest communication (Ephesians 4:26), shared prayer, wise boundaries with others, and handling money openly. \"Two are better than one... a threefold cord is not quickly broken\" (Ecclesiastes 4:9-12).",
+          "refs": ["1 Corinthians 7:2-5", "1 Corinthians 13:4-7", "Ecclesiastes 4:9-12"]
+        }
+      ],
+      "terms": [
+        { "term": "Covenant", "def": "A solemn, lifelong commitment made before God." },
+        { "term": "Monogamy", "def": "Marriage of one man and one woman." },
+        { "term": "Mutual submission", "def": "Believers yielding to one another out of reverence for Christ (Ephesians 5:21)." },
+        { "term": "Headship", "def": "In complementarian teaching, the husband's loving, sacrificial leadership." },
+        { "term": "Due benevolence", "def": "The kindness and intimacy spouses owe each other (1 Corinthians 7:3)." },
+        { "term": "Threefold cord", "def": "A picture of a marriage strengthened by God at its centre." }
+      ],
+      "texts": [
+        { "ref": "Malachi 2:14", "teaches": "A wife is the wife of your covenant." },
+        { "ref": "Matthew 19:6", "teaches": "What God has joined together, let not man put asunder." },
+        { "ref": "Ephesians 5:25", "teaches": "Husbands, love your wives as Christ loved the church." },
+        { "ref": "Colossians 3:19", "teaches": "Husbands, love your wives and be not bitter against them." },
+        { "ref": "Ecclesiastes 4:12", "teaches": "A threefold cord is not quickly broken." }
+      ],
+      "summary": [
+        "Marriage is a lifelong covenant between one man and one woman.",
+        "Ephesians 5 calls for mutual submission, wifely respect and Christlike love.",
+        "Complementarians and egalitarians differ on roles but reject abuse.",
+        "Love, intimacy and wise boundaries protect faithfulness."
+      ],
+      "questions": [
+        { "q": "What is the difference between a covenant and a contract?", "options": ["A covenant is a lifelong promise before God", "There is no difference", "A covenant can be ended easily", "A contract is holier"], "answer": 0 },
+        { "q": "How should husbands love their wives?", "options": ["As Christ loved the church", "Only when obeyed", "With harshness", "From a distance"], "answer": 0 },
+        { "q": "Which verse begins with mutual submission?", "options": ["Ephesians 5:21", "Ephesians 6:1", "Genesis 3:16", "Proverbs 31:10"], "answer": 0 },
+        { "q": "What does a threefold cord picture?", "options": ["A marriage with God at its centre", "Three wives", "Three children", "Three houses"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Children, Family and Brokenness",
+      "intro": "This week we study parenting, honouring parents and caring for families facing pain.",
+      "lessons": [
+        {
+          "title": "Raising children in the Lord",
+          "body": "Children are \"an heritage of the LORD\" (Psalm 127:3), not property or merely future support.\n\nParents are to teach God's Word diligently \"when thou sittest in thine house, and when thou walkest by the way\" (Deuteronomy 6:6-7). \"Train up a child in the way he should go\" (Proverbs 22:6).\n\nDiscipline should be loving and consistent (Proverbs 13:24; Hebrews 12:11), never cruel or in anger: \"fathers, provoke not your children to wrath: but bring them up in the nurture and admonition of the Lord\" (Ephesians 6:4). Physical abuse, constant insults and neglect are sins against children. Model faith: children learn more from what they see than what they hear (2 Timothy 1:5).",
+          "refs": ["Deuteronomy 6:4-9", "Ephesians 6:1-4", "Psalm 127:3-5"]
+        },
+        {
+          "title": "Honour and care across generations",
+          "body": "\"Honour thy father and mother\" applies throughout life. Adult children should respect parents and care for them in old age: \"if any provide not for his own, and specially for those of his own house, he hath denied the faith\" (1 Timothy 5:8). Jesus provided for His mother from the cross (John 19:26-27).\n\nHonour does not mean obeying parents against Christ (Luke 14:26; Acts 5:29), nor allowing extended family to control a marriage: a man \"shall leave his father and his mother\" (Genesis 2:24).\n\nThe church is also a family for orphans, widows, and those without relatives (James 1:27; Psalm 68:6).",
+          "refs": ["1 Timothy 5:3-8", "John 19:26-27", "James 1:27"]
+        },
+        {
+          "title": "When families hurt",
+          "body": "Families face conflict, infertility, unfaithfulness, divorce, abuse and death.\n\n- **Infertility**: Hannah's tears were heard (1 Samuel 1). Childlessness is not a curse or a sign of sin. Wives must not be blamed or pressured into polygamy.\n- **Divorce**: God hates the treachery of divorce (Malachi 2:16). Jesus allowed it for sexual immorality (Matthew 19:9); Paul for desertion by an unbelieving spouse (1 Corinthians 7:15). Churches differ on remarriage; all must show grace to the divorced.\n- **Abuse**: safety comes first. Victims should be protected and helped, and abuse reported to authorities. Submission never requires enduring violence.\n\nThe gospel brings healing and a new family in Christ.",
+          "refs": ["1 Samuel 1:9-20", "Matthew 19:8-9", "1 Corinthians 7:10-15"]
+        }
+      ],
+      "terms": [
+        { "term": "Heritage of the LORD", "def": "Children as a gift from God (Psalm 127:3)." },
+        { "term": "Nurture and admonition", "def": "Loving training and correction in the Lord (Ephesians 6:4)." },
+        { "term": "Provoke to wrath", "def": "Exasperating children by harshness or unfairness." },
+        { "term": "Leave and cleave", "def": "A married couple's new priority over their families of origin (Genesis 2:24)." },
+        { "term": "Infertility", "def": "Inability to conceive, which Scripture never treats as a curse on the faithful." },
+        { "term": "Desertion", "def": "Abandonment of a marriage by an unbelieving spouse (1 Corinthians 7:15)." }
+      ],
+      "texts": [
+        { "ref": "Deuteronomy 6:7", "teaches": "Teach God's words diligently to your children at all times." },
+        { "ref": "Ephesians 6:4", "teaches": "Fathers, provoke not your children to wrath." },
+        { "ref": "1 Timothy 5:8", "teaches": "One who does not provide for his own household has denied the faith." },
+        { "ref": "Malachi 2:16", "teaches": "God hates putting away (divorce) and violent treachery." },
+        { "ref": "Matthew 19:9", "teaches": "Jesus permitted divorce for fornication." }
+      ],
+      "summary": [
+        "Children are God's heritage, to be taught, loved and disciplined without cruelty.",
+        "Adult children honour and care for parents while leaving and cleaving.",
+        "Infertility is not a curse; divorce grieves God but has narrow grounds.",
+        "Victims of abuse must be protected; the church is a family for all."
+      ],
+      "questions": [
+        { "q": "What does Psalm 127:3 call children?", "options": ["A heritage of the LORD", "Property", "Burdens", "Workers"], "answer": 0 },
+        { "q": "What does Ephesians 6:4 warn fathers against?", "options": ["Provoking children to wrath", "Teaching them", "Loving them", "Praying for them"], "answer": 0 },
+        { "q": "Whose prayer for a child was heard in 1 Samuel 1?", "options": ["Hannah's", "Sarah's", "Rachel's", "Ruth's"], "answer": 0 },
+        { "q": "What comes first when there is abuse in a home?", "options": ["Safety and protection of the victim", "Silence", "Blaming the victim", "Keeping it secret"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What does Genesis 1-2 teach about marriage and sexuality?", "keywords": [["male and female", "image"], ["one flesh", "leave", "cleave"], ["man and woman", "marriage", "good"]], "model": "God made mankind male and female in His image and joined a man and a woman as one flesh in marriage; sex is His good gift for marriage." },
+      { "q": "Why should Christians honour singleness?", "keywords": [["gift", "Paul", "Jesus"], ["Lord", "undistracted", "serve"], ["identity", "Christ", "family", "full members"]], "model": "Jesus and Paul were single; Paul calls it a gift that frees one to serve the Lord; singles are full members of God's family with their identity in Christ." },
+      { "q": "Give three principles for choosing a spouse.", "keywords": [["believer", "unequally yoked", "in the Lord"], ["character", "fear the LORD"], ["counsel", "pray", "parents", "wait"]], "model": "Marry a believer, look for godly character, and seek counsel and pray." },
+      { "q": "Explain Ephesians 5:21-33, noting the two main views.", "keywords": [["submit", "mutual", "5:21"], ["love", "as Christ"], ["complementarian", "egalitarian", "roles", "headship"]], "model": "Believers submit to one another; wives respect and husbands love as Christ loved the church. Complementarians see servant headship; egalitarians stress mutual submission. Both reject abuse." },
+      { "q": "What does Scripture teach about disciplining children?", "keywords": [["love", "loving", "consistent"], ["not", "provoke", "cruel", "anger", "abuse"], ["nurture", "admonition", "train"]], "model": "Discipline should be loving and consistent, training children in the Lord, never cruel or provoking them to wrath." },
+      { "q": "What are the biblical grounds for divorce Christians recognise?", "keywords": [["fornication", "sexual immorality", "adultery", "Matthew 19"], ["desertion", "unbeliever", "1 Corinthians 7"], ["hates", "Malachi"]], "model": "God hates divorce (Malachi 2:16), but Jesus permits it for sexual immorality (Matthew 19:9) and Paul for desertion by an unbelieving spouse (1 Corinthians 7:15)." }
+    ],
+    "lists": [
+      { "q": "List four practical steps to sexual purity.", "items": [["eyes", "pornography", "media"], ["boundaries"], ["avoid", "situations", "provision"], ["accountability", "mentor"], ["mind", "Philippians 4:8", "good things"], ["flee"]], "need": 4 },
+      { "q": "List four purposes of marriage.", "items": [["companionship", "alone"], ["partnership", "help"], ["intimacy", "one flesh"], ["children"], ["picture", "Christ and the church", "witness"]], "need": 4 },
+      { "q": "List three cultural cautions around weddings.", "items": [["bride price"], ["debt", "lavish"], ["rituals", "idols", "ancestors"], ["pressure", "tribe", "wealth"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Teaching young people about purity", "prompt": "Write a teaching for a youth fellowship on God's design for sexuality and how to live in purity in a digital age. Use at least five passages from the course, address forgiveness for past failure, and give practical steps.", "words": "500–700" },
+    { "title": "A family under pressure", "prompt": "Describe a common pressure on Christian families in your community (for example, infertility, extended family interference or financial strain). Using the course passages, explain how the couple, their families and the church should respond.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Timothy and Kathy Keller, The Meaning of Marriage",
+    "Paul David Tripp, Parenting: 14 Gospel Principles",
+    "Christopher Ash, Married for God"
+  ]
+}

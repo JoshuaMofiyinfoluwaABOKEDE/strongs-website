@@ -1,0 +1,241 @@
+{
+  "slug": "christian-ethics",
+  "title": "Christian Ethics",
+  "track": "living",
+  "level": "Intermediate",
+  "summary": "How to know what is right and live it: the foundations of Christian ethics, the Ten Commandments, the Sermon on the Mount, and wise decision-making on hard questions.",
+  "description": "Christians face moral questions every day, at work, at home and in society. This course lays the foundations of Christian ethics in God's character and Word, compares other approaches, studies the Ten Commandments and the Sermon on the Mount, explains the place of conscience and Christian liberty, and gives a method for reasoning through difficult questions such as life, truth-telling, corruption and violence.",
+  "objectives": [
+    "Explain the foundations of Christian ethics",
+    "Compare biblical ethics with other ethical approaches",
+    "Study the Ten Commandments and their New Testament use",
+    "Apply the ethics of the Sermon on the Mount",
+    "Use a biblical method to reason through hard moral questions"
+  ],
+  "outcomes": [
+    "Show why ethics rests on God's character and revelation",
+    "Explain the three uses of the law",
+    "Apply the commandments to modern life",
+    "Explain conscience and Christian liberty from Romans 14",
+    "Reason through cases on life, truth, bribery and violence"
+  ],
+  "modules": [
+    {
+      "title": "Foundations of Christian Ethics",
+      "intro": "Ethics asks: what is right, and why? This week we see that Christian ethics rests on who God is and what He has said.",
+      "lessons": [
+        {
+          "title": "Ethics begins with God",
+          "body": "Right and wrong are not invented by society or by each person. They flow from God's character: \"Be ye holy; for I am holy\" (1 Peter 1:16). God is good, just and loving, so goodness, justice and love are the shape of right living.\n\nGod has revealed His will in **creation and conscience** (Romans 1:20; 2:14-15) and supremely in **Scripture**, which is \"profitable for doctrine, for reproof, for correction, for instruction in righteousness\" (2 Timothy 3:16).\n\nMicah summarised it: \"what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?\" (Micah 6:8).",
+          "refs": ["1 Peter 1:15-16", "Micah 6:8", "2 Timothy 3:16-17"]
+        },
+        {
+          "title": "Other approaches",
+          "body": "People decide right and wrong in different ways:\n\n- **Relativism**: right is whatever a person or culture thinks. But then no one could condemn slavery or genocide. Scripture warns against everyone doing \"that which was right in his own eyes\" (Judges 21:25).\n- **Consequences only** (utilitarianism): right is whatever produces the best results. Results matter, but this can justify evil means.\n- **Rules only**: right is keeping rules. Good rules matter, but the Pharisees kept rules while neglecting \"judgment, mercy, and faith\" (Matthew 23:23).\n- **Character only** (virtue ethics): focusing on becoming a good person.\n\nChristian ethics includes the truth in each: God's commands, good outcomes, and godly character, all centred on Christ.",
+          "refs": ["Judges 21:25", "Matthew 23:23", "Isaiah 5:20"]
+        },
+        {
+          "title": "Love fulfils the law",
+          "body": "Jesus summarised the law: \"Thou shalt love the Lord thy God with all thy heart... and... Thou shalt love thy neighbour as thyself. On these two commandments hang all the law and the prophets\" (Matthew 22:37-40).\n\nPaul agrees: \"love is the fulfilling of the law\" (Romans 13:10). Love does not replace God's commands; it explains them. The commands show what love looks like.\n\nChristian ethics is also empowered by grace. We obey not to be saved but because we are saved, by the Spirit who writes God's law on our hearts (Jeremiah 31:33; Romans 8:4).",
+          "refs": ["Matthew 22:36-40", "Romans 13:8-10", "Jeremiah 31:33"]
+        }
+      ],
+      "terms": [
+        { "term": "Ethics", "def": "The study of what is right and wrong and how we should live." },
+        { "term": "Divine command", "def": "The view that right and wrong are grounded in God's character and commands." },
+        { "term": "Relativism", "def": "The view that right and wrong depend only on persons or cultures." },
+        { "term": "Utilitarianism", "def": "The view that right actions are those with the best consequences." },
+        { "term": "Virtue ethics", "def": "An approach that focuses on developing good character." },
+        { "term": "Great commandment", "def": "Jesus' summary: love God wholly and your neighbour as yourself." }
+      ],
+      "texts": [
+        { "ref": "Micah 6:8", "teaches": "Do justly, love mercy and walk humbly with God." },
+        { "ref": "Isaiah 5:20", "teaches": "Woe to those who call evil good and good evil." },
+        { "ref": "Matthew 22:37", "teaches": "Love the Lord thy God with all thy heart." },
+        { "ref": "Romans 13:10", "teaches": "Love is the fulfilling of the law." },
+        { "ref": "Romans 2:15", "teaches": "God's law is written on the heart; conscience bears witness." }
+      ],
+      "summary": [
+        "Christian ethics rests on God's character and revealed will.",
+        "Relativism, consequences-only and rules-only approaches fall short.",
+        "Love for God and neighbour sums up the law.",
+        "We obey by grace, through the Spirit."
+      ],
+      "questions": [
+        { "q": "What is the foundation of Christian ethics?", "options": ["God's character and revealed will", "Majority opinion", "Personal feelings", "Tradition alone"], "answer": 0 },
+        { "q": "What is relativism?", "options": ["Right depends on persons or cultures", "Right depends on God", "Right depends on consequences", "Right depends on character"], "answer": 0 },
+        { "q": "What does Romans 13:10 call love?", "options": ["The fulfilling of the law", "Optional", "A feeling", "The end of the law"], "answer": 0 },
+        { "q": "Which verse says 'do justly, love mercy, walk humbly'?", "options": ["Micah 6:8", "Amos 5:24", "Isaiah 1:17", "Hosea 6:6"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Ten Commandments",
+      "intro": "The Ten Commandments remain a guide for Christian living. This week we study their meaning and their use today.",
+      "lessons": [
+        {
+          "title": "Duties to God (1-4)",
+          "body": "The commandments begin with grace: \"I am the LORD thy God, which have brought thee out of the land of Egypt\" (Exodus 20:2).\n\n1. **No other gods**: God alone receives our trust, including over charms, oracles or money.\n2. **No graven images**: worship God as He has revealed Himself, not through idols.\n3. **Do not take His name in vain**: speak of God with reverence and keep vows.\n4. **Remember the sabbath**: set aside time for rest and worship. Most Christians keep the Lord's Day, the first day, in honour of the resurrection (Acts 20:7; Revelation 1:10), though Seventh-day Adventists keep Saturday.",
+          "refs": ["Exodus 20:1-11", "Deuteronomy 6:4-5", "Mark 2:27-28"]
+        },
+        {
+          "title": "Duties to neighbour (5-10)",
+          "body": "5. **Honour thy father and thy mother**: the first commandment with a promise (Ephesians 6:2), including care for elderly parents (1 Timothy 5:4, 8).\n6. **Thou shalt not kill**: protect human life; Jesus applies it to anger and insult (Matthew 5:21-22).\n7. **Thou shalt not commit adultery**: keep sexual purity; Jesus applies it to lust (5:27-28).\n8. **Thou shalt not steal**: including fraud, cheating on exams, inflating contracts and not paying workers (James 5:4).\n9. **Thou shalt not bear false witness**: tell the truth, including in court, business and online.\n10. **Thou shalt not covet**: the commandment of the heart (Romans 7:7).",
+          "refs": ["Exodus 20:12-17", "Ephesians 6:1-3", "Romans 7:7"]
+        },
+        {
+          "title": "The law in the Christian life",
+          "body": "Is the Christian under the law? We are not saved by law-keeping (Galatians 2:16), and the ceremonial laws of sacrifice and cleanness were fulfilled in Christ (Hebrews 10:1). Yet the moral law expresses God's unchanging character.\n\nTheologians speak of **three uses of the law**:\n\n1. A **mirror**, showing our sin and driving us to Christ (Romans 3:20; Galatians 3:24).\n2. A **curb**, restraining evil in society (1 Timothy 1:9-10).\n3. A **guide**, showing believers how to please God (Psalm 119:105).\n\nJesus came \"not to destroy, but to fulfil\" the law (Matthew 5:17).",
+          "refs": ["Matthew 5:17-19", "Galatians 3:24", "Psalm 119:97-105"]
+        }
+      ],
+      "terms": [
+        { "term": "Decalogue", "def": "The Ten Commandments (Exodus 20; Deuteronomy 5)." },
+        { "term": "Moral law", "def": "God's commands that reflect His unchanging character, summed up in the Ten Commandments." },
+        { "term": "Ceremonial law", "def": "Old Testament laws of sacrifice and ritual, fulfilled in Christ." },
+        { "term": "Lord's Day", "def": "Sunday, the first day of the week, kept by most Christians for worship." },
+        { "term": "Covet", "def": "To desire wrongly what belongs to another." },
+        { "term": "Three uses of the law", "def": "The law as mirror, curb and guide." }
+      ],
+      "texts": [
+        { "ref": "Exodus 20:2", "teaches": "God introduced the commandments by reminding Israel He had redeemed them." },
+        { "ref": "Exodus 20:3", "teaches": "Thou shalt have no other gods before me." },
+        { "ref": "Ephesians 6:2", "teaches": "Honour father and mother is the first commandment with promise." },
+        { "ref": "Matthew 5:17", "teaches": "Jesus came not to destroy the law but to fulfil it." },
+        { "ref": "Galatians 3:24", "teaches": "The law was our schoolmaster to bring us to Christ." }
+      ],
+      "summary": [
+        "The commandments begin with God's grace in redemption.",
+        "Commandments 1-4 concern God; 5-10 concern our neighbour.",
+        "Jesus applies the commandments to the heart.",
+        "The moral law serves as mirror, curb and guide."
+      ],
+      "questions": [
+        { "q": "Which is the first commandment with a promise?", "options": ["Honour thy father and mother", "Thou shalt not kill", "Remember the sabbath", "Thou shalt not steal"], "answer": 0 },
+        { "q": "How did Jesus apply 'Thou shalt not kill'?", "options": ["To anger and insult", "Only to murder", "Only to war", "Not at all"], "answer": 0 },
+        { "q": "Which commandment concerns the heart's desires?", "options": ["Thou shalt not covet", "No graven images", "Honour parents", "Keep the sabbath"], "answer": 0 },
+        { "q": "Which use of the law shows our sin?", "options": ["The mirror", "The curb", "The guide", "The crown"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Kingdom Ethics",
+      "intro": "In the Sermon on the Mount Jesus describes life in His kingdom. This week we study its ethics, and conscience and liberty.",
+      "lessons": [
+        {
+          "title": "The Beatitudes and righteousness that exceeds",
+          "body": "Jesus begins with blessings on the poor in spirit, the mourners, the meek, the hungry for righteousness, the merciful, the pure in heart, the peacemakers and the persecuted (Matthew 5:3-12). Kingdom character comes before kingdom conduct.\n\nThen He says, \"except your righteousness shall exceed the righteousness of the scribes and Pharisees, ye shall in no case enter into the kingdom of heaven\" (5:20). Their righteousness was outward; His concerns the heart.\n\nBelievers are \"the salt of the earth\" and \"the light of the world\" (5:13-14), preserving and showing what is good in society.",
+          "refs": ["Matthew 5:3-16", "Matthew 5:20"]
+        },
+        {
+          "title": "Truth, retaliation and love of enemies",
+          "body": "Jesus raises the standard:\n\n- **Truthfulness**: \"let your communication be, Yea, yea; Nay, nay\" (Matthew 5:37). Be people whose word can be trusted without oaths.\n- **No revenge**: \"resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also\" (5:39). Personal retaliation is forbidden; justice belongs to God and the authorities (Romans 12:19; 13:4).\n- **Love enemies**: \"Love your enemies, bless them that curse you... pray for them which despitefully use you\" (5:44).\n\nThe Golden Rule summarises it: \"all things whatsoever ye would that men should do to you, do ye even so to them\" (7:12).",
+          "refs": ["Matthew 5:33-48", "Romans 12:17-21", "Matthew 7:12"]
+        },
+        {
+          "title": "Conscience and Christian liberty",
+          "body": "Conscience is the inner sense of right and wrong that God has given (Romans 2:15). It must be kept clean (Acts 24:16) and taught by Scripture, because it can be weak, seared or misinformed (1 Timothy 4:2).\n\nOn matters Scripture does not settle, such as some foods, drinks, days, dress styles or forms of entertainment, Christians have **liberty** (Romans 14). Paul's principles:\n\n- \"Let every man be fully persuaded in his own mind\" (14:5).\n- Do not judge or despise others (14:3, 10).\n- Do not cause a weaker believer to stumble (14:21).\n- \"Whatsoever ye do, do all to the glory of God\" (1 Corinthians 10:31).",
+          "refs": ["Romans 14:1-13", "1 Corinthians 10:23-31", "Acts 24:16"]
+        }
+      ],
+      "terms": [
+        { "term": "Beatitudes", "def": "The blessings that open the Sermon on the Mount (Matthew 5:3-12)." },
+        { "term": "Salt and light", "def": "Jesus' pictures of believers preserving good and showing God's truth in society." },
+        { "term": "Golden Rule", "def": "Do to others what you would have them do to you (Matthew 7:12)." },
+        { "term": "Conscience", "def": "The God-given inner sense of right and wrong." },
+        { "term": "Christian liberty", "def": "Freedom in matters Scripture does not command or forbid." },
+        { "term": "Weaker brother", "def": "A believer whose conscience is troubled by things others feel free to do." }
+      ],
+      "texts": [
+        { "ref": "Matthew 5:20", "teaches": "Your righteousness must exceed that of the scribes and Pharisees." },
+        { "ref": "Matthew 5:37", "teaches": "Let your yes be yes and your no be no." },
+        { "ref": "Matthew 5:44", "teaches": "Love your enemies and pray for those who persecute you." },
+        { "ref": "Romans 14:5", "teaches": "Let every man be fully persuaded in his own mind." },
+        { "ref": "1 Corinthians 10:31", "teaches": "Do all to the glory of God." }
+      ],
+      "summary": [
+        "Kingdom character (the Beatitudes) comes before kingdom conduct.",
+        "Jesus calls for truthfulness, no revenge and love of enemies.",
+        "Conscience must be kept clean and taught by Scripture.",
+        "In disputable matters, use liberty in love for God's glory."
+      ],
+      "questions": [
+        { "q": "What does Jesus call believers in Matthew 5:13-14?", "options": ["Salt and light", "Kings and priests", "Lions and eagles", "Rocks and trees"], "answer": 0 },
+        { "q": "What is the Golden Rule?", "options": ["Do to others as you would have them do to you", "Gold is good", "Rule others firmly", "Repay evil with evil"], "answer": 0 },
+        { "q": "Which chapter deals with disputable matters and liberty?", "options": ["Romans 14", "Romans 3", "Romans 8", "Romans 16"], "answer": 0 },
+        { "q": "What should we avoid when using liberty?", "options": ["Causing a weaker believer to stumble", "Thanking God", "Being persuaded", "Glorifying God"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Hard Questions",
+      "intro": "This week we learn a method for reasoning through hard moral questions and apply it to real cases.",
+      "lessons": [
+        {
+          "title": "A method for moral decisions",
+          "body": "When facing a hard question, ask:\n\n1. **What does Scripture command or forbid directly?**\n2. **What biblical principles apply?** (love, justice, truth, the image of God, stewardship).\n3. **What are the facts?** Get them right before judging (Proverbs 18:13).\n4. **What are my motives?** (James 4:3).\n5. **What would love for God and neighbour do?**\n6. **What do wise, godly counsellors say?** \"in the multitude of counsellors there is safety\" (Proverbs 11:14).\n7. **Pray for wisdom**: \"If any of you lack wisdom, let him ask of God\" (James 1:5).\n\nThen act with a clear conscience and humility.",
+          "refs": ["Proverbs 18:13", "Proverbs 11:14", "James 1:5"]
+        },
+        {
+          "title": "Life and truth",
+          "body": "**The sanctity of life**: every human being is made in God's image (Genesis 9:6), including the unborn (Psalm 139:13-16; Jeremiah 1:5), the disabled and the elderly. This shapes Christian views on abortion, euthanasia and care for the weak. Christians differ on some questions such as capital punishment and war, but agree that innocent life must be protected.\n\n**Truth-telling**: lying is forbidden (Ephesians 4:25; Colossians 3:9). Hard cases such as the Hebrew midwives (Exodus 1:15-21) or Rahab (Joshua 2) are debated: some see their deceptions as wrong but their faith as commended (Hebrews 11:31); others see protecting life from murderers as a rare exception. Ordinary convenience lies are never justified.",
+          "refs": ["Genesis 9:6", "Psalm 139:13-16", "Ephesians 4:25"]
+        },
+        {
+          "title": "Corruption and violence",
+          "body": "**Bribery and corruption**: \"thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous\" (Exodus 23:8). Christians should refuse to give or take bribes, inflate contracts, falsify records or cheat in exams, even when 'everyone does it'. Daniel's enemies \"could find none occasion nor fault\" in him (Daniel 6:4). Where someone is forced to pay to avoid harm, seek wise counsel and use lawful channels.\n\n**Violence and revenge**: Christians must not join mobs or take revenge, including 'jungle justice' (Romans 12:19). We support just law enforcement (Romans 13:3-4), defend the weak (Proverbs 31:8-9) and work as peacemakers (Matthew 5:9).",
+          "refs": ["Exodus 23:8", "Daniel 6:3-4", "Proverbs 31:8-9"]
+        }
+      ],
+      "terms": [
+        { "term": "Moral reasoning", "def": "Thinking carefully from Scripture and principles to a right decision." },
+        { "term": "Sanctity of life", "def": "The sacred value of every human life as made in God's image." },
+        { "term": "Image of God", "def": "The likeness to God that gives every person dignity (Genesis 1:27)." },
+        { "term": "Bribery", "def": "Giving or receiving gifts to influence a decision unjustly." },
+        { "term": "Integrity", "def": "Being whole and consistent in honesty, in public and private." },
+        { "term": "Peacemaker", "def": "One who works to reconcile and bring peace (Matthew 5:9)." }
+      ],
+      "texts": [
+        { "ref": "James 1:5", "teaches": "If any lack wisdom, let him ask of God." },
+        { "ref": "Genesis 9:6", "teaches": "Man is made in the image of God; shedding his blood is grave." },
+        { "ref": "Ephesians 4:25", "teaches": "Put away lying and speak truth with your neighbour." },
+        { "ref": "Exodus 23:8", "teaches": "Take no gift, for a bribe blinds the wise." },
+        { "ref": "Daniel 6:4", "teaches": "Daniel's enemies could find no fault in him." }
+      ],
+      "summary": [
+        "Use a method: Scripture, principles, facts, motives, love, counsel and prayer.",
+        "Every human life bears God's image and must be protected.",
+        "Lying is forbidden; hard cases are rare and debated.",
+        "Refuse bribery and corruption; reject revenge and mob violence."
+      ],
+      "questions": [
+        { "q": "What does Proverbs 11:14 say about counsel?", "options": ["In many counsellors there is safety", "Avoid all advice", "Only trust yourself", "Counsel is dangerous"], "answer": 0 },
+        { "q": "Why is human life sacred?", "options": ["Each person is made in God's image", "Because of wealth", "Because of age", "Because of tribe"], "answer": 0 },
+        { "q": "What does Exodus 23:8 say a bribe does?", "options": ["Blinds the wise", "Helps justice", "Shows kindness", "Is acceptable"], "answer": 0 },
+        { "q": "What should Christians do instead of mob justice?", "options": ["Support lawful justice and be peacemakers", "Join in", "Take revenge privately", "Ignore all crime"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Why must Christian ethics begin with God?", "keywords": [["character", "holy", "good"], ["revealed", "Scripture", "word", "commands"], ["not", "society", "relative", "invent"]], "model": "Right and wrong flow from God's holy character and revealed Word, not from society or personal opinion." },
+      { "q": "Explain the three uses of the law.", "keywords": [["mirror", "sin"], ["curb", "restrain"], ["guide", "please"]], "model": "The law is a mirror showing sin, a curb restraining evil, and a guide for believers' obedience." },
+      { "q": "How did Jesus deepen the commandments in Matthew 5?", "keywords": [["anger", "insult"], ["lust", "heart"], ["inward", "heart", "exceed"]], "model": "He applied them to the heart: murder includes anger, adultery includes lust; righteousness must exceed outward rule-keeping." },
+      { "q": "Summarise Paul's principles of Christian liberty in Romans 14.", "keywords": [["persuaded", "own mind", "conscience"], ["judge", "despise"], ["stumble", "weaker"], ["glory"]], "model": "Be fully persuaded, do not judge or despise others, do not cause a weaker believer to stumble, and do all to God's glory." },
+      { "q": "Outline a biblical method for a hard moral decision.", "keywords": [["Scripture", "command"], ["principles", "love"], ["facts", "motives"], ["counsel", "pray", "wisdom"]], "model": "Ask what Scripture commands, which principles apply, what the facts and motives are, what love requires, seek counsel and pray for wisdom." },
+      { "q": "What does Scripture teach about bribery?", "keywords": [["Exodus 23:8", "blinds", "pervert"], ["refuse", "no", "integrity", "Daniel"]], "model": "A bribe blinds the wise and perverts justice (Exodus 23:8); believers must refuse it and live with integrity like Daniel." }
+    ],
+    "lists": [
+      { "q": "List the Ten Commandments in short form.", "items": [["other gods"], ["image", "idol"], ["name in vain"], ["sabbath"], ["honour", "father", "mother"], ["kill", "murder"], ["adultery"], ["steal"], ["false witness", "lie"], ["covet"]], "need": 10 },
+      { "q": "List four approaches to ethics.", "items": [["divine command", "God's command", "Christian"], ["relativism"], ["utilitarianism", "consequences"], ["rules", "deontology"], ["virtue", "character"]], "need": 4 },
+      { "q": "List four of the Beatitudes.", "items": [["poor in spirit"], ["mourn"], ["meek"], ["hunger", "thirst", "righteousness"], ["merciful"], ["pure in heart"], ["peacemakers"], ["persecuted"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "A case study", "prompt": "Choose a real moral dilemma common in your community (for example, being asked to pay a bribe to secure a job, or pressure to falsify records). Work through it using the seven-step method from Week 4, citing at least five passages, and state what you believe a faithful Christian should do and why.", "words": "600–800" },
+    { "title": "The commandments today", "prompt": "Choose three of the Ten Commandments. For each, explain its meaning, how Jesus or the apostles applied it, and three specific ways it applies to Christian life in Nigeria today.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "John M. Frame, The Doctrine of the Christian Life",
+    "Scott B. Rae, Moral Choices: An Introduction to Ethics",
+    "John Stott, Issues Facing Christians Today"
+  ]
+}
