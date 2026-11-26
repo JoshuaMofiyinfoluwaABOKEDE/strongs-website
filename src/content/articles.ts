@@ -7,6 +7,7 @@
  */
 import abigail from "./articles.json";
 import olaewe from "./olaewe-articles.json";
+import oluwasegun from "./oluwasegun-articles.json";
 import bookData from "./book-articles.json";
 
 export type Article = {
@@ -24,7 +25,7 @@ export type Article = {
 };
 
 const fromBook: Article[] = bookData.map((a) => ({ ...a, book: "the-transitioning-phase-of-mans-life" }));
-const sources: Article[][] = [fromBook, olaewe as Article[], abigail as Article[]];
+const sources: Article[][] = [fromBook, olaewe as Article[], oluwasegun as Article[], abigail as Article[]];
 
 /** All writing, interleaved by writer so every voice appears near the top. */
 export const articles: Article[] = (() => {
