@@ -1,0 +1,240 @@
+{
+  "slug": "sin-and-the-fall",
+  "title": "Sin and the Fall",
+  "track": "god",
+  "level": "Foundation",
+  "summary": "How sin entered the world, what sin is, how it affects every person, and why only God can deal with it.",
+  "description": "No one can understand the good news without understanding the bad news. This course studies the fall of Adam and Eve, the nature of sin, the doctrine of total depravity, original sin and its effects, the different ways Christians explain how Adam's sin affects us, and the seriousness of sin before a holy God. It ends by pointing to God's remedy in Christ.",
+  "objectives": [
+    "Explain the account of the fall in Genesis 3",
+    "Define sin biblically and show its seriousness",
+    "Explain total depravity and original sin, presenting views fairly",
+    "Show that sin's only remedy is God's grace in Christ"
+  ],
+  "outcomes": [
+    "Describe the temptation and fall and their consequences",
+    "Define sin using key biblical words",
+    "Explain what total depravity does and does not mean",
+    "Compare the main views on how Adam's sin affects humanity",
+    "Explain sin's wages and God's gift in Christ"
+  ],
+  "modules": [
+    {
+      "title": "The Fall",
+      "intro": "Genesis 3 tells how sin entered God's good world. This week we study the temptation, the fall and its immediate results.",
+      "lessons": [
+        {
+          "title": "The temptation",
+          "body": "God gave Adam every tree of the garden except one: \"of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die\" (Genesis 2:17).\n\nThe serpent questioned God's word (\"Yea, hath God said?\"), denied His warning (\"Ye shall not surely die\"), and slandered His goodness, suggesting God was holding back (Genesis 3:1-5).\n\nEve saw that the fruit was good for food, pleasant to the eyes, and desired to make one wise (3:6). The same pattern appears in 1 John 2:16: the lust of the flesh, the lust of the eyes and the pride of life.",
+          "refs": ["Genesis 2:16-17", "Genesis 3:1-6", "1 John 2:16"]
+        },
+        {
+          "title": "The fall and its first fruits",
+          "body": "Eve ate and gave to Adam, who ate too. At once their eyes were opened and they knew they were naked. Shame replaced innocence; they sewed fig leaves and hid from God (Genesis 3:7-8).\n\nWhen God questioned them, Adam blamed Eve (and God, \"the woman whom thou gavest to be with me\"), and Eve blamed the serpent (3:12-13).\n\nSin immediately broke relationships: with God (hiding), with each other (blame), with themselves (shame), and with creation.",
+          "refs": ["Genesis 3:7-13", "Romans 5:12"]
+        },
+        {
+          "title": "The curse and the promise",
+          "body": "God pronounced judgement: the serpent cursed; pain in childbirth and conflict in marriage for the woman; the ground cursed and toil for the man; and death: \"dust thou art, and unto dust shalt thou return\" (Genesis 3:14-19). They were driven from the garden and the tree of life (3:22-24).\n\nYet grace shone in judgement. God promised the woman's seed would crush the serpent's head (3:15), and He clothed them with coats of skins (3:21), a death to cover their shame.\n\nFrom the beginning, God's answer to sin was a Saviour and a sacrifice.",
+          "refs": ["Genesis 3:14-19", "Genesis 3:15", "Genesis 3:21"]
+        }
+      ],
+      "terms": [
+        { "term": "The fall", "def": "Adam and Eve's first sin and its fall from innocence into sin and death." },
+        { "term": "Tree of the knowledge of good and evil", "def": "The one tree God forbade, testing trust and obedience." },
+        { "term": "Temptation", "def": "Enticement to sin by doubting God's word or goodness." },
+        { "term": "Shame", "def": "The sense of exposure and guilt that followed the first sin." },
+        { "term": "Curse", "def": "God's judgement on the serpent, the ground and human life after the fall." },
+        { "term": "Coats of skins", "def": "The garments God made, picturing a sacrifice to cover sin." }
+      ],
+      "texts": [
+        { "ref": "Genesis 2:17", "teaches": "God warned that eating of the forbidden tree would bring death." },
+        { "ref": "Genesis 3:4", "teaches": "The serpent denied God's warning: 'Ye shall not surely die.'" },
+        { "ref": "1 John 2:16", "teaches": "Worldly temptation is the lust of the flesh, the lust of the eyes and the pride of life." },
+        { "ref": "Genesis 3:19", "teaches": "Because of sin, man returns to dust." },
+        { "ref": "Genesis 3:21", "teaches": "God clothed Adam and Eve with coats of skins." }
+      ],
+      "summary": [
+        "God gave one command; the serpent questioned, denied and slandered God's word.",
+        "Adam and Eve disobeyed, and shame, fear and blame followed.",
+        "God judged sin with curse and death.",
+        "In judgement He promised a Saviour and provided a covering."
+      ],
+      "questions": [
+        { "q": "What was the serpent's first tactic?", "options": ["Questioning God's word: 'Yea, hath God said?'", "Offering money", "Using force", "Quoting the prophets"], "answer": 0 },
+        { "q": "How did Adam respond when questioned?", "options": ["He blamed the woman and God", "He confessed fully", "He blamed the serpent", "He said nothing"], "answer": 0 },
+        { "q": "What did God provide to cover Adam and Eve?", "options": ["Coats of skins", "Fig leaves", "Linen robes", "Nothing"], "answer": 0 },
+        { "q": "Which verse contains the first promise of a Saviour?", "options": ["Genesis 3:15", "Genesis 3:6", "Genesis 2:17", "Genesis 3:24"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "What Is Sin?",
+      "intro": "Sin is more than bad behaviour. This week we see what the Bible means by sin and why it is so serious.",
+      "lessons": [
+        {
+          "title": "Words for sin",
+          "body": "The Bible uses many words for sin, each showing another side:\n\n- **Missing the mark:** \"all have sinned, and come short of the glory of God\" (Romans 3:23).\n- **Transgression:** crossing a line God has drawn; \"sin is the transgression of the law\" (1 John 3:4).\n- **Iniquity:** crookedness, twisting what is right (Isaiah 53:6).\n- **Trespass:** a false step out of bounds (Ephesians 2:1).\n- **Rebellion:** defiance of God's authority (1 Samuel 15:23).\n\nAt its root, sin is putting self in God's place: not loving Him with all our heart.",
+          "refs": ["Romans 3:23", "1 John 3:4", "Isaiah 53:6"]
+        },
+        {
+          "title": "Sin in thought, word and deed",
+          "body": "Sin is not only outward acts. Jesus taught that anger is murder of the heart and lust is adultery of the heart (Matthew 5:21-28). \"Out of the heart proceed evil thoughts\" (Matthew 15:19).\n\nThere are sins of **commission** (doing what God forbids) and **omission** (failing to do what He commands): \"to him that knoweth to do good, and doeth it not, to him it is sin\" (James 4:17).\n\nSin also includes attitudes like pride, unbelief, envy and ingratitude. \"Whatsoever is not of faith is sin\" (Romans 14:23).",
+          "refs": ["Matthew 5:21-28", "James 4:17", "Romans 14:23"]
+        },
+        {
+          "title": "Why sin is so serious",
+          "body": "Sin is serious because of whom it offends. David confessed, \"Against thee, thee only, have I sinned\" (Psalm 51:4). Every sin is against an infinitely holy God, who is \"of purer eyes than to behold evil\" (Habakkuk 1:13).\n\nSin brings guilt (we deserve punishment), corruption (it stains and enslaves us), and death: \"the wages of sin is death\" (Romans 6:23), physical death and eternal separation from God.\n\nSin also harms others and destroys societies. We must never call it small, nor call evil good (Isaiah 5:20).",
+          "refs": ["Psalm 51:3-4", "Romans 6:23", "Isaiah 5:20"]
+        }
+      ],
+      "terms": [
+        { "term": "Sin", "def": "Any lack of conformity to, or breaking of, God's law in act, attitude or nature." },
+        { "term": "Transgression", "def": "Crossing the boundary of God's law." },
+        { "term": "Iniquity", "def": "Crookedness or perversity; twisting what is right." },
+        { "term": "Sin of commission", "def": "Doing what God forbids." },
+        { "term": "Sin of omission", "def": "Failing to do what God commands." },
+        { "term": "Guilt", "def": "The condition of deserving punishment for sin." }
+      ],
+      "texts": [
+        { "ref": "1 John 3:4", "teaches": "Sin is the transgression of the law." },
+        { "ref": "Matthew 15:19", "teaches": "Evil thoughts and deeds come out of the heart." },
+        { "ref": "James 4:17", "teaches": "Knowing to do good and not doing it is sin." },
+        { "ref": "Psalm 51:4", "teaches": "All sin is ultimately against God." },
+        { "ref": "Romans 6:23", "teaches": "The wages of sin is death, but God's gift is eternal life." }
+      ],
+      "summary": [
+        "Sin is missing the mark, transgression, iniquity and rebellion.",
+        "Sin includes thoughts, words, deeds, and failures to do good.",
+        "At root, sin is putting self in God's place.",
+        "Sin is serious: it offends a holy God and brings guilt, corruption and death."
+      ],
+      "questions": [
+        { "q": "How does 1 John 3:4 define sin?", "options": ["The transgression of the law", "Only outward crimes", "Breaking tribal customs", "Making mistakes"], "answer": 0 },
+        { "q": "Failing to do the good you know you should do is:", "options": ["A sin of omission", "Not a sin", "A sin of commission", "Only a weakness"], "answer": 0 },
+        { "q": "Against whom did David say he had ultimately sinned?", "options": ["God", "Uriah only", "Bathsheba only", "Israel"], "answer": 0 },
+        { "q": "What did Jesus teach about lust?", "options": ["It is adultery in the heart", "It is harmless", "It is only sinful if acted on", "It is natural and good"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Original Sin and Total Depravity",
+      "intro": "How does Adam's sin affect us, and how deeply does sin reach? This week we study original sin and depravity, including where Christians differ.",
+      "lessons": [
+        {
+          "title": "In Adam all die",
+          "body": "Scripture teaches that Adam's sin affected the whole human race: \"by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned\" (Romans 5:12). \"In Adam all die\" (1 Corinthians 15:22).\n\nWe are born with a sinful nature: \"Behold, I was shapen in iniquity; and in sin did my mother conceive me\" (Psalm 51:5). We are \"by nature the children of wrath\" (Ephesians 2:3).\n\nThis is called **original sin**: not that our parents sinned in conceiving us, but that we inherit a fallen condition from Adam.",
+          "refs": ["Romans 5:12-19", "Psalm 51:5", "Ephesians 2:1-3"]
+        },
+        {
+          "title": "How Adam's sin reaches us",
+          "body": "Christians agree that all inherit a sinful nature, but explain the link differently:\n\n- **Federal (covenant) headship:** Adam acted as representative of humanity, so his guilt is counted to all, as Christ's righteousness is counted to believers (Romans 5:18-19). Common among Reformed Baptists.\n- **Inherited corruption:** we inherit a corrupt nature from Adam, and become guilty when we personally sin; infants dying before accountability are saved by God's grace. Common among many Baptists, Wesleyans and Holiness churches, including Deeper Life.\n\nBoth agree that every person needs God's grace, and that God is perfectly just and good (Genesis 18:25).",
+          "refs": ["Romans 5:18-19", "Deuteronomy 1:39", "2 Samuel 12:23"]
+        },
+        {
+          "title": "Total depravity",
+          "body": "**Total depravity** means sin has affected every part of human nature: mind (Romans 1:21), heart (Jeremiah 17:9), will (John 8:34) and body. \"There is none righteous, no, not one\" (Romans 3:10).\n\nIt does **not** mean people are as evil as they could be, or that unbelievers never do anything good outwardly. God's common grace restrains sin, and people can love their children and do kind acts (Matthew 7:11).\n\nIt means that no part is untouched, and that no one can save himself or please God by his own strength (Romans 8:7-8). We need new birth.",
+          "refs": ["Romans 3:10-18", "Jeremiah 17:9", "Romans 8:7-8"]
+        }
+      ],
+      "terms": [
+        { "term": "Original sin", "def": "The sinful condition all people inherit from Adam." },
+        { "term": "Federal headship", "def": "The view that Adam represented humanity, so his guilt is counted to all." },
+        { "term": "Age of accountability", "def": "The point at which a person becomes morally responsible for personal sin." },
+        { "term": "Total depravity", "def": "Sin has affected every part of human nature, so no one can save himself." },
+        { "term": "Common grace", "def": "God's kindness to all people, restraining sin and giving good gifts." },
+        { "term": "Children of wrath", "def": "Paul's description of all people by nature, under God's judgement." }
+      ],
+      "texts": [
+        { "ref": "Romans 5:12", "teaches": "Sin and death entered the world through one man and passed on all men." },
+        { "ref": "1 Corinthians 15:22", "teaches": "As in Adam all die, so in Christ shall all be made alive." },
+        { "ref": "Psalm 51:5", "teaches": "David was shapen in iniquity from conception." },
+        { "ref": "Romans 3:10", "teaches": "There is none righteous, no, not one." },
+        { "ref": "Romans 8:8", "teaches": "They that are in the flesh cannot please God." }
+      ],
+      "summary": [
+        "Through Adam, sin and death passed to all people.",
+        "Christians explain the link as federal headship or inherited corruption.",
+        "Total depravity: sin affects every part of us, though not everyone is as evil as possible.",
+        "No one can save himself; all need God's grace."
+      ],
+      "questions": [
+        { "q": "What is original sin?", "options": ["The sinful condition inherited from Adam", "The first sin of each person", "A sin parents commit", "A sin only Adam had"], "answer": 0 },
+        { "q": "Total depravity means:", "options": ["Sin affects every part of human nature", "People are as evil as possible", "People never do good outwardly", "Only some people are sinful"], "answer": 0 },
+        { "q": "Which view says Adam's guilt is counted to all because he represented humanity?", "options": ["Federal headship", "Inherited corruption", "Pelagianism", "Universalism"], "answer": 0 },
+        { "q": "What restrains sin and gives good gifts even to unbelievers?", "options": ["Common grace", "Total depravity", "Original sin", "Human effort"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Sin's Remedy",
+      "intro": "The doctrine of sin prepares us for the gospel. This week we see sin's effects, false remedies and God's true remedy.",
+      "lessons": [
+        {
+          "title": "Bondage and blindness",
+          "body": "Sin is not just a mistake to correct; it is slavery. \"Whosoever committeth sin is the servant of sin\" (John 8:34). Unbelievers are \"dead in trespasses and sins\" (Ephesians 2:1), blinded by \"the god of this world\" (2 Corinthians 4:4).\n\nSin also spreads through families, communities and nations, producing injustice, corruption, violence and broken homes (Galatians 5:19-21).\n\nThis is why we cannot fix ourselves with resolutions, rituals or religion. Dead people need life; slaves need a redeemer.",
+          "refs": ["John 8:34", "Ephesians 2:1", "Galatians 5:19-21"]
+        },
+        {
+          "title": "False remedies",
+          "body": "People try many remedies for sin:\n\n- **Good works:** \"not by works of righteousness which we have done\" (Titus 3:5).\n- **Religious rituals:** sacrifices could never take away sins (Hebrews 10:4).\n- **Comparison:** \"they measuring themselves by themselves... are not wise\" (2 Corinthians 10:12).\n- **Denial:** \"If we say that we have no sin, we deceive ourselves\" (1 John 1:8).\n- **Charms and sacrifices to spirits:** these add idolatry to sin.\n\nNone deals with guilt before God or changes the heart.",
+          "refs": ["Titus 3:5", "Hebrews 10:4", "1 John 1:8"]
+        },
+        {
+          "title": "Where sin abounded, grace abounded",
+          "body": "God's remedy is Christ. \"Where sin abounded, grace did much more abound\" (Romans 5:20). Christ \"bare our sins in his own body on the tree\" (1 Peter 2:24) and gives new life through the Spirit.\n\nAs in Adam all die, \"even so in Christ shall all be made alive\" (1 Corinthians 15:22). The last Adam undoes what the first Adam did.\n\nThe right response to sin is repentance and faith: \"If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness\" (1 John 1:9). Later courses study salvation in detail.",
+          "refs": ["Romans 5:20-21", "1 Peter 2:24", "1 John 1:9"]
+        }
+      ],
+      "terms": [
+        { "term": "Bondage", "def": "Slavery to sin, from which people cannot free themselves." },
+        { "term": "Spiritual death", "def": "Separation from God's life because of sin." },
+        { "term": "Works righteousness", "def": "The false idea that good deeds can earn salvation." },
+        { "term": "Self-deception", "def": "Denying or excusing one's own sin." },
+        { "term": "Confession", "def": "Honestly agreeing with God about one's sin." },
+        { "term": "Abounding grace", "def": "God's grace, which overflows beyond the power of sin." }
+      ],
+      "texts": [
+        { "ref": "John 8:34", "teaches": "Whoever commits sin is the servant of sin." },
+        { "ref": "Ephesians 2:1", "teaches": "Unbelievers are dead in trespasses and sins." },
+        { "ref": "Titus 3:5", "teaches": "Salvation is not by works of righteousness we have done." },
+        { "ref": "Romans 5:20", "teaches": "Where sin abounded, grace did much more abound." },
+        { "ref": "1 John 1:9", "teaches": "If we confess our sins, God is faithful and just to forgive." }
+      ],
+      "summary": [
+        "Sin enslaves, blinds and brings spiritual death.",
+        "Good works, rituals, comparison and denial cannot remove sin.",
+        "Christ bore our sins and gives new life; grace overflows sin.",
+        "The right response is confession, repentance and faith."
+      ],
+      "questions": [
+        { "q": "According to John 8:34, whoever commits sin is:", "options": ["The servant of sin", "Free", "Strong", "Wise"], "answer": 0 },
+        { "q": "Why can good works not save, according to Titus 3:5?", "options": ["Salvation is not by works of righteousness we have done", "Good works are evil", "God dislikes good works", "Works are only for Jews"], "answer": 0 },
+        { "q": "What does 1 John 1:8 say about denying sin?", "options": ["We deceive ourselves", "It brings forgiveness", "It is wise", "It removes guilt"], "answer": 0 },
+        { "q": "What does Romans 5:20 teach?", "options": ["Where sin abounded, grace did much more abound", "Sin is stronger than grace", "Grace ends where sin begins", "Law removes sin"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Describe how the serpent tempted Eve.", "keywords": [["question", "doubt", "hath God said"], ["deny", "not surely die", "lie"], ["God", "goodness", "holding back", "wise", "like God"]], "model": "He questioned God's word, denied God's warning of death, and slandered God's goodness by suggesting God was keeping something good from her." },
+      { "q": "Give three biblical words for sin and their meaning.", "keywords": [["missing the mark", "come short"], ["transgression", "crossing", "law"], ["iniquity", "crooked"], ["rebellion", "trespass"]], "model": "Missing the mark (falling short), transgression (crossing God's boundary), and iniquity (crookedness); also rebellion and trespass." },
+      { "q": "What is the difference between sins of commission and omission?", "keywords": [["doing", "forbids"], ["failing", "not doing", "commands"]], "model": "Commission is doing what God forbids; omission is failing to do what God commands." },
+      { "q": "Explain total depravity, including what it does not mean.", "keywords": [["every part", "whole", "all"], ["not", "as evil as", "never do good"], ["cannot save", "save himself", "grace"]], "model": "Sin affects every part of human nature so no one can save himself; it does not mean people are as evil as possible or never do outward good." },
+      { "q": "Summarise the two views of how Adam's sin affects us.", "keywords": [["representative", "federal", "counted", "imputed"], ["inherited", "nature", "corrupt"], ["accountability", "personally", "own sin"]], "model": "Federal headship: Adam represented us so his guilt is counted to all. Inherited corruption: we inherit a corrupt nature and become guilty when we personally sin." },
+      { "q": "Why can good works and rituals not remove sin?", "keywords": [["guilt", "God", "holy"], ["heart", "nature", "dead", "slave"], ["Christ", "grace"]], "model": "They cannot remove guilt before a holy God or change a dead, enslaved heart; only Christ's work and God's grace can." }
+    ],
+    "lists": [
+      { "q": "List four consequences of the fall in Genesis 3.", "items": [["shame", "naked"], ["hid", "fear", "hiding"], ["blame"], ["pain", "childbirth"], ["curse", "ground", "toil", "thorns"], ["death", "dust"], ["driven", "garden", "expelled"]], "need": 4 },
+      { "q": "List the three parts of worldly temptation in 1 John 2:16.", "items": [["lust of the flesh", "flesh"], ["lust of the eyes", "eyes"], ["pride of life", "pride"]], "need": 3 },
+      { "q": "List three false remedies for sin.", "items": [["good works", "works"], ["rituals", "religion", "sacrifices"], ["comparison", "comparing"], ["denial", "deny"], ["charms", "spirits", "idols"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Genesis 3 and today", "prompt": "Show how the pattern of Genesis 3 (questioning God's word, desire, disobedience, shame, hiding and blame) appears in everyday temptation and sin today. Use at least three examples and close with God's remedy from the course.", "words": "500–700" },
+    { "title": "Explaining sin to a friend", "prompt": "Write a short explanation of sin for a friend who says, \"I'm a good person; I have never killed anyone.\" Use at least five Bible passages from this course, and end with the good news of Christ.", "words": "400–600" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Cornelius Plantinga Jr., Not the Way It's Supposed to Be",
+    "Wayne Grudem, Systematic Theology, chapter 24",
+    "Millard J. Erickson, Christian Theology, Part 6"
+  ]
+}
