@@ -1,0 +1,241 @@
+{
+  "slug": "church-history-early-and-medieval",
+  "title": "Church History: Early and Medieval",
+  "track": "history",
+  "level": "Intermediate",
+  "summary": "The story of the church from the apostles to the eve of the Reformation: persecution, the church fathers, the great councils, African Christianity, monasticism and the medieval church.",
+  "description": "Knowing where we came from helps us stand firm today. This course traces the church from the apostolic age through persecution and the conversion of Constantine, the creeds and councils that defined orthodox faith, the great African fathers and the ancient churches of Egypt and Ethiopia, the rise of monasticism and the papacy, the split between East and West, and the forerunners of the Reformation.",
+  "objectives": [
+    "Trace the growth of the church from the apostles to about AD 1500",
+    "Explain the persecutions and the church's response",
+    "Describe the early councils and creeds and why they matter",
+    "Recognise Africa's central place in early Christianity",
+    "Evaluate the medieval church and the forerunners of reform"
+  ],
+  "outcomes": [
+    "Name key apostolic fathers and martyrs",
+    "Explain the significance of Constantine and the Edict of Milan",
+    "Summarise the councils of Nicaea and Chalcedon",
+    "Describe the contributions of Tertullian, Cyprian, Athanasius and Augustine",
+    "Explain the Great Schism and the work of Wycliffe and Hus"
+  ],
+  "modules": [
+    {
+      "title": "From the Apostles to the Martyrs",
+      "intro": "The church began in Jerusalem and spread across the Roman world despite persecution. This week covers roughly AD 30 to 300.",
+      "lessons": [
+        {
+          "title": "The apostolic church",
+          "body": "The church began at Pentecost in Jerusalem (Acts 2) and spread as Jesus promised: Jerusalem, Judea, Samaria, and the ends of the earth (Acts 1:8). Persecution after Stephen's death scattered believers who \"went every where preaching the word\" (Acts 8:4).\n\nPaul's missionary journeys planted churches across Asia Minor and Greece. By the end of the first century there were churches in Rome, Alexandria and many cities of the empire.\n\nAfter the apostles came the **apostolic fathers**: leaders such as Clement of Rome (around AD 96), Ignatius of Antioch (martyred around 110) and Polycarp of Smyrna, a disciple of the apostle John.",
+          "refs": ["Acts 1:8", "Acts 8:1-4", "Acts 11:19-21"]
+        },
+        {
+          "title": "Persecution and martyrdom",
+          "body": "Christians refused to worship the emperor or the gods of Rome, so they were seen as disloyal and \"atheists\". Persecution came in waves: under Nero (AD 64), who blamed Christians for the fire of Rome; under Decius (250), who required sacrifice to the gods; and the 'Great Persecution' under Diocletian (from 303).\n\nPolycarp, when ordered to curse Christ around AD 155, is reported to have said he had served Christ eighty-six years and could not blaspheme his King. He was burned.\n\nTertullian of Carthage wrote that the blood of Christians is seed: persecution spread the faith. Jesus had said, \"be thou faithful unto death\" (Revelation 2:10).",
+          "refs": ["Revelation 2:8-10", "1 Peter 4:12-16", "Hebrews 11:35-38"]
+        },
+        {
+          "title": "Defending the faith",
+          "body": "Christians also faced false teaching. **Gnostics** taught that matter is evil and salvation is secret knowledge; John had already warned against those denying that \"Jesus Christ is come in the flesh\" (1 John 4:2-3). **Marcion** rejected the Old Testament and much of the New.\n\nThe church responded by recognising the apostolic writings (the canon), summarising the faith in a 'rule of faith' (an early form of the Apostles' Creed), and pointing to churches founded by apostles.\n\n**Apologists** such as Justin Martyr (died around 165) wrote defences of Christianity to emperors, answering false charges and showing Christ fulfilled the prophets. Irenaeus of Lyons (around 180) refuted the Gnostics.",
+          "refs": ["1 John 4:1-3", "Jude 3-4", "1 Peter 3:15"]
+        }
+      ],
+      "terms": [
+        { "term": "Apostolic fathers", "def": "Christian leaders of the generation after the apostles, such as Clement, Ignatius and Polycarp." },
+        { "term": "Martyr", "def": "A witness who died for faith in Christ." },
+        { "term": "Great Persecution", "def": "The severe persecution under Emperor Diocletian beginning in AD 303." },
+        { "term": "Gnosticism", "def": "Early heresy teaching that matter is evil and salvation comes through secret knowledge." },
+        { "term": "Apologist", "def": "A writer who defends the Christian faith with reasoned arguments." },
+        { "term": "Rule of faith", "def": "An early summary of core Christian beliefs, forerunner of the creeds." }
+      ],
+      "texts": [
+        { "ref": "Acts 8:4", "teaches": "Scattered believers went everywhere preaching the word." },
+        { "ref": "Revelation 2:10", "teaches": "Be faithful unto death, and I will give thee a crown of life." },
+        { "ref": "1 Peter 4:16", "teaches": "If any suffer as a Christian, let him not be ashamed." },
+        { "ref": "1 John 4:2", "teaches": "Every spirit that confesses Jesus Christ come in the flesh is of God." },
+        { "ref": "Jude 3", "teaches": "Contend earnestly for the faith once delivered to the saints." }
+      ],
+      "summary": [
+        "The church spread from Jerusalem across the empire.",
+        "Persecution under Nero, Decius and Diocletian produced many martyrs.",
+        "Martyrdom often spread the faith rather than stopping it.",
+        "The church answered heresy with the canon, the rule of faith and apologists."
+      ],
+      "questions": [
+        { "q": "Which emperor blamed Christians for the fire of Rome?", "options": ["Nero", "Constantine", "Augustus", "Theodosius"], "answer": 0 },
+        { "q": "Polycarp was a disciple of which apostle?", "options": ["John", "Paul", "Peter", "Thomas"], "answer": 0 },
+        { "q": "What did Gnostics teach?", "options": ["Matter is evil and salvation is secret knowledge", "Salvation by grace through faith", "The Trinity", "The resurrection of the body"], "answer": 0 },
+        { "q": "Who was an early Christian apologist?", "options": ["Justin Martyr", "Nero", "Marcion", "Arius"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Constantine, Councils and Creeds",
+      "intro": "In the fourth century the church moved from persecution to favour and defined its core beliefs. This week covers about 300 to 451.",
+      "lessons": [
+        {
+          "title": "Constantine and the Edict of Milan",
+          "body": "In AD 312 Constantine won the battle of the Milvian Bridge, after which he favoured Christianity. In 313 the **Edict of Milan** granted religious freedom, ending official persecution.\n\nThis brought great relief: churches were built, Sunday became a public day of rest, and Christians could worship openly. Later, under Theodosius (380), Christianity became the official religion of the empire.\n\nBut there were dangers. Many joined the church for advantage rather than faith, and emperors interfered in church affairs. The link between church and state would shape Christianity for over a thousand years, for good and ill.",
+          "refs": ["1 Timothy 2:1-2", "John 18:36", "Matthew 22:21"]
+        },
+        {
+          "title": "Nicaea and the deity of Christ",
+          "body": "Arius, a priest in Alexandria, taught that the Son was a created being: \"there was a time when he was not.\" This denied the full deity of Christ.\n\nIn AD 325 the **Council of Nicaea** confessed that the Son is \"of one substance (homoousios) with the Father\", \"true God from true God\". Athanasius of Alexandria defended this truth for decades, even when exiled five times; it was said of him, 'Athanasius against the world.'\n\nThe Council of Constantinople (381) affirmed the deity of the Holy Spirit and completed the Nicene Creed. Scripture's witness was clear: \"the Word was God\" (John 1:1).",
+          "refs": ["John 1:1-3", "John 10:30", "Colossians 2:9"]
+        },
+        {
+          "title": "Chalcedon and the person of Christ",
+          "body": "Further debates concerned how Christ is both God and man. Nestorius seemed to divide Christ into two persons; Eutyches seemed to mix His natures into one.\n\nThe **Council of Chalcedon** (451) confessed one Christ \"in two natures, without confusion, without change, without division, without separation\": truly God and truly man, one Person.\n\nThe early creeds are not above Scripture, but they faithfully summarise it. Most Christians, including Baptists, Pentecostals, Anglicans and Catholics, accept their teaching on the Trinity and Christ. Some Oriental Orthodox churches, including the Ethiopian and Coptic churches, did not accept Chalcedon's wording, though they too confess Christ as fully God and fully man.",
+          "refs": ["John 1:14", "Philippians 2:5-8", "Hebrews 2:14-17"]
+        }
+      ],
+      "terms": [
+        { "term": "Edict of Milan", "def": "The decree of AD 313 granting religious freedom to Christians." },
+        { "term": "Arianism", "def": "The heresy that the Son is a created being and not fully God." },
+        { "term": "Homoousios", "def": "Greek 'of the same substance': Nicaea's term for the Son's equality with the Father." },
+        { "term": "Nicene Creed", "def": "The creed from Nicaea (325) and Constantinople (381) confessing the Trinity." },
+        { "term": "Council of Chalcedon", "def": "The council of AD 451 defining Christ as one Person in two natures." },
+        { "term": "Oriental Orthodox", "def": "Ancient churches such as the Coptic and Ethiopian that did not accept Chalcedon's wording." }
+      ],
+      "texts": [
+        { "ref": "John 1:1", "teaches": "In the beginning was the Word, and the Word was God." },
+        { "ref": "Colossians 2:9", "teaches": "In Christ dwells all the fulness of the Godhead bodily." },
+        { "ref": "John 1:14", "teaches": "The Word was made flesh and dwelt among us." },
+        { "ref": "John 18:36", "teaches": "Christ's kingdom is not of this world." },
+        { "ref": "Philippians 2:7", "teaches": "Christ took the form of a servant and was made in the likeness of men." }
+      ],
+      "summary": [
+        "Constantine ended persecution; the Edict of Milan came in 313.",
+        "Church-state union brought both freedom and danger.",
+        "Nicaea (325) confessed the Son's full deity against Arius.",
+        "Chalcedon (451) confessed Christ as one Person in two natures."
+      ],
+      "questions": [
+        { "q": "In what year was the Edict of Milan?", "options": ["313", "70", "1054", "1517"], "answer": 0 },
+        { "q": "What did Arius teach?", "options": ["The Son is a created being", "The Spirit is God", "Christ has two natures", "Salvation by faith"], "answer": 0 },
+        { "q": "Who defended Nicene faith and was exiled five times?", "options": ["Athanasius", "Arius", "Constantine", "Nestorius"], "answer": 0 },
+        { "q": "Which council confessed Christ in two natures?", "options": ["Chalcedon", "Nicaea", "Trent", "Jerusalem"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Africa and the Early Church",
+      "intro": "Africa was at the heart of early Christianity. This week we study its great teachers, churches and the rise of monasticism.",
+      "lessons": [
+        {
+          "title": "Africans in the Bible and the first centuries",
+          "body": "Africa appears early in the gospel story. Jesus was sheltered in Egypt (Matthew 2:13-15). Simon of Cyrene, in North Africa, carried His cross (Mark 15:21). The Ethiopian official believed and was baptized (Acts 8:26-39). Apollos came from Alexandria (Acts 18:24). Simeon \"called Niger\" and Lucius of Cyrene led in Antioch (Acts 13:1).\n\nAlexandria became a great centre of Christian learning, with a famous catechetical school. Tradition links the founding of the Egyptian church to Mark the evangelist.\n\nChristianity is therefore not a 'white man's religion' brought late to Africa. Africans were among its first believers and greatest teachers.",
+          "refs": ["Acts 8:26-39", "Acts 13:1", "Mark 15:21"]
+        },
+        {
+          "title": "The African fathers",
+          "body": "Several of the most influential early theologians were African:\n\n- **Tertullian** of Carthage (around 160-220) first used the Latin word *Trinitas* for the Trinity.\n- **Cyprian**, bishop of Carthage, taught on the unity of the church and was martyred in 258.\n- **Athanasius** of Alexandria defended Christ's deity and in AD 367 listed the 27 books of the New Testament as we have them.\n- **Augustine** of Hippo (354-430), in modern Algeria, was converted after reading Romans 13:13-14. His *Confessions* and *City of God* shaped Western theology on grace, sin and the church.\n\nThe church in Ethiopia was established in the fourth century when King Ezana embraced the faith through the ministry of Frumentius.",
+          "refs": ["Romans 13:13-14", "Psalm 68:31", "Isaiah 19:19-25"]
+        },
+        {
+          "title": "Monasticism",
+          "body": "As the church became comfortable after Constantine, some sought a stricter devotion. **Antony** of Egypt (around 251-356) sold his possessions after hearing Matthew 19:21 and lived as a hermit in the desert. Others formed communities, and **monasticism** spread.\n\nIn the West, **Benedict** of Nursia wrote a Rule (around 530) balancing prayer, work and study. Monasteries preserved Scripture through copying, taught, cared for the sick and sent missionaries, such as those who evangelised northern Europe.\n\nMonasticism had weaknesses: it could suggest that ordinary family life was less holy, and some monasteries later grew rich and corrupt.",
+          "refs": ["Matthew 19:21", "Mark 1:35", "1 Timothy 4:1-5"]
+        }
+      ],
+      "terms": [
+        { "term": "Alexandria", "def": "A great Egyptian city and early centre of Christian learning." },
+        { "term": "Tertullian", "def": "Theologian of Carthage who first used the word Trinity in Latin." },
+        { "term": "Augustine of Hippo", "def": "North African bishop (354-430) whose writings shaped Western theology." },
+        { "term": "Frumentius", "def": "Missionary through whom the Ethiopian king Ezana embraced Christianity." },
+        { "term": "Monasticism", "def": "A way of life devoted to prayer and discipline, alone or in community." },
+        { "term": "Rule of Benedict", "def": "Benedict's guide for monastic life balancing prayer, work and study." }
+      ],
+      "texts": [
+        { "ref": "Acts 8:38", "teaches": "Philip baptized the Ethiopian official." },
+        { "ref": "Acts 18:24", "teaches": "Apollos, born at Alexandria, was mighty in the Scriptures." },
+        { "ref": "Psalm 68:31", "teaches": "Ethiopia shall soon stretch out her hands unto God." },
+        { "ref": "Romans 13:14", "teaches": "Put on the Lord Jesus Christ and make no provision for the flesh." },
+        { "ref": "Matthew 19:21", "teaches": "Sell what you have, give to the poor, and follow me." }
+      ],
+      "summary": [
+        "Africans were among the first believers and leaders of the church.",
+        "Tertullian, Cyprian, Athanasius and Augustine were African fathers.",
+        "Ethiopia embraced Christianity in the fourth century.",
+        "Monasticism preserved Scripture and learning but had dangers."
+      ],
+      "questions": [
+        { "q": "Who carried Jesus' cross?", "options": ["Simon of Cyrene", "Peter", "Joseph of Arimathea", "Barnabas"], "answer": 0 },
+        { "q": "Who first used the Latin word Trinitas?", "options": ["Tertullian", "Augustine", "Luther", "Origen"], "answer": 0 },
+        { "q": "Which verse led to Augustine's conversion?", "options": ["Romans 13:13-14", "John 3:16", "Genesis 1:1", "Psalm 23:1"], "answer": 0 },
+        { "q": "Who wrote a famous Rule for monks?", "options": ["Benedict", "Arius", "Constantine", "Cyprian"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Medieval Church and the Forerunners",
+      "intro": "From about 500 to 1500 the church grew in power but also in error. This week covers the papacy, the Great Schism, scholastic theology and early reformers.",
+      "lessons": [
+        {
+          "title": "The papacy and the Great Schism",
+          "body": "The bishop of Rome gained increasing authority, claiming to succeed Peter. Gregory the Great (pope 590-604) sent missionaries to England and strengthened the papacy.\n\nTension grew between the Latin-speaking West and the Greek-speaking East over authority, language, practices and a phrase added to the Nicene Creed in the West (the *filioque*, saying the Spirit proceeds from the Father \"and the Son\"). In **1054** the churches excommunicated each other: the **Great Schism** between Roman Catholic and Eastern Orthodox.\n\nMeanwhile, from the seventh century, the rise of Islam swept across North Africa and the Middle East, and the once-strong North African church declined greatly.",
+          "refs": ["Matthew 16:18", "1 Peter 5:1-4", "Ephesians 4:3-6"]
+        },
+        {
+          "title": "Crusades, scholars and corruption",
+          "body": "From 1095 Western Christians launched the **Crusades** to capture Jerusalem. They involved great violence, including against Jews and Eastern Christians, and are a sad example of mixing the cross with the sword (Matthew 26:52; John 18:36).\n\nScholars such as **Anselm** (who explained why God became man) and **Thomas Aquinas** (1225-1274) wrote careful theology, founding universities.\n\nBut corruption grew: buying church offices, immoral clergy, and the sale of **indulgences** (certificates claimed to reduce punishment in purgatory). Many ordinary people could not read the Bible, which was mostly in Latin.",
+          "refs": ["Matthew 26:51-52", "Acts 8:18-20", "Mark 7:6-9"]
+        },
+        {
+          "title": "Morning stars of the Reformation",
+          "body": "Before the Reformation, some called the church back to Scripture.\n\n- **Peter Waldo** (late 1100s) of Lyons gave away his wealth, preached in the common language and gathered followers called Waldensians, who were persecuted.\n- **John Wycliffe** (died 1384), an Oxford scholar, taught that Scripture is above the pope and inspired the first complete English Bible.\n- **Jan Hus** of Prague taught similar truths and was burned at the Council of Constance in 1415.\n\nThe invention of the printing press by Johannes Gutenberg (around 1450) would soon make Bibles and books widely available. God was preparing the way for reform: \"the word of God is not bound\" (2 Timothy 2:9).",
+          "refs": ["2 Timothy 2:9", "Psalm 119:105", "Acts 17:11"]
+        }
+      ],
+      "terms": [
+        { "term": "Papacy", "def": "The office and authority of the pope, the bishop of Rome." },
+        { "term": "Great Schism", "def": "The split of 1054 between the Roman Catholic and Eastern Orthodox churches." },
+        { "term": "Filioque", "def": "Latin 'and the Son', added to the Nicene Creed in the West." },
+        { "term": "Crusades", "def": "Western military campaigns, from 1095, to capture the Holy Land." },
+        { "term": "Indulgence", "def": "A church grant claimed to reduce punishment for sin, later sold for money." },
+        { "term": "Wycliffe", "def": "English scholar (died 1384) who championed the Bible in English." }
+      ],
+      "texts": [
+        { "ref": "Matthew 26:52", "teaches": "All who take the sword shall perish with the sword." },
+        { "ref": "Acts 8:20", "teaches": "The gift of God cannot be purchased with money." },
+        { "ref": "Mark 7:9", "teaches": "Jesus rebuked those who rejected God's commandment to keep their tradition." },
+        { "ref": "2 Timothy 2:9", "teaches": "The word of God is not bound." },
+        { "ref": "Psalm 119:105", "teaches": "Thy word is a lamp unto my feet." }
+      ],
+      "summary": [
+        "The papacy grew in power; East and West split in 1054.",
+        "Islam's rise led to the decline of the North African church.",
+        "The Crusades and the sale of indulgences show the church's corruption.",
+        "Waldo, Wycliffe and Hus called the church back to Scripture."
+      ],
+      "questions": [
+        { "q": "In what year was the Great Schism?", "options": ["1054", "313", "1517", "1611"], "answer": 0 },
+        { "q": "What did indulgences claim to do?", "options": ["Reduce punishment for sin", "Translate the Bible", "Heal the sick", "Build churches"], "answer": 0 },
+        { "q": "Who was burned at the Council of Constance in 1415?", "options": ["Jan Hus", "John Wycliffe", "Martin Luther", "Peter Waldo"], "answer": 0 },
+        { "q": "Who inspired the first complete English Bible?", "options": ["John Wycliffe", "Augustine", "Gregory the Great", "Aquinas"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Why were early Christians persecuted?", "keywords": [["emperor", "gods", "worship", "sacrifice"], ["refused", "would not"], ["disloyal", "atheists", "blame"]], "model": "They refused to worship the emperor or Rome's gods, so they were seen as disloyal 'atheists' and blamed for disasters." },
+      { "q": "What was the significance of Constantine and the Edict of Milan?", "keywords": [["313", "Edict"], ["freedom", "end", "persecution"], ["danger", "state", "power", "advantage"]], "model": "The Edict of Milan (313) ended persecution and gave freedom, but closer church-state ties also brought worldliness and interference." },
+      { "q": "What did the Council of Nicaea decide and why?", "keywords": [["Arius", "created"], ["homoousios", "one substance", "same substance"], ["God", "deity", "325"]], "model": "Against Arius, who said the Son was created, Nicaea (325) confessed the Son of one substance with the Father, fully God." },
+      { "q": "Name three African church fathers and one contribution of each.", "keywords": [["Tertullian", "Trinity"], ["Augustine", "grace", "Confessions"], ["Athanasius", "Cyprian", "canon", "Nicaea", "unity"]], "model": "Tertullian coined the Latin word Trinity; Athanasius defended Christ's deity and listed the 27 New Testament books; Augustine shaped teaching on grace." },
+      { "q": "What was the Great Schism?", "keywords": [["1054"], ["East", "West", "Orthodox", "Catholic"], ["authority", "pope", "filioque"]], "model": "The 1054 split between the Roman Catholic West and Eastern Orthodox East over papal authority, the filioque and other issues." },
+      { "q": "Who were the forerunners of the Reformation?", "keywords": [["Wycliffe"], ["Hus"], ["Waldo", "Scripture", "Bible"]], "model": "Peter Waldo, John Wycliffe and Jan Hus called the church back to Scripture before the Reformation." }
+    ],
+    "lists": [
+      { "q": "List three persecuting emperors.", "items": [["Nero"], ["Decius"], ["Diocletian"], ["Domitian"], ["Trajan"]], "need": 3 },
+      { "q": "List four early church councils.", "items": [["Nicaea"], ["Constantinople"], ["Ephesus"], ["Chalcedon"], ["Jerusalem"]], "need": 4 },
+      { "q": "List four Africans in the Bible or early church.", "items": [["Simon of Cyrene", "Simon"], ["Ethiopian", "eunuch"], ["Apollos"], ["Simeon", "Niger"], ["Lucius"], ["Tertullian"], ["Cyprian"], ["Athanasius"], ["Augustine"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "Africa's place in early Christianity", "prompt": "Some say Christianity is a foreign religion brought to Africa by Europeans. Using the Bible passages and history from this course, write a reasoned response showing Africa's place in the early church.", "words": "500–700" },
+    { "title": "Lessons from the councils", "prompt": "Explain the controversies behind the councils of Nicaea and Chalcedon. Why did these debates matter for salvation, and what lessons do they hold for dealing with false teaching today?", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Justo L. González, The Story of Christianity, volume 1",
+    "Bruce L. Shelley, Church History in Plain Language",
+    "Thomas C. Oden, How Africa Shaped the Christian Mind"
+  ]
+}

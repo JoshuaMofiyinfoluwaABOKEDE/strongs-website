@@ -1,0 +1,241 @@
+{
+  "slug": "baptist-history-and-distinctives",
+  "title": "Baptist History and Distinctives",
+  "track": "history",
+  "level": "Intermediate",
+  "summary": "Where Baptists came from, what they believe and why: from the English Separatists to the Nigerian Baptist Convention, and the convictions that mark Baptist churches.",
+  "description": "Baptists are among the largest Protestant families in the world and in Nigeria. This course traces Baptist origins in seventeenth-century England, the struggle for religious liberty, the spread of Baptists to America and through missions to Nigeria, and the key Baptist distinctives: the authority of Scripture, believer's baptism by immersion, a regenerate church, congregational government, the priesthood of all believers, and religious liberty. It also notes how other traditions view these convictions.",
+  "objectives": [
+    "Trace the origins and growth of Baptists",
+    "Explain the Baptist commitment to religious liberty",
+    "Describe the beginnings and growth of Baptist work in Nigeria",
+    "Explain the main Baptist distinctives with their biblical basis",
+    "Relate Baptist convictions respectfully to other traditions"
+  ],
+  "outcomes": [
+    "Explain the roles of Smyth, Helwys and Roger Williams",
+    "Distinguish General and Particular Baptists",
+    "Describe the work of Bowen and the founding of the Nigerian Baptist Convention",
+    "Explain the BAPTIST distinctives",
+    "Show where Baptists agree and differ with other evangelicals"
+  ],
+  "modules": [
+    {
+      "title": "Baptist Beginnings",
+      "intro": "Baptists emerged from English Puritan and Separatist movements in the early 1600s. This week we study their origins.",
+      "lessons": [
+        {
+          "title": "From Separatists to Baptists",
+          "body": "Some English Puritans concluded the Church of England could not be reformed from within and formed separate congregations. Persecuted, a group led by **John Smyth** and **Thomas Helwys** fled to Amsterdam.\n\nStudying the New Testament, Smyth concluded in **1609** that baptism belongs to professing believers, not infants. The congregation was reconstituted on believer's baptism, often counted as the first Baptist church.\n\nIn **1612** Helwys returned to England and founded the first Baptist church on English soil at Spitalfields, near London. Baptists believed they were recovering the New Testament pattern: \"Then they that gladly received his word were baptized\" (Acts 2:41).",
+          "refs": ["Acts 2:41", "Acts 8:36-38", "Matthew 28:19-20"]
+        },
+        {
+          "title": "General and Particular Baptists",
+          "body": "Early English Baptists formed two main streams:\n\n- **General Baptists** (from Helwys) held that Christ died for all people generally: an Arminian view.\n- **Particular Baptists** (from the 1630s) held that Christ died particularly for the elect: a Calvinist view. They began practising baptism by immersion and issued the **London Baptist Confession** (1644) and the **Second London Confession** (1689).\n\nGreat Particular Baptists included **John Bunyan**, author of *The Pilgrim's Progress*, **William Carey** and later **Charles Spurgeon**. Many Baptist churches today, including in Nigeria, hold positions between or across these streams.",
+          "refs": ["1 Timothy 2:4-6", "John 10:14-15", "Ephesians 4:4-6"]
+        },
+        {
+          "title": "A plea for liberty",
+          "body": "Helwys wrote *A Short Declaration of the Mystery of Iniquity* (1612), one of the first pleas in English for full religious freedom. He argued that the king has authority over bodies, not over consciences, and that people of every faith should be free to worship. He died in prison.\n\nBaptists suffered fines, prison and death for their convictions, yet they defended freedom of conscience not only for themselves but for all people.\n\nThis conviction rests on Scripture: faith cannot be forced (2 Corinthians 5:11, 20); each person will give account to God (Romans 14:12); and Christ's kingdom is \"not of this world\" (John 18:36).",
+          "refs": ["Romans 14:10-12", "John 18:36", "2 Corinthians 5:20"]
+        }
+      ],
+      "terms": [
+        { "term": "Separatists", "def": "English Puritans who left the Church of England to form independent congregations." },
+        { "term": "John Smyth", "def": "Leader of the 1609 Amsterdam congregation that adopted believer's baptism." },
+        { "term": "Thomas Helwys", "def": "Founder of the first Baptist church in England (1612) and advocate of religious liberty." },
+        { "term": "General Baptists", "def": "Baptists who held that Christ died for all people (Arminian)." },
+        { "term": "Particular Baptists", "def": "Baptists who held that Christ died for the elect (Calvinist)." },
+        { "term": "London Baptist Confession", "def": "Particular Baptist statements of faith of 1644 and 1689." }
+      ],
+      "texts": [
+        { "ref": "Acts 2:41", "teaches": "Those who gladly received the word were baptized." },
+        { "ref": "Acts 8:37", "teaches": "If you believe with all your heart, you may be baptized." },
+        { "ref": "Romans 14:12", "teaches": "Every one of us shall give account of himself to God." },
+        { "ref": "John 18:36", "teaches": "Christ's kingdom is not of this world." },
+        { "ref": "1 Timothy 2:6", "teaches": "Christ gave Himself a ransom for all." }
+      ],
+      "summary": [
+        "Baptists came from English Separatists; Smyth adopted believer's baptism in 1609.",
+        "Helwys founded the first English Baptist church in 1612.",
+        "General Baptists were Arminian; Particular Baptists Calvinist.",
+        "Baptists championed religious liberty for all."
+      ],
+      "questions": [
+        { "q": "Where did Smyth and Helwys flee to?", "options": ["Amsterdam", "Geneva", "Rome", "Boston"], "answer": 0 },
+        { "q": "Who founded the first Baptist church in England?", "options": ["Thomas Helwys", "John Bunyan", "William Carey", "Charles Spurgeon"], "answer": 0 },
+        { "q": "Particular Baptists held which view?", "options": ["Christ died for the elect", "Christ died for all generally", "Infant baptism", "Episcopal government"], "answer": 0 },
+        { "q": "What did Helwys plead for?", "options": ["Religious liberty", "A state church", "Infant baptism", "The papacy"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Baptists Spread Worldwide",
+      "intro": "Baptists grew in America and spread worldwide through missions. This week we follow their path to Nigeria.",
+      "lessons": [
+        {
+          "title": "Baptists in America",
+          "body": "**Roger Williams**, banished from Massachusetts for his views on religious liberty, founded Providence, Rhode Island, as a haven for freedom of conscience. There in 1638-1639 he helped form the first Baptist church in America.\n\nBaptists grew rapidly during the Great Awakenings, especially among ordinary people and enslaved Africans. They campaigned for religious liberty in the new United States.\n\nIn 1845 Baptists in the southern states formed the **Southern Baptist Convention**, sadly in a dispute connected with slavery. The SBC later apologised (1995) for its support of slavery and racism. Its Foreign Mission Board sent missionaries around the world, including to Nigeria.",
+          "refs": ["Galatians 5:1", "Galatians 3:28", "1 John 1:9"]
+        },
+        {
+          "title": "Baptist beginnings in Nigeria",
+          "body": "In **1850** the Southern Baptist missionary **Thomas Jefferson Bowen** arrived at Badagry and travelled into Yorubaland, working at Ijaye and Ogbomoso. He studied the Yoruba language and wrote a Yoruba grammar and dictionary.\n\nWork was hindered by wars, disease and the American Civil War, but continued through missionaries and faithful Nigerian believers. Churches grew in Lagos, Abeokuta, Ogbomoso, Oyo and beyond.\n\nIn 1888 some members of the Lagos church formed the **Native Baptist Church**, an early African-led church, reflecting the desire for Nigerian leadership.",
+          "refs": ["Romans 15:20-21", "Acts 13:2-4", "Isaiah 52:7"]
+        },
+        {
+          "title": "The Nigerian Baptist Convention",
+          "body": "In **1914** Baptist churches formed what became the **Nigerian Baptist Convention**, now one of the largest Baptist bodies in the world, with churches across Nigeria.\n\nThe Nigerian Baptist Theological Seminary in Ogbomoso, founded in 1898, has trained generations of pastors. Baptists also founded schools, hospitals (such as the Baptist Medical Centre in Ogbomoso) and colleges that served the nation.\n\nToday the Convention sends its own missionaries in Nigeria and abroad. Its churches cooperate in associations and conferences while each local church keeps its autonomy, in line with Baptist principles.",
+          "refs": ["Acts 15:22-31", "2 Corinthians 8:1-5", "Philippians 1:3-5"]
+        }
+      ],
+      "terms": [
+        { "term": "Roger Williams", "def": "Founder of Providence, Rhode Island, and of the first Baptist church in America." },
+        { "term": "Southern Baptist Convention", "def": "American Baptist body formed in 1845, whose missionaries came to Nigeria." },
+        { "term": "Thomas Jefferson Bowen", "def": "Southern Baptist missionary who arrived in Nigeria in 1850." },
+        { "term": "Native Baptist Church", "def": "An African-led Baptist church formed in Lagos in 1888." },
+        { "term": "Nigerian Baptist Convention", "def": "The national body of Baptist churches in Nigeria, organised in 1914." },
+        { "term": "Ogbomoso seminary", "def": "The Nigerian Baptist Theological Seminary, founded in 1898." }
+      ],
+      "texts": [
+        { "ref": "Galatians 5:1", "teaches": "Stand fast in the liberty wherewith Christ has made us free." },
+        { "ref": "Galatians 3:28", "teaches": "All are one in Christ Jesus." },
+        { "ref": "Romans 15:20", "teaches": "Paul strove to preach where Christ was not named." },
+        { "ref": "Isaiah 52:7", "teaches": "How beautiful are the feet of him that brings good tidings." },
+        { "ref": "Philippians 1:5", "teaches": "Paul thanked God for the Philippians' fellowship in the gospel." }
+      ],
+      "summary": [
+        "Roger Williams founded the first American Baptist church in Rhode Island.",
+        "The Southern Baptist Convention formed in 1845 and later repented of racism.",
+        "Bowen arrived in Nigeria in 1850; the Native Baptist Church formed in 1888.",
+        "The Nigerian Baptist Convention was organised in 1914."
+      ],
+      "questions": [
+        { "q": "Who founded the first Baptist church in America?", "options": ["Roger Williams", "Jonathan Edwards", "George Whitefield", "John Smyth"], "answer": 0 },
+        { "q": "When did Thomas Jefferson Bowen arrive in Nigeria?", "options": ["1850", "1914", "1842", "1960"], "answer": 0 },
+        { "q": "When was the Nigerian Baptist Convention organised?", "options": ["1914", "1850", "1888", "1898"], "answer": 0 },
+        { "q": "Where is the Nigerian Baptist Theological Seminary?", "options": ["Ogbomoso", "Kano", "Enugu", "Calabar"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Baptist Distinctives (1)",
+      "intro": "What makes a church Baptist? This week we study the first set of Baptist distinctives.",
+      "lessons": [
+        {
+          "title": "The authority of Scripture",
+          "body": "Baptists often summarise their convictions with the acrostic **BAPTIST**. The first is **B: Biblical authority**.\n\nBaptists hold that the Bible alone is the final authority for faith and practice, above creeds, traditions, councils or leaders. \"All scripture is given by inspiration of God\" (2 Timothy 3:16). Baptist confessions are valued as summaries, not as authorities over Scripture.\n\nThis is why Baptists insisted on believer's baptism and congregational government: they sought to follow the New Testament pattern rather than tradition, as Jesus rebuked those \"making the word of God of none effect through your tradition\" (Mark 7:13).",
+          "refs": ["2 Timothy 3:16-17", "Mark 7:6-13", "Isaiah 8:20"]
+        },
+        {
+          "title": "Autonomy and congregational government",
+          "body": "**A: Autonomy of the local church.** Each local church is self-governing under Christ, choosing its own leaders, receiving members and exercising discipline. Baptists point to the church choosing the seven (Acts 6:3-5), the whole church disciplining (Matthew 18:17; 1 Corinthians 5:4) and letters addressed to whole congregations.\n\nAutonomy is not isolation. Baptist churches cooperate voluntarily in associations and conventions for mission, education and fellowship, as the New Testament churches cooperated (2 Corinthians 8:1-4).\n\nOther traditions, such as Anglicans, Methodists and many Pentecostal churches, have bishops or overseers with authority over many churches.",
+          "refs": ["Acts 6:3-5", "Matthew 18:15-17", "2 Corinthians 8:1-4"]
+        },
+        {
+          "title": "The priesthood of all believers",
+          "body": "**P: Priesthood of all believers.** Every believer has direct access to God through Christ, the one Mediator (1 Timothy 2:5), and is part of \"an holy priesthood, to offer up spiritual sacrifices\" (1 Peter 2:5, 9). No earthly priest is needed to stand between a believer and God.\n\nThis means every member may read and interpret Scripture, pray directly to God, minister to others, and share in church decisions. It does not deny the value of pastors, who are gifts to equip the saints (Ephesians 4:11-12).\n\nThis conviction was shared with the Reformers and is held by most Protestants, though Baptists stress its implications for church life.",
+          "refs": ["1 Peter 2:5-9", "Hebrews 4:14-16", "Revelation 1:5-6"]
+        }
+      ],
+      "terms": [
+        { "term": "BAPTIST acrostic", "def": "A memory aid for Baptist distinctives: Biblical authority, Autonomy, Priesthood, Two ordinances, Individual liberty, Saved membership, Two offices." },
+        { "term": "Biblical authority", "def": "The Bible as the final authority for faith and practice." },
+        { "term": "Local church autonomy", "def": "Each congregation governing itself under Christ." },
+        { "term": "Association", "def": "A voluntary cooperation of Baptist churches for fellowship and mission." },
+        { "term": "Priesthood of all believers", "def": "Every believer's direct access to God through Christ and calling to minister." },
+        { "term": "Confession of faith", "def": "A summary of beliefs, valued by Baptists but kept under Scripture." }
+      ],
+      "texts": [
+        { "ref": "2 Timothy 3:16", "teaches": "All scripture is given by inspiration of God." },
+        { "ref": "Mark 7:13", "teaches": "Tradition can make the word of God of none effect." },
+        { "ref": "Matthew 18:17", "teaches": "If he neglects to hear, tell it to the church." },
+        { "ref": "1 Peter 2:9", "teaches": "Believers are a royal priesthood." },
+        { "ref": "Hebrews 4:16", "teaches": "Come boldly unto the throne of grace." }
+      ],
+      "summary": [
+        "B: the Bible is the final authority, above tradition.",
+        "A: each local church is self-governing but cooperates freely.",
+        "P: every believer has direct access to God and a ministry.",
+        "These convictions seek to follow the New Testament pattern."
+      ],
+      "questions": [
+        { "q": "What does the B in BAPTIST stand for?", "options": ["Biblical authority", "Bishops", "Buildings", "Baptism of infants"], "answer": 0 },
+        { "q": "What does local church autonomy mean?", "options": ["Each church governs itself under Christ", "No cooperation at all", "Bishops rule churches", "The state rules churches"], "answer": 0 },
+        { "q": "Who is the one Mediator for believers?", "options": ["Christ", "The pastor", "The convention", "Saints"], "answer": 0 },
+        { "q": "How do Baptists view confessions of faith?", "options": ["Valued summaries under Scripture", "Equal to Scripture", "Above Scripture", "Forbidden"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Baptist Distinctives (2)",
+      "intro": "This week we study the remaining distinctives and how Baptists relate to other Christians.",
+      "lessons": [
+        {
+          "title": "Two ordinances and a regenerate church",
+          "body": "**T: Two ordinances.** Baptists observe baptism and the Lord's Supper as ordinances commanded by Christ, symbols of the gospel rather than means of saving grace. Baptism is for professing believers, by **immersion**, picturing burial and resurrection with Christ (Romans 6:3-4).\n\n**S: Saved (regenerate) church membership.** Church membership is for those who give credible evidence of new birth and have been baptized as believers. The New Testament churches were made up of \"saints\" and \"faithful brethren\" (Colossians 1:2), and \"the Lord added to the church daily such as should be saved\" (Acts 2:47).\n\nThis is why Baptists do not baptize infants: membership follows personal faith.",
+          "refs": ["Romans 6:3-5", "Acts 2:41-47", "Colossians 2:12"]
+        },
+        {
+          "title": "Soul liberty and two offices",
+          "body": "**I: Individual soul liberty.** Every person is responsible directly to God and must be free to believe without coercion by church or state. Baptists hold to **separation of church and state**: the state should neither control the church nor favour one religion, and the church should not use state power to force faith. Faith must be voluntary (Joshua 24:15).\n\n**T: Two offices.** The New Testament names two ongoing church offices: **pastors** (elders, bishops) and **deacons** (Philippians 1:1; 1 Timothy 3).\n\nThese convictions, held together, describe the Baptist way of being church.",
+          "refs": ["Joshua 24:15", "Philippians 1:1", "1 Timothy 3:1-13"]
+        },
+        {
+          "title": "Baptists among other Christians",
+          "body": "Baptists share the core gospel with all evangelical Christians: the Trinity, Christ's deity and atonement, salvation by grace through faith, and the authority of Scripture.\n\nThey differ with others on secondary matters: infant baptism (Anglican, Methodist, Presbyterian, Catholic), church government (episcopal and presbyterian churches), and sometimes on Spirit baptism and gifts (Pentecostals). Baptists themselves vary: some are Calvinist, others Arminian; some continuationist, others cessationist.\n\nBaptists should hold their convictions firmly but humbly, \"Endeavouring to keep the unity of the Spirit in the bond of peace\" (Ephesians 4:3), cooperating with other believers in the gospel.",
+          "refs": ["Ephesians 4:1-6", "Philippians 1:15-18", "Romans 14:1"]
+        }
+      ],
+      "terms": [
+        { "term": "Ordinance", "def": "A practice commanded by Christ: baptism and the Lord's Supper." },
+        { "term": "Immersion", "def": "Baptism by putting the whole body under water, practised by Baptists." },
+        { "term": "Regenerate membership", "def": "Church membership limited to those who show evidence of new birth." },
+        { "term": "Soul liberty", "def": "Each person's freedom and responsibility to answer to God without coercion." },
+        { "term": "Separation of church and state", "def": "The principle that state and church should not control each other." },
+        { "term": "Two offices", "def": "Pastors (elders) and deacons as the ongoing offices of the church." }
+      ],
+      "texts": [
+        { "ref": "Romans 6:4", "teaches": "We are buried with Christ by baptism into death." },
+        { "ref": "Acts 2:47", "teaches": "The Lord added to the church daily such as should be saved." },
+        { "ref": "Joshua 24:15", "teaches": "Choose you this day whom ye will serve." },
+        { "ref": "Philippians 1:1", "teaches": "Paul greeted the saints with the bishops and deacons." },
+        { "ref": "Ephesians 4:3", "teaches": "Keep the unity of the Spirit in the bond of peace." }
+      ],
+      "summary": [
+        "T: two ordinances; believer's baptism by immersion.",
+        "S: membership for the regenerate.",
+        "I: soul liberty and separation of church and state; T: two offices.",
+        "Baptists share the gospel with all evangelicals and seek unity in humility."
+      ],
+      "questions": [
+        { "q": "How do Baptists baptize?", "options": ["By immersion of professing believers", "By sprinkling infants", "By pouring on all", "They do not baptize"], "answer": 0 },
+        { "q": "What is regenerate church membership?", "options": ["Membership for those born again", "Membership by birth", "Membership by payment", "Membership by tribe"], "answer": 0 },
+        { "q": "What are the two offices in Baptist churches?", "options": ["Pastors and deacons", "Bishops and priests", "Apostles and prophets", "Kings and judges"], "answer": 0 },
+        { "q": "On what do Baptists agree with all evangelicals?", "options": ["Salvation by grace through faith", "Infant baptism", "Episcopal government", "Purgatory"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Describe the roles of John Smyth and Thomas Helwys.", "keywords": [["Smyth", "1609", "Amsterdam", "believer's baptism"], ["Helwys", "1612", "England", "Spitalfields"], ["liberty", "freedom"]], "model": "Smyth led the Amsterdam congregation to believer's baptism in 1609; Helwys founded the first English Baptist church in 1612 and pleaded for religious liberty." },
+      { "q": "Distinguish General and Particular Baptists.", "keywords": [["General", "all", "Arminian"], ["Particular", "elect", "Calvinist"]], "model": "General Baptists held that Christ died for all (Arminian); Particular Baptists that He died for the elect (Calvinist)." },
+      { "q": "How did Baptist work begin and grow in Nigeria?", "keywords": [["Bowen", "1850", "Southern Baptist"], ["Ogbomoso", "Ijaye", "Badagry"], ["1914", "Convention", "seminary"]], "model": "Southern Baptist missionary Thomas Jefferson Bowen arrived in 1850 and worked at Ijaye and Ogbomoso; the Nigerian Baptist Convention was organised in 1914." },
+      { "q": "What does the BAPTIST acrostic stand for?", "keywords": [["Biblical authority", "Bible"], ["Autonomy"], ["Priesthood"], ["ordinances", "soul liberty", "saved", "offices"]], "model": "Biblical authority, Autonomy of the local church, Priesthood of believers, Two ordinances, Individual soul liberty, Saved membership, Two offices." },
+      { "q": "Why do Baptists practise believer's baptism by immersion?", "keywords": [["believe", "profess", "faith", "Acts"], ["immersion", "buried", "Romans 6"], ["New Testament", "pattern", "Scripture"]], "model": "Because in the New Testament those who believed were baptized, and immersion pictures burial and resurrection with Christ (Romans 6:4)." },
+      { "q": "What is soul liberty and why does it matter?", "keywords": [["freedom", "conscience", "coercion"], ["responsible", "God", "account"], ["church and state", "separation"]], "model": "Each person is responsible to God and must be free to believe without coercion, which leads to separation of church and state." }
+    ],
+    "lists": [
+      { "q": "List the seven BAPTIST distinctives.", "items": [["Biblical authority", "Bible"], ["Autonomy"], ["Priesthood"], ["Two ordinances", "ordinances"], ["Individual soul liberty", "soul liberty", "liberty"], ["Saved", "regenerate"], ["Two offices", "offices"]], "need": 7 },
+      { "q": "List four important Baptists in history.", "items": [["Smyth"], ["Helwys"], ["Roger Williams"], ["Bunyan"], ["Carey"], ["Spurgeon"], ["Bowen"], ["Agbebi"]], "need": 4 },
+      { "q": "List three matters on which Baptists differ from some other Christians.", "items": [["infant baptism", "baptism"], ["government", "bishops", "episcopal"], ["Spirit baptism", "gifts"], ["membership"], ["church and state"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Why I am (or am not) a Baptist", "prompt": "Choose three Baptist distinctives. Explain the biblical basis for each, how another tradition sees the matter differently, and your own conclusion. Write fairly and respectfully.", "words": "600–800" },
+    { "title": "Baptist work in my region", "prompt": "Research the history of a Baptist church, association or institution in your area (or another denomination's if you are not Baptist). Describe its beginnings, key people, growth and present ministry, and draw lessons for the church today.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "H. Leon McBeth, The Baptist Heritage",
+    "Tom J. Nettles, The Baptists",
+    "Travis Collins, The Baptist Mission of Nigeria, 1850–1993"
+  ]
+}

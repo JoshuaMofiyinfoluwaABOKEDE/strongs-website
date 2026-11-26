@@ -1,0 +1,241 @@
+{
+  "slug": "christianity-in-africa-and-nigeria",
+  "title": "Christianity in Africa and Nigeria",
+  "track": "history",
+  "level": "Intermediate",
+  "summary": "The story of the gospel in Africa from the New Testament to today, with a focus on Nigeria: early churches, missions, African-led churches, growth, and the challenges and calling of the African church.",
+  "description": "Africa has a long and rich Christian history. This course traces Christianity on the continent from the Ethiopian official and the North African fathers, through the ancient Ethiopian church and early Catholic contacts, to the nineteenth-century missions in Nigeria and the rise of African-initiated churches. It then examines the growth of the Nigerian church, its theology and mission, and the challenges it faces: syncretism, prosperity teaching, persecution and discipleship.",
+  "objectives": [
+    "Trace Christianity in Africa from the first century to today",
+    "Describe how the gospel came to different parts of Nigeria",
+    "Explain the rise and character of African-initiated churches",
+    "Engage key African Christian thinkers and missions",
+    "Analyse the challenges and calling of the Nigerian church today"
+  ],
+  "outcomes": [
+    "Show the ancient roots of African Christianity",
+    "Describe the work of Crowther, Slessor, SIM and others in Nigeria",
+    "Explain the significance of African-initiated churches",
+    "Describe the contribution of Byang Kato and Nigerian mission agencies",
+    "Respond biblically to syncretism and other challenges"
+  ],
+  "modules": [
+    {
+      "title": "Ancient African Christianity",
+      "intro": "Christianity in Africa is ancient. This week we survey the first fifteen centuries.",
+      "lessons": [
+        {
+          "title": "Africa in the biblical story",
+          "body": "Africa appears throughout Scripture. Egypt sheltered Abraham, Joseph, Israel and the infant Jesus (Matthew 2:13-15). Moses married a Cushite woman (Numbers 12:1). Ebed-melech the Ethiopian rescued Jeremiah (Jeremiah 38:7-13). The Queen of Sheba visited Solomon.\n\nIn the New Testament, Simon of Cyrene carried Jesus' cross; people from Egypt and Libya heard the gospel at Pentecost (Acts 2:10); the Ethiopian treasurer believed and was baptized (Acts 8:26-39); and Africans led the church at Antioch (Acts 13:1).\n\n\"Ethiopia shall soon stretch out her hands unto God\" (Psalm 68:31).",
+          "refs": ["Psalm 68:31", "Acts 2:5-11", "Jeremiah 38:7-13"]
+        },
+        {
+          "title": "North Africa, Egypt and Ethiopia",
+          "body": "By AD 200 North Africa was a strong centre of Christianity, producing Tertullian, Cyprian and later Augustine. Alexandria in Egypt had a famous Christian school and great leaders like Athanasius. Egypt also gave birth to monasticism through Antony.\n\nIn the fourth century the kingdom of Aksum in **Ethiopia** became Christian under King Ezana through Frumentius. The **Ethiopian Orthodox Church** has continued for over 1,600 years, with its own Bible translation and traditions. The **Coptic Church** of Egypt has survived centuries as a minority. Christian kingdoms also flourished in Nubia (modern Sudan) for centuries.",
+          "refs": ["Acts 18:24-25", "Isaiah 19:19-25", "Zephaniah 3:10"]
+        },
+        {
+          "title": "Decline and early European contact",
+          "body": "From the seventh century the spread of Islam across North Africa led to the decline of the church there. Divisions, a faith held mainly by the elite, and a Bible not translated into local Berber languages may have weakened it. The lesson: a church needs Scripture in the heart language and deep discipleship.\n\nFrom the fifteenth century Portuguese explorers brought Catholic missionaries. The kingdom of **Kongo** had a Christian king, Afonso I (early 1500s). There were also Catholic contacts with the kingdoms of **Benin** and **Warri** in what is now Nigeria. But these early efforts were entangled with the slave trade and had limited lasting effect.",
+          "refs": ["Romans 10:14-17", "Colossians 2:6-7", "Amos 2:6"]
+        }
+      ],
+      "terms": [
+        { "term": "Cush", "def": "The biblical name for lands south of Egypt, including Nubia and Ethiopia." },
+        { "term": "Aksum", "def": "Ancient Ethiopian kingdom that became Christian in the fourth century." },
+        { "term": "Ethiopian Orthodox Church", "def": "Ancient African church dating to the fourth century." },
+        { "term": "Coptic Church", "def": "The ancient church of Egypt." },
+        { "term": "Nubia", "def": "Region in modern Sudan with Christian kingdoms for centuries." },
+        { "term": "Heart language", "def": "A person's first language, in which Scripture speaks most deeply." }
+      ],
+      "texts": [
+        { "ref": "Psalm 68:31", "teaches": "Ethiopia shall soon stretch out her hands unto God." },
+        { "ref": "Acts 2:10", "teaches": "Visitors from Egypt and Libya heard the gospel at Pentecost." },
+        { "ref": "Acts 8:27", "teaches": "An Ethiopian official of great authority came to worship." },
+        { "ref": "Romans 10:17", "teaches": "Faith comes by hearing the word of God." },
+        { "ref": "Colossians 2:7", "teaches": "Be rooted and built up in Christ and established in the faith." }
+      ],
+      "summary": [
+        "Africans appear throughout the Bible's story.",
+        "North Africa, Egypt and Ethiopia had strong early churches.",
+        "The Ethiopian and Coptic churches have survived for centuries.",
+        "The North African church declined; early Portuguese missions had limited effect."
+      ],
+      "questions": [
+        { "q": "Who rescued Jeremiah from the pit?", "options": ["Ebed-melech the Ethiopian", "Baruch", "Zedekiah", "Daniel"], "answer": 0 },
+        { "q": "Which kingdom became Christian under King Ezana?", "options": ["Aksum", "Kongo", "Benin", "Mali"], "answer": 0 },
+        { "q": "Which African king of Kongo was Christian in the 1500s?", "options": ["Afonso I", "Ezana", "Oba Ewuare", "Mansa Musa"], "answer": 0 },
+        { "q": "What lesson does the North African decline suggest?", "options": ["Scripture in the heart language and deep discipleship matter", "Churches should avoid cities", "Theology is unimportant", "Missions are wrong"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Gospel Comes to Nigeria",
+      "intro": "In the nineteenth century the gospel spread across Nigeria through missionaries and African believers. This week we trace that story.",
+      "lessons": [
+        {
+          "title": "Badagry, Abeokuta and the Yoruba",
+          "body": "Freed slaves, many of Yoruba origin, became Christians in Sierra Leone. Some returned home and asked for missionaries.\n\nIn **1842** Methodist missionary **Thomas Birch Freeman** arrived at **Badagry**, followed by **Henry Townsend** of the Church Missionary Society (CMS). Missions spread to **Abeokuta**, where Egba rulers welcomed them, and then to Ibadan, Ogbomoso and Lagos.\n\n**Samuel Ajayi Crowther**, captured as a boy and rescued from a slave ship, became a teacher, linguist and priest. He led the translation of the Bible into Yoruba and in **1864** was consecrated the first African Anglican bishop, leading the Niger Mission.",
+          "refs": ["Genesis 50:20", "Acts 16:9-10", "Isaiah 61:1"]
+        },
+        {
+          "title": "The East, the Niger and Calabar",
+          "body": "Presbyterian missionaries from Jamaica and Scotland arrived in **Calabar** in **1846**, led by Hope Waddell. **Mary Slessor** served from 1876 for nearly forty years, living among the people, rescuing twins who would otherwise be killed, and opposing other cruel practices.\n\nCrowther's Niger Mission, staffed largely by African agents, planted churches along the River Niger at Onitsha and elsewhere.\n\nRoman Catholic missions (the Society of African Missions from the 1860s, and the Holy Ghost Fathers in the east) also grew strongly, building many schools. Today Catholics and Anglicans are especially numerous in the south-east.",
+          "refs": ["Psalm 82:3-4", "Matthew 18:10", "Proverbs 31:8-9"]
+        },
+        {
+          "title": "The North and the Middle Belt",
+          "body": "Northern Nigeria, largely Muslim, was harder to reach. In **1893** Walter Gowans, Thomas Kent and Rowland Bingham set out for the interior; Gowans and Kent died, but Bingham persevered and the **Sudan Interior Mission** (SIM) was established. Its churches became the **Evangelical Church Winning All** (ECWA).\n\nThe Sudan United Mission and others worked in the Middle Belt, where many peoples turned to Christ. Churches such as COCIN (Church of Christ in Nations) grew from this work.\n\nMissionaries and African evangelists paid a great price: \"Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit\" (John 12:24).",
+          "refs": ["John 12:24", "Romans 15:20-21", "2 Corinthians 4:7-12"]
+        }
+      ],
+      "terms": [
+        { "term": "Freed slaves", "def": "Africans rescued from the slave trade, many of whom became Christians in Sierra Leone." },
+        { "term": "Badagry", "def": "Coastal town where Christian missions in Nigeria began in 1842." },
+        { "term": "Niger Mission", "def": "The CMS mission along the River Niger led by Bishop Crowther." },
+        { "term": "Hope Waddell", "def": "Leader of the Presbyterian mission to Calabar in 1846." },
+        { "term": "Sudan Interior Mission", "def": "Mission begun in 1893 that reached northern Nigeria; its churches became ECWA." },
+        { "term": "ECWA", "def": "Evangelical Church Winning All, which grew from SIM's work." }
+      ],
+      "texts": [
+        { "ref": "Genesis 50:20", "teaches": "What men meant for evil, God meant for good." },
+        { "ref": "Acts 16:9", "teaches": "Come over and help us." },
+        { "ref": "Isaiah 61:1", "teaches": "The Lord anointed me to preach good tidings and proclaim liberty to captives." },
+        { "ref": "Psalm 82:3", "teaches": "Defend the poor and fatherless." },
+        { "ref": "John 12:24", "teaches": "A corn of wheat that dies brings forth much fruit." }
+      ],
+      "summary": [
+        "Freed slaves asked for missionaries; missions reached Badagry in 1842.",
+        "Crowther translated the Yoruba Bible and became bishop in 1864.",
+        "Presbyterians reached Calabar in 1846; Mary Slessor rescued twins.",
+        "SIM reached the north from 1893; ECWA and COCIN grew from such work."
+      ],
+      "questions": [
+        { "q": "Where did missions to Nigeria begin in 1842?", "options": ["Badagry", "Kano", "Enugu", "Jos"], "answer": 0 },
+        { "q": "Who led the translation of the Bible into Yoruba?", "options": ["Samuel Ajayi Crowther", "Mary Slessor", "Rowland Bingham", "Thomas Freeman"], "answer": 0 },
+        { "q": "Which mission's churches became ECWA?", "options": ["Sudan Interior Mission", "CMS", "Methodist mission", "Catholic SMA"], "answer": 0 },
+        { "q": "When did Presbyterians arrive in Calabar?", "options": ["1846", "1893", "1914", "1960"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "African-Led Christianity",
+      "intro": "Africans have led the church's growth on the continent. This week we study African-initiated churches, African theologians and missions.",
+      "lessons": [
+        {
+          "title": "African-initiated churches",
+          "body": "From the 1880s some Africans formed churches independent of mission control, often because of racism or a desire for African leadership and worship. In Lagos, the **Native Baptist Church** (1888) and the **United Native African Church** (1891) were early examples.\n\nIn the twentieth century the **Aladura** churches emphasised prayer, healing, dreams and visions, and the 1930 revival under Joseph Babalola led to the Christ Apostolic Church.\n\nThese churches showed that Africans could lead and express the faith in African ways. Some, however, mixed Christianity with traditional practices. Each must be tested by Scripture (Acts 17:11).",
+          "refs": ["Acts 17:11", "Galatians 3:28", "Acts 15:7-11"]
+        },
+        {
+          "title": "African theologians and leaders",
+          "body": "African Christians have contributed much to theology:\n\n- **Byang Kato** (1936-1975), a Nigerian ECWA leader, warned against universalism and syncretism in *Theological Pitfalls in Africa* and called for theology both African and biblical.\n- **Kwame Bediako** (Ghana) and **John Mbiti** (Kenya) explored how the gospel relates to African culture and religion.\n- **Tokunboh Adeyemo** (Nigeria) led the Association of Evangelicals in Africa and edited the *Africa Bible Commentary* (2006), written by African scholars.\n\nAfrican theology asks: how does the unchanging gospel speak to African questions of ancestors, spirits, community, power and suffering?",
+          "refs": ["Jude 3", "Colossians 2:8", "2 Timothy 2:2"]
+        },
+        {
+          "title": "Nigeria as a sending nation",
+          "body": "Nigeria has become a missionary-sending nation. **Calvary Ministries (CAPRO)**, founded in 1975 by Nigerian graduates, sends missionaries to unreached peoples in Nigeria and beyond. The ECWA Evangelical Missionary Society, the Nigerian Baptist Convention and many Pentecostal churches send missionaries across Africa and the world.\n\nNigerian churches have also planted congregations among the diaspora in Europe and America.\n\nYet many peoples within Nigeria remain unreached, especially in the north. The task given in Acts 1:8 is not finished: Jerusalem, Judea and Samaria are near at hand.",
+          "refs": ["Acts 1:8", "Matthew 9:37-38", "Romans 10:13-15"]
+        }
+      ],
+      "terms": [
+        { "term": "African-initiated churches", "def": "Churches founded and led by Africans, independent of mission control." },
+        { "term": "United Native African Church", "def": "An early independent church formed in Lagos in 1891." },
+        { "term": "Byang Kato", "def": "Nigerian evangelical theologian (1936-1975) who warned against syncretism." },
+        { "term": "Africa Bible Commentary", "def": "A one-volume Bible commentary written by African scholars (2006)." },
+        { "term": "CAPRO", "def": "Calvary Ministries, a Nigerian mission agency founded in 1975." },
+        { "term": "Unreached people", "def": "A people group without an established, self-sustaining church." }
+      ],
+      "texts": [
+        { "ref": "Acts 17:11", "teaches": "The Bereans searched the Scriptures to test what they heard." },
+        { "ref": "Colossians 2:8", "teaches": "Beware of philosophy and tradition of men not after Christ." },
+        { "ref": "Jude 3", "teaches": "Contend for the faith once delivered to the saints." },
+        { "ref": "Matthew 9:38", "teaches": "Pray the Lord of the harvest to send labourers." },
+        { "ref": "Romans 10:14", "teaches": "How shall they hear without a preacher?" }
+      ],
+      "summary": [
+        "African-initiated churches arose from the 1880s, seeking African leadership.",
+        "Some kept biblical faith; others mixed in traditional practices.",
+        "Kato, Bediako, Mbiti and Adeyemo contributed to African theology.",
+        "Nigeria now sends missionaries, but many peoples remain unreached."
+      ],
+      "questions": [
+        { "q": "Which early independent church formed in Lagos in 1888?", "options": ["Native Baptist Church", "Deeper Life", "RCCG", "ECWA"], "answer": 0 },
+        { "q": "Who wrote Theological Pitfalls in Africa?", "options": ["Byang Kato", "John Mbiti", "Samuel Crowther", "Kwame Bediako"], "answer": 0 },
+        { "q": "When was CAPRO founded?", "options": ["1975", "1842", "1914", "2006"], "answer": 0 },
+        { "q": "Who edited the Africa Bible Commentary?", "options": ["Tokunboh Adeyemo", "W. F. Kumuyi", "Enoch Adeboye", "Mary Slessor"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Challenges and Calling Today",
+      "intro": "The Nigerian church is large and vibrant but faces serious challenges. This week we study them and the church's calling.",
+      "lessons": [
+        {
+          "title": "Syncretism and the spirit world",
+          "body": "**Syncretism** mixes Christian faith with other religious practices: consulting diviners, wearing charms, offering to ancestors, or treating Christian objects as magic. Israel did the same: \"They feared the LORD, and served their own gods\" (2 Kings 17:33).\n\nAfrican Christians rightly take the spirit world seriously, as the Bible does (Ephesians 6:12). The answer is not denial but Christ's supremacy: He \"spoiled principalities and powers\" (Colossians 2:15) and is the only Mediator (1 Timothy 2:5).\n\nThe church must teach clearly, disciple deeply and provide biblical answers to people's fears about witchcraft, sickness and the future.",
+          "refs": ["2 Kings 17:33-41", "Colossians 2:13-15", "1 Corinthians 10:20-21"]
+        },
+        {
+          "title": "Prosperity, division and shallow discipleship",
+          "body": "Other challenges include:\n\n- **Prosperity teaching** that makes wealth the measure of faith and leads to exploitation (1 Timothy 6:5-10).\n- **Division**: countless splits over leadership and money (1 Corinthians 1:10-13).\n- **Shallow discipleship**: large crowds but weak Bible knowledge and little change in society. Nigeria has many churches yet struggles with corruption and injustice.\n- **Unaccountable leadership**: leaders above correction (1 Peter 5:2-3).\n\nThe remedy is faithful preaching of the whole counsel of God (Acts 20:27), discipleship that changes lives (Matthew 28:20), and leaders who serve humbly.",
+          "refs": ["Acts 20:27-31", "1 Corinthians 1:10-13", "Matthew 28:19-20"]
+        },
+        {
+          "title": "Persecution and hope",
+          "body": "Christians in parts of northern Nigeria and the Middle Belt have suffered violent attacks, kidnappings and the destruction of churches and villages. Many have died for their faith. The church must pray, care for victims and displaced families, speak for justice, and refuse revenge (Romans 12:19-21; Hebrews 13:3).\n\nDespite challenges, there is great hope. The gospel has transformed millions of Nigerians. The church can be salt and light in politics, business, education and media, and send missionaries to the nations.\n\nThe vision is the throne room of Revelation 7:9: people \"of all nations, and kindreds, and people, and tongues\", including every Nigerian people, praising the Lamb.",
+          "refs": ["Hebrews 13:3", "Romans 12:19-21", "Revelation 7:9-10"]
+        }
+      ],
+      "terms": [
+        { "term": "Syncretism", "def": "Mixing Christian faith with practices of other religions." },
+        { "term": "Diviner", "def": "A traditional practitioner consulted to discover hidden things, forbidden in Scripture." },
+        { "term": "Supremacy of Christ", "def": "Christ's authority over every spiritual power (Colossians 2:15)." },
+        { "term": "Discipleship", "def": "The process of teaching believers to obey all Christ commanded." },
+        { "term": "Whole counsel of God", "def": "All that God has revealed, taught faithfully (Acts 20:27)." },
+        { "term": "Internally displaced persons", "def": "People forced from their homes by violence but still within their country." }
+      ],
+      "texts": [
+        { "ref": "2 Kings 17:33", "teaches": "They feared the LORD and served their own gods." },
+        { "ref": "Colossians 2:15", "teaches": "Christ spoiled principalities and powers and triumphed over them." },
+        { "ref": "Acts 20:27", "teaches": "Paul declared all the counsel of God." },
+        { "ref": "Hebrews 13:3", "teaches": "Remember those in bonds and those who suffer adversity." },
+        { "ref": "Revelation 7:9", "teaches": "A multitude of all nations and tongues stands before the Lamb." }
+      ],
+      "summary": [
+        "Syncretism is answered by Christ's supremacy and deep discipleship.",
+        "Prosperity teaching, division and shallow discipleship weaken the church.",
+        "Persecuted believers need prayer, care, justice and the refusal of revenge.",
+        "The Nigerian church has a great calling to be salt, light and a sending church."
+      ],
+      "questions": [
+        { "q": "What is syncretism?", "options": ["Mixing Christian faith with other religious practices", "Singing in harmony", "Church unity", "Bible translation"], "answer": 0 },
+        { "q": "What does Colossians 2:15 say Christ did to principalities?", "options": ["Spoiled them and triumphed over them", "Ignored them", "Feared them", "Made peace with them"], "answer": 0 },
+        { "q": "What did Paul declare in Acts 20:27?", "options": ["All the counsel of God", "Only blessings", "Only prophecies", "Nothing"], "answer": 0 },
+        { "q": "How should the church respond to persecution?", "options": ["Pray, care, seek justice and refuse revenge", "Take revenge", "Hide forever", "Deny Christ"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Show that Christianity has ancient roots in Africa.", "keywords": [["Ethiopian", "Acts 8", "Simon", "Cyrene"], ["Tertullian", "Augustine", "Athanasius", "Alexandria"], ["Ethiopia", "Aksum", "Coptic"]], "model": "Africans appear in the New Testament (the Ethiopian official, Simon of Cyrene); North Africa produced Tertullian, Athanasius and Augustine; Ethiopia became Christian in the fourth century." },
+      { "q": "Describe the contribution of Samuel Ajayi Crowther.", "keywords": [["slave", "rescued"], ["Yoruba", "translation", "Bible"], ["bishop", "1864", "Niger"]], "model": "A rescued slave who led the Yoruba Bible translation and became the first African Anglican bishop in 1864, leading the Niger Mission." },
+      { "q": "How did the gospel reach northern Nigeria?", "keywords": [["SIM", "Sudan Interior", "Bingham"], ["1893", "Gowans", "Kent", "died"], ["ECWA", "Middle Belt", "COCIN"]], "model": "Through the Sudan Interior Mission from 1893 (Bingham persevered after Gowans and Kent died) and the Sudan United Mission; their churches became ECWA and COCIN." },
+      { "q": "Why did African-initiated churches arise?", "keywords": [["racism", "control", "leadership"], ["African", "worship", "culture"], ["prayer", "healing", "Aladura"]], "model": "Because of racism and mission control, and a desire for African leadership and worship, including emphasis on prayer and healing." },
+      { "q": "Who was Byang Kato and what did he warn against?", "keywords": [["Nigerian", "ECWA", "theologian"], ["syncretism", "universalism"], ["biblical", "African", "Pitfalls"]], "model": "A Nigerian ECWA theologian who in Theological Pitfalls in Africa warned against syncretism and universalism, calling for theology that is both African and biblical." },
+      { "q": "Name three challenges facing the Nigerian church today.", "keywords": [["syncretism"], ["prosperity", "division", "shallow"], ["persecution", "corruption", "accountability"]], "model": "Syncretism, prosperity teaching and division with shallow discipleship, and persecution." }
+    ],
+    "lists": [
+      { "q": "List four Africans in the Bible.", "items": [["Ethiopian", "eunuch"], ["Simon of Cyrene", "Simon"], ["Ebed-melech"], ["Apollos"], ["Simeon", "Niger"], ["Lucius"], ["Queen of Sheba", "Sheba"]], "need": 4 },
+      { "q": "List four missionaries or missions that worked in Nigeria.", "items": [["Freeman", "Methodist"], ["Townsend", "CMS"], ["Crowther"], ["Slessor"], ["Waddell", "Presbyterian"], ["Bowen", "Baptist"], ["Bingham", "SIM"]], "need": 4 },
+      { "q": "List three challenges facing the African church.", "items": [["syncretism"], ["prosperity"], ["division"], ["shallow", "discipleship"], ["persecution"], ["corruption"], ["leadership", "accountability"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "The gospel in my people group", "prompt": "Research and write how the gospel first came to your town, people group or region in Nigeria (or another African country). Name the people involved, the challenges they faced and the state of the church there today.", "words": "500–700" },
+    { "title": "Answering syncretism", "prompt": "Describe a common form of syncretism in your community. Using Scripture from this course, explain why it is wrong and how the church can help believers trust Christ fully in the face of fear of spirits, sickness or misfortune.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Elizabeth Isichei, A History of Christianity in Africa",
+    "Byang H. Kato, Theological Pitfalls in Africa",
+    "Tokunboh Adeyemo (ed.), Africa Bible Commentary"
+  ]
+}

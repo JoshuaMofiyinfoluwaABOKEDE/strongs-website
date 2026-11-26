@@ -1,0 +1,241 @@
+{
+  "slug": "holiness-and-pentecostal-movements",
+  "title": "Holiness and Pentecostal Movements",
+  "track": "history",
+  "level": "Intermediate",
+  "summary": "The story and teaching of the Holiness, Pentecostal and charismatic movements, from Wesley to Azusa Street to Nigeria's great churches, with a fair assessment of their strengths and dangers.",
+  "description": "Holiness and Pentecostal Christianity has shaped the church in Nigeria more than almost any other movement. This course traces its roots in Wesleyan holiness teaching, the American Holiness movement and Keswick, the birth of Pentecostalism at Topeka and Azusa Street, the charismatic renewal, and the rise of Nigerian Pentecostal churches including the Aladura movement, Christ Apostolic Church, the Redeemed Christian Church of God and Deeper Life Bible Church. It closes with a balanced assessment.",
+  "objectives": [
+    "Trace the roots of the Holiness movement in Wesleyan teaching",
+    "Describe the beginnings of Pentecostalism",
+    "Describe the charismatic renewal and later waves",
+    "Trace the rise of Pentecostal and Holiness churches in Nigeria",
+    "Assess the strengths and dangers of these movements fairly"
+  ],
+  "outcomes": [
+    "Explain Christian perfection and entire sanctification",
+    "Explain the significance of Topeka (1901) and Azusa Street (1906)",
+    "Distinguish classical Pentecostal, charismatic and Third Wave",
+    "Describe the beginnings of CAC, RCCG and Deeper Life",
+    "Evaluate these movements by Scripture with charity"
+  ],
+  "modules": [
+    {
+      "title": "The Holiness Movement",
+      "intro": "The Holiness movement grew from John Wesley's teaching on Christian perfection. This week we trace it through the nineteenth century.",
+      "lessons": [
+        {
+          "title": "Wesley and Christian perfection",
+          "body": "John Wesley taught that believers can, by grace, be made perfect in love in this life: loving God with all the heart and their neighbour as themselves (Matthew 22:37-39). He called this **Christian perfection** and taught it is received by faith, often as a distinct experience after conversion.\n\nWesley did not mean sinless perfection in knowledge or freedom from mistakes, but a heart cleansed from deliberate sin and filled with love (1 John 4:17-18).\n\nHe pointed to texts like \"the very God of peace sanctify you wholly\" (1 Thessalonians 5:23). Methodist preachers carried this message across Britain and America.",
+          "refs": ["Matthew 22:37-39", "1 Thessalonians 5:23-24", "1 John 4:17-18"]
+        },
+        {
+          "title": "The American Holiness movement",
+          "body": "In the nineteenth century the **Holiness movement** grew in America. **Phoebe Palmer**, a Methodist laywoman, taught a 'shorter way' to entire sanctification: consecrate all on the altar and believe God's promise (Romans 12:1). Camp meetings drew large crowds.\n\nHoliness churches were formed, such as the Church of the Nazarene and the Wesleyan Methodist Church. They stressed a second definite work of grace, separation from worldliness, and evangelism among the poor. The Salvation Army, founded by William and Catherine Booth (1865), shared much of this emphasis.\n\nHoliness teachers began to speak of entire sanctification as a 'baptism of the Holy Ghost', language that prepared the way for Pentecostalism.",
+          "refs": ["Romans 12:1-2", "Hebrews 12:14", "2 Corinthians 7:1"]
+        },
+        {
+          "title": "Keswick and the Higher Life",
+          "body": "In England the **Keswick Convention** began in 1875, teaching a 'higher life' of victory over known sin through full surrender and moment-by-moment faith in Christ. Unlike Wesleyans, Keswick teachers held that the sinful nature is counteracted, not removed.\n\nKeswick strongly influenced missions. Hudson Taylor, Amy Carmichael and many others were shaped by it, and its emphasis on being \"filled with the Spirit\" (Ephesians 5:18) spread widely.\n\nBy 1900, many Christians across traditions were praying for a fresh outpouring of the Spirit and expecting God to restore New Testament power to the church.",
+          "refs": ["Galatians 2:20", "Ephesians 5:18", "Romans 6:11-14"]
+        }
+      ],
+      "terms": [
+        { "term": "Christian perfection", "def": "Wesley's teaching that believers can be made perfect in love in this life." },
+        { "term": "Entire sanctification", "def": "A definite work of grace cleansing the heart from inbred sin." },
+        { "term": "Camp meeting", "def": "Outdoor gatherings for preaching and revival, common in the Holiness movement." },
+        { "term": "Phoebe Palmer", "def": "Methodist laywoman who taught a 'shorter way' to holiness." },
+        { "term": "Keswick Convention", "def": "Annual gathering from 1875 teaching victorious Christian living." },
+        { "term": "Higher life", "def": "Keswick teaching of victory over sin through surrender and faith." }
+      ],
+      "texts": [
+        { "ref": "1 Thessalonians 5:23", "teaches": "The very God of peace sanctify you wholly." },
+        { "ref": "1 John 4:18", "teaches": "Perfect love casts out fear." },
+        { "ref": "Romans 12:1", "teaches": "Present your bodies a living sacrifice." },
+        { "ref": "Hebrews 12:14", "teaches": "Follow holiness, without which no man shall see the Lord." },
+        { "ref": "Ephesians 5:18", "teaches": "Be filled with the Spirit." }
+      ],
+      "summary": [
+        "Wesley taught Christian perfection in love.",
+        "The American Holiness movement taught entire sanctification as a second work.",
+        "Keswick taught victorious living by surrender and faith.",
+        "By 1900 many longed for a new outpouring of the Spirit."
+      ],
+      "questions": [
+        { "q": "Who taught Christian perfection?", "options": ["John Wesley", "John Calvin", "Martin Luther", "Augustine"], "answer": 0 },
+        { "q": "Who taught a 'shorter way' to holiness?", "options": ["Phoebe Palmer", "Catherine Booth", "Amy Carmichael", "Mary Slessor"], "answer": 0 },
+        { "q": "When did the Keswick Convention begin?", "options": ["1875", "1517", "1906", "1738"], "answer": 0 },
+        { "q": "How did Keswick view the sinful nature?", "options": ["Counteracted, not removed", "Removed entirely", "Non-existent", "Unimportant"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Birth of Pentecostalism",
+      "intro": "In the early 1900s a movement emphasising the baptism in the Spirit with tongues began and spread worldwide. This week we study its beginnings.",
+      "lessons": [
+        {
+          "title": "Topeka, 1901",
+          "body": "**Charles Parham**, a Holiness preacher, ran a Bible school in Topeka, Kansas. Studying Acts, his students concluded that speaking in tongues was the evidence of the baptism in the Spirit.\n\nOn 1 January **1901** a student, **Agnes Ozman**, spoke in tongues after hands were laid on her; others followed. Parham taught that Spirit baptism, evidenced by tongues, was a third experience after conversion and sanctification, giving power for missions.\n\nThis 'initial evidence' teaching became a mark of classical Pentecostalism, based on Acts 2:4, 10:46 and 19:6.",
+          "refs": ["Acts 2:1-4", "Acts 10:44-46", "Acts 19:1-6"]
+        },
+        {
+          "title": "Azusa Street, 1906",
+          "body": "**William J. Seymour**, an African American Holiness preacher who had listened to Parham's teaching, went to Los Angeles. In April **1906** revival broke out, and meetings moved to an old building on **Azusa Street**.\n\nFor about three years, meetings ran almost daily. People of many races and nations worshipped together, which was remarkable in segregated America. A newspaper, *The Apostolic Faith*, spread news worldwide, and visitors carried the message to Europe, Asia, Africa and Latin America.\n\nAs Joel prophesied, the Spirit was poured \"upon all flesh\" and \"upon the servants and upon the handmaids\" (Joel 2:28-29).",
+          "refs": ["Joel 2:28-29", "Acts 2:17-18", "Galatians 3:28"]
+        },
+        {
+          "title": "Pentecostal denominations",
+          "body": "New denominations formed. Some, like the **Church of God in Christ** and the **Church of God** (Cleveland), kept the Holiness three-stage pattern: conversion, sanctification, Spirit baptism. Others, like the **Assemblies of God** (1914), taught a two-stage pattern: conversion with progressive sanctification, then Spirit baptism.\n\nA third group, **Oneness Pentecostals**, rejected the doctrine of the Trinity and baptized \"in Jesus' name\" only. Most Christians, including most Pentecostals, regard this as a serious error, since Scripture reveals Father, Son and Holy Spirit (Matthew 28:19).\n\nPentecostals stressed evangelism, missions, healing and the soon return of Christ.",
+          "refs": ["Matthew 28:19", "Mark 16:15-18", "Acts 1:8"]
+        }
+      ],
+      "terms": [
+        { "term": "Charles Parham", "def": "Holiness preacher whose Topeka school in 1901 taught tongues as evidence of Spirit baptism." },
+        { "term": "William J. Seymour", "def": "African American preacher who led the Azusa Street revival (1906)." },
+        { "term": "Azusa Street", "def": "The Los Angeles revival of 1906-1909 that spread Pentecostalism worldwide." },
+        { "term": "Classical Pentecostalism", "def": "Churches from the early 1900s teaching Spirit baptism with tongues as initial evidence." },
+        { "term": "Assemblies of God", "def": "A major Pentecostal denomination founded in 1914." },
+        { "term": "Oneness Pentecostalism", "def": "A movement rejecting the Trinity and baptizing in Jesus' name only." }
+      ],
+      "texts": [
+        { "ref": "Acts 2:4", "teaches": "They were all filled with the Holy Ghost and spoke with other tongues." },
+        { "ref": "Acts 10:46", "teaches": "The Gentiles spoke with tongues and magnified God." },
+        { "ref": "Joel 2:29", "teaches": "God will pour out His Spirit on servants and handmaids." },
+        { "ref": "Matthew 28:19", "teaches": "Baptize in the name of the Father, the Son and the Holy Ghost." },
+        { "ref": "Mark 16:15", "teaches": "Go into all the world and preach the gospel to every creature." }
+      ],
+      "summary": [
+        "At Topeka in 1901 Parham's students linked tongues with Spirit baptism.",
+        "Seymour led the Azusa Street revival from 1906, spreading Pentecostalism worldwide.",
+        "Pentecostal denominations followed three-stage or two-stage patterns.",
+        "Oneness Pentecostals rejected the Trinity, a serious error."
+      ],
+      "questions": [
+        { "q": "Who first spoke in tongues at Parham's school in 1901?", "options": ["Agnes Ozman", "Phoebe Palmer", "Aimee McPherson", "Catherine Booth"], "answer": 0 },
+        { "q": "Who led the Azusa Street revival?", "options": ["William J. Seymour", "Charles Parham", "John Wesley", "Billy Graham"], "answer": 0 },
+        { "q": "When was the Assemblies of God founded?", "options": ["1914", "1906", "1875", "1960"], "answer": 0 },
+        { "q": "What did Oneness Pentecostals reject?", "options": ["The Trinity", "Tongues", "Healing", "Missions"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Pentecostalism in Nigeria",
+      "intro": "Nigeria has some of the largest Pentecostal and Holiness churches in the world. This week we trace their story.",
+      "lessons": [
+        {
+          "title": "Aladura and the 1930 revival",
+          "body": "In the early twentieth century, Nigerian believers formed prayer groups seeking God's power in healing and prayer. These **Aladura** ('praying people') churches included the Cherubim and Seraphim, founded through Moses Orimolade in 1925, and the Church of the Lord (Aladura).\n\nIn **1930**, **Joseph Ayo Babalola**, a former road worker, led a great revival at Ilesa with many reported healings and conversions, and people burned their idols and charms. This movement led to the **Christ Apostolic Church**, which became a major Nigerian Pentecostal church.\n\nSome Aladura groups mixed Christian faith with traditional practices; others, like CAC, became more clearly Pentecostal and evangelical.",
+          "refs": ["Acts 19:18-20", "James 5:14-16", "Acts 4:29-31"]
+        },
+        {
+          "title": "Missions and new churches",
+          "body": "The **Apostolic Church** from Britain worked with Nigerian believers in the 1930s. The **Assemblies of God** came to Nigeria in 1939, and the Foursquare Gospel Church followed later.\n\nThe **Redeemed Christian Church of God** (RCCG) was founded in **1952** by **Josiah Akindayomi**. From 1981, under **Enoch Adeboye**, it grew into one of the largest churches in the world, with parishes across Nigeria and many nations.\n\nIn the 1970s revival swept university and secondary school campuses through fellowships and the Scripture Union. Many of today's Pentecostal and evangelical leaders were converted or called in that season.",
+          "refs": ["Acts 2:46-47", "2 Timothy 2:2", "Acts 19:8-10"]
+        },
+        {
+          "title": "Deeper Life Bible Church",
+          "body": "In **1973** **William F. Kumuyi**, a mathematics lecturer at the University of Lagos, began a Bible study with a small group. It grew into **Deeper Life Bible Church**, formally established as a church in 1982, now with branches throughout Nigeria and many countries.\n\nDeeper Life is a Holiness-Pentecostal church. It teaches salvation, entire sanctification as a second definite work of grace, and the baptism in the Holy Spirit with tongues; strict standards of holy living; careful Bible teaching through Bible studies and retreats; and divine healing.\n\nDeeper Life is known for its emphasis on Bible study, simplicity of life, and evangelism, including large crusades and campus ministry.",
+          "refs": ["2 Timothy 2:15", "1 Thessalonians 5:23", "Hebrews 12:14"]
+        }
+      ],
+      "terms": [
+        { "term": "Aladura", "def": "Yoruba for 'praying people': Nigerian churches stressing prayer and healing." },
+        { "term": "Joseph Ayo Babalola", "def": "Leader of the 1930 Ilesa revival, linked with the Christ Apostolic Church." },
+        { "term": "Christ Apostolic Church", "def": "A major Nigerian Pentecostal church arising from the Aladura movement and 1930 revival." },
+        { "term": "Redeemed Christian Church of God", "def": "Church founded in 1952 by Josiah Akindayomi, led from 1981 by Enoch Adeboye." },
+        { "term": "Deeper Life Bible Church", "def": "Holiness-Pentecostal church that grew from W. F. Kumuyi's 1973 Bible study." },
+        { "term": "Campus revival", "def": "The 1970s awakening in Nigerian schools and universities." }
+      ],
+      "texts": [
+        { "ref": "Acts 19:19", "teaches": "Those who used curious arts burned their books publicly." },
+        { "ref": "James 5:15", "teaches": "The prayer of faith shall save the sick." },
+        { "ref": "Acts 2:47", "teaches": "The Lord added to the church daily." },
+        { "ref": "2 Timothy 2:15", "teaches": "Study to show thyself approved unto God." },
+        { "ref": "Acts 4:31", "teaches": "They were filled with the Holy Ghost and spoke the word with boldness." }
+      ],
+      "summary": [
+        "Aladura churches stressed prayer and healing; some mixed in traditional practices.",
+        "Babalola's 1930 revival led to the Christ Apostolic Church.",
+        "RCCG (1952) grew greatly under Enoch Adeboye.",
+        "Deeper Life grew from Kumuyi's 1973 Bible study into a Holiness-Pentecostal church."
+      ],
+      "questions": [
+        { "q": "What does Aladura mean?", "options": ["Praying people", "Singing people", "Holy people", "Healing people"], "answer": 0 },
+        { "q": "Where did Babalola's 1930 revival take place?", "options": ["Ilesa", "Lagos", "Kano", "Calabar"], "answer": 0 },
+        { "q": "Who founded the Redeemed Christian Church of God?", "options": ["Josiah Akindayomi", "Enoch Adeboye", "W. F. Kumuyi", "Benson Idahosa"], "answer": 0 },
+        { "q": "How did Deeper Life Bible Church begin?", "options": ["As a Bible study in 1973", "As a crusade in 1930", "As a mission from America", "As a school"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Renewal, Assessment and Lessons",
+      "intro": "This week we study the charismatic renewal and assess the strengths and dangers of these movements fairly.",
+      "lessons": [
+        {
+          "title": "Charismatic renewal and later waves",
+          "body": "From about 1960, Pentecostal experiences spread into older denominations. Episcopal priest Dennis Bennett's testimony in California drew attention, and renewal touched Anglican, Lutheran, Catholic and other churches. This became the **charismatic renewal**.\n\nIn the 1980s a 'Third Wave' among evangelicals embraced spiritual gifts without the classical teaching of tongues as initial evidence.\n\nIn Nigeria, many newer churches and ministries combine Pentecostal worship with charismatic teaching. Pentecostal and charismatic Christianity is now one of the largest forms of Christianity worldwide.",
+          "refs": ["1 Corinthians 12:4-11", "Acts 2:39", "Romans 12:6-8"]
+        },
+        {
+          "title": "Strengths",
+          "body": "These movements have brought great blessings:\n\n- **Zeal for evangelism and missions**: they have reached millions, often among the poor.\n- **Expectation of God's power**: prayer, healing and deliverance, taking seriously the supernatural world that Africans know is real (Ephesians 6:12).\n- **Holiness**: Holiness churches have called believers to separation from sin.\n- **Lively worship and participation** of every member, including women and young people.\n- **Prayer**: all-night vigils, prayer mountains and fasting.\n\nMany Baptist, Anglican and other churches have been revived through contact with these emphases.",
+          "refs": ["Acts 1:8", "Acts 4:29-31", "1 Thessalonians 5:16-19"]
+        },
+        {
+          "title": "Dangers and a call to balance",
+          "body": "There are also dangers, which many Pentecostal leaders themselves warn against:\n\n- **Prosperity teaching** that makes wealth a sign of faith (1 Timothy 6:5-10).\n- **Experience over Scripture**: visions or prophecies accepted without testing (1 John 4:1; 1 Thessalonians 5:20-21).\n- **Celebrity leaders** without accountability (1 Peter 5:3).\n- **Fear-driven deliverance** that blames witchcraft for every problem.\n- **Division and competition** among churches.\n\nThe answer is not to quench the Spirit, but to keep Word and Spirit together: \"Quench not the Spirit. Despise not prophesyings. Prove all things; hold fast that which is good\" (1 Thessalonians 5:19-21).",
+          "refs": ["1 Thessalonians 5:19-22", "1 John 4:1", "1 Timothy 6:3-10"]
+        }
+      ],
+      "terms": [
+        { "term": "Charismatic renewal", "def": "The spread of Pentecostal experience into older denominations from about 1960." },
+        { "term": "Third Wave", "def": "Evangelicals in the 1980s who embraced spiritual gifts without the initial evidence teaching." },
+        { "term": "Deliverance ministry", "def": "Prayer to free people from demonic oppression." },
+        { "term": "Prosperity teaching", "def": "Teaching that faith and giving guarantee wealth and health." },
+        { "term": "Accountability", "def": "Leaders being answerable to others for conduct and teaching." },
+        { "term": "Word and Spirit", "def": "Holding Scripture and the Spirit's work together in balance." }
+      ],
+      "texts": [
+        { "ref": "1 Corinthians 12:7", "teaches": "The manifestation of the Spirit is given to every man to profit withal." },
+        { "ref": "Ephesians 6:12", "teaches": "We wrestle against principalities and powers." },
+        { "ref": "1 Thessalonians 5:19", "teaches": "Quench not the Spirit." },
+        { "ref": "1 Thessalonians 5:21", "teaches": "Prove all things; hold fast that which is good." },
+        { "ref": "1 Peter 5:3", "teaches": "Elders must not be lords over God's heritage." }
+      ],
+      "summary": [
+        "Charismatic renewal spread Pentecostal experience into older churches.",
+        "Strengths include evangelism, prayer, expectation of God's power and holiness.",
+        "Dangers include prosperity teaching, untested experiences and unaccountable leaders.",
+        "Keep Word and Spirit together."
+      ],
+      "questions": [
+        { "q": "When did the charismatic renewal begin?", "options": ["Around 1960", "1517", "1875", "1906"], "answer": 0 },
+        { "q": "Which is a strength of Pentecostal movements?", "options": ["Zeal for evangelism", "Neglect of prayer", "Rejecting Scripture", "Avoiding the poor"], "answer": 0 },
+        { "q": "Which is a danger noted in the course?", "options": ["Prosperity teaching", "Bible study", "Evangelism", "Prayer"], "answer": 0 },
+        { "q": "What does 1 Thessalonians 5:21 command?", "options": ["Prove all things", "Believe all things", "Reject all prophecy", "Avoid testing"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What did Wesley mean by Christian perfection?", "keywords": [["love", "perfect in love"], ["not sinless", "not mistakes", "deliberate sin"], ["grace", "faith", "experience"]], "model": "A heart made perfect in love for God and neighbour by grace through faith; not sinless perfection or freedom from mistakes." },
+      { "q": "Why are Topeka (1901) and Azusa Street (1906) important?", "keywords": [["Topeka", "Parham", "tongues", "evidence"], ["Azusa", "Seymour", "revival"], ["worldwide", "spread", "races"]], "model": "At Topeka Parham's students linked tongues with Spirit baptism; Seymour's Azusa Street revival spread Pentecostalism worldwide across races." },
+      { "q": "Distinguish the three-stage and two-stage Pentecostal patterns.", "keywords": [["three", "conversion", "sanctification", "Spirit baptism"], ["two", "progressive", "Assemblies"]], "model": "Holiness Pentecostals teach conversion, sanctification, then Spirit baptism; others like the Assemblies of God teach conversion with progressive sanctification, then Spirit baptism." },
+      { "q": "Describe the beginnings of the Christ Apostolic Church.", "keywords": [["Babalola"], ["1930", "Ilesa", "revival"], ["Aladura", "healing", "idols"]], "model": "It arose from the Aladura movement and Joseph Ayo Babalola's 1930 revival at Ilesa, marked by healings and burning of idols." },
+      { "q": "Describe the teaching of Deeper Life Bible Church.", "keywords": [["Kumuyi", "1973", "Bible study"], ["sanctification", "second", "holiness"], ["Spirit baptism", "tongues", "healing"]], "model": "Begun by W. F. Kumuyi's 1973 Bible study, it teaches salvation, entire sanctification as a second work, Spirit baptism with tongues, holy living and divine healing." },
+      { "q": "Name two strengths and two dangers of Pentecostal movements.", "keywords": [["evangelism", "prayer", "power", "worship", "holiness"], ["prosperity", "experience", "untested", "celebrity", "division"]], "model": "Strengths: evangelism and prayer; dangers: prosperity teaching and accepting experiences without testing them by Scripture." }
+    ],
+    "lists": [
+      { "q": "List four Pentecostal or Holiness churches in Nigeria.", "items": [["Christ Apostolic", "CAC"], ["Redeemed", "RCCG"], ["Deeper Life"], ["Assemblies of God"], ["Apostolic Church"], ["Foursquare"], ["Church of God Mission"], ["Mountain of Fire"]], "need": 4 },
+      { "q": "List four key figures in Holiness or Pentecostal history.", "items": [["Wesley"], ["Palmer"], ["Parham"], ["Seymour"], ["Babalola"], ["Akindayomi"], ["Adeboye"], ["Kumuyi"]], "need": 4 },
+      { "q": "List three dangers to guard against.", "items": [["prosperity"], ["experience", "untested", "visions"], ["celebrity", "accountability"], ["fear", "witchcraft"], ["division", "competition"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "A Nigerian church's story", "prompt": "Write a history of one Nigerian Pentecostal or Holiness church (for example CAC, RCCG or Deeper Life): its founding, key leaders, teaching and growth. Then assess its strengths and any dangers it has faced, using Scripture.", "words": "600–800" },
+    { "title": "Word and Spirit", "prompt": "Using 1 Corinthians 12-14 and 1 Thessalonians 5:19-21, write guidance for a church that wants to be open to the Holy Spirit's power while guarding against excess and error.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Vinson Synan, The Holiness-Pentecostal Tradition",
+    "Ogbu U. Kalu, African Pentecostalism: An Introduction",
+    "Allan Anderson, An Introduction to Pentecostalism"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "slug": "church-history-reformation-to-today",
+  "title": "Church History: Reformation to Today",
+  "track": "history",
+  "level": "Intermediate",
+  "summary": "From Luther's Ninety-five Theses to the global church of today: the Reformation, revivals, the modern missionary movement, and the shift of Christianity to the global South.",
+  "description": "This course follows the church from 1517 to the present: the Protestant Reformation and its leaders, the Catholic response, the Puritans and Pietists, the Great Awakenings and the Wesleys, the modern missionary movement that brought the gospel to Nigeria, the challenges of liberal theology, the rise of Pentecostalism and evangelicalism, and the growth of the church in Africa, Asia and Latin America.",
+  "objectives": [
+    "Explain the causes, leaders and teachings of the Reformation",
+    "Describe the different branches of the Reformation and the Catholic response",
+    "Trace the revivals of the 17th and 18th centuries",
+    "Explain the modern missionary movement",
+    "Describe the main developments of the 20th and 21st centuries"
+  ],
+  "outcomes": [
+    "Explain the significance of 1517 and the five solas",
+    "Distinguish Lutheran, Reformed, Anabaptist and Anglican reform",
+    "Describe the ministries of Wesley, Whitefield and Edwards",
+    "Explain William Carey's role in modern missions",
+    "Explain the growth of the church in the global South"
+  ],
+  "modules": [
+    {
+      "title": "The Protestant Reformation",
+      "intro": "In the sixteenth century the church was reformed by a return to Scripture. This week we study Luther, Zwingli, Calvin and the Anabaptists.",
+      "lessons": [
+        {
+          "title": "Luther and the Ninety-five Theses",
+          "body": "Martin Luther, a German monk and professor, was troubled by the sale of indulgences. On **31 October 1517** he posted **Ninety-five Theses** for debate in Wittenberg. Printed copies spread rapidly.\n\nStudying Romans, Luther came to see that \"The just shall live by faith\" (Romans 1:17): righteousness is God's gift received by faith, not earned.\n\nAt the **Diet of Worms** (1521), ordered to recant his writings, Luther refused unless convinced by Scripture or plain reason, saying his conscience was captive to the Word of God. He then translated the New Testament into German so ordinary people could read it.",
+          "refs": ["Romans 1:16-17", "Ephesians 2:8-9", "Acts 4:19-20"]
+        },
+        {
+          "title": "Zwingli, Calvin and the Reformed churches",
+          "body": "In Zurich, **Ulrich Zwingli** began preaching through Matthew verse by verse in 1519 and reformed worship according to Scripture.\n\n**John Calvin**, a Frenchman, led reform in Geneva. His *Institutes of the Christian Religion* (first edition 1536) became the most influential Protestant theology, stressing God's sovereignty, Scripture and grace. Geneva trained pastors who spread Reformed churches to France, the Netherlands and Scotland, where **John Knox** led the reform.\n\nThe reformers' teaching is often summarised in the **five solas**: Scripture alone, grace alone, faith alone, Christ alone, and the glory of God alone.",
+          "refs": ["2 Timothy 3:16-17", "Romans 11:36", "1 Timothy 2:5"]
+        },
+        {
+          "title": "Anabaptists, England and the Catholic response",
+          "body": "**Anabaptists** ('re-baptizers'), beginning in Zurich in 1525, believed only professing believers should be baptized and that the church should be separate from the state. They were persecuted by Catholics and Protestants alike. Mennonites descend from them, and Baptists share some of their convictions.\n\nIn **England**, Henry VIII broke with Rome in 1534 for political reasons, but true reform came through William Tyndale's English New Testament and leaders like Thomas Cranmer. The **King James Version** followed in 1611.\n\nThe **Catholic Church** responded at the **Council of Trent** (1545-1563), correcting some abuses but rejecting justification by faith alone. The Jesuits led Catholic missions worldwide.",
+          "refs": ["Acts 2:41", "Romans 3:28", "Psalm 12:6-7"]
+        }
+      ],
+      "terms": [
+        { "term": "Ninety-five Theses", "def": "Luther's 1517 propositions against the sale of indulgences." },
+        { "term": "Diet of Worms", "def": "The 1521 assembly where Luther refused to recant." },
+        { "term": "Five solas", "def": "Scripture alone, grace alone, faith alone, Christ alone, glory to God alone." },
+        { "term": "Institutes", "def": "John Calvin's major work of Protestant theology (1536)." },
+        { "term": "Anabaptists", "def": "Radical reformers who practised believer's baptism and church-state separation." },
+        { "term": "Council of Trent", "def": "The Catholic council (1545-1563) that responded to the Reformation." }
+      ],
+      "texts": [
+        { "ref": "Romans 1:17", "teaches": "The just shall live by faith." },
+        { "ref": "Ephesians 2:8", "teaches": "By grace are ye saved through faith." },
+        { "ref": "Acts 4:19", "teaches": "Judge whether it is right to hearken to men more than to God." },
+        { "ref": "2 Timothy 3:16", "teaches": "All scripture is given by inspiration of God." },
+        { "ref": "Romans 11:36", "teaches": "To God be glory for ever." }
+      ],
+      "summary": [
+        "Luther's 1517 theses sparked the Reformation.",
+        "Zwingli and Calvin led the Reformed churches; Knox led in Scotland.",
+        "Anabaptists practised believer's baptism and were persecuted.",
+        "England broke with Rome; Trent was the Catholic response."
+      ],
+      "questions": [
+        { "q": "When did Luther post the Ninety-five Theses?", "options": ["1517", "1611", "1054", "1792"], "answer": 0 },
+        { "q": "Who wrote the Institutes of the Christian Religion?", "options": ["John Calvin", "Martin Luther", "John Knox", "Zwingli"], "answer": 0 },
+        { "q": "What did the Anabaptists practise?", "options": ["Believer's baptism", "Infant baptism only", "No baptism", "Baptism of the dead"], "answer": 0 },
+        { "q": "When was the King James Version published?", "options": ["1611", "1517", "1384", "1906"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Puritans, Pietists and Awakenings",
+      "intro": "After the Reformation came movements of deeper devotion and great revival. This week covers about 1600 to 1800.",
+      "lessons": [
+        {
+          "title": "Puritans and Pietists",
+          "body": "The **Puritans** in England wanted the church further 'purified' according to Scripture. They stressed preaching, holy living, the sabbath and family worship. Writers such as John Owen, Richard Baxter and **John Bunyan**, a Baptist who wrote *The Pilgrim's Progress* in prison, still bless believers. Some Puritans sailed to New England in search of religious freedom.\n\nIn Germany, **Pietism**, led by Philipp Jakob Spener and August Hermann Francke, stressed personal faith, Bible study in small groups and care for orphans. The **Moravians** under Count Zinzendorf began a prayer meeting in 1727 that continued for a hundred years and sent missionaries far and wide.",
+          "refs": ["Hebrews 12:14", "Colossians 3:16", "Acts 2:42"]
+        },
+        {
+          "title": "The Wesleys and the Evangelical Revival",
+          "body": "**John Wesley**, an Anglican priest, felt his heart \"strangely warmed\" at a meeting in Aldersgate Street, London, in 1738 as he heard Luther's preface to Romans read. With his brother **Charles**, who wrote thousands of hymns, he preached in the open air to miners and the poor.\n\nWesley organised converts into societies and small 'classes' for accountability. This became the **Methodist** movement, which spread worldwide, including to Nigeria.\n\nWesley taught Christian perfection and conditional security, and worked against slavery. His friend **George Whitefield**, a Calvinist, preached to great crowds in Britain and America. They differed on doctrine but both preached the new birth.",
+          "refs": ["John 3:3-7", "Romans 5:5", "Mark 16:15"]
+        },
+        {
+          "title": "The Great Awakening",
+          "body": "In the American colonies the **First Great Awakening** (1730s-1740s) brought many to Christ. **Jonathan Edwards**, a Reformed pastor and theologian, saw revival in Northampton and carefully described marks of true and false religious experience. Whitefield's preaching tours spread the revival.\n\nRevivals produced conversions, changed lives, new churches, and later campaigns against slavery and for education.\n\nRevival is God's work: \"Wilt thou not revive us again: that thy people may rejoice in thee?\" (Psalm 85:6). Edwards taught that true revival is marked by love for Christ, hatred of sin, love for Scripture and love for others, not merely by emotional excitement (compare 1 John 4:1-6).",
+          "refs": ["Psalm 85:6", "Habakkuk 3:2", "1 John 4:1-6"]
+        }
+      ],
+      "terms": [
+        { "term": "Puritans", "def": "English Protestants who sought further reform of the church according to Scripture." },
+        { "term": "Pietism", "def": "A German movement stressing personal faith, Bible study and holy living." },
+        { "term": "Moravians", "def": "Followers of Zinzendorf known for continuous prayer and pioneering missions." },
+        { "term": "Methodism", "def": "The movement begun by John and Charles Wesley, organised in societies and classes." },
+        { "term": "Great Awakening", "def": "The revival in the American colonies in the 1730s-1740s." },
+        { "term": "Revival", "def": "A season when God renews His people and many are converted." }
+      ],
+      "texts": [
+        { "ref": "John 3:7", "teaches": "Ye must be born again." },
+        { "ref": "Romans 5:5", "teaches": "The love of God is shed abroad in our hearts by the Holy Ghost." },
+        { "ref": "Psalm 85:6", "teaches": "Wilt thou not revive us again?" },
+        { "ref": "Habakkuk 3:2", "teaches": "O LORD, revive thy work in the midst of the years." },
+        { "ref": "1 John 4:1", "teaches": "Try the spirits whether they are of God." }
+      ],
+      "summary": [
+        "Puritans pursued Scripture-based reform and holy living.",
+        "Pietists and Moravians stressed personal faith, prayer and mission.",
+        "The Wesleys and Whitefield led the Evangelical Revival.",
+        "Edwards described the marks of true revival."
+      ],
+      "questions": [
+        { "q": "Who wrote The Pilgrim's Progress?", "options": ["John Bunyan", "John Owen", "John Wesley", "John Calvin"], "answer": 0 },
+        { "q": "Where was John Wesley's heart 'strangely warmed'?", "options": ["Aldersgate Street, London", "Wittenberg", "Geneva", "Azusa Street"], "answer": 0 },
+        { "q": "Which movement did the Wesleys begin?", "options": ["Methodism", "Pietism", "Puritanism", "Anabaptism"], "answer": 0 },
+        { "q": "Who described the marks of true revival?", "options": ["Jonathan Edwards", "Henry VIII", "Zwingli", "Constantine"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Great Century of Missions",
+      "intro": "The nineteenth century saw the gospel carried worldwide. This week covers the missionary movement, including its arrival in West Africa.",
+      "lessons": [
+        {
+          "title": "William Carey and modern missions",
+          "body": "**William Carey**, an English Baptist shoemaker, wrote *An Enquiry* (1792) arguing that the Great Commission still applies. He preached \"Expect great things from God; attempt great things for God\" and helped form the Baptist Missionary Society.\n\nIn 1793 Carey sailed to India, where he worked for over forty years, translating Scripture into many languages and opposing widow-burning.\n\nMission societies multiplied: the London Missionary Society (1795), the Church Missionary Society (1799), American boards and many more. The nineteenth century is often called the 'great century' of missions.",
+          "refs": ["Matthew 28:18-20", "Isaiah 54:2-3", "Romans 10:14-15"]
+        },
+        {
+          "title": "Missions to Africa and Nigeria",
+          "body": "Freed slaves resettled in Sierra Leone became Christians, and some returned to their homelands, including Yorubaland, asking for missionaries.\n\nIn **1842** the Methodist **Thomas Birch Freeman** reached Badagry, followed by Henry Townsend of the Church Missionary Society. **Samuel Ajayi Crowther**, a Yoruba man rescued from a slave ship, was ordained and in **1864** became the first African Anglican bishop. He led the translation of the Bible into Yoruba.\n\nPresbyterians arrived in Calabar in 1846; **Mary Slessor** later worked there for decades and opposed the killing of twins. American Southern Baptists began work in 1850 through Thomas Jefferson Bowen, and the Sudan Interior Mission entered the north in the 1890s.",
+          "refs": ["Acts 16:9-10", "Romans 15:20-21", "Psalm 96:3"]
+        },
+        {
+          "title": "Strengths and failures of the missionary era",
+          "body": "Missionaries brought the gospel, Bible translation in mother tongues, schools and hospitals. Many died of disease; parts of West Africa were called 'the white man's grave'. African evangelists, catechists and translators did much of the work.\n\nThere were also failures: some missionaries shared colonial attitudes, treated African culture as wholly evil, or kept Africans out of leadership. Crowther himself faced racial opposition late in life.\n\nThese failures led many Africans to start independent churches, and they remind us that the gospel belongs to every culture. The lesson: honour faithful pioneers, repent of prejudice, and pursue partnership.",
+          "refs": ["1 Corinthians 9:19-23", "Galatians 3:28", "Acts 15:7-11"]
+        }
+      ],
+      "terms": [
+        { "term": "Modern missionary movement", "def": "The worldwide spread of Protestant missions from the 1790s." },
+        { "term": "William Carey", "def": "English Baptist missionary to India (1793) often called the father of modern missions." },
+        { "term": "Church Missionary Society", "def": "Anglican mission society founded in 1799, active in Nigeria from 1842." },
+        { "term": "Samuel Ajayi Crowther", "def": "Yoruba bishop (1864), the first African Anglican bishop, Bible translator." },
+        { "term": "Mary Slessor", "def": "Scottish missionary in Calabar who opposed the killing of twins." },
+        { "term": "Badagry", "def": "Coastal town where Christian missions in Nigeria began in 1842." }
+      ],
+      "texts": [
+        { "ref": "Matthew 28:19", "teaches": "Go and teach all nations, baptizing them." },
+        { "ref": "Isaiah 54:2", "teaches": "Enlarge the place of thy tent." },
+        { "ref": "Romans 10:15", "teaches": "How beautiful are the feet of them that preach the gospel." },
+        { "ref": "Acts 16:9", "teaches": "Come over and help us." },
+        { "ref": "1 Corinthians 9:22", "teaches": "I am made all things to all men, that I might by all means save some." }
+      ],
+      "summary": [
+        "William Carey sparked the modern missionary movement in 1792-1793.",
+        "Missions reached Badagry in 1842; Crowther became bishop in 1864.",
+        "Missionaries brought Scripture, schools and hospitals at great cost.",
+        "Colonial attitudes also caused harm and led to African independent churches."
+      ],
+      "questions": [
+        { "q": "Where did William Carey serve?", "options": ["India", "Nigeria", "China", "Brazil"], "answer": 0 },
+        { "q": "Where did Christian missions in Nigeria begin in 1842?", "options": ["Badagry", "Kano", "Enugu", "Ibadan"], "answer": 0 },
+        { "q": "Who became the first African Anglican bishop in 1864?", "options": ["Samuel Ajayi Crowther", "Mojola Agbebi", "Joseph Babalola", "Byang Kato"], "answer": 0 },
+        { "q": "Who opposed the killing of twins in Calabar?", "options": ["Mary Slessor", "Hudson Taylor", "Amy Carmichael", "Lottie Moon"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Twentieth Century and the Global Church",
+      "intro": "The last century brought new challenges and astonishing growth. This week we study liberalism, evangelicalism, Pentecostalism and the global South.",
+      "lessons": [
+        {
+          "title": "Liberalism and evangelical response",
+          "body": "In the nineteenth and twentieth centuries **liberal theology** questioned the Bible's inspiration, miracles, the virgin birth and the bodily resurrection, reducing Christianity to moral teaching.\n\nBelievers responded. Some, called **fundamentalists**, defended 'the fundamentals' of the faith. Later **evangelicals**, such as Billy Graham, John Stott and Carl Henry, combined faithfulness to Scripture with engagement in society. The **Lausanne Congress** (1974) gathered evangelicals worldwide to commit to world evangelisation.\n\nPaul's warning remains: \"preach the word... For the time will come when they will not endure sound doctrine\" (2 Timothy 4:2-3).",
+          "refs": ["2 Timothy 4:1-5", "1 Corinthians 15:12-17", "Galatians 1:6-9"]
+        },
+        {
+          "title": "Pentecostal and charismatic growth",
+          "body": "In 1906 a revival at **Azusa Street** in Los Angeles, led by **William Seymour**, an African American preacher, spread Pentecostalism worldwide. Its emphasis on the baptism in the Spirit, tongues and healing found fertile soil in Africa, Latin America and Asia.\n\nFrom the 1960s the **charismatic renewal** brought similar experiences into older churches. In Africa, the Aladura churches, the 1930 revival under Joseph Babalola, and campus revivals of the 1970s produced vibrant Pentecostal churches.\n\nPentecostals and charismatics are now among the largest groups of Christians in the world. (A later course studies these movements in detail.)",
+          "refs": ["Acts 2:17-18", "Joel 2:28", "Acts 1:8"]
+        },
+        {
+          "title": "The shift to the global South",
+          "body": "In 1900 most Christians lived in Europe and North America. Today most live in Africa, Asia and Latin America. Africa has seen remarkable church growth over the past century, and Nigeria has one of the largest Christian populations in the world.\n\nThis brings opportunity and responsibility: African churches now send missionaries, write theology and lead global bodies. It also brings challenges: shallow discipleship, prosperity teaching, syncretism, division, and persecution.\n\nThe church's history shows God's faithfulness: \"I will build my church; and the gates of hell shall not prevail against it\" (Matthew 16:18). Our generation must hand on the faith faithfully (2 Timothy 2:2).",
+          "refs": ["Matthew 16:18", "Revelation 7:9-10", "2 Timothy 2:2"]
+        }
+      ],
+      "terms": [
+        { "term": "Liberal theology", "def": "Theology that doubts the Bible's inspiration and miracles, stressing moral teaching." },
+        { "term": "Fundamentalism", "def": "A movement defending the fundamental doctrines of the faith against liberalism." },
+        { "term": "Evangelicalism", "def": "A movement stressing Scripture, the cross, conversion and active witness." },
+        { "term": "Lausanne Congress", "def": "The 1974 world gathering of evangelicals for world evangelisation." },
+        { "term": "Azusa Street revival", "def": "The 1906 revival in Los Angeles that spread Pentecostalism worldwide." },
+        { "term": "Global South", "def": "Africa, Asia and Latin America, where most Christians now live." }
+      ],
+      "texts": [
+        { "ref": "2 Timothy 4:3", "teaches": "The time will come when they will not endure sound doctrine." },
+        { "ref": "1 Corinthians 15:17", "teaches": "If Christ is not raised, your faith is vain." },
+        { "ref": "Acts 2:17", "teaches": "God will pour out His Spirit upon all flesh." },
+        { "ref": "Revelation 7:9", "teaches": "A great multitude of all nations stands before the throne." },
+        { "ref": "2 Timothy 2:2", "teaches": "Commit the faith to faithful men who shall teach others." }
+      ],
+      "summary": [
+        "Liberal theology denied core truths; evangelicals defended them.",
+        "Azusa Street (1906) spread Pentecostalism worldwide.",
+        "Most Christians now live in the global South, including Nigeria.",
+        "Growth brings both opportunity and the duty of faithful discipleship."
+      ],
+      "questions": [
+        { "q": "Who led the Azusa Street revival?", "options": ["William Seymour", "Billy Graham", "John Wesley", "Charles Spurgeon"], "answer": 0 },
+        { "q": "When was the Lausanne Congress?", "options": ["1974", "1906", "1517", "1844"], "answer": 0 },
+        { "q": "What did liberal theology question?", "options": ["Inspiration and miracles of Scripture", "The value of morality", "Church buildings", "Hymns"], "answer": 0 },
+        { "q": "Where do most Christians live today?", "options": ["The global South", "Europe", "North America only", "Antarctica"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "What sparked the Reformation and what truth did Luther recover?", "keywords": [["indulgences", "1517", "theses"], ["faith", "justified", "just shall live", "Romans 1:17"]], "model": "Luther's protest against indulgences in 1517 sparked it; he recovered justification by faith (Romans 1:17)." },
+      { "q": "Name the five solas.", "keywords": [["Scripture"], ["grace"], ["faith"], ["Christ"], ["glory"]], "model": "Scripture alone, grace alone, faith alone, Christ alone, and the glory of God alone." },
+      { "q": "What did the Anabaptists believe?", "keywords": [["believer", "baptism", "profess"], ["separate", "state", "church"], ["persecuted"]], "model": "Only professing believers should be baptized and the church should be separate from the state; they were persecuted." },
+      { "q": "Describe the contribution of John Wesley.", "keywords": [["Aldersgate", "warmed", "1738"], ["open air", "poor", "preach"], ["Methodist", "societies", "classes"]], "model": "After his heart was strangely warmed in 1738, Wesley preached in the open air to the poor and organised converts into Methodist societies and classes." },
+      { "q": "How did the gospel come to southern Nigeria?", "keywords": [["Badagry", "1842"], ["Freeman", "Townsend", "Methodist", "CMS"], ["Crowther", "freed slaves", "Sierra Leone"]], "model": "Freed slaves from Sierra Leone asked for missionaries; Freeman (Methodist) and Townsend (CMS) reached Badagry in 1842, and Crowther became bishop in 1864." },
+      { "q": "What are the opportunities and challenges of the church's growth in Africa?", "keywords": [["missionaries", "send", "lead", "theology"], ["shallow", "prosperity", "syncretism", "division"], ["persecution", "discipleship"]], "model": "African churches now send missionaries and lead globally, but face shallow discipleship, prosperity teaching, syncretism, division and persecution." }
+    ],
+    "lists": [
+      { "q": "List four leaders of the Protestant Reformation.", "items": [["Luther"], ["Zwingli"], ["Calvin"], ["Knox"], ["Tyndale"], ["Cranmer"], ["Melanchthon"]], "need": 4 },
+      { "q": "List four leaders of revival or mission from 1700 to 1900.", "items": [["Wesley"], ["Whitefield"], ["Edwards"], ["Carey"], ["Zinzendorf"], ["Crowther"], ["Spurgeon"], ["Moody"]], "need": 4 },
+      { "q": "List three missions that came to Nigeria in the 1800s.", "items": [["Methodist", "Wesleyan"], ["CMS", "Anglican", "Church Missionary Society"], ["Presbyterian", "Church of Scotland"], ["Baptist", "Southern Baptist"], ["Catholic", "SMA"], ["SIM", "Sudan Interior"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "The Reformation today", "prompt": "Explain the main teachings recovered at the Reformation. Then show, with examples, why each is still needed in churches in Nigeria today. Use at least four Bible passages.", "words": "500–700" },
+    { "title": "A missionary biography", "prompt": "Write a short biography of one person from this course (for example Samuel Ajayi Crowther, Mary Slessor, William Carey or John Wesley). Describe their life, their contribution, their struggles and the lessons for believers today.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Justo L. González, The Story of Christianity, volume 2",
+    "Mark A. Noll, Turning Points: Decisive Moments in the History of Christianity",
+    "Ogbu U. Kalu (ed.), African Christianity: An African Story"
+  ]
+}
