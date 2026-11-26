@@ -1,0 +1,241 @@
+{
+  "slug": "baptism-and-the-lords-supper",
+  "title": "Baptism and the Lord's Supper",
+  "track": "church",
+  "level": "Intermediate",
+  "summary": "The two ordinances Christ gave His church: their meaning, who should receive them, how they are practised, and the main views Christians hold. Includes foot washing as practised by some churches.",
+  "description": "Christ commanded His church to baptize disciples and to remember Him in the breaking of bread. This course explains the meaning of these ordinances, compares believer's baptism and infant baptism fairly, discusses the mode of baptism, sets out the main views of Christ's presence in the Supper, and gives practical guidance for preparing for and receiving the ordinances worthily. It also explains foot washing, which some churches observe as an ordinance.",
+  "objectives": [
+    "Explain the meaning of ordinances and sacraments",
+    "Teach the meaning and practice of baptism",
+    "Present fairly the believer's baptism and infant baptism views",
+    "Explain the meaning of the Lord's Supper and the main views of Christ's presence",
+    "Guide believers to receive the ordinances worthily"
+  ],
+  "outcomes": [
+    "Distinguish ordinance and sacrament",
+    "Explain what baptism pictures and who should be baptized",
+    "Compare credobaptism and paedobaptism",
+    "Compare the Catholic, Lutheran, Reformed and memorial views of the Supper",
+    "Explain self-examination from 1 Corinthians 11"
+  ],
+  "modules": [
+    {
+      "title": "Signs of the New Covenant",
+      "intro": "Christ gave His church visible signs of the gospel. This week we see what ordinances are and why they matter.",
+      "lessons": [
+        {
+          "title": "Ordinances and sacraments",
+          "body": "Christ commanded two practices for His church: **baptism** (Matthew 28:19) and **the Lord's Supper** (Luke 22:19). They are visible pictures of the gospel.\n\nBaptists and many evangelicals call them **ordinances**: practices ordained by Christ, which believers obey in remembrance and testimony. Anglicans, Lutherans, Presbyterians and Catholics call them **sacraments**: means through which God gives grace to those who receive them in faith. Roman Catholics count seven sacraments; Protestants recognise two.\n\nBoth terms agree that these are commanded by Christ and are not optional extras.",
+          "refs": ["Matthew 28:19-20", "Luke 22:19-20", "1 Corinthians 11:23-26"]
+        },
+        {
+          "title": "Old covenant signs",
+          "body": "God has always given signs with His covenants: the rainbow with Noah (Genesis 9:13), circumcision with Abraham (Genesis 17:11), and the Passover with Israel's deliverance (Exodus 12:13-14).\n\nThese signs pointed forward to Christ. Paul calls baptism \"the circumcision of Christ\" (Colossians 2:11-12). The Lord's Supper was instituted at a Passover meal, and \"Christ our passover is sacrificed for us\" (1 Corinthians 5:7).\n\nThe new covenant signs point back to what Christ has accomplished and forward to His return.",
+          "refs": ["Genesis 17:9-11", "Exodus 12:13-14", "Colossians 2:11-12"]
+        },
+        {
+          "title": "Signs, not saviours",
+          "body": "The ordinances matter because Christ commanded them. But they do not save in themselves. The thief on the cross was promised paradise without baptism (Luke 23:43). Paul said, \"Christ sent me not to baptize, but to preach the gospel\" (1 Corinthians 1:17).\n\nIn the Old Testament, Israelites who trusted in circumcision while their hearts were far from God were condemned (Jeremiah 9:25-26; Romans 2:28-29). Some Corinthians took the Supper unworthily and were judged (1 Corinthians 11:29-30).\n\nSo we must neither neglect the ordinances nor trust in them as magic. They are means of grace when received with faith.",
+          "refs": ["Luke 23:42-43", "1 Corinthians 1:17", "Romans 2:28-29"]
+        }
+      ],
+      "terms": [
+        { "term": "Ordinance", "def": "A practice ordained by Christ for His church, such as baptism and the Lord's Supper." },
+        { "term": "Sacrament", "def": "A sacred sign through which, many churches teach, God gives grace to those who receive it in faith." },
+        { "term": "Covenant sign", "def": "A visible mark God attaches to His covenant, such as circumcision or the rainbow." },
+        { "term": "Means of grace", "def": "Ordinary channels God uses to strengthen believers, such as the Word, prayer and ordinances." },
+        { "term": "Passover", "def": "Israel's feast remembering deliverance from Egypt, fulfilled in Christ." },
+        { "term": "Ex opere operato", "def": "Latin 'by the work performed': the Catholic teaching that sacraments work by being rightly performed." }
+      ],
+      "texts": [
+        { "ref": "Matthew 28:19", "teaches": "Christ commanded His church to baptize disciples of all nations." },
+        { "ref": "Luke 22:19", "teaches": "This do in remembrance of me." },
+        { "ref": "Colossians 2:12", "teaches": "Believers are buried with Christ in baptism and risen through faith." },
+        { "ref": "1 Corinthians 5:7", "teaches": "Christ our passover is sacrificed for us." },
+        { "ref": "1 Corinthians 1:17", "teaches": "Christ sent Paul not to baptize but to preach the gospel." }
+      ],
+      "summary": [
+        "Christ commanded two ordinances: baptism and the Lord's Supper.",
+        "Some call them ordinances, others sacraments; all agree they are commanded.",
+        "They fulfil old covenant signs such as circumcision and Passover.",
+        "They are not magic; they bless those who receive them in faith."
+      ],
+      "questions": [
+        { "q": "How many sacraments do Protestants recognise?", "options": ["Two", "Seven", "One", "Five"], "answer": 0 },
+        { "q": "What old covenant sign does Paul link to baptism?", "options": ["Circumcision", "The rainbow", "The Sabbath", "Tithing"], "answer": 0 },
+        { "q": "Which man was promised paradise without baptism?", "options": ["The thief on the cross", "Nicodemus", "Cornelius", "The Ethiopian"], "answer": 0 },
+        { "q": "What feast was the Lord's Supper instituted at?", "options": ["Passover", "Tabernacles", "Purim", "Pentecost"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Christian Baptism",
+      "intro": "This week we study the meaning, subjects and mode of baptism, and present the main views fairly.",
+      "lessons": [
+        {
+          "title": "What baptism means",
+          "body": "Baptism pictures several truths:\n\n- **Union with Christ** in His death, burial and resurrection: \"we are buried with him by baptism into death: that like as Christ was raised up... even so we also should walk in newness of life\" (Romans 6:4).\n- **Cleansing from sin**: \"arise, and be baptized, and wash away thy sins, calling on the name of the Lord\" (Acts 22:16).\n- **Public confession** of faith and entry into the church (Acts 2:41).\n- **The answer of a good conscience** toward God (1 Peter 3:21).\n\nBaptism is in the name of the Father, the Son and the Holy Ghost (Matthew 28:19).",
+          "refs": ["Romans 6:3-5", "Acts 22:16", "1 Peter 3:21"]
+        },
+        {
+          "title": "Who should be baptized?",
+          "body": "**Believer's baptism (credobaptism)**: Baptists, Pentecostals, Holiness churches including Deeper Life, and many others baptize only those who personally profess faith. In Acts, people \"gladly received his word\" and were baptized (2:41); \"when they believed... they were baptized, both men and women\" (8:12); the Ethiopian was asked to believe first (8:37).\n\n**Infant baptism (paedobaptism)**: Anglicans, Methodists, Presbyterians, Lutherans and Catholics baptize believers and their infant children. They argue that baptism replaces circumcision, given to infants (Colossians 2:11-12), that \"the promise is unto you, and to your children\" (Acts 2:39), and that whole households were baptized (Acts 16:15, 33).\n\nBaptists reply that household texts do not mention infants and that the new covenant is entered by faith.",
+          "refs": ["Acts 8:12", "Acts 8:36-38", "Acts 16:30-34"]
+        },
+        {
+          "title": "The mode of baptism",
+          "body": "Christians baptize in three ways: **immersion** (putting the whole body under water), **pouring** and **sprinkling**.\n\nBaptists, Pentecostals and Holiness churches practise immersion. They note that the Greek word *baptizo* means to dip or immerse; that John baptized \"in Aenon near to Salim, because there was much water there\" (John 3:23); that Jesus \"went up straightway out of the water\" (Matthew 3:16); and that immersion best pictures burial and resurrection (Romans 6:4).\n\nOther churches accept pouring or sprinkling, seeing the meaning in the water and the Word rather than the amount, and pointing to the Spirit being 'poured out'. Eastern Orthodox and some Brethren churches practise triple immersion, once for each Person of the Trinity.",
+          "refs": ["Matthew 3:13-17", "John 3:23", "Acts 8:38-39"]
+        }
+      ],
+      "terms": [
+        { "term": "Baptism", "def": "The ordinance of washing with water in the name of the Trinity, marking entry into Christ and His church." },
+        { "term": "Baptizo", "def": "The Greek word for baptize, meaning to dip or immerse." },
+        { "term": "Credobaptism", "def": "Baptism of those who personally profess faith." },
+        { "term": "Paedobaptism", "def": "Baptism of infants of believing parents, as well as adult converts." },
+        { "term": "Immersion", "def": "Baptism by putting the whole body under water." },
+        { "term": "Household baptism", "def": "The baptism of a whole household in Acts, used in the infant baptism debate." }
+      ],
+      "texts": [
+        { "ref": "Romans 6:4", "teaches": "We are buried with Christ by baptism and raised to walk in newness of life." },
+        { "ref": "Acts 22:16", "teaches": "Arise, be baptized and wash away thy sins, calling on the Lord's name." },
+        { "ref": "Acts 2:41", "teaches": "Those who gladly received the word were baptized." },
+        { "ref": "Acts 2:39", "teaches": "The promise is to you and to your children." },
+        { "ref": "Matthew 3:16", "teaches": "Jesus went up straightway out of the water after His baptism." }
+      ],
+      "summary": [
+        "Baptism pictures union with Christ, cleansing and public confession.",
+        "Credobaptists baptize professing believers; paedobaptists also baptize infants.",
+        "Baptists and Pentecostals immerse; others also pour or sprinkle.",
+        "All baptize in the name of the Father, Son and Holy Ghost."
+      ],
+      "questions": [
+        { "q": "What does baptizo mean?", "options": ["To dip or immerse", "To sprinkle", "To pray", "To bless"], "answer": 0 },
+        { "q": "Which churches practise believer's baptism?", "options": ["Baptist, Pentecostal and Holiness churches", "Roman Catholic only", "Lutheran only", "Anglican only"], "answer": 0 },
+        { "q": "Which text do paedobaptists cite about children?", "options": ["Acts 2:39", "Acts 8:37", "John 3:23", "Romans 6:4"], "answer": 0 },
+        { "q": "Why did John baptize at Aenon?", "options": ["Because there was much water there", "Because it was holy ground", "To avoid crowds", "Because of the temple"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "The Lord's Supper",
+      "intro": "Jesus gave bread and cup to remember Him. This week we study what the Supper means and the main views of Christ's presence.",
+      "lessons": [
+        {
+          "title": "This do in remembrance of me",
+          "body": "\"The Lord Jesus the same night in which he was betrayed took bread: And when he had given thanks, he brake it, and said, Take, eat: this is my body, which is broken for you: this do in remembrance of me\" (1 Corinthians 11:23-24). He took the cup and said, \"This cup is the new testament in my blood\" (11:25).\n\nThe Supper looks:\n\n- **Back** to the cross: \"ye do shew the Lord's death\" (11:26).\n- **Up** to communion with the living Christ (10:16).\n- **Around** to fellowship with believers: \"we being many are one bread\" (10:17).\n- **Forward** to His return: \"till he come\" (11:26).",
+          "refs": ["1 Corinthians 11:23-26", "1 Corinthians 10:16-17", "Matthew 26:26-29"]
+        },
+        {
+          "title": "Views of Christ's presence",
+          "body": "Christians agree on the Supper's importance but differ on what \"This is my body\" means:\n\n1. **Transubstantiation (Roman Catholic)**: the bread and wine become the actual body and blood of Christ, though they still look like bread and wine.\n2. **Real presence (Lutheran)**: Christ's body and blood are truly present \"in, with and under\" the bread and wine.\n3. **Spiritual presence (Reformed, Anglican)**: Christ is truly present by the Spirit, and believers feed on Him spiritually by faith.\n4. **Memorial (Zwingli, many Baptists and Pentecostals)**: the bread and cup are symbols that call Christ's death to mind; Christ is present as He is whenever believers gather.\n\nThose who hold the symbolic views note that Jesus also said \"I am the door\" (John 10:9), and that the sacrifice was once for all (Hebrews 10:10).",
+          "refs": ["Matthew 26:26-28", "John 6:53-63", "Hebrews 10:10-14"]
+        },
+        {
+          "title": "Who may come, and how often?",
+          "body": "The Supper is for believers. Most churches invite baptized believers walking with the Lord. Some practise **open** communion (all believers present may take part); others practise **closed** communion (members of that church or denomination only).\n\nThe New Testament does not fix how often. The early church broke bread often, even weekly (Acts 20:7). Churches today observe it weekly, monthly or quarterly.\n\nThe elements were bread and the fruit of the vine (Matthew 26:29). Churches differ on leavened or unleavened bread and on wine or grape juice. What matters most is that it is done with reverence, in the way Christ gave it.",
+          "refs": ["Acts 20:7", "Acts 2:42", "Matthew 26:29"]
+        }
+      ],
+      "terms": [
+        { "term": "Lord's Supper", "def": "The ordinance of bread and cup in remembrance of Christ's death; also called communion." },
+        { "term": "Communion", "def": "Sharing; the Supper as fellowship with Christ and one another." },
+        { "term": "Transubstantiation", "def": "The Catholic teaching that the bread and wine become Christ's body and blood." },
+        { "term": "Real presence", "def": "The Lutheran teaching that Christ's body and blood are present in, with and under the elements." },
+        { "term": "Spiritual presence", "def": "The Reformed teaching that believers feed on Christ spiritually by faith." },
+        { "term": "Memorial view", "def": "The view that the Supper is a symbolic remembrance of Christ's death." }
+      ],
+      "texts": [
+        { "ref": "1 Corinthians 11:24", "teaches": "This is my body broken for you; do this in remembrance of me." },
+        { "ref": "1 Corinthians 11:26", "teaches": "As often as you eat and drink, you show the Lord's death till He come." },
+        { "ref": "1 Corinthians 10:17", "teaches": "We being many are one bread and one body." },
+        { "ref": "Hebrews 10:10", "teaches": "We are sanctified through Christ's offering once for all." },
+        { "ref": "Acts 20:7", "teaches": "The disciples gathered on the first day of the week to break bread." }
+      ],
+      "summary": [
+        "The Supper looks back to the cross, up to Christ, around to believers and forward to His return.",
+        "Views of Christ's presence: transubstantiation, real presence, spiritual presence, memorial.",
+        "The Supper is for believers; churches differ on open or closed communion.",
+        "Frequency and elements vary; reverence and faithfulness matter most."
+      ],
+      "questions": [
+        { "q": "Which view holds that the bread becomes Christ's actual body?", "options": ["Transubstantiation", "Memorial", "Spiritual presence", "Real presence"], "answer": 0 },
+        { "q": "Who is associated with the memorial view?", "options": ["Zwingli", "Luther", "Aquinas", "Calvin"], "answer": 0 },
+        { "q": "What does the Supper proclaim, according to 1 Corinthians 11:26?", "options": ["The Lord's death till He come", "Our good works", "The church's wealth", "The Sabbath"], "answer": 0 },
+        { "q": "On which day did the disciples break bread in Acts 20:7?", "options": ["The first day of the week", "The Sabbath", "Passover only", "Every Friday"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Receiving Worthily",
+      "intro": "The ordinances call for preparation and reverence. This week we study self-examination, practical guidance, and foot washing.",
+      "lessons": [
+        {
+          "title": "Examine yourself",
+          "body": "\"Wherefore whosoever shall eat this bread, and drink this cup of the Lord, unworthily, shall be guilty of the body and blood of the Lord. But let a man examine himself, and so let him eat\" (1 Corinthians 11:27-28).\n\nThe Corinthians were eating \"unworthily\": the rich feasted while the poor went hungry, and some were drunk (11:20-22). They failed to \"discern the Lord's body\", both Christ's sacrifice and His people.\n\nTo examine ourselves is to confess sin, put right broken relationships (Matthew 5:23-24) and come in faith. \"Unworthily\" describes the manner, not the person: no one is worthy, but all who repent and trust Christ are welcome.",
+          "refs": ["1 Corinthians 11:17-22", "1 Corinthians 11:27-32", "Matthew 5:23-24"]
+        },
+        {
+          "title": "Foot washing",
+          "body": "At the Last Supper Jesus washed His disciples' feet and said, \"If I then, your Lord and Master, have washed your feet; ye also ought to wash one another's feet\" (John 13:14).\n\nSome churches, including Deeper Life Bible Church, some Holiness and Pentecostal churches and some Anabaptist groups, practise foot washing as an ordinance, often with the Lord's Supper.\n\nMost Baptist and Reformed churches see it as a command to humble service rather than a ritual to repeat, noting that it is not mentioned among church practices in Acts or the epistles (though see 1 Timothy 5:10). All agree that its lesson of humble, self-giving love is essential.",
+          "refs": ["John 13:3-17", "1 Timothy 5:10", "Philippians 2:5-8"]
+        },
+        {
+          "title": "Practical guidance",
+          "body": "**Preparing for baptism**: new believers should be taught the gospel and the meaning of baptism, give a clear testimony, and be ready to join a local church. Baptism should not be delayed long after conversion (Acts 8:36), nor rushed without understanding.\n\n**Leading the Supper**: read the words of institution (1 Corinthians 11:23-26), give time for self-examination, pray, and serve with reverence and order.\n\n**Pastoral cautions**: never sell the ordinances or treat them as charms; never use them to pressure people; welcome those who repent. Remember the ordinances point away from themselves to Christ.",
+          "refs": ["Acts 8:35-38", "1 Corinthians 14:40", "1 Corinthians 11:23-26"]
+        }
+      ],
+      "terms": [
+        { "term": "Unworthily", "def": "Taking the Supper in a careless, divisive or unrepentant manner." },
+        { "term": "Self-examination", "def": "Searching one's heart and life before taking the Supper." },
+        { "term": "Discerning the body", "def": "Recognising Christ's sacrifice and His people when taking the Supper." },
+        { "term": "Foot washing", "def": "Washing one another's feet in obedience to John 13, practised by some churches as an ordinance." },
+        { "term": "Words of institution", "def": "Christ's words establishing the Supper, read when it is observed." },
+        { "term": "Open communion", "def": "Inviting all believers present to share in the Supper." }
+      ],
+      "texts": [
+        { "ref": "1 Corinthians 11:27", "teaches": "Eating unworthily makes one guilty of the body and blood of the Lord." },
+        { "ref": "1 Corinthians 11:28", "teaches": "Let a man examine himself, and so let him eat." },
+        { "ref": "Matthew 5:24", "teaches": "First be reconciled to your brother, then offer your gift." },
+        { "ref": "John 13:14", "teaches": "You also ought to wash one another's feet." },
+        { "ref": "Acts 8:36", "teaches": "The Ethiopian asked what hindered him from being baptized." }
+      ],
+      "summary": [
+        "Believers must examine themselves before the Supper.",
+        "'Unworthily' describes a wrong manner, not unworthy people.",
+        "Some churches, including Deeper Life, practise foot washing as an ordinance.",
+        "Prepare candidates well and administer the ordinances with reverence."
+      ],
+      "questions": [
+        { "q": "What were the Corinthians doing wrong at the Supper?", "options": ["The rich feasted while the poor went hungry", "They took it too rarely", "They used the wrong bread", "They sang too loudly"], "answer": 0 },
+        { "q": "What does 'unworthily' describe?", "options": ["The manner of taking it", "The person's past", "The type of cup", "The day of the week"], "answer": 0 },
+        { "q": "Which church practises foot washing as an ordinance?", "options": ["Deeper Life Bible Church", "No church", "Only the Vatican", "Only Reformed churches"], "answer": 0 },
+        { "q": "What did the Ethiopian ask Philip?", "options": ["What hinders me to be baptized?", "Who is the prophet?", "Where is the temple?", "How much does it cost?"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Distinguish an ordinance from a sacrament.", "keywords": [["ordained", "commanded", "obey", "remembrance"], ["grace", "means", "channel"]], "model": "An ordinance is a practice ordained by Christ that believers obey; a sacrament is, in many churches' teaching, a sign through which God gives grace to those who receive it in faith." },
+      { "q": "What does baptism picture? Name three truths.", "keywords": [["union", "death", "burial", "resurrection"], ["cleansing", "wash"], ["confession", "public", "church"]], "model": "Union with Christ in death, burial and resurrection; cleansing from sin; and public confession and entry into the church." },
+      { "q": "Compare credobaptism and paedobaptism fairly.", "keywords": [["believers", "profess", "faith"], ["infants", "children", "household", "circumcision"]], "model": "Credobaptists baptize only those who profess faith, as in Acts; paedobaptists also baptize believers' infants, linking baptism to circumcision and household baptisms." },
+      { "q": "Why do Baptists practise immersion?", "keywords": [["baptizo", "dip", "immerse"], ["much water", "out of the water", "Aenon"], ["burial", "resurrection", "Romans 6"]], "model": "Baptizo means to immerse; John baptized where there was much water and Jesus came up out of the water; immersion pictures burial and resurrection." },
+      { "q": "Name and explain the four main views of Christ's presence in the Supper.", "keywords": [["transubstantiation", "Catholic"], ["real presence", "Lutheran"], ["spiritual", "Reformed"], ["memorial", "Zwingli", "symbol"]], "model": "Transubstantiation (Catholic), real presence (Lutheran), spiritual presence by faith (Reformed) and memorial symbols (Zwingli and many Baptists)." },
+      { "q": "What does it mean to take the Supper unworthily?", "keywords": [["manner", "careless", "divisive"], ["examine", "confess", "repent"], ["not", "worthy people", "no one is worthy"]], "model": "Taking it in a careless, divisive or unrepentant manner; we must examine ourselves and confess sin. It describes the manner, not unworthy people." }
+    ],
+    "lists": [
+      { "q": "List four things the Lord's Supper points to.", "items": [["back", "cross", "death"], ["up", "communion with Christ"], ["around", "fellowship", "one bread"], ["forward", "return", "till he come"], ["covenant", "new testament"]], "need": 4 },
+      { "q": "List three modes of baptism.", "items": [["immersion", "dipping"], ["pouring", "affusion"], ["sprinkling", "aspersion"]], "need": 3 },
+      { "q": "List four steps in preparing for the Supper.", "items": [["examine"], ["confess", "repent"], ["reconcile", "put right", "relationships"], ["faith", "trust"], ["pray"], ["remember", "words of institution"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "Baptism in Acts", "prompt": "Study every baptism in the book of Acts. Note who was baptized, what they did before baptism, and how soon they were baptized. Then explain what your study suggests about the subjects and timing of baptism, interacting fairly with the infant baptism view.", "words": "600–800" },
+    { "title": "Teaching on the Lord's Supper", "prompt": "Write a short teaching to be given before a communion service. Explain the meaning of the Supper, the call to self-examination in 1 Corinthians 11 and the hope of Christ's return. Use at least five passages from the course.", "words": "400–600" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Thomas R. Schreiner and Shawn D. Wright (eds), Believer's Baptism",
+    "Bryan Chapell, Why Do We Baptize Infants?",
+    "John H. Armstrong (ed.), Understanding Four Views on the Lord's Supper"
+  ]
+}

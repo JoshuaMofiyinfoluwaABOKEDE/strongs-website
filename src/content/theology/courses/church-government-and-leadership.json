@@ -1,0 +1,241 @@
+{
+  "slug": "church-government-and-leadership",
+  "title": "Church Government and Leadership",
+  "track": "church",
+  "level": "Intermediate",
+  "summary": "How Christ rules His church: the offices of elder and deacon, the qualifications for leaders, the main forms of church government, and the role of every member.",
+  "description": "Who leads the church, and how? This course studies Christ's headship, the New Testament offices of elder (pastor, bishop) and deacon, the qualifications Paul sets out, the episcopal, presbyterian and congregational forms of government, the debate over women in leadership, and the accountability, character and servant-heartedness every church leader needs.",
+  "objectives": [
+    "Explain Christ's headship over the church",
+    "Describe the offices of elder and deacon",
+    "Study the qualifications for church leaders",
+    "Present fairly the main forms of church government",
+    "Present fairly the views on women in church leadership"
+  ],
+  "outcomes": [
+    "Show that elder, bishop and pastor describe one office",
+    "List the qualifications in 1 Timothy 3 and Titus 1",
+    "Compare episcopal, presbyterian and congregational government",
+    "Compare complementarian and egalitarian views",
+    "Apply principles of servant leadership and accountability"
+  ],
+  "modules": [
+    {
+      "title": "Christ the Head",
+      "intro": "The church is not a business or a kingdom of men. This week we see that Christ rules His church, and leaders serve under Him.",
+      "lessons": [
+        {
+          "title": "One Lord over the church",
+          "body": "God \"gave him to be the head over all things to the church, Which is his body\" (Ephesians 1:22-23). Christ is \"the head of the body, the church... that in all things he might have the preeminence\" (Colossians 1:18).\n\nChrist rules His church by His Word and Spirit. Leaders are not owners but stewards (1 Corinthians 4:1-2) and under-shepherds of \"the flock of God\" (1 Peter 5:2).\n\nThis guards against two dangers: leaders who act as if the church belongs to them, and members who ignore Christ's appointed leaders.",
+          "refs": ["Ephesians 1:20-23", "Colossians 1:18", "1 Corinthians 4:1-2"]
+        },
+        {
+          "title": "Servant leadership",
+          "body": "When the disciples argued about greatness, Jesus said, \"ye know that the princes of the Gentiles exercise dominion over them... But it shall not be so among you: but whosoever will be great among you, let him be your minister\" (Matthew 20:25-26). \"Even as the Son of man came not to be ministered unto, but to minister\" (20:28).\n\nPeter tells elders to lead \"not by constraint, but willingly; not for filthy lucre, but of a ready mind; Neither as being lords over God's heritage, but being ensamples to the flock\" (1 Peter 5:2-3).\n\nChristian leadership is service, example and care, not control, display or profit.",
+          "refs": ["Matthew 20:25-28", "1 Peter 5:1-4", "John 13:12-15"]
+        },
+        {
+          "title": "Apostles and the foundation",
+          "body": "The church is \"built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone\" (Ephesians 2:20).\n\nThe Twelve and Paul were apostles in a unique sense: eyewitnesses of the risen Christ (Acts 1:21-22; 1 Corinthians 9:1), appointed directly by Him, whose teaching is now preserved in the New Testament.\n\nThe word apostle (sent one) is also used more broadly for missionaries such as Barnabas (Acts 14:14). Churches today differ on whether to use the title. All agree that no modern leader has the authority of the original apostles to add to Scripture.",
+          "refs": ["Ephesians 2:19-22", "Acts 1:21-26", "Acts 14:14"]
+        }
+      ],
+      "terms": [
+        { "term": "Headship of Christ", "def": "Christ's supreme rule over His church." },
+        { "term": "Steward", "def": "A manager entrusted with another's property; leaders as stewards of God's people." },
+        { "term": "Servant leadership", "def": "Leading by serving others, after Christ's example." },
+        { "term": "Lording it over", "def": "Domineering leadership that Peter forbids (1 Peter 5:3)." },
+        { "term": "Apostle", "def": "One sent; in the unique sense, an eyewitness of the risen Christ appointed by Him." },
+        { "term": "Foundation of the apostles", "def": "The apostolic teaching on which the church is built (Ephesians 2:20)." }
+      ],
+      "texts": [
+        { "ref": "Ephesians 1:22", "teaches": "God gave Christ to be head over all things to the church." },
+        { "ref": "Matthew 20:26", "teaches": "Whoever would be great among you, let him be your servant." },
+        { "ref": "1 Peter 5:3", "teaches": "Elders must not be lords over God's heritage but examples to the flock." },
+        { "ref": "1 Corinthians 4:2", "teaches": "It is required in stewards that a man be found faithful." },
+        { "ref": "Ephesians 2:20", "teaches": "The church is built on the foundation of the apostles and prophets." }
+      ],
+      "summary": [
+        "Christ is the head of the church; leaders are His stewards.",
+        "Christian leadership is servant leadership, not domination.",
+        "Elders must lead willingly, unselfishly and by example.",
+        "The original apostles laid a unique foundation in Scripture."
+      ],
+      "questions": [
+        { "q": "Who is the head of the church?", "options": ["Christ", "The general overseer", "The government", "The richest member"], "answer": 0 },
+        { "q": "What did Jesus say about greatness?", "options": ["The great must be servants", "The great must rule harshly", "The rich are greatest", "Greatness is by birth"], "answer": 0 },
+        { "q": "What does Peter forbid elders to be?", "options": ["Lords over God's heritage", "Examples", "Willing", "Shepherds"], "answer": 0 },
+        { "q": "What does 'apostle' mean?", "options": ["One sent", "One who rules", "One who prays", "One who sings"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Elders and Deacons",
+      "intro": "The New Testament describes two ongoing offices in the local church. This week we study elders and deacons.",
+      "lessons": [
+        {
+          "title": "Elders, bishops and pastors",
+          "body": "The New Testament uses three words for the same leaders:\n\n- **Elder** (presbuteros): stresses maturity.\n- **Bishop** or overseer (episkopos): stresses oversight.\n- **Pastor** or shepherd (poimen): stresses care and feeding.\n\nPaul called the \"elders of the church\" of Ephesus and told them the Holy Ghost had made them \"overseers, to feed [shepherd] the church of God\" (Acts 20:17, 28). In Titus 1:5-7 'elder' and 'bishop' are used of the same office.\n\nChurches in Acts normally had a plurality of elders: Paul \"ordained them elders in every church\" (Acts 14:23).",
+          "refs": ["Acts 20:17-28", "Titus 1:5-7", "Acts 14:23"]
+        },
+        {
+          "title": "The work of elders",
+          "body": "Elders are called to:\n\n- **Teach** sound doctrine and refute error (Titus 1:9; 1 Timothy 5:17).\n- **Shepherd** and feed the flock (1 Peter 5:2).\n- **Guard** against false teachers, \"grievous wolves\" (Acts 20:29-31).\n- **Pray** for the sick and the flock (James 5:14; Acts 6:4).\n- **Lead** and oversee (1 Thessalonians 5:12; Hebrews 13:17).\n\n\"Let the elders that rule well be counted worthy of double honour, especially they who labour in the word and doctrine\" (1 Timothy 5:17). Faithful pastors should be cared for by the church (5:18).",
+          "refs": ["Titus 1:9", "1 Timothy 5:17-18", "Acts 20:29-31"]
+        },
+        {
+          "title": "Deacons",
+          "body": "In Acts 6, the apostles were overwhelmed by the daily distribution to widows. They asked the church to choose \"seven men of honest report, full of the Holy Ghost and wisdom\" to oversee it, so the apostles could give themselves \"to prayer, and to the ministry of the word\" (Acts 6:3-4).\n\nThe word deacon (diakonos) means servant. Deacons handle practical ministries such as care for the needy, finances and facilities, freeing elders for the Word and prayer.\n\nPaul greets \"bishops and deacons\" (Philippians 1:1) and gives qualifications for deacons (1 Timothy 3:8-13). Some deacons, like Stephen and Philip, were also powerful in the Word.",
+          "refs": ["Acts 6:1-7", "Philippians 1:1", "1 Timothy 3:8-13"]
+        }
+      ],
+      "terms": [
+        { "term": "Elder (presbuteros)", "def": "A mature spiritual leader of a local church." },
+        { "term": "Bishop (episkopos)", "def": "An overseer; in the New Testament, the same office as elder." },
+        { "term": "Pastor (poimen)", "def": "A shepherd who feeds and cares for the flock." },
+        { "term": "Plurality of elders", "def": "Leadership of a local church by several elders together." },
+        { "term": "Deacon (diakonos)", "def": "A servant who oversees practical ministries of the church." },
+        { "term": "Ordination", "def": "The church's recognition and setting apart of a person for office." }
+      ],
+      "texts": [
+        { "ref": "Acts 20:28", "teaches": "The Holy Ghost made the elders overseers to feed the church of God." },
+        { "ref": "Acts 14:23", "teaches": "Paul ordained elders in every church." },
+        { "ref": "1 Timothy 5:17", "teaches": "Elders who rule well deserve double honour." },
+        { "ref": "Acts 6:3", "teaches": "Choose seven men of honest report, full of the Holy Ghost and wisdom." },
+        { "ref": "Acts 6:4", "teaches": "The apostles gave themselves to prayer and the ministry of the word." }
+      ],
+      "summary": [
+        "Elder, bishop and pastor describe one office in the New Testament.",
+        "Elders teach, shepherd, guard, pray and lead.",
+        "Deacons serve the church's practical needs.",
+        "New Testament churches usually had several elders."
+      ],
+      "questions": [
+        { "q": "Which three words describe the same office?", "options": ["Elder, bishop and pastor", "Deacon, apostle and prophet", "Priest, Levite and scribe", "King, judge and prophet"], "answer": 0 },
+        { "q": "What does diakonos mean?", "options": ["Servant", "Ruler", "Teacher", "Priest"], "answer": 0 },
+        { "q": "Why were the seven chosen in Acts 6?", "options": ["To oversee care for widows so apostles could pray and preach", "To replace the apostles", "To build a temple", "To collect taxes"], "answer": 0 },
+        { "q": "What do elders who labour in the Word deserve?", "options": ["Double honour", "No support", "Punishment", "Silence"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Qualified to Lead",
+      "intro": "Paul set out clear qualifications for leaders. This week we study them and how leaders should be chosen and held accountable.",
+      "lessons": [
+        {
+          "title": "Character before gifting",
+          "body": "\"A bishop then must be blameless, the husband of one wife, vigilant, sober, of good behaviour, given to hospitality, apt to teach; Not given to wine, no striker, not greedy of filthy lucre; but patient, not a brawler, not covetous; One that ruleth well his own house... Not a novice... he must have a good report of them which are without\" (1 Timothy 3:2-7; compare Titus 1:6-9).\n\nAlmost every quality concerns **character**. Only one, \"apt to teach\", is a skill. A gifted speaker with poor character is not qualified; a humble, godly, teachable person with sound doctrine is.",
+          "refs": ["1 Timothy 3:1-7", "Titus 1:5-9"]
+        },
+        {
+          "title": "Home, money and reputation",
+          "body": "Three areas receive special attention:\n\n- **Home**: \"if a man know not how to rule his own house, how shall he take care of the church of God?\" (1 Timothy 3:5). Faithfulness in marriage and godly parenting matter.\n- **Money**: not greedy, not covetous (3:3). Paul warned of those \"supposing that gain is godliness\" (6:5).\n- **Reputation**: \"a good report of them which are without\" (3:7). Leaders must be trusted by outsiders.\n\nAlso, \"not a novice, lest being lifted up with pride he fall\" (3:6). New converts, however gifted, should not be rushed into leadership.",
+          "refs": ["1 Timothy 3:4-7", "1 Timothy 6:5-11", "Titus 1:7"]
+        },
+        {
+          "title": "Choosing and correcting leaders",
+          "body": "Leaders should be tested before serving: \"let these also first be proved\" (1 Timothy 3:10). \"Lay hands suddenly on no man\" (5:22).\n\nIn Acts the church chose candidates and the apostles appointed them (6:3-6); elders were appointed with prayer and fasting (14:23).\n\nLeaders must also be accountable. \"Against an elder receive not an accusation, but before two or three witnesses\", protecting leaders from false charges. But \"Them that sin rebuke before all, that others also may fear\" (1 Timothy 5:19-20). Paul even rebuked Peter publicly for hypocrisy (Galatians 2:11-14). No leader is above correction.",
+          "refs": ["1 Timothy 3:10", "1 Timothy 5:19-22", "Galatians 2:11-14"]
+        }
+      ],
+      "terms": [
+        { "term": "Blameless", "def": "Having no just charge of wrongdoing against one's life." },
+        { "term": "Husband of one wife", "def": "Faithful in marriage; literally 'a one-woman man'." },
+        { "term": "Apt to teach", "def": "Able to explain and defend sound doctrine." },
+        { "term": "Novice", "def": "A recent convert, not yet ready for leadership." },
+        { "term": "Filthy lucre", "def": "Shameful gain; greed for money." },
+        { "term": "Accountability", "def": "Being answerable to others for one's conduct and teaching." }
+      ],
+      "texts": [
+        { "ref": "1 Timothy 3:2", "teaches": "A bishop must be blameless and apt to teach." },
+        { "ref": "1 Timothy 3:5", "teaches": "One who cannot rule his own house cannot care for the church." },
+        { "ref": "1 Timothy 3:6", "teaches": "A leader must not be a novice, lest he fall through pride." },
+        { "ref": "1 Timothy 5:22", "teaches": "Lay hands suddenly on no man." },
+        { "ref": "1 Timothy 5:20", "teaches": "Leaders who sin should be rebuked before all." }
+      ],
+      "summary": [
+        "Leadership qualifications are mostly about character.",
+        "Home, money and reputation are tested areas.",
+        "Leaders should be tested and not appointed hastily.",
+        "Leaders are accountable; none is above correction."
+      ],
+      "questions": [
+        { "q": "Which qualification is a skill rather than character?", "options": ["Apt to teach", "Sober", "Not greedy", "Given to hospitality"], "answer": 0 },
+        { "q": "Why should a novice not be an elder?", "options": ["Lest he fall through pride", "He is too young", "He lacks money", "He has no title"], "answer": 0 },
+        { "q": "How many witnesses are required for an accusation against an elder?", "options": ["Two or three", "One", "Ten", "None"], "answer": 0 },
+        { "q": "Whom did Paul rebuke publicly in Galatians 2?", "options": ["Peter", "Barnabas", "Timothy", "Titus"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Forms of Church Government",
+      "intro": "Christians organise their churches in different ways. This week we compare the main forms fairly and consider women in leadership.",
+      "lessons": [
+        {
+          "title": "Episcopal and presbyterian",
+          "body": "**Episcopal** government (Catholic, Orthodox, Anglican, Methodist, and many Pentecostal and Nigerian independent churches): authority rests with bishops or overseers above local churches. Some trace this to the apostles' oversight of churches and to Timothy and Titus appointing elders in different cities (Titus 1:5).\n\n**Presbyterian** government (Presbyterian and Reformed churches): each church is led by a body of elders (session), and churches are joined in regional and national councils of elders (presbytery, synod). They point to elders in every church and to the Jerusalem council (Acts 15), where apostles and elders together settled a question for many churches.",
+          "refs": ["Titus 1:5", "Acts 15:1-6", "Acts 15:22-31"]
+        },
+        {
+          "title": "Congregational",
+          "body": "**Congregational** government (Baptists and many independent churches): each local church is self-governing under Christ, and the members as a whole have final authority in key decisions such as choosing leaders, receiving members and discipline.\n\nThey point to the church choosing the seven (Acts 6:3-5), the whole church disciplining (Matthew 18:17; 1 Corinthians 5:4-5), and letters addressed to whole congregations. Baptist churches cooperate freely in associations and conventions, such as the Nigerian Baptist Convention, without surrendering local autonomy.\n\nMost congregational churches are led by elders or a pastor with deacons, accountable to the members.",
+          "refs": ["Acts 6:3-5", "Matthew 18:17", "1 Corinthians 5:4-5"]
+        },
+        {
+          "title": "Women in church leadership",
+          "body": "Bible-believing Christians differ on whether women may serve as pastors or elders.\n\n**Complementarians** (many Baptist, Reformed and some Pentecostal churches) believe men and women are equal in worth but have different roles, with the office of elder or pastor reserved for qualified men. They cite 1 Timothy 2:12, the qualification \"husband of one wife\", and the order of creation (2:13).\n\n**Egalitarians** (many Methodist, Pentecostal and charismatic churches) believe all offices are open to gifted women. They cite Galatians 3:28, women prophesying (Acts 2:17; 21:9), Phoebe the deacon (Romans 16:1), Priscilla teaching Apollos (Acts 18:26) and Junia (Romans 16:7), and read 1 Timothy 2 as addressing a local problem.\n\nBoth agree women are fully gifted for ministry, and both must honour Scripture.",
+          "refs": ["1 Timothy 2:11-14", "Galatians 3:28", "Romans 16:1-7"]
+        }
+      ],
+      "terms": [
+        { "term": "Episcopal", "def": "Church government by bishops with authority over several churches." },
+        { "term": "Presbyterian", "def": "Church government by elders, joined in regional and national councils." },
+        { "term": "Congregational", "def": "Church government in which each local church governs itself under Christ." },
+        { "term": "Local autonomy", "def": "The self-governance of each local church, held by Baptists." },
+        { "term": "Complementarianism", "def": "The view that men and women are equal in worth with distinct roles, elder being for men." },
+        { "term": "Egalitarianism", "def": "The view that all church offices are open to gifted men and women." }
+      ],
+      "texts": [
+        { "ref": "Titus 1:5", "teaches": "Titus was left in Crete to ordain elders in every city." },
+        { "ref": "Acts 15:6", "teaches": "The apostles and elders came together to consider the matter." },
+        { "ref": "Acts 6:5", "teaches": "The saying pleased the whole multitude, and they chose Stephen and others." },
+        { "ref": "1 Timothy 2:12", "teaches": "Paul did not permit a woman to teach or usurp authority over a man." },
+        { "ref": "Romans 16:1", "teaches": "Phoebe was a servant (deacon) of the church at Cenchrea." }
+      ],
+      "summary": [
+        "Episcopal: bishops oversee many churches.",
+        "Presbyterian: elders lead, joined in councils.",
+        "Congregational: each church governs itself under Christ; Baptists cooperate in conventions.",
+        "Complementarians and egalitarians differ on women as elders; both value women's ministry."
+      ],
+      "questions": [
+        { "q": "Which form of government do Baptists practise?", "options": ["Congregational", "Episcopal", "Presbyterian", "Papal"], "answer": 0 },
+        { "q": "Which event do presbyterians cite for councils of elders?", "options": ["The Jerusalem council (Acts 15)", "Pentecost", "The Last Supper", "The Transfiguration"], "answer": 0 },
+        { "q": "Who was a servant (deacon) of the church at Cenchrea?", "options": ["Phoebe", "Lydia", "Dorcas", "Mary"], "answer": 0 },
+        { "q": "What do complementarians believe?", "options": ["Equal worth, distinct roles, elder for men", "Women may not serve at all", "Men are worth more", "There are no church offices"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Show from Scripture that elder, bishop and pastor are one office.", "keywords": [["Acts 20", "Titus 1"], ["elders", "overseers", "bishop"], ["feed", "shepherd", "pastor"]], "model": "In Acts 20:17, 28 the elders are called overseers who shepherd the church; Titus 1:5-7 uses elder and bishop for the same office." },
+      { "q": "What is servant leadership, according to Jesus?", "keywords": [["serve", "servant", "minister"], ["not", "lord", "dominion", "Gentiles"], ["Son of man", "example"]], "model": "Leading by serving others, not dominating as rulers do, following the example of the Son of man who came to serve." },
+      { "q": "Why were deacons appointed in Acts 6?", "keywords": [["widows", "distribution", "practical"], ["prayer", "word", "apostles"]], "model": "To oversee the daily distribution to widows so the apostles could give themselves to prayer and the ministry of the Word." },
+      { "q": "Summarise the qualifications for elders.", "keywords": [["character", "blameless"], ["home", "family", "house"], ["teach", "doctrine"], ["money", "greedy", "novice", "reputation"]], "model": "Mostly character: blameless, faithful in marriage, managing the home well, not greedy, not a novice, of good reputation, and able to teach." },
+      { "q": "Compare episcopal, presbyterian and congregational government.", "keywords": [["bishops", "episcopal"], ["elders", "councils", "presbyterian"], ["local", "members", "congregational"]], "model": "Episcopal: bishops oversee many churches; presbyterian: elders lead, joined in councils; congregational: each local church governs itself under Christ." },
+      { "q": "Summarise the complementarian and egalitarian views fairly.", "keywords": [["equal", "roles", "men", "complementarian"], ["open", "all offices", "women", "egalitarian"], ["1 Timothy 2", "Galatians 3:28"]], "model": "Complementarians hold equal worth with distinct roles, elder reserved for men (1 Timothy 2); egalitarians hold all offices open to gifted women (Galatians 3:28)." }
+    ],
+    "lists": [
+      { "q": "List five qualifications for a bishop in 1 Timothy 3.", "items": [["blameless"], ["husband of one wife", "faithful"], ["vigilant"], ["sober"], ["hospitality"], ["apt to teach"], ["not given to wine"], ["not greedy", "not covetous"], ["patient"], ["rules his house"], ["not a novice"], ["good report"]], "need": 5 },
+      { "q": "List four duties of elders.", "items": [["teach"], ["shepherd", "feed"], ["guard", "protect", "refute"], ["pray"], ["lead", "oversee", "rule"]], "need": 4 },
+      { "q": "List three forms of church government.", "items": [["episcopal"], ["presbyterian"], ["congregational"]], "need": 3 }
+    ]
+  },
+  "assignments": [
+    { "title": "Leaders after God's heart", "prompt": "Using 1 Timothy 3, Titus 1 and 1 Peter 5, write a profile of a godly church leader. Then identify three common failures of church leaders today and show from Scripture how they can be prevented.", "words": "500–700" },
+    { "title": "How my church is governed", "prompt": "Describe how your church or denomination is governed. Identify which form it follows, explain its biblical basis, and evaluate its strengths and possible weaknesses in the light of this course.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Alexander Strauch, Biblical Eldership",
+    "Chad Owen Brand and R. Stanton Norman (eds), Perspectives on Church Government: Five Views",
+    "James R. Beck (ed.), Two Views on Women in Ministry"
+  ]
+}

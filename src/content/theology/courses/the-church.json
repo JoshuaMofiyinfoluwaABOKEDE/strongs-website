@@ -1,0 +1,241 @@
+{
+  "slug": "the-church",
+  "title": "The Church",
+  "track": "church",
+  "level": "Foundation",
+  "summary": "What the church is, why it exists and how it should live: the people of God, the body of Christ and the temple of the Spirit.",
+  "description": "The church is not a building or a denomination but the people Christ has redeemed. This course explains the biblical pictures of the church, the difference between the universal and local church, the marks of a true church, its purposes of worship, edification and mission, and the call to unity, membership and discipline.",
+  "objectives": [
+    "Define the church and its relationship to Christ",
+    "Explain the main biblical pictures of the church",
+    "Distinguish the universal and local church",
+    "Describe the purposes and marks of a healthy church",
+    "Encourage committed membership, unity and loving discipline"
+  ],
+  "outcomes": [
+    "Explain the meaning of ekklesia",
+    "Describe the church as body, bride, temple and family",
+    "Name the marks of a true church",
+    "Explain the church's threefold purpose",
+    "Apply Matthew 18 to church discipline"
+  ],
+  "modules": [
+    {
+      "title": "What Is the Church?",
+      "intro": "This week we see what the Bible means by 'church' and how Christ builds it.",
+      "lessons": [
+        {
+          "title": "The called-out assembly",
+          "body": "The New Testament word for church is *ekklesia*, meaning an assembly or a people called out. The church is the gathering of those God has called out of darkness to belong to Christ (1 Peter 2:9).\n\nSo the church is **people**, not a building. Paul greeted \"the church that is in their house\" (Romans 16:5). When we say \"I am going to church\", we really mean \"I am going to meet with the church\".\n\nThe church belongs to Christ. He said, \"upon this rock I will build my church; and the gates of hell shall not prevail against it\" (Matthew 16:18). He \"purchased [it] with his own blood\" (Acts 20:28).",
+          "refs": ["Matthew 16:16-18", "Acts 20:28", "1 Peter 2:9-10"]
+        },
+        {
+          "title": "Universal and local",
+          "body": "The word church is used in two main ways:\n\n- **The universal church**: all true believers of every place and time. \"Christ also loved the church, and gave himself for it\" (Ephesians 5:25). Its members are known fully only to God (2 Timothy 2:19).\n- **The local church**: a particular congregation of believers meeting together, such as \"the church of God which is at Corinth\" (1 Corinthians 1:2).\n\nThe New Testament assumes every believer belongs to a local church, under its leaders and in its fellowship (Hebrews 13:17). Being part of the universal church shows itself in commitment to a local one.",
+          "refs": ["Ephesians 5:25-27", "1 Corinthians 1:2", "Hebrews 10:24-25"]
+        },
+        {
+          "title": "Israel and the church",
+          "body": "God has always had a people. In the Old Testament, Israel was called \"the congregation of the LORD\" and \"the church in the wilderness\" (Acts 7:38). The church began in its New Testament form at Pentecost, when the Spirit formed believing Jews, and later Gentiles, into one body.\n\nGentile believers are \"fellowcitizens with the saints\" (Ephesians 2:19) and grafted into God's olive tree (Romans 11:17).\n\nChristians differ on how closely Israel and the church relate. **Covenant theology** stresses continuity: one people of God across history. **Dispensationalism** stresses distinction: God still has particular promises for ethnic Israel. Both agree that salvation is by grace through faith in Christ.",
+          "refs": ["Ephesians 2:11-19", "Romans 11:17-24", "Galatians 3:28-29"]
+        }
+      ],
+      "terms": [
+        { "term": "Ekklesia", "def": "The Greek word for church: an assembly or people called out." },
+        { "term": "Universal church", "def": "All true believers of every place and time." },
+        { "term": "Local church", "def": "A particular congregation of believers who meet together." },
+        { "term": "Visible and invisible church", "def": "The church as we see it, including some false professors, and as God sees it, including only true believers." },
+        { "term": "Covenant theology", "def": "A framework stressing continuity between Israel and the church as one people of God." },
+        { "term": "Dispensationalism", "def": "A framework stressing distinction between Israel and the church in God's plan." }
+      ],
+      "texts": [
+        { "ref": "Matthew 16:18", "teaches": "Christ will build His church and the gates of hell shall not prevail." },
+        { "ref": "Acts 20:28", "teaches": "The church was purchased with Christ's own blood." },
+        { "ref": "1 Peter 2:9", "teaches": "Believers are a chosen generation called out of darkness." },
+        { "ref": "Hebrews 10:25", "teaches": "Do not forsake assembling together." },
+        { "ref": "Ephesians 2:19", "teaches": "Gentile believers are fellow citizens with the saints." }
+      ],
+      "summary": [
+        "The church is the people called out by God, not a building.",
+        "The universal church includes all true believers; the local church is a congregation.",
+        "Every believer should belong to a local church.",
+        "Covenant and dispensational theologians differ on Israel and the church."
+      ],
+      "questions": [
+        { "q": "What does ekklesia mean?", "options": ["An assembly called out", "A building", "A denomination", "A priest"], "answer": 0 },
+        { "q": "Who builds the church, according to Matthew 16:18?", "options": ["Christ", "Peter alone", "The state", "Pastors"], "answer": 0 },
+        { "q": "What is the universal church?", "options": ["All true believers everywhere and always", "The largest denomination", "Churches in one city", "Church buildings"], "answer": 0 },
+        { "q": "Which framework stresses continuity between Israel and the church?", "options": ["Covenant theology", "Dispensationalism", "Atheism", "Deism"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Pictures of the Church",
+      "intro": "The Bible uses many pictures to describe the church. This week we study four of the most important.",
+      "lessons": [
+        {
+          "title": "The body of Christ",
+          "body": "\"Now ye are the body of Christ, and members in particular\" (1 Corinthians 12:27). Christ is the head (Colossians 1:18); believers are the members.\n\nThis picture teaches:\n\n- **Unity**: one body, many parts (Romans 12:4-5).\n- **Diversity**: different gifts and functions (1 Corinthians 12:14-20).\n- **Interdependence**: \"whether one member suffer, all the members suffer with it\" (12:26).\n- **Growth**: the body grows as \"every joint supplieth\" (Ephesians 4:16).\n\nNo believer is unimportant, and no believer can grow well alone.",
+          "refs": ["1 Corinthians 12:12-27", "Colossians 1:18", "Ephesians 4:15-16"]
+        },
+        {
+          "title": "The bride and the temple",
+          "body": "**The bride of Christ**: Christ loves the church as a husband loves his wife, \"that he might present it to himself a glorious church, not having spot, or wrinkle\" (Ephesians 5:25-27). The story ends with \"the marriage of the Lamb\" (Revelation 19:7). This teaches love, faithfulness and purity.\n\n**The temple of the Holy Spirit**: \"Know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you?\" (1 Corinthians 3:16). Believers are \"lively stones\" built into a spiritual house, with Christ the chief cornerstone (1 Peter 2:5-6; Ephesians 2:20-22).\n\nGod no longer dwells in a building of stone but in His people.",
+          "refs": ["Ephesians 5:25-32", "1 Corinthians 3:16-17", "1 Peter 2:4-6"]
+        },
+        {
+          "title": "The family and the flock",
+          "body": "**The family of God**: believers are \"the household of God\" (Ephesians 2:19), brothers and sisters with one Father. Paul told Timothy to treat older men as fathers, younger men as brothers, older women as mothers, and younger women as sisters, \"with all purity\" (1 Timothy 5:1-2).\n\n**The flock**: Christ is \"the good shepherd\" and \"chief Shepherd\" (John 10:11; 1 Peter 5:4). Elders are under-shepherds who \"feed the flock of God\" (1 Peter 5:2).\n\nThese pictures cut across tribe and class: in the church a wealthy chief and a poor trader are brothers.",
+          "refs": ["Ephesians 2:19", "1 Timothy 5:1-2", "1 Peter 5:1-4"]
+        }
+      ],
+      "terms": [
+        { "term": "Body of Christ", "def": "The church as many members united under Christ the head." },
+        { "term": "Head of the church", "def": "Christ, who rules and nourishes His body." },
+        { "term": "Bride of Christ", "def": "The church as loved, cleansed and one day presented to Christ." },
+        { "term": "Lively stones", "def": "Believers built into God's spiritual house (1 Peter 2:5)." },
+        { "term": "Household of God", "def": "The church as God's family." },
+        { "term": "Chief Shepherd", "def": "Christ as the supreme pastor of His flock (1 Peter 5:4)." }
+      ],
+      "texts": [
+        { "ref": "1 Corinthians 12:27", "teaches": "You are the body of Christ, and members in particular." },
+        { "ref": "Colossians 1:18", "teaches": "Christ is the head of the body, the church." },
+        { "ref": "Ephesians 5:25", "teaches": "Christ loved the church and gave Himself for it." },
+        { "ref": "1 Corinthians 3:16", "teaches": "You are the temple of God, and His Spirit dwells in you." },
+        { "ref": "1 Peter 5:2", "teaches": "Elders are to feed the flock of God." }
+      ],
+      "summary": [
+        "Body: unity, diversity and interdependence under Christ the head.",
+        "Bride: Christ's love and the church's call to purity.",
+        "Temple: God dwells among His people by His Spirit.",
+        "Family and flock: one household under one Father and Shepherd."
+      ],
+      "questions": [
+        { "q": "Who is the head of the body?", "options": ["Christ", "The pastor", "The general overseer", "The oldest member"], "answer": 0 },
+        { "q": "What does the bride picture especially teach?", "options": ["Christ's love and the church's purity", "Church finance", "Building design", "Politics"], "answer": 0 },
+        { "q": "Where does God dwell now, according to 1 Corinthians 3:16?", "options": ["In His people", "Only in cathedrals", "In shrines", "Nowhere"], "answer": 0 },
+        { "q": "What are elders called to do in 1 Peter 5:2?", "options": ["Feed the flock", "Rule harshly", "Collect fees", "Avoid the people"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Why the Church Exists",
+      "intro": "This week we study the church's purposes and the marks of a true and healthy church.",
+      "lessons": [
+        {
+          "title": "Upward, inward, outward",
+          "body": "The church exists for three main purposes:\n\n1. **Worship (upward)**: \"that we should be to the praise of his glory\" (Ephesians 1:12). We gather to praise God, pray, hear His Word and remember Christ.\n2. **Edification (inward)**: building one another up to maturity \"till we all come in the unity of the faith\" (Ephesians 4:12-13). This includes teaching, fellowship, encouragement and care.\n3. **Mission (outward)**: making disciples of all nations (Matthew 28:19-20) and doing good to all (Galatians 6:10).\n\nA healthy church keeps all three in balance.",
+          "refs": ["Ephesians 1:11-12", "Ephesians 4:11-16", "Matthew 28:18-20"]
+        },
+        {
+          "title": "The pattern of Acts 2",
+          "body": "The first church \"continued stedfastly in the apostles' doctrine and fellowship, and in breaking of bread, and in prayers\" (Acts 2:42).\n\nWe see:\n\n- **Teaching** grounded in apostolic truth.\n- **Fellowship** (koinonia): sharing life and goods (2:44-45).\n- **Breaking of bread**: the Lord's Supper and shared meals.\n- **Prayer**, both together and in homes.\n- **Worship** with gladness (2:46-47).\n- **Growth**: \"the Lord added to the church daily such as should be saved\" (2:47).\n\nThis pattern still guides churches today.",
+          "refs": ["Acts 2:41-47", "Acts 4:32-35"]
+        },
+        {
+          "title": "Marks of a true church",
+          "body": "The Reformers asked: how can we recognise a true church? They named key marks:\n\n1. **The Word of God rightly preached** (2 Timothy 4:2).\n2. **The ordinances rightly administered**: baptism and the Lord's Supper (Matthew 28:19; 1 Corinthians 11:23-26).\n3. **Discipline faithfully exercised**, so that the church remains holy (Matthew 18:15-17).\n\nTo these, many add **love** (John 13:35) and **holiness of life**. A church may be large, rich or famous and still lack these marks; a small, poor church may have them all.",
+          "refs": ["2 Timothy 4:1-4", "John 13:34-35", "1 Corinthians 11:23-26"]
+        }
+      ],
+      "terms": [
+        { "term": "Worship", "def": "Honouring God with our praise, prayer, obedience and lives." },
+        { "term": "Edification", "def": "Building up believers in faith and maturity." },
+        { "term": "Koinonia", "def": "Greek for fellowship: sharing in Christ and with one another." },
+        { "term": "Apostles' doctrine", "def": "The teaching of the apostles, now recorded in the New Testament." },
+        { "term": "Marks of the church", "def": "Signs of a true church: right preaching, ordinances and discipline." },
+        { "term": "Ordinances", "def": "Baptism and the Lord's Supper, commanded by Christ." }
+      ],
+      "texts": [
+        { "ref": "Ephesians 4:12", "teaches": "Leaders equip the saints for the work of ministry and building up the body." },
+        { "ref": "Acts 2:42", "teaches": "The first church continued in doctrine, fellowship, breaking of bread and prayers." },
+        { "ref": "Acts 2:47", "teaches": "The Lord added to the church daily such as should be saved." },
+        { "ref": "2 Timothy 4:2", "teaches": "Preach the word; be instant in season and out of season." },
+        { "ref": "John 13:35", "teaches": "All will know Christ's disciples by their love for one another." }
+      ],
+      "summary": [
+        "The church exists for worship, edification and mission.",
+        "Acts 2:42-47 gives a lasting pattern for church life.",
+        "A true church preaches the Word, keeps the ordinances and exercises discipline.",
+        "Love and holiness also mark Christ's people."
+      ],
+      "questions": [
+        { "q": "What are the three main purposes of the church?", "options": ["Worship, edification and mission", "Business, politics and entertainment", "Buildings, programmes and fees", "Music, food and sport"], "answer": 0 },
+        { "q": "What does koinonia mean?", "options": ["Fellowship", "Offering", "Prayer", "Teaching"], "answer": 0 },
+        { "q": "Which is a Reformation mark of a true church?", "options": ["The Word rightly preached", "A large building", "Famous members", "A big choir"], "answer": 0 },
+        { "q": "By what will all know Christ's disciples?", "options": ["Their love for one another", "Their wealth", "Their clothing", "Their numbers"], "answer": 0 }
+      ]
+    },
+    {
+      "title": "Belonging, Unity and Discipline",
+      "intro": "The church is a committed community. This week we study membership, unity across divisions, and loving discipline.",
+      "lessons": [
+        {
+          "title": "Committed membership",
+          "body": "In the New Testament, believers were baptized and \"added unto them\" (Acts 2:41). Churches knew who belonged: they could choose leaders (Acts 6:3), gather to discipline (1 Corinthians 5:4), and receive back the repentant (2 Corinthians 2:6-8).\n\nMembership means commitment: to attend faithfully (Hebrews 10:25), to serve with your gifts, to give, to pray, to submit to godly leaders (Hebrews 13:17), and to bear one another's burdens (Galatians 6:2).\n\nChurch-hopping, or belonging nowhere, cuts believers off from care and accountability. Find a faithful church and commit to it.",
+          "refs": ["Acts 2:41", "Hebrews 13:17", "Galatians 6:1-2"]
+        },
+        {
+          "title": "Keeping the unity",
+          "body": "\"Endeavouring to keep the unity of the Spirit in the bond of peace. There is one body, and one Spirit... One Lord, one faith, one baptism\" (Ephesians 4:3-5).\n\nThe church must overcome divisions of tribe, language, class and denomination. In Christ \"there is neither Jew nor Greek... bond nor free... male nor female\" (Galatians 3:28). Corinth was divided by favourite preachers (1 Corinthians 1:12); James rebuked favouring the rich (James 2:1-4).\n\nUnity is not uniformity. Believers may differ on secondary matters (Romans 14) while standing together on the gospel. Jesus prayed \"that they all may be one... that the world may believe\" (John 17:21).",
+          "refs": ["Ephesians 4:1-6", "John 17:20-23", "Romans 14:1-4"]
+        },
+        {
+          "title": "Loving church discipline",
+          "body": "Jesus gave steps for dealing with sin among believers (Matthew 18:15-17):\n\n1. Go privately to the person.\n2. If he does not listen, take one or two others.\n3. If still unrepentant, tell the church.\n4. If he refuses to hear the church, treat him as an outsider.\n\nThe goal is always **restoration**: \"thou hast gained thy brother\" (18:15). Discipline also protects the church's purity (1 Corinthians 5:6-7) and witness.\n\nDiscipline must be humble (Galatians 6:1), fair, and never used to settle personal quarrels. When the sinner repents, the church must \"forgive him, and comfort him\" (2 Corinthians 2:7).",
+          "refs": ["Matthew 18:15-17", "1 Corinthians 5:1-7", "2 Corinthians 2:6-8"]
+        }
+      ],
+      "terms": [
+        { "term": "Church membership", "def": "Formal, committed belonging to a local church." },
+        { "term": "Unity of the Spirit", "def": "The oneness believers share in Christ, which they must keep in peace." },
+        { "term": "Uniformity", "def": "Everyone being the same in every detail, which unity does not require." },
+        { "term": "Secondary matters", "def": "Questions on which faithful believers may differ without denying the gospel." },
+        { "term": "Church discipline", "def": "The church's loving correction of members who persist in sin." },
+        { "term": "Restoration", "def": "The goal of discipline: bringing an erring believer back." }
+      ],
+      "texts": [
+        { "ref": "Acts 2:41", "teaches": "Those who received the word were baptized and added to the church." },
+        { "ref": "Hebrews 13:17", "teaches": "Obey and submit to those who watch over your souls." },
+        { "ref": "Ephesians 4:3", "teaches": "Keep the unity of the Spirit in the bond of peace." },
+        { "ref": "John 17:21", "teaches": "Jesus prayed that believers may be one so the world may believe." },
+        { "ref": "Matthew 18:15", "teaches": "If your brother trespasses, go and tell him his fault privately." }
+      ],
+      "summary": [
+        "Believers should commit to a local church as members.",
+        "Membership means attending, serving, giving, praying and submitting.",
+        "The church must keep unity across tribe, class and secondary differences.",
+        "Discipline follows Matthew 18 and aims at restoration."
+      ],
+      "questions": [
+        { "q": "What is the first step of discipline in Matthew 18?", "options": ["Go to the person privately", "Tell the whole church", "Report to the police", "Ignore it"], "answer": 0 },
+        { "q": "What is the main goal of church discipline?", "options": ["Restoration", "Punishment", "Shame", "Revenge"], "answer": 0 },
+        { "q": "Why did Jesus pray for unity in John 17?", "options": ["That the world may believe", "To make churches rich", "To end preaching", "To unite governments"], "answer": 0 },
+        { "q": "What divided the Corinthian church?", "options": ["Favourite preachers", "Language", "Distance", "Persecution"], "answer": 0 }
+      ]
+    }
+  ],
+  "written": {
+    "short": [
+      { "q": "Define the church and explain the meaning of ekklesia.", "keywords": [["people", "assembly", "called out"], ["Christ", "believers", "redeemed"]], "model": "The church is the people Christ has redeemed; ekklesia means an assembly called out." },
+      { "q": "Distinguish the universal church from the local church.", "keywords": [["all", "every", "universal"], ["congregation", "particular", "local"]], "model": "The universal church is all true believers everywhere and always; the local church is a particular congregation that meets together." },
+      { "q": "What does the body picture teach about the church?", "keywords": [["unity", "one"], ["diversity", "gifts", "different"], ["interdependence", "need", "suffer"]], "model": "Unity under Christ the head, diversity of gifts, and interdependence: every member needs the others." },
+      { "q": "Name the three purposes of the church.", "keywords": [["worship"], ["edification", "build"], ["mission", "evangelism", "disciples"]], "model": "Worship, edification and mission." },
+      { "q": "What are the Reformation marks of a true church?", "keywords": [["word", "preach"], ["ordinances", "sacraments", "baptism", "Lord's Supper"], ["discipline"]], "model": "The Word rightly preached, the ordinances rightly administered and discipline faithfully exercised." },
+      { "q": "Explain the purpose and process of church discipline.", "keywords": [["restore", "restoration", "gain"], ["private", "one or two", "church", "Matthew 18"]], "model": "Discipline aims to restore the erring and keep the church pure, moving from private rebuke to witnesses to the whole church (Matthew 18:15-17)." }
+    ],
+    "lists": [
+      { "q": "List four biblical pictures of the church.", "items": [["body"], ["bride"], ["temple"], ["family", "household"], ["flock"], ["building", "house"]], "need": 4 },
+      { "q": "List four activities of the church in Acts 2:42-47.", "items": [["doctrine", "teaching"], ["fellowship"], ["breaking of bread", "Lord's Supper"], ["prayer"], ["sharing", "giving"], ["praise", "worship"]], "need": 4 },
+      { "q": "List four commitments of church membership.", "items": [["attend"], ["serve"], ["give"], ["pray"], ["submit", "obey"], ["care", "burdens"]], "need": 4 }
+    ]
+  },
+  "assignments": [
+    { "title": "Why I need the church", "prompt": "A friend says, \"I love Jesus, but I don't need the church.\" Write a reply using the biblical pictures of the church and at least five passages from this course.", "words": "400–600" },
+    { "title": "Assessing a church", "prompt": "Using the marks of a true church and the pattern of Acts 2:42-47, assess the strengths and weaknesses of your own church (without naming individuals). Suggest three practical steps toward greater health.", "words": "500–700" }
+  ],
+  "examMinutes": 60,
+  "reading": [
+    "Edmund P. Clowney, The Church",
+    "Mark Dever, Nine Marks of a Healthy Church",
+    "Gregg R. Allison, Sojourners and Strangers: The Doctrine of the Church"
+  ]
+}
