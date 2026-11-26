@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { courseCategories, courseFacts, courses, coursesIn } from "@/content/courses";
+import { courseFacts, courses as builtIn } from "@/content/courses";
+import { getCatalogue, getCategories } from "@/lib/lms";
+import { LearnBar } from "@/components/learn/LearnBar";
 import { CourseCard } from "@/components/CourseCard";
 import { Carousel } from "@/components/Carousel";
 import { SectionHeading } from "@/components/ui";
@@ -9,13 +11,20 @@ import { Book, Cap, Clock, People } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "Courses",
-  description: `Short courses from STRONGS in the Bible, evangelism, writing, singing, media, leadership, health and life skills. ${courses.length} courses, free to join.`,
+  description: `Short courses from STRONGS in the Bible, evangelism, writing, singing, media, leadership, health and life skills. ${builtIn.length} courses, free to join, self-paced.`,
 };
 
-export default function CoursesPage() {
+// Course details are managed in the admin area; refresh the catalogue at most every few minutes.
+export const revalidate = 300;
+
+export default async function CoursesPage() {
+  const courses = await getCatalogue();
+  const courseCategories = await getCategories();
+  const coursesIn = (cat: string) => courses.filter((c) => c.category === cat);
   const featured = courses.filter((c) => c.featured);
   return (
     <>
+      <LearnBar />
       <section aria-labelledby="co-title" className="bg-navy text-white">
         <div className="container-site grid items-center gap-12 py-[clamp(3.5rem,7vw,6rem)] lg:grid-cols-[1.25fr_1fr]">
           <div className="flex flex-col gap-6">
@@ -24,7 +33,7 @@ export default function CoursesPage() {
               Sharpen your mind. <span className="text-gold">Build your future.</span>
             </h1>
             <p className="lead max-w-xl text-pale">
-              {courses.length} short courses for spiritual intellectuals: writing, music, media and design, leadership, health, digital skills, enterprise and sound biblical thinking. Practical, well-taught and online, in a few hours a week.
+              {courses.length} short courses for spiritual intellectuals: writing, music, media and design, leadership, health, digital skills, enterprise and sound biblical thinking. Practical, well-taught and self-paced: study online whenever it suits you, and earn a certificate.
             </p>
             <CourseSearch />
           </div>
@@ -92,13 +101,13 @@ export default function CoursesPage() {
 
       <section aria-labelledby="how-title" className="bg-navy text-white">
         <div className="container-site section-pad grid items-start gap-12 lg:grid-cols-2">
-          <SectionHeading dark id="how-title" eyebrow="How it works" title="Short, practical and shared" intro="Every course is short enough to finish and practical enough to use. You learn with others, in a WhatsApp group or on Google Meet, and put it to work in the field." />
+          <SectionHeading dark id="how-title" eyebrow="How it works" title="Short, practical and self-paced" intro="Every course is short enough to finish and practical enough to use. Study online at your own pace, test what you have learnt, and put it to work in the field." />
           <ol className="flex flex-col gap-4">
             {[
-              ["Register your interest", "Choose a course and tell us. We'll write when enrolment opens."],
-              ["Join your class", "Lessons online, a few hours a week, with exercises between sessions."],
-              ["Put it to work", "Serve at a crusade, a Bible Club, a school outreach or your own church."],
-              ["Finish well", `${courseFacts.certificate} when you complete the course.`],
+              ["Create a free account", "Choose a course and enrol. If its lessons are still being prepared, register your interest."],
+              ["Study at your pace", "Read each lesson, do the practical assignments and take the quizzes, on your phone or computer."],
+              ["Pick up where you stopped", "My learning keeps your progress and takes you straight back to your next lesson."],
+              ["Finish well", `${courseFacts.certificate}: download it as soon as you complete the course.`],
             ].map(([t, d], n) => (
               <li key={t} className="flex gap-4 rounded-2xl bg-navy-2 p-5">
                 <span className="text-lg font-extrabold text-gold">{n + 1}</span>

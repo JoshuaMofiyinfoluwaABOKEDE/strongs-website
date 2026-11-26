@@ -1,11 +1,14 @@
 import type { NextConfig } from "next";
 
-// Static export: every page becomes plain HTML, so the site can be hosted
-// anywhere (Vercel, Netlify, cPanel) and deep links like /about/ always work.
+// Public pages are still pre-built as static HTML; the courses platform
+// (accounts, lessons, progress, certificates and admin) runs on the server.
 const nextConfig: NextConfig = {
-  output: "export",
   trailingSlash: true,
   images: { unoptimized: true },
+  serverExternalPackages: ["pg"],
+  outputFileTracingIncludes: {
+    "/certificates/[code]/pdf": ["./src/assets/certificate/**"],
+  },
 };
 
 export default nextConfig;
