@@ -3,6 +3,7 @@ import Link from "next/link";
 import { books } from "@/content/books";
 import { notFound } from "next/navigation";
 import { articles, getArticle } from "@/content/articles";
+import { ArticleComments } from "@/components/comments/ArticleComments";
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
@@ -64,6 +65,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <div className="mt-12 flex flex-wrap justify-between gap-4 border-t border-line pt-6 text-[0.9375rem]">
             {prev ? <Link href={`/resources/${prev.slug}/`} className="font-semibold">← {prev.title}</Link> : <span />}
             {next && <Link href={`/resources/${next.slug}/`} className="font-semibold">{next.title} →</Link>}
+          </div>
+          <div className="mt-12">
+            <ArticleComments article={a.slug} />
           </div>
         </div>
       </article>

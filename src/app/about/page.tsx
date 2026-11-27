@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { leaders, site } from "@/content/site";
 import { PageHero, Photo, Portrait, Scripture, SectionHeading } from "@/components/ui";
+import { Book, Check, Cross, Globe, Handshake, Lightbulb, Plus, Shield } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "Who we are",
@@ -9,17 +10,17 @@ export const metadata: Metadata = {
 };
 
 const convictions = [
-  { title: "Christ at the centre", text: "Christ is the centre of all we do." },
-  { title: "Grounded in Scripture", text: "The Bible is our final authority and shapes how we live." },
-  { title: "Sound in thought", text: "We love God with all our heart and all our mind." },
-  { title: "Sent to the nations", text: "Every Christian is called not only to follow Christ but to join His mission of making disciples of all nations." },
+  { icon: Cross, title: "Christ at the centre" },
+  { icon: Book, title: "Grounded in Scripture" },
+  { icon: Lightbulb, title: "Sound in thought" },
+  { icon: Globe, title: "Sent to the nations" },
 ];
 
 const principles = [
-  { title: "Dignity and consent", text: "No photos or stories without permission." },
-  { title: "Qualified practitioners", text: "Medical care only by licensed professionals." },
-  { title: "Local partnership", text: "We work with community and church leaders." },
-  { title: "Honest reporting", text: "We publish only verified outcomes." },
+  { icon: Shield, title: "Dignity and consent" },
+  { icon: Plus, title: "Qualified practitioners" },
+  { icon: Handshake, title: "Local partnership" },
+  { icon: Check, title: "Honest reporting" },
 ];
 
 export default function AboutPage() {
@@ -28,7 +29,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="Who we are"
         title="A gospel mission raising spiritual intellectuals"
-        intro={`STRONGS, The Spiritual Intellectuals, is a Christian, non-denominational mission led by its General Coordinator, ${site.coordinator}. We exist to proclaim the gospel of Jesus Christ, disciple believers through sound biblical teaching and equip a generation for effective service in God's kingdom.`}
+        intro="A Christian, non-denominational mission: we preach Christ, teach the Word and equip a generation to serve."
       />
 
       <section aria-labelledby="story-title" className="bg-white">
@@ -80,11 +81,11 @@ export default function AboutPage() {
           </div>
           <div className="flex flex-col gap-4 pt-2">
             <p className="eyebrow">Our convictions</p>
-            <ul className="grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
-              {convictions.map((c) => (
-                <li key={c.title} className="flex flex-col gap-1.5 border-t-[3px] border-gold pt-4">
-                  <h3 className="text-xl font-semibold text-navy">{c.title}</h3>
-                  <p className="text-[0.9375rem] text-muted">{c.text}</p>
+            <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+              {convictions.map(({ icon: Icon, title }) => (
+                <li key={title} className="flex flex-col items-center gap-3 rounded-2xl bg-white px-4 py-6 text-center">
+                  <span className="grid h-14 w-14 place-items-center rounded-full bg-navy text-gold"><Icon size={26} /></span>
+                  <h3 className="text-lg font-semibold leading-snug text-navy">{title}</h3>
                 </li>
               ))}
             </ul>
@@ -120,7 +121,6 @@ export default function AboutPage() {
               id="serve-title"
               eyebrow="Mercy alongside the message"
               title="Faith expressed through responsible service"
-              intro="The gospel we preach moves us to practical care. Our medical mission and community work serve people with dignity, alongside qualified professionals and local leaders."
             />
             <blockquote className="border-t border-pale pt-5 text-xl font-medium italic leading-relaxed text-navy">
               “As we have therefore opportunity, let us do good unto all men.”
@@ -128,10 +128,10 @@ export default function AboutPage() {
             </blockquote>
           </div>
           <ul className="grid gap-4 sm:grid-cols-2">
-            {principles.map((p) => (
-              <li key={p.title} className="flex flex-col gap-1.5 rounded-2xl bg-white p-6">
-                <h3 className="text-lg font-semibold text-navy">{p.title}</h3>
-                <p className="text-[0.9375rem] text-muted">{p.text}</p>
+            {principles.map(({ icon: Icon, title }) => (
+              <li key={title} className="flex items-center gap-4 rounded-2xl bg-white p-5">
+                <span className="grid h-12 w-12 flex-none place-items-center rounded-full bg-mist text-royal"><Icon size={24} /></span>
+                <h3 className="text-lg font-semibold leading-snug text-navy">{title}</h3>
               </li>
             ))}
           </ul>

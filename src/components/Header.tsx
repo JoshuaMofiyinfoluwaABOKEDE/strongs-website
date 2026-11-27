@@ -51,14 +51,17 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
+          {/* My learning belongs to the courses: it shows only there, on computers (phones use the bottom tab bar). */}
+          {inCourseArea(pathname) && (
           <Link
             href="/dashboard/"
             aria-label="My learning"
             title="My learning"
-            className={`h-11 w-11 items-center justify-center rounded-full border border-line text-navy no-underline hover:border-navy hover:text-royal ${inCourseArea(pathname) ? "hidden lg:inline-flex" : "inline-flex"}`}
+            className="hidden h-11 w-11 items-center justify-center rounded-full border border-line text-navy no-underline hover:border-navy hover:text-royal lg:inline-flex"
           >
             <User size={20} />
           </Link>
+          )}
           <Link href="/get-involved/#give" className="btn btn-navy hidden min-h-11 px-6 text-[0.9375rem] sm:inline-flex">
             Give
           </Link>

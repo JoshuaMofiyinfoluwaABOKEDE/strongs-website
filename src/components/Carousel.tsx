@@ -15,9 +15,7 @@ export function Carousel({ label, children, dark = false, className = "" }: { la
     <div data-carousel className={`carousel relative flex flex-col gap-3 ${className}`} role="region" aria-label={label}>
       <div className="carousel-bar items-center justify-end gap-3">
         <span className={`mr-auto text-sm font-medium ${dark ? "text-pale" : "text-muted"}`}>
-          <span className="hidden sm:inline">Use the arrows to see more</span>
-          <span className="sm:hidden">Swipe or tap the arrows</span>
-          <span data-carousel-count className={`ml-2 font-semibold ${dark ? "text-gold" : "text-royal"}`} />
+          <span data-carousel-count className={`font-semibold ${dark ? "text-gold" : "text-royal"}`} />
         </span>
         <button type="button" data-carousel-prev aria-label={`Scroll ${label} back`} className={btn}>
           <ChevronLeft size={22} />

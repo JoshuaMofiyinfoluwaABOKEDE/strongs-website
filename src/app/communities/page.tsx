@@ -4,7 +4,8 @@ import { communities, communityBenefits, rhythm } from "@/content/communities";
 import { events } from "@/content/events";
 import { SectionHeading } from "@/components/ui";
 import { StrongsForm } from "@/components/Form";
-import { Shield } from "@/components/icons";
+import { Shield, People } from "@/components/icons";
+import { communityIcons } from "@/content/community-icons";
 
 /** Which course subject each community's "Take a course" button opens. */
 const communityCourses: Record<string, { subject: string; label: string }> = {
@@ -35,9 +36,17 @@ export default function CommunitiesPage() {
             <h1 id="comm-title" className="text-[clamp(2.4rem,4.8vw,3.9rem)] font-bold leading-[1.08] tracking-[-0.02em]">
               Connecting people. Developing potential. <span className="text-gold">Building purposeful communities.</span>
             </h1>
-            <p className="lead max-w-2xl text-pale">
-              A network of communities where people who share a gift, a skill or a calling meet, learn from experienced hands, grow together and put their gifts to work for the advancement of God&apos;s Kingdom and society.
-            </p>
+            <ul className="flex flex-wrap gap-2.5">
+              {communities.map((c) => {
+                const Icon = communityIcons[c.short] ?? People;
+                return (
+                  <li key={c.short} title={c.short} className="grid h-12 w-12 place-items-center rounded-full bg-navy-2 text-gold">
+                    <Icon size={22} />
+                    <span className="sr-only">{c.short}</span>
+                  </li>
+                );
+              })}
+            </ul>
             <div className="flex flex-wrap gap-3.5">
               <a href="#join" className="btn btn-gold">Join a community</a>
               <a href="#communities" className="btn btn-line-light">See the eight communities</a>
@@ -69,7 +78,10 @@ export default function CommunitiesPage() {
             {communities.map((c) => (
               <details key={c.name} className="group flex flex-col gap-3 rounded-3xl border border-line bg-white p-7">
                 <summary className="flex cursor-pointer list-none flex-col gap-3">
-                  {c.flagship && <span className="self-start rounded-full bg-gold px-3 py-0.5 text-[0.6875rem] font-bold uppercase tracking-[0.12em] text-navy">{c.flagship}</span>}
+                  <span className="flex items-center justify-between gap-2">
+                    {(() => { const Icon = communityIcons[c.short] ?? People; return <span className="grid h-12 w-12 place-items-center rounded-2xl bg-mist text-royal"><Icon size={26} /></span>; })()}
+                    {c.flagship && <span className="rounded-full bg-gold px-3 py-0.5 text-[0.6875rem] font-bold uppercase tracking-[0.12em] text-navy">{c.flagship}</span>}
+                  </span>
                   <h3 className="text-xl font-bold leading-snug text-navy">{c.name}</h3>
                   <p className="text-[0.9375rem] text-muted">{c.focus}</p>
                   <span className="text-sm font-semibold text-royal group-open:hidden">Areas and activities +</span>
@@ -148,7 +160,6 @@ export default function CommunitiesPage() {
                 <p className="text-3xl font-extrabold leading-none text-gold">{i + 1}</p>
                 <h3 className="text-xl font-semibold">{r.name}</h3>
                 <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gold">{r.purpose}</p>
-                <p className="text-[0.9375rem] text-pale">{r.text}</p>
               </li>
             ))}
           </ol>

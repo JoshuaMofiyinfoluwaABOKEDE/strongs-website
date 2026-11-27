@@ -254,4 +254,31 @@ CREATE TABLE IF NOT EXISTS lms_forum_report (
 );
 `,
   },
+  {
+    id: 4,
+    name: "comments on resource articles",
+    sql: `
+CREATE TABLE IF NOT EXISTS site_comment (
+  id SERIAL PRIMARY KEY,
+  article TEXT NOT NULL,
+  user_id TEXT NOT NULL,
+  parent_id INT REFERENCES site_comment(id) ON DELETE CASCADE,
+  body TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  deleted_at TIMESTAMPTZ,
+  deleted_by TEXT
+);
+CREATE INDEX IF NOT EXISTS site_comment_article_idx ON site_comment(article, created_at);
+CREATE INDEX IF NOT EXISTS site_comment_user_idx ON site_comment(user_id, created_at);
+
+CREATE TABLE IF NOT EXISTS site_comment_report (
+  comment_id INT NOT NULL REFERENCES site_comment(id) ON DELETE CASCADE,
+  user_id TEXT NOT NULL,
+  reason TEXT NOT NULL DEFAULT '',
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  resolved_at TIMESTAMPTZ,
+  PRIMARY KEY (comment_id, user_id)
+);
+`,
+  },
 ];

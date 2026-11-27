@@ -4,6 +4,9 @@ import { missions } from "@/content/missions";
 import { college } from "@/content/college";
 import { Photo, PhotoSlot, SectionHeading } from "@/components/ui";
 import { Carousel } from "@/components/Carousel";
+import { Book, Camera, Cap, People, Play, Plus } from "@/components/icons";
+
+const missionIcons: Record<string, typeof Book> = { medical: Plus, school: Cap, drama: Play, educational: Book, media: Camera, children: People };
 
 export const metadata: Metadata = {
   title: "STRONGS Missions",
@@ -21,20 +24,23 @@ export default function MissionsPage() {
             <h1 id="mis-title" className="text-[clamp(2.6rem,5.4vw,4.5rem)] font-extrabold leading-[1.04] tracking-[-0.03em]">
               Specialised missions. <span className="text-gold">One gospel.</span>
             </h1>
-            <p className="lead text-pale">
-              Alongside our crusades, six specialised missions carry the gospel into hospitals and homes, schools and campuses, stages and screens, and among children, so that every gift is sent into the harvest.
-            </p>
+            <p className="lead text-pale">Six missions, so that every gift is sent into the harvest.</p>
           </div>
           <ul className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
-            {missions.map((m) => (
-              <li key={m.id}>
-                <a href={`#${m.id}`} className="flex h-full flex-col gap-2 rounded-2xl bg-navy-2 p-6 text-white no-underline hover:bg-[#1a3760] hover:text-white">
-                  <span className="text-sm font-bold text-gold">{m.letter}</span>
-                  <span className="text-lg font-semibold leading-snug">{m.short}</span>
-                  <span className="text-sm text-pale">{m.leader?.name ?? "STRONGS leadership"}</span>
-                </a>
-              </li>
-            ))}
+            {missions.map((m) => {
+              const Icon = missionIcons[m.id] ?? Book;
+              return (
+                <li key={m.id}>
+                  <a href={`#${m.id}`} className="flex h-full items-center gap-4 rounded-2xl bg-navy-2 p-5 text-white no-underline hover:bg-[#1a3760] hover:text-white">
+                    <span className="grid h-12 w-12 flex-none place-items-center rounded-full bg-gold text-navy"><Icon size={24} /></span>
+                    <span className="flex min-w-0 flex-col">
+                      <span className="text-lg font-semibold leading-snug">{m.short}</span>
+                      <span className="text-sm text-pale">{m.leader?.name ?? "STRONGS leadership"}</span>
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </section>
@@ -43,7 +49,10 @@ export default function MissionsPage() {
         <section key={m.id} id={m.id} aria-labelledby={`${m.id}-title`} className={i % 2 ? "bg-mist" : "bg-white"}>
           <div className="container-site section-pad grid items-start gap-11 lg:grid-cols-2">
             <div className="flex flex-col gap-4">
-              <p className="eyebrow">Mission {m.letter}</p>
+              <p className="eyebrow flex items-center gap-2.5">
+                {(() => { const Icon = missionIcons[m.id] ?? Book; return <span className="grid h-9 w-9 place-items-center rounded-full bg-navy text-gold"><Icon size={18} /></span>; })()}
+                Mission {m.letter}
+              </p>
               <h2 id={`${m.id}-title`} className="h2 text-navy">{m.name}</h2>
               <p className="text-[1.0625rem] font-semibold text-navy">{m.focus}</p>
               <p className="lead text-muted">{m.intro}</p>

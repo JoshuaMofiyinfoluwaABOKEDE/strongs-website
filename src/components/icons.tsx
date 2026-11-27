@@ -216,3 +216,105 @@ export const User = (p: IconProps) => (
     <path d="M4 21a8 8 0 0 1 16 0" />
   </Svg>
 );
+
+export const Reply = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M9 14 4 9l5-5" />
+    <path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11" />
+  </Svg>
+);
+
+export const Trash = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M3 6h18" />
+    <path d="M8 6V4h8v2" />
+    <path d="M19 6l-1 14H6L5 6" />
+  </Svg>
+);
+
+export const Flag = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M4 22V4" />
+    <path d="M4 4h12l-2 4 2 4H4" />
+  </Svg>
+);
+
+export const Send = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M22 2 11 13" />
+    <path d="M22 2 15 22l-4-9-9-4z" />
+  </Svg>
+);
+
+export const Megaphone = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M3 11v2a1 1 0 0 0 1 1h3l5 4V6L7 10H4a1 1 0 0 0-1 1z" />
+    <path d="M16 8a5 5 0 0 1 0 8" />
+    <path d="M19 5a9 9 0 0 1 0 14" />
+  </Svg>
+);
+
+export const Cross = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M12 2v20" />
+    <path d="M6 8h12" />
+  </Svg>
+);
+
+export const PrayingHands = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M12 3v9" />
+    <path d="M12 12 9 6.5a1.5 1.5 0 0 0-2.7 1.2L8 13l-3 4 3 4h4" />
+    <path d="M12 12l3-5.5a1.5 1.5 0 0 1 2.7 1.2L16 13l3 4-3 4h-4" />
+  </Svg>
+);
+
+export const Gift = (p: IconProps) => (
+  <Svg {...p}>
+    <rect x="3" y="8" width="18" height="4" rx="1" />
+    <path d="M5 12v9h14v-9" />
+    <path d="M12 8v13" />
+    <path d="M12 8c-1.5-3-5-4-5-1.5S10 8 12 8c2 0 5 0 5-1.5S13.5 5 12 8z" />
+  </Svg>
+);
+
+export const Lightbulb = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M9 18h6" />
+    <path d="M10 22h4" />
+    <path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3h6c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2z" />
+  </Svg>
+);
+
+export const Handshake = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="m11 17 2 2a1.4 1.4 0 0 0 2-2" />
+    <path d="m14 14 2.5 2.5a1.4 1.4 0 0 0 2-2L15 11l-2.5 2.5a1.6 1.6 0 0 1-2.3-2.3L13 8.5h3l3 3" />
+    <path d="M2 11l4-4 4 1" />
+    <path d="M5 14l4 4a1.4 1.4 0 0 0 2-2" />
+    <path d="M19 7l3 4" />
+  </Svg>
+);
+
+export const Check = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M20 6 9 17l-5-5" />
+  </Svg>
+);
+
+export const Church = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M12 2v5" />
+    <path d="M10 4h4" />
+    <path d="m6 11 6-4 6 4" />
+    <path d="M6 11v10h12V11" />
+    <path d="M10 21v-4a2 2 0 0 1 4 0v4" />
+  </Svg>
+);
+
+export const Eye = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z" />
+    <circle cx="12" cy="12" r="3" />
+  </Svg>
+);

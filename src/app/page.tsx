@@ -11,7 +11,8 @@ import { Carousel } from "@/components/Carousel";
 import { Slideshow } from "@/components/Slideshow";
 import { Scripture, SectionHeading, TextLink } from "@/components/ui";
 import { StrongsForm } from "@/components/Form";
-import { ArrowRight, Cap, Flame, Globe, Heart, Music, Pin, Plus, Sun } from "@/components/icons";
+import { ArrowRight, Book, Cap, Flame, Globe, Heart, Lightbulb, Megaphone, Music, Package, People, Pin, Plus, PrayingHands, Shield, Sun } from "@/components/icons";
+import { communityIcons } from "@/content/community-icons";
 
 const heritage = [
   { era: "The Reformers", quote: "My conscience is captive to the Word of God.", who: "Martin Luther, 1521" },
@@ -175,16 +176,16 @@ export default function HomePage() {
               <p className="lead max-w-2xl text-muted">
                 Five days of lifting up Christ in Sepeteri. Come and hear, come and serve, and pray that many will be saved.
               </p>
-              <ul className="grid gap-x-8 sm:grid-cols-2">
+              <ul className="grid grid-cols-2 gap-3 lg:grid-cols-4">
                 {[
-                  ["Gospel meetings", "Christ preached in the open to the whole town."],
-                  ["Students' programme", "Reaching students and young adults."],
-                  ["Ministers' and workers' conference", "Equipping labourers for follow-up."],
-                  ["Medical mission", "Care by qualified professionals."],
-                ].map(([t, d]) => (
-                  <li key={t} className="border-t border-line py-4">
-                    <strong className="block font-semibold text-navy">{t}</strong>
-                    <span className="text-[0.9375rem] text-muted">{d}</span>
+                  { Icon: Megaphone, t: "Gospel meetings" },
+                  { Icon: Cap, t: "Students' programme" },
+                  { Icon: People, t: "Workers' conference" },
+                  { Icon: Plus, t: "Medical mission" },
+                ].map(({ Icon, t }) => (
+                  <li key={t} className="flex flex-col items-center gap-2.5 rounded-2xl bg-mist px-3 py-5 text-center">
+                    <span className="grid h-12 w-12 place-items-center rounded-full bg-navy text-gold"><Icon size={24} /></span>
+                    <strong className="text-[0.9375rem] font-semibold leading-snug text-navy">{t}</strong>
                   </li>
                 ))}
               </ul>
@@ -228,17 +229,16 @@ export default function HomePage() {
           <Carousel label="Fields of labour">
             {fields.map(({ icon: Icon, title, text, href }) => (
               <li key={title} className="flex w-[17rem]">
-                <Link href={href} className="flex w-full flex-col gap-2.5 rounded-3xl border border-line bg-white p-7 text-ink no-underline hover:border-royal hover:bg-mist">
-                  <span className="text-royal">
-                    <Icon size={30} />
+                <Link href={href} title={text} className="flex w-full flex-col items-start gap-4 rounded-3xl border border-line bg-white p-7 text-ink no-underline hover:border-royal hover:bg-mist">
+                  <span className="grid h-16 w-16 place-items-center rounded-2xl bg-mist text-royal">
+                    <Icon size={34} />
                   </span>
                   <span className="text-[1.1875rem] font-semibold leading-snug text-navy">{title}</span>
-                  <span className="text-[0.9375rem] text-muted">{text}</span>
                 </Link>
               </li>
             ))}
             <li className="flex w-[15rem]">
-              <SeeMore href="/missions/" title="See all our missions" text="Medical, School, Drama, Educational, Media and Children." />
+              <SeeMore href="/missions/" title="See all our missions" />
             </li>
           </Carousel>
         </div>
@@ -311,13 +311,15 @@ export default function HomePage() {
           />
           <ol className="border-t-2 border-navy">
             {[
-              ["Spiritual depth", "Biblical understanding, prayer, discipleship and growth in Christ-like character.", "Rooted and built up in him, and stablished in the faith.", "Colossians 2:7"],
-              ["Intellectual soundness", "Thoughtful engagement with Scripture, clear reasoning and responsible communication.", "Of power, and of love, and of a sound mind.", "2 Timothy 1:7"],
-              ["Moral uprightness", "Integrity, discipline and responsibility, so that what we believe shows in how we live.", "Live soberly, righteously, and godly, in this present world.", "Titus 2:12"],
-            ].map(([t, d, v, ref]) => (
-              <li key={t} className="grid gap-x-10 gap-y-2 border-b border-navy/20 py-7 md:grid-cols-[16rem_1fr_1fr] md:items-baseline">
-                <h3 className="text-[clamp(1.4rem,2.2vw,1.75rem)] font-bold leading-tight text-navy">{t}</h3>
-                <p className="text-muted">{d}</p>
+              { Icon: Book, t: "Spiritual depth", v: "Rooted and built up in him, and stablished in the faith.", ref: "Colossians 2:7" },
+              { Icon: Lightbulb, t: "Intellectual soundness", v: "Of power, and of love, and of a sound mind.", ref: "2 Timothy 1:7" },
+              { Icon: Shield, t: "Moral uprightness", v: "Live soberly, righteously, and godly, in this present world.", ref: "Titus 2:12" },
+            ].map(({ Icon, t, v, ref }) => (
+              <li key={t} className="grid gap-x-10 gap-y-3 border-b border-navy/20 py-7 md:grid-cols-[22rem_1fr] md:items-center">
+                <h3 className="flex items-center gap-4 text-[clamp(1.4rem,2.2vw,1.75rem)] font-bold leading-tight text-navy">
+                  <span className="grid h-12 w-12 flex-none place-items-center rounded-full bg-navy text-gold"><Icon size={24} /></span>
+                  {t}
+                </h3>
                 <p className="text-[1.0625rem] font-medium italic text-navy">
                   “{v}” <span className="whitespace-nowrap text-sm font-semibold not-italic text-royal">{ref}</span>
                 </p>
@@ -334,10 +336,15 @@ export default function HomePage() {
             <p className="eyebrow-dark">A vision · Not yet open · Educational Mission</p>
             <h2 id="college-title" className="h2">STRONGS College</h2>
             <p className="text-[clamp(1.25rem,2vw,1.5rem)] font-medium italic text-gold">Raising disciples towards distinctive leadership</p>
-            <p className="lead text-pale">
-              A plan for a faith-based mission school for primary and secondary students: high academic standards,
-              Christ-centred discipleship and a heart for missions. We are praying and planning towards it.
-            </p>
+            <ul className="flex flex-wrap gap-2.5">
+              {[
+                { Icon: Cap, t: "Academic excellence" },
+                { Icon: Book, t: "Christ-centred" },
+                { Icon: Globe, t: "Missions-minded" },
+              ].map(({ Icon, t }) => (
+                <li key={t} className="flex items-center gap-2 rounded-full bg-navy-2 px-4 py-2 text-sm font-semibold"><span className="text-gold"><Icon size={18} /></span>{t}</li>
+              ))}
+            </ul>
             <div className="flex flex-wrap gap-3.5 pt-1.5">
               <Link href="/college/" className="btn btn-gold">See the vision</Link>
               <Link href="/college/#join" className="btn btn-line-light">Pray and partner</Link>
@@ -370,18 +377,21 @@ export default function HomePage() {
           <div className="flex flex-1 flex-col gap-5">
             <p className="eyebrow">STRONGS Communities</p>
             <h2 id="communities-title" className="h2 text-navy">Every gift has a place in the Kingdom</h2>
-            <p className="lead text-muted">
-              Interest-based communities where members learn from experienced hands and produce meaningful work together.
-            </p>
             <div className="flex flex-wrap gap-3.5 pt-1.5">
               <Link href="/communities/" className="btn btn-navy">Explore the communities</Link>
               <Link href="/communities/#join" className="btn btn-line">Join one</Link>
             </div>
           </div>
           <ul className="grid w-full flex-1 grid-cols-2 gap-3">
-            {communities.map((c) => (
-              <li key={c.short} className="rounded-2xl bg-white px-5 py-4.5 font-semibold text-navy">{c.short}</li>
-            ))}
+            {communities.map((c) => {
+              const Icon = communityIcons[c.short] ?? People;
+              return (
+                <li key={c.short} className="flex items-center gap-3 rounded-2xl bg-white px-4 py-3.5 font-semibold text-navy">
+                  <span className="grid h-10 w-10 flex-none place-items-center rounded-full bg-mist text-royal"><Icon size={20} /></span>
+                  {c.short}
+                </li>
+              );
+            })}
           </ul>
         </div>
       </section>
@@ -395,7 +405,6 @@ export default function HomePage() {
               id="courses-title"
               eyebrow="STRONGS Courses · Learning and innovation"
               title="Sharpen your mind. Build your future."
-              intro="Short online courses for spiritual intellectuals, a few hours a week."
             />
             <Link href="/courses/" className="inline-flex min-h-11 items-center gap-2 font-semibold text-gold no-underline hover:text-white">All courses <ArrowRight size={18} /></Link>
           </div>
@@ -404,7 +413,7 @@ export default function HomePage() {
               <li key={c.slug} className="w-[17rem]"><CourseCard course={c} /></li>
             ))}
             <li className="flex w-[15rem]">
-              <SeeMore dark href="/courses/" title="See all courses" text={`${courses.length} short courses in 8 subjects.`} />
+              <SeeMore dark href="/courses/" title="See all courses" />
             </li>
           </Carousel>
         </div>
@@ -446,19 +455,18 @@ export default function HomePage() {
             eyebrow="Get involved"
             title="Go with us. Pray for us. Hold the ropes."
                       />
-          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {[
-              ["Pray", "Stand with the mission team before and during every outreach."],
-              ["Go", "Serve on a team at crusades, conferences and campus outreaches."],
-              ["Give in kind", "Bibles, study materials, transport, feeding or a venue."],
-              ["Give", "Send labourers into the harvest through official channels."],
-            ].map(([t, d]) => (
-              <li key={t} className="flex flex-col gap-2 rounded-2xl bg-white p-7">
-                <p className="flex items-center gap-2 text-[1.375rem] font-bold text-navy">
-                  {t === "Give" && <span className="text-royal"><Heart size={22} /></span>}
-                  {t}
-                </p>
-                <p className="text-[0.9375rem] text-muted">{d}</p>
+              { Icon: PrayingHands, t: "Pray", href: "/get-involved/#contact" },
+              { Icon: Globe, t: "Go", href: "/get-involved/#contact" },
+              { Icon: Package, t: "Give in kind", href: "/get-involved/#contact" },
+              { Icon: Heart, t: "Give", href: "/get-involved/#give" },
+            ].map(({ Icon, t, href }) => (
+              <li key={t} className="flex">
+                <Link href={href} className="flex w-full flex-col items-center gap-3 rounded-2xl bg-white p-7 text-center no-underline hover:shadow-[0_0_0_2px_var(--color-royal)]">
+                  <span className="grid h-16 w-16 place-items-center rounded-full bg-navy text-gold"><Icon size={30} /></span>
+                  <span className="text-[1.375rem] font-bold text-navy">{t}</span>
+                </Link>
               </li>
             ))}
           </ul>
@@ -493,7 +501,7 @@ export default function HomePage() {
 }
 
 /** The last card in a home-page carousel, linking to the full list. */
-function SeeMore({ href, title, text, dark = false }: { href: string; title: string; text: string; dark?: boolean }) {
+function SeeMore({ href, title, text, dark = false }: { href: string; title: string; text?: string; dark?: boolean }) {
   return (
     <Link
       href={href}
@@ -504,7 +512,7 @@ function SeeMore({ href, title, text, dark = false }: { href: string; title: str
     >
       <span className={`grid h-12 w-12 place-items-center rounded-full ${dark ? "bg-gold text-navy" : "bg-navy text-white"}`}><ArrowRight size={22} /></span>
       <span className="text-xl font-bold leading-snug">{title}</span>
-      <span className={`text-[0.9375rem] ${dark ? "text-pale" : "text-muted"}`}>{text}</span>
+      {text && <span className={`text-[0.9375rem] ${dark ? "text-pale" : "text-muted"}`}>{text}</span>}
     </Link>
   );
 }

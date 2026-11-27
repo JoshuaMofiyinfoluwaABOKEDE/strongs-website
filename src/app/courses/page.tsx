@@ -5,7 +5,7 @@ import { getCatalogItems, getSubjects, THEOLOGY_PROGRAM } from "@/lib/catalog";
 import { CourseCard } from "@/components/CourseCard";
 import { Carousel } from "@/components/Carousel";
 import { SectionHeading } from "@/components/ui";
-import { Book, Cap, Clock, People, Search } from "@/components/icons";
+import { Book, Cap, Check, Clock, People, Search, User } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "Courses",
@@ -27,12 +27,9 @@ export default async function CoursesPage() {
         <div className="container-site grid items-center gap-8 py-[clamp(2.25rem,6vw,5rem)] lg:grid-cols-[1.25fr_1fr] lg:gap-12">
           <div className="flex flex-col gap-4 sm:gap-6">
             <p className="eyebrow-dark">STRONGS Courses · Learning and innovation</p>
-            <h1 id="co-title" className="text-[clamp(1.875rem,5.2vw,4.25rem)] font-bold leading-[1.08] tracking-[-0.02em]">
+            <h1 id="co-title" className="text-[clamp(2rem,5.6vw,4.5rem)] font-black leading-[1.04] tracking-[-0.015em]">
               Sharpen your mind. <span className="text-gold">Build your future.</span>
             </h1>
-            <p className="lead max-w-xl text-pale">
-              {items.length} courses for spiritual intellectuals: the Bible and theology, Christian living, church history, evangelism and ministry, writing, music, media, health and life skills. Self-paced, free to join, with a certificate when you finish.
-            </p>
             <form action="/courses/search/" role="search" className="flex max-w-xl items-center gap-2 rounded-full bg-white p-1.5 pl-5 text-ink shadow-lg">
               <label htmlFor="course-q" className="sr-only">Search courses</label>
               <span className="text-muted"><Search size={20} /></span>
@@ -83,7 +80,11 @@ export default async function CoursesPage() {
             <div className="flex min-w-0 flex-[1_1_26rem] flex-col gap-2">
               <p className="eyebrow-dark">Programme</p>
               <h2 id="school-title" className="text-[clamp(1.25rem,3vw,2rem)] font-bold leading-tight">STRONGS School of Theology</h2>
-              <p className="text-[0.9375rem] text-pale sm:text-base">{theology.length} courses across the Bible, theology, Christian living, church history and ministry, each with weekly quizzes, a test, assignments, a final exam and a certificate. Find them under their subjects below, or see the whole programme.</p>
+              <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-pale">
+                {[`${theology.length} courses`, "Quizzes and exams", "Certificate"].map((t) => (
+                  <li key={t} className="flex items-center gap-1.5"><span className="text-gold"><Check size={16} /></span>{t}</li>
+                ))}
+              </ul>
             </div>
             <Link href="/courses/theology/" className="btn btn-gold">View the programme</Link>
           </div>
@@ -106,17 +107,18 @@ export default async function CoursesPage() {
 
       <section aria-labelledby="how-title" className="bg-navy text-white">
         <div className="container-site section-pad grid items-start gap-12 lg:grid-cols-2">
-          <SectionHeading dark id="how-title" eyebrow="How it works" title="Short, practical and self-paced" intro="Every course is short enough to finish and practical enough to use. Study online at your own pace, test what you have learnt, and put it to work in the field." />
-          <ol className="flex flex-col gap-4">
+          <SectionHeading dark id="how-title" eyebrow="How it works" title="Short, practical and self-paced" />
+          <ol className="grid grid-cols-2 gap-3 sm:gap-4">
             {[
-              ["Create a free account", "Choose a course and enrol. If its lessons are still being prepared, register your interest."],
-              ["Study at your pace", "Read each lesson, do the practical assignments and take the quizzes, on your phone or computer."],
-              ["Pick up where you stopped", "My learning keeps your progress and takes you straight back to your next lesson."],
-              ["Finish well", `${courseFacts.certificate}: download it as soon as you complete the course.`],
-            ].map(([t, d], n) => (
-              <li key={t} className="flex gap-4 rounded-2xl bg-navy-2 p-5">
-                <span className="text-lg font-extrabold text-gold">{n + 1}</span>
-                <span className="flex flex-col gap-1"><strong className="font-semibold">{t}</strong><span className="text-[0.9375rem] text-pale">{d}</span></span>
+              { Icon: User, t: "Join free" },
+              { Icon: Book, t: "Study at your pace" },
+              { Icon: Clock, t: "Pick up where you stopped" },
+              { Icon: Cap, t: "Get your certificate" },
+            ].map(({ Icon, t }, n) => (
+              <li key={t} className="relative flex flex-col items-center gap-3 rounded-2xl bg-navy-2 px-3 py-6 text-center">
+                <span className="absolute left-3 top-2.5 text-sm font-extrabold text-gold/70">{n + 1}</span>
+                <span className="grid h-14 w-14 place-items-center rounded-full bg-gold text-navy"><Icon size={26} /></span>
+                <strong className="font-semibold leading-snug">{t}</strong>
               </li>
             ))}
           </ol>

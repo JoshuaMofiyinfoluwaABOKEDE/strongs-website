@@ -3,7 +3,7 @@ import { giving, site } from "@/content/site";
 import { PageHero, Scripture, SectionHeading } from "@/components/ui";
 import { StrongsForm } from "@/components/Form";
 import { CopyButton } from "@/components/CopyButton";
-import { Flame, Heart, Mail, Package, People, Phone, Pin, Shield } from "@/components/icons";
+import { Briefcase, Church, Globe, Heart, Mail, Monitor, Package, People, Phone, Pin, PrayingHands, Shield, Cap, Mic } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "Get involved",
@@ -11,19 +11,19 @@ export const metadata: Metadata = {
 };
 
 const ways = [
-  { icon: Flame, title: "Pray", text: "Intercede for every outreach, the mission team and the souls we will meet." },
-  { icon: People, title: "Go", text: "Serve on a team at crusades, conferences and campus outreaches." },
-  { icon: Package, title: "Give in kind", text: "Bibles, study materials, transport, feeding, a venue or professional services." },
-  { icon: Heart, title: "Give", text: "Send labourers into the harvest through official channels only." },
+  { icon: PrayingHands, title: "Pray", text: "Every outreach and team" },
+  { icon: Globe, title: "Go", text: "Crusades and campuses" },
+  { icon: Package, title: "Give in kind", text: "Bibles, transport, feeding" },
+  { icon: Heart, title: "Give", text: "Official channels only" },
 ];
 
 const pathways = [
-  { title: "Churches and ministries", text: "Co-host outreaches, send workers and welcome new believers into your fellowship." },
-  { title: "Schools and campus groups", text: "Open your gates to a programme and co-organise student events." },
-  { title: "Christian media", text: "Coverage, content collaboration and livestream support." },
-  { title: "Preachers and teachers", text: "Minister or lead workshops in line with our statement of faith." },
-  { title: "Values-aligned sponsors", text: "Event sponsorship and in-kind support, with no influence on doctrine." },
-  { title: "Individuals and families", text: "Pray, go and give, and help build STRONGS College." },
+  { icon: Church, title: "Churches and ministries", text: "Co-host and follow up" },
+  { icon: Cap, title: "Schools and campus groups", text: "Open your gates" },
+  { icon: Monitor, title: "Christian media", text: "Coverage and livestreams" },
+  { icon: Mic, title: "Preachers and teachers", text: "Minister with us" },
+  { icon: Briefcase, title: "Values-aligned sponsors", text: "No influence on doctrine" },
+  { icon: People, title: "Individuals and families", text: "Pray, go and give" },
 ];
 
 export default function GetInvolvedPage() {
@@ -32,7 +32,7 @@ export default function GetInvolvedPage() {
       <PageHero
         eyebrow="Get involved"
         title={<>Go with us. Pray for us. <span className="text-gold">Hold the ropes.</span></>}
-        intro="Every crusade, campus mission and conference is carried by those who go, those who pray and those who give so that others can go. There is a place for you in the harvest."
+        intro="There is a place for you in the harvest."
       >
         <div className="flex flex-wrap gap-3.5 pt-1">
           <a href="#contact" className="btn btn-gold">Join the mission</a>
@@ -43,12 +43,12 @@ export default function GetInvolvedPage() {
       <section aria-labelledby="ways-title" className="bg-white">
         <div className="container-site flex flex-col gap-8 pb-[clamp(3rem,6vw,4.5rem)] pt-[clamp(4rem,8vw,6.5rem)]">
           <SectionHeading id="ways-title" title="Four ways to stand with the mission" />
-          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {ways.map(({ icon: Icon, title, text }) => (
-              <li key={title} className="flex flex-col gap-2.5 rounded-3xl bg-mist p-7">
-                <span className="text-royal"><Icon size={30} /></span>
+              <li key={title} className="flex flex-col items-center gap-2.5 rounded-3xl bg-mist px-4 py-7 text-center">
+                <span className="grid h-16 w-16 place-items-center rounded-full bg-navy text-gold"><Icon size={30} /></span>
                 <h3 className="text-[1.375rem] font-bold text-navy">{title}</h3>
-                <p className="text-[0.9375rem] text-muted">{text}</p>
+                <p className="text-sm text-muted">{text}</p>
               </li>
             ))}
           </ul>
@@ -69,10 +69,13 @@ export default function GetInvolvedPage() {
         <div className="container-site section-pad flex flex-col gap-8">
           <SectionHeading id="paths-title" eyebrow="Partnership pathways" title="Labour together in the harvest" />
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {pathways.map((p) => (
-              <li key={p.title} className="flex flex-col gap-2 rounded-3xl bg-white p-7">
-                <h3 className="text-xl font-semibold text-navy">{p.title}</h3>
-                <p className="text-[0.9375rem] text-muted">{p.text}</p>
+            {pathways.map(({ icon: Icon, title, text }) => (
+              <li key={title} className="flex items-center gap-4 rounded-3xl bg-white p-5">
+                <span className="grid h-12 w-12 flex-none place-items-center rounded-full bg-mist text-royal"><Icon size={24} /></span>
+                <span className="flex flex-col">
+                  <h3 className="text-lg font-semibold leading-snug text-navy">{title}</h3>
+                  <p className="text-sm text-muted">{text}</p>
+                </span>
               </li>
             ))}
           </ul>

@@ -12,6 +12,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
   await requireAdmin();
   const pending = await one<{ n: number }>(`SELECT count(*)::int AS n FROM lms_submission WHERE status = 'pending'`);
   const reports = await one<{ n: number }>(`SELECT count(DISTINCT post_id)::int AS n FROM lms_forum_report WHERE resolved_at IS NULL`);
+  const commentReports = await one<{ n: number }>(`SELECT count(DISTINCT comment_id)::int AS n FROM site_comment_report WHERE resolved_at IS NULL`);
   const nav: [string, string, number?][] = [
     ["/admin/", "Overview"],
     ["/admin/courses/", "Courses and lessons"],
@@ -20,6 +21,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
     ["/admin/submissions/", "Assignments to review", pending?.n],
     ["/admin/certificates/", "Certificates"],
     ["/admin/forum/", "Forum reports", reports?.n],
+    ["/admin/comments/", "Article comments", commentReports?.n],
     ["/admin/standards/", "Course standards"],
     ["/instructor/", "School of Theology grading"],
   ];
