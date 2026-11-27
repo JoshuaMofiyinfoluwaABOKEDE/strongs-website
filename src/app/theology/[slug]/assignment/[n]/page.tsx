@@ -32,7 +32,7 @@ export default async function AssignmentPage({ params, searchParams }: { params:
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2 border-b border-line pb-5">
         <p className="eyebrow">Assignment {no} of {c.assignments.length} · assignments are {theologyRules.weights.assignments}% of your grade</p>
-        <h1 className="text-[clamp(1.375rem,3.4vw,2.5rem)] font-bold leading-tight text-navy">{a.title}</h1>
+        <h1 className="text-[clamp(1.238rem,2.788vw,2.05rem)] font-bold leading-tight text-navy">{a.title}</h1>
         <p className="text-sm text-muted">Length: {a.words} words · graded by an instructor out of 100</p>
       </header>
       <div className="lesson-text max-w-3xl whitespace-pre-line">{a.prompt}</div>

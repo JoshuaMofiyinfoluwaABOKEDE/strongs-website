@@ -29,7 +29,7 @@ export default async function CourseSearchPage({ searchParams }: { searchParams:
       <section className="bg-navy text-white">
         <div className="container-site flex flex-col gap-2 py-[clamp(1.5rem,4vw,2.75rem)]">
           <nav aria-label="Breadcrumb" className="text-[0.8125rem] text-pale sm:text-sm"><Link href="/courses/" className="text-pale hover:text-white">Courses</Link> <span aria-hidden="true">›</span> {title}</nav>
-          <h1 className="text-[clamp(1.5rem,3.6vw,2.6rem)] font-bold leading-tight">{title}</h1>
+          <h1 className="text-[clamp(1.35rem,2.952vw,2.132rem)] font-bold leading-tight">{title}</h1>
           <p className="text-[0.9375rem] text-pale sm:text-base">Search and filter {items.length} STRONGS courses.</p>
         </div>
       </section>

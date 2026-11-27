@@ -5,7 +5,7 @@ export default function NotFound() {
     <section className="bg-mist">
       <div className="container-site flex flex-col items-start gap-5 py-28">
         <p className="eyebrow">Page not found</p>
-        <h1 className="text-[clamp(2.2rem,4.5vw,3.4rem)] font-bold leading-tight text-navy">This page has moved or no longer exists</h1>
+        <h1 className="text-[clamp(1.848rem,3.33vw,2.516rem)] font-bold leading-tight text-navy">This page has moved or no longer exists</h1>
         <p className="lead max-w-2xl text-muted">The STRONGS website has been rebuilt. Try one of these instead.</p>
         <div className="flex flex-wrap gap-3.5">
           <Link href="/" className="btn btn-navy">Home</Link>

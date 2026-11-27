@@ -26,7 +26,7 @@ export default async function ExamPage({ params, searchParams }: { params: Promi
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2 border-b border-line pb-5">
         <p className="eyebrow">Final exam · {theologyRules.weights.exam}% of your grade</p>
-        <h1 className="text-[clamp(1.375rem,3.4vw,2.5rem)] font-bold leading-tight text-navy">{c.title}: final exam</h1>
+        <h1 className="text-[clamp(1.238rem,2.788vw,2.05rem)] font-bold leading-tight text-navy">{c.title}: final exam</h1>
         <p className="text-sm text-muted">
           {e.mcq} objective questions, {e.short} short answers and {e.lists} list question, drawn at random from the whole course. Timed: {c.examMinutes} minutes. One attempt only.
         </p>
@@ -39,7 +39,7 @@ export default async function ExamPage({ params, searchParams }: { params: Promi
       ) : exam ? (
         <div className="flex flex-col gap-3 rounded-3xl bg-navy p-[clamp(1.25rem,3vw,2rem)] text-white">
           <p className="eyebrow-dark">Exam submitted</p>
-          <p className="text-[clamp(1.625rem,5vw,3.2rem)] font-extrabold leading-none">{exam.score}%</p>
+          <p className="text-[clamp(1.365rem,3.7vw,2.368rem)] font-extrabold leading-none">{exam.score}%</p>
           <p className="text-pale">Your instructor may review the short answers and adjust the mark. The exam cannot be retaken.</p>
         </div>
       ) : !ready ? (

@@ -32,7 +32,7 @@ export default async function TestPage({ params, searchParams }: { params: Promi
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2 border-b border-line pb-5">
         <p className="eyebrow">Course test · {theologyRules.weights.test}% of your grade</p>
-        <h1 className="text-[clamp(1.375rem,3.4vw,2.5rem)] font-bold leading-tight text-navy">{c.title}: course test</h1>
+        <h1 className="text-[clamp(1.238rem,2.788vw,2.05rem)] font-bold leading-tight text-navy">{c.title}: course test</h1>
         <p className="text-sm text-muted">
           {t.mcq} objective questions, {t.short} short answers and {t.lists} list question{t.lists > 1 && "s"}, drawn at random from the whole course. Not timed. {t.attempts} attempts; your highest score counts.
           {g.testBest != null && <> Best so far: <strong className="text-navy">{g.testBest}%</strong>.</>}

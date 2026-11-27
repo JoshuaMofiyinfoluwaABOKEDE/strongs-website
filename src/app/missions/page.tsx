@@ -21,7 +21,7 @@ export default function MissionsPage() {
         <div className="container-site flex flex-col gap-9 py-[clamp(3.5rem,8vw,6.5rem)]">
           <div className="flex max-w-4xl flex-col gap-5">
             <p className="eyebrow-dark">STRONGS Missions</p>
-            <h1 id="mis-title" className="text-[clamp(2.6rem,5.4vw,4.5rem)] font-extrabold leading-[1.04] tracking-[-0.03em]">
+            <h1 id="mis-title" className="text-[clamp(2.184rem,3.996vw,3.33rem)] font-extrabold leading-[1.04] tracking-[-0.03em]">
               Specialised missions. <span className="text-gold">One gospel.</span>
             </h1>
             <p className="lead text-pale">Six missions, so that every gift is sent into the harvest.</p>
@@ -128,7 +128,7 @@ export default function MissionsPage() {
 
       <section aria-labelledby="mis-cta" className="bg-navy text-white">
         <div className="container-site flex flex-wrap items-center justify-between gap-6 py-18">
-          <h2 id="mis-cta" className="max-w-2xl text-[clamp(1.6rem,3vw,2.4rem)] font-bold leading-tight">Is God calling you to serve in one of these missions?</h2>
+          <h2 id="mis-cta" className="max-w-2xl text-[clamp(1.44rem,2.46vw,1.968rem)] font-bold leading-tight">Is God calling you to serve in one of these missions?</h2>
           <div className="flex flex-wrap gap-3.5">
             <Link href="/get-involved/#contact" className="btn btn-gold">Join a mission</Link>
             <Link href="/get-involved/#give" className="btn btn-line-light">Support the missions</Link>

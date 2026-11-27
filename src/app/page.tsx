@@ -53,7 +53,7 @@ export default function HomePage() {
         <div className="container-site flex flex-col items-center gap-14 py-[clamp(3.5rem,8vw,6.5rem)] lg:flex-row">
           <div className="flex min-w-0 flex-1 flex-col gap-6">
             <p className="eyebrow-dark">The gospel to every creature</p>
-            <h1 id="hero-title" className="text-[clamp(2.5rem,5.2vw,4.25rem)] font-bold leading-[1.08] tracking-[-0.02em]">
+            <h1 id="hero-title" className="text-[clamp(2.1rem,3.848vw,3.145rem)] font-bold leading-[1.08] tracking-[-0.02em]">
               Win the lost. Ground the saved. <span className="text-gold">Send out soul winners.</span>
             </h1>
             <p className="lead max-w-xl text-pale">
@@ -110,11 +110,11 @@ export default function HomePage() {
                   className="group grid gap-x-10 gap-y-4 px-[clamp(1.25rem,4vw,3rem)] py-[clamp(1.5rem,3.5vw,2.5rem)] text-white no-underline hover:bg-navy-2 hover:text-white md:grid-cols-[15.5rem_1fr_auto] md:items-center"
                 >
                   <div className="flex items-baseline gap-3 md:flex-col md:gap-1">
-                    <span className="text-[clamp(2.25rem,4.5vw,3.25rem)] font-extrabold uppercase leading-none tracking-[-0.02em]">{m.day.replace("Every ", "")}</span>
+                    <span className="text-[clamp(1.89rem,3.33vw,2.405rem)] font-extrabold uppercase leading-none tracking-[-0.02em]">{m.day.replace("Every ", "")}</span>
                     <span className="text-xl font-bold text-gold">{m.time}</span>
                   </div>
                   <div className="flex flex-col gap-1.5 md:border-l md:border-navy-line md:pl-10">
-                    <h3 className="text-[clamp(1.3rem,2.2vw,1.65rem)] font-bold leading-tight">{m.name}</h3>
+                    <h3 className="text-[clamp(1.235rem,1.98vw,1.485rem)] font-bold leading-tight">{m.name}</h3>
                     <p className="text-pale">{m.purpose}.</p>
                     <p className="flex items-start gap-2 pt-1 text-[0.9375rem] text-pale">
                       <span className="mt-0.5 text-gold">{m.online ? <Globe size={18} /> : <Pin size={18} />}</span>
@@ -149,7 +149,7 @@ export default function HomePage() {
             <div className="flex flex-col justify-between gap-8 rounded-3xl bg-navy p-10 text-white lg:w-[24rem]">
               <div className="flex flex-col gap-2">
                 <p className="eyebrow-dark text-xs">Gospel crusade</p>
-                <p className="text-[clamp(4.5rem,8.5vw,7rem)] font-extrabold leading-none tracking-[-0.04em]">9–13</p>
+                <p className="text-[clamp(3.78rem,6.29vw,5.18rem)] font-extrabold leading-none tracking-[-0.04em]">9–13</p>
                 <p className="text-2xl font-semibold">December 2026</p>
                 <div className="my-3 h-[3px] w-18 bg-gold" />
                 <p className="flex items-center gap-2.5 text-[1.0625rem]">
@@ -170,7 +170,7 @@ export default function HomePage() {
             </div>
             <div className="flex flex-1 flex-col gap-5">
               <p className="eyebrow">The next crusade</p>
-              <h2 id="crusade-title" className="text-[clamp(2.25rem,4.4vw,3.5rem)] font-bold leading-[1.08] tracking-[-0.02em] text-navy">
+              <h2 id="crusade-title" className="text-[clamp(1.89rem,3.256vw,2.59rem)] font-bold leading-[1.08] tracking-[-0.02em] text-navy">
                 {crusade.title}
               </h2>
               <p className="lead max-w-2xl text-muted">
@@ -211,7 +211,7 @@ export default function HomePage() {
             slides={heritage.map((h) => (
               <figure key={h.who} className="flex h-full flex-col items-center justify-center gap-5 rounded-3xl bg-navy-2 px-[clamp(1.5rem,5vw,4rem)] py-[clamp(2.25rem,5vw,3.5rem)] text-center">
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold">{h.era}</p>
-                <blockquote className="text-[clamp(1.4rem,3vw,2.15rem)] font-semibold italic leading-snug">“{h.quote}”</blockquote>
+                <blockquote className="text-[clamp(1.26rem,2.46vw,1.763rem)] font-semibold italic leading-snug">“{h.quote}”</blockquote>
                 <figcaption className="text-[0.9375rem] text-pale">{h.who}</figcaption>
               </figure>
             ))}
@@ -274,7 +274,7 @@ export default function HomePage() {
                       {e.status === "upcoming" ? "Upcoming" : "Recent"} · {e.kind}
                     </span>
                     <p className="text-sm font-semibold uppercase tracking-[0.12em] text-gold-light">{e.dateLabel}</p>
-                    <h3 className="text-[clamp(1.6rem,3.2vw,2.4rem)] font-bold leading-tight">{e.title}</h3>
+                    <h3 className="text-[clamp(1.44rem,2.624vw,1.968rem)] font-bold leading-tight">{e.title}</h3>
                     <p className="line-clamp-3 max-w-xl text-pale">{e.summary}</p>
                     <Link href={e.href ?? "/calendar/"} className="mt-2 inline-flex min-h-12 items-center gap-2 rounded-xl border border-white/30 bg-white/10 px-5 font-semibold text-white no-underline backdrop-blur-sm hover:bg-white/20 hover:text-white">
                       Read more <ArrowRight size={18} />
@@ -316,7 +316,7 @@ export default function HomePage() {
               { Icon: Shield, t: "Moral uprightness", v: "Live soberly, righteously, and godly, in this present world.", ref: "Titus 2:12" },
             ].map(({ Icon, t, v, ref }) => (
               <li key={t} className="grid gap-x-10 gap-y-3 border-b border-navy/20 py-7 md:grid-cols-[22rem_1fr] md:items-center">
-                <h3 className="flex items-center gap-4 text-[clamp(1.4rem,2.2vw,1.75rem)] font-bold leading-tight text-navy">
+                <h3 className="flex items-center gap-4 text-[clamp(1.33rem,1.98vw,1.575rem)] font-bold leading-tight text-navy">
                   <span className="grid h-12 w-12 flex-none place-items-center rounded-full bg-navy text-gold"><Icon size={24} /></span>
                   {t}
                 </h3>
@@ -335,7 +335,7 @@ export default function HomePage() {
           <div className="flex flex-1 flex-col gap-5">
             <p className="eyebrow-dark">A vision · Not yet open · Educational Mission</p>
             <h2 id="college-title" className="h2">STRONGS College</h2>
-            <p className="text-[clamp(1.25rem,2vw,1.5rem)] font-medium italic text-gold">Raising disciples towards distinctive leadership</p>
+            <p className="text-[clamp(1.188rem,1.8vw,1.35rem)] font-medium italic text-gold">Raising disciples towards distinctive leadership</p>
             <ul className="flex flex-wrap gap-2.5">
               {[
                 { Icon: Cap, t: "Academic excellence" },
@@ -435,7 +435,7 @@ export default function HomePage() {
               <article key={a.slug} className="clean-slot relative isolate flex h-full min-h-[26rem] flex-col justify-end gap-3.5 overflow-hidden rounded-3xl px-7 pb-9 pt-20 text-white md:px-16 md:pb-12">
                 <span aria-hidden="true" className="absolute -top-6 right-8 -z-10 font-serif text-[14rem] font-bold leading-none text-gold/20">“</span>
                 <span className="self-start rounded-full bg-royal px-3.5 py-1 text-xs font-bold uppercase tracking-[0.12em] text-white">{a.theme}</span>
-                <h3 className="max-w-3xl text-[clamp(1.7rem,3.4vw,2.6rem)] font-bold leading-tight">{a.title}</h3>
+                <h3 className="max-w-3xl text-[clamp(1.53rem,2.788vw,2.132rem)] font-bold leading-tight">{a.title}</h3>
                 <p className="line-clamp-3 max-w-2xl text-pale">{a.excerpt}</p>
                 <p className="text-sm text-gold-light">{a.author} · {a.minutes} min read</p>
                 <Link href={`/resources/${a.slug}/`} className="mt-1 inline-flex min-h-12 items-center gap-2 self-start rounded-xl border border-white/30 bg-white/10 px-5 font-semibold text-white no-underline backdrop-blur-sm hover:bg-white/20 hover:text-white">
@@ -465,7 +465,7 @@ export default function HomePage() {
               <li key={t} className="flex">
                 <Link href={href} className="flex w-full flex-col items-center gap-3 rounded-2xl bg-white p-7 text-center no-underline hover:shadow-[0_0_0_2px_var(--color-royal)]">
                   <span className="grid h-16 w-16 place-items-center rounded-full bg-navy text-gold"><Icon size={30} /></span>
-                  <span className="text-[1.375rem] font-bold text-navy">{t}</span>
+                  <span className="text-lg font-bold text-navy">{t}</span>
                 </Link>
               </li>
             ))}

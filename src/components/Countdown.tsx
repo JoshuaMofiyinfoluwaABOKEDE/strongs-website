@@ -30,7 +30,7 @@ export function Countdown({
         <div className="flex gap-2.5 sm:gap-3.5">
           {units.map(([k, l]) => (
             <div key={k} className="flex min-w-[4.25rem] flex-col items-center rounded-2xl border border-navy-line bg-navy-2 px-3 py-3 sm:min-w-[5.25rem]">
-              <span data-cd={k} className="text-[clamp(1.75rem,4vw,2.75rem)] font-extrabold leading-none tabular-nums text-white">
+              <span data-cd={k} className="text-[clamp(1.575rem,3.28vw,2.255rem)] font-extrabold leading-none tabular-nums text-white">
                 --
               </span>
               <span className="mt-1.5 text-[0.6875rem] font-semibold uppercase tracking-[0.12em] text-pale">{l}</span>

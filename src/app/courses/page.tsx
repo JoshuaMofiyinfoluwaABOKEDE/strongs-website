@@ -27,7 +27,7 @@ export default async function CoursesPage() {
         <div className="container-site grid items-center gap-8 py-[clamp(2.25rem,6vw,5rem)] lg:grid-cols-[1.25fr_1fr] lg:gap-12">
           <div className="flex flex-col gap-4 sm:gap-6">
             <p className="eyebrow-dark">STRONGS Courses · Learning and innovation</p>
-            <h1 id="co-title" className="text-[clamp(2rem,5.6vw,4.5rem)] font-black leading-[1.04] tracking-[-0.015em]">
+            <h1 id="co-title" className="text-[clamp(1.68rem,4.144vw,3.33rem)] font-black leading-[1.04] tracking-[-0.015em]">
               Sharpen your mind. <span className="text-gold">Build your future.</span>
             </h1>
             <form action="/courses/search/" role="search" className="flex max-w-xl items-center gap-2 rounded-full bg-white p-1.5 pl-5 text-ink shadow-lg">
@@ -46,7 +46,7 @@ export default async function CoursesPage() {
             ].map(({ Icon, big, small }) => (
               <li key={small} className="flex flex-col gap-1 rounded-xl bg-navy-2 p-4 sm:gap-2 sm:rounded-2xl sm:p-6">
                 <span className="text-gold"><Icon size={22} /></span>
-                <span className="text-[clamp(1.25rem,3vw,2.2rem)] font-extrabold leading-none">{big}</span>
+                <span className="text-[clamp(1.125rem,2.46vw,1.804rem)] font-extrabold leading-none">{big}</span>
                 <span className="text-[0.8125rem] text-pale sm:text-sm">{small}</span>
               </li>
             ))}
@@ -79,7 +79,7 @@ export default async function CoursesPage() {
           <div className="flex flex-wrap items-center gap-x-10 gap-y-4 rounded-2xl bg-navy p-[clamp(1.25rem,4vw,2.5rem)] text-white sm:rounded-3xl">
             <div className="flex min-w-0 flex-[1_1_26rem] flex-col gap-2">
               <p className="eyebrow-dark">Programme</p>
-              <h2 id="school-title" className="text-[clamp(1.25rem,3vw,2rem)] font-bold leading-tight">STRONGS School of Theology</h2>
+              <h2 id="school-title" className="text-[clamp(1.125rem,2.46vw,1.64rem)] font-bold leading-tight">STRONGS School of Theology</h2>
               <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-pale">
                 {[`${theology.length} courses`, "Quizzes and exams", "Certificate"].map((t) => (
                   <li key={t} className="flex items-center gap-1.5"><span className="text-gold"><Check size={16} /></span>{t}</li>
@@ -128,7 +128,7 @@ export default async function CoursesPage() {
       <section aria-labelledby="teach-title" className="bg-white">
         <div className="container-site flex flex-wrap items-center justify-between gap-6 py-18">
           <div className="flex max-w-2xl flex-col gap-3">
-            <h2 id="teach-title" className="text-[clamp(1.6rem,3vw,2.4rem)] font-bold leading-tight text-navy">Teach a course with us</h2>
+            <h2 id="teach-title" className="text-[clamp(1.44rem,2.46vw,1.968rem)] font-bold leading-tight text-navy">Teach a course with us</h2>
             <p className="lead text-muted">Are you gifted in one of these areas, or another we have not listed? We would love to hear from you.</p>
           </div>
           <div className="flex flex-wrap gap-3.5">
@@ -146,7 +146,7 @@ function Row({ id, title, blurb, href, count }: { id: string; title: string; blu
   return (
     <div className="flex items-end justify-between gap-4">
       <div className="flex min-w-0 flex-col gap-1">
-        <h2 id={id} className="text-[clamp(1.25rem,2.6vw,2rem)] font-bold leading-tight text-navy">{title}</h2>
+        <h2 id={id} className="text-[clamp(1.125rem,2.132vw,1.64rem)] font-bold leading-tight text-navy">{title}</h2>
         <p className="text-[0.9375rem] text-muted sm:text-base">{blurb}</p>
       </div>
       <Link href={href} className="flex-none whitespace-nowrap text-sm font-semibold">View all {count} →</Link>

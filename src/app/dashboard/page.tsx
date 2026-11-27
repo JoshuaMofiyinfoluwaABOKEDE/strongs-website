@@ -30,7 +30,7 @@ export default async function Dashboard() {
       <section className="bg-navy text-white">
         <div className="container-site flex flex-col gap-5 py-[clamp(2.5rem,5vw,4rem)]">
           <p className="eyebrow-dark">My learning</p>
-          <h1 className="text-[clamp(1.625rem,4.6vw,3.4rem)] font-bold leading-[1.08] tracking-[-0.02em]">Welcome, {(me?.name ?? user.name).split(" ")[0]}.</h1>
+          <h1 className="text-[clamp(1.365rem,3.404vw,2.516rem)] font-bold leading-[1.08] tracking-[-0.02em]">Welcome, {(me?.name ?? user.name).split(" ")[0]}.</h1>
           {latest ? (
             <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
               <p className="lead text-pale">Continue <strong className="text-white">{latest.title}</strong> · {pct(latest)}% complete</p>

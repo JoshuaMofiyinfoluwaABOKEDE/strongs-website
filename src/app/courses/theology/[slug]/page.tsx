@@ -81,7 +81,7 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
               <Link href={`/courses/search/?subject=${subject}`} className="text-pale hover:text-white">{subjectName}</Link>
             </nav>
             <p className="eyebrow-dark">STRONGS School of Theology · {code}</p>
-            <h1 id="c-title" className="text-[clamp(1.625rem,4.6vw,3.6rem)] font-bold leading-[1.08] tracking-[-0.02em]">{c.title}</h1>
+            <h1 id="c-title" className="text-[clamp(1.365rem,3.404vw,2.664rem)] font-bold leading-[1.08] tracking-[-0.02em]">{c.title}</h1>
             <p className="lead max-w-2xl text-pale">{c.summary}</p>
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2">{enrolButton}<span className="text-sm text-pale">Start any time · learn at your own pace</span></div>
           </div>
@@ -219,7 +219,7 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
       {related.length > 0 && (
         <section className="bg-mist">
           <div className="container-site section-pad flex flex-col gap-6">
-            <h2 className="text-[clamp(1.375rem,3.6vw,2.875rem)] font-bold leading-tight tracking-[-0.02em] text-navy">More in {track?.name}</h2>
+            <h2 className="text-[clamp(1.238rem,2.952vw,2.357rem)] font-bold leading-tight tracking-[-0.02em] text-navy">More in {track?.name}</h2>
             <ul className="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">{related.map((x) => <li key={x.slug}><TheologyCard c={x} n={theologyOrder.findIndex((o) => o.slug === x.slug) + 1} /></li>)}</ul>
             <Link href="/courses/theology/" className="self-start font-semibold">All School of Theology courses →</Link>
           </div>

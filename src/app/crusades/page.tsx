@@ -43,7 +43,7 @@ export default function CrusadesPage() {
         <div className="container-site grid items-center gap-14 py-[clamp(3.5rem,8vw,6.5rem)] lg:grid-cols-[1.2fr_1fr]">
           <div className="flex flex-col gap-6">
             <p className="eyebrow-dark">STRONGS Crusades · Achieving heaven&apos;s goal</p>
-            <h1 id="cr-title" className="text-[clamp(2.6rem,5.4vw,4.5rem)] font-extrabold leading-[1.04] tracking-[-0.03em]">
+            <h1 id="cr-title" className="text-[clamp(2.184rem,3.996vw,3.33rem)] font-extrabold leading-[1.04] tracking-[-0.03em]">
               Preaching Christ to <span className="text-gold">whole communities</span>
             </h1>
             <p className="lead max-w-xl text-pale">{crusadeArm.intro}</p>
@@ -113,7 +113,7 @@ export default function CrusadesPage() {
             <img src={d.photo} alt={`Portrait of ${d.name}`} className="min-h-[22rem] flex-[1_1_20rem] bg-navy object-cover object-top" />
             <div className="flex flex-[1.4_1_28rem] flex-col justify-center gap-3.5 p-[clamp(1.75rem,4vw,3rem)]">
               <p className="eyebrow text-xs">{d.role}</p>
-              <h3 className="text-[clamp(1.6rem,2.8vw,2.1rem)] font-bold leading-tight text-navy">{d.name}</h3>
+              <h3 className="text-[clamp(1.44rem,2.296vw,1.722rem)] font-bold leading-tight text-navy">{d.name}</h3>
               <p className="lead text-muted">{d.profile}</p>
             </div>
           </article>
@@ -127,10 +127,10 @@ export default function CrusadesPage() {
             <article className="flex flex-wrap items-center gap-x-10 gap-y-6 rounded-3xl bg-navy p-[clamp(1.75rem,4vw,2.75rem)] text-white">
               <div className="flex flex-col">
                 <p className="eyebrow-dark text-xs">Upcoming</p>
-                <p className="text-[clamp(1.9rem,3vw,2.4rem)] font-extrabold leading-tight">{next.dateLabel}</p>
+                <p className="text-[clamp(1.71rem,2.46vw,1.968rem)] font-extrabold leading-tight">{next.dateLabel}</p>
               </div>
               <div className="flex min-w-0 flex-[1_1_22rem] flex-col gap-2">
-                <h3 className="text-[clamp(1.75rem,3vw,2.4rem)] font-extrabold">{next.title}</h3>
+                <h3 className="text-[clamp(1.575rem,2.46vw,1.968rem)] font-extrabold">{next.title}</h3>
                 <p className="text-pale">{next.place}. {next.summary}</p>
               </div>
               {next.href && <Link href={next.href} className="btn btn-gold">Crusade details</Link>}
@@ -189,7 +189,7 @@ export default function CrusadesPage() {
           />
           {doneByYear.map(([year, list]) => (
             <div key={year} className="grid gap-5 lg:grid-cols-[8rem_1fr]">
-              <p className="text-[clamp(2rem,4vw,2.75rem)] font-extrabold leading-none tracking-[-0.03em] text-royal">{year}</p>
+              <p className="text-[clamp(1.8rem,3.28vw,2.255rem)] font-extrabold leading-none tracking-[-0.03em] text-royal">{year}</p>
               <ul className="grid gap-3.5 md:grid-cols-2">
                 {list.map((e) => (
                   <li key={e.title + e.sortDate} className="flex gap-4 rounded-2xl bg-white p-5 shadow-[0_0_0_1px_var(--color-line)]">

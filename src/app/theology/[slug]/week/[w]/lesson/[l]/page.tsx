@@ -28,7 +28,7 @@ export default async function TheologyLesson({ params }: { params: Promise<{ slu
     <article className="flex flex-col gap-6 sm:gap-8">
       <header className="flex flex-col gap-3 border-b border-line pb-4 sm:pb-6">
         <p className="eyebrow">Week {week} · {m.title} · Lesson {n} of {m.lessons.length}</p>
-        <h1 className="text-[clamp(1.5rem,3.6vw,2.8rem)] font-bold leading-[1.1] tracking-[-0.015em] text-navy">{lesson.title}</h1>
+        <h1 className="text-[clamp(1.35rem,2.952vw,2.296rem)] font-bold leading-[1.1] tracking-[-0.015em] text-navy">{lesson.title}</h1>
         {done && <p className="text-sm font-semibold text-royal">Completed ✓</p>}
       </header>
       <div className="lesson-text max-w-3xl" dangerouslySetInnerHTML={{ __html: renderMarkdown(lesson.body) }} />

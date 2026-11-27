@@ -49,7 +49,7 @@ export default function CalendarPage() {
       <section aria-labelledby="cal-title" className="bg-mist">
         <div className="container-site flex flex-col gap-5 pb-[clamp(2.5rem,5vw,3.5rem)] pt-[clamp(3.5rem,7vw,5.5rem)]">
           <p className="eyebrow">Calendar</p>
-          <h1 id="cal-title" className="max-w-4xl text-[clamp(2.4rem,4.8vw,3.9rem)] font-bold leading-[1.08] tracking-[-0.02em] text-navy">
+          <h1 id="cal-title" className="max-w-4xl text-[clamp(2.016rem,3.552vw,2.886rem)] font-bold leading-[1.08] tracking-[-0.02em] text-navy">
             Crusades, missions and conferences by date
           </h1>
           <p className="lead max-w-3xl text-muted">
@@ -65,7 +65,7 @@ export default function CalendarPage() {
             <ul className="grid gap-5 md:grid-cols-2">
               {meetings.map((m) => (
                 <li key={m.id} className="flex flex-col gap-1">
-                  <p className="text-[clamp(1.4rem,2.4vw,1.75rem)] font-extrabold leading-tight text-navy">{m.day}, {m.time}</p>
+                  <p className="text-[clamp(1.33rem,2.16vw,1.575rem)] font-extrabold leading-tight text-navy">{m.day}, {m.time}</p>
                   <p className="text-lg font-semibold text-navy">{m.name}</p>
                   <p className="flex items-start gap-2 text-[0.9375rem] text-muted"><span className="mt-0.5"><Pin size={16} /></span>{m.whereNote}: {m.where}</p>
                 </li>
@@ -88,7 +88,7 @@ export default function CalendarPage() {
             <article className="flex flex-wrap items-center gap-x-10 gap-y-6 rounded-[1.75rem] bg-navy p-[clamp(1.75rem,4vw,3.25rem)] text-white">
               <div className="flex min-w-0 flex-[1_1_28rem] flex-col gap-4">
                 <p className="self-start rounded-full bg-gold px-3.5 py-1 text-xs font-bold uppercase tracking-[0.15em] text-navy">Next: {next.kind}</p>
-                <h2 id="next-title" className="text-[clamp(2.4rem,5vw,3.9rem)] font-extrabold leading-none tracking-[-0.03em]">{next.title}</h2>
+                <h2 id="next-title" className="text-[clamp(2.016rem,3.7vw,2.886rem)] font-extrabold leading-none tracking-[-0.03em]">{next.title}</h2>
                 <div className="flex flex-wrap gap-x-7 gap-y-2 text-[1.0625rem] font-medium">
                   <p className="flex items-center gap-2.5"><span className="text-gold"><Calendar size={20} /></span>{next.dateLabel}</p>
                   <p className="flex items-center gap-2.5"><span className="text-gold"><Pin size={20} /></span>{next.place}</p>
@@ -122,7 +122,7 @@ export default function CalendarPage() {
       <section aria-labelledby="invite-title" className="bg-navy text-white">
         <div className="container-site flex flex-wrap items-center justify-between gap-6 py-18">
           <div className="flex max-w-2xl flex-col gap-3">
-            <h2 id="invite-title" className="text-[clamp(1.6rem,3vw,2.4rem)] font-bold leading-tight">Open a door for the gospel in your town, school or church</h2>
+            <h2 id="invite-title" className="text-[clamp(1.44rem,2.46vw,1.968rem)] font-bold leading-tight">Open a door for the gospel in your town, school or church</h2>
             <p className="lead text-pale">We co-host crusades, conferences and student outreaches with churches, schools and campuses.</p>
           </div>
           <Link href="/get-involved/#contact" className="btn btn-gold">Invite STRONGS</Link>

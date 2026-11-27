@@ -52,8 +52,8 @@ export default function CollegePage() {
             <p className="inline-flex w-fit items-center gap-2 rounded-full border border-gold px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-gold">
               A vision · Not yet open
             </p>
-            <h1 id="college-title" className="text-[clamp(2.75rem,5.6vw,4.5rem)] font-extrabold leading-[1.04] tracking-[-0.03em]">STRONGS College</h1>
-            <p className="text-[clamp(1.25rem,2.2vw,1.75rem)] font-medium italic leading-snug text-gold">{college.motto}</p>
+            <h1 id="college-title" className="text-[clamp(2.31rem,4.144vw,3.33rem)] font-extrabold leading-[1.04] tracking-[-0.03em]">STRONGS College</h1>
+            <p className="text-[clamp(1.188rem,1.98vw,1.575rem)] font-medium italic leading-snug text-gold">{college.motto}</p>
             <p className="lead max-w-xl text-pale">
               STRONGS College is a plan the Lord has laid on our hearts: a faith-based, co-educational mission school for primary and
               secondary students. It is not open yet. This page shares what we are praying and planning towards, and how you can
@@ -147,7 +147,7 @@ export default function CollegePage() {
             ))}
           </div>
           <div className="flex flex-wrap items-center gap-x-6 gap-y-3 rounded-2xl border-[1.5px] border-gold bg-white px-7 py-6">
-            <p className="text-[clamp(1.75rem,3vw,2.5rem)] font-extrabold leading-none text-royal">20%</p>
+            <p className="text-[clamp(1.575rem,2.46vw,2.05rem)] font-extrabold leading-none text-royal">20%</p>
             <p className="flex-[1_1_26rem]">The plan is that 20% {college.missionShare}</p>
           </div>
         </div>

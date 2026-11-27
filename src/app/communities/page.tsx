@@ -33,7 +33,7 @@ export default function CommunitiesPage() {
         <div className="container-site grid items-center gap-14 py-[clamp(3.5rem,8vw,6.5rem)] lg:grid-cols-[1.3fr_1fr]">
           <div className="flex flex-col gap-6">
             <p className="eyebrow-dark">STRONGS Communities</p>
-            <h1 id="comm-title" className="text-[clamp(2.4rem,4.8vw,3.9rem)] font-bold leading-[1.08] tracking-[-0.02em]">
+            <h1 id="comm-title" className="text-[clamp(2.016rem,3.552vw,2.886rem)] font-bold leading-[1.08] tracking-[-0.02em]">
               Connecting people. Developing potential. <span className="text-gold">Building purposeful communities.</span>
             </h1>
             <ul className="flex flex-wrap gap-2.5">
@@ -107,7 +107,7 @@ export default function CommunitiesPage() {
           <article aria-labelledby="teens-title" className="grid items-center gap-8 rounded-3xl bg-white p-[clamp(1.5rem,3.5vw,2.5rem)] lg:grid-cols-[1fr_1.4fr]">
             <div className="flex flex-col gap-3">
               <p className="eyebrow text-xs">From the Teenagers&apos; Community</p>
-              <h3 id="teens-title" className="text-[clamp(1.5rem,2.6vw,2rem)] font-bold leading-tight text-navy">Teenagers&apos; Capacity Building</h3>
+              <h3 id="teens-title" className="text-[clamp(1.35rem,2.132vw,1.64rem)] font-bold leading-tight text-navy">Teenagers&apos; Capacity Building</h3>
               <p className="text-sm font-semibold uppercase tracking-[0.12em] text-royal">18–19 September 2026 · CGAC, Oke Taasi, Sepeteri</p>
               <p className="text-lg font-medium italic text-navy">Building Capacity for the Future</p>
               <p className="text-muted">Two days for teenagers on public speaking, agriculture and agribusiness, digital skills, entrepreneurship, leadership, and education and scholarships.</p>
@@ -125,7 +125,7 @@ export default function CommunitiesPage() {
           <div className="flex flex-col gap-5 rounded-3xl bg-white p-[clamp(1.5rem,3.5vw,2.5rem)]">
             <div className="flex flex-col gap-2">
               <p className="eyebrow text-xs">From the Writers&apos; and Musicians&apos; Communities</p>
-              <h3 className="text-[clamp(1.5rem,2.6vw,2rem)] font-bold leading-tight text-navy">Symposiums this year</h3>
+              <h3 className="text-[clamp(1.35rem,2.132vw,1.64rem)] font-bold leading-tight text-navy">Symposiums this year</h3>
               <p className="text-muted">Held online on Google Meet, so anyone can join from anywhere.</p>
             </div>
             <ul className="grid grid-cols-1 gap-5 sm:grid-cols-3">
@@ -163,7 +163,7 @@ export default function CommunitiesPage() {
               </li>
             ))}
           </ol>
-          <p className="max-w-4xl border-t border-navy-line pt-6 text-[clamp(1.25rem,2.2vw,1.6rem)] font-semibold leading-snug">
+          <p className="max-w-4xl border-t border-navy-line pt-6 text-[clamp(1.188rem,1.98vw,1.44rem)] font-semibold leading-snug">
             Our communities don&apos;t only consume information. <span className="text-gold">They produce meaningful work.</span>
           </p>
         </div>

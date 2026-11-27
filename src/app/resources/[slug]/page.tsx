@@ -36,7 +36,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <nav aria-label="Breadcrumb" className="text-sm text-muted">
               <Link href="/resources/">Resources</Link> <span aria-hidden="true">›</span> {a.form === "poem" ? <Link href="/resources/#poems">Poems</Link> : <Link href="/resources/#articles">Articles</Link>} <span aria-hidden="true">›</span> {a.theme}
             </nav>
-            <h1 id="a-title" className="text-[clamp(2.2rem,4.5vw,3.4rem)] font-bold leading-[1.1] tracking-[-0.02em] text-navy">{a.title}</h1>
+            <h1 id="a-title" className="text-[clamp(1.848rem,3.33vw,2.516rem)] font-bold leading-[1.1] tracking-[-0.02em] text-navy">{a.title}</h1>
             <p className="text-[0.9375rem] text-muted">
               By <span className="font-semibold text-navy">{a.author}</span> · {a.minutes} min read
             </p>

@@ -33,7 +33,7 @@ export default async function CourseHome({ params }: { params: Promise<{ slug: s
       ) : progress.finished ? (
         <div className="flex flex-col gap-4 rounded-3xl bg-navy p-[clamp(1.5rem,4vw,2.5rem)] text-white">
           <p className="eyebrow-dark">Course complete</p>
-          <h1 className="text-[clamp(1.8rem,3.4vw,2.6rem)] font-bold leading-tight">Well done, {user.name.split(" ")[0]}.</h1>
+          <h1 className="text-[clamp(1.62rem,2.788vw,2.132rem)] font-bold leading-tight">Well done, {user.name.split(" ")[0]}.</h1>
           <p className="lead text-pale">You have finished every lesson and passed every assessment in {outline.course.title}.</p>
           {cert && !cert.revoked && (
             <div className="flex flex-wrap gap-3">
@@ -45,7 +45,7 @@ export default async function CourseHome({ params }: { params: Promise<{ slug: s
       ) : (
         <div className="flex flex-col gap-4 rounded-3xl bg-navy p-[clamp(1.5rem,4vw,2.5rem)] text-white">
           <p className="eyebrow-dark">{progress.complete === 0 ? "Ready when you are" : "Welcome back"}</p>
-          <h1 className="text-[clamp(1.8rem,3.4vw,2.6rem)] font-bold leading-tight">{progress.complete === 0 ? "Start the course" : "Pick up where you stopped"}</h1>
+          <h1 className="text-[clamp(1.62rem,2.788vw,2.132rem)] font-bold leading-tight">{progress.complete === 0 ? "Start the course" : "Pick up where you stopped"}</h1>
           {nextHref ? (
             <>
               <p className="lead text-pale">Next: <strong className="text-white">{nextTitle}</strong></p>

@@ -110,7 +110,7 @@ export default async function ForumPage({ params, searchParams }: { params: Prom
       <section className="bg-navy text-white">
         <div className="container-site flex flex-col gap-3 py-[clamp(1.75rem,4vw,3rem)]">
           <p className="eyebrow-dark">Course forum</p>
-          <h1 className="text-[clamp(1.375rem,4vw,2.4rem)] font-bold leading-tight">{course.title}</h1>
+          <h1 className="text-[clamp(1.238rem,3.28vw,1.968rem)] font-bold leading-tight">{course.title}</h1>
           <p className="text-sm text-pale">Discuss the lessons, ask questions, introduce yourself and connect with others taking this course.</p>
           <Link href={home} className="self-start text-sm font-semibold text-gold no-underline">← Back to the course</Link>
         </div>

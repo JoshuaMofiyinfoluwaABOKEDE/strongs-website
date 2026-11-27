@@ -156,7 +156,7 @@ export function PageHero({
           </nav>
         )}
         <p className="eyebrow-dark">{eyebrow}</p>
-        <h1 className="max-w-4xl text-[clamp(2.5rem,5.2vw,4.25rem)] font-bold leading-[1.08] tracking-[-0.02em]">{title}</h1>
+        <h1 className="max-w-4xl text-[clamp(2.1rem,3.848vw,3.145rem)] font-bold leading-[1.08] tracking-[-0.02em]">{title}</h1>
         {intro && <p className="lead max-w-3xl text-pale">{intro}</p>}
         {children}
       </div>
@@ -169,7 +169,7 @@ export function Scripture({ text, reference, dark = false }: { text: string; ref
   return (
     <section aria-label="Scripture" className={dark ? "bg-navy text-white" : "bg-mist"}>
       <div className="container-site flex flex-col items-center gap-5 py-[clamp(3.5rem,7vw,6rem)] text-center">
-        <blockquote className={`max-w-4xl text-[clamp(1.5rem,2.9vw,2.25rem)] font-medium italic leading-snug ${dark ? "" : "text-navy"}`}>
+        <blockquote className={`max-w-4xl text-[clamp(1.35rem,2.378vw,1.845rem)] font-medium italic leading-snug ${dark ? "" : "text-navy"}`}>
           “{text}”
         </blockquote>
         <div className="h-[3px] w-16 bg-gold" />

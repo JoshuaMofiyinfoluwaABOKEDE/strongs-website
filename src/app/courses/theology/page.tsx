@@ -24,7 +24,7 @@ export default function TheologySchool() {
           <div className="flex flex-col gap-4 sm:gap-6">
             <nav aria-label="Breadcrumb" className="text-sm text-pale"><Link href="/courses/" className="text-pale hover:text-white">Courses</Link> <span aria-hidden="true">›</span> Programmes <span aria-hidden="true">›</span> School of Theology</nav>
             <p className="eyebrow-dark">Programme · STRONGS School of Theology</p>
-            <h1 id="th-title" className="text-[clamp(1.875rem,5.2vw,4.25rem)] font-bold leading-[1.08] tracking-[-0.02em]">
+            <h1 id="th-title" className="text-[clamp(1.575rem,3.848vw,3.145rem)] font-bold leading-[1.08] tracking-[-0.02em]">
               Know what you believe. <span className="text-gold">Know why.</span>
             </h1>
             <p className="lead max-w-xl text-pale">
@@ -39,7 +39,7 @@ export default function TheologySchool() {
               ["Free", "to enrol"],
             ].map(([big, small]) => (
               <li key={small} className="flex flex-col gap-1 rounded-xl bg-navy-2 p-4 sm:gap-2 sm:rounded-2xl sm:p-6">
-                <span className="text-[clamp(1.5rem,3vw,2.4rem)] font-extrabold leading-none">{big}</span>
+                <span className="text-[clamp(1.35rem,2.46vw,1.968rem)] font-extrabold leading-none">{big}</span>
                 <span className="text-[0.8125rem] leading-snug text-pale sm:text-sm">{small}</span>
               </li>
             ))}
@@ -60,7 +60,7 @@ export default function TheologySchool() {
           <div className="container-site flex flex-col gap-4 py-[clamp(2rem,5vw,3.5rem)] sm:gap-5">
             <div className="flex flex-wrap items-end justify-between gap-3">
               <div className="flex flex-col gap-1">
-                <h2 id={`${t.id}-t`} className="text-[clamp(1.25rem,2.6vw,2rem)] font-bold leading-tight text-navy">{t.name}</h2>
+                <h2 id={`${t.id}-t`} className="text-[clamp(1.125rem,2.132vw,1.64rem)] font-bold leading-tight text-navy">{t.name}</h2>
                 <p className="text-[0.9375rem] text-muted sm:text-base">{t.blurb}</p>
               </div>
               <p className="text-sm font-semibold text-royal">{t.courses.length} courses</p>

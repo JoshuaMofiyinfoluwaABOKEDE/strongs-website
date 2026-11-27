@@ -112,7 +112,7 @@ export function Locked({ c, g, reason }: { c: TheologyCourse; g: Gradebook; reas
   return (
     <div className="flex flex-col items-start gap-4">
       <p className="eyebrow">Locked</p>
-      <h1 className="text-[clamp(1.375rem,3vw,2rem)] font-bold leading-tight text-navy"><span aria-hidden="true">🔒 </span>Not open yet</h1>
+      <h1 className="text-[clamp(1.238rem,2.46vw,1.64rem)] font-bold leading-tight text-navy"><span aria-hidden="true">🔒 </span>Not open yet</h1>
       <p className="text-[0.9375rem] text-ink sm:text-base">{reason}</p>
       <p className="text-sm text-muted">STRONGS courses go step by step: read each week&rsquo;s lessons, pass its quiz with {theologyRules.quiz.pass}% or more, and the next week opens. The course test opens after the last quiz, and the final exam after the test.</p>
       {next ? <Link href={next.href} className="btn btn-navy">Continue: {next.title} →</Link> : <Link href={`/theology/${c.slug}/`} className="btn btn-navy">Back to the course</Link>}

@@ -6,7 +6,7 @@ export function AdminTitle({ title, intro, back, children }: { title: ReactNode;
     <header className="flex flex-wrap items-end justify-between gap-4 border-b border-line pb-5">
       <div className="flex flex-col gap-1.5">
         {back && <Link href={back.href} className="text-sm">← {back.label}</Link>}
-        <h1 className="text-[clamp(1.6rem,3vw,2.2rem)] font-bold leading-tight text-navy">{title}</h1>
+        <h1 className="text-[clamp(1.44rem,2.46vw,1.804rem)] font-bold leading-tight text-navy">{title}</h1>
         {intro && <p className="max-w-3xl text-muted">{intro}</p>}
       </div>
       {children}

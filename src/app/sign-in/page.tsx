@@ -17,7 +17,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ n
       <div className="container-site grid gap-12 py-[clamp(3rem,7vw,5.5rem)] lg:grid-cols-[1fr_28rem] lg:items-center">
         <div className="flex flex-col gap-5">
           <p className="eyebrow">STRONGS Courses</p>
-          <h1 className="text-[clamp(2.2rem,4.6vw,3.4rem)] font-bold leading-[1.08] tracking-[-0.02em] text-navy">Sign in</h1>
+          <h1 className="text-[clamp(1.848rem,3.404vw,2.516rem)] font-bold leading-[1.08] tracking-[-0.02em] text-navy">Sign in</h1>
           <p className="lead max-w-xl text-muted">
             Pick up where you stopped. Your courses, progress and certificates are waiting.
           </p>

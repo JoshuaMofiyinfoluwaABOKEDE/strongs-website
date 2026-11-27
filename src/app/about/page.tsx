@@ -140,7 +140,7 @@ export default function AboutPage() {
 
       <section aria-labelledby="about-cta" className="bg-white">
         <div className="container-site flex flex-wrap items-center justify-between gap-6 py-18">
-          <h2 id="about-cta" className="max-w-2xl text-[clamp(1.6rem,3vw,2.4rem)] font-bold leading-tight text-navy">
+          <h2 id="about-cta" className="max-w-2xl text-[clamp(1.44rem,2.46vw,1.968rem)] font-bold leading-tight text-navy">
             The harvest is waiting. Will you go, pray or give?
           </h2>
           <div className="flex flex-wrap gap-3.5">

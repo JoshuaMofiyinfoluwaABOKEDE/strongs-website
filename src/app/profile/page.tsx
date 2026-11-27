@@ -28,7 +28,7 @@ export default async function ProfilePage({ searchParams }: { searchParams: Prom
           <span className="flex h-16 w-16 flex-none items-center justify-center rounded-full bg-white text-navy"><User size={34} /></span>
           <div className="flex min-w-0 flex-col gap-1">
             <p className="eyebrow-dark">Profile</p>
-            <h1 className="text-[clamp(1.375rem,4vw,2.2rem)] font-bold leading-tight">{me?.name ?? user.name}</h1>
+            <h1 className="text-[clamp(1.238rem,3.28vw,1.804rem)] font-bold leading-tight">{me?.name ?? user.name}</h1>
             <p className="truncate text-sm text-pale">{me?.email ?? user.email}</p>
           </div>
         </div>

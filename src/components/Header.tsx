@@ -13,24 +13,28 @@ function isActive(pathname: string, href: string) {
   return pathname === href || pathname.startsWith(href);
 }
 
+/**
+ * The bar is exactly 72px tall plus its 1px border (73px), at every width:
+ * sticky strips further down the page (course subjects, exam timer) sit at top-[73px].
+ */
 export function Header() {
   const pathname = usePathname() ?? "/";
 
   return (
-    <header className="sticky top-0 z-30 border-b border-line bg-white">
-      <div className="mx-auto flex w-full max-w-[82.5rem] items-center justify-between gap-6 px-[clamp(1.25rem,4vw,3rem)] py-3">
-        <div className="flex min-w-0 items-center gap-2.5">
-        <Link href="/" aria-label="STRONGS home" className="flex shrink-0 items-center gap-3 no-underline">
-          <img src="/images/strongs-logo.webp" alt="" width={52} height={52} className="h-12 w-12 lg:h-[3.25rem] lg:w-[3.25rem]" />
-          <span className="flex flex-col leading-tight">
-            <span className="text-lg font-extrabold tracking-[0.18em] text-navy">STRONGS</span>
-            <span className="text-[0.625rem] font-semibold uppercase tracking-[0.18em] text-royal">The Spiritual Intellectuals</span>
+    <header className="sticky top-0 z-30 border-b border-line bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/90">
+      <div className="mx-auto flex h-[72px] w-full max-w-[84rem] items-center gap-4 px-[clamp(1rem,4vw,3rem)] xl:gap-5 xl:px-8">
+        <Link href="/" aria-label="STRONGS home" className="flex min-w-0 shrink items-center gap-2.5 no-underline sm:gap-3">
+          <img src="/images/strongs-logo.webp" alt="" width={44} height={44} className="h-10 w-10 flex-none rounded-full sm:h-11 sm:w-11" />
+          <span className="flex min-w-0 flex-col justify-center">
+            <span className="font-display text-[1.0625rem] font-extrabold leading-none tracking-[0.16em] text-navy sm:text-lg">STRONGS</span>
+            <span className="mt-1 truncate font-display text-[0.5625rem] font-semibold uppercase leading-none tracking-[0.12em] text-royal sm:text-[0.625rem] sm:tracking-[0.16em] xl:tracking-[0.1em] min-[1400px]:tracking-[0.16em]">
+              The Spiritual Intellectuals
+            </span>
           </span>
         </Link>
-        </div>
 
-        <nav aria-label="Main" className="hidden items-center gap-3 whitespace-nowrap text-[0.875rem] font-medium xl:flex 2xl:gap-5 2xl:text-[0.9375rem]">
-          {/* The logo links home, so the desktop bar leaves Home out to keep the row uncrowded. */}
+        {/* Desktop bar. The logo links home, so Home is left out to keep the row uncrowded. */}
+        <nav aria-label="Main" className="hidden min-w-0 flex-1 items-center justify-center gap-0.5 whitespace-nowrap xl:flex">
           {mainNav.map((item) => {
             const active = isActive(pathname, item.href);
             return (
@@ -38,31 +42,29 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 aria-current={active ? "page" : undefined}
-                className={
-                  active
-                    ? "border-b-2 border-gold py-1.5 text-royal no-underline"
-                    : "py-1.5 text-ink no-underline hover:text-royal"
-                }
+                className={`relative rounded-full px-2 py-2 text-[0.8125rem] font-medium no-underline transition-colors min-[1400px]:px-2.5 min-[1400px]:text-[0.84375rem] ${
+                  active ? "bg-mist font-semibold text-royal" : "text-ink hover:bg-mist hover:text-royal"
+                }`}
               >
-                {item.label}
+                {item.short ?? item.label}
               </Link>
             );
           })}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="ml-auto flex flex-none items-center gap-2 sm:gap-2.5 xl:ml-0">
           {/* My learning belongs to the courses: it shows only there, on computers (phones use the bottom tab bar). */}
           {inCourseArea(pathname) && (
-          <Link
-            href="/dashboard/"
-            aria-label="My learning"
-            title="My learning"
-            className="hidden h-11 w-11 items-center justify-center rounded-full border border-line text-navy no-underline hover:border-navy hover:text-royal lg:inline-flex"
-          >
-            <User size={20} />
-          </Link>
+            <Link
+              href="/dashboard/"
+              aria-label="My learning"
+              title="My learning"
+              className="hidden h-10 w-10 items-center justify-center rounded-full border border-line text-navy no-underline hover:border-navy hover:text-royal lg:inline-flex"
+            >
+              <User size={19} />
+            </Link>
           )}
-          <Link href="/get-involved/#give" className="btn btn-navy hidden min-h-11 px-6 text-[0.9375rem] sm:inline-flex">
+          <Link href="/get-involved/#give" className="btn btn-navy hidden min-h-10 px-5 text-[0.875rem] sm:inline-flex">
             Give
           </Link>
 
@@ -70,16 +72,16 @@ export function Header() {
           <details key={pathname} data-menu className="group relative xl:hidden">
             <summary
               aria-label="Menu"
-              className="flex h-11 cursor-pointer list-none items-center gap-2 rounded-full border border-line px-4 text-sm font-semibold text-navy group-open:border-navy group-open:bg-navy group-open:text-white"
+              className="flex h-10 min-w-10 cursor-pointer list-none items-center justify-center gap-2 rounded-full border border-line px-2.5 text-sm font-semibold text-navy hover:border-navy group-open:border-navy group-open:bg-navy group-open:text-white sm:px-4"
             >
               <span className="group-open:hidden"><Menu size={20} /></span>
-              <span aria-hidden="true" className="hidden text-lg leading-none group-open:inline">✕</span>
-              <span className="group-open:hidden">Menu</span>
-              <span className="hidden group-open:inline">Close</span>
+              <span aria-hidden="true" className="hidden w-5 text-center text-lg leading-none group-open:inline">✕</span>
+              <span className="hidden sm:inline group-open:hidden">Menu</span>
+              <span className="hidden sm:group-open:inline">Close</span>
             </summary>
             <nav
               aria-label="Main"
-              className="absolute right-0 top-[calc(100%+0.75rem)] w-[min(21rem,calc(100vw-2.5rem))] rounded-2xl border border-line bg-white p-3 shadow-[0_18px_50px_rgba(11,31,58,0.25)]"
+              className="absolute right-0 top-[calc(100%+0.875rem)] max-h-[calc(100dvh-6rem)] w-[min(21rem,calc(100vw-2rem))] overflow-y-auto rounded-2xl border border-line bg-white p-2.5 shadow-[0_18px_50px_rgba(11,31,58,0.25)]"
             >
               <ul className="flex flex-col">
                 {[{ href: "/", label: "Home" }, ...mainNav].map((item) => (
@@ -87,7 +89,7 @@ export function Header() {
                     <Link
                       href={item.href}
                       aria-current={isActive(pathname, item.href) ? "page" : undefined}
-                      className="flex min-h-12 items-center justify-between rounded-xl px-4 font-medium text-ink no-underline hover:bg-mist aria-[current=page]:bg-mist aria-[current=page]:font-semibold aria-[current=page]:text-royal"
+                      className="flex min-h-11 items-center justify-between rounded-xl px-4 text-[0.9375rem] font-medium text-ink no-underline hover:bg-mist aria-[current=page]:bg-mist aria-[current=page]:font-semibold aria-[current=page]:text-royal"
                     >
                       {item.label}
                     </Link>

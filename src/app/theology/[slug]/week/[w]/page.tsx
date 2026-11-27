@@ -25,7 +25,7 @@ export default async function WeekPage({ params }: { params: Promise<{ slug: str
     <article className="flex flex-col gap-6 sm:gap-8">
       <header className="flex flex-col gap-3 border-b border-line pb-4 sm:pb-6">
         <p className="eyebrow">Week {week} of {c.modules.length}</p>
-        <h1 className="text-[clamp(1.5rem,3.6vw,2.8rem)] font-bold leading-[1.1] tracking-[-0.015em] text-navy">{m.title}</h1>
+        <h1 className="text-[clamp(1.35rem,2.952vw,2.296rem)] font-bold leading-[1.1] tracking-[-0.015em] text-navy">{m.title}</h1>
         <p className="lead text-muted">{m.intro}</p>
       </header>
 

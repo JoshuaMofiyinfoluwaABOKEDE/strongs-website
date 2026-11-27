@@ -37,7 +37,7 @@ export default async function CrusadePage({ params }: { params: Promise<{ slug: 
           <div className="flex flex-wrap items-end justify-between gap-10">
             <div className="flex min-w-0 flex-[1_1_34rem] flex-col gap-4">
               <p className="self-start rounded-full bg-gold px-3.5 py-1 text-xs font-bold uppercase tracking-[0.15em] text-navy">Gospel crusade</p>
-              <h1 id="c-title" className="text-[clamp(3rem,7vw,6rem)] font-extrabold leading-[0.98] tracking-[-0.04em]">{c.title}</h1>
+              <h1 id="c-title" className="text-[clamp(2.52rem,5.18vw,4.44rem)] font-extrabold leading-[0.98] tracking-[-0.04em]">{c.title}</h1>
               {c.localTitle && <p className="text-[clamp(1.1rem,1.8vw,1.4rem)] font-semibold">{c.localTitle}</p>}
               {c.themeScripture && <p className="text-[clamp(1.1rem,1.8vw,1.4rem)] font-medium italic text-gold">{c.themeScripture}</p>}
             </div>

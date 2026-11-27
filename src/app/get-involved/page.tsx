@@ -47,7 +47,7 @@ export default function GetInvolvedPage() {
             {ways.map(({ icon: Icon, title, text }) => (
               <li key={title} className="flex flex-col items-center gap-2.5 rounded-3xl bg-mist px-4 py-7 text-center">
                 <span className="grid h-16 w-16 place-items-center rounded-full bg-navy text-gold"><Icon size={30} /></span>
-                <h3 className="text-[1.375rem] font-bold text-navy">{title}</h3>
+                <h3 className="text-lg font-bold text-navy">{title}</h3>
                 <p className="text-sm text-muted">{text}</p>
               </li>
             ))}
@@ -89,11 +89,11 @@ export default function GetInvolvedPage() {
             <div className="grid gap-x-10 gap-y-6 rounded-3xl border-2 border-navy p-[clamp(1.75rem,3.5vw,2.75rem)] sm:grid-cols-2">
               <div className="flex flex-col gap-1">
                 <p className="text-xs font-semibold uppercase tracking-[0.15em] text-muted">Account number</p>
-                <p className="text-[2rem] font-bold tracking-wide text-navy">{giving.accountNumber}</p>
+                <p className="text-[1.625rem] font-bold tracking-wide text-navy">{giving.accountNumber}</p>
               </div>
               <div className="flex flex-col gap-1">
                 <p className="text-xs font-semibold uppercase tracking-[0.15em] text-muted">Bank</p>
-                <p className="text-[2rem] font-bold text-navy">{giving.bank}</p>
+                <p className="text-[1.625rem] font-bold text-navy">{giving.bank}</p>
               </div>
               <div className="flex flex-col gap-1 sm:col-span-2">
                 <p className="text-xs font-semibold uppercase tracking-[0.15em] text-muted">Account name</p>

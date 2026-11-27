@@ -56,7 +56,7 @@ export default function ResourcesPage() {
                 <img src={b.cover} alt={`Cover of ${b.title} by ${b.author}`} loading="lazy" className="mx-auto w-full max-w-[15rem] rounded-xl shadow-[0_18px_40px_rgba(11,31,58,0.25)]" />
                 <div className="flex flex-col gap-4">
                   <p className="text-sm font-semibold text-royal">By {b.author} · Foreword by {b.foreword} · {b.pages} pages</p>
-                  <h3 className="text-[clamp(1.6rem,3vw,2.3rem)] font-bold leading-tight text-navy">{b.title}</h3>
+                  <h3 className="text-[clamp(1.44rem,2.46vw,1.886rem)] font-bold leading-tight text-navy">{b.title}</h3>
                   <p className="lead text-muted">{b.summary}</p>
                   <div>
                     <p className="eyebrow mb-2 text-xs">Chapters</p>
@@ -141,7 +141,7 @@ export default function ResourcesPage() {
       <section aria-labelledby="write-title" className="bg-white">
         <div className="container-site flex flex-wrap items-center justify-between gap-6 py-18">
           <div className="flex max-w-2xl flex-col gap-3">
-            <h2 id="write-title" className="text-[clamp(1.5rem,2.8vw,2.1rem)] font-bold leading-tight text-navy">Write, sing or teach with STRONGS</h2>
+            <h2 id="write-title" className="text-[clamp(1.35rem,2.296vw,1.722rem)] font-bold leading-tight text-navy">Write, sing or teach with STRONGS</h2>
             <p className="lead text-muted">STRONGS began with symposiums for writers, musicians and teenagers. If God has given you a gift for opening up His Word, we would love to hear from you.</p>
           </div>
           <a href={`mailto:${site.email}?subject=Contributor`} className="btn btn-navy">Get in touch</a>

@@ -21,7 +21,7 @@ export default function MeetingsPage() {
         <div className="container-site flex flex-col gap-10 py-[clamp(3.5rem,7vw,6rem)]">
           <div className="flex max-w-4xl flex-col gap-5">
             <p className="eyebrow-dark">Every week · The heart of STRONGS</p>
-            <h1 id="mt-title" className="text-[clamp(2.5rem,5.2vw,4.25rem)] font-bold leading-[1.08] tracking-[-0.02em]">
+            <h1 id="mt-title" className="text-[clamp(2.1rem,3.848vw,3.145rem)] font-bold leading-[1.08] tracking-[-0.02em]">
               Where believers are <span className="text-gold">trained and equipped</span> to serve
             </h1>
             <p className="lead max-w-3xl text-pale">
@@ -37,9 +37,9 @@ export default function MeetingsPage() {
                 className="group flex flex-col gap-4 rounded-3xl border border-navy-line bg-navy-2 p-[clamp(1.5rem,3vw,2.25rem)] text-white no-underline hover:border-gold hover:text-white"
               >
                 <p className="text-xs font-bold uppercase tracking-[0.18em] text-gold">{m.purpose}</p>
-                <h2 className="text-[clamp(1.6rem,2.6vw,2.1rem)] font-bold leading-tight">{m.name}</h2>
+                <h2 className="text-[clamp(1.44rem,2.132vw,1.722rem)] font-bold leading-tight">{m.name}</h2>
                 <div className="flex flex-wrap items-end gap-x-4 gap-y-1">
-                  <p className="text-[clamp(2rem,3.6vw,2.75rem)] font-extrabold leading-none tracking-[-0.02em]">{m.day}</p>
+                  <p className="text-[clamp(1.8rem,2.952vw,2.255rem)] font-extrabold leading-none tracking-[-0.02em]">{m.day}</p>
                   <p className="text-2xl font-bold text-gold">{m.time}</p>
                 </div>
                 <p className="flex items-start gap-2.5 text-pale">
@@ -85,7 +85,7 @@ export default function MeetingsPage() {
 
               <aside className="flex flex-col gap-5 rounded-3xl bg-navy p-[clamp(1.75rem,3.5vw,2.5rem)] text-white" aria-label={`When and where: ${m.name}`}>
                 <p className="eyebrow-dark text-xs">Join us</p>
-                <p className="flex items-center gap-3 text-[clamp(1.6rem,2.6vw,2rem)] font-extrabold leading-tight">
+                <p className="flex items-center gap-3 text-[clamp(1.44rem,2.132vw,1.64rem)] font-extrabold leading-tight">
                   <span className="text-gold"><Calendar size={26} /></span>{m.day}, {m.time}
                 </p>
                 <p className="flex items-start gap-3 text-pale">
@@ -109,7 +109,7 @@ export default function MeetingsPage() {
               <div id="archive" className="flex flex-col gap-10">
                 <div className="flex flex-col gap-2">
                   <p className="eyebrow">The study archive</p>
-                  <h3 className="text-[clamp(1.5rem,2.6vw,2rem)] font-bold leading-tight text-navy">Book by book, passage by passage</h3>
+                  <h3 className="text-[clamp(1.35rem,2.132vw,1.64rem)] font-bold leading-tight text-navy">Book by book, passage by passage</h3>
                   <p className="max-w-2xl text-muted">Every study we have a record of, newest first. Tap a flyer to see it in full.</p>
                 </div>
                 {studyArchive.map((group) => (
@@ -173,7 +173,7 @@ export default function MeetingsPage() {
             {prayerSeasons.map((p, i) => (
               <li key={p.when} className="flex flex-col gap-4 rounded-3xl bg-navy-2 p-[clamp(1.5rem,3vw,2rem)]">
                 <span className="text-sm font-bold text-gold">{String(i + 1).padStart(2, "0")}</span>
-                <p className="flex items-center gap-2.5 text-[clamp(1.4rem,2.2vw,1.75rem)] font-extrabold leading-tight"><span className="text-gold"><Calendar size={24} /></span>{p.when}</p>
+                <p className="flex items-center gap-2.5 text-[clamp(1.33rem,1.98vw,1.575rem)] font-extrabold leading-tight"><span className="text-gold"><Calendar size={24} /></span>{p.when}</p>
                 <h3 className="text-lg font-semibold">{p.title}</h3>
                 <p className="text-[0.9375rem] text-pale">{p.text}</p>
                 {p.past.length > 0 && (
@@ -201,7 +201,7 @@ export default function MeetingsPage() {
       <section aria-labelledby="mt-cta" className="bg-white">
         <div className="container-site flex flex-wrap items-center justify-between gap-6 py-18">
           <div className="flex max-w-2xl flex-col gap-3">
-            <h2 id="mt-cta" className="text-[clamp(1.6rem,3vw,2.4rem)] font-bold leading-tight text-navy">Come and be equipped</h2>
+            <h2 id="mt-cta" className="text-[clamp(1.44rem,2.46vw,1.968rem)] font-bold leading-tight text-navy">Come and be equipped</h2>
             <p className="lead text-muted">No one is too new and no one is too old. Come to the Bible Club on Monday and the training on Sunday, and grow into a labourer in the harvest.</p>
           </div>
           <div className="flex flex-wrap gap-3.5">

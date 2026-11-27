@@ -63,7 +63,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               <span aria-hidden="true"> › </span>
               <Link href={`/courses/search/?subject=${c.category}`} className="text-pale hover:text-white">{categoryName(c.category)}</Link>
             </nav>
-            <h1 id="c-title" className="text-[clamp(2.2rem,4.6vw,3.6rem)] font-bold leading-[1.08] tracking-[-0.02em]">{c.title}</h1>
+            <h1 id="c-title" className="text-[clamp(1.848rem,3.404vw,2.664rem)] font-bold leading-[1.08] tracking-[-0.02em]">{c.title}</h1>
             <p className="lead max-w-2xl text-pale">{c.summary}</p>
             <CallToAction c={c} outline={outline} progress={progress} signedIn={!!user} isAdmin={user?.role === "admin"} whatsapp={whatsapp} />
           </div>

@@ -16,7 +16,7 @@ export default async function TheologyLayout({ children, params }: { children: R
         <div className="container-site flex flex-wrap items-end gap-x-8 gap-y-3 pt-4 sm:pt-5">
           <div className="flex min-w-0 flex-1 flex-col pb-3">
             <Link href="/courses/theology/" className="text-[0.6875rem] font-bold uppercase tracking-[0.14em] text-gold sm:text-xs sm:tracking-[0.16em] no-underline hover:text-gold-light">STRONGS School of Theology · TH {String(n).padStart(3, "0")}</Link>
-            <span className="text-[clamp(1.0625rem,2.4vw,1.6rem)] font-bold leading-tight">{c.title}</span>
+            <span className="text-[clamp(1.009rem,2.16vw,1.44rem)] font-bold leading-tight">{c.title}</span>
           </div>
           <div className="flex w-full max-w-xs items-center gap-3 pb-3">
             <div className="h-2 flex-1 overflow-hidden rounded-full bg-navy-2" role="progressbar" aria-valuenow={g.percentDone} aria-valuemin={0} aria-valuemax={100} aria-label="Course progress">

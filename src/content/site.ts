@@ -20,9 +20,10 @@ export const site = {
   founded: "September 2020",
 };
 
-export const mainNav = [
+/** `short` is the label used in the desktop bar, where space is tight; the phone menu uses `label`. */
+export const mainNav: { href: string; label: string; short?: string }[] = [
   { href: "/about/", label: "Who we are" },
-  { href: "/meetings/", label: "Bible Club & Training" },
+  { href: "/meetings/", label: "Bible Club & Training", short: "Bible Club" },
   { href: "/crusades/", label: "Crusades" },
   { href: "/missions/", label: "Missions" },
   { href: "/communities/", label: "Communities" },

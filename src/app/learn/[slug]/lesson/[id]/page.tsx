@@ -39,7 +39,7 @@ export default async function LessonPage({
     return (
       <article className="flex flex-col items-start gap-4">
         <p className="eyebrow">Locked</p>
-        <h1 className="text-[clamp(1.375rem,3vw,2rem)] font-bold leading-tight text-navy"><span aria-hidden="true">🔒 </span>Not open yet</h1>
+        <h1 className="text-[clamp(1.238rem,2.46vw,1.64rem)] font-bold leading-tight text-navy"><span aria-hidden="true">🔒 </span>Not open yet</h1>
         <p className="text-[0.9375rem] text-ink sm:text-base">Pass &ldquo;{block.title}&rdquo; first. Each quiz or test must be passed before the lessons after it open.</p>
         <Link href={assessmentHref(slug, block.id)} className="btn btn-navy">Go to {block.title} →</Link>
       </article>
@@ -61,7 +61,7 @@ export default async function LessonPage({
     <article className="flex flex-col gap-8">
       <header className="flex flex-col gap-3 border-b border-line pb-6">
         <p className="eyebrow">Module {moduleNo} · {mod.title}</p>
-        <h1 className="text-[clamp(1.9rem,3.6vw,2.8rem)] font-bold leading-[1.1] tracking-[-0.015em] text-navy">{lesson.title}</h1>
+        <h1 className="text-[clamp(1.71rem,2.952vw,2.296rem)] font-bold leading-[1.1] tracking-[-0.015em] text-navy">{lesson.title}</h1>
         <p className="text-sm text-muted">
           {lesson.kind === "assignment" ? "Practical assignment" : "Reading"} · about {lesson.minutes} minutes
           {done && <span className="font-semibold text-royal"> · Completed ✓</span>}
