@@ -32,7 +32,7 @@ function EventRow({ e }: { e: StrongsEvent }) {
         </div>
       </div>
       {e.href ? (
-        <Link href={e.href} className="btn btn-line min-h-11 justify-self-start px-5 text-[0.9375rem]">Details</Link>
+        <Link href={e.href} className="btn btn-line min-h-11 justify-self-start px-5 text-[0.9375rem]">Read more →</Link>
       ) : e.status === "upcoming" ? (
         <a href={`mailto:strongsimpact@gmail.com?subject=${encodeURIComponent(e.title)}`} className="btn btn-line min-h-11 justify-self-start px-5 text-[0.9375rem]">Ask for details</a>
       ) : (
@@ -112,7 +112,7 @@ export default function CalendarPage() {
 
       <section aria-labelledby="past-title" className="bg-white">
         <div className="container-site section-pad flex flex-col gap-6">
-          <SectionHeading id="past-title" eyebrow="Past events" title="Where the gospel has gone" />
+          <SectionHeading id="past-title" eyebrow="Past events" title="Past outreaches" />
           <ul className="border-t border-line">
             {past.map((e) => <EventRow key={e.title} e={e} />)}
           </ul>

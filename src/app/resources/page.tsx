@@ -94,7 +94,8 @@ export default function ResourcesPage() {
                   <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gold">{p.theme}</p>
                   <h3 className="text-xl font-semibold leading-snug">{p.title}</h3>
                   <p className="line-clamp-6 whitespace-pre-line text-[0.9375rem] italic text-pale">{p.body[0]}</p>
-                  <p className="mt-auto pt-2 text-sm text-gold-light">{p.author} · Read the poem →</p>
+                  <p className="text-sm text-gold-light">{p.author}</p>
+                  <span className="mt-auto inline-flex min-h-10 items-center gap-2 self-start rounded-full bg-gold px-4 font-display text-sm font-semibold text-navy">Read more →</span>
                 </Link>
               </li>
             ))}

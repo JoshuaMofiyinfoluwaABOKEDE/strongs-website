@@ -48,11 +48,17 @@ export const missions: Mission[] = [
       "Health teaching for students during our school outreaches",
     ],
     image: {
-      src: "/images/photos/medical-school-talk-1.webp",
-      alt: "Nurse Ruth O. Oduola speaking into a microphone to secondary-school students in green berets",
-      caption: "Nurse Ruth O. Oduola teaching students about their health during a school outreach.",
+      src: "/images/photos/medical-outreach-dispensing.webp",
+      alt: "A STRONGS medical volunteer speaking with women at a table of malaria test kits and medicines under a tent",
+      caption: "Under the tent at a STRONGS medical outreach: consultations, malaria testing and medicines.",
     },
     gallery: [
+      { src: "/images/photos/medical-outreach-tent.webp", alt: "Medical volunteers in blue-checked uniforms attending to people at the medicine table" },
+      { src: "/images/photos/medical-outreach-nurse.webp", alt: "A medical volunteer at work behind the medicine table while patients wait" },
+      { src: "/images/photos/medical-outreach-weighing.webp", alt: "A child standing barefoot on a weighing scale while others wait their turn" },
+      { src: "/images/photos/medical-outreach-counsel.webp", alt: "A volunteer looking up from the medicine table during the outreach" },
+      { src: "/images/photos/medical-outreach-patient.webp", alt: "A woman explaining her symptoms to the medical team" },
+      { src: "/images/photos/medical-school-talk-1.webp", alt: "Nurse Ruth O. Oduola speaking into a microphone to secondary-school students in green berets" },
       { src: "/images/photos/medical-school-talk-2.webp", alt: "Students from several schools seated in a church hall while Nurse Oduola speaks at the front" },
       { src: "/images/photos/medical-school-talk-3.webp", alt: "A wide view of the hall, with students in different uniforms listening to the health talk" },
       { src: "/images/photos/medical-school-talk-4.webp", alt: "Students seated on the pews during the school outreach" },
@@ -122,11 +128,6 @@ export const missions: Mission[] = [
       "Prepare productions for major STRONGS events",
       "Grow a film department as the work develops",
     ],
-    image: {
-      src: "/images/photos/olaewe-rcf-lautech.webp",
-      alt: "Ev. Godwin Ayorinde OLAEWE preaching at RCF LAUTECH",
-      caption: "Ev. Godwin Ayorinde OLAEWE preaching at RCF LAUTECH.",
-    },
     activitiesTitle: "What the mission does",
     activities: [
       "Gospel drama at crusades and outreaches",

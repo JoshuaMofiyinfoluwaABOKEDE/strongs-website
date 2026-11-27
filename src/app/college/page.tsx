@@ -84,10 +84,8 @@ export default function CollegePage() {
                       {done ? "✓" : i + 1}
                     </span>
                     <div className="flex flex-col gap-0.5">
-                      <p className={`font-semibold ${current ? "text-gold" : "text-white"}`}>
-                        {j.step}
-                        {current && <span className="ml-2 rounded-full bg-gold px-2 py-0.5 text-[0.6875rem] font-bold uppercase tracking-wide text-navy">We are here</span>}
-                      </p>
+                      {current && <span className="mb-1 self-start whitespace-nowrap rounded-full bg-gold px-2.5 py-0.5 text-[0.625rem] font-bold uppercase tracking-wide text-navy">We are here</span>}
+                      <p className={`font-semibold leading-snug ${current ? "text-gold" : "text-white"}`}>{j.step}</p>
                       <p className="text-sm text-pale">{j.text}</p>
                     </div>
                   </li>

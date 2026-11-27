@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { ArrowRight } from "@/components/icons";
 import { useMemo, useState } from "react";
 import type { Article } from "@/content/articles";
 import { Search } from "@/components/icons";
@@ -67,13 +68,17 @@ export function ArticleList({ articles, themes, writers }: { articles: Article[]
       </div>
       <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {shown.map((a) => (
-          <li key={a.slug} className="flex flex-col gap-2.5 rounded-3xl border border-line p-7">
+          <li key={a.slug} className="group relative flex flex-col gap-2.5 rounded-3xl border border-line p-6 transition-colors hover:border-royal hover:bg-mist/50 sm:p-7">
             <p className="text-xs font-semibold uppercase tracking-[0.15em] text-royal">{a.theme}</p>
             <h3 className="text-xl font-semibold leading-snug">
-              <Link href={`/resources/${a.slug}/`} className="text-navy no-underline hover:text-royal">{a.title}</Link>
+              {/* The whole card opens the article. */}
+              <Link href={`/resources/${a.slug}/`} className="text-navy no-underline after:absolute after:inset-0 after:rounded-3xl after:content-[''] group-hover:text-royal">{a.title}</Link>
             </h3>
-            <p className="text-[0.9375rem] text-muted">{a.excerpt}</p>
-            <p className="mt-auto pt-2 text-sm text-muted">{a.author} · {a.minutes} min read</p>
+            <p className="line-clamp-4 text-[0.9375rem] text-muted">{a.excerpt}</p>
+            <p className="text-sm text-muted">{a.author} · {a.minutes} min read</p>
+            <span aria-hidden="true" className="mt-auto inline-flex min-h-10 items-center gap-2 self-start rounded-full bg-navy px-4 pt-0 font-display text-sm font-semibold text-white group-hover:bg-royal">
+              Read more <ArrowRight size={16} />
+            </span>
           </li>
         ))}
       </ul>

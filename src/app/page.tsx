@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { site } from "@/content/site";
-import { past, placesReached, upcoming } from "@/content/events";
+import { past, upcoming } from "@/content/events";
 import { communities } from "@/content/communities";
 import { articles } from "@/content/articles";
 import { childrenClub, meetings, meetingsLeader } from "@/content/meetings";
@@ -22,14 +22,15 @@ const heritage = [
   { era: "Africa's harvest", quote: "…to see hell empty and heaven full.", who: "Reinhard Bonnke" },
 ];
 
-const fieldSlides: { src: string; alt: string; tag: string; caption: string; pos?: string }[] = [
-  { src: "/images/photos/irele-assembly-1.webp", alt: "A STRONGS evangelist preaching to secondary-school students gathered for morning assembly", tag: "School mission", caption: "Preaching Christ at a school assembly, Irele, October 2026." },
-  { src: "/images/photos/medical-school-talk-1.webp", alt: "Nurse Ruth Oduola giving a health talk to students", tag: "Medical mission", caption: "Nurse Ruth Oduola, Head of the Medical Mission, teaching students on health." },
-  { src: "/images/photos/school-tla-1.webp", alt: "A STRONGS minister speaking with a microphone to a full classroom of students", tag: "School preaching", caption: "The gospel in the classroom." },
-  { src: "/images/photos/irele-hall-preaching.webp", alt: "An evangelist ministering to students in a school hall with a thatched roof", tag: "Student outreach", caption: "Ministering to students during the Irele Student Outreach." },
-  { src: "/images/photos/medical-school-talk-3.webp", alt: "A wide view of a hall full of students in different uniforms listening to a health talk", tag: "Medical mission", caption: "Students from several schools at a health talk." },
-  { src: "/images/photos/teens-capacity-1.webp", alt: "A minister teaching from the pulpit while teenagers listen from the pews", tag: "Teenagers", caption: "Teenagers' Capacity Building, Sepeteri, September 2026." },
-  { src: "/images/photos/abokede-campus-aflame.webp", alt: "Joshua Mofiyinfoluwa ABOKEDE preaching at Campus aFlame", tag: "Campus mission", caption: "Campus aFlame: the gospel on university campuses.", pos: "center top" },
+/** The opening slideshow's photos, now crossfading behind the words (seven, 5 seconds each: see .hero-slide in globals.css). */
+const heroSlides: { src: string; pos?: string }[] = [
+  { src: "/images/photos/irele-assembly-1.webp" },
+  { src: "/images/photos/medical-school-talk-1.webp" },
+  { src: "/images/photos/school-tla-1.webp" },
+  { src: "/images/photos/irele-hall-preaching.webp" },
+  { src: "/images/photos/medical-school-talk-3.webp" },
+  { src: "/images/photos/teens-capacity-1.webp" },
+  { src: "/images/photos/abokede-campus-aflame.webp", pos: "center top" },
 ];
 
 const fields = [
@@ -48,46 +49,50 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero */}
-      <section aria-labelledby="hero-title" className="bg-navy text-white">
-        <div className="container-site flex flex-col items-center gap-14 py-[clamp(3.5rem,8vw,6.5rem)] lg:flex-row">
-          <div className="flex min-w-0 flex-1 flex-col gap-6">
-            <p className="eyebrow-dark">The gospel to every creature</p>
-            <h1 id="hero-title" className="text-[clamp(2.1rem,3.848vw,3.145rem)] font-bold leading-[1.08] tracking-[-0.02em]">
-              Win the lost. Ground the saved. <span className="text-gold">Send out soul winners.</span>
-            </h1>
-            <p className="lead max-w-xl text-pale">
-              A non-denominational gospel mission to campuses, schools, towns and villages.
-            </p>
-            <div className="flex flex-wrap gap-3.5">
-              <Link href="/meetings/" className="btn btn-gold">
-                Join Bible Club &amp; Training <ArrowRight size={18} />
-              </Link>
-              <Link href="/get-involved/" className="btn btn-line-light">
-                Partner with the mission
-              </Link>
-            </div>
-            <p className="max-w-xl border-t border-navy-line pt-5 text-[1.0625rem] font-medium italic">
-              “{site.watchword}”
-            </p>
-          </div>
-          <Slideshow
-            label="From the mission field"
-            kenburns
-            interval={5500}
-            className="w-full min-w-0 flex-1"
-            slides={fieldSlides.map((f, i) => (
-              <figure key={f.src} className="relative h-[22rem] overflow-hidden rounded-3xl bg-navy-2 sm:h-[26rem] lg:h-[32rem]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={f.src} alt={f.alt} loading={i === 0 ? "eager" : "lazy"} className="absolute inset-0 h-full w-full object-cover" style={{ objectPosition: f.pos ?? "center" }} />
-                <figcaption className="absolute inset-x-0 bottom-0 flex flex-col gap-1 bg-gradient-to-t from-navy/95 via-navy/60 to-transparent px-6 pb-5 pt-16">
-                  <span className="text-xs font-bold uppercase tracking-[0.18em] text-gold">{f.tag}</span>
-                  <span className="text-[0.9375rem] font-medium text-white">{f.caption}</span>
-                </figcaption>
-              </figure>
-            ))}
-          />
+      {/* Hero: full-screen photos crossfading behind the words */}
+      <section aria-labelledby="hero-title" className="hero-full relative isolate flex min-h-[calc(100svh-73px)] items-center justify-center overflow-hidden bg-navy text-center text-white">
+        <div aria-hidden="true" className="absolute inset-0 -z-20">
+          {heroSlides.map((f, i) => (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              key={f.src}
+              src={f.src}
+              alt=""
+              loading={i === 0 ? "eager" : "lazy"}
+              fetchPriority={i === 0 ? "high" : undefined}
+              className="hero-slide absolute inset-0 h-full w-full object-cover"
+              style={{ objectPosition: f.pos ?? "center", ["--i" as string]: i }}
+            />
+          ))}
         </div>
+        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(11,31,58,0.62)_0%,rgba(11,31,58,0.74)_55%,rgba(11,31,58,0.96)_100%)]" />
+
+        <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-5 px-6 pb-24 pt-14 sm:gap-6">
+          <p className="hero-rise eyebrow-dark" style={{ animationDelay: "0.1s" }}>The gospel to every creature</p>
+          <h1 id="hero-title" className="text-[clamp(2.25rem,6.2vw,4.5rem)] font-extrabold leading-[1.05] tracking-[-0.02em]">
+            <span className="hero-rise block" style={{ animationDelay: "0.25s" }}>Win the lost.</span>
+            <span className="hero-rise block" style={{ animationDelay: "0.45s" }}>Ground the saved.</span>
+            <span className="hero-rise block text-gold" style={{ animationDelay: "0.65s" }}>Send out soul winners.</span>
+          </h1>
+          <p className="hero-rise max-w-xl text-[clamp(1rem,1.6vw,1.1875rem)] text-pale" style={{ animationDelay: "0.85s" }}>
+            A non-denominational gospel mission to campuses, schools, towns and villages.
+          </p>
+          <div className="hero-rise flex flex-wrap justify-center gap-3" style={{ animationDelay: "1.05s" }}>
+            <Link href="/meetings/" className="btn btn-gold">
+              Join Bible Club &amp; Training <ArrowRight size={18} />
+            </Link>
+            <Link href="/get-involved/" className="btn btn-line-light">
+              Partner with the mission
+            </Link>
+          </div>
+          <p className="hero-rise max-w-lg pt-2 text-[0.9375rem] font-medium italic text-white/85" style={{ animationDelay: "1.25s" }}>
+            “{site.watchword}”
+          </p>
+        </div>
+
+        <a href="#weekly-title" className="hero-cue absolute bottom-6 left-1/2 font-display text-[0.6875rem] font-bold uppercase tracking-[0.24em] text-white/90 no-underline hover:text-gold">
+          Scroll to explore
+        </a>
       </section>
 
       {/* Weekly meetings */}
@@ -288,15 +293,6 @@ export default function HomePage() {
               </article>
             ))}
           />
-          <div className="flex flex-wrap items-center gap-x-3.5 gap-y-2 rounded-2xl bg-mist px-6 py-5">
-            <p className="mr-1.5 text-xs font-semibold uppercase tracking-[0.15em] text-royal">The gospel has gone to</p>
-            {placesReached.map((p, i) => (
-              <span key={p} className="font-medium text-navy">
-                {p}
-                {i < placesReached.length - 1 && <span aria-hidden="true" className="ml-3.5 text-gold">·</span>}
-              </span>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -352,7 +348,7 @@ export default function HomePage() {
           </div>
           <div className="w-full flex-1 rounded-3xl bg-navy-2 p-[clamp(1.5rem,3vw,2.25rem)]">
             <p className="eyebrow-dark mb-5 text-xs">Where we are</p>
-            <ol className="flex flex-col gap-3">
+            <ol className="flex flex-col gap-3.5">
               {journey.map((j, i) => (
                 <li key={j.step} className="flex items-center gap-3.5">
                   <span
@@ -362,8 +358,10 @@ export default function HomePage() {
                   >
                     {i < journeyNow ? "✓" : i + 1}
                   </span>
-                  <span className={i === journeyNow ? "font-semibold text-gold" : i < journeyNow ? "text-white" : "text-pale"}>{j.step}</span>
-                  {i === journeyNow && <span className="rounded-full bg-gold px-2 py-0.5 text-[0.6875rem] font-bold uppercase tracking-wide text-navy">We are here</span>}
+                  <span className="flex min-w-0 flex-col items-start gap-1">
+                    {i === journeyNow && <span className="whitespace-nowrap rounded-full bg-gold px-2.5 py-0.5 text-[0.625rem] font-bold uppercase tracking-wide text-navy">We are here</span>}
+                    <span className={`leading-snug ${i === journeyNow ? "font-semibold text-gold" : i < journeyNow ? "text-white" : "text-pale"}`}>{j.step}</span>
+                  </span>
                 </li>
               ))}
             </ol>
@@ -386,7 +384,7 @@ export default function HomePage() {
             {communities.map((c) => {
               const Icon = communityIcons[c.short] ?? People;
               return (
-                <li key={c.short} className="flex items-center gap-3 rounded-2xl bg-white px-4 py-3.5 font-semibold text-navy">
+                <li key={c.short} className="flex flex-col items-center gap-2 rounded-2xl bg-white px-2 py-4 text-center text-[0.9375rem] font-semibold leading-tight text-navy sm:flex-row sm:gap-3 sm:px-4 sm:text-left">
                   <span className="grid h-10 w-10 flex-none place-items-center rounded-full bg-mist text-royal"><Icon size={20} /></span>
                   {c.short}
                 </li>

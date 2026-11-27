@@ -4,6 +4,7 @@ import { books } from "@/content/books";
 import { notFound } from "next/navigation";
 import { articles, getArticle } from "@/content/articles";
 import { ArticleComments } from "@/components/comments/ArticleComments";
+import { ArrowRight } from "@/components/icons";
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
@@ -78,11 +79,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <h2 id="more-title" className="text-2xl font-bold text-navy">More on {a.theme.toLowerCase()}</h2>
             <ul className="grid gap-5 md:grid-cols-3">
               {more.map((m) => (
-                <li key={m.slug} className="flex flex-col gap-2 rounded-3xl bg-white p-7">
+                <li key={m.slug} className="group relative flex flex-col gap-2 rounded-3xl bg-white p-7 hover:shadow-[0_0_0_2px_var(--color-royal)]">
                   <h3 className="text-lg font-semibold leading-snug">
-                    <Link href={`/resources/${m.slug}/`} className="text-navy no-underline hover:text-royal">{m.title}</Link>
+                    <Link href={`/resources/${m.slug}/`} className="text-navy no-underline after:absolute after:inset-0 after:rounded-3xl after:content-[''] group-hover:text-royal">{m.title}</Link>
                   </h3>
-                  <p className="text-[0.9375rem] text-muted">{m.excerpt}</p>
+                  <p className="line-clamp-4 text-[0.9375rem] text-muted">{m.excerpt}</p>
+                  <span aria-hidden="true" className="mt-auto inline-flex min-h-10 items-center gap-2 self-start rounded-full bg-navy px-4 font-display text-sm font-semibold text-white group-hover:bg-royal">
+                    Read more <ArrowRight size={16} />
+                  </span>
                 </li>
               ))}
             </ul>

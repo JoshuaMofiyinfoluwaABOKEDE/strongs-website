@@ -203,6 +203,7 @@ export default function CrusadesPage() {
                       {e.theme && <p className="text-sm italic text-ink">Theme: {e.theme}</p>}
                       <p className="text-sm text-muted">{e.place}</p>
                       {e.report && <p className="mt-1 border-l-[3px] border-gold pl-3 text-sm text-ink">{e.report}</p>}
+                      {e.href && <Link href={e.href} className="mt-2 inline-flex min-h-9 items-center gap-1.5 self-start rounded-full bg-navy px-4 font-display text-sm font-semibold text-white no-underline hover:bg-royal hover:text-white">Read more →</Link>}
                     </div>
                   </li>
                 ))}
