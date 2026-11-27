@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { courseFacts } from "@/content/courses";
 import { getCatalogItems, getSubjects, THEOLOGY_PROGRAM } from "@/lib/catalog";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { CourseCard } from "@/components/CourseCard";
 import { Carousel } from "@/components/Carousel";
 import { SectionHeading } from "@/components/ui";
@@ -14,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 // Course details are managed in the admin area; refresh the catalogue at most every few minutes.
-export const revalidate = 300;
+export const dynamic = "force-dynamic";
 
 export default async function CoursesPage() {
   const [items, subjects] = await Promise.all([getCatalogItems(), getSubjects()]);
@@ -24,7 +23,6 @@ export default async function CoursesPage() {
   const theology = items.filter((c) => c.program === THEOLOGY_PROGRAM);
   return (
     <div className="edx">
-      <LearnBar />
       <section aria-labelledby="co-title" className="bg-navy text-white">
         <div className="container-site grid items-center gap-8 py-[clamp(2.25rem,6vw,5rem)] lg:grid-cols-[1.25fr_1fr] lg:gap-12">
           <div className="flex flex-col gap-4 sm:gap-6">

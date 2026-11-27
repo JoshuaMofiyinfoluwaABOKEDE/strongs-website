@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { theologyOrder, theologyRules } from "@/content/theology/catalog";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { TheologyCard } from "@/components/theology/TheologyCard";
 import { SectionHeading } from "@/components/ui";
 import { allTheologyCourses, tracksWithCourses } from "@/lib/theology/content";
@@ -11,6 +10,8 @@ export const metadata: Metadata = {
   description: "STRONGS School of Theology: self-paced theology courses in plain English, with weekly quizzes, a test, assignments, a final exam and a certificate.",
 };
 
+export const dynamic = "force-dynamic";
+
 export default function TheologySchool() {
   const tracks = tracksWithCourses();
   const count = allTheologyCourses().length;
@@ -18,7 +19,6 @@ export default function TheologySchool() {
   const w = theologyRules.weights;
   return (
     <div className="edx">
-      <LearnBar />
       <section aria-labelledby="th-title" className="bg-navy text-white">
         <div className="container-site grid items-center gap-8 py-[clamp(2.25rem,7vw,6rem)] lg:gap-12 lg:grid-cols-[1.25fr_1fr]">
           <div className="flex flex-col gap-4 sm:gap-6">

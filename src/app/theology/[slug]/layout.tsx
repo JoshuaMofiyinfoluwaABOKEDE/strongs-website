@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { theologyOrder } from "@/content/theology/catalog";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { CourseTabs } from "@/components/theology/CourseTabs";
 import { loadTheology } from "@/lib/theology/learner";
 
@@ -13,7 +12,6 @@ export default async function TheologyLayout({ children, params }: { children: R
   const n = theologyOrder.findIndex((o) => o.slug === slug) + 1;
   return (
     <div className="edx">
-      <LearnBar />
       <div className="bg-navy text-white">
         <div className="container-site flex flex-wrap items-end gap-x-8 gap-y-3 pt-4 sm:pt-5">
           <div className="flex min-w-0 flex-1 flex-col pb-3">

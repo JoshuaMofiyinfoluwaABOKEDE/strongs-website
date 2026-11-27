@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { NotConnected } from "@/components/learn/NotConnected";
 import { hasDatabase } from "@/lib/db";
 import { requireUser } from "@/lib/session";
@@ -18,7 +17,6 @@ export default async function SetupPage({ searchParams }: { searchParams: Promis
   const ready = (process.env.ADMIN_SETUP_KEY || "").length >= 8;
   return (
     <>
-      <LearnBar />
       <section className="bg-mist">
         <div className="container-site flex max-w-2xl flex-col gap-5 py-[clamp(3rem,7vw,5rem)]">
           <p className="eyebrow">Courses admin</p>

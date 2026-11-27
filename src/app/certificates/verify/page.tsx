@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { redirect } from "next/navigation";
-import { LearnBar } from "@/components/learn/LearnBar";
 
 export const metadata: Metadata = { title: "Verify a certificate" };
 
@@ -13,7 +12,6 @@ async function lookUp(form: FormData) {
 export default function VerifyPage() {
   return (
     <>
-      <LearnBar />
       <section className="bg-mist">
         <div className="container-site flex max-w-2xl flex-col gap-5 py-[clamp(3rem,7vw,5rem)]">
           <p className="eyebrow">STRONGS Courses</p>

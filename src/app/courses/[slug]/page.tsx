@@ -6,7 +6,6 @@ import { site } from "@/content/site";
 import { CourseCard, CourseCover } from "@/components/CourseCard";
 import { Carousel } from "@/components/Carousel";
 import { SectionHeading } from "@/components/ui";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { Book, Calendar, Chat, Clock, Monitor, People, Signal } from "@/components/icons";
 import { hasDatabase } from "@/lib/db";
 import { getCatalogue, getCategories, getOutline, getProgress, type CatalogueCourse, type Outline, type Progress } from "@/lib/lms";
@@ -56,7 +55,6 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
 
   return (
     <>
-      <LearnBar />
       <section aria-labelledby="c-title" className="bg-navy text-white">
         <div className="container-site grid items-center gap-10 py-[clamp(2.5rem,5vw,4.5rem)] lg:grid-cols-[1.4fr_1fr]">
           <div className="flex flex-col gap-5">

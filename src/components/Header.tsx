@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { mainNav } from "@/content/site";
-import { Menu } from "@/components/icons";
+import { Menu, User } from "@/components/icons";
 
 /** True when the current page belongs to this menu item (e.g. /crusades/this-same-jesus/ → Crusades). */
 function isActive(pathname: string, href: string) {
@@ -19,7 +19,7 @@ export function Header() {
     <header className="sticky top-0 z-30 border-b border-line bg-white">
       <div className="mx-auto flex w-full max-w-[82.5rem] items-center justify-between gap-6 px-[clamp(1.25rem,4vw,3rem)] py-3">
         <div className="flex min-w-0 items-center gap-2.5">
-        <Link href="/" aria-label="STRONGS home" className="flex items-center gap-3 no-underline">
+        <Link href="/" aria-label="STRONGS home" className="flex shrink-0 items-center gap-3 no-underline">
           <img src="/images/strongs-logo.webp" alt="" width={52} height={52} className="h-12 w-12 lg:h-[3.25rem] lg:w-[3.25rem]" />
           <span className="flex flex-col leading-tight">
             <span className="text-lg font-extrabold tracking-[0.18em] text-navy">STRONGS</span>
@@ -29,7 +29,8 @@ export function Header() {
         </div>
 
         <nav aria-label="Main" className="hidden items-center gap-3 whitespace-nowrap text-[0.875rem] font-medium xl:flex 2xl:gap-5 2xl:text-[0.9375rem]">
-          {[{ href: "/", label: "Home" }, ...mainNav].map((item) => {
+          {/* The logo links home, so the desktop bar leaves Home out to keep the row uncrowded. */}
+          {mainNav.map((item) => {
             const active = isActive(pathname, item.href);
             return (
               <Link
@@ -49,6 +50,14 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
+          <Link
+            href="/dashboard/"
+            aria-label="My learning"
+            title="My learning"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-line text-navy no-underline hover:border-navy hover:text-royal"
+          >
+            <User size={20} />
+          </Link>
           <Link href="/get-involved/#give" className="btn btn-navy hidden min-h-11 px-6 text-[0.9375rem] sm:inline-flex">
             Give
           </Link>
@@ -80,6 +89,14 @@ export function Header() {
                     </Link>
                   </li>
                 ))}
+                <li>
+                  <Link
+                    href="/dashboard/"
+                    className="flex min-h-12 items-center gap-3 rounded-xl px-4 font-medium text-ink no-underline hover:bg-mist"
+                  >
+                    <User size={18} /> My learning
+                  </Link>
+                </li>
                 <li className="mt-2 sm:hidden">
                   <Link href="/get-involved/#give" className="btn btn-navy w-full">
                     Give

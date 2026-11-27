@@ -1,0 +1,309 @@
+{
+ "slug": "mentoring-and-succession",
+ "objectives": [
+  "Understand mentoring and succession from Scripture",
+  "Start and run fruitful mentoring relationships",
+  "Plan leadership succession with prayer, preparation and transparency",
+  "Handle transitions with honour for outgoing and incoming leaders"
+ ],
+ "modules": [
+  {
+   "title": "Mentoring",
+   "summary": "Walking alongside others.",
+   "lessons": [
+    {
+     "title": "What mentoring is",
+     "scripture": "Ruth 1:16-18; Titus 2:3-5; Proverbs 13:20",
+     "body": "Ruth clung to Naomi: \"whither thou goest, I will go\" (Ruth 1:16). Naomi later guided Ruth wisely (Ruth 3). Titus 2 describes older women teaching younger women, and older men as examples. \"He that walketh with wise men shall be wise\" (Proverbs 13:20).\n\n**Mentoring** is a relationship in which a more experienced person helps another grow in character, faith and skill. It differs from:\n\n- **Teaching** (passing on information to many).\n- **Coaching** (developing specific skills or goals).\n- **Counselling** (helping with problems or wounds).\n\nMentoring may include all of these, but its heart is **relationship and example**.\n\nTypes of mentors:\n\n- **Spiritual mentors** for walking with God.\n- **Ministry mentors** for leadership and service.\n- **Career mentors** in professions.\n- **Peer mentors** at a similar stage.\n- **Historical mentors**: biographies of faithful believers.\n\nMost people need several mentors at different times."
+    },
+    {
+     "title": "How to mentor well",
+     "scripture": "Proverbs 20:5; 1 Thessalonians 2:11-12; Hebrews 13:7",
+     "body": "Paul dealt with the Thessalonians \"as a father doth his children\", exhorting, comforting and charging them (1 Thessalonians 2:11).\n\nPractical mentoring:\n\n- **Agree on purpose and rhythm**: e.g. meet monthly for a year, focused on prayer life and leadership.\n- **Let the mentee lead the agenda** with questions and needs.\n- **Ask good questions** more than giving speeches:\n  - \"How is your walk with God?\"\n  - \"What are you learning? Where are you struggling?\"\n  - \"What decision are you facing? What options do you see?\"\n  - \"What will you do before we next meet?\"\n- **Share honestly** from your own life, including failures.\n- **Use Scripture** and good books.\n- **Pray together**.\n- **Keep confidences**.\n- **Respect boundaries**: mentoring across genders needs special wisdom and openness.\n- **End or review** at the agreed time."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is mentoring?",
+     "options": [
+      "A relationship in which a more experienced person helps another grow in character, faith and skill",
+      "A one-time lecture",
+      "A paid service only",
+      "A job interview"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does Proverbs 13:20 say?",
+     "options": [
+      "He that walketh with wise men shall be wise",
+      "Walk alone to be wise",
+      "Avoid older people",
+      "Wisdom comes from wealth"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Who should usually lead the agenda in mentoring?",
+     "options": [
+      "The mentee, through their questions and needs",
+      "The mentor always",
+      "No one",
+      "A third party"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which is a good mentoring question?",
+     "options": [
+      "What will you do before we next meet?",
+      "Why are you so weak?",
+      "How much do you earn?",
+      "Who do you dislike?"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Succession",
+   "summary": "Preparing the next leader.",
+   "lessons": [
+    {
+     "title": "Biblical succession",
+     "scripture": "Numbers 27:12-23; 1 Kings 19:16-21; Acts 20:28-32",
+     "body": "God told Moses he would die and not enter Canaan. Moses' first concern was succession: \"Let the LORD... set a man over the congregation\" (Numbers 27:16). God chose Joshua; Moses commissioned him publicly and \"put some of [his] honour upon him, that all the congregation... may be obedient\" (verse 20).\n\nGod told Elijah to anoint Elisha \"to be prophet in thy room\" (1 Kings 19:16). Elisha served Elijah for years before succeeding him.\n\nPaul prepared the Ephesian elders for his absence: \"I know this, that after my departing shall grievous wolves enter in... Therefore watch\" (Acts 20:29, 31).\n\nDavid's succession, by contrast, was left unclear until a crisis (1 Kings 1), and it brought conflict. Unplanned succession often leads to division.\n\nLesson: **plan succession while you are strong**, not when you are dying or in crisis."
+    },
+    {
+     "title": "Planning succession",
+     "scripture": "Proverbs 15:22; 2 Timothy 2:2; Deuteronomy 31:7-8",
+     "body": "A **succession plan** answers:\n\n- **Which roles** need successors (senior pastor, key department heads, board members)?\n- **What qualities** must the successor have (character, calling, gifts, doctrine, vision fit)?\n- **Who are potential successors**? Develop several, not just one.\n- **How will they be prepared**? Mentoring, responsibilities, training, exposure.\n- **Who decides**? Board, elders, denomination or congregation, according to your constitution.\n- **When and how** will the transition happen? Timeline, announcement, handover.\n- **Emergency plan**: who leads if the leader is suddenly unable to?\n\nWrite the plan down and review it every year. Avoid **family entitlement**: a leader's child may be called, but should be chosen by the same standards as anyone else."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What was Moses' first concern when told he would die?",
+     "options": [
+      "That God would set a man over the congregation",
+      "His burial place",
+      "His wealth",
+      "His reputation"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What happened when David's succession was unclear (1 Kings 1)?",
+     "options": [
+      "Conflict arose",
+      "Everything went smoothly",
+      "No one wanted the throne",
+      "The kingdom ended"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "When should leaders plan succession?",
+     "options": [
+      "While they are strong, not in crisis",
+      "Only when dying",
+      "Never",
+      "After they leave"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "How should a leader's child be considered as successor?",
+     "options": [
+      "By the same standards as anyone else",
+      "Automatically chosen",
+      "Automatically excluded",
+      "By public vote only"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Transitions",
+   "summary": "Handing over and moving on with honour.",
+   "lessons": [
+    {
+     "title": "The handover",
+     "scripture": "Deuteronomy 34:9; Joshua 1:1-9; 2 Kings 2:9-15",
+     "body": "After Moses, \"Joshua... was full of the spirit of wisdom; for Moses had laid his hands upon him: and the children of Israel hearkened unto him\" (Deuteronomy 34:9). God then spoke directly to Joshua: \"as I was with Moses, so I will be with thee\" (Joshua 1:5).\n\nWhen Elijah was taken up, Elisha picked up his mantle and struck the Jordan, and the sons of the prophets said, \"The spirit of Elijah doth rest on Elisha\" (2 Kings 2:15).\n\nA good handover:\n\n- **Public recognition** and prayer for the new leader.\n- **Full transfer** of authority, information, relationships and resources.\n- **Overlap period** where helpful, with clear roles.\n- **Honour** for the outgoing leader.\n- **Freedom** for the new leader to lead differently.\n- **Clear communication** to members and partners."
+    },
+    {
+     "title": "Life after leadership",
+     "scripture": "2 Timothy 4:6-8; Psalm 92:12-15; Acts 20:32",
+     "body": "\"They shall still bring forth fruit in old age\" (Psalm 92:14). Leaving a position is not leaving God's service.\n\nFor outgoing leaders:\n\n- **Let go**: don't undermine or second-guess your successor publicly.\n- **Be available** as a counsellor when asked.\n- **Find new service**: mentoring, writing, prayer, teaching, missions.\n- **Prepare financially** and emotionally for transition.\n- **Commend** the work to God: \"I commend you to God, and to the word of his grace\" (Acts 20:32).\n\nFor incoming leaders:\n\n- **Honour** those before you.\n- **Learn** the history before changing things.\n- **Seek counsel**, but lead with your own God-given vision.\n\nPaul ended well: \"I have finished my course\" (2 Timothy 4:7). A leader's legacy is people who carry on faithfully."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What did God say to Joshua after Moses died?",
+     "options": [
+      "As I was with Moses, so I will be with thee",
+      "You are not like Moses",
+      "Wait for another leader",
+      "Go back to Egypt"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What did Elisha do with Elijah's mantle?",
+     "options": [
+      "Picked it up and struck the Jordan",
+      "Burned it",
+      "Sold it",
+      "Left it behind"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should an outgoing leader avoid?",
+     "options": [
+      "Undermining the successor publicly",
+      "Being available when asked",
+      "Finding new service",
+      "Commending the work to God"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should incoming leaders do before changing things?",
+     "options": [
+      "Learn the history",
+      "Change everything immediately",
+      "Remove all previous leaders",
+      "Ignore advice"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "How does mentoring differ from teaching?",
+   "options": [
+    "Its heart is relationship and example, not only passing information to many",
+    "It is always paid",
+    "It never uses Scripture",
+    "It is the same thing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is a type of mentor?",
+   "options": [
+    "A historical mentor through biographies",
+    "An enemy",
+    "A stranger online with no relationship",
+    "Someone who refuses to meet"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How did Paul relate to the Thessalonians?",
+   "options": [
+    "As a father with his children",
+    "As a distant ruler",
+    "As a stranger",
+    "As a competitor"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why does mentoring across genders need special wisdom?",
+   "options": [
+    "To keep boundaries clear and protect integrity",
+    "It is forbidden",
+    "It doesn't",
+    "It is always better"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What did Moses put on Joshua (Numbers 27:20)?",
+   "options": [
+    "Some of his honour",
+    "His crown",
+    "His staff only",
+    "Nothing"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What did Paul warn the Ephesian elders about?",
+   "options": [
+    "Grievous wolves entering after his departure",
+    "Too many members",
+    "Lack of money",
+    "Bad weather"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why develop several potential successors?",
+   "options": [
+    "To avoid depending on one person",
+    "To create rivalry",
+    "To confuse the church",
+    "It is not wise"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should a succession plan include for emergencies?",
+   "options": [
+    "Who leads if the leader is suddenly unable to",
+    "Nothing",
+    "Closing the ministry",
+    "A party"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does Psalm 92:14 say about the righteous in old age?",
+   "options": [
+    "They shall still bring forth fruit",
+    "They should stop serving",
+    "They are useless",
+    "They should be forgotten"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What is a leader's legacy, according to this course?",
+   "options": [
+    "People who carry on faithfully",
+    "Buildings named after them",
+    "Their wealth",
+    "Their titles"
+   ],
+   "answer": 0
+  }
+ ],
+ "title": "Mentoring and Succession",
+ "category": "leadership",
+ "level": "Intermediate",
+ "effort": "2 hours a week",
+ "summary": "Mentor others with wisdom and plan leadership succession so ministries outlive their founders.",
+ "about": "Many ministries struggle or collapse when their founder or leader dies, retires or leaves. Scripture shows another way: intentional mentoring and planned succession. This course teaches the practice of mentoring (how to start, structure and sustain mentoring relationships) and the principles of succession planning, so that God's work passes faithfully to the next generation.",
+ "audience": "Senior pastors, founders, ministry and organisational leaders, boards, and experienced believers willing to mentor.",
+ "prerequisites": "Raising Men and Women of God is a helpful companion.",
+ "outcomes": [
+  "Describe several types of mentoring relationships",
+  "Lead a mentoring conversation with good questions",
+  "Draft a succession plan for a ministry role",
+  "Plan a transition and life after leadership"
+ ],
+ "assignment": {
+  "title": "Practical assignment: mentoring and succession plan",
+  "body": "Hand in (500 to 800 words):\n\n1. A description of a mentoring relationship you will start or are in (as mentor or mentee): purpose, rhythm, and five questions you will use.\n2. A succession plan for one role in a ministry you know (qualities, potential successors, preparation, decision process, timeline, emergency plan).\n3. A short reflection on how you will honour those before you and prepare those after you."
+ },
+ "reading": [
+  "Robert Clinton, The Making of a Leader",
+  "Howard and William Hendricks, As Iron Sharpens Iron"
+ ]
+}

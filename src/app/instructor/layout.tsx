@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { NotConnected } from "@/components/learn/NotConnected";
 import { hasDatabase, one } from "@/lib/db";
 import { requireInstructor } from "@/lib/session";
@@ -23,7 +22,6 @@ export default async function InstructorLayout({ children }: { children: React.R
   ];
   return (
     <>
-      <LearnBar />
       <div className="container-site grid items-start gap-8 py-8 lg:grid-cols-[14rem_1fr]">
         <nav aria-label="Instructor" className="flex gap-1 overflow-x-auto lg:sticky lg:top-28 lg:flex-col">
           <p className="hidden px-3 pb-2 text-xs font-bold uppercase tracking-[0.14em] text-royal lg:block">School of Theology</p>

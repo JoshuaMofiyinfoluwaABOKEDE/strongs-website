@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CertificatePreview } from "@/components/CertificatePreview";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { getCertificate } from "@/lib/lms";
 
 export const dynamic = "force-dynamic";
@@ -19,7 +18,6 @@ export default async function CertificatePage({ params }: { params: Promise<{ co
   const c = await getCertificate(code);
   return (
     <>
-      <LearnBar />
       <section className="bg-mist">
         <div className="container-site flex justify-center py-[clamp(3rem,7vw,5rem)]">
           {!c ? (

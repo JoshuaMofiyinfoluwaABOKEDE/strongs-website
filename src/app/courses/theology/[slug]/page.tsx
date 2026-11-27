@@ -4,7 +4,6 @@ import { courseCategories } from "@/content/courses";
 import { CertificatePreview } from "@/components/CertificatePreview";
 import { notFound } from "next/navigation";
 import { theologyOrder, theologyRules, theologyTracks, theologySubject } from "@/content/theology/catalog";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { Ref } from "@/components/theology/Ref";
 import { TheologyCard } from "@/components/theology/TheologyCard";
 import { hasDatabase, one } from "@/lib/db";
@@ -73,7 +72,6 @@ export default async function TheologyCoursePage({ params }: { params: Promise<{
 
   return (
     <div className="edx">
-      <LearnBar />
       {/* Hero */}
       <section aria-labelledby="c-title" className="bg-navy text-white">
         <div className="container-site grid items-center gap-6 py-[clamp(1.75rem,5vw,4.5rem)] lg:gap-10 lg:grid-cols-[1.5fr_1fr]">

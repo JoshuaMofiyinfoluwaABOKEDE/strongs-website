@@ -1,0 +1,367 @@
+{
+ "slug": "church-planting",
+ "objectives": [
+  "Understand the biblical basis and patterns of church planting",
+  "Prepare a planting team, sending relationship and plan",
+  "Evangelise, disciple and gather a new congregation",
+  "Develop leaders, sustainability and multiplication"
+ ],
+ "modules": [
+  {
+   "title": "Biblical foundations",
+   "summary": "Why and how churches were planted.",
+   "lessons": [
+    {
+     "title": "The church planting mandate",
+     "scripture": "Matthew 16:18; Matthew 28:18-20; Acts 1:8",
+     "body": "Jesus said, \"I will build my church\" (Matthew 16:18) and sent His disciples to \"teach all nations, baptizing them... Teaching them to observe all things\" (Matthew 28:19-20). As the gospel spread from Jerusalem to Judaea, Samaria and beyond (Acts 1:8), it produced **churches**: communities of baptised disciples meeting together under leaders.\n\nWhy plant new churches?\n\n- **Reach new people**: new churches often reach those whom established churches do not.\n- **Reach new places**: neighbourhoods, estates, campuses, villages and people groups without a gospel witness.\n- **Disciple effectively** in reachable communities.\n- **Raise new leaders**.\n- **Multiply**: healthy churches plant churches.\n\nChurch planting is not about competing with existing churches or building personal empires. It is about extending Christ's kingdom where it is needed."
+    },
+    {
+     "title": "Paul's pattern",
+     "scripture": "Acts 13:1-4; Acts 14:21-28; Acts 19:8-10",
+     "body": "Paul's journeys show a pattern (sometimes called the **Pauline cycle**):\n\n1. **Sent** by a praying church (Acts 13:1-4).\n2. **Entered** a city, often starting where people already gathered (synagogues, Acts 13:14).\n3. **Preached** the gospel.\n4. **Gathered** believers (Acts 14:21; 16:15, 40).\n5. **Taught** and confirmed them (Acts 14:22; 19:9-10).\n6. **Appointed elders** (Acts 14:23).\n7. **Commended** them to the Lord and moved on, while staying connected through visits and letters (Acts 14:23; 15:36).\n8. **Reported** back to the sending church (Acts 14:26-27).\n\nNotice: **teams** (Paul with Barnabas, Silas, Timothy, Luke, Priscilla and Aquila), **local leaders** appointed quickly, and **ongoing relationship**. Paul planted churches that could stand without him."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What did Jesus promise in Matthew 16:18?",
+     "options": [
+      "I will build my church",
+      "I will build a temple",
+      "I will leave the church",
+      "I will build a kingdom on earth only"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why plant new churches?",
+     "options": [
+      "To reach new people and places with the gospel",
+      "To compete with existing churches",
+      "To build personal empires",
+      "To divide congregations"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Who sent Paul and Barnabas in Acts 13?",
+     "options": [
+      "The praying church at Antioch",
+      "The Roman government",
+      "The temple priests",
+      "No one"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What did Paul do to make churches able to stand without him?",
+     "options": [
+      "Appointed local elders and stayed connected",
+      "Kept all authority himself",
+      "Never returned",
+      "Took all leaders with him"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Preparation",
+   "summary": "Call, team, research and plan.",
+   "lessons": [
+    {
+     "title": "Call, team and sending church",
+     "scripture": "Acts 13:2-3; Acts 16:9-10; Romans 15:20",
+     "body": "Paul aimed \"to preach the gospel, not where Christ was named, lest I should build upon another man's foundation\" (Romans 15:20). The Holy Spirit directed him to Macedonia through a vision (Acts 16:9-10).\n\n**Calling**: confirm the call through prayer, Scripture, the counsel of leaders and a track record of making disciples. Planting is demanding; a clear call sustains you.\n\n**Sending church**: plant with a church or network that prays, commissions, supports and holds you accountable (Acts 13:3; 14:26-27).\n\n**Team**: plant with others where possible: a leader, an evangelist, someone gifted in administration, worship, children's ministry, and prayer. Team members should share the vision, theology and values, and be willing to work hard and sacrificially.\n\n**Planter's family**: the spouse must share the call; children need care through the transition."
+    },
+    {
+     "title": "Research and plan",
+     "scripture": "Numbers 13:17-20; Luke 14:28-30; Nehemiah 2:11-16",
+     "body": "Moses sent spies to \"see the land, what it is; and the people that dwelleth therein, whether they be strong or weak, few or many\" (Numbers 13:18). Nehemiah inspected the walls before starting (Nehemiah 2:13).\n\n**Community research**:\n\n- Population, languages, age groups, economy, education, religion.\n- Existing churches and their reach.\n- Felt needs and problems.\n- Gathering places: markets, schools, motor parks, estates.\n- Key people: traditional rulers, community leaders, \"persons of peace\" (Luke 10:6).\n- Security and legal considerations.\n\n**Plant proposal**:\n\n- Vision, mission and values.\n- Target community and why.\n- Team and sending church.\n- Strategy and timeline (first contacts → small groups → public launch → organised church).\n- Budget and funding (including how the church will become self-supporting).\n- Prayer plan."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What did Paul aim for in Romans 15:20?",
+     "options": [
+      "To preach where Christ was not named",
+      "To build on others' foundations",
+      "To stay in Jerusalem",
+      "To avoid new places"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why plant with a sending church?",
+     "options": [
+      "For prayer, commissioning, support and accountability",
+      "To get unlimited money",
+      "It is not necessary",
+      "To control the planter"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What did Moses tell the spies to find out?",
+     "options": [
+      "What the land was like and about the people in it",
+      "Where the gold was",
+      "How to avoid the land",
+      "Nothing"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is a 'person of peace' (Luke 10:6)?",
+     "options": [
+      "Someone open who welcomes the messenger and opens doors in the community",
+      "A government official only",
+      "An enemy",
+      "A church member from elsewhere"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Gathering and growing",
+   "summary": "Evangelism, discipleship and launch.",
+   "lessons": [
+    {
+     "title": "Evangelism and first disciples",
+     "scripture": "Acts 16:13-15, 25-34; Luke 10:5-7",
+     "body": "In Philippi, Paul began by a riverside where women gathered to pray. \"Lydia... whose heart the Lord opened\" was baptised \"and her household\" and opened her home (Acts 16:14-15). Then the jailer \"and all his\" believed (16:33). The church started in homes.\n\nEarly evangelism:\n\n- **Pray** intensely for the community.\n- **Meet people** where they are; serve visible needs.\n- **Find persons of peace** and their households.\n- **Share the gospel** personally and through events (outreaches, Bible discussions, film nights, health days).\n- **Start discovery Bible groups** with seekers.\n- **Baptise** new believers and **gather them** into small groups quickly.\n\nFocus on **making disciples**, not merely gathering a crowd. A small group of genuine disciples is a stronger foundation than a large crowd of spectators."
+    },
+    {
+     "title": "Launching and organising",
+     "scripture": "Acts 2:41-47; 1 Corinthians 14:40; Hebrews 10:24-25",
+     "body": "The Jerusalem church shows the marks of a healthy congregation: teaching, fellowship, breaking of bread, prayer, generosity, worship and daily growth (Acts 2:42-47).\n\nFrom small groups to a congregation:\n\n- Start **regular worship** when there are enough committed disciples to sustain it (some planters wait until several small groups are healthy).\n- Choose a **simple, accessible venue**: a school hall, home, rented room or community centre.\n- Prepare for a **public launch**: invite contacts, serve the community, keep it simple and focused on Christ.\n- **Organise basics**: children's ministry, worship, hospitality, follow-up, finances with controls.\n- **Register** legally when appropriate (in Nigeria, often under the sending church's incorporated trustees, or separately via the CAC).\n- **Teach** consistently through books of the Bible.\n- **Keep evangelising**: launches often attract believers from other churches; stay focused on reaching the lost."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Where did the church in Philippi begin?",
+     "options": [
+      "In homes, starting with Lydia's household",
+      "In a cathedral",
+      "In the governor's palace",
+      "In the synagogue only"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What should early church planting focus on?",
+     "options": [
+      "Making genuine disciples, not merely gathering a crowd",
+      "Getting a large crowd quickly",
+      "Building a big building first",
+      "Attracting members from other churches"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Which is a mark of the Jerusalem church in Acts 2:42-47?",
+     "options": [
+      "Teaching, fellowship, breaking of bread and prayer",
+      "Competition",
+      "Secrecy",
+      "Avoiding the poor"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Why keep evangelising after launch?",
+     "options": [
+      "Launches often attract existing believers; the plant must stay focused on reaching the lost",
+      "Evangelism is no longer needed",
+      "To fill the building only",
+      "To compete with other churches"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "title": "Leaders, sustainability and multiplication",
+   "summary": "Building to last and to reproduce.",
+   "lessons": [
+    {
+     "title": "Leadership and sustainability",
+     "scripture": "Acts 14:23; Titus 1:5-9; 2 Corinthians 8:1-5",
+     "body": "Paul appointed elders \"in every church\" within months (Acts 14:23) and listed qualities in Titus 1:5-9. The Macedonian churches, though poor, \"first gave their own selves to the Lord\" and gave generously beyond their means (2 Corinthians 8:1-5).\n\n**Leadership pipeline**:\n\n- Identify faithful people early (2 Timothy 2:2).\n- Give real responsibilities: small group leaders, ushers, children's teachers, worship.\n- Train continuously: Bible, character, ministry skills.\n- Appoint elders and deacons by biblical qualifications, not just availability.\n- Prepare a successor for the planter.\n\n**Sustainability**:\n\n- Teach **generous, joyful giving** from the start.\n- Plan for the church to cover its own costs within an agreed time (e.g. two to four years).\n- Keep **costs low**; avoid expensive commitments too early.\n- Develop **bivocational** leaders where helpful (Paul made tents, Acts 18:3).\n- Maintain **financial transparency**."
+    },
+    {
+     "title": "Multiplication",
+     "scripture": "Acts 19:10; 1 Thessalonians 1:6-8; 2 Timothy 2:2",
+     "body": "From Ephesus, \"all they which dwelt in Asia heard the word\" (Acts 19:10): churches like Colossae were planted by Paul's disciples such as Epaphras (Colossians 1:7). The Thessalonian church became an example, and \"from you sounded out the word of the Lord\" (1 Thessalonians 1:8).\n\nHealthy churches **reproduce**:\n\n- Build the **DNA of multiplication** from the beginning: every disciple makes disciples; every group raises a new leader; the church plans to plant.\n- **Identify** the next community to reach.\n- **Train** future planters in the current church.\n- **Send** people and resources generously, even when it feels costly.\n- **Partner** with other churches and networks.\n- **Celebrate** each new plant.\n\nThe goal is not one church but a **movement** of churches making disciples who make disciples, until the whole community, city and nation hears."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How soon did Paul appoint elders in new churches?",
+     "options": [
+      "Within months, on return visits",
+      "After twenty years",
+      "Never",
+      "Before preaching"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What did the poor Macedonian churches do first?",
+     "options": [
+      "Gave their own selves to the Lord, then gave generously",
+      "Refused to give",
+      "Asked for support",
+      "Gave only small amounts"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What does a bivocational leader do?",
+     "options": [
+      "Works another job while leading the church",
+      "Leads two churches at once",
+      "Speaks two languages",
+      "Has two titles"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "What is the goal of multiplication?",
+     "options": [
+      "A movement of churches making disciples who make disciples",
+      "One very large church",
+      "A famous planter",
+      "Many buildings"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ],
+ "final": [
+  {
+   "q": "What did the spread of the gospel in Acts produce?",
+   "options": [
+    "Churches of baptised disciples under leaders",
+    "Only individual believers with no community",
+    "Political parties",
+    "Schools only"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Which is part of the Pauline cycle?",
+   "options": [
+    "Reporting back to the sending church",
+    "Never returning",
+    "Avoiding local leaders",
+    "Keeping all authority"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why plant with a team?",
+   "options": [
+    "Different gifts are needed and planting is demanding",
+    "To share the blame",
+    "Teams are always larger churches",
+    "It is a legal requirement"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why must a planter's spouse share the call?",
+   "options": [
+    "Planting affects the whole family deeply",
+    "It isn't important",
+    "So they can be unpaid staff",
+    "To satisfy the denomination"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What should a plant proposal include?",
+   "options": [
+    "Vision, target community, team, strategy, budget and prayer plan",
+    "Only the planter's photo",
+    "Only the building plan",
+    "Nothing written"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "How should new believers be gathered?",
+   "options": [
+    "Baptised and gathered into small groups quickly",
+    "Left alone for years",
+    "Sent to distant churches only",
+    "Kept as spectators"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "When might regular worship services begin?",
+   "options": [
+    "When there are enough committed disciples to sustain it",
+    "Before anyone is reached",
+    "Never",
+    "Only after building a cathedral"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Why keep costs low early on?",
+   "options": [
+    "To avoid expensive commitments before the church can sustain them",
+    "Because money is evil",
+    "To avoid giving",
+    "It doesn't matter"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "Who planted Colossae as a result of Paul's Ephesus ministry?",
+   "options": [
+    "Epaphras",
+    "Peter",
+    "James",
+    "Apollos"
+   ],
+   "answer": 0
+  },
+  {
+   "q": "What does a church with the DNA of multiplication do?",
+   "options": [
+    "Plans from the beginning to make disciples and plant again",
+    "Focuses only on itself",
+    "Avoids sending people",
+    "Waits decades before thinking of others"
+   ],
+   "answer": 0
+  }
+ ],
+ "title": "Church Planting",
+ "category": "leadership",
+ "level": "Advanced",
+ "effort": "3 hours a week",
+ "summary": "Plant healthy new churches: calling, team, research, evangelism, gathering, discipleship, leadership and multiplication.",
+ "about": "The New Testament story is a story of church planting. This course traces Paul's pattern in Acts and the practical steps of planting today: confirming the call and sending church, building a team, researching the community, evangelising and making disciples, gathering a congregation, developing leaders, achieving sustainability, and planning to plant again. It suits urban, campus and rural contexts in Nigeria and beyond.",
+ "audience": "Church planters, mission teams, pastors and churches considering planting, and denominational leaders.",
+ "prerequisites": "Personal Soul-Winning and Spiritual Leadership are recommended.",
+ "outcomes": [
+  "Describe Paul's church planting cycle in Acts",
+  "Write a church plant proposal with community research",
+  "Plan the first year from first contacts to public launch",
+  "Design a leadership pipeline and multiplication plan"
+ ],
+ "assignment": {
+  "title": "Practical assignment: a church plant proposal",
+  "body": "Write a church plant proposal (1,000 to 1,500 words) for a real community you know:\n\n1. Vision, mission and values.\n2. Community research (population, needs, existing churches, gathering places, key contacts).\n3. Team, sending church and accountability.\n4. A first-year timeline from first contacts to a public launch.\n5. A discipleship and leadership pipeline.\n6. A budget and sustainability plan.\n7. A multiplication plan."
+ },
+ "reading": [
+  "Roland Allen, Missionary Methods: St. Paul's or Ours?",
+  "Timothy Keller, Center Church"
+ ]
+}

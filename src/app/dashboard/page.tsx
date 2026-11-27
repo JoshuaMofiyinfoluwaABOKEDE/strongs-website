@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { NotConnected } from "@/components/learn/NotConnected";
 import { hasDatabase, one } from "@/lib/db";
 import { getMyCourses, percent } from "@/lib/lms";
 import { requireUser } from "@/lib/session";
 import { updateName } from "@/app/learn/actions";
+import { signOut } from "@/app/account-actions";
 import { getTheologyCourse } from "@/lib/theology/content";
 import { theologySummary } from "@/lib/theology/progress";
 
@@ -29,7 +29,6 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
 
   return (
     <div className="edx">
-      <LearnBar />
       <section className="bg-navy text-white">
         <div className="container-site flex flex-col gap-5 py-[clamp(2.5rem,5vw,4rem)]">
           <p className="eyebrow-dark">My learning</p>
@@ -114,6 +113,13 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
               {error === "name" && <p role="alert" className="text-sm text-[#8a1c1c]">Please enter your full name.</p>}
             </form>
             <p className="text-sm text-muted">Signed in as {me?.email ?? user.email}. Certificates already issued keep the name they were issued with; ask STRONGS if one needs correcting.</p>
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-line pt-4 text-sm">
+              {user.role === "admin" && <Link href="/admin/" className="font-semibold no-underline">Admin</Link>}
+              {(user.role === "instructor" || user.role === "admin") && <Link href="/instructor/" className="font-semibold no-underline">Grading</Link>}
+              <form action={signOut}>
+                <button type="submit" className="cursor-pointer border-0 bg-transparent p-0 font-[inherit] font-semibold text-royal hover:underline">Sign out</button>
+              </form>
+            </div>
           </aside>
         </div>
       </section>

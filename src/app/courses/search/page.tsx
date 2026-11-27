@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CatalogBrowser, type Filters } from "@/components/CatalogBrowser";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { getCatalogItems, getSubjects } from "@/lib/catalog";
 
 export const metadata: Metadata = {
@@ -27,7 +26,6 @@ export default async function CourseSearchPage({ searchParams }: { searchParams:
   const title = initial.subjects.length === 1 ? subjects.find((s) => s.id === initial.subjects[0])?.name ?? "All courses" : "All courses";
   return (
     <div className="edx">
-      <LearnBar />
       <section className="bg-navy text-white">
         <div className="container-site flex flex-col gap-2 py-[clamp(1.5rem,4vw,2.75rem)]">
           <nav aria-label="Breadcrumb" className="text-[0.8125rem] text-pale sm:text-sm"><Link href="/courses/" className="text-pale hover:text-white">Courses</Link> <span aria-hidden="true">›</span> {title}</nav>

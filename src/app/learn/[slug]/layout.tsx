@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { LearnBar } from "@/components/learn/LearnBar";
 import { CourseNav } from "@/components/learn/CourseNav";
 import { loadLearner } from "@/lib/learner";
 
@@ -8,7 +7,6 @@ export default async function LearnLayout({ children, params }: { children: Reac
   const { outline, progress } = await loadLearner(slug);
   return (
     <>
-      <LearnBar />
       <div className="bg-navy text-white">
         <div className="container-site flex flex-wrap items-center gap-x-8 gap-y-3 py-5">
           <div className="flex min-w-0 flex-1 flex-col">
