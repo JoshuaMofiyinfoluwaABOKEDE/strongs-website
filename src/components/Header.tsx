@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { mainNav } from "@/content/site";
 import { Menu, User } from "@/components/icons";
+import { inCourseArea } from "@/components/LearnTabs";
 
 /** True when the current page belongs to this menu item (e.g. /crusades/this-same-jesus/ → Crusades). */
 function isActive(pathname: string, href: string) {
@@ -54,7 +55,7 @@ export function Header() {
             href="/dashboard/"
             aria-label="My learning"
             title="My learning"
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-line text-navy no-underline hover:border-navy hover:text-royal"
+            className={`h-11 w-11 items-center justify-center rounded-full border border-line text-navy no-underline hover:border-navy hover:text-royal ${inCourseArea(pathname) ? "hidden lg:inline-flex" : "inline-flex"}`}
           >
             <User size={20} />
           </Link>
@@ -89,14 +90,6 @@ export function Header() {
                     </Link>
                   </li>
                 ))}
-                <li>
-                  <Link
-                    href="/dashboard/"
-                    className="flex min-h-12 items-center gap-3 rounded-xl px-4 font-medium text-ink no-underline hover:bg-mist"
-                  >
-                    <User size={18} /> My learning
-                  </Link>
-                </li>
                 <li className="mt-2 sm:hidden">
                   <Link href="/get-involved/#give" className="btn btn-navy w-full">
                     Give

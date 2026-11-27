@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ForumCard } from "@/components/forum/ForumCard";
 import { examOpen, testOpen } from "@/lib/theology/progress";
 import { theologyRules } from "@/content/theology/catalog";
 import { courseUnits } from "@/components/theology/Units";
@@ -39,6 +40,8 @@ export default async function TheologyHome({ params }: { params: Promise<{ slug:
             <Link href={`${base}/progress/`} className="btn btn-navy flex-none">View progress</Link>
           )}
         </div>
+
+        <ForumCard slug={c.slug} />
 
         <section aria-labelledby="outline" className="flex flex-col gap-3">
           <div className="flex items-baseline justify-between gap-3">

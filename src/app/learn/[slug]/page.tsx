@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ForumCard } from "@/components/forum/ForumCard";
 import { one } from "@/lib/db";
 import { loadLearner } from "@/lib/learner";
 import { assessmentHref, lessonHref, nextStep, sequence } from "@/lib/lms";
@@ -57,6 +58,8 @@ export default async function CourseHome({ params }: { params: Promise<{ slug: s
           )}
         </div>
       )}
+
+      <ForumCard slug={slug} />
 
       {revise.length > 0 && (
         <div className="rounded-2xl border border-gold bg-[#fbf5e6] p-5">

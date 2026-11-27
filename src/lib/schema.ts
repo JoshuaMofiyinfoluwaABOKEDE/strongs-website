@@ -215,4 +215,43 @@ CREATE INDEX IF NOT EXISTS th_submission_status_idx ON th_submission(status);
 CREATE INDEX IF NOT EXISTS th_submission_course_idx ON th_submission(course_id, assignment_no);
 `,
   },
+  {
+    id: 3,
+    name: "profiles and course forums",
+    sql: `
+CREATE TABLE IF NOT EXISTS lms_profile (
+  user_id TEXT PRIMARY KEY,
+  location TEXT NOT NULL DEFAULT '',
+  languages TEXT NOT NULL DEFAULT '',
+  about TEXT NOT NULL DEFAULT '',
+  phone TEXT NOT NULL DEFAULT '',
+  share_phone BOOLEAN NOT NULL DEFAULT false,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE TABLE IF NOT EXISTS lms_forum_post (
+  id SERIAL PRIMARY KEY,
+  course_id INT NOT NULL REFERENCES lms_course(id) ON DELETE CASCADE,
+  user_id TEXT NOT NULL,
+  parent_id INT REFERENCES lms_forum_post(id) ON DELETE CASCADE,
+  body TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  last_activity_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  deleted_at TIMESTAMPTZ,
+  deleted_by TEXT
+);
+CREATE INDEX IF NOT EXISTS lms_forum_post_course_idx ON lms_forum_post(course_id, parent_id, last_activity_at DESC);
+CREATE INDEX IF NOT EXISTS lms_forum_post_parent_idx ON lms_forum_post(parent_id);
+CREATE INDEX IF NOT EXISTS lms_forum_post_user_idx ON lms_forum_post(user_id, created_at);
+
+CREATE TABLE IF NOT EXISTS lms_forum_report (
+  post_id INT NOT NULL REFERENCES lms_forum_post(id) ON DELETE CASCADE,
+  user_id TEXT NOT NULL,
+  reason TEXT NOT NULL DEFAULT '',
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  resolved_at TIMESTAMPTZ,
+  PRIMARY KEY (post_id, user_id)
+);
+`,
+  },
 ];

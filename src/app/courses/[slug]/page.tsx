@@ -131,11 +131,9 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                 Finish every lesson, pass every assessment and have your practical assignments approved, and you receive a STRONGS certificate of completion to download.
               </p>
             </div>
-            <div className="flex flex-col gap-3 rounded-3xl bg-navy p-6 text-white">
-              <p className="flex items-center gap-2.5 font-semibold"><span className="text-gold"><Chat size={22} /></span>Questions about this course?</p>
-              <p className="text-sm text-pale">Call or WhatsApp {site.phone}, or email {site.email}.</p>
-              <a href={whatsapp} target="_blank" rel="noopener" className="btn btn-gold">Ask on WhatsApp</a>
-            </div>
+            <p className="px-1 text-sm text-muted">
+              Questions about this course? Email <a href={`mailto:${site.email}`}>{site.email}</a> or <a href={whatsapp} target="_blank" rel="noopener">send us a message</a>.
+            </p>
           </aside>
         </div>
       </section>
@@ -179,7 +177,10 @@ function CallToAction({
           <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-navy-2"><div className="h-full rounded-full bg-gold" style={{ width: `${progress.percent}%` }} /></div>
           <span className="text-sm font-semibold text-gold">{progress.percent}% complete</span>
         </div>
-        <Link href={`/learn/${c.slug}/`} className="btn btn-gold self-start">{progress.finished ? "Review the course" : progress.complete ? "Continue learning" : "Start learning"}</Link>
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
+          <Link href={`/learn/${c.slug}/`} className="btn btn-gold">{progress.finished ? "Review the course" : progress.complete ? "Continue learning" : "Start learning"}</Link>
+          <Link href={`/forum/${c.slug}/`} className="text-sm font-semibold text-gold no-underline">Course forum →</Link>
+        </div>
       </div>
     );
   }

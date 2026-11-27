@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { NavGuard } from "@/components/NavGuard";
 import { Footer } from "@/components/Footer";
+import { LearnTabs } from "@/components/LearnTabs";
 import { CarouselScript } from "@/components/CarouselScript";
 import { site } from "@/content/site";
 
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main">{children}</main>
         <Footer />
+        <LearnTabs />
         <CarouselScript />
       </body>
     </html>

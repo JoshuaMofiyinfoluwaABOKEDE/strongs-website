@@ -4,7 +4,6 @@ import { NotConnected } from "@/components/learn/NotConnected";
 import { hasDatabase, one } from "@/lib/db";
 import { getMyCourses, percent } from "@/lib/lms";
 import { requireUser } from "@/lib/session";
-import { updateName } from "@/app/learn/actions";
 import { signOut } from "@/app/account-actions";
 import { getTheologyCourse } from "@/lib/theology/content";
 import { theologySummary } from "@/lib/theology/progress";
@@ -14,9 +13,8 @@ export const metadata: Metadata = { title: "My learning", robots: { index: false
 
 const date = (d: string) => new Date(d).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
 
-export default async function Dashboard({ searchParams }: { searchParams: Promise<{ saved?: string; error?: string }> }) {
+export default async function Dashboard() {
   if (!hasDatabase) return <NotConnected />;
-  const { saved, error } = await searchParams;
   const user = await requireUser("/dashboard/");
   const me = await one<{ name: string; email: string; createdAt: string }>(`SELECT name, email, "createdAt" FROM "user" WHERE id = $1`, [user.id]);
   const mine = await getMyCourses(user.id);
@@ -78,7 +76,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
             </div>
 
             <div className="flex flex-col gap-4">
-              <h2 className="text-xl sm:text-2xl font-bold text-navy">Completed and certificates</h2>
+              <h2 id="certificates" className="scroll-mt-24 text-xl sm:text-2xl font-bold text-navy">Completed and certificates</h2>
               {finished.length === 0 ? (
                 <p className="text-muted">Finish a course and its certificate will appear here, ready to download.</p>
               ) : (
@@ -104,15 +102,11 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
             </div>
           </div>
 
-          <aside className="flex flex-col gap-4 rounded-3xl border border-line p-6">
-            <h2 className="text-lg font-bold text-navy">Name on your certificates</h2>
-            <form action={updateName} className="flex flex-col gap-3">
-              <input name="name" defaultValue={me?.name ?? user.name} required minLength={2} maxLength={80} className="field" aria-label="Full name" />
-              <button type="submit" className="btn btn-navy cursor-pointer self-start border-0 font-[inherit]">Save</button>
-              {saved && <p role="status" className="text-sm text-royal">Saved. New certificates will carry this name.</p>}
-              {error === "name" && <p role="alert" className="text-sm text-[#8a1c1c]">Please enter your full name.</p>}
-            </form>
-            <p className="text-sm text-muted">Signed in as {me?.email ?? user.email}. Certificates already issued keep the name they were issued with; ask STRONGS if one needs correcting.</p>
+          <aside className="flex flex-col gap-3 rounded-3xl border border-line p-6">
+            <h2 className="text-lg font-bold text-navy">{me?.name ?? user.name}</h2>
+            <p className="text-sm text-muted">Signed in as {me?.email ?? user.email}.</p>
+            <Link href="/profile/" className="btn btn-navy self-start">Edit profile</Link>
+            <p className="text-sm text-muted">Your profile holds the name printed on your certificates, and what classmates see in course forums.</p>
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-line pt-4 text-sm">
               {user.role === "admin" && <Link href="/admin/" className="font-semibold no-underline">Admin</Link>}
               {(user.role === "instructor" || user.role === "admin") && <Link href="/instructor/" className="font-semibold no-underline">Grading</Link>}
