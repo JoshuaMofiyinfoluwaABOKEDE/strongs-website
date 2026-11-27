@@ -75,11 +75,10 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero: full-screen photos crossfading behind the words */}
-      <section aria-labelledby="hero-title" className="hero-full relative isolate flex items-end justify-center overflow-hidden bg-navy text-center text-white md:min-h-[min(35rem,calc(100svh-73px))] md:items-center">
+      {/* Hero: photos crossfading behind the words under an even navy wash (modelled on the Muyiwa Nafiu site) */}
+      <section aria-labelledby="hero-title" className="relative isolate flex min-h-[min(42rem,calc(100svh-73px))] items-center justify-center overflow-hidden bg-navy text-center text-white md:min-h-[min(38rem,calc(100svh-73px))]">
         <style>{heroKeyframes(heroSlides.length)}</style>
-        {/* Phones: the photo fills the top of the screen so faces stay clear of the words; wider screens: the whole background. */}
-        <div aria-hidden="true" className="absolute inset-x-0 top-0 -z-20 h-[17rem] overflow-hidden md:inset-0 md:h-full">
+        <div aria-hidden="true" className="absolute inset-0 -z-20">
           {heroSlides.map((f, i) => (
             // eslint-disable-next-line @next/next/no-img-element
             <img
@@ -88,34 +87,31 @@ export default function HomePage() {
               alt=""
               loading={i < 2 ? "eager" : "lazy"}
               fetchPriority={i === 0 ? "high" : undefined}
-              className="hero-slide absolute inset-0 h-full w-full object-cover object-[var(--pm)] blur-[3px] md:object-[var(--pd)] md:blur-[5px]"
+              className="hero-slide absolute inset-0 h-full w-full object-cover object-[var(--pm)] blur-[1.5px] saturate-[0.85] md:object-[var(--pd)] md:blur-[2px]"
               style={{ ["--pm" as string]: f.mobile, ["--pd" as string]: f.pos ?? "center", ["--i" as string]: i }}
             />
           ))}
         </div>
-        {/* Navy shade: lighter in the middle so faces show, darker at the edges for the words */}
-        <div aria-hidden="true" className="absolute inset-x-0 top-0 -z-10 h-[17rem] bg-[linear-gradient(180deg,rgba(11,31,58,0.35)_0%,rgba(11,31,58,0.5)_45%,rgba(11,31,58,0.9)_80%,#0b1f3a_100%)] md:hidden" />
-        <div aria-hidden="true" className="absolute inset-0 -z-10 hidden bg-[radial-gradient(ellipse_at_center,rgba(11,31,58,0.62)_0%,rgba(11,31,58,0.8)_70%,rgba(11,31,58,0.94)_100%)] md:block" />
-        <div aria-hidden="true" className="absolute inset-x-0 bottom-0 -z-10 hidden h-1/3 bg-gradient-to-t from-navy to-transparent md:block" />
-        <div aria-hidden="true" className="hero-glow absolute left-1/2 top-[60%] -z-10 h-[24rem] w-[24rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold/15 blur-3xl md:top-1/2 md:h-[34rem] md:w-[34rem]" />
+        {/* An even navy wash, a touch deeper at the foot, so the people show softly and the words lead */}
+        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(11,31,58,0.72)_0%,rgba(11,31,58,0.66)_40%,rgba(11,31,58,0.78)_75%,rgba(11,31,58,0.95)_100%)]" />
 
-        <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-4 px-5 pb-10 pt-[10.5rem] sm:gap-6 sm:px-6 md:py-14">
-          <p className="hero-rise inline-flex items-center gap-2.5 rounded-full border border-gold/60 bg-navy/85 px-4 py-2 font-display text-[0.75rem] font-bold uppercase tracking-[0.16em] text-gold-light shadow-[0_6px_24px_rgba(0,0,0,0.35)] backdrop-blur-sm sm:text-[0.8125rem]" style={{ animationDelay: "0.1s" }}>
-            <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-gold" />
+        <div className="mx-auto flex w-full max-w-4xl flex-col items-center px-4 py-14 sm:px-6 sm:py-16">
+          <p className="hero-rise whitespace-nowrap font-display text-[0.75rem] font-bold uppercase tracking-[0.22em] text-gold-light min-[400px]:text-[0.8125rem] sm:text-sm sm:tracking-[0.3em]" style={{ animationDelay: "0.1s" }}>
             The gospel to every creature
-            <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-gold" />
           </p>
-          <h1 id="hero-title" className="text-[clamp(2.25rem,5.6vw,4.25rem)] font-extrabold leading-[1.04] tracking-[-0.02em] drop-shadow-[0_4px_24px_rgba(0,0,0,0.35)]">
-            <span className="hero-rise block" style={{ animationDelay: "0.25s" }}>Win the lost.</span>
-            <span className="hero-rise block" style={{ animationDelay: "0.45s" }}>Ground the saved.</span>
-            <span className="hero-rise block" style={{ animationDelay: "0.65s" }}><span className="hero-shine">Send out soul winners.</span></span>
+          <h1 id="hero-title" className="mt-5 text-[clamp(1.875rem,8.4vw,4.5rem)] font-extrabold leading-[1.06] tracking-[-0.03em] text-white sm:mt-6">
+            <span className="hero-rise block whitespace-nowrap" style={{ animationDelay: "0.25s" }}>Win the lost.</span>
+            <span className="hero-rise block whitespace-nowrap" style={{ animationDelay: "0.45s" }}>Ground the saved.</span>
+            <span className="hero-rise block pt-1" style={{ animationDelay: "0.65s" }}>
+              <em className="hero-shine font-serif-accent text-[1.06em] font-semibold italic tracking-[-0.01em]">Send out soul winners.</em>
+            </span>
           </h1>
 
-          <div className="hero-rise relative grid min-h-[3.5rem] w-full max-w-xl place-items-center overflow-hidden sm:min-h-[3.75rem]" style={{ animationDelay: "0.85s" }}>
+          <div className="hero-rise mt-6 grid min-h-[4.25rem] w-full max-w-xl place-items-center overflow-hidden sm:mt-7 sm:min-h-[3.75rem]" style={{ animationDelay: "0.85s" }}>
             {heroLines.map((line, i) => (
               <p
                 key={line}
-                className="hero-say [grid-area:1/1] px-2 text-[clamp(1rem,1.7vw,1.25rem)] font-medium leading-snug text-pale"
+                className="hero-say [grid-area:1/1] px-1 text-[clamp(1.0625rem,1.8vw,1.25rem)] leading-relaxed text-[#e4ebf4]"
                 style={{ ["--i" as string]: i }}
               >
                 {line}
@@ -123,18 +119,18 @@ export default function HomePage() {
             ))}
           </div>
 
-          <div className="hero-rise flex flex-wrap justify-center gap-3" style={{ animationDelay: "1.05s" }}>
-            <Link href="/meetings/" className="btn btn-gold hero-pulse">
+          <div className="hero-rise mt-8 flex w-full flex-col items-center gap-3.5 sm:w-auto sm:flex-row sm:justify-center" style={{ animationDelay: "1.05s" }}>
+            <Link href="/meetings/" className="btn btn-gold min-w-[15rem] text-base">
               Join Bible Club &amp; Training <ArrowRight size={18} />
             </Link>
-            <Link href="/get-involved/" className="btn btn-line-light backdrop-blur-sm">
+            <Link href="/get-involved/" className="btn btn-line-light min-w-[15rem] text-base">
               Partner with the mission
             </Link>
           </div>
         </div>
 
         {/* A thin gold line fills as each photo plays */}
-        <div aria-hidden="true" className="absolute inset-x-0 bottom-0 h-1 bg-white/10">
+        <div aria-hidden="true" className="absolute inset-x-0 bottom-0 h-[3px] bg-white/10">
           <div className="hero-progress h-full bg-gold" />
         </div>
       </section>
