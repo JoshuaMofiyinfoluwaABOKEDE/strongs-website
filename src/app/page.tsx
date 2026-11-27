@@ -22,16 +22,42 @@ const heritage = [
   { era: "Africa's harvest", quote: "…to see hell empty and heaven full.", who: "Reinhard Bonnke" },
 ];
 
-/** The opening slideshow's photos, now crossfading behind the words (seven, 5 seconds each: see .hero-slide in globals.css). */
-const heroSlides: { src: string; pos?: string }[] = [
-  { src: "/images/photos/irele-assembly-1.webp" },
-  { src: "/images/photos/medical-school-talk-1.webp" },
-  { src: "/images/photos/school-tla-1.webp" },
-  { src: "/images/photos/irele-hall-preaching.webp" },
-  { src: "/images/photos/medical-school-talk-3.webp" },
-  { src: "/images/photos/teens-capacity-1.webp" },
-  { src: "/images/photos/abokede-campus-aflame.webp", pos: "center top" },
+/**
+ * Photos that crossfade behind the opening words, 5 seconds each.
+ * `pos` frames the photo on wide screens; `mobile` keeps the people's faces in view on narrow phone screens.
+ */
+const heroSlides: { src: string; pos?: string; mobile: string }[] = [
+  { src: "/images/photos/irele-assembly-1.webp", pos: "center 60%", mobile: "22% 62%" },
+  { src: "/images/photos/abokede-campus-aflame.webp", pos: "center 22%", mobile: "45% 20%" },
+  { src: "/images/photos/medical-school-talk-4.webp", pos: "center 35%", mobile: "42% 35%" },
+  { src: "/images/photos/irele-classroom.webp", pos: "center 45%", mobile: "55% 45%" },
+  { src: "/images/photos/medical-outreach-tent.webp", pos: "center 40%", mobile: "36% 38%" },
+  { src: "/images/photos/teens-capacity-1.webp", pos: "center 55%", mobile: "50% 55%" },
+  { src: "/images/photos/irele-hall-preaching.webp", pos: "center 35%", mobile: "50% 40%" },
+  { src: "/images/photos/medical-school-talk-1.webp", pos: "center 40%", mobile: "16% 40%" },
+  { src: "/images/photos/irele-assembly-2.webp", pos: "center 60%", mobile: "70% 60%" },
+  { src: "/images/photos/medical-outreach-nurse.webp", pos: "center 35%", mobile: "50% 32%" },
+  { src: "/images/photos/school-tla-2.webp", pos: "center 55%", mobile: "40% 55%" },
+  { src: "/images/photos/teens-capacity-2.webp", pos: "center 60%", mobile: "45% 62%" },
+  { src: "/images/photos/school-tla-1.webp", pos: "center 50%", mobile: "60% 50%" },
 ];
+
+/** Lines that slide in and out under the headline. */
+const heroLines = [
+  "A non-denominational gospel mission to campuses, schools, towns and villages.",
+  "The whole gospel to the whole man.",
+  "Achieving heaven’s goal.",
+  "Your spiritual welfare is our greatest concern.",
+];
+
+/** Each photo shows for 5s and crossfades for about 1s; the keyframes depend on how many photos there are. */
+function heroKeyframes(n: number) {
+  const slot = 100 / n;
+  const fade = Math.min(slot * 0.25, 1.6);
+  const p = (x: number) => `${x.toFixed(3)}%`;
+  return `@keyframes heroSlide{0%{opacity:0;transform:scale(1.14) translate3d(0,0,0)}${p(fade)}{opacity:1}${p(slot)}{opacity:1;transform:scale(1.03) translate3d(-1.2%,-0.8%,0)}${p(slot + fade)}{opacity:0;transform:scale(1.02) translate3d(-1.4%,-1%,0)}100%{opacity:0}}
+.hero-slide{animation-duration:${n * 5}s}`;
+}
 
 const fields = [
   { icon: Globe, title: "Crusades and open-air preaching", text: "The gospel in streets, markets and towns and villages few others visit.", href: "/crusades/" },
@@ -50,49 +76,67 @@ export default function HomePage() {
   return (
     <>
       {/* Hero: full-screen photos crossfading behind the words */}
-      <section aria-labelledby="hero-title" className="hero-full relative isolate flex min-h-[calc(100svh-73px)] items-center justify-center overflow-hidden bg-navy text-center text-white">
-        <div aria-hidden="true" className="absolute inset-0 -z-20">
+      <section aria-labelledby="hero-title" className="hero-full relative isolate flex min-h-[min(46rem,calc(100svh-73px))] items-end justify-center overflow-hidden bg-navy text-center text-white md:min-h-[calc(100svh-73px)] md:items-center">
+        <style>{heroKeyframes(heroSlides.length)}</style>
+        {/* Phones: the photo fills the top of the screen so faces stay clear of the words; wider screens: the whole background. */}
+        <div aria-hidden="true" className="absolute inset-x-0 top-0 -z-20 h-[64%] overflow-hidden md:inset-0 md:h-full">
           {heroSlides.map((f, i) => (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               key={f.src}
               src={f.src}
               alt=""
-              loading={i === 0 ? "eager" : "lazy"}
+              loading={i < 2 ? "eager" : "lazy"}
               fetchPriority={i === 0 ? "high" : undefined}
-              className="hero-slide absolute inset-0 h-full w-full object-cover"
-              style={{ objectPosition: f.pos ?? "center", ["--i" as string]: i }}
+              className="hero-slide absolute inset-0 h-full w-full object-cover object-[var(--pm)] md:object-[var(--pd)]"
+              style={{ ["--pm" as string]: f.mobile, ["--pd" as string]: f.pos ?? "center", ["--i" as string]: i }}
             />
           ))}
         </div>
-        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(11,31,58,0.62)_0%,rgba(11,31,58,0.74)_55%,rgba(11,31,58,0.96)_100%)]" />
+        {/* Navy shade: lighter in the middle so faces show, darker at the edges for the words */}
+        <div aria-hidden="true" className="absolute inset-x-0 top-0 -z-10 h-[64%] bg-[linear-gradient(180deg,rgba(11,31,58,0.15)_0%,rgba(11,31,58,0.2)_45%,rgba(11,31,58,0.85)_84%,#0b1f3a_100%)] md:hidden" />
+        <div aria-hidden="true" className="absolute inset-0 -z-10 hidden bg-[radial-gradient(ellipse_at_center,rgba(11,31,58,0.45)_0%,rgba(11,31,58,0.72)_70%,rgba(11,31,58,0.9)_100%)] md:block" />
+        <div aria-hidden="true" className="absolute inset-x-0 bottom-0 -z-10 hidden h-1/3 bg-gradient-to-t from-navy to-transparent md:block" />
+        <div aria-hidden="true" className="hero-glow absolute left-1/2 top-[72%] -z-10 h-[24rem] w-[24rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold/15 blur-3xl md:top-1/2 md:h-[34rem] md:w-[34rem]" />
 
-        <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-5 px-6 pb-24 pt-14 sm:gap-6">
-          <p className="hero-rise eyebrow-dark" style={{ animationDelay: "0.1s" }}>The gospel to every creature</p>
-          <h1 id="hero-title" className="text-[clamp(2.25rem,6.2vw,4.5rem)] font-extrabold leading-[1.05] tracking-[-0.02em]">
+        <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-4 px-5 pb-10 pt-[min(52vw,16rem)] sm:gap-6 sm:px-6 md:py-16">
+          <p className="hero-rise flex items-center gap-3 eyebrow-dark" style={{ animationDelay: "0.1s" }}>
+            <span aria-hidden="true" className="hero-line h-px w-8 bg-gold sm:w-12" />
+            The gospel to every creature
+            <span aria-hidden="true" className="hero-line h-px w-8 bg-gold sm:w-12" />
+          </p>
+          <h1 id="hero-title" className="text-[clamp(2.25rem,5.6vw,4.25rem)] font-extrabold leading-[1.04] tracking-[-0.02em] drop-shadow-[0_4px_24px_rgba(0,0,0,0.35)]">
             <span className="hero-rise block" style={{ animationDelay: "0.25s" }}>Win the lost.</span>
             <span className="hero-rise block" style={{ animationDelay: "0.45s" }}>Ground the saved.</span>
-            <span className="hero-rise block text-gold" style={{ animationDelay: "0.65s" }}>Send out soul winners.</span>
+            <span className="hero-rise block" style={{ animationDelay: "0.65s" }}><span className="hero-shine">Send out soul winners.</span></span>
           </h1>
-          <p className="hero-rise max-w-xl text-[clamp(1rem,1.6vw,1.1875rem)] text-pale" style={{ animationDelay: "0.85s" }}>
-            A non-denominational gospel mission to campuses, schools, towns and villages.
-          </p>
+
+          <div className="hero-rise relative grid min-h-[3.5rem] w-full max-w-xl place-items-center overflow-hidden sm:min-h-[3.75rem]" style={{ animationDelay: "0.85s" }}>
+            {heroLines.map((line, i) => (
+              <p
+                key={line}
+                className="hero-say [grid-area:1/1] px-2 text-[clamp(1rem,1.7vw,1.25rem)] font-medium leading-snug text-pale"
+                style={{ ["--i" as string]: i }}
+              >
+                {line}
+              </p>
+            ))}
+          </div>
+
           <div className="hero-rise flex flex-wrap justify-center gap-3" style={{ animationDelay: "1.05s" }}>
-            <Link href="/meetings/" className="btn btn-gold">
+            <Link href="/meetings/" className="btn btn-gold hero-pulse">
               Join Bible Club &amp; Training <ArrowRight size={18} />
             </Link>
-            <Link href="/get-involved/" className="btn btn-line-light">
+            <Link href="/get-involved/" className="btn btn-line-light backdrop-blur-sm">
               Partner with the mission
             </Link>
           </div>
-          <p className="hero-rise max-w-lg pt-2 text-[0.9375rem] font-medium italic text-white/85" style={{ animationDelay: "1.25s" }}>
-            “{site.watchword}”
-          </p>
         </div>
 
-        <a href="#weekly-title" className="hero-cue absolute bottom-6 left-1/2 font-display text-[0.6875rem] font-bold uppercase tracking-[0.24em] text-white/90 no-underline hover:text-gold">
-          Scroll to explore
-        </a>
+        {/* A thin gold line fills as each photo plays */}
+        <div aria-hidden="true" className="absolute inset-x-0 bottom-0 h-1 bg-white/10">
+          <div className="hero-progress h-full bg-gold" />
+        </div>
       </section>
 
       {/* Weekly meetings */}
@@ -212,6 +256,7 @@ export default function HomePage() {
           <Slideshow
             label="Voices from our heritage"
             interval={7000}
+            controls={false}
             className="mx-auto w-full max-w-4xl"
             slides={heritage.map((h) => (
               <figure key={h.who} className="flex h-full flex-col items-center justify-center gap-5 rounded-3xl bg-navy-2 px-[clamp(1.5rem,5vw,4rem)] py-[clamp(2.25rem,5vw,3.5rem)] text-center">

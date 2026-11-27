@@ -16,6 +16,7 @@ export function Slideshow({
   slideClassName = "",
   controlsClassName = "",
   arrows = "bar",
+  controls = true,
 }: {
   label: string;
   slides: ReactNode[];
@@ -27,6 +28,8 @@ export function Slideshow({
   controlsClassName?: string;
   /** "bar": arrows beside the dots. "overlay": round arrows over the middle of the slide, dots below. */
   arrows?: "bar" | "overlay";
+  /** false: no arrows, dots or pause button; the slides simply change by themselves. */
+  controls?: boolean;
 }) {
   const overlay = arrows === "overlay";
   const ov = "absolute top-4 z-10 inline-flex h-11 w-11 items-center md:top-1/2 md:-translate-y-1/2 justify-center rounded-full border border-white/30 bg-navy/55 text-white backdrop-blur-sm transition hover:bg-navy/85";
@@ -43,7 +46,7 @@ export function Slideshow({
       className={`${kenburns ? "kenburns" : ""} flex flex-col gap-4 ${className}`}
     >
       <div className="relative grid">
-        {overlay && (
+        {controls && overlay && (
           <>
             <button type="button" data-slide-prev aria-label="Previous" className={`${ov} left-3`}><ChevronLeft size={22} /></button>
             <button type="button" data-slide-next aria-label="Next" className={`${ov} right-3`}><ChevronRight size={22} /></button>
@@ -62,6 +65,7 @@ export function Slideshow({
           </div>
         ))}
       </div>
+      {controls && (
       <div className={`flex items-center gap-3 ${controlsClassName}`}>
         {!overlay && (
           <button type="button" data-slide-prev aria-label="Previous" className={btn}>
@@ -98,6 +102,7 @@ export function Slideshow({
           </button>
         )}
       </div>
+      )}
     </div>
   );
 }
