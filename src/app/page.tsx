@@ -76,10 +76,10 @@ export default function HomePage() {
   return (
     <>
       {/* Hero: full-screen photos crossfading behind the words */}
-      <section aria-labelledby="hero-title" className="hero-full relative isolate flex min-h-[min(46rem,calc(100svh-73px))] items-end justify-center overflow-hidden bg-navy text-center text-white md:min-h-[calc(100svh-73px)] md:items-center">
+      <section aria-labelledby="hero-title" className="hero-full relative isolate flex items-end justify-center overflow-hidden bg-navy text-center text-white md:min-h-[min(35rem,calc(100svh-73px))] md:items-center">
         <style>{heroKeyframes(heroSlides.length)}</style>
         {/* Phones: the photo fills the top of the screen so faces stay clear of the words; wider screens: the whole background. */}
-        <div aria-hidden="true" className="absolute inset-x-0 top-0 -z-20 h-[64%] overflow-hidden md:inset-0 md:h-full">
+        <div aria-hidden="true" className="absolute inset-x-0 top-0 -z-20 h-[17rem] overflow-hidden md:inset-0 md:h-full">
           {heroSlides.map((f, i) => (
             // eslint-disable-next-line @next/next/no-img-element
             <img
@@ -88,22 +88,22 @@ export default function HomePage() {
               alt=""
               loading={i < 2 ? "eager" : "lazy"}
               fetchPriority={i === 0 ? "high" : undefined}
-              className="hero-slide absolute inset-0 h-full w-full object-cover object-[var(--pm)] md:object-[var(--pd)]"
+              className="hero-slide absolute inset-0 h-full w-full object-cover object-[var(--pm)] blur-[3px] md:object-[var(--pd)] md:blur-[5px]"
               style={{ ["--pm" as string]: f.mobile, ["--pd" as string]: f.pos ?? "center", ["--i" as string]: i }}
             />
           ))}
         </div>
         {/* Navy shade: lighter in the middle so faces show, darker at the edges for the words */}
-        <div aria-hidden="true" className="absolute inset-x-0 top-0 -z-10 h-[64%] bg-[linear-gradient(180deg,rgba(11,31,58,0.15)_0%,rgba(11,31,58,0.2)_45%,rgba(11,31,58,0.85)_84%,#0b1f3a_100%)] md:hidden" />
-        <div aria-hidden="true" className="absolute inset-0 -z-10 hidden bg-[radial-gradient(ellipse_at_center,rgba(11,31,58,0.45)_0%,rgba(11,31,58,0.72)_70%,rgba(11,31,58,0.9)_100%)] md:block" />
+        <div aria-hidden="true" className="absolute inset-x-0 top-0 -z-10 h-[17rem] bg-[linear-gradient(180deg,rgba(11,31,58,0.35)_0%,rgba(11,31,58,0.5)_45%,rgba(11,31,58,0.9)_80%,#0b1f3a_100%)] md:hidden" />
+        <div aria-hidden="true" className="absolute inset-0 -z-10 hidden bg-[radial-gradient(ellipse_at_center,rgba(11,31,58,0.62)_0%,rgba(11,31,58,0.8)_70%,rgba(11,31,58,0.94)_100%)] md:block" />
         <div aria-hidden="true" className="absolute inset-x-0 bottom-0 -z-10 hidden h-1/3 bg-gradient-to-t from-navy to-transparent md:block" />
-        <div aria-hidden="true" className="hero-glow absolute left-1/2 top-[72%] -z-10 h-[24rem] w-[24rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold/15 blur-3xl md:top-1/2 md:h-[34rem] md:w-[34rem]" />
+        <div aria-hidden="true" className="hero-glow absolute left-1/2 top-[60%] -z-10 h-[24rem] w-[24rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold/15 blur-3xl md:top-1/2 md:h-[34rem] md:w-[34rem]" />
 
-        <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-4 px-5 pb-10 pt-[min(52vw,16rem)] sm:gap-6 sm:px-6 md:py-16">
-          <p className="hero-rise flex items-center gap-3 eyebrow-dark" style={{ animationDelay: "0.1s" }}>
-            <span aria-hidden="true" className="hero-line h-px w-8 bg-gold sm:w-12" />
+        <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-4 px-5 pb-10 pt-[10.5rem] sm:gap-6 sm:px-6 md:py-14">
+          <p className="hero-rise inline-flex items-center gap-2.5 rounded-full border border-gold/60 bg-navy/85 px-4 py-2 font-display text-[0.75rem] font-bold uppercase tracking-[0.16em] text-gold-light shadow-[0_6px_24px_rgba(0,0,0,0.35)] backdrop-blur-sm sm:text-[0.8125rem]" style={{ animationDelay: "0.1s" }}>
+            <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-gold" />
             The gospel to every creature
-            <span aria-hidden="true" className="hero-line h-px w-8 bg-gold sm:w-12" />
+            <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-gold" />
           </p>
           <h1 id="hero-title" className="text-[clamp(2.25rem,5.6vw,4.25rem)] font-extrabold leading-[1.04] tracking-[-0.02em] drop-shadow-[0_4px_24px_rgba(0,0,0,0.35)]">
             <span className="hero-rise block" style={{ animationDelay: "0.25s" }}>Win the lost.</span>

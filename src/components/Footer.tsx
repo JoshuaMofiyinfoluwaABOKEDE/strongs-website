@@ -8,13 +8,13 @@ export function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3">
-              <img src="/images/strongs-logo.webp" alt="" width={56} height={56} className="h-14 w-14" />
-              <span className="text-lg font-extrabold tracking-[0.18em] text-white">STRONGS</span>
+              <img src="/images/strongs-logo.webp" alt="" width={40} height={40} className="h-10 w-10" />
+              <span className="text-base font-extrabold tracking-[0.18em] text-white">STRONGS</span>
             </div>
             <p className="text-[1.0625rem] font-semibold text-white">
               Resolute. Resilient. <span className="text-gold">Relentless.</span>
             </p>
-            <p>A non-denominational gospel mission raising spiritual intellectuals.</p>
+            <p>Raising spiritual intellectuals.</p>
             <p className="border-t border-navy-line pt-4 text-sm italic">“{site.watchword}”</p>
           </div>
 
